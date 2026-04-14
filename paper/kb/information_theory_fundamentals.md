@@ -1,5 +1,32 @@
 # Knowledge Base: Information Theory Fundamentals Relevant to PAGC
 
+## ── SESSION 2 ADDITIONS ──
+
+## [S2-1] The Information-Theoretic Imperative: Compression and the Epistemic Foundations of Intelligence
+- **Authors:** Multiple
+- **Venue:** arXiv 2510.25883
+- **Year:** 2025
+- **URL:** https://arxiv.org/abs/2510.25883
+- **Key claim:** Intelligence is the mechanically necessary outcome of persistence in a structured environment. Superficial patterns accumulate exceptions (inflate description length); generative models encode the mechanisms producing variation (reduce description length). MDL favors generative models over pattern accumulators.
+- **PAGC Mapping:** PAGC is explicitly a generative model (27×8 deep structure) rather than a pattern accumulator (flat token list). This paper's thesis predicts PAGC will outperform non-generative tokenizers on MDL because it encodes mechanisms (base×modifier operations) rather than surface patterns.
+
+## [S2-2] Compressibility Measures Complexity: Minimum Description Length and Singular Learning Theory
+- **Venue:** Timaeus Research
+- **Year:** 2025
+- **URL:** https://timaeus.co/research/2025-10-13-smdl
+- **Key claim:** Extends MDL to neural networks via singular learning theory. Model complexity = Watanabe RLCT (real log canonical threshold), not parameter count. Compression = learning.
+- **PAGC Mapping:** PAGC's RLCT would be measured by the algebraic singularity structure of the 27×8 matrix. If the matrix has low RLCT (high symmetry, like E₆), PAGC would be efficiently learnable — consistent with its ancestral cultural transmission over 60+ years.
+
+## [S2-3] Network Reconstruction via the Minimum Description Length Principle
+- **Authors:** Tiago P. Peixoto
+- **Venue:** Physical Review X, Vol. 15, 011065
+- **Year:** 2025
+- **URL:** https://link.aps.org/doi/10.1103/PhysRevX.15.011065
+- **Key claim:** Optimal network structure = minimum description length of the observed data. Uncovers hidden network topology from noisy observations. Applications: biology, neuroscience, economics.
+- **PAGC Mapping:** The Nwagu Aneke concept graph's optimal topology is the one that minimizes description length of Igbo cultural data. If MDL reconstruction of Igbo semantic data converges on 27 nodes and 8 edge types, this constitutes strong evidence for PAGC's structural claims.
+
+---
+
 ## [1] Language Modeling Is Compression (Delétang et al., 2023)
 - **URL:** https://arxiv.org/abs/2309.10668
 - **Key result:** Predictive models = lossless compressors. LMs trained on text compress cross-domain data better than domain-specific tools (PNG, FLAC). Compression ↔ prediction equivalence.

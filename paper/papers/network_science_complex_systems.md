@@ -1,5 +1,57 @@
 # Network Science & Complex Adaptive Systems
 
+## ── SESSION 2 ADDITIONS ──
+
+## [S2-1] Network Reconstruction via the Minimum Description Length Principle
+- **Authors:** Tiago P. Peixoto
+- **Venue:** Physical Review X, Vol. 15, 011065
+- **Year:** 2025
+- **URL:** https://link.aps.org/doi/10.1103/PhysRevX.15.011065
+- **Abstract:** Information-theoretic approach to reconstructing hidden networks from observed data. Minimizes description length of data given the network model. Applications in biology, neuroscience, economics. Improves accuracy and efficiency over existing methods.
+- **PAGC Relevance:** PAGC's 27×8 concept graph has a minimum description length — the Kolmogorov complexity of the Igbo semantic graph. This paper's MDL framework is the formal tool for proving PAGC achieves minimum-complexity encoding of Igbo knowledge. If the MDL of the full Igbo semantic graph equals the MDL of PAGC's 216-token matrix, PAGC is a Kolmogorov-optimal description.
+
+## [S2-2] Comprehensive Survey on Link Prediction: From Heuristics to Graph Transformers
+- **Authors:** Multiple
+- **Venue:** The Journal of Supercomputing (Springer)
+- **Year:** 2025
+- **URL:** https://link.springer.com/article/10.1007/s11227-025-07882-8
+- **Abstract:** Full survey from classical similarity indices to graph embedding methods, GNNs, and Graph Transformers for link prediction. Covers static and dynamic networks. State-of-the-art comparison.
+- **PAGC Relevance:** Link prediction in PAGC's concept graph = predicting which base×modifier combinations will generate the next high-frequency token in Igbo cultural production. The Marwitz-style methodology (concept graph + link prediction) is directly applicable to PAGC, and this survey provides the full methodological toolkit.
+
+## [S2-3] Survey of GNN Methods for Dynamic Link Prediction
+- **Authors:** Multiple
+- **Venue:** ScienceDirect (Procedia)
+- **Year:** 2025
+- **URL:** https://www.sciencedirect.com/science/article/pii/S1877050925007938
+- **Abstract:** Reviews temporal GNN architectures for dynamic link prediction. Covers TGNN, TGN, CAWN, and related models for evolving graphs.
+- **PAGC Relevance:** PAGC's lexical cache should evolve as language evolves — high-frequency moral/equity terms shift over generations. Dynamic link prediction methods applied to PAGC's concept graph would model this temporal drift.
+
+## [S2-4] Defining Complex Adaptive Systems: An Algorithmic Approach
+- **Authors:** Multiple
+- **Venue:** Systems, MDPI, Vol. 12, Issue 2
+- **Year:** 2024
+- **URL:** https://www.mdpi.com/2079-8954/12/2/45
+- **Abstract:** Formal algorithmic framework for evaluating whether a system meets CAS attributes: autonomy, memory, self-organisation, emergence. Separates complexity-related attributes from adaptivity-related ones.
+- **PAGC Relevance:** PAGC's generative matrix is a CAS: it has memory (lexical cache), self-organizes (surface variation from fixed deep structure), and exhibits emergence (novel token combinations from base×modifier). This paper provides a formal checklist to verify PAGC's CAS classification.
+
+## [S2-5] Unveiling Simplexity: A New Paradigm for Understanding Complex Adaptive Systems
+- **Authors:** Multiple
+- **Venue:** ScienceDirect
+- **Year:** 2025
+- **URL:** https://www.sciencedirect.com/science/article/pii/S2666675825001572
+- **Abstract:** Introduces "simplexity" — intricate interactions giving rise to simple, intuitive outcomes without losing underlying complexity. Complexity as balance between emergence and self-organization.
+- **PAGC Relevance:** PAGC is a simplexity system: a 27×8 matrix (simple surface) generates semantically rich Igbo expression (complex emergence). Simplexity theory provides the vocabulary for describing PAGC's compression/generation tradeoff non-reductively.
+
+## [S2-6] BioPathNet: Path-Based GNN for Link Prediction in Biomedical Knowledge Graphs
+- **Authors:** Multiple
+- **Venue:** Nature Biomedical Engineering
+- **Year:** 2025
+- **URL:** https://www.nature.com/articles/s41551-025-01598-z
+- **Abstract:** GNN framework based on neural Bellman-Ford networks for biomedical KG link prediction. Path-based reasoning across all relations along paths between node pairs. Addresses multi-relational link prediction limitations.
+- **PAGC Relevance:** PAGC's 8 modifier types define 8 distinct relation types in the concept graph. BioPathNet's multi-relational path-based approach is the correct architecture for link prediction in a PAGC-structured graph — each modifier type is a distinct edge relation, and PAGC prediction traverses paths through modifier-typed edges.
+
+---
+
 ## [1] Network Community Detection via Neural Embeddings
 - **Authors:** Multiple
 - **Venue:** Nature Communications

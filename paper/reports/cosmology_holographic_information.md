@@ -1,5 +1,17 @@
 # Cosmology & Holographic Principles — Reports & Reviews
 
+## ── SESSION 2 ADDITIONS ──
+
+## [S2-1] The Baby Universe Is Fine and the CFT Knows It: On Holography for Closed Universes
+- **Authors:** Multiple
+- **Venue:** Journal of High Energy Physics
+- **Year:** December 2025
+- **URL:** https://link.springer.com/article/10.1007/JHEP12(2025)159
+- **Abstract:** Shows that closed universes in AdS/CFT can be realized, and with sufficient bulk entanglement, the bulk Hilbert space of a closed universe can be holographically encoded in the CFT. Extends holographic encoding to topologically non-trivial cases.
+- **PAGC Relevance:** If even closed (topologically compact) universes can be holographically encoded in a boundary theory, then PAGC's claim — that all Igbo semantic space can be encoded in a 216-token boundary matrix — is topologically consistent with holographic principles. The "closed universe" case maps to PAGC's claim of completeness (the matrix is closed under the 27×8 combinatorics).
+
+---
+
 ## [1] Emergent Holographic Spacetime from Quantum Information
 - **Authors:** Multiple
 - **Venue:** arXiv

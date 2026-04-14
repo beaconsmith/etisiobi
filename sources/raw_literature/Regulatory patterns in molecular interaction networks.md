@@ -1,0 +1,23 @@
+---
+title: "Regulatory patterns in molecular interaction networks"
+authors: [David Murrugarra, Reinhard Laubenbacher]
+published: 2011-02-18
+source_url: http://arxiv.org/abs/1102.3739v3
+tags: [raw_source, arxiv]
+processing_status: unread
+---
+
+# Regulatory patterns in molecular interaction networks
+
+**Authors:** David Murrugarra, Reinhard Laubenbacher
+**Published:** 2011-02-18
+**Source:** [ArXiv Link](http://arxiv.org/abs/1102.3739v3)
+
+## Abstract
+
+Understanding design principles of molecular interaction networks is an important goal of molecular systems biology. Some insights have been gained into features of their network topology through the discovery of graph theoretic patterns that constrain network dynamics. This paper contributes to the identification of patterns in the mechanisms that govern network dynamics. The control of nodes in gene regulatory, signaling, and metabolic networks is governed by a variety of biochemical mechanisms, with inputs from other network nodes that act additively or synergistically. This paper focuses on a certain type of logical rule that appears frequently as a regulatory pattern. Within the context of the multistate discrete model paradigm, a rule type is introduced that reduces to the concept of nested canalyzing function in the Boolean network case. It is shown that networks that employ this type of multivalued logic exhibit more robust dynamics than random networks, with few attractors and short limit cycles. It is also shown that the majority of regulatory functions in many published models of gene regulatory and signaling networks are nested canalyzing.
+
+## Extracted Concepts (Auto-Generated)
+> [!info] 
+> This is a raw source file. An autonomous agent should read this abstract and extract specific `[[concepts]]`, methodologies, and falsification tests related to the Principle of Ancestral Generative Compression (PAGC).
+

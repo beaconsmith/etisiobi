@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WikiOS — etisiobi Knowledge OS</title>
+  <meta name="description" content="Live knowledge browser for the etisiobi research vault." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Urbanist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+
+    <!-- Top Nav -->
+    <nav class="topnav">
+      <div class="nav-logo">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="logo-wiki">Wiki</span><span class="logo-os">OS</span>
+      </div>
+      <div class="nav-links">
+        <a href="#" class="nav-link active" data-view="home">Discover</a>
+        <a href="#" class="nav-link" data-view="graph">Graph</a>
+        <a href="#" class="nav-link" data-view="stats">Stats</a>
+      </div>
+      <div class="nav-right">
+        <button class="btn-ghost" id="btn-refresh">↺ Refresh</button>
+        <button class="btn-icon-round" id="btn-theme" title="Toggle dark mode">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Home View -->
+    <main class="view view-home" id="view-home">
+      <section class="hero">
+        <h1 class="hero-title"><span class="hero-wiki">Wiki</span><span class="hero-os">OS</span></h1>
+        <p class="hero-sub">etisiobi research vault · live knowledge browser</p>
+        <div class="search-bar" id="search-bar">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="1.8"/><line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          <input type="text" id="search-input" class="search-input" placeholder="Search your vault — titles, tags, content…" autocomplete="off" spellcheck="false" />
+          <kbd class="search-kbd">⌘K</kbd>
+        </div>
+        <div class="search-dropdown hidden" id="search-dropdown"></div>
+      </section>
+
+      <div class="home-content">
+        <!-- Tags -->
+        <section class="home-section">
+          <div class="section-label">
+            <span>TAGS</span>
+            <span class="section-count" id="tag-count"></span>
+          </div>
+          <div class="tag-cloud" id="tag-cloud"></div>
+        </section>
+
+        <!-- Notes -->
+        <section class="home-section">
+          <div class="section-label">
+            <span>NOTES</span>
+            <span class="section-count" id="section-count">Loading…</span>
+          </div>
+          <div class="card-grid" id="card-grid">
+            <div class="loading-state">
+              <div class="loader"></div>
+              <p>Scanning vault…</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Graph View -->
+    <main class="view view-graph hidden" id="view-graph">
+      <div class="graph-header">
+        <h2 class="graph-title">Knowledge Graph</h2>
+        <p class="graph-sub">Clusters represent tag groups · click a node to filter</p>
+      </div>
+      <div class="graph-canvas" id="graph-canvas">
+        <svg id="graph-svg" width="100%" height="100%"></svg>
+      </div>
+    </main>
+
+    <!-- Stats View -->
+    <main class="view view-stats hidden" id="view-stats">
+      <div class="stats-header">
+        <h2 class="stats-title">Vault Statistics</h2>
+        <p class="stats-sub">Live metrics from your etisiobi research repository</p>
+        <p class="vault-path" id="vault-path"></p>
+      </div>
+      <div class="stats-grid" id="stats-grid"></div>
+    </main>
+
+    <!-- Reader Overlay -->
+    <div class="reader-overlay hidden" id="reader-overlay">
+      <div class="reader-panel">
+        <div class="reader-topbar">
+          <div class="reader-meta-top">
+            <span class="reader-tag" id="reader-tag"></span>
+            <span class="reader-date" id="reader-date"></span>
+            <span class="reader-words" id="reader-words"></span>
+          </div>
+          <button class="reader-close" id="reader-close">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+        <h1 class="reader-title" id="reader-title"></h1>
+        <p class="reader-path" id="reader-path"></p>
+        <div class="reader-body" id="reader-body"></div>
+      </div>
+    </div>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

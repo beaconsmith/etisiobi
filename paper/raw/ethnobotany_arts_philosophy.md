@@ -79,3 +79,36 @@
 - **URL:** https://philarchive.org/archive/PARPRT
 - **Abstract:** Reviews philosophical strategies for responding to underdetermination: inference to the best explanation, structural realism, epistemic humility.
 - **PAGC Relevance:** The strongest defense of PAGC against underdetermination is inference to the best explanation — the 27×8 matrix is the simplest structure that accounts for Igbo phonological space, the Nwagu Aneke syllabary's matrix organization, and the cross-domain parallels documented in this research.
+
+---
+
+## PLANT COMMUNICATION (new — Session 2 additions)
+
+### [10] Information and Communication Theoretical Foundations of the Internet of Plants
+- **Authors:** Ahmet B. Kilic, Ozgur B. Akan
+- **Venue:** arXiv 2509.08434
+- **Year:** 2025
+- **URL:** https://arxiv.org/abs/2509.08434
+- **Abstract:** Applies ICT frameworks to plant signaling (chemical, electrical, mycorrhizal, acoustic modalities). Formalizes each modality's transmitter, channel, and receiver components. Proposes "Internet of Plants" — plants as interconnected ICT nodes in ecological networks.
+- **PAGC Relevance:** Plant chemical signaling uses a base-vocabulary of volatile organic compounds (VOCs) modified by concentration gradients, timing, and blend ratios — a direct physical analog of PAGC's base×modifier architecture. The "Internet of Plants" framing positions living systems as generative communication networks, validating PAGC's claim that the 27×8 matrix is a universal communication architecture.
+- **Proposed Experiment:** Map the VOC vocabulary of Igbo ethnobotanically significant plants (e.g., *uziza*, *ogiri*, *utazi*) and test whether the base×modifier matrix describes VOC blend generation as accurately as it describes syllable generation.
+
+### [11] From Signals to Survival: Chemical, Electrical, and Acoustic Communication Mechanisms in Plant Adaptation
+- **Authors:** Multiple
+- **Venue:** Plant and Soil (Springer)
+- **Year:** 2025
+- **URL:** https://link.springer.com/article/10.1007/s11104-025-08119-6
+- **Abstract:** Reviews multi-modal plant communication under environmental stress. Documents chemical signaling cascades, electrical potential waves, and mycorrhizal network relays as adaptive information systems.
+- **PAGC Relevance:** Multi-modal signaling with a shared base vocabulary (stress hormones, electrical gradients) modified contextually (drought, pathogen, physical damage) is structurally equivalent to PAGC's surface variation tolerance — same deep signal, different surface expression depending on modifier context.
+
+---
+
+## PHILOSOPHY OF SCIENCE (new — Session 2 additions)
+
+### [12] The Unity of Science (Stanford Encyclopedia of Philosophy, Fall 2025 Edition)
+- **Authors:** Cat, Jordi (Stanford Encyclopedia)
+- **Venue:** Stanford Encyclopedia of Philosophy
+- **Year:** 2025 edition
+- **URL:** https://plato.stanford.edu/archives/fall2025/entries/scientific-unity/
+- **Abstract:** Comprehensive treatment of scientific unity: reduction, intertheoretic relations, synthetic evidence, generative projection ontology. Covers historical and contemporary debates. Notes that "ontological unity is secured at a generative level, while plurality arises through projection into distinct sectors."
+- **PAGC Relevance:** The "Generative Projection Ontology" framing — generative unity at depth, plurality at surface — is a precise philosophical description of PAGC. The 27×8 matrix = the generative level; surface variants = plural projections. If PAGC is validated cross-domain, it would constitute an empirical instantiation of generative projection ontology in linguistics.

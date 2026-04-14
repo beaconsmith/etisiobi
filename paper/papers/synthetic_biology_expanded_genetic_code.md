@@ -47,3 +47,20 @@
 - **URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC6361380/
 - **Abstract:** Theoretical and empirical analysis of genetic code expansion strategies. Discusses information capacity, codon table structure, and the limits of biological expansion.
 - **PAGC Relevance:** The genetic code is a 4×3=64-entry matrix (4 bases × codon length 3) mapping to 20+stop amino acids — structurally homologous to PAGC's 27×8=216-entry matrix mapping to semantic tokens.
+
+## [7] Rules Governing the Genetic Code Degeneracy/Redundancy and Spatial Organization of the Codon Informative Properties
+- **Authors:** Melina Rapacioli, Ricardo Katz, Vladimir Flores
+- **Venue:** Frontiers in Applied Mathematics and Statistics, Vol. 10
+- **Year:** 2024
+- **URL:** https://www.frontiersin.org/journals/applied-mathematics-and-statistics/articles/10.3389/fams.2024.1340640/full
+- **Abstract:** Treats bases as physicochemical entities with two properties (molecular type + hydrogen bond count). Codons are "asymmetric informative entities" — position and base type jointly determine discriminating vs. non-discriminating behavior. Formalizes rules governing synonymous codon sets (quadruplets vs. doublets).
+- **PAGC Relevance:** This is the closest formal analog to PAGC's modifier logic in biology. The genetic code's 64→20 degeneracy (redundancy with rules) mirrors PAGC's 216→semantic-space redundancy. The "second position rule" (second codon position determines discriminating behavior) is the biological counterpart to PAGC's positional modifier weighting. A direct mathematical mapping between the two systems is a tractable research program.
+- **Proposed Experiment:** Construct a formal bijection table between PAGC modifier positions and codon positions. Test whether the same "discriminating vs. non-discriminating" position rules hold in Igbo morphology.
+
+## [8] Protein Language Models Meet Reduced Amino Acid Alphabets
+- **Authors:** Ioan Ieremie, Rob M Ewing, Mahesan Niranjan
+- **Venue:** Bioinformatics, Vol. 40, Issue 2
+- **Year:** 2024
+- **URL:** https://academic.oup.com/bioinformatics/article/40/2/btae061/7600424
+- **Abstract:** Tests protein language models (PLMs) trained on reduced amino acid alphabets (from 20 down to fewer clusters). Full 20-alphabet PLMs outperform reduced alphabets for most tasks. However, for 10/50 structural prediction targets, reduced alphabets improve LDDT-Cα by up to 19%. Minimum viable alphabet ≈ 10 clusters before significant degradation.
+- **PAGC Relevance:** PAGC's claim that 27 is the optimal base count is directly analogous to the reduced alphabet optimization problem in PLMs. This paper's methodology — ablating alphabet size and measuring downstream task performance — is the exact protocol for testing whether 27 is optimal for Igbo or whether fewer/more bases perform better. The threshold finding (≥10 clusters needed) suggests PAGC's 27 bases are well above any minimum — providing robustness headroom.

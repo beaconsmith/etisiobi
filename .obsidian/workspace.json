@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "4be40c8d8d5affbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "39ff2d0bc5ee1bdf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c04aa6561cbe965e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paper/methods/decolonial_epistemology.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "decolonial_epistemology"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "52214ededa67cefa",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7fc13705b41836d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53f4407f0945cc3f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "aa7040fd73326a05",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f7ab0551124f904a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cdd189a7c59c7357",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc0fcf2e162688c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "00c685753a0ee1ec",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "paper/methods/decolonial_epistemology.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for decolonial_epistemology"
+            }
+          },
+          {
+            "id": "95b42677afc7c9e0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "paper/methods/decolonial_epistemology.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from decolonial_epistemology"
+            }
+          },
+          {
+            "id": "e15e909e21214cf9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b342a415e767f178",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ca7e0c46514543ab",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "paper/methods/decolonial_epistemology.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of decolonial_epistemology"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c04aa6561cbe965e",
+  "lastOpenFiles": [
+    "paper/methods/linguistics_generative_grammar.md",
+    "paper/methods/decolonial_epistemology.md",
+    "paper/kb/nwagu_aneke_syllabary.md",
+    "paper/papers/physics_materials_crystal_generation.md",
+    "paper/papers/quantum_computing_error_correction.md",
+    "paper/papers/synthetic_biology_expanded_genetic_code.md",
+    "paper/papers/cognitive_neuroscience_chunking_predictive.md",
+    "INDEX.md",
+    "disciplines/01_ai_ml.md",
+    "Untitled.md",
+    "Untitled",
+    "paper/kb/information_theory_fundamentals.md"
+  ]
+}
