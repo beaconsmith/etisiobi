@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Data & Downloads — DON'T commit large files to git
+sources/papers/
+data/
+*.pdf
+*.epub
+*.mobi
+
+# Obsidian cache
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# Downloader logs / manifest (optional — you may want to commit manifest)
+sources/downloader.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Venv / IDE
+.venv/
+venv/
+.env
+.vscode/
+*.swp
