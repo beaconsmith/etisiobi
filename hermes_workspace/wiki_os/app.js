@@ -143,6 +143,7 @@ function renderStats(stats) {
     { value: stats.total_words ? (stats.total_words / 1000).toFixed(1) + 'k' : 0, label: 'Total Words', icon: '◎', accent: '#c4a7e7' },
     { value: stats.total_links  || 0, label: 'Total Links',        icon: '⬡', accent: '#f4b183' },
     { value: stats.total_tags   || 0, label: 'Unique Tags',        icon: '◈', accent: '#85c9a7' },
+    { value: stats.pdfs_downloaded || 0, label: 'PDFs Downloaded', icon: '⬇', accent: '#e7a7c4' },
   ];
   grid.innerHTML = '';
   items.forEach(item => {

@@ -18,7 +18,7 @@ import urllib.parse
 
 # ── Config ────────────────────────────────────────────────────
 REPO_ROOT   = Path(r"C:\Users\USER\code\etisiobi")
-STATIC_DIR  = Path(__file__).parent / "wiki_os"
+STATIC_DIR  = Path(__file__).parent   # serve.py lives inside wiki_os/
 PORT        = 7891
 
 # Folder → tag label mapping
@@ -162,13 +162,27 @@ def get_stats(notes: list[dict]) -> dict:
         tags[n["tag"]] = tags.get(n["tag"], 0) + 1
         total_words += n["words"]
         total_links += n["links"]
+
+    # Count downloaded PDFs
+    papers_dir = REPO_ROOT / "sources" / "papers"
+    pdf_count = len(list(papers_dir.rglob("*.pdf"))) if papers_dir.exists() else 0
+
+    # Count manifest entries
+    manifest = REPO_ROOT / "sources" / "download_manifest.jsonl"
+    manifest_count = 0
+    if manifest.exists():
+        with open(manifest, encoding="utf-8") as f:
+            manifest_count = sum(1 for line in f if line.strip())
+
     return {
-        "total_notes":  len(notes),
-        "total_words":  total_words,
-        "total_links":  total_links,
-        "total_tags":   len(tags),
-        "tags":         tags,
-        "repo_path":    str(REPO_ROOT),
+        "total_notes":     len(notes),
+        "total_words":     total_words,
+        "total_links":     total_links,
+        "total_tags":      len(tags),
+        "tags":            tags,
+        "repo_path":       str(REPO_ROOT),
+        "pdfs_downloaded": pdf_count,
+        "manifest_total":  manifest_count,
     }
 
 # ── HTTP Handler ──────────────────────────────────────────────

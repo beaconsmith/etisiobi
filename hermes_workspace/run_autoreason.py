@@ -3,8 +3,13 @@ import time
 from openai import OpenAI
 import glob
 
-# Set up parameters
-API_KEY = "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"
+# Set up parameters — load key from env, never hardcode
+API_KEY = os.environ.get("NVIDIA_API_KEY")
+if not API_KEY:
+    raise EnvironmentError(
+        "NVIDIA_API_KEY environment variable not set.\n"
+        "Run: $env:NVIDIA_API_KEY = 'nvapi-...'"
+    )
 BASE_URL = "https://integrate.api.nvidia.com/v1"
 
 # Using a standard robust NVIDIA NIM model. Hermes 3 / Llama 3.1 70B
