@@ -64,9 +64,9 @@ from tokenizers.trainers import BpeTrainer
 from tokenizers.pre_tokenizers import Whitespace
 
 # ── Sweep config ───────────────────────────────────────────────
-# k = vocabulary size to test
-# Range: 15–50, centered on k=27 with fine resolution around it
-K_VALUES = list(range(15, 51))   # 15, 16, 17, ... 50
+# k = number of MERGES (PAGC hypotheses 27 logical combinations)
+# We test 10 to 80 merges, looking for an inflection point near 27.
+K_MERGES = list(range(10, 81)) 
 
 # Minimum corpus requirement
 MIN_SENTENCES = 50
@@ -94,12 +94,14 @@ def load_corpus() -> tuple[list[str], list[str]]:
     return train, test
 
 
-def train_bpe(k: int, train_sentences: list[str]) -> Tokenizer:
-    """Train a BPE tokenizer with vocabulary size k."""
+def train_bpe(k_merges: int, train_sentences: list[str], base_alphabet: list[str]) -> Tokenizer:
+    """Train a BPE tokenizer to perform exactly k_merges."""
     tokenizer = Tokenizer(BPE(unk_token="[UNK]"))
     tokenizer.pre_tokenizer = Whitespace()
+    
     trainer = BpeTrainer(
-        vocab_size=k,
+        vocab_size=len(base_alphabet) + k_merges + 2, # +2 for UNK and PAD
+        initial_alphabet=base_alphabet,
         special_tokens=["[UNK]", "[PAD]"],
         min_frequency=1,
         show_progress=False,
@@ -170,23 +172,30 @@ def find_inflection(ks: list[int], values: list[float]) -> int:
 def run_sweep() -> list[dict]:
     """Run the full BPE sweep."""
     print("\n" + "=" * 60)
-    print("BPE Sweep: Testing vocabulary sizes k=15..50 on Igbo")
-    print("HYPOTHESIS: k=27 is the natural optimal point")
+    print("BPE Sweep: Testing k_merges=10..80 on Igbo")
+    print("HYPOTHESIS: k=27 merges is the natural optimal point")
     print("=" * 60 + "\n")
 
     train, test = load_corpus()
+    
+    # Calculate base alphabet 
+    unique_chars = set()
+    for s in train:
+        unique_chars.update(list(s))
+    base_alphabet = sorted(list(unique_chars))
+    print(f"Base character alphabet size: {len(base_alphabet)}")
+    
     results = []
 
-    for k in K_VALUES:
+    for k in K_MERGES:
         t0 = time.time()
-        tokenizer = train_bpe(k, train)
+        tokenizer = train_bpe(k, train, base_alphabet)
         metrics   = compute_metrics(tokenizer, test, k)
         elapsed   = time.time() - t0
 
         marker = " <-- PAGC prediction" if k == 27 else ""
         print(
-            f"  k={k:3d} | fertility={metrics['fertility']:.3f} | "
-            f"coverage={metrics['coverage']:.3f} | "
+            f"  merges={k:3d} | fertility={metrics['fertility']:.3f} | "
             f"chars/tok={metrics['chars_per_tok']:.2f} | "
             f"{elapsed:.1f}s{marker}"
         )
