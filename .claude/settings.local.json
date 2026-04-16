@@ -41,7 +41,10 @@
       "Bash(git commit *)",
       "Bash(git push *)",
       "Read(//c/Users/USER/code//**)",
-      "Read(//c/Users/USER/code/oroma//**)"
+      "Read(//c/Users/USER/code/oroma//**)",
+      "Bash(git -C /c/Users/USER/code/etisiobi add -A)",
+      "Bash(git -C /c/Users/USER/code/etisiobi commit -m ' *)",
+      "Bash(git -C /c/Users/USER/code/etisiobi push origin main)"
     ]
   }
 }

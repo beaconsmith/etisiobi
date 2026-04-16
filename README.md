@@ -1,9 +1,17 @@
 # etisiobi
-*signals from the tree* | The Beaconsmith Collective Research Archive
+*signals from the tree*
 
 ---
 
-A research studio infrastructure for The Beaconsmith Collective — a creative-technology studio based in Enugu, Southeast Nigeria.
+**Etisiobi** is an Igbo name. It means *the tree from my heart*.
+
+This archive is named after **Late Prof. Etisiobi Ndiokwelu** — educator, scholar, father of the founder of The Beaconsmith Collective. The name carries a charge: that research, like a tree, must be rooted in something real before it reaches upward. That knowledge is not extracted — it grows from the ground it belongs to. That the work a man plants outlives him.
+
+The Beaconsmith Collective is a creative-technology studio based in **Enugu, Southeast Nigeria**. We build tools for the communities we come from, and study them with the care they deserve.
+
+---
+
+*Our product is [Oroma](https://github.com/beaconsmith/oroma) — orange in Igbo, a fruit-bearing tree. This is its research twin.*
 
 ## Active Research Programs
 
