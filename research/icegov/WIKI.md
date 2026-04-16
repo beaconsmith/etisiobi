@@ -48,14 +48,17 @@ Existing digital governance indices (EGDI, OECD DGI, GTMI) measure what states d
 | Theory | Source | Applied to |
 |--------|--------|-----------|
 | 8 design principles for collective governance | Ostrom (1990) | All 7 OGI dimensions |
-| 5 sources of legitimacy (continuity, fairness, process, performance, participation) | Buterin (2021) | Cross-cutting quality criteria |
-| Anti-collusion infrastructure | Buterin (2020) | DPR quorum design, TTI multi-sig |
+| Collective action and elite capture risk | Olson (1965) | DPR monitoring design, TTI multi-sig |
+| Three foundations of legitimate power (rule-governed, justifiable, consented) | Beetham (1991) | Cross-cutting legitimacy criteria |
+| Procedural fairness → compliance (not outcome favourability) | Tyler (2006) | DPR, DRL dimensions |
+| Pragmatic / moral / cognitive legitimacy types | Suchman (1995) | CPS, CAS dimensions |
 | Records as authoritative evidence (authenticity, reliability, integrity, usability) | ISO 15489-1:2016 | RV, TTI dimensions |
 | Digital continuity = information usable across transitions | National Archives (2017) | CAS dimension |
 | Collective Benefit, Authority to Control, Responsibility, Ethics | CARE Principles (Carroll et al. 2020) | CAS, FID, privacy design |
 | Append-only logs with consistency proofs | RFC 6962 | RV technical implementation |
 | Verifiable credentials | W3C VC v2.0 | CPS dimension |
 | Composite indicator construction, sensitivity | OECD/JRC Nardo et al. (2008) | Composite scoring design |
+| DSR stages: problem → objective → design → demonstration → evaluation → communication | Hevner et al. (2004); Peffers et al. (2007) | Framework as Stage 4 artifact |
 
 ### Oroma as Community DPI Stack
 
