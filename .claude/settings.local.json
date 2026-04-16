@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls /c/Users/USER/code/etisiobi/sources/*.py)",
+      "Bash(python3 -c ':*)",
+      "Bash(python3:*)",
+      "Bash(python paper_downloader.py --max 2000 --depth 0)",
+      "Bash(python retry_failed.py)",
+      "Bash(tasklist /FI \"IMAGENAME eq python.exe\")",
+      "Bash(powershell:*)",
+      "Bash(python retry_unpaywall.py)",
+      "Bash(python -u retry_unpaywall.py)",
+      "Bash(gh api:*)",
+      "WebSearch",
+      "WebFetch(domain:www.icegov.org)",
+      "WebFetch(domain:www.sciencedirect.com)",
+      "WebFetch(domain:rsisinternational.org)",
+      "WebFetch(domain:www.researchgate.net)",
+      "WebFetch(domain:www.frontiersin.org)",
+      "WebFetch(domain:ojs.ukscip.com)",
+      "WebFetch(domain:pmc.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:datascience.codata.org)",
+      "WebFetch(domain:www.worldbank.org)",
+      "WebFetch(domain:ajic.wits.ac.za)",
+      "WebFetch(domain:community.interledger.org)",
+      "WebFetch(domain:openreview.net)",
+      "WebFetch(domain:socialscienceresearch.org)",
+      "WebFetch(domain:iiardjournals.org)",
+      "WebFetch(domain:www.ucl.ac.uk)",
+      "WebFetch(domain:carnegieendowment.org)",
+      "WebFetch(domain:www.e-mfp.eu)",
+      "WebFetch(domain:www.apas.africa)",
+      "WebFetch(domain:dl.acm.org)",
+      "WebFetch(domain:vitalik.eth.limo)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:gist.github.com)",
+      "Bash(mv /c/Users/USER/code/etisiobi/research/icegov/sources/paper /c/Users/USER/code/etisiobi/research/icegov/paper)",
+      "Bash(mv /c/Users/USER/code/etisiobi/research/icegov/sources/synthesis /c/Users/USER/code/etisiobi/research/icegov/synthesis)",
+      "Bash(mv /c/Users/USER/code/etisiobi/research/icegov/sources/MASTER_INDEX.md /c/Users/USER/code/etisiobi/research/icegov/INDEX.md)",
+      "Bash(git add *)"
+    ]
+  }
+}

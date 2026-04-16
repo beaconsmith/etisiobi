@@ -176,6 +176,29 @@ Philosophers ask how knowledge and mathematical truths emerge. PAGC aligns with 
 - Lakoff & Núñez (2000). “Where Mathematics Comes From.”
 - Corbin (2014). “Imagination and the Imaginal.” 
 
-**PAGC Mapping & Experiments:** Translate mathematical statements into PAGC symbols and use a symbolic system to manipulate it. Search to find small PAGC sequences that reproduce known theorems. Success would support PAGC’s universality claim. Falsification: if many mathematical truths have no concise PAGC encoding, or if PAGC constraints make formalization impossible, then it fails. 
+**Mapping & Experiments:** Translate mathematical statements into base symbols and use a symbolic system to manipulate it. Search to find small sequences that reproduce known theorems. Falsification: if many mathematical truths have no concise encoding, or if constraints make formalization impossible, then the hypothesis fails. 
 **Impact:** Medium (conceptual). 
 **Principia-level potential:** Possibly in understanding the nature of mathematical intuition and scientific laws.
+
+## Hardware Asymptotics: PAGC as a High-Radix Encoding Protocol
+In high-energy physics, data bottlenecks are bypassed by moving from binary NRZ encoding to PAM4 (Pulse Amplitude Modulation 4-level), which encodes two bits per symbol and halves the number of physical optical fibers required (e.g., in 20 Gbps ASICs like the GBS20; *arXiv:2010.16064*). 
+
+This hardware paradigm offers a physical analog to explore the Nwagu Aneke structure. If the 27x8 (216-combination) matrix is treated as a **Base-216 communication protocol** ($\approx$ 7.75 bits per symbol), it provides a mechanism for extreme compression. 
+If LLM memory states or neural activations are quantized into this sequence before transmission, it could theoretically sidestep GPU interconnect (NVLink/Infiniband) bandwidth walls currently limiting AI scaling. It physically compresses the transmission of semantic abstraction, moving the complexity out of the wire and into the token decoder.
+
+**Mapping & Experiments:** Simulate transmission of FP16 transformer hidden states across a bandwidth-constrained bus vs. the same states quantized strictly to the nearest 216-token discrete sequences. Measure the energy cost reduction and retention of predictive power.
+
+## Sovereign Memory and Directional Computing (Balaji / LeCun)
+"Building better systems doesn’t produce better thinking, it just scales whatever thinking already exists." — The convergence of Balaji Srinivasan’s focus on sovereign, exportable infrastructure and Yann LeCun’s vision of objective-driven architectures (JEPA) provides a radical new lens to explore this structure. In this hypothesis, memory is not just passive storage; memory is **decision infrastructure** and **direction**.
+
+Constraining memory to a 216-token discrete framework could enforce "programmable forgetting" — noise and unaligned data are naturally compressed out. It answers the question "What deserves to be remembered, and to what end?"
+
+**Core research frontiers:**
+* **Programmable Forgetting:** Because encoding is restricted to 216 functional pathways, noise is naturally compressed out.
+* **Goal-Aligned Systems:** LeCun's JEPAs operate on abstract representation spaces. A highly constrained matrix provides a rigid prior for this abstraction.
+* **Sovereign, Exportable Memory:** A 216-token deterministic mapping is hardware-agnostic and lightweight, creating a portable, sovereign "seed" of personal context.
+
+**Mapping & Experiments:** Test a reinforcement learning agent in a non-stationary environment. Give Agent A unbounded episodic memory, and Agent B a strictly bottlenecked 216-state memory buffer. If Agent B avoids catastrophic failure and generalizes better due to programmable forgetting, the constrained memory structure is demonstrated as a viable directional infrastructure.
+
+## Overall Assessment  
+Across fields, this structure blends formal coding with semantic content. The concept draws from information-theoretic themes (e.g., Ulam’s “seeing *as*,” Youvan’s algorithmic insight). Our survey defines parameters to investigate if a specific 27×8 code underlies reality or cognition. We make no claims, but proceed with the assumption that we do not fully know what the Nwagu Aneke script entails, and we seek empirical falsification to understand its true nature. As of 2026, experiments like BPE sweeps and constrained RL agents aim to rigorously test these hypotheses.

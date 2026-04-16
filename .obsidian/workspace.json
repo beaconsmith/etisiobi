@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper/methods/decolonial_epistemology.md",
+                "file": "sources/icegov_paper/paper/AUTORESEARCH_EVAL_v2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "decolonial_epistemology"
+              "title": "AUTORESEARCH_EVAL_v2"
             }
           }
         ]
@@ -185,17 +185,41 @@
   },
   "active": "c04aa6561cbe965e",
   "lastOpenFiles": [
-    "paper/methods/linguistics_generative_grammar.md",
-    "paper/methods/decolonial_epistemology.md",
-    "paper/kb/nwagu_aneke_syllabary.md",
-    "paper/papers/physics_materials_crystal_generation.md",
-    "paper/papers/quantum_computing_error_correction.md",
-    "paper/papers/synthetic_biology_expanded_genetic_code.md",
-    "paper/papers/cognitive_neuroscience_chunking_predictive.md",
-    "INDEX.md",
+    "research/icegov/sources/synthesis/ICEGOV2026_NITDA_BLUEPRINT.md",
+    "research/icegov/sources/synthesis/AUTORESEARCH_SYNTHESIS.md",
+    "research/icegov/sources/paper/OGI_PAPER_DRAFT_v1.md",
+    "research/icegov/sources/paper/OGI_PAPER_DRAFT_v2.md",
+    "research/icegov/sources/paper/AUTORESEARCH_EVAL_v2.md",
+    "research/icegov/sources/paper/AUTORESEARCH_EVAL_v1.md",
+    "research/icegov/sources/cluster7_crosscutting/MANIFEST.md",
+    "research/icegov/sources/cluster2_3_nigeria_isusu/MANIFEST.md",
+    "research/icegov/sources/cluster4_5_records_blockchain/MANIFEST.md",
+    "research/icegov/sources/cluster1_6_frameworks/MANIFEST.md",
+    "research/icegov/sources/synthesis",
+    "research/icegov/sources/paper",
+    "research/icegov/sources/cluster7_crosscutting",
+    "research/icegov/sources/MASTER_INDEX.md",
+    "research/icegov/sources/cluster2_3_nigeria_isusu",
+    "research/icegov/sources/cluster4_5_records_blockchain",
+    "research/icegov/sources/cluster1_6_frameworks",
+    "research/icegov/sources",
+    "skills",
+    "research/pagc",
+    "research/icegov",
+    "CLAUDE.md",
+    "sources/icegov_paper/paper/OGI_PAPER_DRAFT_v2.md",
+    "sources/icegov_paper/paper/OGI_PAPER_DRAFT_v1.md",
+    "sources/icegov_paper/paper/AUTORESEARCH_EVAL_v2.md",
+    "sources/icegov_paper/paper/AUTORESEARCH_EVAL_v1.md",
+    "sources/icegov_paper/cluster7_crosscutting/MANIFEST.md",
+    "sources/icegov_paper/synthesis/AUTORESEARCH_SYNTHESIS.md",
+    "sources/icegov_paper/synthesis/ICEGOV2026_NITDA_BLUEPRINT.md",
+    "sources/icegov_paper/MASTER_INDEX.md",
+    "216, k, d.md",
     "disciplines/01_ai_ml.md",
-    "Untitled.md",
-    "Untitled",
-    "paper/kb/information_theory_fundamentals.md"
+    "paper/methods/decolonial_epistemology.md",
+    "paper/methods/linguistics_generative_grammar.md",
+    "paper/kb/nwagu_aneke_syllabary.md",
+    "paper/papers/physics_materials_crystal_generation.md"
   ]
 }

@@ -2,11 +2,12 @@
 train_bpe_sweep.py — The Core PAGC Experiment
 ==============================================
 
-HYPOTHESIS: k=27 is the natural optimal vocabulary size for Igbo text.
-If PAGC is valid, a BPE sweep from k=15 to k=50 should show a natural
-inflection point (knee of the curve) at or near k=27.
+HYPOTHESIS: The Nwagu Aneke script structure (27 base symbols) may reflect a 
+natural optimal vocabulary size for Igbo text encoding.
+If this structure maps to information-theoretic compression, a BPE sweep 
+from k=10 to k=80 merges may show a natural inflection point near 27.
 
-WHAT WE MEASURE per vocabulary size k:
+WHAT WE MEASURE per vocabulary size k (base + merges):
   1. Fertility rate    — avg tokens per word (lower = more efficient)
   2. Coverage          — % of test words fully reproduced (higher = better)
   3. Compression ratio — original chars / tokenized chars
@@ -14,9 +15,8 @@ WHAT WE MEASURE per vocabulary size k:
 
 FALSIFICATION CONDITION:
   If the fertility curve is monotonically decreasing with no inflection near
-  k=27, or the inflection appears at a different k (e.g. 22 or 35), the
-  specific PAGC k=27 claim is refuted. The broader compression argument
-  (that Igbo has a natural optimal vocabulary) may still hold.
+  27, or the inflection appears elsewhere, the hypothesis that 27 represents
+  a universal information-theoretic optimum for this corpus is not supported.
 
 Requirements:
     pip install tokenizers matplotlib numpy scipy
@@ -173,7 +173,7 @@ def run_sweep() -> list[dict]:
     """Run the full BPE sweep."""
     print("\n" + "=" * 60)
     print("BPE Sweep: Testing k_merges=10..80 on Igbo")
-    print("HYPOTHESIS: k=27 merges is the natural optimal point")
+    print("HYPOTHESIS: Exploring if 27 merges shows a natural optimum")
     print("=" * 60 + "\n")
 
     train, test = load_corpus()
@@ -346,11 +346,11 @@ def generate_report(results: list[dict], infl_k: int) -> str:
     c27_val  = coverage[idx27]  if idx27 is not None else "N/A"
     best_k   = ks[int(np.argmin(fertility))]
 
-    report = f"""# BPE Sweep Results — PAGC k=27 Hypothesis
+    report = f"""# BPE Sweep Results — Nwagu Aneke Inference Hypothesis
 
 **Date:** {time.strftime("%Y-%m-%d %H:%M")}
 **Corpus:** Igbo text ({results[0]['total_words']:,} test words)
-**Sweep range:** k=15 to k=50
+**Sweep range:** k_{{merges}}=10 to 80
 **Method:** BPE (Byte Pair Encoding) via HuggingFace `tokenizers`
 
 ## Verdict: {verdict}
@@ -363,22 +363,22 @@ def generate_report(results: list[dict], infl_k: int) -> str:
 | Best k by fertility     | {best_k} |
 
 ## Hypothesis
-PAGC claims that 27 base symbols is the natural optimal vocabulary for Igbo.
-If valid: the fertility curve (tokens per word) should show a **knee at k≈27**,
-where diminishing returns set in — more vocabulary above 27 yields minimal gain.
+We assume no prior knowledge of what the Nwagu Aneke script entails. We test 
+the hypothesis that its 27 base symbols parallel an optimal information-theoretic 
+compression size for Igbo. If true, the fertility curve (tokens per word) 
+should show a **knee near k_merges=27**.
 
 ## Falsification Condition
-If the knee appears at k != 27 (±2), the specific PAGC k=27 claim is **refuted**
-for this corpus. The broader compression argument may still hold at whatever k
-the knee appears.
+If the knee appears at k != 27 (±2), the specific correlation to the 27-base 
+structure is **not supported** empirically for this corpus. 
 
 ## Full Metrics Table
 
-| k | Fertility | Coverage | Chars/Tok |
+| k_merges | Fertility | Coverage | Chars/Tok |
 |---|-----------|----------|-----------|
 """
     for r in results:
-        marker = " **<-- PAGC**" if r["k"] == 27 else ""
+        marker = " **<-- 27-base mapping target**" if r["k"] == 27 else ""
         infl_marker = " *(inflection)*" if r["k"] == infl_k else ""
         report += f"| {r['k']} | {r['fertility']} | {r['coverage']:.3f} | {r['chars_per_tok']:.2f} |{marker}{infl_marker}\n"
 
