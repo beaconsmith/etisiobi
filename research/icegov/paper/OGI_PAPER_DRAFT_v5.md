@@ -10,7 +10,7 @@
 
 ## Abstract
 
-The dominant digital governance indices — EGDI, OECD DGI, GTMI — measure what states do. They cannot capture the governance quality of the community institutions — town unions, rotating savings circles (esusu/ajo), diaspora cooperatives — that constitute de-facto governance infrastructure for the majority of Nigerians. No prior indicator framework addresses this community layer. This paper introduces the **Oroma Governance Indicator (OGI) Framework**: seven new indicators for measuring community-led digital governance success. Each indicator is (i) derived from verifiable on-chain artifacts rather than self-reported surveys — measuring the auditability conditions of governance actions, not the factual accuracy of their content; (ii) grounded in ISO 15489 records management standards and Ostrom's collective action design principles; (iii) accompanied by a documented Goodhart risk and mitigation; and (iv) privacy-preserving — community records are verifiable to members without becoming legible by default to external auditors. The framework is grounded in governance legitimacy theory [Beetham 1991; Tyler 2006; Suchman 1995] and CARE data sovereignty principles. Following the design science research (DSR) methodology [Hevner et al. 2004; Peffers et al. 2007], we present a Stage 4 demonstration: we show that the framework's indicator formulas are computationally tractable when applied to the data architecture of a community coordination platform under development in Southeast Nigeria. Stage 5 (empirical evaluation with live communities) requires mainnet deployment and ethics clearance, and constitutes the post-submission research programme. We argue that community-layer digital governance requires metrics that start from community evidence — and that such metrics are now theoretically grounded and architecturally feasible.
+The dominant digital governance indices — EGDI, OECD DGI, GTMI — measure what states do. They cannot capture the governance quality of the community institutions — town unions, rotating savings circles (esusu/ajo), diaspora cooperatives — that constitute de-facto governance infrastructure for the majority of Nigerians. No prior indicator framework addresses this community layer. This paper introduces the **OGI Framework**: seven new indicators for measuring community-led digital governance success. Each indicator is (i) derived from verifiable on-chain artifacts rather than self-reported surveys — measuring the auditability conditions of governance actions, not the factual accuracy of their content; (ii) grounded in ISO 15489 records management standards and Ostrom's collective action design principles; (iii) accompanied by a documented Goodhart risk and mitigation; and (iv) privacy-preserving — community records are verifiable to members without becoming legible by default to external auditors. The framework is grounded in governance legitimacy theory [Beetham 1991; Tyler 2006; Suchman 1995] and CARE data sovereignty principles. Following the design science research (DSR) methodology [Hevner et al. 2004; Peffers et al. 2007], we present a Stage 4 demonstration: we show that the framework's indicator formulas are computationally tractable when applied to the data architecture of a community coordination platform under development in Southeast Nigeria. Stage 5 (empirical evaluation with live communities) requires mainnet deployment and ethics clearance, and constitutes the post-submission research programme. We argue that community-layer digital governance requires metrics that start from community evidence — and that such metrics are now theoretically grounded and architecturally feasible.
 
 **Keywords:** digital governance indicators, community-led development, Southeast Nigeria, verifiable records, DPI, informal governance, ROSCA, composite indicators
 
@@ -22,11 +22,11 @@ The phrase *Igbo enwe eze* — "Igbo have no king" — describes a political tra
 
 The paper's core argument is not that community governance is broken. It is that the *measurement* of community governance is broken — and that this measurement failure has consequences for how digital governance success is defined, funded, and evaluated across Africa.
 
-The UN E-Government Development Index (EGDI), the OECD Digital Government Index (DGI), and the World Bank GovTech Maturity Index (GTMI) constitute the authoritative vocabulary for "digital governance success." None measures governance quality below the state level. Africa's average EGDI score is 0.4247 [UN EGov 2024] — a number that tells us nothing about whether the town union treasurer in Afikpo can be held accountable, whether the diaspora community fund in Enugu can produce an auditable receipt, or whether the esusu circle that financed a member's business can prove the loan terms were honoured.
+The UN E-Government Development Index (EGDI), the OECD Digital Government Index (DGI), and the World Bank GovTech Maturity Index (GTMI) constitute the authoritative vocabulary for "digital governance success." None measures governance quality below the state level. Africa's average EGDI score is 0.4247 [UN EGov 2024] — a number that tells us nothing about whether the town union treasurer in Afikpo can be held accountable, whether the diaspora community fund in a Southeast Nigerian city can produce an auditable receipt, or whether the esusu circle that financed a member's business can prove the loan terms were honoured.
 
 Polycentric governance theory holds that self-organizing community institutions constitute legitimate governance actors in their own right, capable of managing collective resources through their own rules, monitoring, and sanctions [Ostrom 1990; Aligica & Tarko 2012]. Providing an indicator framework that makes this governance layer observable in the digital domain — without requiring state mediation or expert surveys — is the contribution of this paper.
 
-We propose the **Oroma Governance Indicator (OGI) Framework**: seven new indicators with three contributions:
+We propose the **OGI Framework**: seven new indicators with three contributions:
 
 1. **A documented measurement gap** — demonstrating, from the construction logic of existing indices, what they structurally cannot capture about community-led governance.
 
@@ -103,7 +103,7 @@ The CARE Principles [Carroll et al. 2020] — Collective Benefit, Authority to C
 
 ---
 
-## 4. The Oroma Governance Indicator (OGI) Framework
+## 4. The OGI Framework
 
 ### 4.1 What Is New About These Indicators
 
@@ -317,7 +317,7 @@ The World Bank, UNDP, and Carnegie Endowment converge on a three-layer definitio
 | DPI Layer | Platform Module | OGI Dimensions Enabled |
 |-----------|----------------|------------------------|
 | Digital Identity | Ichi — portable W3C VC credentials, community-controlled | CPS-01, CPS-02, DPR-01 |
-| Digital Payments | Akpa Oroma — community treasury on Bitcoin L2 | TTI-01, TTI-02, FID-01–03 |
+| Digital Payments | Community treasury module — on Bitcoin L2 | TTI-01, TTI-02, FID-01–03 |
 | Verifiable Data Exchange | Truth Layer — canonical receipts, ZK proofs, dispute desk | RV-01, DRL-01–03, CAS-01–03 |
 
 Supporting modules implement Ostrom Principles 5 and 6 in smart contract form: policy enforcement without custody (graduated sanctions) and dual-chamber proposals with quorum-gated execution (conflict-resolution mechanism).
