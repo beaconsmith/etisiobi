@@ -37,7 +37,9 @@
       "Bash(mv /c/Users/USER/code/etisiobi/research/icegov/sources/paper /c/Users/USER/code/etisiobi/research/icegov/paper)",
       "Bash(mv /c/Users/USER/code/etisiobi/research/icegov/sources/synthesis /c/Users/USER/code/etisiobi/research/icegov/synthesis)",
       "Bash(mv /c/Users/USER/code/etisiobi/research/icegov/sources/MASTER_INDEX.md /c/Users/USER/code/etisiobi/research/icegov/INDEX.md)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }
