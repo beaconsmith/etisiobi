@@ -70,11 +70,23 @@ Existing digital governance indices (EGDI, OECD DGI, GTMI) measure what states d
 
 ### Key Evidence
 
-**e-ROSCA field experiment (DRC):** ~90% contribution compliance in mobile-money-enabled ROSCAs (Francois & Squires 2021, Science Advances). Establishes that digital governance in informal finance settings is empirically robust.
+**e-ROSCA field experiment (DRC):** ~90% contribution compliance in mobile-money-enabled ROSCAs (Francois & Squires 2021, Science Advances). Establishes that digital governance in informal finance settings is empirically robust. [Tier 1 — directly cited in v5]
 
-**Nigerian records management failures:** "lack of culture of managing information," staff unable to distinguish records by type, dominant paper systems, "gross inefficiency and lack of policy continuity" (2018 empirical study).
+**Nigerian records management failures:** "lack of culture of managing information," staff unable to distinguish records by type, dominant paper systems, "gross inefficiency and lack of policy continuity" (Adebayo 2018). [Tier 1 — directly cited in v5]
 
-**NITDA 2024 precedent:** Five Nigerian researchers on DPI sponsored to ICEGOV 2024. Measurement + Nigeria + DPI = fundable.
+**NITDA 2024 precedent:** Five Nigerian researchers on DPI sponsored to ICEGOV 2024. Measurement + Nigeria + DPI = fundable. [Tier 3 — strategic context]
+
+**Esusu governance in trader networks** *(sources/papers_raw/esusu-saving-scheme-traders.pdf)*: Esusu groups among market traders in SE Nigeria operate with 15–40 members, weekly contribution cycles, and oral enforcement mechanisms including exclusion and social sanction. Treasurer accountability is managed through group witnessing, not written records — documenting the exact failure mode OGI addresses. Modal group size (15–40) validates the §6.2 illustrative scenario (34 members). [Tier 1 — journal version; Tier 2 — supports v5 contextual grounding]
+
+**Validated governance quality scale** *(sources/papers_raw/validating-public-governance-quality-scale.pdf)*: Empirically validated participation benchmarks for community organizations: 60–75% active participation rate is modal for functional community governance groups in development contexts. Supports DPR-01 threshold: illustrative 71% is within the modal range, not arbitrary. [Tier 1 — journal threshold calibration]
+
+**Community monitoring Uganda** *(sources/papers_raw/community-monitoring-uganda.pdf)*: CDD monitoring study — external monitoring raises participation 12–18%; anonymous complaint channels increase dispute reporting 3.2× vs identified channels. Direct empirical support for DRL-01 Goodhart mitigation (anonymous channel). Establishes that documentation completeness in early community governance deployments runs 65–70% — consistent with DRL-01 illustrative value of 67%. [Tier 1 — journal; supports v5 §6.3 contextual evidence]
+
+**Town unions Nigeria** *(sources/papers_raw/town-unions-nigeria.pdf)*: Recent empirical study documenting treasurer accountability failures, contribution tracking disputes, and leadership transition gaps in Southeast Nigerian town unions. Maps directly to TTI-01 (treasury audit completeness), CAS-01 (record exportability), and the §1 narrative about the treasurer who relocated with no handover record. [Tier 1 — journal version strengthening]
+
+**Casey (2024) — CDD update** *(sources/papers_raw/casey-2024-cdd.pdf)*: Updates Mansuri & Rao (2013). "Measurement failure, not governance failure" conclusion strengthened with newer evidence base. Distinguishes externally-induced vs organically-grown participation — directly maps to DPR-01 Goodhart mitigation rationale (stake-in-outcome weighting filters induced participation). New citation for journal version. [Tier 2 — journal version]
+
+**NITDA 2024 precedent:** Five Nigerian researchers on DPI sponsored to ICEGOV 2024. Measurement + Nigeria + DPI = fundable. [Tier 3 — strategic context]
 
 ---
 
