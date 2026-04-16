@@ -90,6 +90,35 @@ Existing digital governance indices (EGDI, OECD DGI, GTMI) measure what states d
 
 ---
 
+## Threshold Calibration Evidence
+
+Empirical grounding for OGI provisional thresholds (for journal version Delphi validation):
+
+| Indicator | Provisional Threshold | Empirical Support | Source |
+|-----------|----------------------|-------------------|--------|
+| RV-01 ≥80% "digitally governed" | ≥80% | Undigitized community records run <40% completeness (Adebayo 2018); ISO 15489 "complete and unaltered" principle; blockchain audit trail systems target ≥95% (ISACA 2024) | Multiple |
+| DPR-01 modal participation | 60–75% active | Validated governance quality scale: functional community groups show 60–75% active participation | sources/papers_raw/validating-public-governance-quality-scale.pdf |
+| DPR-01 illustrative 71% | Within modal range | Modal range 60–75%; illustrative value is representatively plausible | Ibid |
+| DRL-01 illustrative 67% | Within early-deployment range | Community monitoring (Uganda): 65–70% documentation completeness in early deployments | sources/papers_raw/community-monitoring-uganda.pdf |
+| FID-01 group size (34 members) | Modal esusu range | 15–40 members is modal for functional SE Nigeria esusu groups | sources/papers_raw/esusu-saving-scheme-traders.pdf |
+| FID-01 3 cycles minimum | Enforcement observable | Besley et al. (1993): 3–4 cycles minimum for enforcement mechanisms to operate | Besley et al. 1993 |
+
+---
+
+## Journal Backlog — Sources to Acquire
+
+Flagged by reviewers; not yet in sources/:
+
+| Source | Why needed | Priority |
+|--------|-----------|----------|
+| Bouman (1995) "Rotating and accumulating savings" *World Development* | Foundational ROSCA — predates Besley/Gugerty | HIGH |
+| Ardener (1964) "Comparative study of rotating credit associations" | Original ROSCA academic reference | HIGH |
+| Gregor & Hevner (2013) "Positioning and presenting DSR" | Strengthens DSR framing for journal version | MEDIUM |
+| Community Scorecard methodology literature | Comparator to OGI — needed for "how OGI differs" discussion | MEDIUM |
+| Social Audit literature (Gaventa & McGee 2013) | Second comparator | LOW |
+
+---
+
 ## Source Clusters (124 total)
 
 | Cluster | Sources | File |
