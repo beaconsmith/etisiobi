@@ -292,6 +292,8 @@ FID-01 = (New members for whom this is their first formally
 
 *Goodhart risk*: Optimizing for onboarding counts without sustained participation. *Mitigation*: FID-01 requires ≥3 governance interactions post-onboarding to count as a qualifying "first formal participant."
 
+*Structural measurement boundary*: The FID dimension measures inclusion *within* the platform. It cannot measure communities that do not adopt on-chain coordination — a known and irreducible limitation. Communities that adopt are likely to differ systematically from those that do not (in digital literacy, diaspora connectivity, and trust in technology infrastructure). OGI scores on FID are therefore not comparable across adoption contexts without controlling for adoption barriers. This is documented explicitly rather than treated as a future problem: the framework measures what it can observe, and what it cannot observe is named.
+
 ---
 
 ### 4.4 Composite Scoring, Dashboard Design, and Sensitivity
