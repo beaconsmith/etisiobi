@@ -44,7 +44,10 @@
       "Read(//c/Users/USER/code/oroma//**)",
       "Bash(git -C /c/Users/USER/code/etisiobi add -A)",
       "Bash(git -C /c/Users/USER/code/etisiobi commit -m ' *)",
-      "Bash(git -C /c/Users/USER/code/etisiobi push origin main)"
+      "Bash(git -C /c/Users/USER/code/etisiobi push origin main)",
+      "Bash(git -C /c/Users/USER/code/oroma add README.md)",
+      "Bash(git -C /c/Users/USER/code/oroma commit -m ' *)",
+      "Bash(git -C /c/Users/USER/code/oroma push origin main)"
     ]
   }
 }
