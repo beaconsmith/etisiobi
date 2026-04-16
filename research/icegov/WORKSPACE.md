@@ -7,8 +7,8 @@
 
 ## Current status (2026-04-16)
 
-**Paper:** v4.2 — reviewer feedback applied. Ready for formatting.
-**Score:** External reviewers: ~3.7/5 ("Weak Accept"). Internal: was 5.0/5 (too generous).
+**Paper:** v5 — hardening pass complete. Ready for formatting.
+**Score:** External reviewers: ~3.7/5 ("Weak Accept"). v5 targets Accept through precision not volume.
 **Submission deadline:** April 24, 2026 — **8 days**.
 
 ---
@@ -21,6 +21,7 @@
 - [x] Source migration from eitsiobi (typo repo) → 81 files now in sources/
 - [x] eitsiobi repo archived on GitHub
 - [x] Autoresearch loop run (4 iterations): §7.4 blockchain rebuttal, §5 reframe, §2.1 structural gap, FID deployment-blocking
+- [x] v5 hardening pass: verifiability≠accuracy (4 sites), DSR Stage 4 framing, blockchain as infrastructure requirement, process-quality vs outcome-quality distinction
 
 ---
 
