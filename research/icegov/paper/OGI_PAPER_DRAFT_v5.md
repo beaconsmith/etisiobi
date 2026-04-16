@@ -221,7 +221,7 @@ DRL-02 = (Disputes reopened or formally appealed within 30 days) /
 
 *Data source*: Dispute desk records; on-chain vote records for resolution acceptance.
 
-*Goodhart risk*: Suppressed dispute rates — social pressure preventing legitimate grievances. *Mitigation*: Require an anonymous on-chain dispute channel; track ratio of anonymous to identified disputes as a suppression signal.
+*Goodhart risk*: Suppressed dispute rates — social pressure preventing legitimate grievances. *Mitigation*: Require an anonymous on-chain dispute channel; track ratio of anonymous to identified disputes as a suppression signal. Anonymity is enforced at the protocol level: the dispute is submitted as a cryptographic commitment to the dispute hash, with no identity field in the transaction calldata. The submitter's wallet address is visible on-chain but is not linked to their community identity record in the governance module — preventing the common failure mode where "anonymous" channels are pseudonymous in a small community where wallet addresses are known.
 
 ---
 
