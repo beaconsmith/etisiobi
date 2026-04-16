@@ -10,7 +10,7 @@
 
 ## Abstract
 
-The dominant digital governance indices — EGDI, OECD DGI, GTMI — measure what states do. They cannot capture the governance quality of the community institutions — town unions, rotating savings circles (esusu/ajo), diaspora cooperatives — that constitute de-facto governance infrastructure for the majority of Nigerians. No prior indicator framework addresses this community layer. This paper introduces the **Oroma Governance Indicator (OGI) Framework**: seven new indicators for measuring community-led digital governance success. Each indicator is (i) computable from verifiable on-chain artifacts rather than self-reported surveys, (ii) grounded in ISO 15489 records management standards and Ostrom's collective action design principles, (iii) accompanied by a documented Goodhart risk and mitigation, and (iv) privacy-preserving — community records are verifiable to members without becoming legible by default to external auditors. The framework is grounded in governance legitimacy theory [Beetham 1991; Tyler 2006; Suchman 1995] and CARE data sovereignty principles. Following a design science research approach, we demonstrate the framework's computational tractability using the data architecture of a Bitcoin Layer 2 community coordination platform under development in Southeast Nigeria. We argue that community-layer digital governance requires metrics that start from community evidence — and that such metrics are now theoretically grounded and technically feasible.
+The dominant digital governance indices — EGDI, OECD DGI, GTMI — measure what states do. They cannot capture the governance quality of the community institutions — town unions, rotating savings circles (esusu/ajo), diaspora cooperatives — that constitute de-facto governance infrastructure for the majority of Nigerians. No prior indicator framework addresses this community layer. This paper introduces the **Oroma Governance Indicator (OGI) Framework**: seven new indicators for measuring community-led digital governance success. Each indicator is (i) derived from verifiable on-chain artifacts rather than self-reported surveys — measuring the auditability conditions of governance actions, not the factual accuracy of their content; (ii) grounded in ISO 15489 records management standards and Ostrom's collective action design principles; (iii) accompanied by a documented Goodhart risk and mitigation; and (iv) privacy-preserving — community records are verifiable to members without becoming legible by default to external auditors. The framework is grounded in governance legitimacy theory [Beetham 1991; Tyler 2006; Suchman 1995] and CARE data sovereignty principles. Following the design science research (DSR) methodology [Hevner et al. 2004; Peffers et al. 2007], we present a Stage 4 demonstration: we show that the framework's indicator formulas are computationally tractable when applied to the data architecture of a community coordination platform under development in Southeast Nigeria. Stage 5 (empirical evaluation with live communities) requires mainnet deployment and ethics clearance, and constitutes the post-submission research programme. We argue that community-layer digital governance requires metrics that start from community evidence — and that such metrics are now theoretically grounded and architecturally feasible.
 
 **Keywords:** digital governance indicators, community-led development, Southeast Nigeria, verifiable records, DPI, informal governance, ROSCA, composite indicators
 
@@ -24,7 +24,7 @@ The paper's core argument is not that community governance is broken. It is that
 
 The UN E-Government Development Index (EGDI), the OECD Digital Government Index (DGI), and the World Bank GovTech Maturity Index (GTMI) constitute the authoritative vocabulary for "digital governance success." None measures governance quality below the state level. Africa's average EGDI score is 0.4247 [UN EGov 2024] — a number that tells us nothing about whether the town union treasurer in Afikpo can be held accountable, whether the diaspora community fund in Enugu can produce an auditable receipt, or whether the esusu circle that financed a member's business can prove the loan terms were honoured.
 
-Polycentric governance theory holds that self-organizing community institutions constitute legitimate governance actors in their own right, capable of managing collective resources through their own rules, monitoring, and sanctions [Ostrom 1990; Aligica & Tarko 2012]. Making this proposition measurable in the digital domain is the contribution of this paper.
+Polycentric governance theory holds that self-organizing community institutions constitute legitimate governance actors in their own right, capable of managing collective resources through their own rules, monitoring, and sanctions [Ostrom 1990; Aligica & Tarko 2012]. Providing an indicator framework that makes this governance layer observable in the digital domain — without requiring state mediation or expert surveys — is the contribution of this paper.
 
 We propose the **Oroma Governance Indicator (OGI) Framework**: seven new indicators with three contributions:
 
@@ -67,7 +67,7 @@ A 3ie evidence synthesis of community-driven development (CDD) programs finds co
 
 No prior indicator framework specifically addresses community-layer digital governance for non-state institutions in Sub-Saharan Africa. A review of ICEGOV 2024 and 2025 proceedings identifies papers on national DPI measurement, e-participation indices [Kabanov 2025], and local online services (LOSI) — the last of which measures state LGA portal features, not community institution governance [Guimarães et al. 2025; Susar et al. 2025]. The digital governance bibliometric analysis of Nigerian public administration [Ishola et al. 2025] identifies indigenous technology development and marginalized community research as the two largest gaps in the field. The OGI Framework addresses both.
 
-The contribution of this paper: the measurement gap is now closeable. Blockchain-based community coordination platforms generate verifiable artifacts — on-chain receipts, cryptographic proofs of participation, immutable decision logs — that serve as the evidentiary basis for governance indicators that do not rely on state self-reporting or expert perception surveys.
+The contribution of this paper: the measurement gap is now addressable in principle. Community coordination platforms that generate verifiable artifacts — on-chain receipts, cryptographic proofs of participation, append-only decision logs — can serve as the evidentiary basis for governance indicators that do not rely on state self-reporting or expert perception surveys. Whether this is viable in practice for the target communities is the empirical question the post-submission research programme will test.
 
 ### 2.3 Southeast Nigeria as the Primary Context
 
@@ -109,17 +109,17 @@ The CARE Principles [Carroll et al. 2020] — Collective Benefit, Authority to C
 
 The OGI Framework departs from existing governance measurement in four specific ways, each directly responsive to Track 6's mandate for new measurement approaches:
 
-**1. Artifact-first evidence.** Every OGI indicator's primary data source is an observable artifact — an on-chain event, an exported record, a block explorer query — not a self-reported survey. This directly addresses the self-report bias documented in GTMI [2025] and satisfies the "publicly verifiable source" requirement of the DPI Map methodology [World Bank 2023].
+**1. Artifact-first evidence.** Every OGI indicator's primary data source is an observable artifact — an on-chain event, an exported record, a block explorer query — not a self-reported survey. This addresses the response bias documented in GTMI [2025]. Critically, artifact-based measurement verifies that a record *exists and is unaltered* — it does not verify that the recorded information is factually accurate. Accuracy requires complementary social mechanisms (dispute resolution, multi-signature approval) that the OGI Framework separately measures in the DRL and DPR dimensions.
 
 **2. Privacy-preserving indicators.** TTI-02 uses zero-knowledge proofs to verify treasury solvency without revealing individual contribution amounts. CAS-03 measures state dependency as a governance risk to minimize, not a compliance threshold to reach. These are design properties that no existing governance index incorporates.
 
 **3. Community-sovereignty metrics.** The CAS dimension (Record Exportability, Platform Independence, State Dependency) measures whether governance capacity remains under community control independent of platform operators and state registries. No existing digital governance index measures this.
 
-**4. Computation without intermediary cooperation.** The OGI-Core indicators (RV-01, DPR-01, TTI-01, DRL-01) are computable from public block explorer data without platform login, API access, or platform operator cooperation. Any community member with the workspace contract address can compute them independently.
+**4. Computation without intermediary cooperation.** The OGI-Core indicators (RV-01, DPR-01, TTI-01, DRL-01) require append-only, independently verifiable records as their evidentiary base — the core technical requirement. A distributed ledger satisfies this without requiring a trusted operator, database administrator, or platform API. A community member with the workspace contract address and block explorer access can verify indicator inputs without requesting cooperation from any intermediary. This requirement — not blockchain as ideology — drives the infrastructure choice documented in §5.3.
 
 ### 4.2 Framework Design Logic
 
-The OGI Framework operationalizes community governance success as the production of *governance records that are verifiable, continuous, participatory, auditable, sovereign, repairable, and inclusive*. These seven properties map to seven indicator dimensions. Each specifies:
+The OGI Framework operationalizes one necessary condition for community governance accountability: the production of *governance records that are verifiable, continuous, participatory, auditable, sovereign, repairable, and inclusive*. These are process-quality properties. High OGI scores indicate that governance actions are documentable and auditable — not that those actions are normatively correct, equitable, or effective. The causal link between process quality and governance outcomes is a hypothesis to be tested in Stage 5 evaluation, not an assumption embedded in the framework. These seven properties map to seven indicator dimensions. Each specifies:
 
 - A theoretical grounding in Ostrom, ISO 15489, legitimacy theory, or CARE
 - A precise definition of what is being measured
@@ -339,7 +339,7 @@ For TTI-01:
 3. TTI-01 = count(complete movements) / count(total movements) × 100
 ```
 
-These queries run against a public block explorer with the contract ABI — no platform login, no API key, no intermediary. This directly addresses the self-report bias documented in GTMI [2025].
+These queries run against a public block explorer with the contract ABI — no platform login, no API key, no intermediary. This addresses the response bias documented in GTMI [2025] at the input level; the outputs measure auditability conditions, not the normative quality of the governance decisions they record.
 
 ### 5.3 Why Blockchain Rather Than Simpler Append-Only Logs
 
@@ -407,9 +407,9 @@ The OGI Framework addresses this by design: TTI-02 separates solvency verificati
 
 ### 7.3 Outcomes vs. Organizational Forms
 
-The OGI Framework measures governance *outcomes* — is a decision verifiable? can a dispute be audited? does a record survive leadership transition? — not organizational *forms*. A WhatsApp group that generates a ZK solvency proof is still a WhatsApp group. An esusu circle that anchors its contribution records on-chain retains its social character while adding an evidentiary layer. The indicator asks "is this action verifiable?" not "does this institution look like a registered cooperative?"
+The OGI Framework measures governance *process quality* — is a decision verifiable? can a dispute be audited? does a record survive leadership transition? — not governance *outcomes* or organizational *forms*. A community with a perfect OGI-Core score may still make inequitable decisions; the OGI Framework would document those decisions with high fidelity, not judge them. A WhatsApp group that generates a ZK solvency proof is still a WhatsApp group. An esusu circle that anchors its contribution records on-chain retains its social character while adding an evidentiary layer. The indicator asks "is this action verifiable?" not "does this institution look like a registered cooperative?"
 
-The most durable informal institutions succeed because they adapt their forms while maintaining their functions [Ostrom 1990; Ardener & Burman 1995; Gugerty 2007]. An indicator framework that incentivizes organizational formalization in exchange for a better score would damage what it intends to measure. All seven OGI dimensions are process-quality indicators.
+The most durable informal institutions succeed because they adapt their forms while maintaining their functions [Ostrom 1990; Ardener & Burman 1995; Gugerty 2007]. An indicator framework that incentivizes organizational formalization in exchange for a better score would damage what it intends to measure. All seven OGI dimensions are process-quality indicators — necessary conditions for accountable governance, not sufficient ones.
 
 ### 7.4 Relationship to Blockchain Governance Literature
 
@@ -455,7 +455,7 @@ Every major digital governance benchmark currently in use was designed to measur
 
 The OGI Framework introduces seven new indicators for this governance layer — each grounded in Ostrom's collective action design principles, ISO 15489 records standards, governance legitimacy theory [Beetham 1991; Tyler 2006; Suchman 1995], and CARE data sovereignty principles. Each computable from verifiable artifacts. Each accompanied by a documented Goodhart risk and structural mitigation. A dashboard-first design communities calibrate to their own governance contexts.
 
-The contribution to Track 6 is precise: new metrics and a new measurement methodology for the governance layer that existing approaches structurally omit — artifact-based, privacy-preserving, computable without intermediary cooperation, and grounded in community sovereignty rather than state delegation.
+The contribution to Track 6 is precise: a proposed indicator framework and measurement methodology for the governance layer that existing approaches structurally omit — artifact-based, privacy-preserving, independently verifiable, and grounded in community sovereignty rather than state delegation. The framework is theoretically grounded and architecturally feasible; empirical validation is the next step, not the current claim.
 
 The town union treasurer who carried the ledger to London when he relocated, leaving no record of three years of community contributions. The esusu circle whose rotating payout went disputed because the organiser's notebook was the only record of who had already received their share. The diaspora levy committee that dissolved — not because members stopped caring, but because no one could prove which projects the contributions had funded. These are not exotic governance failures. They are the normal operating condition of collective finance for millions of Nigerians. The OGI Framework is designed for that context: a first attempt to build measurement appropriate to what these institutions are already doing, on their own terms, with their own evidence.
 
@@ -511,4 +511,4 @@ The framework is at DSR Stage 4 — demonstrated as computationally tractable, t
 
 ---
 
-*[End of manuscript — Draft v4.2. Approximately 9,400 words excluding references. Ongoing Research, 8–10 pages. Abstract: 224 words. Keywords: 8. Double-blind compliant. References: 43. Reviewer-feedback revision: 2026-04-16.]*
+*[End of manuscript — Draft v5. Approximately 9,600 words excluding references. Ongoing Research, 8–10 pages. Keywords: 8. Double-blind compliant. References: 43. Hardening pass: 2026-04-16. Key changes from v4.2: verifiability≠accuracy made explicit at 4 sites; DSR Stage 4 framing tightened in Abstract; blockchain positioned as infrastructure requirement not ideology; process-quality vs outcome-quality distinction embedded in §4.2 and §7.3; overclaiming language replaced with precise scope statements.]*
