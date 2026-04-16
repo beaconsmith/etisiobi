@@ -34,3 +34,7 @@ venv/
 .env
 .vscode/
 *.swp
+
+# Research Spine
+spine/.env
+research/icegov/facts/*.json
