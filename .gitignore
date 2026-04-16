@@ -10,10 +10,15 @@ build/
 
 # Data & Downloads — DON'T commit large files to git
 sources/papers/
-data/
 *.pdf
 *.epub
 *.mobi
+
+# Migrated source material (binary files — too large for git)
+research/icegov/sources/kb/
+research/icegov/sources/methods_docs/
+research/icegov/sources/papers_raw/
+research/icegov/sources/reports/
 
 # Obsidian cache
 .obsidian/workspace
