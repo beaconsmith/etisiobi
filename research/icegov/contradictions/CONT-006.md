@@ -18,6 +18,6 @@ opened: 2026-04-16
 
 **Unblock condition:** Paper v3 must restructure Section 6. All values labelled `ILLUSTRATIVE`. The framing must shift from "early empirical signals" to "computability demonstration using platform data model."
 
-**Status:** Blocking paper submission. Must be resolved before April 24, 2026.
+**Status:** Resolved in v3.
 
-**Resolution:** ~
+**Resolution:** 2026-04-16 — Paper v3 Section 6 restructured as "Design Science Computability Demonstration." All indicator values explicitly labelled ILLUSTRATIVE. DSR methodology cited (Hevner et al. 2004; Peffers et al. 2007). "Early empirical signals" framing removed entirely. CONT-006 closed.

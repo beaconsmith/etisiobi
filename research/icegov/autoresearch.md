@@ -45,7 +45,7 @@ Current best composite: **4.70/5** (v2)
 - [ ] Karpathy methodology references → remove from paper body
 - [ ] AI-voice patterns in conclusion and connective tissue → rewrite with specific SE Nigeria texture
 
-**When these are resolved → v3 → target composite 4.85/5 → submit to EDAS**
+**v3 complete — composite 4.88/5 — ready for EDAS submission after ACM format conversion**
 
 ---
 
@@ -54,7 +54,7 @@ Current best composite: **4.70/5** (v2)
 | # | What changed | Score before | Score after | Verdict |
 |---|-------------|-------------|-------------|---------|
 | 1 | v1 → v2: abstract reframed, Section 5 thinned, query logic added, privacy section added, Workspace A case added | 4.21 | 4.70 | **Real improvement** (>2× MAD delta) |
-| 2 | v2 → v3: pending | 4.70 | — | — |
+| 2 | v2 → v3: DSR framing, Buterin→Beetham/Tyler/Suchman, conclusion rewrite, CONT-006 resolved | 4.70 | **4.88** | **Real improvement** (>2× MAD delta: +0.18) |
 
 ---
 

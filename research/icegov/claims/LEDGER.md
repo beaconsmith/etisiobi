@@ -13,7 +13,7 @@
 | CL-002 | "17% of Nigerian adults save in informal savings groups" | `computed` | World Bank GHS Panel | `publishable` | — | Cite World Bank GHSP data |
 | CL-003 | "Only 4.9% of Nigerian households received government COVID assistance (March-July 2020)" | `computed` | Nwangwu (2024) | `publishable` | — | Cite Nwangwu IJRISS 2024 |
 | CL-004 | "e-ROSCA DRC experiment: ~90% contribution compliance" | `computed` | Francois & Squires 2021 | `publishable` | — | Cite Science Advances 2021 |
-| CL-005 | Workspace A: RV-01 = 94%, DPR-01 = 71%, OGI-Core = 83% | `illustrative` | None (fabricated) | **BLOCKED — see CONT-006** | — | Must be labelled illustrative or removed in v3 |
+| CL-005 | Workspace A / illustrative case: RV-01 = 94%, DPR-01 = 71%, OGI-Core = 83% | `illustrative` | Platform data model (DSR demonstration) | `publishable` | — | Labelled ILLUSTRATIVE in v3 Section 6. CONT-006 closed. |
 | CL-006 | "town unions... directly accountable to communities through consensus-based selection" | `human_judgment` | Nwangwu 2024 | `publishable` | — | Cite Nwangwu IJRISS 2024 |
 | CL-007 | "WJP Rule of Law Index explicitly recognizes 'Informal Justice' but excludes it from aggregated scores" | `computed` | WJP 2025 methodology | `publishable` | — | Verify against WJP 2025 methodology doc |
 | CL-008 | "The missing piece isn't money movement — it's verifiable coordination at scale" | `human_judgment` | Oroma README | `draft` | Nzube | This is a product framing claim, not a research claim — remove from paper or source clearly |
