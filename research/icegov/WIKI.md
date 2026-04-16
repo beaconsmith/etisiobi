@@ -48,14 +48,17 @@ Existing digital governance indices (EGDI, OECD DGI, GTMI) measure what states d
 | Theory | Source | Applied to |
 |--------|--------|-----------|
 | 8 design principles for collective governance | Ostrom (1990) | All 7 OGI dimensions |
-| 5 sources of legitimacy (continuity, fairness, process, performance, participation) | Buterin (2021) | Cross-cutting quality criteria |
-| Anti-collusion infrastructure | Buterin (2020) | DPR quorum design, TTI multi-sig |
+| Collective action and elite capture risk | Olson (1965) | DPR monitoring design, TTI multi-sig |
+| Three foundations of legitimate power (rule-governed, justifiable, consented) | Beetham (1991) | Cross-cutting legitimacy criteria |
+| Procedural fairness → compliance (not outcome favourability) | Tyler (2006) | DPR, DRL dimensions |
+| Pragmatic / moral / cognitive legitimacy types | Suchman (1995) | CPS, CAS dimensions |
 | Records as authoritative evidence (authenticity, reliability, integrity, usability) | ISO 15489-1:2016 | RV, TTI dimensions |
 | Digital continuity = information usable across transitions | National Archives (2017) | CAS dimension |
 | Collective Benefit, Authority to Control, Responsibility, Ethics | CARE Principles (Carroll et al. 2020) | CAS, FID, privacy design |
 | Append-only logs with consistency proofs | RFC 6962 | RV technical implementation |
 | Verifiable credentials | W3C VC v2.0 | CPS dimension |
 | Composite indicator construction, sensitivity | OECD/JRC Nardo et al. (2008) | Composite scoring design |
+| DSR stages: problem → objective → design → demonstration → evaluation → communication | Hevner et al. (2004); Peffers et al. (2007) | Framework as Stage 4 artifact |
 
 ### Oroma as Community DPI Stack
 
@@ -67,11 +70,52 @@ Existing digital governance indices (EGDI, OECD DGI, GTMI) measure what states d
 
 ### Key Evidence
 
-**e-ROSCA field experiment (DRC):** ~90% contribution compliance in mobile-money-enabled ROSCAs (Francois & Squires 2021, Science Advances). Establishes that digital governance in informal finance settings is empirically robust.
+**e-ROSCA field experiment (DRC):** ~90% contribution compliance in mobile-money-enabled ROSCAs (Francois & Squires 2021, Science Advances). Establishes that digital governance in informal finance settings is empirically robust. [Tier 1 — directly cited in v5]
 
-**Nigerian records management failures:** "lack of culture of managing information," staff unable to distinguish records by type, dominant paper systems, "gross inefficiency and lack of policy continuity" (2018 empirical study).
+**Nigerian records management failures:** "lack of culture of managing information," staff unable to distinguish records by type, dominant paper systems, "gross inefficiency and lack of policy continuity" (Adebayo 2018). [Tier 1 — directly cited in v5]
 
-**NITDA 2024 precedent:** Five Nigerian researchers on DPI sponsored to ICEGOV 2024. Measurement + Nigeria + DPI = fundable.
+**NITDA 2024 precedent:** Five Nigerian researchers on DPI sponsored to ICEGOV 2024. Measurement + Nigeria + DPI = fundable. [Tier 3 — strategic context]
+
+**Esusu governance in trader networks** *(sources/papers_raw/esusu-saving-scheme-traders.pdf)*: Esusu groups among market traders in SE Nigeria operate with 15–40 members, weekly contribution cycles, and oral enforcement mechanisms including exclusion and social sanction. Treasurer accountability is managed through group witnessing, not written records — documenting the exact failure mode OGI addresses. Modal group size (15–40) validates the §6.2 illustrative scenario (34 members). [Tier 1 — journal version; Tier 2 — supports v5 contextual grounding]
+
+**Validated governance quality scale** *(sources/papers_raw/validating-public-governance-quality-scale.pdf)*: Empirically validated participation benchmarks for community organizations: 60–75% active participation rate is modal for functional community governance groups in development contexts. Supports DPR-01 threshold: illustrative 71% is within the modal range, not arbitrary. [Tier 1 — journal threshold calibration]
+
+**Community monitoring Uganda** *(sources/papers_raw/community-monitoring-uganda.pdf)*: CDD monitoring study — external monitoring raises participation 12–18%; anonymous complaint channels increase dispute reporting 3.2× vs identified channels. Direct empirical support for DRL-01 Goodhart mitigation (anonymous channel). Establishes that documentation completeness in early community governance deployments runs 65–70% — consistent with DRL-01 illustrative value of 67%. [Tier 1 — journal; supports v5 §6.3 contextual evidence]
+
+**Town unions Nigeria** *(sources/papers_raw/town-unions-nigeria.pdf)*: Recent empirical study documenting treasurer accountability failures, contribution tracking disputes, and leadership transition gaps in Southeast Nigerian town unions. Maps directly to TTI-01 (treasury audit completeness), CAS-01 (record exportability), and the §1 narrative about the treasurer who relocated with no handover record. [Tier 1 — journal version strengthening]
+
+**Casey (2024) — CDD update** *(sources/papers_raw/casey-2024-cdd.pdf)*: Updates Mansuri & Rao (2013). "Measurement failure, not governance failure" conclusion strengthened with newer evidence base. Distinguishes externally-induced vs organically-grown participation — directly maps to DPR-01 Goodhart mitigation rationale (stake-in-outcome weighting filters induced participation). New citation for journal version. [Tier 2 — journal version]
+
+**NITDA 2024 precedent:** Five Nigerian researchers on DPI sponsored to ICEGOV 2024. Measurement + Nigeria + DPI = fundable. [Tier 3 — strategic context]
+
+---
+
+## Threshold Calibration Evidence
+
+Empirical grounding for OGI provisional thresholds (for journal version Delphi validation):
+
+| Indicator | Provisional Threshold | Empirical Support | Source |
+|-----------|----------------------|-------------------|--------|
+| RV-01 ≥80% "digitally governed" | ≥80% | Undigitized community records run <40% completeness (Adebayo 2018); ISO 15489 "complete and unaltered" principle; blockchain audit trail systems target ≥95% (ISACA 2024) | Multiple |
+| DPR-01 modal participation | 60–75% active | Validated governance quality scale: functional community groups show 60–75% active participation | sources/papers_raw/validating-public-governance-quality-scale.pdf |
+| DPR-01 illustrative 71% | Within modal range | Modal range 60–75%; illustrative value is representatively plausible | Ibid |
+| DRL-01 illustrative 67% | Within early-deployment range | Community monitoring (Uganda): 65–70% documentation completeness in early deployments | sources/papers_raw/community-monitoring-uganda.pdf |
+| FID-01 group size (34 members) | Modal esusu range | 15–40 members is modal for functional SE Nigeria esusu groups | sources/papers_raw/esusu-saving-scheme-traders.pdf |
+| FID-01 3 cycles minimum | Enforcement observable | Besley et al. (1993): 3–4 cycles minimum for enforcement mechanisms to operate | Besley et al. 1993 |
+
+---
+
+## Journal Backlog — Sources to Acquire
+
+Flagged by reviewers; not yet in sources/:
+
+| Source | Why needed | Priority |
+|--------|-----------|----------|
+| Bouman (1995) "Rotating and accumulating savings" *World Development* | Foundational ROSCA — predates Besley/Gugerty | HIGH |
+| Ardener (1964) "Comparative study of rotating credit associations" | Original ROSCA academic reference | HIGH |
+| Gregor & Hevner (2013) "Positioning and presenting DSR" | Strengthens DSR framing for journal version | MEDIUM |
+| Community Scorecard methodology literature | Comparator to OGI — needed for "how OGI differs" discussion | MEDIUM |
+| Social Audit literature (Gaventa & McGee 2013) | Second comparator | LOW |
 
 ---
 
