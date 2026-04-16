@@ -369,7 +369,7 @@ This sequencing is methodologically appropriate and standard in IS design scienc
 
 ### 6.2 Illustrative Computability Case
 
-Hypothetical scenario: a diaspora-facing cooperative with 34 members distributed across Southeast Nigeria and the United Kingdom, with an active treasury and three completed governance cycles.
+Hypothetical scenario: a diaspora-facing cooperative with 34 members distributed across Southeast Nigeria and the United Kingdom, with an active treasury and three completed governance cycles. The 34-member size reflects the empirically documented modal range for functional ROSCAs — Gugerty [2007] finds that groups of 20–50 members sustain participation more durably than either smaller or larger cohorts, and Besley et al. [1993] note that three to four rotation cycles is the minimum for ROSCA participants to observe enforcement mechanisms operating. The scenario is constructed to be representatively plausible, not arbitrarily illustrative.
 
 | OGI Indicator | Illustrative Value | Framework diagnostic |
 |---------------|-------------------|----------------------|
