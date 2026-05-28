@@ -83,6 +83,21 @@ Score 1–5 across:
 
 ---
 
+## Skill Lifecycle Trigger
+
+If an autoresearch loop discovers a reusable workflow, failure mode, scoring shortcut, source strategy, or reviewer defense pattern, invoke `skills/skill-lifecycle.md`.
+
+Use the MUSE lifecycle:
+1. Search existing skills first.
+2. Patch one reusable rule at a time.
+3. Re-run the frozen metric or reviewer check.
+4. Record only evidence-backed lessons in the skill or its sibling `.memory.md`.
+5. Keep paper-specific decisions in the paper folder, not in global skills.
+
+Do not register a skill lesson if the score did not improve, the evidence base stayed thin, citations became weaker, or reviewer risk increased.
+
+---
+
 ## Reference: Karpathy Autoresearch Design Principles
 - Fixed time budget per experiment (we use: fixed scope per revision — one dimension)
 - Single measurable metric (val_bpb for ML; composite reviewer score for papers)
