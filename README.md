@@ -1,67 +1,68 @@
 # etisiobi
+
 *signals from the tree*
 
 ---
 
 **Etisiobi** is an Igbo name. It means *the tree from my heart*.
 
-This archive is named after **Late Prof. Etisiobi Ndiokwelu** — educator, scholar, father of the founder of The Beaconsmith Collective. The name carries a charge: that research, like a tree, must be rooted in something real before it reaches upward. That knowledge is not extracted — it grows from the ground it belongs to. That the work a man plants outlives him.
+This archive is named after **Late Prof. Etisiobi Ndiokwelu** — educator, scholar, and father of the founder of The Beaconsmith Collective. The name carries a charge: research, like a tree, must be rooted in something real before it reaches upward; knowledge is not merely extracted, but grows from the ground to which it belongs; and the work a person plants may outlive them.
 
-The Beaconsmith Collective is a creative-technology studio based in **Enugu, Southeast Nigeria**. We build tools for the communities we come from, and study them with the care they deserve.
-
----
+The Beaconsmith Collective is a creative-technology studio based in **Enugu, Southeast Nigeria**. We build tools for the communities we come from and study them with the care they deserve.
 
 *Our product is [Oroma](https://github.com/beaconsmith/oroma) — orange in Igbo, a fruit-bearing tree. This is its research twin.*
 
-## Active Research Programs
+## Active research programs
 
-### 1. ICegov / OGI Framework
-**Oroma Governance Indicator Framework** — measuring community-led digital governance success in Southeast Nigeria.
+### ICEGOV / OGI Framework
 
-> Submitting to **ICEGOV 2026, Track 6** (New Metrics and Approaches for Measuring Digital Governance Success). Deadline: April 24, 2026.
+The **Oroma Governance Indicator Framework** studies how community-led digital governance success can be measured in Southeast Nigeria. Its target venue is ICEGOV 2026 Track 6, “New Metrics and Approaches for Measuring Digital Governance Success.”
+
+Submission and decision states are evidence-backed: a draft, freeze date, or internal score is not treated as proof of submission or acceptance.
 
 | Resource | Location |
-|----------|----------|
-| Paper draft (v2, score 4.70/5) | [`research/icegov/paper/OGI_PAPER_DRAFT_v2.md`](research/icegov/paper/OGI_PAPER_DRAFT_v2.md) |
+|---|---|
+| Paper workspace | [`research/icegov/paper/`](research/icegov/paper/) |
 | Knowledge wiki | [`research/icegov/WIKI.md`](research/icegov/WIKI.md) |
-| Source index (124 sources) | [`research/icegov/INDEX.md`](research/icegov/INDEX.md) |
+| Source index | [`research/icegov/INDEX.md`](research/icegov/INDEX.md) |
+| Claim ledger | [`research/icegov/claims/LEDGER.md`](research/icegov/claims/LEDGER.md) |
+| Contradictions | [`research/icegov/contradictions/`](research/icegov/contradictions/) |
 
-### 2. PAGC
-**Principle of Ancestral Generative Compression** — cross-disciplinary study of the 27-base × 8-modifier matrix originating from the Nwagu Aneke Igbo syllabary.
+### PAGC
+
+The **Principle of Ancestral Generative Compression** is an artifact-first study grounded in the Nwagu Aneke source layer and its possible system-design applications.
+
+The current evidence boundary is explicit: **26 source-observed rows × 8 vowel/modifier columns = 208 records**. A **27 / 216** representation belongs to a derived `f/v` split layer and is not presented as source-observed under the current evidence package.
 
 | Resource | Location |
-|----------|----------|
-| Discipline rankings (17 disciplines) | [`research/pagc/INDEX.md`](research/pagc/INDEX.md) |
+|---|---|
+| Program index | [`research/pagc/INDEX.md`](research/pagc/INDEX.md) |
 | Knowledge wiki | [`research/pagc/WIKI.md`](research/pagc/WIKI.md) |
-| BPE Igbo k=27 experiment | [`experiments/01_bpe_igbo_k27/`](experiments/01_bpe_igbo_k27/) |
-| Sovereign Memory RL simulation | [`experiments/05_sovereign_memory_rl/`](experiments/05_sovereign_memory_rl/) |
+| Paper workspace | [`research/pagc/paper/`](research/pagc/paper/) |
+| Experiments | [`experiments/`](experiments/) |
 
----
+## Repository map
 
-## Repo Structure
-
-```
+```text
 etisiobi/
-├── CLAUDE.md          ← Studio harness (loaded every Claude Code session)
-├── log.md             ← Append-only studio research log
-├── research/
-│   ├── icegov/        ← OGI Framework: paper, sources, wiki, synthesis
-│   └── pagc/          ← PAGC: disciplines, paper, sources, experiments
-├── experiments/       ← Active empirical experiments
-└── skills/            ← Reusable research methodology skills (fat markdowns)
-    ├── autoresearch.md
-    ├── literature-sweep.md
-    ├── indicator-framework.md
-    └── paper-writing.md
+├── AGENTS.md          # Canonical repository operating contract
+├── CLAUDE.md          # Compatibility adapter; delegates to AGENTS.md
+├── README.md          # Public-facing studio overview
+├── log.md             # Append-only research log
+├── research/          # Programs, evidence, claims, contradictions, and papers
+├── experiments/       # Reproducible empirical work
+├── spine/             # Evidence extraction and research infrastructure
+├── skills/            # Reusable research procedures
+└── sources/           # Legacy/global source collection pending governed migration
 ```
 
----
+The live tree is authoritative. New canonical paths and migrations must follow the controls in [`AGENTS.md`](AGENTS.md); the archive must not be reorganized by copying raw evidence into parallel hierarchies.
 
-## Research Method
+## Research operating system
 
-**Karpathy autoresearch loop** (metric-driven iteration) + **Orchestra Research Skills** (fat markdown skills) + **gstack ETHOS** (boil the lake, search before building, user sovereignty).
+The studio combines metric-driven autoresearch, reusable research skills, artifact-first inquiry, falsification, search-before-building, user sovereignty, and community sovereignty.
 
-See [`CLAUDE.md`](CLAUDE.md) for session instructions.
+Read [`AGENTS.md`](AGENTS.md) before substantive work. It defines source-of-truth precedence, evidence classes, claim promotion, source ingestion, experiment discipline, paper review gates, memory maintenance, and the research-to-Oroma boundary.
 
 ---
 
