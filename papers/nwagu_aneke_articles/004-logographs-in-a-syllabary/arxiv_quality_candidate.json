@@ -1,0 +1,28 @@
+{
+  "article_id": "ARTICLE-NA-004",
+  "status": "STRUCTURAL_ARXIV_QUALITY_PASS_NOT_SUBMISSION_READY",
+  "candidate": false,
+  "reason": "The repository arXiv-quality validator passes for Article 004, but human source review, rights/submission clearance, and adversarial journal review remain open, so this is not an external submission candidate.",
+  "field_facing_result": "A 30-item visible chart lead set can be audited as a source-limited queue for whole-word sign review without claiming a complete logograph corpus.",
+  "positive_evidence": [
+    "experiments/EXP-NA-004-logograph-ledger/results.json",
+    "experiments/EXP-NA-004-logograph-ledger/data/logograph_leads.csv",
+    "experiments/EXP-NA-004-logograph-ledger/data/logograph_leads.jsonl",
+    "experiments/EXP-NA-004/results.json",
+    "papers/nwagu_aneke_articles/004-logographs-in-a-syllabary/article_specific_experiment.md",
+    "papers/nwagu_aneke_articles/004-logographs-in-a-syllabary/external_prior_art_audit.md",
+    "papers/nwagu_aneke_articles/004-logographs-in-a-syllabary/figures_tables_manifest.json",
+    "papers/nwagu_aneke_articles/004-logographs-in-a-syllabary/reviewer2_response_plan.md"
+  ],
+  "blocking_evidence": [
+    "papers/nwagu_aneke_articles/004-logographs-in-a-syllabary/human_source_review.md",
+    "papers/nwagu_aneke_articles/004-logographs-in-a-syllabary/rights_submission_clearance.md"
+  ],
+  "next_actions": [
+    "Attach human source review.",
+    "Attach rights and public-submission clearance.",
+    "Complete deeper prior-art comparison to source-critical edition, digital epigraphy, and African script documentation.",
+    "Run adversarial journal review against the revised logograph lead-set argument.",
+    "Rerun python scripts\\validate_arxiv_quality_gate.py."
+  ]
+}

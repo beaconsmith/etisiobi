@@ -1,0 +1,9 @@
+case_id,source_record,claim_class,expected_gate,source_basis,reason
+DH001-SR-001,Chart title is Syllabary of the Nwagu Aneke Script,source_record,preserve,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,Preserve source title without adding PAGC assumptions.
+DH001-SR-002,The chart transcription records 8 vowel columns,source_record,preserve,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,Preserve observed column count.
+DH001-SR-003,The printed chart has 26 consonant rows,source_record,preserve,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,Preserve printed-row count against 27-row promotion.
+DH001-SR-004,Row 4 is a combined f/v printed row,source_record,preserve,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,Preserve the ambiguity that motivates the derived split.
+DH001-SR-005,There are no standalone vowel symbols in the current source summary,source_record,preserve,research/pagc/primary_sources/nwagu_aneke/SOURCE_AUDIT.md,Preserve syllabary mechanics.
+DH001-SR-006,The script does not mark lexical tone in the current source summary,source_record,preserve,research/pagc/primary_sources/nwagu_aneke/SOURCE_AUDIT.md,Preserve source limitation.
+DH001-SR-007,About 30 logographs are visible in the chart transcription,source_record,preserve,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,Do not promote visible chart subset into 100+ source-observed logographs.
+DH001-SR-008,The matrix is a representation for analysis rather than an unqualified inherent property,source_record,preserve,research/pagc/primary_sources/nwagu_aneke/SOURCE_AUDIT.md,Preserve representation-choice caveat.

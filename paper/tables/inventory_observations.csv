@@ -1,0 +1,9 @@
+inventory_observation_id,observed_count,source_path,source_locator,abstraction_level,support_strength,contradiction_status,decision_effect
+INV-0001,26,research/pagc/primary_sources/nwagu_aneke/azuonye_1992.pdf,"Appendix I, rendered PDF page 15 / file page 16",printed chart rows,strong,contradicts source-observed 27,primary row count
+INV-0002,8,research/pagc/primary_sources/nwagu_aneke/azuonye_1992.pdf,"Appendix I, rendered PDF page 15 / file page 16",printed chart columns,strong,supports 8 columns,modifier count retained
+INV-0003,26,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,line 71,transcribed printed rows,strong,contradicts direct 27-row claim,primary row count
+INV-0004,27,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,line 77,derived phonemic split,moderate,valid only as derived interpretation,not source-observed
+INV-0005,216,experiments/README.md,line unresolved,theoretical matrix,weak,overclaimed,"rewrite as derived, not observed"
+INV-0006,30,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,line 134,visible full-word symbol list,moderate,scope clarification,separate logographs from CV grid
+INV-0007,26-28,research/pagc/FALSIFICATION_TRACKER.md,line 4,existing tracker synthesis,moderate,pre-audit uncertainty,resolved into levels
+INV-0008,16,experiments/01_bpe_igbo_k27/results/report.md,line 8,compression experiment parameter,moderate,refutes k=27 optimum on local test,negative result

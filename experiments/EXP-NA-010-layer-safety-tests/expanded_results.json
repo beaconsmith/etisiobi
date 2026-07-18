@@ -1,0 +1,10 @@
+{
+  "experiment_id": "EXP-NA-010",
+  "result_type": "expanded layer-safety invariant evaluation",
+  "test_cases": 24,
+  "promotion_errors": 14,
+  "promotion_errors_detected": 14,
+  "promotion_error_detection_rate": 1.0,
+  "gate_mismatches": [],
+  "decision": "EXPANDED_LAYER_SAFETY_BASELINE_COMPARISON_PASS"
+}

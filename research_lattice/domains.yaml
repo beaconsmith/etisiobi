@@ -1,0 +1,40 @@
+domains:
+  - id: writing_systems
+    label: Writing Systems and Script Anatomy
+    priority: primary
+  - id: igbo_linguistics
+    label: Igbo and Umuleri Linguistics
+    priority: primary
+  - id: artifact_studies
+    label: Source-Critical Artifact Studies
+    priority: primary
+  - id: governance_measurement
+    label: Community Governance Measurement
+    priority: primary
+  - id: nlp
+    label: African NLP and Tokenization
+    priority: secondary
+  - id: information_theory
+    label: Information Theory and Compression
+    priority: secondary
+  - id: visual_algebra
+    label: Visual Algebra and Interface Grammar
+    priority: exploratory
+  - id: biology
+    label: Biology and Modifier Analogies
+    priority: speculative
+  - id: exceptional_math
+    label: E6 and Exceptional Mathematics
+    priority: speculative_blocked
+  - id: standards
+    label: Unicode, Fonts, Keyboards, Standards
+    priority: blocked_until_inventory
+
+mapping_types:
+  formal: mathematically defined correspondence
+  operational: can be built or run
+  empirical: testable with data
+  historical: supported by sources
+  metaphorical: useful analogy only
+  poetic: inspiring, not a research claim
+  rejected: failed or too weak

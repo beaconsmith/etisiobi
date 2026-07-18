@@ -1,0 +1,64 @@
+{
+  "schema_id": "SAFE-ROLE-ASSIGNMENT-SCHEMA-001",
+  "claim_ceiling": "safe_role_assignment_recorder_not_assignment_completion",
+  "type": "object",
+  "required": [
+    "assignment_id",
+    "review_role",
+    "reviewer_ref",
+    "selection_basis",
+    "approval_record_ref",
+    "contact_data_location",
+    "private_contact_data_in_repo",
+    "assignment_status",
+    "scope"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "assignment_id": {
+      "type": "string",
+      "pattern": "^ASSIGN-[0-9]{4}$"
+    },
+    "review_role": {
+      "type": "string",
+      "enum": [
+        "repository_boundary_reviewer",
+        "rights_authority_reviewer",
+        "source_dossier_reviewer",
+        "preservation_infrastructure_reviewer",
+        "data_protection_reviewer"
+      ]
+    },
+    "reviewer_ref": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,4}-REVIEWER-[0-9]{3}$"
+    },
+    "selection_basis": {
+      "type": "string"
+    },
+    "approval_record_ref": {
+      "type": "string"
+    },
+    "contact_data_location": {
+      "type": "string",
+      "enum": [
+        "outside_repo_private_channel",
+        "not_recorded_in_repo"
+      ]
+    },
+    "private_contact_data_in_repo": {
+      "type": "boolean",
+      "const": false
+    },
+    "assignment_status": {
+      "type": "string",
+      "enum": [
+        "approved_role_assignment_no_contact_data",
+        "template_only_not_recorded"
+      ]
+    },
+    "scope": {
+      "type": "string"
+    }
+  }
+}

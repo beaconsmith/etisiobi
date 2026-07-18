@@ -1,0 +1,38 @@
+{
+  "schema_id": "MLAGENTBENCH-KEEP-REJECT-DECISION-SCHEMA-001",
+  "experiment_id": "EXP-FRONTIER-009",
+  "atlas_id": "ATLAS-0052",
+  "status": "schema_ready_no_agent_run",
+  "claim_ceiling": "agent_evaluation_design_not_research_result",
+  "allowed_decisions": [
+    "keep_for_review",
+    "revise_before_run",
+    "reject_as_overclaim",
+    "blocked_missing_authority"
+  ],
+  "required_fields_for_future_decision": [
+    "task_id",
+    "task_version",
+    "decision",
+    "evidence_layer_cited",
+    "allowed_actions_checked",
+    "forbidden_actions_checked",
+    "metric_result",
+    "reviewer_or_human_gate",
+    "claim_ceiling_acknowledged",
+    "next_action"
+  ],
+  "decision_meanings": {
+    "keep_for_review": "Bounded task can move to human/domain review before any agent run.",
+    "revise_before_run": "Task idea remains useful but prompt, metric, action boundary, or logs need revision.",
+    "reject_as_overclaim": "Task would reward source-layer promotion, model-result overclaiming, or result language.",
+    "blocked_missing_authority": "Task cannot proceed until source, rights, cultural authority, or reviewer approval exists."
+  },
+  "forbidden_decision_effects": [
+    "do not approve an agent run",
+    "do not install dependencies",
+    "do not call a model/API",
+    "do not create paper or release readiness",
+    "do not promote derived counts into source-observed claims"
+  ]
+}

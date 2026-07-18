@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EXP-NA-008",
+  "generated_at": "2026-06-20T06:34:13+01:00",
+  "decision": "COMPARATIVE_MATRIX_CREATED_NWAGU_POSITIONED_AS_UNENCODED_REVIEW_BLOCKED",
+  "scripts_compared": 8,
+  "encoded_scripts": 3,
+  "unencoded_or_proposal_leads": 5,
+  "article_implication": "Article 8 can now compare evidence conditions across scripts, not just script typology.",
+  "external_sources_used": [
+    "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-19/",
+    "https://www.unicode.org/L2/L2023/23203-update-african-scripts.pdf",
+    "https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=mgqnsfqapq"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PUBLICATION_REQUIRES_AUTHORITY_REVIEW",
+  "approval_records": 1,
+  "external_release_allowed": false,
+  "release_blockers": [
+    "attach legal/approval documents to authority records",
+    "rights review for Nwagu Aneke source images/PDF/manuscript material",
+    "human review of glyph annotations and base-count interpretation",
+    "publication gate must be scoped to a specific output"
+  ],
+  "datacite_rights": [
+    {
+      "rights": "Rights and community authority review required before external release."
+    }
+  ],
+  "decision": "Do not submit externally until authority documents, rights review, and glyph/source review are attached."
+}

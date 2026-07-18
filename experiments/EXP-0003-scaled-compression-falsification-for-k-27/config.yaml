@@ -1,0 +1,5 @@
+experiment_id: EXP-0003
+linked_goal: GOAL-0003
+mode: dry-run
+seed: 20260528
+human_approval_required: "yes for external downloads, private data, cloud compute, or production DB access"

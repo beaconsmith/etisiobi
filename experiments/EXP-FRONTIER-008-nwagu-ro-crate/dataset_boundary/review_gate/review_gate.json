@@ -1,0 +1,32 @@
+{
+  "gate_id": "BOUNDARY-REVIEW-GATE-EXP-FRONTIER-008-001",
+  "boundary_id": "BOUNDARY-EXP-FRONTIER-008-001",
+  "experiment_id": "EXP-FRONTIER-008",
+  "created": "2026-06-22",
+  "status": "pending_human_review",
+  "claim_ceiling": "review_gate_pending_not_boundary_approval",
+  "external_actions_taken": [],
+  "approvals_recorded": [],
+  "required_roles": [
+    "rights_authority_reviewer",
+    "community_authority_reviewer",
+    "source_dossier_reviewer",
+    "preservation_infrastructure_reviewer",
+    "data_protection_reviewer"
+  ],
+  "review_packet": {
+    "checklist": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/DATASET_BOUNDARY_CHECKLIST.md",
+    "candidate_files": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/candidate_files.csv",
+    "excluded_files": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/excluded_files.csv",
+    "reviewer_roles": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/reviewer_roles.csv",
+    "validator_controls": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/validator_controls.json"
+  },
+  "forbidden_agent_actions": [
+    "approve dataset boundary",
+    "create DataLad dataset",
+    "request Software Heritage save",
+    "deposit public package",
+    "include restricted source material",
+    "claim release readiness"
+  ]
+}

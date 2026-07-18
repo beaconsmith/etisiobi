@@ -1,0 +1,246 @@
+{
+  "generated_at": "2026-05-28T09:55:38+00:00",
+  "formula": "0.25*evidence_strength + 0.20*novelty_potential + 0.15*falsifiability + 0.15*reproducibility + 0.10*cultural_source_integrity + 0.10*paper_fit + 0.05*safety - 0.20*unresolved_contradiction_risk",
+  "novelty_status": "hypotheses_pending_prior_art_review",
+  "goals": [
+    {
+      "goal_id": "GOAL-001",
+      "title": "Base Modifier Cache Formal Reconstruction",
+      "status": "completed",
+      "readiness_status": "completed_repo_local",
+      "score": 0.718,
+      "scores": {
+        "evidence_strength": 0.72,
+        "novelty_potential": 0.78,
+        "falsifiability": 0.8,
+        "reproducibility": 0.85,
+        "cultural_source_integrity": 0.8,
+        "paper_fit": 0.82,
+        "safety": 0.85,
+        "unresolved_contradiction_risk": 0.35
+      },
+      "dependencies": [],
+      "active_selected": true,
+      "completion_decision": "COMPLETED_AS_WORKING_ANNOTATION_INDEX",
+      "experiment": "experiments/EXP-BMC-001"
+    },
+    {
+      "goal_id": "GOAL-002",
+      "title": "BMC Count Reconciliation Across Rows, Vowels, Cells, and PAGC Foundation Claims",
+      "status": "completed",
+      "readiness_status": "completed_repo_local",
+      "score": 0.786,
+      "scores": {
+        "evidence_strength": 0.82,
+        "novelty_potential": 0.74,
+        "falsifiability": 0.9,
+        "reproducibility": 0.9,
+        "cultural_source_integrity": 0.82,
+        "paper_fit": 0.86,
+        "safety": 0.9,
+        "unresolved_contradiction_risk": 0.25
+      },
+      "dependencies": [
+        "GOAL-001"
+      ],
+      "active_selected": true,
+      "completion_decision": "MULTI_LAYER_COUNT_VALID",
+      "experiment": "experiments/EXP-BMC-002"
+    },
+    {
+      "goal_id": "GOAL-003",
+      "title": "BMC as a Claim-Gating Engine for Paper Generation",
+      "status": "completed",
+      "readiness_status": "completed_repo_local",
+      "score": 0.719,
+      "scores": {
+        "evidence_strength": 0.7,
+        "novelty_potential": 0.76,
+        "falsifiability": 0.82,
+        "reproducibility": 0.8,
+        "cultural_source_integrity": 0.78,
+        "paper_fit": 0.88,
+        "safety": 0.86,
+        "unresolved_contradiction_risk": 0.3
+      },
+      "dependencies": [
+        "GOAL-001"
+      ],
+      "active_selected": true,
+      "completion_decision": "CLAIM_GATE_COMPLETED_CORE_BMC_CLAIMS_SCOPED",
+      "experiment": "experiments/EXP-BMC-003"
+    },
+    {
+      "goal_id": "GOAL-004",
+      "title": "BMC Grammar Induction from Base/Modifier Relations",
+      "status": "completed",
+      "readiness_status": "completed_repo_local",
+      "score": 0.608,
+      "scores": {
+        "evidence_strength": 0.55,
+        "novelty_potential": 0.78,
+        "falsifiability": 0.75,
+        "reproducibility": 0.7,
+        "cultural_source_integrity": 0.72,
+        "paper_fit": 0.75,
+        "safety": 0.8,
+        "unresolved_contradiction_risk": 0.45
+      },
+      "dependencies": [
+        "GOAL-002"
+      ],
+      "active_selected": false,
+      "completion_decision": "PARTIAL_STRUCTURAL_GRAMMAR_NOT_GLYPH_GRAMMAR",
+      "experiment": "experiments/EXP-BMC-004"
+    },
+    {
+      "goal_id": "GOAL-005",
+      "title": "BMC Compression and Minimum Description Length Testing",
+      "status": "completed",
+      "readiness_status": "completed_repo_local",
+      "score": 0.605,
+      "scores": {
+        "evidence_strength": 0.5,
+        "novelty_potential": 0.76,
+        "falsifiability": 0.85,
+        "reproducibility": 0.75,
+        "cultural_source_integrity": 0.7,
+        "paper_fit": 0.77,
+        "safety": 0.82,
+        "unresolved_contradiction_risk": 0.5
+      },
+      "dependencies": [
+        "GOAL-004"
+      ],
+      "active_selected": false,
+      "completion_decision": "COMPRESSION_POSITIVE_FOR_ROW_VOWEL_INDEX_ONLY",
+      "experiment": "experiments/EXP-BMC-005"
+    },
+    {
+      "goal_id": "GOAL-006",
+      "title": "BMC Uncertainty and Certainty Propagation",
+      "status": "completed",
+      "readiness_status": "completed_repo_local",
+      "score": 0.692,
+      "scores": {
+        "evidence_strength": 0.65,
+        "novelty_potential": 0.74,
+        "falsifiability": 0.82,
+        "reproducibility": 0.78,
+        "cultural_source_integrity": 0.82,
+        "paper_fit": 0.8,
+        "safety": 0.88,
+        "unresolved_contradiction_risk": 0.32
+      },
+      "dependencies": [
+        "GOAL-003"
+      ],
+      "active_selected": false,
+      "completion_decision": "CERTAINTY_MODEL_COMPLETED_WITH_PUBLICATION_BLOCKERS",
+      "experiment": "experiments/EXP-BMC-006"
+    },
+    {
+      "goal_id": "GOAL-007",
+      "title": "BMC Knowledge Graph Integration",
+      "status": "completed",
+      "readiness_status": "completed_repo_local",
+      "score": 0.686,
+      "scores": {
+        "evidence_strength": 0.68,
+        "novelty_potential": 0.72,
+        "falsifiability": 0.72,
+        "reproducibility": 0.82,
+        "cultural_source_integrity": 0.78,
+        "paper_fit": 0.76,
+        "safety": 0.86,
+        "unresolved_contradiction_risk": 0.28
+      },
+      "dependencies": [
+        "GOAL-006"
+      ],
+      "active_selected": false,
+      "completion_decision": "KG_INTEGRATION_COMPLETED",
+      "experiment": "experiments/EXP-BMC-007"
+    },
+    {
+      "goal_id": "GOAL-008",
+      "title": "BMC Benchmark Tasks for Symbolic Reconstruction",
+      "status": "completed",
+      "readiness_status": "completed_repo_local",
+      "score": 0.595,
+      "scores": {
+        "evidence_strength": 0.5,
+        "novelty_potential": 0.7,
+        "falsifiability": 0.78,
+        "reproducibility": 0.72,
+        "cultural_source_integrity": 0.72,
+        "paper_fit": 0.68,
+        "safety": 0.9,
+        "unresolved_contradiction_risk": 0.4
+      },
+      "dependencies": [
+        "GOAL-007"
+      ],
+      "active_selected": false,
+      "completion_decision": "BENCHMARK_SEED_COMPLETED",
+      "experiment": "experiments/EXP-BMC-008"
+    },
+    {
+      "goal_id": "GOAL-009",
+      "title": "BMC Human-in-the-Loop and Authority-Aware Review",
+      "status": "completed",
+      "readiness_status": "completed_repo_local",
+      "score": 0.725,
+      "scores": {
+        "evidence_strength": 0.76,
+        "novelty_potential": 0.72,
+        "falsifiability": 0.7,
+        "reproducibility": 0.75,
+        "cultural_source_integrity": 0.95,
+        "paper_fit": 0.78,
+        "safety": 0.9,
+        "unresolved_contradiction_risk": 0.22
+      },
+      "dependencies": [
+        "GOAL-003",
+        "GOAL-006"
+      ],
+      "active_selected": false,
+      "completion_decision": "AUTHORITY_REVIEW_PROTOCOL_COMPLETED_INTERNAL_ONLY",
+      "experiment": "experiments/EXP-BMC-009"
+    },
+    {
+      "goal_id": "GOAL-010",
+      "title": "BMC-to-Paper Recursive Research Hyperloop",
+      "status": "completed",
+      "readiness_status": "completed_repo_local",
+      "score": 0.584,
+      "scores": {
+        "evidence_strength": 0.45,
+        "novelty_potential": 0.8,
+        "falsifiability": 0.78,
+        "reproducibility": 0.7,
+        "cultural_source_integrity": 0.76,
+        "paper_fit": 0.84,
+        "safety": 0.78,
+        "unresolved_contradiction_risk": 0.55
+      },
+      "dependencies": [
+        "GOAL-001",
+        "GOAL-002",
+        "GOAL-003",
+        "GOAL-004",
+        "GOAL-005",
+        "GOAL-006",
+        "GOAL-007",
+        "GOAL-008",
+        "GOAL-009"
+      ],
+      "active_selected": false,
+      "completion_decision": "NO_BMC_ARXIV_SUBMISSION_YET",
+      "experiment": "experiments/EXP-BMC-010"
+    }
+  ],
+  "executed_at": "2026-05-28T10:07:00+00:00",
+  "completion_status": "completed_repo_local_all_10"
+}

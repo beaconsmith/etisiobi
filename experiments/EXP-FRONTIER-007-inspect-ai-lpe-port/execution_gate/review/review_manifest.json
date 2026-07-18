@@ -1,0 +1,53 @@
+{
+  "review_id": "EXP-FRONTIER-007-EXECUTION-GATE-REVIEW-20260623",
+  "experiment_id": "EXP-FRONTIER-007",
+  "atlas_id": "ATLAS-0049",
+  "reviewed_at": "2026-06-23T02:52:40+01:00",
+  "review_status": "reviewed_keep_pending_do_not_execute",
+  "decision_status_after_review": "pending_user_approval",
+  "recommendation": "do_not_execute_without_explicit_user_or_lab_approval",
+  "claim_ceiling": "eval_harness_relevance_not_model_claim",
+  "external_actions_taken": [],
+  "dependencies_installed": false,
+  "model_or_api_run": false,
+  "private_data_downloaded": false,
+  "approval_gates_checked": [
+    "DEP-001",
+    "KEY-001",
+    "DATA-001",
+    "LABEL-001",
+    "SECRET-001",
+    "OUTPUT-001",
+    "SANDBOX-001"
+  ],
+  "blocking_gates_remaining": [
+    "explicit dependency approval",
+    "model/API key approval",
+    "no private or restricted source data",
+    "human/domain review of seed labels",
+    "no secrets in repo or logs",
+    "output claim ceiling accepted",
+    "execution isolation reviewed"
+  ],
+  "forbidden_actions_confirmed": [
+    "dependency installation",
+    "model/API call",
+    "external submission",
+    "publication PDF generation",
+    "readiness claim",
+    "private data download"
+  ],
+  "evidence_paths": [
+    "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/manifest.json",
+    "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/plan.md",
+    "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/inspect_adapter_contract.md",
+    "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/execution_decision.json",
+    "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/approval_checklist.csv",
+    "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/execution_runbook.md",
+    "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/risk_register.md",
+    "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/output_handling_policy.md",
+    "research/frontier/nwagu_transfer_atlas/prior_art_verification/verification_manifest.json"
+  ],
+  "oroma_learning": "Oroma-facing research infrastructure should preserve explicit execution gates so evaluation harness work cannot be mistaken for product doctrine, source evidence, or deployment approval.",
+  "exact_next_action": "Record explicit user/lab approval or rejection for a separate Inspect execution cycle; without that approval, keep Inspect blocked and proceed to the ATLAS-0052 design-only loop."
+}

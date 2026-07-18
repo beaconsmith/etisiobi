@@ -1,0 +1,5 @@
+holding_id,description,locator,access_status,rights_status,research_use
+HOLD-001,Azuonye 1992 academic article,https://scholarworks.umb.edu/africana_faculty_pubs/13/,public_metadata_and_pdf,cite_ok_reproduction_requires_license_check,source anchor
+HOLD-002,Omniglot chart and public description,research/pagc/primary_sources/nwagu_aneke/,local_archived_chart_for_internal_research,public_reproduction_not_cleared,chart transcription and row/vowel audit
+HOLD-003,SIRIS proposal record,papers/nwagu_aneke_articles/references.bib#sirisNwaguProposal,catalogue_metadata,metadata_only,provenance lead
+HOLD-004,Reported 100+ exercise books/manuscript corpus,Azuonye and public summaries,not_in_repo,unknown,blocked corpus target

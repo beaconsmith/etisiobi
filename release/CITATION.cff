@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use the Etisiobi Lab OS artifacts, cite the repository and the relevant artifact dossier."
+title: "Etisiobi Lab OS"
+version: "2026-05-28"
+date-released: "2026-05-28"
+authors:
+  - name: "The Beaconsmith Collective"
+repository-code: "https://github.com/beaconsmith/etisiobi"

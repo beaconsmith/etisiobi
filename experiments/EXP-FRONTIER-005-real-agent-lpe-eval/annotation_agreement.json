@@ -1,0 +1,17 @@
+{
+  "experiment_id": "EXP-FRONTIER-005",
+  "generated_at": "2026-06-21T09:38:45+01:00",
+  "status": "ANNOTATION_ADJUDICATED_GOLD_CREATED_AI_REVIEW_NOT_HUMAN_FRONTIER_READY",
+  "case_count": 360,
+  "promotion_error_fleiss_kappa": 0.6245,
+  "severity_fleiss_kappa": 0.5316,
+  "completion_by_role": {
+    "domain_source_reviewer": 360,
+    "methods_reviewer": 360,
+    "adversarial_impact_reviewer": 360
+  },
+  "annotation_source": "ai_reviewer_team",
+  "human_domain_review_status": "missing",
+  "frontier_claim_status": "not_ready",
+  "remaining_gate": "Human/domain labels, agent runs, rights review, and review-team approval still required."
+}

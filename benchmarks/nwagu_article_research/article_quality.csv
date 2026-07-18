@@ -1,0 +1,11 @@
+article,words,unique_citations,sections_present,has_experiment_reference,has_result_table,meta_note_hits,overclaim_hits,article_quality_score
+001-source-critical-reconstruction,1425,14,9,False,True,,,0.65
+002-count-layer-drift,1452,14,9,False,True,,,0.65
+003-f-v-hinge,1438,13,9,False,True,,,0.65
+004-logographs-in-a-syllabary,1439,15,9,False,True,,,0.65
+005-tei-iiif-critical-edition,1451,15,9,False,True,,,0.65
+006-unicode-readiness,1422,16,9,False,True,,,0.65
+007-manuscript-corpus-provenance,1434,16,9,False,True,,,0.65
+008-comparative-standardization,1432,16,9,False,True,,,0.65
+009-igbo-tokenization,1466,18,9,False,True,,,0.65
+010-layer-safe-generative-design,1439,14,9,False,True,,,0.65

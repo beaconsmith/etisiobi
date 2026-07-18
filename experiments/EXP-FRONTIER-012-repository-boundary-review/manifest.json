@@ -1,0 +1,44 @@
+{
+  "experiment_id": "EXP-FRONTIER-012",
+  "atlas_id": "ATLAS-0043",
+  "status": "REPOSITORY_BOUNDARY_REVIEW_OPEN_NOT_APPROVED",
+  "decision": "open_repository_boundary_review_without_release_or_archive_action",
+  "claim_ceiling": "repository_boundary_review_not_public_release",
+  "local_context": [
+    "experiments/EXP-FRONTIER-008-nwagu-ro-crate/ro-crate-metadata.json",
+    "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/candidate_files.csv",
+    "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/boundary_review.json",
+    "experiments/EXP-FRONTIER-011-software-heritage-no-identifier-decision/manifest.json",
+    "research/frontier/nwagu_transfer_atlas/prior_art_verification/verification_manifest.json"
+  ],
+  "external_actions_taken": [],
+  "dependencies_installed": false,
+  "private_data_downloaded": false,
+  "repository_export_created": false,
+  "software_heritage_request_made": false,
+  "archive_identifier_claimed": false,
+  "repository_deposited": false,
+  "public_release_claimed": false,
+  "public_package_approved": false,
+  "candidate_inventory_status": "draft_internal_candidates_only",
+  "blocked_promotions": [
+    "public repository package",
+    "Software Heritage archive action",
+    "archive identifier assignment",
+    "rights or authority clearance claim",
+    "article or submission maturity status"
+  ],
+  "required_before_release_or_archive": [
+    "repository path audit complete",
+    "restricted and source-material exclusion review",
+    "rights and authority review",
+    "license and citation metadata review",
+    "private-data and contact-data exclusion review",
+    "human preservation-infrastructure review",
+    "explicit user/lab release and archive approval"
+  ],
+  "candidate_asset_count": 10,
+  "excluded_pattern_count": 14,
+  "review_role_count": 5,
+  "exact_next_action": "Assign repository-boundary reviewers and adjudicate the candidate and excluded path inventory before any export archive request or public release."
+}

@@ -1,0 +1,15 @@
+{
+  "paper": "community-dpi",
+  "last_checked": "2026-04-24",
+  "stage": "evidence_population",
+  "vetted_sources": 8,
+  "core_claims": 3,
+  "claims_moderate_or_better": 2,
+  "regional_sources": 0,
+  "critical_gaps": [
+    "community informatics sources",
+    "regional grounding",
+    "category-boundary counterarguments"
+  ],
+  "promotion_ready": false
+}

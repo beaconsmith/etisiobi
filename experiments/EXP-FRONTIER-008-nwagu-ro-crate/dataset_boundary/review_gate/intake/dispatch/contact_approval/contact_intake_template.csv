@@ -1,0 +1,6 @@
+role_id,reviewer_name,public_contact_channel,public_contact_target,private_contact_storage,conflict_check_status,approval_to_contact,approval_to_send,contact_record_status,external_action_taken
+rights_authority_reviewer,,,,,not_started,no,no,not_collected,no
+community_authority_reviewer,,,,,not_started,no,no,not_collected,no
+source_dossier_reviewer,,,,,not_started,no,no,not_collected,no
+preservation_infrastructure_reviewer,,,,,not_started,no,no,not_collected,no
+data_protection_reviewer,,,,,not_started,no,no,not_collected,no

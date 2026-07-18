@@ -1,0 +1,11 @@
+{
+  "goal_id": "GOAL-004",
+  "decision": "PARTIAL_STRUCTURAL_GRAMMAR_NOT_GLYPH_GRAMMAR",
+  "observed_entries": 208,
+  "generated_entries": 208,
+  "row_vowel_reading_coverage": 1.0,
+  "glyph_shape_coverage": 0.0,
+  "exception_count": 0,
+  "false_generation_rate_when_restricted_to_observed_rows_vowels": 0.0,
+  "derived_extra_cells_if_f_v_split": 8
+}

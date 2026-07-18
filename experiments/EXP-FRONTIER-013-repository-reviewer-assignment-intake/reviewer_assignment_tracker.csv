@@ -1,0 +1,6 @@
+review_role,assignment_status,identity_recorded,private_contact_data_recorded,invitation_sent,review_collected,required_before,next_action
+repository_boundary_reviewer,unassigned_pending_human_selection,no,no,no,no,repository_boundary_decision,select reviewer outside repo and record only approved role assignment
+rights_authority_reviewer,unassigned_pending_human_selection,no,no,no,no,repository_boundary_decision,select reviewer outside repo and record only approved role assignment
+source_dossier_reviewer,unassigned_pending_human_selection,no,no,no,no,repository_boundary_decision,select reviewer outside repo and record only approved role assignment
+preservation_infrastructure_reviewer,unassigned_pending_human_selection,no,no,no,no,repository_boundary_decision,select reviewer outside repo and record only approved role assignment
+data_protection_reviewer,unassigned_pending_human_selection,no,no,no,no,repository_boundary_decision,select reviewer outside repo and record only approved role assignment

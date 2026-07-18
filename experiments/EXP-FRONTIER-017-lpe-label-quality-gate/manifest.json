@@ -1,0 +1,34 @@
+{
+  "experiment_id": "EXP-FRONTIER-017",
+  "source_seed_id": "NWR-049",
+  "status": "LPE_LABEL_QUALITY_GATE_PILOT_INTERNAL_NOT_FRONTIER_RESULT",
+  "decision": "promote_nwr_049_into_branch_specific_quality_gate_pilot",
+  "claim_ceiling": "quality_gate_pilot_not_paper_result",
+  "sample_case_count": 24,
+  "source_gold_label_count": 360,
+  "local_context": [
+    "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-049-lpe-label-quality-audit.md",
+    "experiments/EXP-FRONTIER-005-real-agent-lpe-eval/gold_labels.csv",
+    "experiments/EXP-FRONTIER-005-real-agent-lpe-eval/scores.json",
+    "experiments/EXP-FRONTIER-005-real-agent-lpe-eval/annotation_agreement.json",
+    "instruments/lpe_bench/manifest.json"
+  ],
+  "external_actions_taken": [],
+  "dependencies_installed": false,
+  "model_or_api_run": false,
+  "new_agent_run": false,
+  "human_domain_review_completed": false,
+  "rights_or_authority_cleared": false,
+  "publication_pdf_generated": false,
+  "external_submission_made": false,
+  "public_release_claimed": false,
+  "blocked_promotions": [
+    "paper result claim",
+    "frontier novelty claim",
+    "public benchmark claim",
+    "rights or authority clearance claim",
+    "external submission",
+    "source layer promotion"
+  ],
+  "exact_next_action": "Expand the quality gate from 24 pilot cases to the full 360-case gold-label table and compare gate statuses against scored agent conditions."
+}

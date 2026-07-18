@@ -1,0 +1,11 @@
+status: do-not-run
+retrieval: forensic-only
+reason:
+  - vendor-branded synthesis prompt
+  - assumes refuted or unconfirmed PAGC premises
+  - generates paper before experiments
+  - hard-coded local paths
+superseded_by:
+  - research/pagc/PAGC_RESET.md
+  - spine/retrieval_manifest.yaml
+review_required_before_use: true

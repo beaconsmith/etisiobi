@@ -1,0 +1,104 @@
+[
+  {
+    "cluster": "Research-object packaging",
+    "coverage_status": "adequate",
+    "best_sources": [
+      "RO-Crate",
+      "DataCite",
+      "FAIR"
+    ],
+    "missing_sources": [],
+    "novelty_collision_risk": "medium",
+    "required_revision": "Keep BMC as integration layer, not packaging replacement."
+  },
+  {
+    "cluster": "Provenance",
+    "coverage_status": "adequate",
+    "best_sources": [
+      "PROV-O",
+      "PROV-DM"
+    ],
+    "missing_sources": [],
+    "novelty_collision_risk": "medium",
+    "required_revision": "Map future provenance graph to PROV-O RDF."
+  },
+  {
+    "cluster": "Source localization",
+    "coverage_status": "adequate",
+    "best_sources": [
+      "IIIF Presentation API",
+      "TEI Guidelines"
+    ],
+    "missing_sources": [
+      "reviewed pixel/region selectors"
+    ],
+    "novelty_collision_risk": "medium",
+    "required_revision": "Block glyph claims until source review."
+  },
+  {
+    "cluster": "Annotation",
+    "coverage_status": "adequate",
+    "best_sources": [
+      "W3C Web Annotation Data Model",
+      "Web Annotation Vocabulary"
+    ],
+    "missing_sources": [
+      "validated JSON-LD profile"
+    ],
+    "novelty_collision_risk": "high",
+    "required_revision": "Use partial export wording."
+  },
+  {
+    "cluster": "Cultural heritage knowledge representation",
+    "coverage_status": "weak",
+    "best_sources": [
+      "CIDOC CRM",
+      "CRMdig"
+    ],
+    "missing_sources": [
+      "ontology expert review",
+      "version-specific class/property validation"
+    ],
+    "novelty_collision_risk": "medium",
+    "required_revision": "Call CIDOC export a mapping proposal."
+  },
+  {
+    "cluster": "Scientific writing / claim verification",
+    "coverage_status": "weak",
+    "best_sources": [
+      "local claim gate",
+      "citation audit"
+    ],
+    "missing_sources": [
+      "deeper scholarly claim-verification literature"
+    ],
+    "novelty_collision_risk": "medium",
+    "required_revision": "Do not claim complete prior-art coverage."
+  },
+  {
+    "cluster": "Autoresearch",
+    "coverage_status": "adequate",
+    "best_sources": [
+      "Karpathy autoresearch"
+    ],
+    "missing_sources": [
+      "comparative evaluation of paper-readiness metric"
+    ],
+    "novelty_collision_risk": "medium",
+    "required_revision": "Frame as adaptation, not solved autonomous research."
+  },
+  {
+    "cluster": "Domain",
+    "coverage_status": "weak",
+    "best_sources": [
+      "Azuonye 1992",
+      "Omniglot overview"
+    ],
+    "missing_sources": [
+      "primary source chart/transcription review",
+      "expert review"
+    ],
+    "novelty_collision_risk": "high",
+    "required_revision": "Keep Nwagu Aneke count claims source-layer and pending review."
+  }
+]

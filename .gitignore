@@ -26,8 +26,24 @@ research/icegov/sources/reports/
 .obsidian/cache
 .obsidian/plugins/*/data.json
 
+# Local provider/session config must not define the public research protocol
+.claude/
+
 # Downloader logs / manifest (optional — you may want to commit manifest)
 sources/downloader.log
+
+# Research build/scratch artifacts
+research/**/*.aux
+research/**/*.out
+research/**/*.toc
+research/**/*.synctex.gz
+research/icegov/paper/*.log
+research/icegov/paper/temp_*.tex
+research/icegov/paper/test_*.tex
+research/icegov/paper/diff.txt
+
+# External audit worktrees are read-only scratch clones; keep only metadata and reports.
+external_audits/**/repos/
 
 # OS
 .DS_Store
@@ -37,8 +53,15 @@ Thumbs.db
 .venv/
 venv/
 .env
+.env.*
+!.env.example
+!.env.*.example
 .vscode/
 *.swp
+
+# Frontend dependencies and build output
+node_modules/
+.next/
 
 # Research Spine
 spine/.env

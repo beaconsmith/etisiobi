@@ -8,14 +8,44 @@
 
 ---
 
+## Reset Rule
+
+All PAGC claims are false until proven. The `27×8`, E₆, universal-compression, and genetic-code claims are hypotheses that must pass source, extraction, and falsification gates before they are used as positive claims.
+
+Primary source archive: [`primary_sources/nwagu_aneke/`](primary_sources/nwagu_aneke/). Reset note: [`PAGC_RESET.md`](PAGC_RESET.md). Derived formalization lane: [`DERIVED_HYPOTHESIS_CHARTER.md`](DERIVED_HYPOTHESIS_CHARTER.md).
+
+---
+
 ## What Is PAGC?
 
-The **Principle of Ancestral Generative Compression (PAGC)** is a 27-base × 8-modifier generative matrix (216 tokens total) with:
-- A **lexical cache** of high-frequency moral/equity terms
-- **Surface variation tolerance** — multiple surface forms from one deep structure
-- **Deliberate redundancy** encoding robustness
+The **Principle of Ancestral Generative Compression (PAGC)** is now treated as a hypothesis program, not an established theory. It investigates whether the Nwagụ Aneke Igbo syllabary supports a source-derived base/modifier structure and whether any such structure has measurable value for Igbo tokenization, compression, memory, or representation tasks.
 
-Origin: the **Nwagu Aneke syllabary**, an indigenous Igbo script invented c.1958 by Ogbuevi Nwagụ Aneke of Umuleri, Anambra State, Nigeria, who claimed the symbols were revealed by ancestral spirits. Aneke wrote 100+ exercise books of anti-colonial messages in the script before his death in 1991.
+The program now separates four lanes: source truth, formalization, experiment,
+and transfer. Source claims remain strict; derived formal hypotheses are allowed
+as modern research constructions when they define their rules, baselines, and
+kill conditions.
+
+Current formalization record:
+[`DH-001: Derived 27 x 8 Completion`](hypotheses/DH-001-derived-27x8-completion.md)
+is `PARKED_BY_GLOBAL_BENCHMARK_GATE` after a constructed role-recovery baseline,
+a source-promotion counterexample screen, a source-record/adversarial screen,
+and a global benchmark gate. It is not source evidence, a historical claim, or a
+paper candidate.
+
+Current strongest experimental branch:
+[`DH-003: Layer-Promotion Error Benchmark`](hypotheses/DH-003-layer-promotion-error-benchmark.md)
+is `INTERNAL_KNOWLEDGE_BREAKTHROUGH` after producing ten bounded
+benchmark-design knowledge units in
+`experiments/EXP-DH-003-layer-promotion-knowledge-benchmark/`. Its claim ceiling
+is internal repo knowledge, not public benchmark or paper-candidate status.
+
+Unproven working claims include:
+- `27×8` as a source-derived matrix
+- a lexical cache of high-frequency moral/equity terms
+- surface variation tolerance
+- deliberate redundancy as robustness
+
+Origin: the **Nwagụ Aneke syllabary**, an indigenous Igbo script invented c.1958 by Ogbuevi Nwagụ Aneke of Umuleri, Anambra State, Nigeria. The source archive has started, but the repository has not yet completed symbol transcription or inventory validation.
 
 Full background: [`paper/kb/nwagu_aneke_syllabary.md`](paper/kb/nwagu_aneke_syllabary.md)
 

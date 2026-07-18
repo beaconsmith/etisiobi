@@ -1,0 +1,20 @@
+{"query_id": "Q-001", "query": "base modifier cache symbolic annotation", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": []}
+{"query_id": "Q-002", "query": "base modifier cache glyph", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": []}
+{"query_id": "Q-003", "query": "base modifier TEI IIIF", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": []}
+{"query_id": "Q-004", "query": "base modifier knowledge graph provenance", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": []}
+{"query_id": "Q-005", "query": "symbolic inventory reconstruction provenance annotation", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": []}
+{"query_id": "Q-006", "query": "glyph annotation TEI IIIF provenance", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": ["EXT-0005", "EXT-0007", "EXT-0008", "EXT-0020", "EXT-0021"]}
+{"query_id": "Q-007", "query": "glyph inventory knowledge graph certainty", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": ["EXT-0007", "EXT-0021", "EXT-0023", "EXT-0024"]}
+{"query_id": "Q-008", "query": "symbolic grammar induction glyph cultural heritage", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": []}
+{"query_id": "Q-009", "query": "minimum description length symbolic inventory", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": []}
+{"query_id": "Q-010", "query": "claim gating research paper generation provenance", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": []}
+{"query_id": "Q-011", "query": "PROV-O provenance ontology W3C recommendation", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": ["EXT-0001", "EXT-0022"]}
+{"query_id": "Q-012", "query": "RO-Crate research object metadata specification", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": ["EXT-0003", "EXT-0004", "EXT-0013", "EXT-0017", "EXT-0023"]}
+{"query_id": "Q-013", "query": "IIIF Presentation API Manifest Canvas annotation", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": ["EXT-0005", "EXT-0020", "EXT-0024"]}
+{"query_id": "Q-014", "query": "TEI Guidelines manuscript encoding glyph", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": ["EXT-0004", "EXT-0006", "EXT-0007"]}
+{"query_id": "Q-015", "query": "W3C Web Annotation Data Model annotation body target motivation", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": ["EXT-0002", "EXT-0008"]}
+{"query_id": "Q-016", "query": "CIDOC CRM cultural heritage ontology knowledge graph", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": ["EXT-0009", "EXT-0010"]}
+{"query_id": "Q-017", "query": "FAIR principles research data provenance metadata", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": ["EXT-0011", "EXT-0012"]}
+{"query_id": "Q-018", "query": "DataCite Metadata Schema research output DOI", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": ["EXT-0013"]}
+{"query_id": "Q-019", "query": "Karpathy autoresearch GitHub", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": ["EXT-0017"]}
+{"query_id": "Q-020", "query": "Nwagu Aneke Azuonye 1992", "timestamp": "2026-05-28T10:30:56+00:00", "network_status": "available", "top_result_source_ids": ["EXT-0018", "EXT-0019"]}

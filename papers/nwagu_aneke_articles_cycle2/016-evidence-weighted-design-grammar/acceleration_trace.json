@@ -1,0 +1,19 @@
+{
+  "article_id": "ARTICLE-NA-016",
+  "cycle": 2,
+  "builds_on": [
+    "ARTICLE-NA-002",
+    "ARTICLE-NA-003",
+    "ARTICLE-NA-004",
+    "ARTICLE-NA-009",
+    "ARTICLE-NA-010"
+  ],
+  "new_research_operation": "design grammar rules can be weighted by source status rather than flattened into one generative system",
+  "storm_transfer": [
+    "perspective_guided_questions",
+    "simulated_review_turns",
+    "outline_quality_audit",
+    "red_herring_audit"
+  ],
+  "next_experiment": "External hardening or empirical follow-up for ARTICLE-NA-016"
+}

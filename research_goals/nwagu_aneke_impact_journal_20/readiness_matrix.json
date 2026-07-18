@@ -1,0 +1,294 @@
+{
+  "status": "ALL_20_HARDENING_PLANNED_NOT_IMPACT_READY",
+  "generated_at": "2026-06-27",
+  "external_accepted_papers": 0,
+  "internal_research_papers": 20,
+  "arxiv_quality_gate": {
+    "status": "ARXIV_QUALITY_GATE_PASS",
+    "passed": 6,
+    "checked": 20
+  },
+  "required_files_per_article": [
+    "arxiv_quality_candidate.json",
+    "external_prior_art_audit.md",
+    "article_specific_experiment.md",
+    "figures_tables_manifest.json",
+    "human_source_review.md",
+    "rights_submission_clearance.md",
+    "reviewer2_response_plan.md"
+  ],
+  "shared_blockers": [
+    "human_source_review_missing",
+    "rights_submission_clearance_missing",
+    "external_prior_art_audit_missing",
+    "article_specific_result_missing_or_insufficient",
+    "internal_process_language_present",
+    "manuscript_depth_below_impact_threshold",
+    "citation_depth_below_impact_threshold"
+  ],
+  "lanes": {
+    "A_first_hardening": ["ARTICLE-NA-002", "ARTICLE-NA-010"],
+    "B_working_draft_upgrade": [
+      "ARTICLE-NA-001",
+      "ARTICLE-NA-003",
+      "ARTICLE-NA-004",
+      "ARTICLE-NA-005",
+      "ARTICLE-NA-006",
+      "ARTICLE-NA-007",
+      "ARTICLE-NA-008",
+      "ARTICLE-NA-009"
+    ],
+    "C_quarantine_rebuild": [
+      "ARTICLE-NA-011",
+      "ARTICLE-NA-012",
+      "ARTICLE-NA-013",
+      "ARTICLE-NA-014",
+      "ARTICLE-NA-015",
+      "ARTICLE-NA-016",
+      "ARTICLE-NA-017",
+      "ARTICLE-NA-018",
+      "ARTICLE-NA-019",
+      "ARTICLE-NA-020"
+    ]
+  },
+  "articles": [
+    {
+      "id": "ARTICLE-NA-001",
+      "lane": "B_working_draft_upgrade",
+      "slug": "001-source-critical-reconstruction",
+      "target_result": "source ledger completeness, uncertainty taxonomy, and falsification table",
+      "current_status": "STRUCTURAL_ARXIV_QUALITY_PASS_HUMAN_GATES_OPEN",
+      "evidence_pack_files_started": [
+        "external_prior_art_audit.md",
+        "article_specific_experiment.md",
+        "figures_tables_manifest.json",
+        "human_source_review.md",
+        "rights_submission_clearance.md",
+        "reviewer2_response_plan.md",
+        "arxiv_quality_candidate.json"
+      ],
+      "remaining_blockers": [
+        "human source review not attached",
+        "rights and submission clearance not attached",
+        "deeper source-critical prior-art audit requires domain expert review",
+        "adversarial journal review required",
+        "journal venue decision required"
+      ]
+    },
+    {
+      "id": "ARTICLE-NA-002",
+      "lane": "A_first_hardening",
+      "slug": "002-count-layer-drift",
+      "target_result": "reproducible count-layer audit separating source-observed 26 x 8 evidence from derived f/v expansion",
+      "current_status": "STRUCTURAL_ARXIV_QUALITY_PASS_HUMAN_GATES_OPEN",
+      "evidence_pack_files_started": [
+        "external_prior_art_audit.md",
+        "article_specific_experiment.md",
+        "figures_tables_manifest.json",
+        "human_source_review.md",
+        "rights_submission_clearance.md",
+        "reviewer2_response_plan.md",
+        "arxiv_quality_candidate.json"
+      ],
+      "remaining_blockers": [
+        "human source review not attached",
+        "rights and submission clearance not attached",
+        "deeper article-specific prior-art audit requires domain expert review",
+        "adversarial journal review required",
+        "journal venue decision required"
+      ]
+    },
+    {
+      "id": "ARTICLE-NA-003",
+      "lane": "B_working_draft_upgrade",
+      "slug": "003-f-v-hinge",
+      "target_result": "formal derived-layer audit showing when f/v split is permitted and when it is forbidden",
+      "current_status": "STRUCTURAL_ARXIV_QUALITY_PASS_HUMAN_GATES_OPEN",
+      "evidence_pack_files_started": [
+        "external_prior_art_audit.md",
+        "article_specific_experiment.md",
+        "figures_tables_manifest.json",
+        "human_source_review.md",
+        "rights_submission_clearance.md",
+        "reviewer2_response_plan.md",
+        "arxiv_quality_candidate.json"
+      ],
+      "remaining_blockers": [
+        "human source review not attached",
+        "rights and submission clearance not attached",
+        "deeper f/v and orthographic-modeling prior-art audit requires domain expert review",
+        "adversarial journal review required",
+        "journal venue decision required"
+      ]
+    },
+    {
+      "id": "ARTICLE-NA-004",
+      "lane": "B_working_draft_upgrade",
+      "slug": "004-logographs-in-a-syllabary",
+      "target_result": "lead-set audit of whole-word signs with source references and uncertainty classes",
+      "current_status": "STRUCTURAL_ARXIV_QUALITY_PASS_HUMAN_GATES_OPEN",
+      "evidence_pack_files_started": [
+        "external_prior_art_audit.md",
+        "article_specific_experiment.md",
+        "figures_tables_manifest.json",
+        "human_source_review.md",
+        "rights_submission_clearance.md",
+        "reviewer2_response_plan.md",
+        "arxiv_quality_candidate.json"
+      ],
+      "remaining_blockers": [
+        "human source review not attached",
+        "rights and submission clearance not attached",
+        "deeper logograph and digital-epigraphy prior-art audit requires domain expert review",
+        "adversarial journal review required",
+        "journal venue decision required"
+      ]
+    },
+    {
+      "id": "ARTICLE-NA-005",
+      "lane": "B_working_draft_upgrade",
+      "slug": "005-tei-iiif-critical-edition",
+      "target_result": "mapping table from source records to TEI, IIIF, Web Annotation, and provenance fields",
+      "current_status": "STRUCTURAL_ARXIV_QUALITY_PASS_HUMAN_GATES_OPEN",
+      "evidence_pack_files_started": [
+        "external_prior_art_audit.md",
+        "article_specific_experiment.md",
+        "figures_tables_manifest.json",
+        "human_source_review.md",
+        "rights_submission_clearance.md",
+        "reviewer2_response_plan.md",
+        "arxiv_quality_candidate.json"
+      ],
+      "remaining_blockers": [
+        "human source review not attached",
+        "rights and submission clearance not attached",
+        "deeper TEI/IIIF critical-edition prior-art audit requires domain expert review",
+        "adversarial journal review required",
+        "journal venue decision required"
+      ]
+    },
+    {
+      "id": "ARTICLE-NA-006",
+      "lane": "B_working_draft_upgrade",
+      "slug": "006-unicode-readiness",
+      "target_result": "Unicode-style evidence gap matrix with community review and character evidence categories",
+      "current_status": "WORKING_DRAFT_NEEDS_EVIDENCE"
+    },
+    {
+      "id": "ARTICLE-NA-007",
+      "lane": "B_working_draft_upgrade",
+      "slug": "007-manuscript-corpus-provenance",
+      "target_result": "CARE-first provenance ledger and public-release boundary analysis",
+      "current_status": "WORKING_DRAFT_NEEDS_EVIDENCE"
+    },
+    {
+      "id": "ARTICLE-NA-008",
+      "lane": "B_working_draft_upgrade",
+      "slug": "008-comparative-standardization",
+      "target_result": "comparative matrix against African script standardization cases and evidence thresholds",
+      "current_status": "WORKING_DRAFT_NEEDS_EVIDENCE"
+    },
+    {
+      "id": "ARTICLE-NA-009",
+      "lane": "B_working_draft_upgrade",
+      "slug": "009-igbo-tokenization",
+      "target_result": "downstream NLP task or negative-result baseline; tokenization alone is insufficient",
+      "current_status": "WORKING_DRAFT_NEEDS_EVIDENCE"
+    },
+    {
+      "id": "ARTICLE-NA-010",
+      "lane": "A_first_hardening",
+      "slug": "010-layer-safe-generative-design",
+      "target_result": "non-promotion invariant for generative design with layer-safety test results",
+      "current_status": "STRUCTURAL_ARXIV_QUALITY_PASS_HUMAN_GATES_OPEN",
+      "evidence_pack_files_started": [
+        "external_prior_art_audit.md",
+        "article_specific_experiment.md",
+        "figures_tables_manifest.json",
+        "human_source_review.md",
+        "rights_submission_clearance.md",
+        "reviewer2_response_plan.md",
+        "arxiv_quality_candidate.json"
+      ],
+      "remaining_blockers": [
+        "human source review not attached",
+        "rights and submission clearance not attached",
+        "expanded benchmark beyond seven synthetic cases required",
+        "deeper prior-art review against provenance/type-system/claim-verification literature required",
+        "adversarial journal review required",
+        "journal venue decision required"
+      ]
+    },
+    {
+      "id": "ARTICLE-NA-011",
+      "lane": "C_quarantine_rebuild",
+      "slug": "011-storm-question-compiler",
+      "target_result": "question-compiler evaluation with independent human scoring",
+      "current_status": "QUARANTINED_REBUILD_REQUIRED"
+    },
+    {
+      "id": "ARTICLE-NA-012",
+      "lane": "C_quarantine_rebuild",
+      "slug": "012-layer-promotion-error-benchmark",
+      "target_result": "layer-promotion benchmark with held-out examples and baseline comparison",
+      "current_status": "QUARANTINED_REBUILD_REQUIRED"
+    },
+    {
+      "id": "ARTICLE-NA-013",
+      "lane": "C_quarantine_rebuild",
+      "slug": "013-red-herring-audit",
+      "target_result": "red-herring audit with false-positive reduction measurement",
+      "current_status": "QUARANTINED_REBUILD_REQUIRED"
+    },
+    {
+      "id": "ARTICLE-NA-014",
+      "lane": "C_quarantine_rebuild",
+      "slug": "014-perspective-graph",
+      "target_result": "perspective graph with retrieval or review improvement metric",
+      "current_status": "QUARANTINED_REBUILD_REQUIRED"
+    },
+    {
+      "id": "ARTICLE-NA-015",
+      "lane": "C_quarantine_rebuild",
+      "slug": "015-source-to-system-transfer",
+      "target_result": "source-to-system transfer protocol with case-study validation",
+      "current_status": "QUARANTINED_REBUILD_REQUIRED"
+    },
+    {
+      "id": "ARTICLE-NA-016",
+      "lane": "C_quarantine_rebuild",
+      "slug": "016-evidence-weighted-design-grammar",
+      "target_result": "evidence-weighted design grammar with scored rule application",
+      "current_status": "QUARANTINED_REBUILD_REQUIRED"
+    },
+    {
+      "id": "ARTICLE-NA-017",
+      "lane": "C_quarantine_rebuild",
+      "slug": "017-authority-turn-taking",
+      "target_result": "authority-aware turn-taking protocol with human review outcomes",
+      "current_status": "QUARANTINED_REBUILD_REQUIRED"
+    },
+    {
+      "id": "ARTICLE-NA-018",
+      "lane": "C_quarantine_rebuild",
+      "slug": "018-oroma-research-bridge",
+      "target_result": "Oroma product-transfer risk ledger and rejected-claim audit",
+      "current_status": "QUARANTINED_REBUILD_REQUIRED"
+    },
+    {
+      "id": "ARTICLE-NA-019",
+      "lane": "C_quarantine_rebuild",
+      "slug": "019-recursive-portfolio-pruning",
+      "target_result": "portfolio pruning method with before/after quality and kill-decision metrics",
+      "current_status": "QUARANTINED_REBUILD_REQUIRED"
+    },
+    {
+      "id": "ARTICLE-NA-020",
+      "lane": "C_quarantine_rebuild",
+      "slug": "020-storm-etisiobi-accelerator",
+      "target_result": "accelerator synthesis after 011-019 produce validated results",
+      "current_status": "QUARANTINED_REBUILD_REQUIRED"
+    }
+  ],
+  "exact_next_action": "Start ARTICLE-NA-006 hardening: build the Unicode-readiness evidence gap matrix pack, add an article-specific experiment result bridge if needed, remove internal process framing from the manuscript, add explicit research question/hypothesis and source-review protocol, then rerun python scripts\\validate_arxiv_quality_gate.py."
+}

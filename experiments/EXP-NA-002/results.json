@@ -1,0 +1,27 @@
+{
+  "experiment_id": "EXP-NA-002",
+  "canonical_experiment_path": "experiments/EXP-NA-002-count-layer-ledger",
+  "generated_at": "2026-06-20T06:34:13+01:00",
+  "decision": "COUNT_LAYERS_RECONCILED_WITH_REVIEW_BLOCKERS",
+  "result_type": "source-critical count-layer audit",
+  "ledger_records": 7,
+  "ready_or_derived_records": 5,
+  "blocked_or_lead_records": 2,
+  "source_layer": {
+    "rows": 26,
+    "vowels": 8,
+    "records": 208
+  },
+  "derived_layer": {
+    "rows_if_f_v_split": 27,
+    "records_if_f_v_split": 216
+  },
+  "evidence_files": [
+    "experiments/EXP-NA-002-count-layer-ledger/results.json",
+    "experiments/EXP-NA-002-count-layer-ledger/analysis.md",
+    "experiments/EXP-NA-002-count-layer-ledger/decision.md",
+    "experiments/EXP-NA-002-count-layer-ledger/data/count_layer_ledger.csv",
+    "experiments/EXP-NA-002-count-layer-ledger/data/count_layer_ledger.jsonl"
+  ],
+  "claim_boundary": "Article 2 may report a layer-separated count audit, but external submission still needs human source review and rights clearance."
+}

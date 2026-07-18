@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Nwagu Aneke Symbol Inventory Record",
+  "type": "object",
+  "required": [
+    "record_id",
+    "record_type",
+    "label",
+    "source_path",
+    "maturity"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "record_type": {
+      "enum": [
+        "row_label",
+        "vowel_column",
+        "cell",
+        "logograph",
+        "aggregate",
+        "uncertain"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "glyph_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reading": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "row_label": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "vowel": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_path": {
+      "type": "string"
+    },
+    "source_locator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "observed_or_derived": {
+      "enum": [
+        "observed",
+        "derived",
+        "external",
+        "uncertain"
+      ]
+    },
+    "uncertainty": {
+      "type": "string"
+    },
+    "maturity": {
+      "enum": [
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "CX"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+Repository branch: \texttt{research-hyperloop/bootstrap}. Commit at generation: \texttt{d0c53f0}. Core commands:
+
+\begin{verbatim}
+python scripts/phase5_arxiv_ready.py
+python scripts/generate_paper_assets.py
+python scripts/validate_research_system.py
+python scripts/arxiv_check.py
+\end{verbatim}
+
+If available, the PDF text extraction command is:
+
+\begin{verbatim}
+pdftotext -layout -enc UTF-8 research/pagc/primary_sources/
+  nwagu_aneke/azuonye_1992.pdf experiments/EXP-0001-pagc-
+  base-inventory-resolution/logs/azuonye_1992_pdftotext.txt
+\end{verbatim}
+
+The expected outputs are the inventory observations JSONL, experiment result files, claim gate, generated tables, and \texttt{paper/arxiv\_package/}.

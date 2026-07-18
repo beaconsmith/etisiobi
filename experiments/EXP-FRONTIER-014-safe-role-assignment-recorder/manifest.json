@@ -1,0 +1,46 @@
+{
+  "experiment_id": "EXP-FRONTIER-014",
+  "atlas_id": "ATLAS-0043",
+  "status": "SAFE_ROLE_ASSIGNMENT_RECORDER_READY_NO_ASSIGNMENTS_RECORDED",
+  "decision": "prepare_safe_assignment_recording_without_identity_or_contact_data",
+  "claim_ceiling": "safe_role_assignment_recorder_not_assignment_completion",
+  "local_context": [
+    "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/manifest.json",
+    "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/reviewer_assignment_tracker.csv",
+    "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/conflict_of_interest_checklist.json",
+    "experiments/EXP-FRONTIER-012-repository-boundary-review/reviewer_questions.csv",
+    "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/contact_approval/contact_approval_manifest.json"
+  ],
+  "external_actions_taken": [],
+  "dependencies_installed": false,
+  "reviewer_identities_recorded": false,
+  "private_contact_data_recorded": false,
+  "approved_assignments_recorded": false,
+  "invitations_sent": false,
+  "reviews_collected": false,
+  "adjudication_completed": false,
+  "public_package_approved": false,
+  "public_release_claimed": false,
+  "software_heritage_request_made": false,
+  "archive_identifier_claimed": false,
+  "allowed_record_fields": [
+    "assignment_id",
+    "review_role",
+    "reviewer_ref",
+    "selection_basis",
+    "approval_record_ref",
+    "contact_data_location",
+    "private_contact_data_in_repo",
+    "assignment_status",
+    "scope"
+  ],
+  "blocked_promotions": [
+    "reviewer assignment completion claim",
+    "review completion claim",
+    "private contact data in repo",
+    "public repository package",
+    "Software Heritage archive action",
+    "rights or authority clearance claim"
+  ],
+  "exact_next_action": "When human selections exist outside the repo, add only non-private approved role-assignment rows to approved_role_assignments.jsonl using pseudonymous reviewer references."
+}

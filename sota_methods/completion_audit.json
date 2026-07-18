@@ -1,0 +1,205 @@
+{
+  "status": "complete",
+  "passed": 33,
+  "total": 33,
+  "checks": [
+    {
+      "requirement": "SOTA-01 decision trace has >=5 decisions",
+      "passed": true,
+      "evidence": "decisions/decision_log.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-01 every decision has required trace fields",
+      "passed": true,
+      "evidence": "decisions/decision_log.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-01 approval/legal decision is represented",
+      "passed": true,
+      "evidence": "decisions/decision_log.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-02 provenance graph has entities",
+      "passed": true,
+      "evidence": "provenance/prov_graph.jsonld",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-02 provenance graph has activities",
+      "passed": true,
+      "evidence": "provenance/prov_graph.jsonld",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-02 provenance graph has agent association",
+      "passed": true,
+      "evidence": "provenance/prov_graph.jsonld",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-03 RO-Crate has root dataset",
+      "passed": true,
+      "evidence": "ro_crate/ro-crate-metadata.json",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-03 RO-Crate has file parts",
+      "passed": true,
+      "evidence": "ro_crate/ro-crate-metadata.json",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-03 RO-Crate file checksums match",
+      "passed": true,
+      "evidence": "ro_crate/ro-crate-metadata.json",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-04 IIIF manifest is a Manifest with canvases",
+      "passed": true,
+      "evidence": "artifacts/nwagu_aneke/iiif/manifest.json",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-04 TEI parses as XML",
+      "passed": true,
+      "evidence": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-04 TEI includes row and vowel inventories",
+      "passed": true,
+      "evidence": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-05 glyph annotation seeds 26 row labels",
+      "passed": true,
+      "evidence": "annotations/nwagu_aneke/glyph_annotations.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-05 cell grid seeds 208 row-column cells",
+      "passed": true,
+      "evidence": "annotations/nwagu_aneke/cell_grid_todo.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-05 annotation records carry review status",
+      "passed": true,
+      "evidence": "annotations/nwagu_aneke/glyph_annotations.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-06 systematic review has >=2 protocols",
+      "passed": true,
+      "evidence": "systematic_reviews/review_protocols.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-06 protocols include queries/inclusion/exclusion",
+      "passed": true,
+      "evidence": "systematic_reviews/review_protocols.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-07 certainty records cover corpus claims",
+      "passed": true,
+      "evidence": "certainty/evidence_certainty.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-07 certainty scores are bounded",
+      "passed": true,
+      "evidence": "certainty/evidence_certainty.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-08 lineage tracks >=5 datasets/artifacts",
+      "passed": true,
+      "evidence": "lineage/data_lineage.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-08 lineage checksums match current files",
+      "passed": true,
+      "evidence": "lineage/data_lineage.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-09 experiment registry tracks >=4 runs",
+      "passed": true,
+      "evidence": "experiment_tracking/runs.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-09 experiment records include status and artifacts",
+      "passed": true,
+      "evidence": "experiment_tracking/runs.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-10 knowledge graph has nodes and relations",
+      "passed": true,
+      "evidence": "knowledge_graph/etisiobi_kg.jsonld",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-10 KG links PAGC to Nwagu Aneke",
+      "passed": true,
+      "evidence": "knowledge_graph/etisiobi_kg.jsonld",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-11 observability has >=5 spans",
+      "passed": true,
+      "evidence": "observability/agent_trace.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-11 spans share a trace id",
+      "passed": true,
+      "evidence": "observability/agent_trace.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-12 authority register has approval record",
+      "passed": true,
+      "evidence": "authority/approval_register.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-12 approval records research approval and legal consent",
+      "passed": true,
+      "evidence": "authority/approval_register.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-13 benchmark registry has >=2 benchmarks",
+      "passed": true,
+      "evidence": "benchmarks/benchmark_registry.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-13 benchmarks define baselines, metrics, data requirements",
+      "passed": true,
+      "evidence": "benchmarks/benchmark_registry.jsonl",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-14 release manifest files exist and checksums match",
+      "passed": true,
+      "evidence": "release/release_manifest.json",
+      "gap": ""
+    },
+    {
+      "requirement": "SOTA-14 citation and DataCite metadata exist",
+      "passed": true,
+      "evidence": "CITATION.cff; release/datacite_metadata.json",
+      "gap": ""
+    }
+  ]
+}

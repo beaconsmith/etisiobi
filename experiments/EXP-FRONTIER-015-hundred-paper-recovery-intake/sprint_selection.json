@@ -1,0 +1,20 @@
+{
+  "selection_status": "seed_selection_only_not_execution",
+  "selected_seed_ids": [
+    "NWR-001",
+    "NWR-009",
+    "NWR-017",
+    "NWR-025",
+    "NWR-033",
+    "NWR-041",
+    "NWR-049",
+    "NWR-057",
+    "NWR-065",
+    "NWR-073",
+    "NWR-081",
+    "NWR-089"
+  ],
+  "selection_basis": "one seed from each lab lane to preserve breadth while moving the next pass toward concrete artifacts",
+  "external_actions_taken": [],
+  "exact_next_action": "Create one bounded artifact for each selected seed while keeping every output at seed or intake level."
+}

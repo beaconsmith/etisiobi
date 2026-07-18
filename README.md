@@ -18,21 +18,24 @@ The Beaconsmith Collective is a creative-technology studio based in **Enugu, Sou
 ### 1. ICegov / OGI Framework
 **Oroma Governance Indicator Framework** — measuring community-led digital governance success in Southeast Nigeria.
 
-> Submitting to **ICEGOV 2026, Track 6** (New Metrics and Approaches for Measuring Digital Governance Success). Deadline: April 24, 2026.
+> ICEGOV 2026 Track 6 research archive. Current submission state is tracked in `research/PORTFOLIO.md` and the paper-specific files under `research/icegov/paper/`.
 
 | Resource | Location |
 |----------|----------|
-| Paper draft (v2, score 4.70/5) | [`research/icegov/paper/OGI_PAPER_DRAFT_v2.md`](research/icegov/paper/OGI_PAPER_DRAFT_v2.md) |
+| Current program status | [`research/PORTFOLIO.md`](research/PORTFOLIO.md) |
+| Canonical paper archive | [`research/icegov/paper/`](research/icegov/paper/) |
 | Knowledge wiki | [`research/icegov/WIKI.md`](research/icegov/WIKI.md) |
 | Source index (124 sources) | [`research/icegov/INDEX.md`](research/icegov/INDEX.md) |
 
 ### 2. PAGC
-**Principle of Ancestral Generative Compression** — cross-disciplinary study of the 27-base × 8-modifier matrix originating from the Nwagu Aneke Igbo syllabary.
+**Principle of Ancestral Generative Compression** — source-first investigation of hypotheses derived from the Nwagụ Aneke Igbo syllabary. All `27×8`, E₆, universal-compression, and cross-domain claims are treated as false until supported by archived sources, extraction methods, and falsification tests.
 
 | Resource | Location |
 |----------|----------|
 | Discipline rankings (17 disciplines) | [`research/pagc/INDEX.md`](research/pagc/INDEX.md) |
 | Knowledge wiki | [`research/pagc/WIKI.md`](research/pagc/WIKI.md) |
+| Reset and source gate | [`research/pagc/PAGC_RESET.md`](research/pagc/PAGC_RESET.md) |
+| Nwagụ Aneke source archive | [`research/pagc/primary_sources/nwagu_aneke/`](research/pagc/primary_sources/nwagu_aneke/) |
 | BPE Igbo k=27 experiment | [`experiments/01_bpe_igbo_k27/`](experiments/01_bpe_igbo_k27/) |
 | Sovereign Memory RL simulation | [`experiments/05_sovereign_memory_rl/`](experiments/05_sovereign_memory_rl/) |
 
@@ -42,18 +45,36 @@ The Beaconsmith Collective is a creative-technology studio based in **Enugu, Sou
 
 ```
 etisiobi/
-├── CLAUDE.md          ← Studio harness (loaded every Claude Code session)
+├── AGENTS.md          ← Studio rules (loaded every agent session)
+├── README.md          ← You are here
+├── CONTRIBUTING.md    ← Research workflow and folder standards
 ├── log.md             ← Append-only studio research log
+│
 ├── research/
-│   ├── icegov/        ← OGI Framework: paper, sources, wiki, synthesis
-│   └── pagc/          ← PAGC: disciplines, paper, sources, experiments
+│   ├── icegov/        ← OGI Framework (ICEGOV 2026 Submission)
+│   ├── icegov_2026/   ← Seven upcoming research tracks
+│   └── pagc/          ← Principle of Ancestral Generative Compression
+│
+├── library/           ← Global research library (PDFs, indices, manifests)
 ├── experiments/       ← Active empirical experiments
-└── skills/            ← Reusable research methodology skills (fat markdowns)
-    ├── autoresearch.md
-    ├── literature-sweep.md
-    ├── indicator-framework.md
-    └── paper-writing.md
+├── spine/             ← Research Infrastructure (The Spine)
+└── skills/            ← Reusable research methodology skills
 ```
+
+Sibling internal tool: `../beaconos` contains BeaconOS, the Beaconsmith command dashboard that bridges Etisiobi and Oroma.
+
+## Upcoming Research Tracks (ICEGOV 2026)
+
+We are currently running deep research loops for the following tracks:
+
+1. **Track 11 (Global South)**: *Beyond State-Centric E-Government: Community Institutions as Engines of Digital Transformation in Southeast Nigeria*
+2. **Track 1 (Trust)**: *From Recall to Receipts: Building Trust in Community Governance through Artifact-First Digital Records*
+3. **Track 5 (Emerging Tech)**: *Verifiable Community Treasury Operations on Bitcoin Rails: A Design Framework for Transparent Collective Finance*
+4. **Track 7 (DPI)**: *Community-Led Digital Public Infrastructure for Low-Trust Environments: Payments, Records, and Coordination Beyond the State*
+5. **Track 2 (Sovereignty)**: *Digital Sovereignty and Institutional Memory in Community Governance: Designing Resilient Records for Informal Associations*
+6. **Track 12 (Experiments)**: *Early Evidence from a Community Operating System for Verifiable Local Governance*
+7. **Track 10 (Policy)**: *Governing Community Financial Coordination Platforms: Public-Private Lessons from a Bitcoin-Native Governance Stack*
+
 
 ---
 
@@ -61,7 +82,7 @@ etisiobi/
 
 **Karpathy autoresearch loop** (metric-driven iteration) + **Orchestra Research Skills** (fat markdown skills) + **gstack ETHOS** (boil the lake, search before building, user sovereignty).
 
-See [`CLAUDE.md`](CLAUDE.md) for session instructions.
+See [`AGENTS.md`](AGENTS.md) and [`research/AGENTS.md`](research/AGENTS.md) for provider-neutral session instructions.
 
 ---
 

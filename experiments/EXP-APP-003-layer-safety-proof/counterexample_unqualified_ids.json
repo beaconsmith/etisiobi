@@ -1,0 +1,646 @@
+{
+  "meaning": "Local token IDs collide across layers. A system keyed only by token_id can confuse source and derived objects.",
+  "collision_count": 200,
+  "collisions_sample": [
+    {
+      "local_token_id": "NA-CELL-01-01",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-01-01",
+          "layer": "source_observed",
+          "base": "b",
+          "modifier": "a",
+          "reading": "ba",
+          "source_bmc_id": "BMC-000001",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-01-01",
+          "layer": "derived_fv_split",
+          "base": "b",
+          "modifier": "a",
+          "reading": "ba",
+          "source_bmc_id": "BMC-000001",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-01-02",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-01-02",
+          "layer": "source_observed",
+          "base": "b",
+          "modifier": "i",
+          "reading": "bi",
+          "source_bmc_id": "BMC-000002",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-01-02",
+          "layer": "derived_fv_split",
+          "base": "b",
+          "modifier": "i",
+          "reading": "bi",
+          "source_bmc_id": "BMC-000002",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-01-03",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-01-03",
+          "layer": "source_observed",
+          "base": "b",
+          "modifier": "o",
+          "reading": "bo",
+          "source_bmc_id": "BMC-000003",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-01-03",
+          "layer": "derived_fv_split",
+          "base": "b",
+          "modifier": "o",
+          "reading": "bo",
+          "source_bmc_id": "BMC-000003",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-01-04",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-01-04",
+          "layer": "source_observed",
+          "base": "b",
+          "modifier": "u",
+          "reading": "bu",
+          "source_bmc_id": "BMC-000004",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-01-04",
+          "layer": "derived_fv_split",
+          "base": "b",
+          "modifier": "u",
+          "reading": "bu",
+          "source_bmc_id": "BMC-000004",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-01-05",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-01-05",
+          "layer": "source_observed",
+          "base": "b",
+          "modifier": "e",
+          "reading": "be",
+          "source_bmc_id": "BMC-000005",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-01-05",
+          "layer": "derived_fv_split",
+          "base": "b",
+          "modifier": "e",
+          "reading": "be",
+          "source_bmc_id": "BMC-000005",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-01-06",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-01-06",
+          "layer": "source_observed",
+          "base": "b",
+          "modifier": "ị",
+          "reading": "bị",
+          "source_bmc_id": "BMC-000006",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-01-06",
+          "layer": "derived_fv_split",
+          "base": "b",
+          "modifier": "ị",
+          "reading": "bị",
+          "source_bmc_id": "BMC-000006",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-01-07",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-01-07",
+          "layer": "source_observed",
+          "base": "b",
+          "modifier": "ọ",
+          "reading": "bọ",
+          "source_bmc_id": "BMC-000007",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-01-07",
+          "layer": "derived_fv_split",
+          "base": "b",
+          "modifier": "ọ",
+          "reading": "bọ",
+          "source_bmc_id": "BMC-000007",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-01-08",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-01-08",
+          "layer": "source_observed",
+          "base": "b",
+          "modifier": "ụ",
+          "reading": "bụ",
+          "source_bmc_id": "BMC-000008",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-01-08",
+          "layer": "derived_fv_split",
+          "base": "b",
+          "modifier": "ụ",
+          "reading": "bụ",
+          "source_bmc_id": "BMC-000008",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-02-01",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-02-01",
+          "layer": "source_observed",
+          "base": "ch",
+          "modifier": "a",
+          "reading": "cha",
+          "source_bmc_id": "BMC-000009",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-02-01",
+          "layer": "derived_fv_split",
+          "base": "ch",
+          "modifier": "a",
+          "reading": "cha",
+          "source_bmc_id": "BMC-000009",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-02-02",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-02-02",
+          "layer": "source_observed",
+          "base": "ch",
+          "modifier": "i",
+          "reading": "chi",
+          "source_bmc_id": "BMC-000010",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-02-02",
+          "layer": "derived_fv_split",
+          "base": "ch",
+          "modifier": "i",
+          "reading": "chi",
+          "source_bmc_id": "BMC-000010",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-02-03",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-02-03",
+          "layer": "source_observed",
+          "base": "ch",
+          "modifier": "o",
+          "reading": "cho",
+          "source_bmc_id": "BMC-000011",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-02-03",
+          "layer": "derived_fv_split",
+          "base": "ch",
+          "modifier": "o",
+          "reading": "cho",
+          "source_bmc_id": "BMC-000011",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-02-04",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-02-04",
+          "layer": "source_observed",
+          "base": "ch",
+          "modifier": "u",
+          "reading": "chu",
+          "source_bmc_id": "BMC-000012",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-02-04",
+          "layer": "derived_fv_split",
+          "base": "ch",
+          "modifier": "u",
+          "reading": "chu",
+          "source_bmc_id": "BMC-000012",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-02-05",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-02-05",
+          "layer": "source_observed",
+          "base": "ch",
+          "modifier": "e",
+          "reading": "che",
+          "source_bmc_id": "BMC-000013",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-02-05",
+          "layer": "derived_fv_split",
+          "base": "ch",
+          "modifier": "e",
+          "reading": "che",
+          "source_bmc_id": "BMC-000013",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-02-06",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-02-06",
+          "layer": "source_observed",
+          "base": "ch",
+          "modifier": "ị",
+          "reading": "chị",
+          "source_bmc_id": "BMC-000014",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-02-06",
+          "layer": "derived_fv_split",
+          "base": "ch",
+          "modifier": "ị",
+          "reading": "chị",
+          "source_bmc_id": "BMC-000014",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-02-07",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-02-07",
+          "layer": "source_observed",
+          "base": "ch",
+          "modifier": "ọ",
+          "reading": "chọ",
+          "source_bmc_id": "BMC-000015",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-02-07",
+          "layer": "derived_fv_split",
+          "base": "ch",
+          "modifier": "ọ",
+          "reading": "chọ",
+          "source_bmc_id": "BMC-000015",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-02-08",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-02-08",
+          "layer": "source_observed",
+          "base": "ch",
+          "modifier": "ụ",
+          "reading": "chụ",
+          "source_bmc_id": "BMC-000016",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-02-08",
+          "layer": "derived_fv_split",
+          "base": "ch",
+          "modifier": "ụ",
+          "reading": "chụ",
+          "source_bmc_id": "BMC-000016",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-03-01",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-03-01",
+          "layer": "source_observed",
+          "base": "d",
+          "modifier": "a",
+          "reading": "da",
+          "source_bmc_id": "BMC-000017",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-03-01",
+          "layer": "derived_fv_split",
+          "base": "d",
+          "modifier": "a",
+          "reading": "da",
+          "source_bmc_id": "BMC-000017",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-03-02",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-03-02",
+          "layer": "source_observed",
+          "base": "d",
+          "modifier": "i",
+          "reading": "di",
+          "source_bmc_id": "BMC-000018",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-03-02",
+          "layer": "derived_fv_split",
+          "base": "d",
+          "modifier": "i",
+          "reading": "di",
+          "source_bmc_id": "BMC-000018",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-03-03",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-03-03",
+          "layer": "source_observed",
+          "base": "d",
+          "modifier": "o",
+          "reading": "do",
+          "source_bmc_id": "BMC-000019",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-03-03",
+          "layer": "derived_fv_split",
+          "base": "d",
+          "modifier": "o",
+          "reading": "do",
+          "source_bmc_id": "BMC-000019",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    },
+    {
+      "local_token_id": "NA-CELL-03-04",
+      "layers": [
+        "derived_fv_split",
+        "source_observed"
+      ],
+      "count": 2,
+      "example_objects": [
+        {
+          "token_id": "NA-CELL-03-04",
+          "layer": "source_observed",
+          "base": "d",
+          "modifier": "u",
+          "reading": "du",
+          "source_bmc_id": "BMC-000020",
+          "source_observed": true,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        },
+        {
+          "token_id": "NA-CELL-03-04",
+          "layer": "derived_fv_split",
+          "base": "d",
+          "modifier": "u",
+          "reading": "du",
+          "source_bmc_id": "BMC-000020",
+          "source_observed": false,
+          "derived_rule": null,
+          "design_use": "system primitive candidate"
+        }
+      ]
+    }
+  ]
+}

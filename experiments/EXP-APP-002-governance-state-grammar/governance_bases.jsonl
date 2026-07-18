@@ -1,0 +1,6 @@
+{"base_id": "GOV-BASE-001", "base": "Proposal", "source": "research/papers/community-os-pilot sections; OGI proposal indicators", "meaning": "A community decision candidate that must move through deliberation and closure states."}
+{"base_id": "GOV-BASE-002", "base": "TreasuryMovement", "source": "TTI-01/TTI-02 indicator definitions", "meaning": "A contribution, disbursement, hold, or solvency proof event tied to authorizing evidence."}
+{"base_id": "GOV-BASE-003", "base": "DisputeCase", "source": "DRL-01/DRL-02/DRL-03 indicator definitions", "meaning": "A conflict or adjudication object requiring claims, evidence, findings, resolution, and closure."}
+{"base_id": "GOV-BASE-004", "base": "IchiCredential", "source": "CPS-01 indicator and community-os-pilot paper", "meaning": "A portable membership/standing credential backed by governance-event evidence."}
+{"base_id": "GOV-BASE-005", "base": "ParticipantOnboarding", "source": "FID-01 indicator definition", "meaning": "A wallet/member creation event with consented first-time-participation signal."}
+{"base_id": "GOV-BASE-006", "base": "Record", "source": "CAS-01 and RV-01 evidence classes", "meaning": "A verifiable community record with export/provenance status."}

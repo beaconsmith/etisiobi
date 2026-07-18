@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-05-28T10:30:56+00:00",
+  "dimensions": [
+    {
+      "dimension": "Source localization",
+      "external_baseline": "IIIF Presentation API + TEI locators",
+      "local_capability": "BMC records link each cell to a TEI locator and IIIF canvas.",
+      "local_gap": "No reviewed pixel/region selectors yet.",
+      "experiment_to_close_gap": "Add Web Annotation SpecificResource selectors for reviewed chart regions.",
+      "paper_relevance": "Shows BMC is standards-compatible but not replacing IIIF/TEI.",
+      "novelty_signal": "medium",
+      "risk": "medium"
+    },
+    {
+      "dimension": "Annotation model",
+      "external_baseline": "W3C Web Annotation body/target/motivation",
+      "local_capability": "BMC stores annotation identity, source target, row/vowel body, and review status.",
+      "local_gap": "Needs full Web Annotation JSON-LD export.",
+      "experiment_to_close_gap": "Generate BMC-to-Web-Annotation conversion.",
+      "paper_relevance": "Limits novelty of BMC-as-cache; strengthens pipeline-integration claim.",
+      "novelty_signal": "weak",
+      "risk": "high"
+    },
+    {
+      "dimension": "Provenance",
+      "external_baseline": "PROV-O entities, activities, agents",
+      "local_capability": "BMC links provenance activity, lineage checksum, and claim dependencies.",
+      "local_gap": "BMC records are not fully serialized as PROV-O RDF.",
+      "experiment_to_close_gap": "Export BMC PROV-O JSON-LD graph.",
+      "paper_relevance": "BMC extends provenance into claim gates.",
+      "novelty_signal": "medium",
+      "risk": "medium"
+    },
+    {
+      "dimension": "Research object packaging",
+      "external_baseline": "RO-Crate",
+      "local_capability": "Repo has RO-Crate-like packaging and release manifest.",
+      "local_gap": "Selected paper package is not a formally profiled BMC RO-Crate yet.",
+      "experiment_to_close_gap": "Create BMC RO-Crate profile.",
+      "paper_relevance": "Supports reproducibility but not novelty alone.",
+      "novelty_signal": "weak",
+      "risk": "medium"
+    },
+    {
+      "dimension": "Cultural heritage ontology",
+      "external_baseline": "CIDOC CRM",
+      "local_capability": "BMC KG has artifact, dataset, base, modifier, and BMC object nodes.",
+      "local_gap": "No CIDOC CRM class/property mapping has been validated.",
+      "experiment_to_close_gap": "Map BMC objects to CIDOC entities and interpretation events.",
+      "paper_relevance": "Authority-aware reconstruction needs cultural heritage semantics.",
+      "novelty_signal": "medium",
+      "risk": "medium"
+    },
+    {
+      "dimension": "FAIR/data citation",
+      "external_baseline": "FAIR + DataCite",
+      "local_capability": "Release metadata, CFF, checksums, and source registry exist.",
+      "local_gap": "Public data release is blocked by rights/authority review.",
+      "experiment_to_close_gap": "Attach authority documents and rights review.",
+      "paper_relevance": "Justifies draft-only readiness status.",
+      "novelty_signal": "weak",
+      "risk": "high"
+    },
+    {
+      "dimension": "Autoresearch",
+      "external_baseline": "Karpathy autoresearch optimizes ML training metrics.",
+      "local_capability": "Publication loop optimizes paper-readiness dimensions and keeps/rejects claims.",
+      "local_gap": "Only one bounded sprint run; no long-run ablation of loop effects.",
+      "experiment_to_close_gap": "Run repeated paper-readiness ablations.",
+      "paper_relevance": "Likely strongest systems contribution.",
+      "novelty_signal": "strong",
+      "risk": "medium"
+    },
+    {
+      "dimension": "Publication readiness",
+      "external_baseline": "arXiv source package and ACM acmart constraints",
+      "local_capability": "Selected draft uses acmart manuscript and local source bundle.",
+      "local_gap": "Authority/rights review blocks readiness claim.",
+      "experiment_to_close_gap": "Human review and final arXiv package check.",
+      "paper_relevance": "Separates draft existence from submission readiness.",
+      "novelty_signal": "medium",
+      "risk": "high"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "ARTICLE-NA-004",
+  "status": "FIGURES_TABLES_PLANNED_NOT_FINAL",
+  "tables": [
+    {
+      "id": "tab:article_na_004",
+      "source": "papers/nwagu_aneke_articles/004-logographs-in-a-syllabary/main.tex",
+      "purpose": "Summarize article result, experiment id, source layer, derived layer, and claim ceiling."
+    },
+    {
+      "id": "planned_logograph_lead_table",
+      "source": "experiments/EXP-NA-004-logograph-ledger/data/logograph_leads.csv",
+      "purpose": "Show the 30 visible chart leads, semantic-domain tags, source reference, and uncertainty status."
+    }
+  ],
+  "figures": [],
+  "blocked_figures": [
+    {
+      "id": "logograph_source_image_regions",
+      "reason": "Source-image reproduction, crop coordinates, and glyph-shape display require human source review and rights clearance."
+    }
+  ]
+}

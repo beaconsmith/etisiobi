@@ -1,0 +1,454 @@
+{
+  "status_id": "NWAGU-FRONTIER-LAB-STATUS-001",
+  "program": "nwagu_aneke_frontier",
+  "updated": "2026-07-06T00:00:00+01:00",
+  "status": "active_open_frontier_status_surface",
+  "promotion_state": "not_ready",
+  "claim_ceiling": "status_surface_not_research_result",
+  "external_actions_taken": [],
+  "source_observed_invariant": "26 rows x 8 vowel/modifier columns = 208 records",
+  "derived_layer_rule": "27/216 remains a derived f/v split layer unless later source evidence promotes it",
+  "layer_labels": [
+    "source_observed",
+    "derived",
+    "speculative",
+    "application",
+    "infrastructure",
+    "authority_rights"
+  ],
+  "lanes": [
+    {
+      "lane_id": "1",
+      "name": "Source-critical reconstruction and manuscript archaeology",
+      "layer_focus": "source_observed",
+      "current_state": "source note and acquisition trail exist; source access and review remain open",
+      "main_blocker": "Azuonye Appendix II and human/domain source review are unresolved",
+      "next_action": "Resolve the Azuonye source-acquisition/send decision and update the source note with the outcome",
+      "claim_ceiling": "source_note_not_final_source_edition",
+      "anchor_files": [
+        "research/frontier/nwagu_aneke/results/EXP-NA-002-source-note-azuonye-1992.md",
+        "research/frontier/nwagu_aneke/source_reviews/SOURCE_ACQUISITION_LEADS.md"
+      ]
+    },
+    {
+      "lane_id": "2",
+      "name": "Community knowledge, authority, rights, and benefit",
+      "layer_focus": "authority_rights",
+      "current_state": "review roles and contact approval workflow exist",
+      "main_blocker": "real reviewer identities and authority records are not recorded",
+      "next_action": "Fill reviewer identities and safe contact-handling details before any invitation is sent",
+      "claim_ceiling": "authority_protocol_pending_real_review",
+      "anchor_files": [
+        "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/review_gate.json",
+        "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/contact_approval/contact_approval_manifest.json"
+      ]
+    },
+    {
+      "lane_id": "3",
+      "name": "Count layers, variants, and structural audit",
+      "layer_focus": "derived",
+      "current_state": "count-layer fixtures and view map separate observed and derived layers",
+      "main_blocker": "human/domain review and source-specific prior art remain open",
+      "next_action": "Run the reader response protocol and keep 27/216 visibly derived",
+      "claim_ceiling": "count_layer_audit_not_final_source_claim",
+      "anchor_files": [
+        "research/frontier/nwagu_aneke/claim_layer_fixtures.jsonl",
+        "research/frontier/nwagu_aneke/interfaces/count_layer_data_to_view_map.jsonl"
+      ]
+    },
+    {
+      "lane_id": "4",
+      "name": "Script structure, linguistic analysis, and formal description",
+      "layer_focus": "source_observed",
+      "current_state": "script and logograph questions are registered as uncertainty work",
+      "main_blocker": "logograph review and linguistic source comparison are incomplete",
+      "next_action": "Prepare a reviewed logograph uncertainty ledger before sign-inventory claims",
+      "claim_ceiling": "uncertainty_ledger_not_complete_inventory",
+      "anchor_files": [
+        "research/frontier/nwagu_aneke/FRONTIER_PROGRAM_MAP.md",
+        "research/frontier/nwagu_aneke/RESEARCH_OBJECT_PORTFOLIO.md"
+      ]
+    },
+    {
+      "lane_id": "5",
+      "name": "Digital representation, encoding, and interoperability",
+      "layer_focus": "infrastructure",
+      "current_state": "encoding and standards work is framed as gap mapping",
+      "main_blocker": "repertoire stability and authority review are not resolved",
+      "next_action": "Keep Unicode and identifier work at gap-package level until source and authority gates mature",
+      "claim_ceiling": "standards_gap_note_not_proposal",
+      "anchor_files": [
+        "research/frontier/nwagu_aneke/CLAIM_LAYER_SCHEMA.md",
+        "research/frontier/nwagu_aneke/FRONTIER_DEPENDENCY_GRAPH.md"
+      ]
+    },
+    {
+      "lane_id": "6",
+      "name": "Computational experiments and formal models",
+      "layer_focus": "speculative",
+      "current_state": "formal and computational objects exist as bounded experiments",
+      "main_blocker": "downstream tasks and failed-case analysis are not complete",
+      "next_action": "Keep tokenizer and formal-model claims bounded to reproducible experiment results",
+      "claim_ceiling": "bounded_experiment_not_general_theory",
+      "anchor_files": [
+        "research/frontier/nwagu_aneke/FORMAL_OBJECT_REGISTRY.md",
+        "research/frontier/nwagu_aneke/LATENT_STRUCTURE_REGISTRY.md"
+      ]
+    },
+    {
+      "lane_id": "7",
+      "name": "AI, agents, and research-integrity systems",
+      "layer_focus": "infrastructure",
+      "current_state": "Inspect-style LPE port, execution-gate review, MLAgentBench-style keep/reject design, LPE label-quality gate pilot, and full 360-row quality routing exist without dependency install, new agent run, model run, or API run",
+      "main_blocker": "human/domain review of 70 unresolved full-gate rows, rights/authority review, external controls, and execution isolation remain missing",
+      "next_action": "Route the EXP-FRONTIER-017 full-gate human/domain review packet before any paper-candidate decision",
+      "claim_ceiling": "eval_harness_relevance_not_model_claim",
+      "anchor_files": [
+        "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/manifest.json",
+        "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/execution_decision.json",
+        "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/review/review_manifest.json",
+        "experiments/EXP-FRONTIER-009-mlagentbench-keep-reject-loop/manifest.json",
+        "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/manifest.json",
+        "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/full_quality_gate_results.json",
+        "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/human_domain_review_packet.csv"
+      ]
+    },
+    {
+      "lane_id": "8",
+      "name": "Provenance, reproducibility, and open research infrastructure",
+      "layer_focus": "infrastructure",
+      "current_state": "RO-Crate-style internal metadata package, preservation decision, DataLad no-conversion decision, Software Heritage no-archive-identifier decision, repository-boundary review packet, reviewer-assignment intake packet, and safe role-assignment recorder exist",
+      "main_blocker": "human-selected reviewer references, external approval records, repository-boundary reviewer adjudication, dataset-boundary review, and contact approval are still pending",
+      "next_action": "When human selections exist outside the repo, add only non-private approved role-assignment rows using pseudonymous reviewer references",
+      "claim_ceiling": "packaging_not_clearance",
+      "anchor_files": [
+        "experiments/EXP-FRONTIER-008-nwagu-ro-crate/README.md",
+        "experiments/EXP-FRONTIER-008-nwagu-ro-crate/RELEASE_POLICY.md",
+        "experiments/EXP-FRONTIER-010-datalad-no-conversion-decision/manifest.json",
+        "experiments/EXP-FRONTIER-011-software-heritage-no-identifier-decision/manifest.json",
+        "experiments/EXP-FRONTIER-012-repository-boundary-review/manifest.json",
+        "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/manifest.json",
+        "experiments/EXP-FRONTIER-014-safe-role-assignment-recorder/manifest.json"
+      ]
+    },
+    {
+      "lane_id": "9",
+      "name": "Interfaces, visualization, education, and public understanding",
+      "layer_focus": "application",
+      "current_state": "count-layer outline, static prototype, and comprehension packet exist",
+      "main_blocker": "3-5 reader response run has not been collected",
+      "next_action": "Collect a dated reader response CSV and run the scorer",
+      "claim_ceiling": "interface_protocol_not_user_evidence",
+      "anchor_files": [
+        "research/frontier/nwagu_aneke/interfaces/count_layer_view_outline.md",
+        "research/frontier/nwagu_aneke/interfaces/usability/README.md"
+      ]
+    },
+    {
+      "lane_id": "10",
+      "name": "Generative design and creative systems",
+      "layer_focus": "application",
+      "current_state": "design and application branches are allowed only with lineage labels",
+      "main_blocker": "source-to-abstraction lineage is not yet review-hardened",
+      "next_action": "Add lineage records before turning design grammar into product-facing artifacts",
+      "claim_ceiling": "application_branch_not_source_meaning",
+      "anchor_files": [
+        "research/frontier/nwagu_aneke/CROSS_DOMAIN_ANALOGUE_ATLAS.md",
+        "research/frontier/nwagu_aneke/ARTICLE_AND_PRODUCT_PORTFOLIO.md"
+      ]
+    },
+    {
+      "lane_id": "11",
+      "name": "Cross-domain scientific and systems research",
+      "layer_focus": "speculative",
+      "current_state": "analogue atlas exists with red-herring discipline",
+      "main_blocker": "formal property mapping and collapse conditions are incomplete",
+      "next_action": "Require mechanism-vs-analogy fields before promoting any cross-domain transfer",
+      "claim_ceiling": "analogy_atlas_not_mechanism_claim",
+      "anchor_files": [
+        "research/frontier/nwagu_aneke/CROSS_DOMAIN_ANALOGUE_ATLAS.md",
+        "research/frontier/nwagu_aneke/FRONTIER_DEPENDENCY_GRAPH.md"
+      ]
+    },
+    {
+      "lane_id": "12",
+      "name": "Products, standards, partnerships, sustainable research",
+      "layer_focus": "infrastructure",
+      "current_state": "portfolio scorecard, opportunity register, 100-seed recovery intake, and 12 selected bounded artifacts keep branch selection inspectable",
+      "main_blocker": "branch-specific promotion gates and external clearance records remain unclaimed",
+      "next_action": "Promote the strongest EXP-FRONTIER-016 bounded artifact into a branch-specific experiment packet while preserving evidence layer and claim ceiling",
+      "claim_ceiling": "portfolio_operating_layer_not_partnership_claim",
+      "anchor_files": [
+        "research/frontier/nwagu_aneke/FRONTIER_OPPORTUNITY_REGISTER.md",
+        "research/frontier/nwagu_aneke/FRONTIER_PORTFOLIO_SCORECARD.md",
+        "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/manifest.json",
+        "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/manifest.json"
+      ]
+    }
+  ],
+  "anchor_files": [
+    {
+      "path": "wiki/index.md",
+      "role": "repo navigation atlas",
+      "evidence_layer": "navigation",
+      "claim_ceiling": "navigation_not_evidence"
+    },
+    {
+      "path": "research/frontier/nwagu_aneke/FRONTIER_PROGRAM_MAP.md",
+      "role": "frontier lane map",
+      "evidence_layer": "program_map",
+      "claim_ceiling": "map_not_result"
+    },
+    {
+      "path": "research/frontier/nwagu_aneke/FRONTIER_OPPORTUNITY_REGISTER.md",
+      "role": "opportunity register",
+      "evidence_layer": "portfolio",
+      "claim_ceiling": "register_not_promotion"
+    },
+    {
+      "path": "research/frontier/nwagu_aneke/FRONTIER_PORTFOLIO_SCORECARD.md",
+      "role": "branch scorecard",
+      "evidence_layer": "portfolio",
+      "claim_ceiling": "scorecard_not_decision"
+    },
+    {
+      "path": "research/frontier/nwagu_aneke/FRONTIER_DEPENDENCY_GRAPH.md",
+      "role": "dependency graph",
+      "evidence_layer": "infrastructure",
+      "claim_ceiling": "graph_not_completion"
+    },
+    {
+      "path": "research/frontier/nwagu_aneke/EXPERIMENT_BACKLOG.md",
+      "role": "experiment backlog",
+      "evidence_layer": "planning",
+      "claim_ceiling": "backlog_not_result"
+    },
+    {
+      "path": "research/frontier/nwagu_aneke/claim_layer_fixtures.jsonl",
+      "role": "claim-layer fixtures",
+      "evidence_layer": "infrastructure",
+      "claim_ceiling": "fixtures_not_human_labels"
+    },
+    {
+      "path": "research/frontier/nwagu_aneke/interfaces/count_layer_view_outline.md",
+      "role": "count-layer interface outline",
+      "evidence_layer": "application",
+      "claim_ceiling": "outline_not_user_evidence"
+    },
+    {
+      "path": "research/frontier/nwagu_transfer_atlas/prior_art_verification/verification_manifest.json",
+      "role": "selected infrastructure prior-art manifest",
+      "evidence_layer": "prior_art",
+      "claim_ceiling": "prior_art_relevance_not_frontier_claim"
+    },
+    {
+      "path": "research/frontier/nwagu_transfer_atlas/prior_art_verification/SELECTED_INFRASTRUCTURE_PRIOR_ART.md",
+      "role": "selected infrastructure prior-art note",
+      "evidence_layer": "prior_art",
+      "claim_ceiling": "prior_art_relevance_not_frontier_claim"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/manifest.json",
+      "role": "Inspect-style LPE port manifest",
+      "evidence_layer": "ai_eval_infrastructure",
+      "claim_ceiling": "plan_not_model_result"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/execution_decision.json",
+      "role": "Inspect execution gate",
+      "evidence_layer": "approval_gate",
+      "claim_ceiling": "pending_approval_not_execution"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/review/review_manifest.json",
+      "role": "Inspect execution gate review manifest",
+      "evidence_layer": "approval_gate_review",
+      "claim_ceiling": "review_not_execution_approval"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/review/EXECUTION_GATE_REVIEW.md",
+      "role": "Inspect execution gate review note",
+      "evidence_layer": "approval_gate_review",
+      "claim_ceiling": "review_not_execution_approval"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-009-mlagentbench-keep-reject-loop/manifest.json",
+      "role": "MLAgentBench-style keep/reject design manifest",
+      "evidence_layer": "agent_eval_design",
+      "claim_ceiling": "agent_evaluation_design_not_research_result"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-009-mlagentbench-keep-reject-loop/KEEP_REJECT_LOOP_DESIGN.md",
+      "role": "MLAgentBench-style keep/reject design note",
+      "evidence_layer": "agent_eval_design",
+      "claim_ceiling": "agent_evaluation_design_not_research_result"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-010-datalad-no-conversion-decision/manifest.json",
+      "role": "DataLad no-conversion decision manifest",
+      "evidence_layer": "provenance_infrastructure",
+      "claim_ceiling": "reproducibility_planning_not_dataset_conversion"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-010-datalad-no-conversion-decision/NO_CONVERSION_DECISION.md",
+      "role": "DataLad no-conversion decision note",
+      "evidence_layer": "provenance_infrastructure",
+      "claim_ceiling": "reproducibility_planning_not_dataset_conversion"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-011-software-heritage-no-identifier-decision/manifest.json",
+      "role": "Software Heritage no-archive-identifier decision manifest",
+      "evidence_layer": "provenance_infrastructure",
+      "claim_ceiling": "software_provenance_planning_not_archive_action"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-011-software-heritage-no-identifier-decision/NO_ARCHIVE_IDENTIFIER_DECISION.md",
+      "role": "Software Heritage no-archive-identifier decision note",
+      "evidence_layer": "provenance_infrastructure",
+      "claim_ceiling": "software_provenance_planning_not_archive_action"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-012-repository-boundary-review/manifest.json",
+      "role": "repository-boundary review manifest",
+      "evidence_layer": "provenance_infrastructure",
+      "claim_ceiling": "repository_boundary_review_not_public_release"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-012-repository-boundary-review/REPOSITORY_BOUNDARY_REVIEW.md",
+      "role": "repository-boundary review note",
+      "evidence_layer": "provenance_infrastructure",
+      "claim_ceiling": "repository_boundary_review_not_public_release"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/manifest.json",
+      "role": "repository reviewer assignment intake manifest",
+      "evidence_layer": "provenance_infrastructure",
+      "claim_ceiling": "reviewer_assignment_intake_not_review_completion"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/REVIEWER_ASSIGNMENT_INTAKE.md",
+      "role": "repository reviewer assignment intake note",
+      "evidence_layer": "provenance_infrastructure",
+      "claim_ceiling": "reviewer_assignment_intake_not_review_completion"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-014-safe-role-assignment-recorder/manifest.json",
+      "role": "safe role-assignment recorder manifest",
+      "evidence_layer": "provenance_infrastructure",
+      "claim_ceiling": "safe_role_assignment_recorder_not_assignment_completion"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-014-safe-role-assignment-recorder/SAFE_ROLE_ASSIGNMENT_RECORDER.md",
+      "role": "safe role-assignment recorder note",
+      "evidence_layer": "provenance_infrastructure",
+      "claim_ceiling": "safe_role_assignment_recorder_not_assignment_completion"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/manifest.json",
+      "role": "100-seed recovery intake manifest",
+      "evidence_layer": "portfolio",
+      "claim_ceiling": "research_intake_not_paper_pipeline_completion"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/HUNDRED_PAPER_RECOVERY_INTAKE.md",
+      "role": "100-seed recovery intake note",
+      "evidence_layer": "portfolio",
+      "claim_ceiling": "research_intake_not_paper_pipeline_completion"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/manifest.json",
+      "role": "selected seed artifact sprint manifest",
+      "evidence_layer": "portfolio",
+      "claim_ceiling": "selected_seed_artifacts_not_paper_candidates"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/SELECTED_SEED_ARTIFACT_SPRINT.md",
+      "role": "selected seed artifact sprint note",
+      "evidence_layer": "portfolio",
+      "claim_ceiling": "selected_seed_artifacts_not_paper_candidates"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/manifest.json",
+      "role": "LPE label-quality gate manifest",
+      "evidence_layer": "ai_eval_infrastructure",
+      "claim_ceiling": "quality_gate_pilot_not_paper_result"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/LPE_LABEL_QUALITY_GATE.md",
+      "role": "LPE label-quality gate note",
+      "evidence_layer": "ai_eval_infrastructure",
+      "claim_ceiling": "quality_gate_pilot_not_paper_result"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/README.md",
+      "role": "RO-Crate-style package index",
+      "evidence_layer": "provenance_infrastructure",
+      "claim_ceiling": "packaging_not_clearance"
+    },
+    {
+      "path": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/contact_approval/contact_approval_manifest.json",
+      "role": "contact approval manifest",
+      "evidence_layer": "authority_rights",
+      "claim_ceiling": "contact_workflow_not_dispatch_approval"
+    }
+  ],
+  "validators": [
+    "scripts/validate_nwagu_frontier_lab_status.py",
+    "scripts/validate_claim_layer_fixtures.py",
+    "scripts/validate_count_layer_view_map.py",
+    "scripts/validate_inspect_lpe_port.py",
+    "scripts/validate_inspect_execution_gate.py",
+    "scripts/validate_inspect_execution_gate_review.py",
+    "scripts/validate_mlagentbench_keep_reject_design.py",
+    "scripts/validate_datalad_no_conversion_decision.py",
+    "scripts/validate_software_heritage_no_identifier_decision.py",
+    "scripts/validate_repository_boundary_review.py",
+    "scripts/validate_repository_reviewer_assignment_intake.py",
+    "scripts/validate_safe_role_assignment_recorder.py",
+    "scripts/validate_hundred_paper_recovery_intake.py",
+    "scripts/validate_selected_seed_artifact_sprint.py",
+    "scripts/validate_lpe_label_quality_gate.py",
+    "scripts/validate_nwagu_frontier_ro_crate.py",
+    "scripts/validate_nwagu_dataset_boundary_contact_approval.py",
+    "scripts/validate_nwagu_prior_art_verification_packet.py",
+    "scripts/validate_lab_standard.py",
+    "scripts/validate_review_team_gate.py"
+  ],
+  "blocked_promotions": [
+    "article and release maturity",
+    "source promotion for the derived 27/216 layer",
+    "AI benchmark result without human/domain labels",
+    "archive or dataset conversion without boundary review",
+    "product doctrine without lineage and review"
+  ],
+  "exact_next_actions": [
+    {
+      "branch": "authority_rights",
+      "action": "Fill reviewer identities and safe contact-handling details for the dataset-boundary review packet"
+    },
+    {
+      "branch": "source_critical",
+      "action": "Resolve the Azuonye Appendix II source-acquisition/send decision and update the source note"
+    },
+    {
+      "branch": "interface_legibility",
+      "action": "Collect a 3-5 reader response CSV for the count-layer comprehension packet and run the scorer"
+    },
+    {
+      "branch": "ai_eval",
+      "action": "Route the 70 EXP-FRONTIER-017 full-gate adjudication or public-release-blocked rows into independent human/domain review, then compare those decisions against scored agent conditions"
+    },
+    {
+      "branch": "prior_art",
+      "action": "Use the selected prior-art, repository-boundary review, reviewer-assignment intake, and safe recorder packets to add only non-private approved role-assignment rows after human selection outside the repo for the bounded experiment while keeping Inspect, MLAgentBench, DataLad, and Software Heritage below run/result/conversion/archive claims"
+    },
+    {
+      "branch": "prior_art",
+      "action": "Keep prior-art relevance below novelty language and frontier claims until broader atlas verification and human/domain review mature"
+    },
+    {
+      "branch": "portfolio_recovery",
+      "action": "Promote the strongest EXP-FRONTIER-016 bounded artifact into a branch-specific experiment packet while preserving evidence layer and claim ceiling"
+    }
+  ]
+}

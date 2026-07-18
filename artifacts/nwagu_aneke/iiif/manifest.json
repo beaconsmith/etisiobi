@@ -1,0 +1,99 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "urn:etisiobi:iiif:nwagu-aneke:manifest",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Nwagu Aneke Source-Critical Working Manifest"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Local working manifest for chart and appendix artifacts. Not a public IIIF service."
+    ]
+  },
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Rights"
+      ]
+    },
+    "value": {
+      "en": [
+        "Internal research use. Public release requires rights and community authority review."
+      ]
+    }
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Primary dossier"
+        ]
+      },
+      "value": {
+        "en": [
+          "artifacts/nwagu_aneke/"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Base-count decision"
+        ]
+      },
+      "value": {
+        "en": [
+          "MULTI_LAYER_COUNT_VALID"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "type": "Canvas",
+      "height": 711,
+      "width": 600,
+      "label": {
+        "en": [
+          "Archived Omniglot chart image"
+        ]
+      },
+      "items": [
+        {
+          "id": "urn:etisiobi:iiif:nwagu-aneke:annotation-page:omniglot-chart",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "urn:etisiobi:iiif:nwagu-aneke:annotation:omniglot-chart",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "../../../research/pagc/primary_sources/nwagu_aneke/nwaguaneke_omniglot_chart.gif",
+                "type": "Image",
+                "format": "image/gif",
+                "height": 711,
+                "width": 600
+              },
+              "target": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urn:etisiobi:iiif:nwagu-aneke:canvas:azuonye-appendix-i",
+      "type": "Canvas",
+      "height": 842,
+      "width": 595,
+      "label": {
+        "en": [
+          "Azuonye Appendix I rendered audit page"
+        ]
+      },
+      "items": []
+    }
+  ]
+}

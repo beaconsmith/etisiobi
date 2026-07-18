@@ -1,0 +1,32 @@
+{
+  "status": "SEWG_PACKET_DRAFT_INCOMPLETE_DO_NOT_SUBMIT",
+  "may_submit": false,
+  "draft_allowed": true,
+  "present_components": [
+    "nwagu_aneke_preliminary_proposal_skeleton.md",
+    "nwagu_aneke_working_repertoire_table.md",
+    "nwagu_aneke_source_review_worksheet.csv",
+    "nwagu_aneke_character_glyph_matrix.md",
+    "nwagu_aneke_properties_behavior_matrix.md",
+    "nwagu_aneke_representative_evidence_plan.md",
+    "nwagu_aneke_font_license_requirements.md",
+    "independent_submitter_pathway.md",
+    "related_igbo_scripts_triage.md"
+  ],
+  "missing_before_submission": [
+    "submitter_identity",
+    "unicode_cla_plan",
+    "stable_proposed_repertoire",
+    "character_glyph_decisions",
+    "representative_glyphs",
+    "usage_stability_interchange_evidence",
+    "names_and_properties",
+    "directionality_and_text_behavior",
+    "punctuation_numbers",
+    "font",
+    "iso_iec_10646_summary_information",
+    "proposal_pdf"
+  ],
+  "source_review_worksheet_rows": 208,
+  "exact_next_action": "Assign a human source reviewer to the 208-row worksheet and complete the decision columns for character, glyph variant, sequence, logograph, punctuation, number, symbol, or not encoded."
+}

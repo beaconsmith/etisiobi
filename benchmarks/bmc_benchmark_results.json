@@ -1,0 +1,11 @@
+{
+  "goal_id": "GOAL-008",
+  "decision": "BENCHMARK_SEED_COMPLETED",
+  "tasks": 10,
+  "scoreable_now": 9,
+  "requires_publication_package": 1,
+  "outputs": [
+    "benchmarks/bmc_benchmark_tasks.jsonl",
+    "benchmarks/benchmark_registry.jsonl"
+  ]
+}

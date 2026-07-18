@@ -4,9 +4,17 @@
 
 ---
 
+## Reset Rule
+
+All PAGC claims are false until proven. This wiki must distinguish source-observed facts from extracted inventories, tested claims, and speculative analogies.
+
+Primary source gate: [`primary_sources/nwagu_aneke/README.md`](primary_sources/nwagu_aneke/README.md). Reset note: [`PAGC_RESET.md`](PAGC_RESET.md). Derived formal hypotheses use the [`DERIVED_HYPOTHESIS_CHARTER.md`](DERIVED_HYPOTHESIS_CHARTER.md) lane.
+
+---
+
 ## What This Wiki Covers
 
-The Principle of Ancestral Generative Compression (PAGC): a 27-base × 8-modifier generative matrix (216 tokens) originating from the Nwagu Aneke Igbo syllabary, mapped across 17 frontier disciplines. Active research focus: mathematical falsification tests for the E₆ symmetry claim and universal compression claim.
+The Principle of Ancestral Generative Compression (PAGC): a hypothesis program around whether the Nwagụ Aneke Igbo syllabary supports any reproducible base/modifier structure or useful compression/tokenization experiments. The previous `27-base × 8-modifier` framing is now treated as an unproven claim, not a theory.
 
 ---
 
@@ -15,17 +23,41 @@ The Principle of Ancestral Generative Compression (PAGC): a 27-base × 8-modifie
 | Resource | Location |
 |----------|----------|
 | Full discipline rankings (17 disciplines) | `INDEX.md` |
-| Nwagu Aneke syllabary primary source | `paper/kb/nwagu_aneke_syllabary.md` |
+| Nwagụ Aneke source archive | `primary_sources/nwagu_aneke/` |
+| Nwagu Aneke syllabary source note | `paper/kb/nwagu_aneke_syllabary.md` |
 | Mathematics: E₆, 27 lines, Albert algebra | `paper/kb/mathematics_27_e6_jordan.md` |
 | BPE sweep experiment (k=27) | `../../experiments/01_bpe_igbo_k27/` |
 | Sovereign Memory RL simulation | `../../experiments/05_sovereign_memory_rl/` |
+| Falsification tracker | `FALSIFICATION_TRACKER.md` |
 | Frontier applications (all disciplines) | `sources/pagc_library/frontier_applications.md` |
 
 ---
 
-## Core Claim
+## Core Hypothesis
 
-PAGC is a proposed universal generative mechanism, inspired by the Nwagu Aneke Igbo script's combinatorial design (27 base symbols × 8 modifiers = 216 tokens). The claim is that this structure recurs in or can be mapped onto information theory, mathematics (E₆ Lie group), quantum computing, synthetic biology, and cognitive science.
+PAGC asks whether a source-derived inventory of the Nwagụ Aneke script reveals a reusable base/modifier structure, and whether that structure helps with measurable Igbo tokenization, compression, memory, or representation tasks.
+
+The current repository does not yet prove `27×8`, E₆ symmetry, universal compression, or genetic-code isomorphism.
+
+Formal hypotheses may still be developed as modern derived constructions when
+they keep source claims strict, define the invented step, state baselines, and
+name kill conditions.
+
+Current derived-hypothesis record:
+[`DH-001: Derived 27 x 8 Completion`](hypotheses/DH-001-derived-27x8-completion.md)
+has a bounded internal toy baseline plus a small source-promotion
+counterexample screen and source-record screen. It keeps `27 x 8 = 216` in the
+derived formal lane and does not change the source-observed `26 x 8 = 208`
+foundation. The global benchmark gate parks it because its current positive
+signal is label-dependent.
+
+Current strongest next derived-hypothesis branch:
+[`DH-003: Layer-Promotion Error Benchmark`](hypotheses/DH-003-layer-promotion-error-benchmark.md)
+has produced a significant internal knowledge breakthrough: ten bounded,
+traceable benchmark-design knowledge units from repo-local LPE cases, label
+quality-gate evidence, and the layer-safety proof. This is internal research
+knowledge only, not a public benchmark, paper-candidate, or global novelty
+claim.
 
 ---
 
@@ -51,3 +83,7 @@ The existing knowledge base is distributed across:
 
 To compile this wiki fully, run:
 > "Compile PAGC wiki — synthesize disciplines/, paper/kb/, and paper/papers/ into WIKI.md with cross-references and a health check"
+
+## Harness Status
+
+The falsification layer now lives in `FALSIFICATION_TRACKER.md`. Any future PAGC paper draft should cite that tracker before making claims about E6 symmetry, universal compression, genetic-code isomorphism, or 216-token memory advantages.

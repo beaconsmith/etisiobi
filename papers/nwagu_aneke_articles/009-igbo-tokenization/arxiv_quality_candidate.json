@@ -1,0 +1,29 @@
+{
+  "article_id": "ARTICLE-NA-009",
+  "status": "STRUCTURAL_ARXIV_QUALITY_PASS_NOT_SUBMISSION_READY",
+  "candidate": false,
+  "reason": "The repository arXiv-quality validator may pass after hardening, but human source/NLP review and rights/submission clearance remain open, so this is not an external submission candidate yet.",
+  "field_facing_result": "A five-tokenizer Igbo baseline reports segmentation and coverage metrics while explicitly refusing downstream NLP improvement claims.",
+  "positive_evidence": [
+    "experiments/EXP-NA-009/results.json",
+    "experiments/EXP-NA-009-tokenizer-baselines/results.json",
+    "experiments/EXP-NA-009-tokenizer-baselines/data/tokenizer_metrics.csv",
+    "experiments/EXP-NA-009-tokenizer-baselines/data/tokenizer_metrics.jsonl",
+    "experiments/EXP-NA-009-tokenizer-baselines/data/bpe_merges_200.json",
+    "papers/nwagu_aneke_articles/009-igbo-tokenization/article_specific_experiment.md",
+    "papers/nwagu_aneke_articles/009-igbo-tokenization/external_prior_art_audit.md",
+    "papers/nwagu_aneke_articles/009-igbo-tokenization/figures_tables_manifest.json",
+    "papers/nwagu_aneke_articles/009-igbo-tokenization/reviewer2_response_plan.md"
+  ],
+  "blocking_evidence": [
+    "papers/nwagu_aneke_articles/009-igbo-tokenization/human_source_review.md",
+    "papers/nwagu_aneke_articles/009-igbo-tokenization/rights_submission_clearance.md"
+  ],
+  "next_actions": [
+    "Attach human source/NLP review.",
+    "Attach rights and public-submission clearance.",
+    "Add a downstream task dataset before making task-improvement claims.",
+    "Run adversarial venue review against the revised manuscript.",
+    "Rerun python scripts\\validate_arxiv_quality_gate.py."
+  ]
+}

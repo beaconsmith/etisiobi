@@ -1,0 +1,5 @@
+experiment_id: EXP-0002
+linked_goal: GOAL-0002
+mode: dry-run
+seed: 20260528
+human_approval_required: "no"

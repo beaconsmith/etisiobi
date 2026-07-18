@@ -1,0 +1,6 @@
+review_area,decision_question,current_status,approval_recorded,required_reviewer
+candidate_inventory,Do candidate paths include only non-sensitive software and metadata,pending_reviewer_adjudication,no,repository_boundary_reviewer
+excluded_paths,Do exclusions cover raw sources images restricted material secrets private data and contact records,pending_reviewer_adjudication,no,source_dossier_reviewer
+license_citation,Are license and citation fields sufficient for any future public software package,pending_reviewer_adjudication,no,preservation_infrastructure_reviewer
+rights_authority,Do any candidate paths require rights authority or community approval before future release consideration,pending_reviewer_adjudication,no,rights_authority_reviewer
+private_contact_data,Do all candidate paths exclude private data contact records and human response data,pending_reviewer_adjudication,no,data_protection_reviewer

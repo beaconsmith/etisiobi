@@ -1,0 +1,21 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "urn:etisiobi:iiif:nwagu-aneke:collection",
+  "type": "Collection",
+  "label": {
+    "en": [
+      "Nwagu Aneke Working Collection"
+    ]
+  },
+  "items": [
+    {
+      "id": "urn:etisiobi:iiif:nwagu-aneke:manifest",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "Nwagu Aneke Source-Critical Working Manifest"
+        ]
+      }
+    }
+  ]
+}

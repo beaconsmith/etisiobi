@@ -1,0 +1,81 @@
+\documentclass[manuscript]{acmart}
+\settopmatter{printacmref=false}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\acmConference[Etisiobi Draft]{Etisiobi Draft}{2026}{Enugu, Nigeria}
+\title{Claim-Gated Research Objects: From IIIF and TEI Evidence to arXiv-Ready Manuscripts}
+\author{Etisiobi Research Collective}
+\affiliation{\institution{The Beaconsmith Collective}\city{Enugu}\country{Nigeria}}
+\email{research@example.invalid}
+
+\begin{document}
+
+\begin{abstract}
+Symbolic research archives can accumulate count claims before their source layers, derived layers, and publication claims are reconciled. We study this problem in Etisiobi's Base Modifier Cache (BMC), a repo-local reconstruction of Nwagu Aneke/PAGC row-vowel evidence. External comparison shows that BMC as an annotation cache overlaps heavily with PROV-O, RO-Crate, IIIF, TEI, W3C Web Annotation, CIDOC CRM, FAIR, and DataCite. The surviving contribution is therefore not the cache alone, but a claim-gated research-object pipeline that uses standards-compatible evidence links to prevent unsupported exact-count claims from entering manuscripts. In a bounded autoresearch sprint, the pipeline reconstructs 208 BMC records, reconciles a 26 by 8 source layer against a derived 27/216 layer, gates nine manuscript claims, generates ten benchmark tasks, and produces a no-submission readiness decision when prior-art, rights, glyph review, and authority gates remain open. The result is a draft systems/audit paper rather than a claim of final arXiv readiness.
+\end{abstract}
+
+\ccsdesc[500]{Information systems~Digital libraries and archives}
+\ccsdesc[300]{Applied computing~Arts and humanities}
+\keywords{research objects, provenance, claim gates, Nwagu Aneke, IIIF, TEI, cultural heritage}
+
+\maketitle
+
+\input{figures/figure1_bmc_pipeline}
+
+\section{Introduction}
+Research archives that mix cultural artifacts, computational hypotheses, and manuscript generation face a specific failure mode: local artifacts can be converted into confident paper claims before the source layer has been separated from derived interpretation layers. Etisiobi's PAGC archive exhibits this risk around a Nwagu Aneke-derived inventory: repo-local evidence supports a 26 row by 8 vowel source layer, while 27 and 216 appear only after a derived f/v split.
+
+This paper asks whether a standards-compatible claim-gated research object can prevent that drift. The answer is partly positive and partly cautionary. The Base Modifier Cache is useful, but the external review shows that annotation, provenance, packaging, cultural heritage graphing, and data citation are already served by mature standards such as PROV-O~\cite{w3c_provo_2013}, RO-Crate~\cite{rocrate_spec_2023,soilandreyes_rocrate_2022}, IIIF~\cite{iiif_presentation_3}, TEI~\cite{tei_guidelines,tei_glyphs}, Web Annotation~\cite{w3c_annotation_2017,w3c_annotation_vocab_2017}, CIDOC CRM and CRMdig~\cite{cidoc_crm_home,cidoc_crm_713,crmdig_50}, FAIR~\cite{gofair_principles,wilkinson_fair_2016}, and DataCite~\cite{datacite_46}. The contribution is therefore the integrated claim gate and the count-drift case study, not a claim that BMC alone is a new annotation standard.
+
+\section{Related Work}
+BMC builds on a stack of existing standards. PROV-O provides a provenance vocabulary for entities, activities, and agents. RO-Crate packages research artifacts with machine-readable metadata. IIIF structures manifests and canvases for source presentation, while TEI encodes textual and glyph evidence. Web Annotation models bodies, targets, and motivations. CIDOC CRM provides cultural heritage semantics. FAIR and DataCite shape reusable and citable research data. Karpathy's autoresearch loop provides the design pattern of proposing an intervention, running a bounded experiment, scoring the result, and keeping or rejecting it~\cite{karpathy_autoresearch}. BMC adapts that pattern from validation-loss improvement to paper-readiness improvement.
+
+Domain evidence comes from Azuonye's account of the Nwagu Aneke Igbo script~\cite{azuonye_nwagu_1992} and secondary public chart material~\cite{omniglot_nwagu}. Existing IIIF manuscript work and glyph projects show that source annotation and glyph inventories are established practices~\cite{iiif_leonardo_2022,nahua_glyphs,rongorongo_platform}. This increases the novelty risk for BMC-as-cache and strengthens the case for a pipeline/audit contribution.
+
+\section{Materials and Corpus}
+The local corpus contains BMC JSONL records, a TEI working dossier, an IIIF manifest, glyph row annotations, cell-grid records, certainty propagation records, a BMC knowledge graph, and authority review states. All reported tables are generated from repo-local JSON, JSONL, or CSV artifacts.
+
+\input{tables/table1_bmc_inventory}
+
+\section{Method}
+The publication sprint implements an autoresearch loop over paper-readiness. Each iteration proposes a paper-improving hypothesis, identifies external standards and local evidence, runs a bounded comparison or experiment, scores the resulting change, and decides whether to keep, revise, reject, or convert it to a limitation.
+
+As a hardening step, we exported BMC records into two standards-facing proposal layers. The Web Annotation export maps each BMC record to an Annotation with body, target, motivation, certainty, and provenance metadata; because most records lack reviewed pixel selectors, we label it a partial mapping rather than full compliance. The CIDOC CRM/CRMdig export maps the source artifact, digital BMC dataset, annotation activity, actor, and BMC information objects into cultural-heritage graph concepts; it remains a proposal until reviewed by a domain ontology expert.
+
+\input{figures/bmc_standard_mapping_graph}
+
+\section{Experiments and Audit Protocol}
+We ran six publication experiments: external standards review, local-vs-SOTA mapping, paper selection, manuscript generation, reviewer-2 attack, and arXiv/ACM preflight. These build on ten BMC experiments that created the cache, count reconciliation, claim gate, grammar, compression test, certainty model, KG, benchmarks, authority review, and hyperloop decision.
+
+\input{figures/figure3_autoresearch_loop}
+
+\section{Results}
+The count-layer result is the strongest concrete local finding. The source-observed layer is 26 rows by 8 vowels, giving 208 BMC records. A 27-row and 216-cell layer is derived only if the f/v row is split, and therefore must not be presented as source-observed.
+
+\input{tables/table2_count_layers}
+\input{tables/table3_local_vs_sota}
+\input{tables/table4_claim_gate}
+
+\section{Discussion}
+The sprint rejects the strongest version of the BMC novelty claim. BMC is not a replacement for IIIF, TEI, Web Annotation, PROV-O, RO-Crate, CIDOC CRM, FAIR, or DataCite. Its useful role is as a local integration layer that ties these conventions to count-layer reconciliation and manuscript claim gates.
+
+\input{figures/figure2_count_layers}
+
+\section{Limitations and Authority Constraints}
+The current BMC does not contain reviewed pixel coordinates for every glyph. It does not prove a glyph-shape grammar. It does not validate E6, universal compression, or exact 27/216 claims. Public data release remains blocked by rights, authority, and source-transcription review. The manuscript is a draft for human review, not an external submission. The Web Annotation and CIDOC CRM/CRMdig exports are interoperability proposals, not certified standards compliance artifacts. They are intended to make the BMC easier to review against existing scholarly infrastructure while preserving the paper's main limitation: external submission is blocked until authority, rights, and source review pass.
+
+\section{Reproducibility}
+The sprint can be rerun with \texttt{python scripts/autoresearch\_publication\_loop.py}, \texttt{python scripts/generate\_publication\_assets.py}, \texttt{python scripts/export\_bmc\_web\_annotations.py}, \texttt{python scripts/export\_bmc\_cidoc\_mapping.py}, and \texttt{python scripts/submission\_hardening\_sprint.py}. The selected paper source lives under \texttt{papers/SELECTED\_PAPER}. arXiv and ACM checks are recorded in local preflight files.
+
+\input{tables/table5_autoresearch}
+
+\section{Conclusion}
+The publishable direction is not BMC as a standalone cache. The stronger result is a claim-gated research-object pipeline that detects foundation-count drift before unsupported theory claims enter manuscripts. The current output is a real paper draft with a negative readiness decision: it is not ready for arXiv until prior-art, rights, authority, and glyph-review gates pass.
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{source_bibliography}
+
+\appendix
+\section{Generated Artifacts}
+The package includes external source matrices, local-vs-SOTA comparison files, claim audits, generated tables, generated figures, and an arXiv package preflight.
+
+\end{document}

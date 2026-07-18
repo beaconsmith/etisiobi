@@ -1,0 +1,134 @@
+{
+  "run_id": "RUN-CONT-20260626-121547",
+  "generated_at": "2026-06-26T12:15:47+01:00",
+  "status": "RUN_CREATED_RESEARCH_SELECTION_ONLY_NOT_FRONTIER_PROOF",
+  "goal": "GOAL-CONT-001",
+  "git": {
+    "branch": "reset/public-truth-v1",
+    "commit": "58d3f34",
+    "status_short_hash": "c0ce366a1c6f9ae3c1e118e391521bd2fe48cc10162d907d3f850e126e92b82f"
+  },
+  "inputs": {
+    "atlas_path": "research/frontier/nwagu_transfer_atlas/nwagu_research_atlas.jsonl",
+    "atlas_sha256": "97a474f875fcb9f3378387560b632a37c6b10c6d0db83e5f1ca71e84b47ab88d",
+    "lpe_manifest_path": "instruments/lpe_bench/manifest.json",
+    "lpe_manifest_sha256": "6566b1bd3a9403a2685bdce7feb3b40e61c4f895fd89e6bec7dbcb65bb930f2a",
+    "stage_gates_path": "research/LAB_STAGE_GATES.json",
+    "stage_gates_sha256": "78d7ef91992c13ee231d68138702809a56ba1ff211c985f016f001505494b579"
+  },
+  "foundation": {
+    "source_observed_layer": "26 rows x 8 vowel/modifier columns = 208 records",
+    "derived_layer": "derived 27/216 by f/v split only",
+    "forbidden_promotion": "27/216 must not be described as source-observed"
+  },
+  "source_state": {
+    "atlas_status": "NWAGU_TRANSFER_ATLAS_SEEDED_NOT_PRIOR_ART_VERIFIED",
+    "atlas_record_count": 54,
+    "atlas_frontier_claim_status": "not_ready",
+    "selected_prior_art_verification": {
+      "verification_id": "NWAGU-PRIOR-ART-VERIFY-001",
+      "status": "selected_primary_source_relevance_verified_not_novelty_clearance",
+      "path": "research/frontier/nwagu_transfer_atlas/prior_art_verification/verification_manifest.json",
+      "selected_record_count": 5,
+      "whole_atlas_prior_art_status": "not_verified",
+      "claim_ceiling": "prior_art_relevance_not_frontier_claim"
+    },
+    "lpe_status": "PUBLIC_INSTRUMENT_DRAFT_NOT_FRONTIER_PROOF",
+    "lpe_frontier_claim_status": "not_ready",
+    "stage_count": 7
+  },
+  "selected_experiments": [
+    {
+      "atlas_id": "ATLAS-0049",
+      "project": "Inspect AI",
+      "source_family": "model evaluation",
+      "phase_gate": "begin_now",
+      "rights_risk": "low",
+      "prior_art_status": "seeded_from_attachment_requires_verification",
+      "selected_prior_art_status": "primary_source_relevance_verified_not_novelty_clearance",
+      "selected_prior_art_claim_ceiling": "prior_art_relevance_not_frontier_claim",
+      "selected_prior_art_next_action": "keep Inspect execution blocked unless explicit user/lab approval is recorded; keep downstream no-run, no-conversion, no-identifier, repository-boundary review, reviewer-assignment intake, and safe assignment recorder decisions internal; add only non-private approved role-assignment rows after human selection before any public software provenance package",
+      "experiment": "port LPE-Bench to Inspect-style evals",
+      "negative_control": "manual prompt batch",
+      "claim_ceiling": "eval harness, not model claim",
+      "article_candidate": "Can AI Preserve Evidence Layers?",
+      "frontier_loop_score": 97.0,
+      "score_reasons": "phase_gate=begin_now:30; rights_risk=low:22; negative_control_present:12; claim_ceiling_present:12; article_candidate_present:6; experiment_defined:8; bounded_required_evidence:5; benchmark_or_eval_family:8; prior_art_unverified:-6"
+    },
+    {
+      "atlas_id": "ATLAS-0052",
+      "project": "MLAgentBench",
+      "source_family": "agent experimentation benchmark",
+      "phase_gate": "begin_now",
+      "rights_risk": "low",
+      "prior_art_status": "seeded_from_attachment_requires_verification",
+      "selected_prior_art_status": "primary_source_relevance_verified_not_novelty_clearance",
+      "selected_prior_art_claim_ceiling": "prior_art_relevance_not_frontier_claim",
+      "selected_prior_art_next_action": "keep the no-run keep/reject design internal until human/domain review; keep the DataLad Software Heritage repository-boundary reviewer-assignment intake and safe recorder decisions internal; add only non-private approved role-assignment rows after human selection before any public software provenance package",
+      "experiment": "define keep/reject loops for LPE and glyph tasks",
+      "negative_control": "unscored agent notes",
+      "claim_ceiling": "agent evaluation, not research result",
+      "article_candidate": "Benchmarking AI Research Agents on Evidence Scarcity",
+      "frontier_loop_score": 97.0,
+      "score_reasons": "phase_gate=begin_now:30; rights_risk=low:22; negative_control_present:12; claim_ceiling_present:12; article_candidate_present:6; experiment_defined:8; bounded_required_evidence:5; benchmark_or_eval_family:8; prior_art_unverified:-6"
+    },
+    {
+      "atlas_id": "ATLAS-0039",
+      "project": "RO-Crate",
+      "source_family": "research object packaging",
+      "phase_gate": "begin_now",
+      "rights_risk": "low",
+      "prior_art_status": "seeded_from_attachment_requires_verification",
+      "selected_prior_art_status": "primary_source_relevance_verified_not_novelty_clearance",
+      "selected_prior_art_claim_ceiling": "prior_art_relevance_not_frontier_claim",
+      "selected_prior_art_next_action": "keep current metadata package internal until dataset-boundary review",
+      "experiment": "package non-sensitive benchmark metadata as RO-Crate",
+      "negative_control": "zip of files",
+      "claim_ceiling": "packaging, not clearance",
+      "article_candidate": "RO-Crate for Source-Critical Script Research",
+      "frontier_loop_score": 95.0,
+      "score_reasons": "phase_gate=begin_now:30; rights_risk=low:22; negative_control_present:12; claim_ceiling_present:12; article_candidate_present:6; experiment_defined:8; bounded_required_evidence:5; reproducibility_family:6; prior_art_unverified:-6"
+    },
+    {
+      "atlas_id": "ATLAS-0040",
+      "project": "DataLad",
+      "source_family": "data versioning",
+      "phase_gate": "begin_now",
+      "rights_risk": "low",
+      "prior_art_status": "seeded_from_attachment_requires_verification",
+      "selected_prior_art_status": "primary_source_relevance_verified_not_novelty_clearance",
+      "selected_prior_art_claim_ceiling": "prior_art_relevance_not_frontier_claim",
+      "selected_prior_art_next_action": "keep the DataLad no-conversion decision internal until dataset-boundary and authority gates; keep the Software Heritage no-identifier repository-boundary reviewer-assignment intake and safe recorder decisions internal; add only non-private approved role-assignment rows after human selection before any public software provenance package",
+      "experiment": "track count-model changes and affected papers",
+      "negative_control": "manual changelog only",
+      "claim_ceiling": "reproducibility, not evidence truth",
+      "article_candidate": "Versioned Hypotheses for Nwagụ Aneke",
+      "frontier_loop_score": 95.0,
+      "score_reasons": "phase_gate=begin_now:30; rights_risk=low:22; negative_control_present:12; claim_ceiling_present:12; article_candidate_present:6; experiment_defined:8; bounded_required_evidence:5; reproducibility_family:6; prior_art_unverified:-6"
+    },
+    {
+      "atlas_id": "ATLAS-0043",
+      "project": "Software Heritage",
+      "source_family": "software preservation",
+      "phase_gate": "begin_now",
+      "rights_risk": "low",
+      "prior_art_status": "seeded_from_attachment_requires_verification",
+      "selected_prior_art_status": "primary_source_relevance_verified_not_novelty_clearance",
+      "selected_prior_art_claim_ceiling": "prior_art_relevance_not_frontier_claim",
+      "selected_prior_art_next_action": "when human selections exist outside the repo add only non-private approved role-assignment rows using pseudonymous reviewer references while keeping archive identifier work deferred until release and archive approval",
+      "experiment": "map benchmark scripts to preservation identifiers",
+      "negative_control": "local script only",
+      "claim_ceiling": "software provenance, not scientific validity",
+      "article_candidate": "Preserving Nwagụ Research Software",
+      "frontier_loop_score": 95.0,
+      "score_reasons": "phase_gate=begin_now:30; rights_risk=low:22; negative_control_present:12; claim_ceiling_present:12; article_candidate_present:6; experiment_defined:8; bounded_required_evidence:5; reproducibility_family:6; prior_art_unverified:-6"
+    }
+  ],
+  "blocked_promotions": [
+    "no paper-ready status",
+    "no public release status",
+    "no source-observed 27/216 claim",
+    "no AI-only gold-label frontier claim"
+  ],
+  "next_command": "python scripts\\continuous_research_loop.py --mode cycle --max-experiments 5"
+}

@@ -1,0 +1,18 @@
+{
+  "experiment_id": "EXP-NA-010",
+  "generated_at": "2026-07-06T00:00:00+01:00",
+  "decision": "EXPANDED_LAYER_SAFETY_BASELINE_COMPARISON_PASS",
+  "test_cases": 24,
+  "promotion_errors": 14,
+  "promotion_errors_detected": 14,
+  "promotion_error_detection_rate": 1.0,
+  "baseline_false_negatives": {
+    "provenance_only": 11,
+    "citation_only": 7,
+    "no_label_gate": 14
+  },
+  "proof_artifact": "experiments/EXP-NA-010-layer-safety-tests/layer_non_promotion_lemma.md",
+  "expanded_results": "experiments/EXP-NA-010-layer-safety-tests/expanded_results.json",
+  "baseline_comparison": "experiments/EXP-NA-010-layer-safety-tests/baseline_comparison.json",
+  "article_implication": "Article 10 now has a formal non-promotion lemma, an expanded 24-case evaluation, and a baseline comparison showing that provenance-only, citation-only, and no-label gates miss unsafe layer promotions."
+}

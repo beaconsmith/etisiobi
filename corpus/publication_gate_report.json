@@ -1,0 +1,12 @@
+{
+  "output": "unspecified",
+  "ready_for_human_review": false,
+  "blocker_count": 2,
+  "research_only_count": 14,
+  "rules": [
+    "Positive contribution claims must be C5+.",
+    "C0-C4 claims require limitation language.",
+    "CX claims may appear only as negative results.",
+    "Human approval required for external release."
+  ]
+}

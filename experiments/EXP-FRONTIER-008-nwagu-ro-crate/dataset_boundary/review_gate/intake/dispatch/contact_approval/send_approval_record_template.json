@@ -1,0 +1,24 @@
+{
+  "contact_approval_id": "BOUNDARY-REVIEW-CONTACT-APPROVAL-EXP-FRONTIER-008-001",
+  "dispatch_id": "BOUNDARY-REVIEW-DISPATCH-EXP-FRONTIER-008-001",
+  "status": "template_not_approval",
+  "approval_decision": "PENDING",
+  "approved_roles": [],
+  "messages_sent": 0,
+  "external_action_taken": false,
+  "required_roles": [
+    "rights_authority_reviewer",
+    "community_authority_reviewer",
+    "source_dossier_reviewer",
+    "preservation_infrastructure_reviewer",
+    "data_protection_reviewer"
+  ],
+  "required_before_send": [
+    "reviewer identity is known",
+    "contact target is known",
+    "explicit approval to send is recorded",
+    "role-specific invitation template has been reviewed",
+    "no private contact data is written into the repo"
+  ],
+  "approval_rows": []
+}

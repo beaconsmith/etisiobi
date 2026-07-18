@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-FRONTIER-006",
+  "title": "Nwagụ Transfer ATLAS",
+  "status": "NWAGU_TRANSFER_ATLAS_SEEDED_NOT_PRIOR_ART_VERIFIED",
+  "record_count": 54,
+  "outputs": [
+    "research/frontier/nwagu_transfer_atlas/nwagu_research_atlas.jsonl",
+    "research/frontier/nwagu_transfer_atlas/summary.json",
+    "research/frontier/nwagu_transfer_atlas/README.md",
+    "research/frontier/nwagu_transfer_atlas/ATLAS_METHOD.md",
+    "research/frontier/nwagu_transfer_atlas/TOP_PROGRAMS.md"
+  ],
+  "frontier_claim_status": "not_ready",
+  "interpretation": "The atlas turns external labs and repositories into falsifiable Nwagụ experiments. It does not verify prior art or prove any claim about the artifact."
+}

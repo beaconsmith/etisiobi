@@ -1,0 +1,5 @@
+# Decision
+
+`KG_INTEGRATION_COMPLETED`
+
+Generated: 2026-05-28T10:07:00+00:00

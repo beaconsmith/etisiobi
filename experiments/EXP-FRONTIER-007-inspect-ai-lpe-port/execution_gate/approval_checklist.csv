@@ -1,0 +1,8 @@
+gate_id,gate,required_state,current_state,evidence_path,blocks_execution
+DEP-001,explicit dependency approval,approved_by_user_or_lab,pending,experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/execution_decision.json,true
+KEY-001,model/API key approval,approved_secret_handling_plan,pending,experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/execution_decision.json,true
+DATA-001,no private or restricted source data,non_sensitive_seed_only,pending,experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/data/inspect_lpe_seed_cases.jsonl,true
+LABEL-001,human/domain review of seed labels,review_record_present,pending,experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/data/inspect_lpe_seed_cases.jsonl,true
+SECRET-001,no secrets in repo or logs,secret_redaction_plan_present,pending,experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/output_handling_policy.md,true
+OUTPUT-001,output claim ceiling accepted,claim_ceiling_acknowledged,pending,experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/output_handling_policy.md,true
+SANDBOX-001,execution isolation reviewed,isolated_run_plan_present,pending,experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/execution_runbook.md,true

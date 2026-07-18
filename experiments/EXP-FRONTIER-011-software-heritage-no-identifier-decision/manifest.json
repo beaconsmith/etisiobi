@@ -1,0 +1,46 @@
+{
+  "experiment_id": "EXP-FRONTIER-011",
+  "atlas_id": "ATLAS-0043",
+  "status": "SOFTWARE_HERITAGE_NO_IDENTIFIER_DECISION_READY_NOT_EXECUTED",
+  "decision": "defer_archive_identifier_until_release_and_archive_gates",
+  "claim_ceiling": "software_provenance_planning_not_archive_action",
+  "primary_sources": [
+    "https://www.softwareheritage.org/",
+    "https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html",
+    "https://www.softwareheritage.org/how-to-archive-reference-code/"
+  ],
+  "local_context": [
+    "experiments/EXP-FRONTIER-008-nwagu-ro-crate/preservation_decision/decision.json",
+    "experiments/EXP-FRONTIER-008-nwagu-ro-crate/preservation_decision/PRESERVATION_DECISION.md",
+    "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/boundary_review.json",
+    "experiments/EXP-FRONTIER-010-datalad-no-conversion-decision/manifest.json",
+    "research/frontier/nwagu_transfer_atlas/prior_art_verification/verification_manifest.json"
+  ],
+  "external_actions_taken": [],
+  "dependencies_installed": false,
+  "software_heritage_request_made": false,
+  "save_code_now_requested": false,
+  "archive_identifier_claimed": false,
+  "archive_identifier_assigned": false,
+  "repository_deposited": false,
+  "private_data_downloaded": false,
+  "public_release_claimed": false,
+  "blocked_promotions": [
+    "Software Heritage save request",
+    "archive identifier assignment",
+    "public repository/archive release",
+    "rights or authority clearance claim",
+    "article or submission maturity status"
+  ],
+  "required_before_archive_action": [
+    "public release approval",
+    "repository boundary review",
+    "rights review",
+    "authority review",
+    "restricted-material exclusion audit",
+    "license and citation metadata review",
+    "human preservation-infrastructure review",
+    "explicit user/lab archive approval"
+  ],
+  "exact_next_action": "Open the provenance branch into repository-boundary review: define which scripts, manifests, and metadata could become a future public software package, while keeping all archive actions deferred."
+}

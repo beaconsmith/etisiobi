@@ -1,0 +1,46 @@
+{
+  "experiment_id": "EXP-NA-004",
+  "canonical_source": "experiments/EXP-NA-004-logograph-ledger/results.json",
+  "generated_at": "2026-06-27",
+  "decision": "LOGOGRAPH_LEAD_SET_EXTRACTED_NOT_COMPLETE_CORPUS",
+  "lead_count": 30,
+  "unknown_or_uncertain": 5,
+  "source": "research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md",
+  "record_status": "visible_chart_lead_not_reviewed_glyph",
+  "domain_counts": {
+    "Time": 2,
+    "Cognition": 1,
+    "Unknown": 5,
+    "Social role": 1,
+    "Social/moral": 3,
+    "Moral/equity": 1,
+    "Action": 1,
+    "Economic": 1,
+    "Physical/social": 1,
+    "Institution": 1,
+    "Material/emotion": 1,
+    "Material/knowledge": 1,
+    "Moral/governance": 1,
+    "Ritual/sustenance": 1,
+    "Territory": 1,
+    "Space": 1,
+    "Dwelling": 1,
+    "Time/celestial": 1,
+    "Cognition/time": 1,
+    "Body/action": 1,
+    "Animal": 1,
+    "Cosmological": 1,
+    "Space/path": 1
+  },
+  "permitted_use": [
+    "Use the 30 rows as a source-located lead set for future corpus review.",
+    "Use semantic-domain tags as provisional indexing metadata.",
+    "Keep whole-word signs outside the 26 x 8 syllabic CV count."
+  ],
+  "forbidden_use": [
+    "Do not claim a complete logograph corpus.",
+    "Do not claim reviewed glyph-shape interpretation.",
+    "Do not treat unknown or ambiguous glosses as resolved lexical evidence."
+  ],
+  "article_implication": "Article 4 can argue that a 30-item logograph lead set is auditable as a corpus-building seed, but it cannot claim a complete logograph corpus, reviewed glyph inventory, or public source-image release."
+}

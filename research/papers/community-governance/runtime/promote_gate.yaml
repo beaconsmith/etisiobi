@@ -1,0 +1,12 @@
+paper: community-governance
+status: blocked
+last_checked: 2026-04-27
+foundational_sources: pass
+regional_sources: pass
+methods_anchor: true
+contradiction_coverage: true
+thesis_clarity: pass
+reviewer_risk_below_threshold: true
+promote_gate: true
+blocking_reasons: []
+promotion_condition: complete methods_anchor, contradiction_coverage (SE Nigeria failure cases), and reviewer_risk items before drafting

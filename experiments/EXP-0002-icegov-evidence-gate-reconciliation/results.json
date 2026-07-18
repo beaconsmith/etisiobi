@@ -1,0 +1,19 @@
+{
+  "experiment_id": "EXP-0002",
+  "purpose": "Apply claim gate to PAGC/ICEGOV paper claims.",
+  "status": "completed",
+  "decision": "CLAIMS_GATED_WITH_REWRITES",
+  "summary": {
+    "total_claims": 9,
+    "READY": 5,
+    "NEEDS_CITATION": 0,
+    "NEEDS_EXPERIMENT": 0,
+    "CONTRADICTED": 0,
+    "OVERCLAIMED": 0,
+    "REMOVE": 1,
+    "REWRITE_AS_LIMITATION": 2,
+    "SPECULATIVE_ONLY": 1
+  },
+  "effect_on_paper": "Positive contribution is restricted to audited count drift; E6 is removed and exact-27 is rewritten as a derived layer.",
+  "include_in_phase5_paper": true
+}

@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-05-28",
+  "sources": [
+    {
+      "id": "NA-SRC-001",
+      "title": "Azuonye 1992 official landing page and local PDF",
+      "kind": "primary/academic",
+      "status": "verified landing page; local PDF archived",
+      "evidence": "Azuonye frames the work as a study of origins, features, significance, mechanics, possibilities, and problems of the Nwagu Aneke Igbo Syllabary.",
+      "locator": "ScholarWorks lines 32-55; local research/pagc/primary_sources/nwagu_aneke/azuonye_1992.pdf",
+      "url": "https://scholarworks.umb.edu/africana_faculty_pubs/13/",
+      "confidence": 0.92,
+      "label": "EXTERNAL+OBSERVED",
+      "lane": "source"
+    },
+    {
+      "id": "NA-SRC-002",
+      "title": "Azuonye Appendix I chart render",
+      "kind": "local source artifact",
+      "status": "audited in EXP-0001",
+      "evidence": "The rendered chart shows 26 printed consonant rows and 8 vowel columns; f/v is a combined row.",
+      "locator": "experiments/EXP-0001-pagc-base-inventory-resolution/analysis.md; corpus/pagc_inventory_observations.jsonl",
+      "url": "",
+      "confidence": 0.92,
+      "label": "OBSERVED",
+      "lane": "inventory"
+    },
+    {
+      "id": "NA-SRC-003",
+      "title": "Omniglot Nwagu Aneke page",
+      "kind": "secondary web reference",
+      "status": "web page and local HTML archived",
+      "evidence": "Describes the script as a syllabary for Umuleri Igbo, left-to-right, with logographic symbols and no independent vowels.",
+      "locator": "Omniglot lines 16-25; local omniglot_nwaguaneke.html",
+      "url": "https://www.omniglot.com/writing/nwaguaneke.htm",
+      "confidence": 0.82,
+      "label": "EXTERNAL",
+      "lane": "typology"
+    },
+    {
+      "id": "NA-SRC-004",
+      "title": "Ahamefula 2012 USEM article",
+      "kind": "academic article",
+      "status": "web text located; not locally archived by this script",
+      "evidence": "Reports 224 ideal Igbo syllabary symbols, 164 actual Aneke symbols, around 30 multivalent characters, ten duplicate-symbol syllables, and f/v sharing.",
+      "locator": "USEM PDF lines 1134-1156 and 1175-1183",
+      "url": "https://www.usemjournal.com/pdf/volume-3.pdf",
+      "confidence": 0.86,
+      "label": "EXTERNAL",
+      "lane": "repertoire"
+    },
+    {
+      "id": "NA-SRC-005",
+      "title": "Unicode L2/23-203 African scripts update",
+      "kind": "standards status",
+      "status": "web PDF inspected",
+      "evidence": "Lists Nwagu Aneke as an unencoded syllabary with some logographic symbols, written left to right, and notes more than 100 books.",
+      "locator": "Unicode PDF lines 311-315",
+      "url": "https://www.unicode.org/L2/L2023/23203-update-african-scripts.pdf",
+      "confidence": 0.83,
+      "label": "EXTERNAL",
+      "lane": "digitization"
+    },
+    {
+      "id": "NA-SRC-006",
+      "title": "Oxford Handbook of African Languages chapter",
+      "kind": "background/prior art",
+      "status": "web snippet inspected",
+      "evidence": "Places the Nwagu Aneke Igbo syllabary among recent African orthography and writing-system inventions.",
+      "locator": "Oxford page line 49",
+      "url": "https://academic.oup.com/edited-volume/38608/chapter/334730045",
+      "confidence": 0.72,
+      "label": "EXTERNAL",
+      "lane": "comparative"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The research object is not a modifier atlas; it is the Nwagu Aneke script and archive.",
+      "status": "READY",
+      "evidence": "Repo AGENTS.md and research/pagc/WIKI.md identify PAGC as a program around Nwagu Aneke source-derived structure.",
+      "type": "OBSERVED"
+    },
+    {
+      "claim": "The 27-base figure is not source-observed in the chart; it is derived only if f/v is split.",
+      "status": "REWRITE_AS_DERIVED",
+      "evidence": "EXP-0001 and corpus inventory observations INV-0001 through INV-0004.",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "claim": "Ahamefula adds a richer count problem: 224 ideal syllables vs 164 actual symbols.",
+      "status": "NEW_RESEARCH_THREAD",
+      "evidence": "USEM article lines 1134-1138; needs local archival and line-verified extraction before becoming a repo claim.",
+      "type": "EXTERNAL"
+    },
+    {
+      "claim": "The f/v collapse is not a nuisance; it is a linguistic feature of the Umuleri-specific repertoire.",
+      "status": "NEW_RESEARCH_THREAD",
+      "evidence": "USEM article lines 1148-1152 plus EXP-0001 f/v row audit.",
+      "type": "DERIVED"
+    },
+    {
+      "claim": "Logographs must be modeled as a separate inventory from CV syllabary cells.",
+      "status": "READY",
+      "evidence": "Omniglot feature list, Azuonye appendix audit, and Ahamefula logograph examples.",
+      "type": "DERIVED"
+    },
+    {
+      "claim": "A Unicode/repertoire proposal would require a character inventory, names, glyph sources, usage evidence, and community review.",
+      "status": "SPECULATIVE_ONLY",
+      "evidence": "Unicode status document says no encoding proposal yet; additional proposal requirements are inferred from standards practice, not proven here.",
+      "type": "SPECULATIVE"
+    }
+  ],
+  "threads": [
+    {
+      "id": "NA-THREAD-001",
+      "title": "Repertoire Reconstruction",
+      "question": "Can we reconstruct the actual Aneke symbol repertoire from Azuonye Appendix I/II and Ahamefula's 164-symbol claim?",
+      "next": "Convert Appendix I/II into structured CSV: row, vowel, glyph id, reading, duplicate/multivalent flag.",
+      "risk": "medium",
+      "color": "#7c3aed"
+    },
+    {
+      "id": "NA-THREAD-002",
+      "title": "Ideal vs Actual Syllabary Space",
+      "question": "Why does Ahamefula say Igbo would require 224 symbols, while the Aneke syllabary has 164?",
+      "next": "Model the 224 ideal space and map missing/merged/duplicate cells.",
+      "risk": "medium",
+      "color": "#0f9f6e"
+    },
+    {
+      "id": "NA-THREAD-003",
+      "title": "f/v Collapse",
+      "question": "Is f/v sharing an Umuleri phonological economy, an orthographic simplification, or a transcription artifact?",
+      "next": "Compare f/v examples in Ahamefula, Azuonye Appendix II, and Igbo/Umuleri phonology sources.",
+      "risk": "low",
+      "color": "#e11d48"
+    },
+    {
+      "id": "NA-THREAD-004",
+      "title": "Logograph Lexicon",
+      "question": "Which whole-word symbols exist, and do they form a semantic core of the archive?",
+      "next": "Create a logograph ledger from Azuonye Appendix II and Ahamefula examples.",
+      "risk": "medium",
+      "color": "#d97706"
+    },
+    {
+      "id": "NA-THREAD-005",
+      "title": "Manuscript Corpus Access",
+      "question": "Where are the 100+ books/exercise books, and can usage examples be ethically studied?",
+      "next": "Build a contact/provenance map: University of Nigeria, family/estate, cited project team, archives.",
+      "risk": "high",
+      "color": "#2563eb"
+    },
+    {
+      "id": "NA-THREAD-006",
+      "title": "Digitization and Unicode",
+      "question": "What would be required for a defensible digital repertoire, keyboard, font, or Unicode proposal?",
+      "next": "Track unencoded-script status and assemble character naming, glyph variation, and evidence requirements.",
+      "risk": "high",
+      "color": "#0891b2"
+    },
+    {
+      "id": "NA-THREAD-007",
+      "title": "Comparative African Syllabaries",
+      "question": "How does Nwagu Aneke compare with Vai, Mende Kikakui, Loma, Bété, and Bamum in standardization path?",
+      "next": "Create comparison matrix: symbol count, usage corpus, standardization, encoding, pedagogy.",
+      "risk": "medium",
+      "color": "#9333ea"
+    }
+  ]
+}

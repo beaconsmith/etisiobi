@@ -1,0 +1,209 @@
+{
+  "generated_at": "2026-06-20T06:34:28+01:00",
+  "source_observed_layer": {
+    "rows": 26,
+    "columns": 8,
+    "records": 208
+  },
+  "derived_layer": {
+    "rows_if_f_v_split": 27,
+    "records_if_f_v_split": 216
+  },
+  "experiments": {
+    "EXP-NA-002": {
+      "experiment_id": "EXP-NA-002",
+      "generated_at": "2026-06-20T06:34:13+01:00",
+      "decision": "COUNT_LAYERS_RECONCILED_WITH_REVIEW_BLOCKERS",
+      "ledger_records": 7,
+      "ready_or_derived_records": 5,
+      "blocked_or_lead_records": 2,
+      "source_layer": {
+        "rows": 26,
+        "vowels": 8,
+        "records": 208
+      },
+      "derived_layer": {
+        "rows_if_f_v_split": 27,
+        "records_if_f_v_split": 216
+      },
+      "article_implication": "Article 2 can now report an executed count-ledger experiment, but final submission still needs human source review."
+    },
+    "EXP-NA-003": {
+      "experiment_id": "EXP-NA-003",
+      "generated_at": "2026-06-20T06:34:13+01:00",
+      "decision": "F_V_HINGE_CONFIRMED_AS_DERIVED_OPERATION_NOT_SOURCE_ROW_COUNT",
+      "source_combined_records": 8,
+      "derived_split_records": 16,
+      "delta_records": 8,
+      "source_rows": 26,
+      "derived_rows_if_split": 27,
+      "article_implication": "Article 3 can argue the f/v row is the controlled hinge between source and derived systems; it cannot claim a completed phonological review."
+    },
+    "EXP-NA-004": {
+      "experiment_id": "EXP-NA-004",
+      "generated_at": "2026-06-20T06:34:13+01:00",
+      "decision": "LOGOGRAPH_LEAD_SET_EXTRACTED_NOT_COMPLETE_CORPUS",
+      "lead_count": 30,
+      "domain_counts": {
+        "Time": 2,
+        "Cognition": 1,
+        "Unknown": 5,
+        "Social role": 1,
+        "Social/moral": 3,
+        "Moral/equity": 1,
+        "Action": 1,
+        "Economic": 1,
+        "Physical/social": 1,
+        "Institution": 1,
+        "Material/emotion": 1,
+        "Material/knowledge": 1,
+        "Moral/governance": 1,
+        "Ritual/sustenance": 1,
+        "Territory": 1,
+        "Space": 1,
+        "Dwelling": 1,
+        "Time/celestial": 1,
+        "Cognition/time": 1,
+        "Body/action": 1,
+        "Animal": 1,
+        "Cosmological": 1,
+        "Space/path": 1
+      },
+      "unknown_or_uncertain": 5,
+      "article_implication": "Article 4 now has a logograph dataset, but not a complete logograph corpus."
+    },
+    "EXP-NA-005": {
+      "experiment_id": "EXP-NA-005",
+      "generated_at": "2026-06-20T06:34:13+01:00",
+      "decision": "SELECTOR_LAYER_SAMPLE_CREATED_PIXEL_COORDINATES_BLOCKED",
+      "annotation_records": 10,
+      "tei_glyph_declarations": 10,
+      "records_with_pixel_coordinates": 0,
+      "article_implication": "Article 5 can report a standards mapping sample, but a critical edition still needs coordinate-level source annotation."
+    },
+    "EXP-NA-006": {
+      "experiment_id": "EXP-NA-006",
+      "generated_at": "2026-06-20T06:34:13+01:00",
+      "decision": "UNICODE_GAP_MATRIX_CREATED_NOT_PROPOSAL_READY",
+      "requirements": 12,
+      "status_counts": {
+        "present": 1,
+        "partial": 4,
+        "blocked": 3,
+        "missing": 4
+      },
+      "article_implication": "Article 6 can be a readiness/gap article; it cannot be framed as a Unicode proposal."
+    },
+    "EXP-NA-007": {
+      "experiment_id": "EXP-NA-007",
+      "generated_at": "2026-06-20T06:34:13+01:00",
+      "decision": "RIGHTS_SAFE_PROVENANCE_LEDGER_STARTED_PUBLIC_CORPUS_BLOCKED",
+      "ledger_records": 4,
+      "rights_status_counts": {
+        "cite_ok_reproduction_requires_license_check": 1,
+        "public_reproduction_not_cleared": 1,
+        "metadata_only": 1,
+        "unknown": 1
+      },
+      "article_implication": "Article 7 can be a provenance protocol paper; it cannot claim corpus access or release."
+    },
+    "EXP-NA-008": {
+      "experiment_id": "EXP-NA-008",
+      "generated_at": "2026-06-20T06:34:13+01:00",
+      "decision": "COMPARATIVE_MATRIX_CREATED_NWAGU_POSITIONED_AS_UNENCODED_REVIEW_BLOCKED",
+      "scripts_compared": 8,
+      "encoded_scripts": 3,
+      "unencoded_or_proposal_leads": 5,
+      "article_implication": "Article 8 can now compare evidence conditions across scripts, not just script typology.",
+      "external_sources_used": [
+        "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-19/",
+        "https://www.unicode.org/L2/L2023/23203-update-african-scripts.pdf",
+        "https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=mgqnsfqapq"
+      ]
+    },
+    "EXP-NA-009": {
+      "experiment_id": "EXP-NA-009",
+      "generated_at": "2026-06-20T06:34:28+01:00",
+      "decision": "TOKENIZER_BASELINES_RAN_NO_DOWNSTREAM_TASK_RESULT",
+      "train_words_used": 25000,
+      "test_words_used": 5000,
+      "seed": 42,
+      "metrics": [
+        {
+          "tokenizer": "character",
+          "test_words": 5000,
+          "mean_tokens_per_word": 5.6358,
+          "tokens_per_word_ci95_low": 5.5846,
+          "tokens_per_word_ci95_high": 5.695,
+          "mean_chars_per_token": 1.0,
+          "chars_per_token_ci95_low": 1.0,
+          "chars_per_token_ci95_high": 1.0,
+          "source_or_derived_cv_char_coverage": 0.0
+        },
+        {
+          "tokenizer": "whitespace_word",
+          "test_words": 5000,
+          "mean_tokens_per_word": 1.0,
+          "tokens_per_word_ci95_low": 1.0,
+          "tokens_per_word_ci95_high": 1.0,
+          "mean_chars_per_token": 5.6358,
+          "chars_per_token_ci95_low": 5.5846,
+          "chars_per_token_ci95_high": 5.695,
+          "source_or_derived_cv_char_coverage": 0.0
+        },
+        {
+          "tokenizer": "bpe_200_merges",
+          "test_words": 5000,
+          "mean_tokens_per_word": 3.6164,
+          "tokens_per_word_ci95_low": 3.5752,
+          "tokens_per_word_ci95_high": 3.6546,
+          "mean_chars_per_token": 1.7524,
+          "chars_per_token_ci95_low": 1.7295,
+          "chars_per_token_ci95_high": 1.7744,
+          "source_or_derived_cv_char_coverage": 0.0
+        },
+        {
+          "tokenizer": "source_layer_cv_greedy",
+          "test_words": 5000,
+          "mean_tokens_per_word": 3.6708,
+          "tokens_per_word_ci95_low": 3.6274,
+          "tokens_per_word_ci95_high": 3.7098,
+          "mean_chars_per_token": 1.5753,
+          "chars_per_token_ci95_low": 1.5667,
+          "chars_per_token_ci95_high": 1.5847,
+          "source_or_derived_cv_char_coverage": 0.6746
+        },
+        {
+          "tokenizer": "derived_fv_cv_greedy",
+          "test_words": 5000,
+          "mean_tokens_per_word": 3.6708,
+          "tokens_per_word_ci95_low": 3.6274,
+          "tokens_per_word_ci95_high": 3.7098,
+          "mean_chars_per_token": 1.5753,
+          "chars_per_token_ci95_low": 1.5667,
+          "chars_per_token_ci95_high": 1.5847,
+          "source_or_derived_cv_char_coverage": 0.6746
+        }
+      ],
+      "bpe_vs_source_cv_tokens_per_word_delta": 0.0544,
+      "derived_vs_source_cv_coverage_delta": 0.0,
+      "article_implication": "Article 9 can now report a bounded tokenizer baseline. It still cannot claim downstream NLP improvement without a task dataset."
+    },
+    "EXP-NA-010": {
+      "experiment_id": "EXP-NA-010",
+      "generated_at": "2026-06-20T06:34:28+01:00",
+      "decision": "LAYER_SAFETY_INVARIANT_TESTED_PROMOTION_ERRORS_REJECTED",
+      "test_cases": 7,
+      "promotion_errors_detected": 3,
+      "promotion_error_detection_rate": 1.0,
+      "proof_artifact": "experiments/EXP-NA-010-layer-safety-tests/layer_non_promotion_lemma.md",
+      "article_implication": "Article 10 now has a formal non-promotion lemma plus executable gate tests."
+    }
+  },
+  "input_checksums": {
+    "base_modifier_cache": "218698db7cd63a52df411682710b6530879c6fe0bacb0f65f509ec36b73fa747",
+    "symbol_inventory": "5c4d1351bd1bf4d5e0b7b31d7f319c3a09bd7a7387f10e05ade509ea1b204ae7",
+    "count_reconciliation": "0366dffdb7c4fbd72f5f1b1c035bcf10ab1e52a785fd62c499e4a97511b49b07",
+    "chart_transcription": "845beb63545b862d557c8a327b121f529ed7f12d79b135d773c09d0cacdb93ca"
+  }
+}

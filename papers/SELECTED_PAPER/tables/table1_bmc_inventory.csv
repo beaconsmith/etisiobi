@@ -1,0 +1,5 @@
+artifact,count,evidence
+BMC records,208,corpus/base_modifier_cache.jsonl
+Row labels,26,TEI rows and glyph annotations
+Vowel modifiers,8,TEI vowel inventory
+BMC object KG nodes,208,knowledge_graph/bmc_kg.jsonld

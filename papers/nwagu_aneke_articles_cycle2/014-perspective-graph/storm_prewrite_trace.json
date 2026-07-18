@@ -1,0 +1,44 @@
+{
+  "article_id": "ARTICLE-NA-014",
+  "generated_at": "2026-06-21T20:52:02+01:00",
+  "method": "STORM-inspired prewriting: perspective-guided questions, simulated review turns, outline audit, red-herring audit",
+  "source_urls": [
+    "https://arxiv.org/abs/2402.14207",
+    "https://storm-project.stanford.edu/research/storm/",
+    "https://github.com/stanford-oval/storm",
+    "https://arxiv.org/abs/2408.15232"
+  ],
+  "perspectives": [
+    {
+      "perspective": "source_critic",
+      "question": "What source-observed evidence supports the article claim, and what remains derived or blocked?",
+      "answer_constraint": "Use the 26 by 8 source layer and mark 27/216 as derived f/v split only."
+    },
+    {
+      "perspective": "standards_engineer",
+      "question": "Which standards can carry the claim without deciding it for us?",
+      "answer_constraint": "Compare TEI, IIIF, Web Annotation, PROV-O, RO-Crate, DataCite, CIDOC CRM, FAIR, and CARE."
+    },
+    {
+      "perspective": "methods_reviewer",
+      "question": "What experiment or audit output makes this article more than a formatted note?",
+      "answer_constraint": "Ground the paper in EXP-NA-014 and preserve its decision."
+    },
+    {
+      "perspective": "adversarial_reviewer",
+      "question": "What red herring would make this paper look stronger while making it less true?",
+      "answer_constraint": "Block universal-compression, E6, public-release, source-observed 216, and complete-glyph claims."
+    },
+    {
+      "perspective": "authority_reviewer",
+      "question": "What human, cultural, or rights decision remains outside internal approval?",
+      "answer_constraint": "Permit text-only internal approval and block public source-image or corpus release."
+    },
+    {
+      "perspective": "systems_designer",
+      "question": "What does this article teach future systems or Oroma without productizing unsupported claims?",
+      "answer_constraint": "visual research dashboard and branch routing"
+    }
+  ],
+  "outline_acceptance_rule": "Outline accepted only if it preserves source/derived distinction, cites evidence, names red herrings, and includes a falsification path."
+}

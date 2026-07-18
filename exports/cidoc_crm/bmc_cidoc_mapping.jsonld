@@ -1,0 +1,4830 @@
+{
+  "@context": {
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.cidoc-crm.org/extensions/crmdig/",
+    "bmc": "https://beaconsmith.github.io/etisiobi/ns/bmc#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@id": "urn:etisiobi:cidoc-crm:bmc-mapping",
+  "generatedAtTime": "2026-05-28T10:53:36+00:00",
+  "bmc:cidocVersion": "CIDOC CRM 7.1.3",
+  "bmc:crmdigVersion": "CRMdig 5.0",
+  "bmc:status": "lightweight_mapping_proposal_not_domain_validated",
+  "@graph": [
+    {
+      "@id": "bmc:source-artifact/nwagu-aneke-working-chart",
+      "@type": "crm:E22_Human-Made_Object",
+      "rdfs:label": "Nwagu Aneke source chart / working cultural artifact reference",
+      "bmc:mappingNote": "Cultural object placeholder; exact source-object authority requires human review."
+    },
+    {
+      "@id": "bmc:digital-object/bmc-dataset",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "Base Modifier Cache dataset",
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      }
+    },
+    {
+      "@id": "bmc:activity/bmc-generation",
+      "@type": [
+        "crm:E13_Attribute_Assignment",
+        "crmdig:D7_Digital_Machine_Event"
+      ],
+      "rdfs:label": "BMC row-vowel annotation and count-layer assignment",
+      "crm:P140_assigned_attribute_to": {
+        "@id": "bmc:digital-object/bmc-dataset"
+      },
+      "bmc:mappingStatus": "proposal_not_validated_by_cidoc_expert"
+    },
+    {
+      "@id": "bmc:actor/etisiobi-research-collective",
+      "@type": "crm:E39_Actor",
+      "rdfs:label": "Etisiobi Research Collective"
+    },
+    {
+      "@id": "bmc:object/BMC-000001",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000001 (ba)",
+      "crm:P1_is_identified_by": "NA-CELL-01-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000002",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000002 (bi)",
+      "crm:P1_is_identified_by": "NA-CELL-01-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000003",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000003 (bo)",
+      "crm:P1_is_identified_by": "NA-CELL-01-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000004",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000004 (bu)",
+      "crm:P1_is_identified_by": "NA-CELL-01-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000005",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000005 (be)",
+      "crm:P1_is_identified_by": "NA-CELL-01-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000006",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000006 (bị)",
+      "crm:P1_is_identified_by": "NA-CELL-01-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000007",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000007 (bọ)",
+      "crm:P1_is_identified_by": "NA-CELL-01-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000008",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000008 (bụ)",
+      "crm:P1_is_identified_by": "NA-CELL-01-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000009",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000009 (cha)",
+      "crm:P1_is_identified_by": "NA-CELL-02-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000010",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000010 (chi)",
+      "crm:P1_is_identified_by": "NA-CELL-02-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000011",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000011 (cho)",
+      "crm:P1_is_identified_by": "NA-CELL-02-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000012",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000012 (chu)",
+      "crm:P1_is_identified_by": "NA-CELL-02-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000013",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000013 (che)",
+      "crm:P1_is_identified_by": "NA-CELL-02-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000014",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000014 (chị)",
+      "crm:P1_is_identified_by": "NA-CELL-02-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000015",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000015 (chọ)",
+      "crm:P1_is_identified_by": "NA-CELL-02-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000016",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000016 (chụ)",
+      "crm:P1_is_identified_by": "NA-CELL-02-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000017",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000017 (da)",
+      "crm:P1_is_identified_by": "NA-CELL-03-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000018",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000018 (di)",
+      "crm:P1_is_identified_by": "NA-CELL-03-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000019",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000019 (do)",
+      "crm:P1_is_identified_by": "NA-CELL-03-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000020",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000020 (du)",
+      "crm:P1_is_identified_by": "NA-CELL-03-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000021",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000021 (de)",
+      "crm:P1_is_identified_by": "NA-CELL-03-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000022",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000022 (dị)",
+      "crm:P1_is_identified_by": "NA-CELL-03-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000023",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000023 (dọ)",
+      "crm:P1_is_identified_by": "NA-CELL-03-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000024",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000024 (dụ)",
+      "crm:P1_is_identified_by": "NA-CELL-03-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000025",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000025 (f/va)",
+      "crm:P1_is_identified_by": "NA-CELL-04-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000026",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000026 (f/vi)",
+      "crm:P1_is_identified_by": "NA-CELL-04-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000027",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000027 (f/vo)",
+      "crm:P1_is_identified_by": "NA-CELL-04-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000028",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000028 (f/vu)",
+      "crm:P1_is_identified_by": "NA-CELL-04-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000029",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000029 (f/ve)",
+      "crm:P1_is_identified_by": "NA-CELL-04-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000030",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000030 (f/vị)",
+      "crm:P1_is_identified_by": "NA-CELL-04-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000031",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000031 (f/vọ)",
+      "crm:P1_is_identified_by": "NA-CELL-04-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000032",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000032 (f/vụ)",
+      "crm:P1_is_identified_by": "NA-CELL-04-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000033",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000033 (ga)",
+      "crm:P1_is_identified_by": "NA-CELL-05-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000034",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000034 (gi)",
+      "crm:P1_is_identified_by": "NA-CELL-05-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000035",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000035 (go)",
+      "crm:P1_is_identified_by": "NA-CELL-05-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000036",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000036 (gu)",
+      "crm:P1_is_identified_by": "NA-CELL-05-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000037",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000037 (ge)",
+      "crm:P1_is_identified_by": "NA-CELL-05-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000038",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000038 (gị)",
+      "crm:P1_is_identified_by": "NA-CELL-05-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000039",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000039 (gọ)",
+      "crm:P1_is_identified_by": "NA-CELL-05-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000040",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000040 (gụ)",
+      "crm:P1_is_identified_by": "NA-CELL-05-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000041",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000041 (gba)",
+      "crm:P1_is_identified_by": "NA-CELL-06-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000042",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000042 (gbi)",
+      "crm:P1_is_identified_by": "NA-CELL-06-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000043",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000043 (gbo)",
+      "crm:P1_is_identified_by": "NA-CELL-06-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000044",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000044 (gbu)",
+      "crm:P1_is_identified_by": "NA-CELL-06-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000045",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000045 (gbe)",
+      "crm:P1_is_identified_by": "NA-CELL-06-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000046",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000046 (gbị)",
+      "crm:P1_is_identified_by": "NA-CELL-06-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000047",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000047 (gbọ)",
+      "crm:P1_is_identified_by": "NA-CELL-06-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000048",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000048 (gbụ)",
+      "crm:P1_is_identified_by": "NA-CELL-06-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000049",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000049 (gha)",
+      "crm:P1_is_identified_by": "NA-CELL-07-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000050",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000050 (ghi)",
+      "crm:P1_is_identified_by": "NA-CELL-07-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000051",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000051 (gho)",
+      "crm:P1_is_identified_by": "NA-CELL-07-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000052",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000052 (ghu)",
+      "crm:P1_is_identified_by": "NA-CELL-07-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000053",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000053 (ghe)",
+      "crm:P1_is_identified_by": "NA-CELL-07-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000054",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000054 (ghị)",
+      "crm:P1_is_identified_by": "NA-CELL-07-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000055",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000055 (ghọ)",
+      "crm:P1_is_identified_by": "NA-CELL-07-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000056",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000056 (ghụ)",
+      "crm:P1_is_identified_by": "NA-CELL-07-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000057",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000057 (gwa)",
+      "crm:P1_is_identified_by": "NA-CELL-08-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000058",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000058 (gwi)",
+      "crm:P1_is_identified_by": "NA-CELL-08-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000059",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000059 (gwo)",
+      "crm:P1_is_identified_by": "NA-CELL-08-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000060",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000060 (gwu)",
+      "crm:P1_is_identified_by": "NA-CELL-08-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000061",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000061 (gwe)",
+      "crm:P1_is_identified_by": "NA-CELL-08-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000062",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000062 (gwị)",
+      "crm:P1_is_identified_by": "NA-CELL-08-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000063",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000063 (gwọ)",
+      "crm:P1_is_identified_by": "NA-CELL-08-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000064",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000064 (gwụ)",
+      "crm:P1_is_identified_by": "NA-CELL-08-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000065",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000065 (ha)",
+      "crm:P1_is_identified_by": "NA-CELL-09-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000066",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000066 (hi)",
+      "crm:P1_is_identified_by": "NA-CELL-09-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000067",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000067 (ho)",
+      "crm:P1_is_identified_by": "NA-CELL-09-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000068",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000068 (hu)",
+      "crm:P1_is_identified_by": "NA-CELL-09-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000069",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000069 (he)",
+      "crm:P1_is_identified_by": "NA-CELL-09-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000070",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000070 (hị)",
+      "crm:P1_is_identified_by": "NA-CELL-09-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000071",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000071 (họ)",
+      "crm:P1_is_identified_by": "NA-CELL-09-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000072",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000072 (hụ)",
+      "crm:P1_is_identified_by": "NA-CELL-09-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000073",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000073 (ja)",
+      "crm:P1_is_identified_by": "NA-CELL-10-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000074",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000074 (ji)",
+      "crm:P1_is_identified_by": "NA-CELL-10-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000075",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000075 (jo)",
+      "crm:P1_is_identified_by": "NA-CELL-10-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000076",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000076 (ju)",
+      "crm:P1_is_identified_by": "NA-CELL-10-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000077",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000077 (je)",
+      "crm:P1_is_identified_by": "NA-CELL-10-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000078",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000078 (jị)",
+      "crm:P1_is_identified_by": "NA-CELL-10-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000079",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000079 (jọ)",
+      "crm:P1_is_identified_by": "NA-CELL-10-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000080",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000080 (jụ)",
+      "crm:P1_is_identified_by": "NA-CELL-10-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000081",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000081 (ka)",
+      "crm:P1_is_identified_by": "NA-CELL-11-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000082",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000082 (ki)",
+      "crm:P1_is_identified_by": "NA-CELL-11-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000083",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000083 (ko)",
+      "crm:P1_is_identified_by": "NA-CELL-11-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000084",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000084 (ku)",
+      "crm:P1_is_identified_by": "NA-CELL-11-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000085",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000085 (ke)",
+      "crm:P1_is_identified_by": "NA-CELL-11-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000086",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000086 (kị)",
+      "crm:P1_is_identified_by": "NA-CELL-11-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000087",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000087 (kọ)",
+      "crm:P1_is_identified_by": "NA-CELL-11-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000088",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000088 (kụ)",
+      "crm:P1_is_identified_by": "NA-CELL-11-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000089",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000089 (kpa)",
+      "crm:P1_is_identified_by": "NA-CELL-12-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000090",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000090 (kpi)",
+      "crm:P1_is_identified_by": "NA-CELL-12-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000091",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000091 (kpo)",
+      "crm:P1_is_identified_by": "NA-CELL-12-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000092",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000092 (kpu)",
+      "crm:P1_is_identified_by": "NA-CELL-12-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000093",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000093 (kpe)",
+      "crm:P1_is_identified_by": "NA-CELL-12-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000094",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000094 (kpị)",
+      "crm:P1_is_identified_by": "NA-CELL-12-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000095",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000095 (kpọ)",
+      "crm:P1_is_identified_by": "NA-CELL-12-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000096",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000096 (kpụ)",
+      "crm:P1_is_identified_by": "NA-CELL-12-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000097",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000097 (kwa)",
+      "crm:P1_is_identified_by": "NA-CELL-13-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000098",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000098 (kwi)",
+      "crm:P1_is_identified_by": "NA-CELL-13-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000099",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000099 (kwo)",
+      "crm:P1_is_identified_by": "NA-CELL-13-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000100",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000100 (kwu)",
+      "crm:P1_is_identified_by": "NA-CELL-13-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000101",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000101 (kwe)",
+      "crm:P1_is_identified_by": "NA-CELL-13-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000102",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000102 (kwị)",
+      "crm:P1_is_identified_by": "NA-CELL-13-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000103",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000103 (kwọ)",
+      "crm:P1_is_identified_by": "NA-CELL-13-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000104",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000104 (kwụ)",
+      "crm:P1_is_identified_by": "NA-CELL-13-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000105",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000105 (la)",
+      "crm:P1_is_identified_by": "NA-CELL-14-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000106",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000106 (li)",
+      "crm:P1_is_identified_by": "NA-CELL-14-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000107",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000107 (lo)",
+      "crm:P1_is_identified_by": "NA-CELL-14-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000108",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000108 (lu)",
+      "crm:P1_is_identified_by": "NA-CELL-14-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000109",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000109 (le)",
+      "crm:P1_is_identified_by": "NA-CELL-14-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000110",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000110 (lị)",
+      "crm:P1_is_identified_by": "NA-CELL-14-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000111",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000111 (lọ)",
+      "crm:P1_is_identified_by": "NA-CELL-14-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000112",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000112 (lụ)",
+      "crm:P1_is_identified_by": "NA-CELL-14-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000113",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000113 (ma)",
+      "crm:P1_is_identified_by": "NA-CELL-15-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000114",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000114 (mi)",
+      "crm:P1_is_identified_by": "NA-CELL-15-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000115",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000115 (mo)",
+      "crm:P1_is_identified_by": "NA-CELL-15-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000116",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000116 (mu)",
+      "crm:P1_is_identified_by": "NA-CELL-15-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000117",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000117 (me)",
+      "crm:P1_is_identified_by": "NA-CELL-15-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000118",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000118 (mị)",
+      "crm:P1_is_identified_by": "NA-CELL-15-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000119",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000119 (mọ)",
+      "crm:P1_is_identified_by": "NA-CELL-15-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000120",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000120 (mụ)",
+      "crm:P1_is_identified_by": "NA-CELL-15-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000121",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000121 (na)",
+      "crm:P1_is_identified_by": "NA-CELL-16-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000122",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000122 (ni)",
+      "crm:P1_is_identified_by": "NA-CELL-16-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000123",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000123 (no)",
+      "crm:P1_is_identified_by": "NA-CELL-16-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000124",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000124 (nu)",
+      "crm:P1_is_identified_by": "NA-CELL-16-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000125",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000125 (ne)",
+      "crm:P1_is_identified_by": "NA-CELL-16-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000126",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000126 (nị)",
+      "crm:P1_is_identified_by": "NA-CELL-16-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000127",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000127 (nọ)",
+      "crm:P1_is_identified_by": "NA-CELL-16-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000128",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000128 (nụ)",
+      "crm:P1_is_identified_by": "NA-CELL-16-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000129",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000129 (ṅa)",
+      "crm:P1_is_identified_by": "NA-CELL-17-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000130",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000130 (ṅi)",
+      "crm:P1_is_identified_by": "NA-CELL-17-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000131",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000131 (ṅo)",
+      "crm:P1_is_identified_by": "NA-CELL-17-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000132",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000132 (ṅu)",
+      "crm:P1_is_identified_by": "NA-CELL-17-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000133",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000133 (ṅe)",
+      "crm:P1_is_identified_by": "NA-CELL-17-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000134",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000134 (ṅị)",
+      "crm:P1_is_identified_by": "NA-CELL-17-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000135",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000135 (ṅọ)",
+      "crm:P1_is_identified_by": "NA-CELL-17-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000136",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000136 (ṅụ)",
+      "crm:P1_is_identified_by": "NA-CELL-17-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000137",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000137 (nya)",
+      "crm:P1_is_identified_by": "NA-CELL-18-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000138",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000138 (nyi)",
+      "crm:P1_is_identified_by": "NA-CELL-18-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000139",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000139 (nyo)",
+      "crm:P1_is_identified_by": "NA-CELL-18-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000140",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000140 (nyu)",
+      "crm:P1_is_identified_by": "NA-CELL-18-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000141",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000141 (nye)",
+      "crm:P1_is_identified_by": "NA-CELL-18-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000142",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000142 (nyị)",
+      "crm:P1_is_identified_by": "NA-CELL-18-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000143",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000143 (nyọ)",
+      "crm:P1_is_identified_by": "NA-CELL-18-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000144",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000144 (nyụ)",
+      "crm:P1_is_identified_by": "NA-CELL-18-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000145",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000145 (nwa)",
+      "crm:P1_is_identified_by": "NA-CELL-19-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000146",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000146 (nwi)",
+      "crm:P1_is_identified_by": "NA-CELL-19-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000147",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000147 (nwo)",
+      "crm:P1_is_identified_by": "NA-CELL-19-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000148",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000148 (nwu)",
+      "crm:P1_is_identified_by": "NA-CELL-19-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000149",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000149 (nwe)",
+      "crm:P1_is_identified_by": "NA-CELL-19-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000150",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000150 (nwị)",
+      "crm:P1_is_identified_by": "NA-CELL-19-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000151",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000151 (nwọ)",
+      "crm:P1_is_identified_by": "NA-CELL-19-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000152",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000152 (nwụ)",
+      "crm:P1_is_identified_by": "NA-CELL-19-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000153",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000153 (pa)",
+      "crm:P1_is_identified_by": "NA-CELL-20-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000154",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000154 (pi)",
+      "crm:P1_is_identified_by": "NA-CELL-20-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000155",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000155 (po)",
+      "crm:P1_is_identified_by": "NA-CELL-20-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000156",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000156 (pu)",
+      "crm:P1_is_identified_by": "NA-CELL-20-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000157",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000157 (pe)",
+      "crm:P1_is_identified_by": "NA-CELL-20-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000158",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000158 (pị)",
+      "crm:P1_is_identified_by": "NA-CELL-20-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000159",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000159 (pọ)",
+      "crm:P1_is_identified_by": "NA-CELL-20-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000160",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000160 (pụ)",
+      "crm:P1_is_identified_by": "NA-CELL-20-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000161",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000161 (ra)",
+      "crm:P1_is_identified_by": "NA-CELL-21-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000162",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000162 (ri)",
+      "crm:P1_is_identified_by": "NA-CELL-21-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000163",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000163 (ro)",
+      "crm:P1_is_identified_by": "NA-CELL-21-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000164",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000164 (ru)",
+      "crm:P1_is_identified_by": "NA-CELL-21-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000165",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000165 (re)",
+      "crm:P1_is_identified_by": "NA-CELL-21-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000166",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000166 (rị)",
+      "crm:P1_is_identified_by": "NA-CELL-21-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000167",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000167 (rọ)",
+      "crm:P1_is_identified_by": "NA-CELL-21-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000168",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000168 (rụ)",
+      "crm:P1_is_identified_by": "NA-CELL-21-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000169",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000169 (sa)",
+      "crm:P1_is_identified_by": "NA-CELL-22-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000170",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000170 (si)",
+      "crm:P1_is_identified_by": "NA-CELL-22-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000171",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000171 (so)",
+      "crm:P1_is_identified_by": "NA-CELL-22-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000172",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000172 (su)",
+      "crm:P1_is_identified_by": "NA-CELL-22-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000173",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000173 (se)",
+      "crm:P1_is_identified_by": "NA-CELL-22-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000174",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000174 (sị)",
+      "crm:P1_is_identified_by": "NA-CELL-22-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000175",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000175 (sọ)",
+      "crm:P1_is_identified_by": "NA-CELL-22-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000176",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000176 (sụ)",
+      "crm:P1_is_identified_by": "NA-CELL-22-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000177",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000177 (ta)",
+      "crm:P1_is_identified_by": "NA-CELL-23-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000178",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000178 (ti)",
+      "crm:P1_is_identified_by": "NA-CELL-23-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000179",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000179 (to)",
+      "crm:P1_is_identified_by": "NA-CELL-23-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000180",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000180 (tu)",
+      "crm:P1_is_identified_by": "NA-CELL-23-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000181",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000181 (te)",
+      "crm:P1_is_identified_by": "NA-CELL-23-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000182",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000182 (tị)",
+      "crm:P1_is_identified_by": "NA-CELL-23-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000183",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000183 (tọ)",
+      "crm:P1_is_identified_by": "NA-CELL-23-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000184",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000184 (tụ)",
+      "crm:P1_is_identified_by": "NA-CELL-23-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000185",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000185 (wa)",
+      "crm:P1_is_identified_by": "NA-CELL-24-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000186",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000186 (wi)",
+      "crm:P1_is_identified_by": "NA-CELL-24-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000187",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000187 (wo)",
+      "crm:P1_is_identified_by": "NA-CELL-24-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000188",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000188 (wu)",
+      "crm:P1_is_identified_by": "NA-CELL-24-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000189",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000189 (we)",
+      "crm:P1_is_identified_by": "NA-CELL-24-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000190",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000190 (wị)",
+      "crm:P1_is_identified_by": "NA-CELL-24-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000191",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000191 (wọ)",
+      "crm:P1_is_identified_by": "NA-CELL-24-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000192",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000192 (wụ)",
+      "crm:P1_is_identified_by": "NA-CELL-24-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000193",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000193 (ya)",
+      "crm:P1_is_identified_by": "NA-CELL-25-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000194",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000194 (yi)",
+      "crm:P1_is_identified_by": "NA-CELL-25-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000195",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000195 (yo)",
+      "crm:P1_is_identified_by": "NA-CELL-25-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000196",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000196 (yu)",
+      "crm:P1_is_identified_by": "NA-CELL-25-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000197",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000197 (ye)",
+      "crm:P1_is_identified_by": "NA-CELL-25-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000198",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000198 (yị)",
+      "crm:P1_is_identified_by": "NA-CELL-25-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000199",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000199 (yọ)",
+      "crm:P1_is_identified_by": "NA-CELL-25-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000200",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000200 (yụ)",
+      "crm:P1_is_identified_by": "NA-CELL-25-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000201",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000201 (za)",
+      "crm:P1_is_identified_by": "NA-CELL-26-01",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=1]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000202",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000202 (zi)",
+      "crm:P1_is_identified_by": "NA-CELL-26-02",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=2]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000203",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000203 (zo)",
+      "crm:P1_is_identified_by": "NA-CELL-26-03",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=3]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000204",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000204 (zu)",
+      "crm:P1_is_identified_by": "NA-CELL-26-04",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=4]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000205",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000205 (ze)",
+      "crm:P1_is_identified_by": "NA-CELL-26-05",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=5]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000206",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000206 (zị)",
+      "crm:P1_is_identified_by": "NA-CELL-26-06",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=6]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000207",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000207 (zọ)",
+      "crm:P1_is_identified_by": "NA-CELL-26-07",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=7]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    },
+    {
+      "@id": "bmc:object/BMC-000208",
+      "@type": "crm:E73_Information_Object",
+      "rdfs:label": "BMC object BMC-000208 (zụ)",
+      "crm:P1_is_identified_by": "NA-CELL-26-08",
+      "crm:P2_has_type": [
+        "BaseModifierCacheRecord",
+        "human_review_needed"
+      ],
+      "crm:P129_is_about": {
+        "@id": "bmc:source-artifact/nwagu-aneke-working-chart"
+      },
+      "crm:P94i_was_created_by": {
+        "@id": "bmc:activity/bmc-generation"
+      },
+      "bmc:teiLocator": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=8]",
+      "bmc:iiifCanvas": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "bmc:certainty": 0.42,
+      "bmc:claimDependencies": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ]
+    }
+  ]
+}

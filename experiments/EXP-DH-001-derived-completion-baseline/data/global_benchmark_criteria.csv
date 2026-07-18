@@ -1,0 +1,8 @@
+criterion_id,criterion_name,global_reference,pass_condition
+GB-001,reproducible_artifact,ACM Artifact Review and Badging,Runner and tests exist and regenerate results locally.
+GB-002,documented_datasets,NeurIPS Paper Checklist and Datasets/Benchmarks guidance,All datasets used by the benchmark are named in results.
+GB-003,baseline_comparison,NeurIPS Datasets/Benchmarks guidance,At least source-collapsed derived-split and shuffled baselines are scored.
+GB-004,adversarial_source_safety,HELM-style scenario and risk coverage,Counterexamples/adversarial variants are scored and unsafe source-promotion is rejected.
+GB-005,transparent_metrics,HELM transparency norm,Results expose counts statuses and per-model metrics.
+GB-006,source_boundary_control,ACM/NeurIPS reproducibility and limitations norms,The source-observed 26 x 8 foundation is preserved and 27 x 8 remains derived.
+GB-007,non_label_generalization,Global benchmark breakthrough threshold,The derived split must demonstrate value beyond explicit f/v labels.

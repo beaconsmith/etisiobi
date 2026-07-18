@@ -1,0 +1,1408 @@
+{
+  ".gitignore": [
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "affects",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    }
+  ],
+  "AGENTS.md": [
+    {
+      "event_id": "REVT-0001",
+      "event_type": "decision",
+      "relation": "evidence",
+      "scope": "lab_identity",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0015",
+      "event_type": "control_plane_change",
+      "relation": "outputs",
+      "scope": "canonical_instruction_reset",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0015",
+      "event_type": "control_plane_change",
+      "relation": "affects",
+      "scope": "canonical_instruction_reset",
+      "status": "accepted"
+    }
+  ],
+  "LAB_CHARTER.md": [
+    {
+      "event_id": "REVT-0001",
+      "event_type": "decision",
+      "relation": "outputs",
+      "scope": "lab_identity",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0001",
+      "event_type": "decision",
+      "relation": "affects",
+      "scope": "lab_identity",
+      "status": "accepted"
+    }
+  ],
+  "LAB_OPERATING_SYSTEM.md": [
+    {
+      "event_id": "REVT-0001",
+      "event_type": "decision",
+      "relation": "outputs",
+      "scope": "lab_identity",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0001",
+      "event_type": "decision",
+      "relation": "affects",
+      "scope": "lab_identity",
+      "status": "accepted"
+    }
+  ],
+  "Makefile": [
+    {
+      "event_id": "REVT-0014",
+      "event_type": "control_plane_change",
+      "relation": "affects",
+      "scope": "research_event_trace",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    }
+  ],
+  "README.md": [
+    {
+      "event_id": "REVT-0001",
+      "event_type": "decision",
+      "relation": "evidence",
+      "scope": "lab_identity",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "affects",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    }
+  ],
+  "RESEARCH_PROGRAMS.md": [
+    {
+      "event_id": "REVT-0001",
+      "event_type": "decision",
+      "relation": "affects",
+      "scope": "lab_identity",
+      "status": "accepted"
+    }
+  ],
+  "artifacts/nwagu_aneke/": [
+    {
+      "event_id": "REVT-0002",
+      "event_type": "decision",
+      "relation": "outputs",
+      "scope": "artifact_lab",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0002",
+      "event_type": "decision",
+      "relation": "affects",
+      "scope": "artifact_lab",
+      "status": "accepted"
+    }
+  ],
+  "artifacts/nwagu_aneke/base_count_audit.md": [
+    {
+      "event_id": "REVT-0003",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0017",
+      "event_type": "decision",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_article_program",
+      "status": "active"
+    }
+  ],
+  "authority/approval_register.jsonl": [
+    {
+      "event_id": "REVT-0005",
+      "event_type": "human_attestation",
+      "relation": "outputs",
+      "scope": "authority_workflow",
+      "status": "accepted_for_internal_research"
+    },
+    {
+      "event_id": "REVT-0005",
+      "event_type": "human_attestation",
+      "relation": "affects",
+      "scope": "authority_workflow",
+      "status": "accepted_for_internal_research"
+    }
+  ],
+  "benchmarks/benchmark_registry.jsonl": [
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    }
+  ],
+  "benchmarks/nwagu_article_research/": [
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    }
+  ],
+  "benchmarks/nwagu_article_research/BENCHMARK.md": [
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    }
+  ],
+  "benchmarks/nwagu_article_research/benchmark_tasks.jsonl": [
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    }
+  ],
+  "benchmarks/nwagu_article_research/scoreboard.json": [
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    }
+  ],
+  "corpus/base_modifier_cache.jsonl": [
+    {
+      "event_id": "REVT-0006",
+      "event_type": "human_attestation",
+      "relation": "evidence",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted_for_internal_research_and_design_exploration"
+    }
+  ],
+  "corpus/bmc_count_reconciliation.json": [
+    {
+      "event_id": "REVT-0003",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0006",
+      "event_type": "human_attestation",
+      "relation": "evidence",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted_for_internal_research_and_design_exploration"
+    },
+    {
+      "event_id": "REVT-0007",
+      "event_type": "decision",
+      "relation": "evidence",
+      "scope": "pagc_applications_research",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0015",
+      "event_type": "control_plane_change",
+      "relation": "evidence",
+      "scope": "canonical_instruction_reset",
+      "status": "accepted"
+    }
+  ],
+  "corpus/claims.jsonl": [
+    {
+      "event_id": "REVT-0001",
+      "event_type": "decision",
+      "relation": "evidence",
+      "scope": "lab_identity",
+      "status": "accepted"
+    }
+  ],
+  "corpus/pagc_inventory_observations.jsonl": [
+    {
+      "event_id": "REVT-0003",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted"
+    }
+  ],
+  "decisions/decision_log.jsonl": [
+    {
+      "event_id": "REVT-0014",
+      "event_type": "control_plane_change",
+      "relation": "evidence",
+      "scope": "research_event_trace",
+      "status": "active"
+    }
+  ],
+  "experiments/EXP-0001-pagc-base-inventory-resolution/decision.md": [
+    {
+      "event_id": "REVT-0002",
+      "event_type": "decision",
+      "relation": "evidence",
+      "scope": "artifact_lab",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0003",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted"
+    }
+  ],
+  "experiments/EXP-APP-001-count-layer-design-grammar/": [
+    {
+      "event_id": "REVT-0006",
+      "event_type": "human_attestation",
+      "relation": "affects",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted_for_internal_research_and_design_exploration"
+    },
+    {
+      "event_id": "REVT-0007",
+      "event_type": "decision",
+      "relation": "outputs",
+      "scope": "pagc_applications_research",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0007",
+      "event_type": "decision",
+      "relation": "affects",
+      "scope": "pagc_applications_research",
+      "status": "active"
+    }
+  ],
+  "experiments/EXP-APP-001-count-layer-design-grammar/results.json": [
+    {
+      "event_id": "REVT-0007",
+      "event_type": "decision",
+      "relation": "evidence",
+      "scope": "pagc_applications_research",
+      "status": "active"
+    }
+  ],
+  "experiments/EXP-APP-002-governance-state-grammar/": [
+    {
+      "event_id": "REVT-0008",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "pagc_governance_state_grammar",
+      "status": "active"
+    }
+  ],
+  "experiments/EXP-APP-002-governance-state-grammar/results.json": [
+    {
+      "event_id": "REVT-0008",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "pagc_governance_state_grammar",
+      "status": "active"
+    }
+  ],
+  "experiments/EXP-APP-003-layer-safety-proof/": [
+    {
+      "event_id": "REVT-0009",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "pagc_applications_layer_safety",
+      "status": "accepted_with_assumptions"
+    }
+  ],
+  "experiments/EXP-APP-003-layer-safety-proof/proof.md": [
+    {
+      "event_id": "REVT-0009",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "pagc_applications_layer_safety",
+      "status": "accepted_with_assumptions"
+    }
+  ],
+  "experiments/EXP-APP-003-layer-safety-proof/verification_report.json": [
+    {
+      "event_id": "REVT-0009",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "pagc_applications_layer_safety",
+      "status": "accepted_with_assumptions"
+    }
+  ],
+  "experiments/EXP-NA-001-source-critical-reconstruction/": [
+    {
+      "event_id": "REVT-0018",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_source_critical_reconstruction",
+      "status": "accepted_with_limitations"
+    }
+  ],
+  "experiments/EXP-NA-001-source-critical-reconstruction/decision.md": [
+    {
+      "event_id": "REVT-0018",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_source_critical_reconstruction",
+      "status": "accepted_with_limitations"
+    }
+  ],
+  "experiments/EXP-NA-001-source-critical-reconstruction/evidence_table.csv": [
+    {
+      "event_id": "REVT-0018",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_source_critical_reconstruction",
+      "status": "accepted_with_limitations"
+    }
+  ],
+  "experiments/EXP-NA-001-source-critical-reconstruction/results.json": [
+    {
+      "event_id": "REVT-0018",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_source_critical_reconstruction",
+      "status": "accepted_with_limitations"
+    }
+  ],
+  "experiments/nwagu_aneke_article_experiments/results.json": [
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    }
+  ],
+  "legacy-provider/pagc-autoreason-runner.py": [
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "supersedes_artifacts",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    }
+  ],
+  "legacy-provider/session-config/scheduled_tasks.lock": [
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "supersedes_artifacts",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    }
+  ],
+  "legacy-provider/session-config/settings.local.json": [
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "supersedes_artifacts",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    }
+  ],
+  "legacy-provider/session-harness.md": [
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "supersedes_artifacts",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    }
+  ],
+  "outputs/reviewer_packet/NOVEL_PROOF_001.md": [
+    {
+      "event_id": "REVT-0009",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "pagc_applications_layer_safety",
+      "status": "accepted_with_assumptions"
+    }
+  ],
+  "outputs/reviewer_packet/PAGC_APPLICATION_DISCOVERY_001.md": [
+    {
+      "event_id": "REVT-0008",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "pagc_governance_state_grammar",
+      "status": "active"
+    }
+  ],
+  "outputs/reviewer_packet/READ_THIS_FIRST.md": [
+    {
+      "event_id": "REVT-0006",
+      "event_type": "human_attestation",
+      "relation": "outputs",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted_for_internal_research_and_design_exploration"
+    }
+  ],
+  "paper/claim_gate.md": [
+    {
+      "event_id": "REVT-0004",
+      "event_type": "decision",
+      "relation": "evidence",
+      "scope": "research_lattice",
+      "status": "accepted"
+    }
+  ],
+  "papers/SELECTED_PAPER/count_layer_foundation_attestation.md": [
+    {
+      "event_id": "REVT-0003",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0006",
+      "event_type": "human_attestation",
+      "relation": "outputs",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted_for_internal_research_and_design_exploration"
+    },
+    {
+      "event_id": "REVT-0007",
+      "event_type": "decision",
+      "relation": "evidence",
+      "scope": "pagc_applications_research",
+      "status": "active"
+    }
+  ],
+  "papers/SELECTED_PAPER/final_claim_gate.md": [
+    {
+      "event_id": "REVT-0006",
+      "event_type": "human_attestation",
+      "relation": "evidence",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted_for_internal_research_and_design_exploration"
+    }
+  ],
+  "papers/nwagu_aneke_articles/": [
+    {
+      "event_id": "REVT-0019",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_ten_article_manuscript_package",
+      "status": "compiled_review_drafts"
+    },
+    {
+      "event_id": "REVT-0020",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_ten_article_impact_upgrade",
+      "status": "journal_track_drafts_not_submission_ready"
+    },
+    {
+      "event_id": "REVT-0020",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "nwagu_aneke_ten_article_impact_upgrade",
+      "status": "journal_track_drafts_not_submission_ready"
+    },
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    },
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    }
+  ],
+  "papers/nwagu_aneke_articles/README.md": [
+    {
+      "event_id": "REVT-0019",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_ten_article_manuscript_package",
+      "status": "compiled_review_drafts"
+    }
+  ],
+  "papers/nwagu_aneke_articles/compile_logs/compile_results.json": [
+    {
+      "event_id": "REVT-0019",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_ten_article_manuscript_package",
+      "status": "compiled_review_drafts"
+    }
+  ],
+  "papers/nwagu_aneke_articles/compile_report.md": [
+    {
+      "event_id": "REVT-0019",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_ten_article_manuscript_package",
+      "status": "compiled_review_drafts"
+    },
+    {
+      "event_id": "REVT-0020",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_ten_article_impact_upgrade",
+      "status": "journal_track_drafts_not_submission_ready"
+    },
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    }
+  ],
+  "papers/nwagu_aneke_articles/impact_readiness_audit.md": [
+    {
+      "event_id": "REVT-0020",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_ten_article_impact_upgrade",
+      "status": "journal_track_drafts_not_submission_ready"
+    }
+  ],
+  "papers/nwagu_aneke_articles/manifest.json": [
+    {
+      "event_id": "REVT-0019",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_ten_article_manuscript_package",
+      "status": "compiled_review_drafts"
+    },
+    {
+      "event_id": "REVT-0020",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_ten_article_impact_upgrade",
+      "status": "journal_track_drafts_not_submission_ready"
+    },
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    }
+  ],
+  "papers/nwagu_aneke_articles/references.bib": [
+    {
+      "event_id": "REVT-0019",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_ten_article_manuscript_package",
+      "status": "compiled_review_drafts"
+    }
+  ],
+  "quarantine/legacy_prompt_driven/README.md": [
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "evidence",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "outputs",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    }
+  ],
+  "quarantine/legacy_prompt_driven/run_autoreason.py": [
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "evidence",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "outputs",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    }
+  ],
+  "quarantine/legacy_prompt_driven/session_config/scheduled_tasks.lock": [
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "evidence",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "outputs",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    }
+  ],
+  "quarantine/legacy_prompt_driven/session_config/settings.local.json": [
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "evidence",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "outputs",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    }
+  ],
+  "quarantine/legacy_prompt_driven/session_harness.md": [
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "evidence",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "outputs",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    }
+  ],
+  "release/release_manifest.json": [
+    {
+      "event_id": "REVT-0005",
+      "event_type": "human_attestation",
+      "relation": "affects",
+      "scope": "authority_workflow",
+      "status": "accepted_for_internal_research"
+    }
+  ],
+  "research/icegov/WORKSPACE.md": [
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "affects",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    }
+  ],
+  "research/icegov/contradictions/": [
+    {
+      "event_id": "REVT-0008",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "pagc_governance_state_grammar",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0008",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "pagc_governance_state_grammar",
+      "status": "active"
+    }
+  ],
+  "research/pagc/INDEX.md": [
+    {
+      "event_id": "REVT-0003",
+      "event_type": "research_result",
+      "relation": "supersedes_artifacts",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted"
+    }
+  ],
+  "research/pagc/PAGC_RESET.md": [
+    {
+      "event_id": "REVT-0002",
+      "event_type": "decision",
+      "relation": "affects",
+      "scope": "artifact_lab",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0003",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted"
+    }
+  ],
+  "research/pagc/WIKI.md": [
+    {
+      "event_id": "REVT-0003",
+      "event_type": "research_result",
+      "relation": "supersedes_artifacts",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted"
+    }
+  ],
+  "research/pagc/applications/": [
+    {
+      "event_id": "REVT-0006",
+      "event_type": "human_attestation",
+      "relation": "affects",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted_for_internal_research_and_design_exploration"
+    },
+    {
+      "event_id": "REVT-0007",
+      "event_type": "decision",
+      "relation": "outputs",
+      "scope": "pagc_applications_research",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0007",
+      "event_type": "decision",
+      "relation": "affects",
+      "scope": "pagc_applications_research",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0009",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "pagc_applications_layer_safety",
+      "status": "accepted_with_assumptions"
+    }
+  ],
+  "research/pagc/applications/governance_state_grammar.md": [
+    {
+      "event_id": "REVT-0008",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "pagc_governance_state_grammar",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0008",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "pagc_governance_state_grammar",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0008",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "pagc_governance_state_grammar",
+      "status": "active"
+    }
+  ],
+  "research/pagc/applications/layer_safety_theorem.md": [
+    {
+      "event_id": "REVT-0009",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "pagc_applications_layer_safety",
+      "status": "accepted_with_assumptions"
+    },
+    {
+      "event_id": "REVT-0009",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "pagc_applications_layer_safety",
+      "status": "accepted_with_assumptions"
+    }
+  ],
+  "research/pagc/nwagu_aneke/NWAGU_ANEKE_RESEARCH_MAP.md": [
+    {
+      "event_id": "REVT-0017",
+      "event_type": "decision",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_article_program",
+      "status": "active"
+    }
+  ],
+  "research/pagc/primary_sources/nwagu_aneke/": [
+    {
+      "event_id": "REVT-0002",
+      "event_type": "decision",
+      "relation": "evidence",
+      "scope": "artifact_lab",
+      "status": "accepted"
+    }
+  ],
+  "research/pagc/primary_sources/nwagu_aneke/README.md": [
+    {
+      "event_id": "REVT-0015",
+      "event_type": "control_plane_change",
+      "relation": "outputs",
+      "scope": "canonical_instruction_reset",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0015",
+      "event_type": "control_plane_change",
+      "relation": "affects",
+      "scope": "canonical_instruction_reset",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0017",
+      "event_type": "decision",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_article_program",
+      "status": "active"
+    }
+  ],
+  "research_goals/nwagu_aneke_articles/": [
+    {
+      "event_id": "REVT-0017",
+      "event_type": "decision",
+      "relation": "affects",
+      "scope": "nwagu_aneke_article_program",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0019",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "nwagu_aneke_ten_article_manuscript_package",
+      "status": "compiled_review_drafts"
+    }
+  ],
+  "research_goals/nwagu_aneke_articles/GOAL-NA-ARTICLES-001-create-10-novel-articles.md": [
+    {
+      "event_id": "REVT-0017",
+      "event_type": "decision",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_article_program",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0018",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "nwagu_aneke_source_critical_reconstruction",
+      "status": "accepted_with_limitations"
+    }
+  ],
+  "research_goals/nwagu_aneke_articles/README.md": [
+    {
+      "event_id": "REVT-0017",
+      "event_type": "decision",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_article_program",
+      "status": "active"
+    }
+  ],
+  "research_goals/nwagu_aneke_articles/article_candidates.md": [
+    {
+      "event_id": "REVT-0017",
+      "event_type": "decision",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_article_program",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0018",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "nwagu_aneke_source_critical_reconstruction",
+      "status": "accepted_with_limitations"
+    }
+  ],
+  "research_goals/nwagu_aneke_articles/article_scores.json": [
+    {
+      "event_id": "REVT-0017",
+      "event_type": "decision",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_article_program",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0018",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "nwagu_aneke_source_critical_reconstruction",
+      "status": "accepted_with_limitations"
+    }
+  ],
+  "research_goals/nwagu_aneke_articles/prior_art_scan.md": [
+    {
+      "event_id": "REVT-0017",
+      "event_type": "decision",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_article_program",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0017",
+      "event_type": "decision",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_article_program",
+      "status": "active"
+    }
+  ],
+  "research_lattice/rejected_mappings/MAP-0004.md": [
+    {
+      "event_id": "REVT-0004",
+      "event_type": "decision",
+      "relation": "evidence",
+      "scope": "research_lattice",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0004",
+      "event_type": "decision",
+      "relation": "outputs",
+      "scope": "research_lattice",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0004",
+      "event_type": "decision",
+      "relation": "affects",
+      "scope": "research_lattice",
+      "status": "accepted"
+    }
+  ],
+  "research_reset_audit.md": [
+    {
+      "event_id": "REVT-0010",
+      "event_type": "control_plane_change",
+      "relation": "evidence",
+      "scope": "research_reset_control_plane",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0010",
+      "event_type": "control_plane_change",
+      "relation": "outputs",
+      "scope": "research_reset_control_plane",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0010",
+      "event_type": "control_plane_change",
+      "relation": "affects",
+      "scope": "research_reset_control_plane",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0014",
+      "event_type": "control_plane_change",
+      "relation": "evidence",
+      "scope": "research_event_trace",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0015",
+      "event_type": "control_plane_change",
+      "relation": "evidence",
+      "scope": "canonical_instruction_reset",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0016",
+      "event_type": "control_plane_change",
+      "relation": "evidence",
+      "scope": "reset_audit_precision",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0016",
+      "event_type": "control_plane_change",
+      "relation": "affects",
+      "scope": "reset_audit_precision",
+      "status": "accepted"
+    }
+  ],
+  "research_runs/RUN-APP-20260528-0001/": [
+    {
+      "event_id": "REVT-0007",
+      "event_type": "decision",
+      "relation": "outputs",
+      "scope": "pagc_applications_research",
+      "status": "active"
+    }
+  ],
+  "scripts/benchmark_nwagu_article_research.py": [
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    }
+  ],
+  "scripts/build_retrieval_manifest.py": [
+    {
+      "event_id": "REVT-0012",
+      "event_type": "gate_result",
+      "relation": "affects",
+      "scope": "retrieval_firewall",
+      "status": "pass"
+    }
+  ],
+  "scripts/compile_nwagu_article_manuscripts.py": [
+    {
+      "event_id": "REVT-0019",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_ten_article_manuscript_package",
+      "status": "compiled_review_drafts"
+    }
+  ],
+  "scripts/generate_nwagu_article_manuscripts.py": [
+    {
+      "event_id": "REVT-0019",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_ten_article_manuscript_package",
+      "status": "compiled_review_drafts"
+    }
+  ],
+  "scripts/project_research_events.py": [
+    {
+      "event_id": "REVT-0014",
+      "event_type": "control_plane_change",
+      "relation": "outputs",
+      "scope": "research_event_trace",
+      "status": "active"
+    }
+  ],
+  "scripts/research_reset_audit.py": [
+    {
+      "event_id": "REVT-0010",
+      "event_type": "control_plane_change",
+      "relation": "outputs",
+      "scope": "research_reset_control_plane",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0010",
+      "event_type": "control_plane_change",
+      "relation": "affects",
+      "scope": "research_reset_control_plane",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0016",
+      "event_type": "control_plane_change",
+      "relation": "outputs",
+      "scope": "reset_audit_precision",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0016",
+      "event_type": "control_plane_change",
+      "relation": "affects",
+      "scope": "reset_audit_precision",
+      "status": "accepted"
+    }
+  ],
+  "scripts/rewrite_nwagu_articles_from_benchmark.py": [
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    }
+  ],
+  "scripts/run_na_source_reconstruction.py": [
+    {
+      "event_id": "REVT-0018",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_source_critical_reconstruction",
+      "status": "accepted_with_limitations"
+    }
+  ],
+  "scripts/run_nwagu_article_experiments.py": [
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    }
+  ],
+  "scripts/upgrade_nwagu_article_manuscripts_for_impact.py": [
+    {
+      "event_id": "REVT-0020",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_ten_article_impact_upgrade",
+      "status": "journal_track_drafts_not_submission_ready"
+    }
+  ],
+  "scripts/validate_nwagu_article_benchmark.py": [
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    }
+  ],
+  "scripts/validate_nwagu_article_impact_readiness.py": [
+    {
+      "event_id": "REVT-0020",
+      "event_type": "research_result",
+      "relation": "evidence",
+      "scope": "nwagu_aneke_ten_article_impact_upgrade",
+      "status": "journal_track_drafts_not_submission_ready"
+    },
+    {
+      "event_id": "REVT-0020",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_ten_article_impact_upgrade",
+      "status": "journal_track_drafts_not_submission_ready"
+    }
+  ],
+  "scripts/validate_nwagu_article_manuscripts.py": [
+    {
+      "event_id": "REVT-0019",
+      "event_type": "research_result",
+      "relation": "outputs",
+      "scope": "nwagu_aneke_ten_article_manuscript_package",
+      "status": "compiled_review_drafts"
+    }
+  ],
+  "scripts/validate_research_events.py": [
+    {
+      "event_id": "REVT-0014",
+      "event_type": "control_plane_change",
+      "relation": "outputs",
+      "scope": "research_event_trace",
+      "status": "active"
+    }
+  ],
+  "scripts/validate_retrieval_manifest.py": [
+    {
+      "event_id": "REVT-0012",
+      "event_type": "gate_result",
+      "relation": "affects",
+      "scope": "retrieval_firewall",
+      "status": "pass"
+    }
+  ],
+  "scripts/vendor_neutrality_audit.py": [
+    {
+      "event_id": "REVT-0013",
+      "event_type": "gate_result",
+      "relation": "affects",
+      "scope": "vendor_neutrality",
+      "status": "pass"
+    }
+  ],
+  "spine/ARCHITECTURE.md": [
+    {
+      "event_id": "REVT-0001",
+      "event_type": "decision",
+      "relation": "evidence",
+      "scope": "lab_identity",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "affects",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    }
+  ],
+  "spine/events/": [
+    {
+      "event_id": "REVT-0014",
+      "event_type": "control_plane_change",
+      "relation": "affects",
+      "scope": "research_event_trace",
+      "status": "active"
+    }
+  ],
+  "spine/events/current_state.md": [
+    {
+      "event_id": "REVT-0015",
+      "event_type": "control_plane_change",
+      "relation": "evidence",
+      "scope": "canonical_instruction_reset",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0016",
+      "event_type": "control_plane_change",
+      "relation": "evidence",
+      "scope": "reset_audit_precision",
+      "status": "accepted"
+    },
+    {
+      "event_id": "REVT-0017",
+      "event_type": "decision",
+      "relation": "affects",
+      "scope": "nwagu_aneke_article_program",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0018",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "nwagu_aneke_source_critical_reconstruction",
+      "status": "accepted_with_limitations"
+    },
+    {
+      "event_id": "REVT-0019",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "nwagu_aneke_ten_article_manuscript_package",
+      "status": "compiled_review_drafts"
+    },
+    {
+      "event_id": "REVT-0020",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "nwagu_aneke_ten_article_impact_upgrade",
+      "status": "journal_track_drafts_not_submission_ready"
+    },
+    {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "relation": "affects",
+      "scope": "nwagu_aneke_autoresearch_benchmark",
+      "status": "internal_research_drafts_benchmark_validated"
+    }
+  ],
+  "spine/events/research_events.jsonl": [
+    {
+      "event_id": "REVT-0014",
+      "event_type": "control_plane_change",
+      "relation": "outputs",
+      "scope": "research_event_trace",
+      "status": "active"
+    }
+  ],
+  "spine/events/schema.json": [
+    {
+      "event_id": "REVT-0014",
+      "event_type": "control_plane_change",
+      "relation": "outputs",
+      "scope": "research_event_trace",
+      "status": "active"
+    }
+  ],
+  "spine/retrieval_manifest.yaml": [
+    {
+      "event_id": "REVT-0012",
+      "event_type": "gate_result",
+      "relation": "evidence",
+      "scope": "retrieval_firewall",
+      "status": "pass"
+    },
+    {
+      "event_id": "REVT-0012",
+      "event_type": "gate_result",
+      "relation": "outputs",
+      "scope": "retrieval_firewall",
+      "status": "pass"
+    },
+    {
+      "event_id": "REVT-0012",
+      "event_type": "gate_result",
+      "relation": "affects",
+      "scope": "retrieval_firewall",
+      "status": "pass"
+    },
+    {
+      "event_id": "REVT-0014",
+      "event_type": "control_plane_change",
+      "relation": "evidence",
+      "scope": "research_event_trace",
+      "status": "active"
+    },
+    {
+      "event_id": "REVT-0014",
+      "event_type": "control_plane_change",
+      "relation": "affects",
+      "scope": "research_event_trace",
+      "status": "active"
+    }
+  ],
+  "tests/retrieval/test_stale_pagc_exclusion.py": [
+    {
+      "event_id": "REVT-0012",
+      "event_type": "gate_result",
+      "relation": "evidence",
+      "scope": "retrieval_firewall",
+      "status": "pass"
+    }
+  ],
+  "vendor_neutrality_audit.md": [
+    {
+      "event_id": "REVT-0013",
+      "event_type": "gate_result",
+      "relation": "evidence",
+      "scope": "vendor_neutrality",
+      "status": "pass"
+    },
+    {
+      "event_id": "REVT-0013",
+      "event_type": "gate_result",
+      "relation": "outputs",
+      "scope": "vendor_neutrality",
+      "status": "pass"
+    },
+    {
+      "event_id": "REVT-0013",
+      "event_type": "gate_result",
+      "relation": "affects",
+      "scope": "vendor_neutrality",
+      "status": "pass"
+    },
+    {
+      "event_id": "REVT-0014",
+      "event_type": "control_plane_change",
+      "relation": "evidence",
+      "scope": "research_event_trace",
+      "status": "active"
+    }
+  ],
+  "wiki/index.md": [
+    {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "relation": "affects",
+      "scope": "provider_neutrality",
+      "status": "accepted"
+    }
+  ]
+}

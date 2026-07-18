@@ -1,0 +1,13 @@
+input_layer,output_layer,gold_promotion_error,count
+blocked,blocked,False,18
+blocked,source_observed,True,15
+derived,derived,False,20
+derived,source_observed,True,21
+design_hypothesis,design_hypothesis,False,140
+design_hypothesis,source_observed,True,76
+source_index,design_hypothesis,False,10
+source_index,source_index,False,110
+source_index,source_observed,True,63
+source_observed,source_observed,False,4
+speculative,source_observed,True,15
+speculative,speculative,False,18

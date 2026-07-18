@@ -1,0 +1,18 @@
+{
+  "experiment_id": "EXP-NA-010",
+  "baselines": {
+    "provenance_only": {
+      "false_negatives_on_promotion_errors": 11,
+      "interpretation": "A provenance link can coexist with unsafe layer promotion."
+    },
+    "citation_only": {
+      "false_negatives_on_promotion_errors": 7,
+      "interpretation": "A citation can coexist with unsafe layer promotion."
+    },
+    "no_label_gate": {
+      "false_negatives_on_promotion_errors": 14,
+      "interpretation": "A gate without evidence-layer labels cannot reject promotions."
+    }
+  },
+  "layer_gate_false_negatives_on_promotion_errors": 0
+}

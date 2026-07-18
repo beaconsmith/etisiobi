@@ -1,0 +1,13 @@
+{
+  "experiment_id": "EXP-NA-007",
+  "generated_at": "2026-06-20T06:34:13+01:00",
+  "decision": "RIGHTS_SAFE_PROVENANCE_LEDGER_STARTED_PUBLIC_CORPUS_BLOCKED",
+  "ledger_records": 4,
+  "rights_status_counts": {
+    "cite_ok_reproduction_requires_license_check": 1,
+    "public_reproduction_not_cleared": 1,
+    "metadata_only": 1,
+    "unknown": 1
+  },
+  "article_implication": "Article 7 can be a provenance protocol paper; it cannot claim corpus access or release."
+}

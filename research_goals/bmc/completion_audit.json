@@ -1,0 +1,66 @@
+{
+  "status": "completed_repo_local_all_10",
+  "generated_at": "2026-05-28T10:07:00+00:00",
+  "goals": [
+    {
+      "goal_id": "GOAL-001",
+      "status": "completed",
+      "decision": "COMPLETED_AS_WORKING_ANNOTATION_INDEX",
+      "experiment": "experiments/EXP-BMC-001"
+    },
+    {
+      "goal_id": "GOAL-002",
+      "status": "completed",
+      "decision": "MULTI_LAYER_COUNT_VALID",
+      "experiment": "experiments/EXP-BMC-002"
+    },
+    {
+      "goal_id": "GOAL-003",
+      "status": "completed",
+      "decision": "CLAIM_GATE_COMPLETED_CORE_BMC_CLAIMS_SCOPED",
+      "experiment": "experiments/EXP-BMC-003"
+    },
+    {
+      "goal_id": "GOAL-004",
+      "status": "completed",
+      "decision": "PARTIAL_STRUCTURAL_GRAMMAR_NOT_GLYPH_GRAMMAR",
+      "experiment": "experiments/EXP-BMC-004"
+    },
+    {
+      "goal_id": "GOAL-005",
+      "status": "completed",
+      "decision": "COMPRESSION_POSITIVE_FOR_ROW_VOWEL_INDEX_ONLY",
+      "experiment": "experiments/EXP-BMC-005"
+    },
+    {
+      "goal_id": "GOAL-006",
+      "status": "completed",
+      "decision": "CERTAINTY_MODEL_COMPLETED_WITH_PUBLICATION_BLOCKERS",
+      "experiment": "experiments/EXP-BMC-006"
+    },
+    {
+      "goal_id": "GOAL-007",
+      "status": "completed",
+      "decision": "KG_INTEGRATION_COMPLETED",
+      "experiment": "experiments/EXP-BMC-007"
+    },
+    {
+      "goal_id": "GOAL-008",
+      "status": "completed",
+      "decision": "BENCHMARK_SEED_COMPLETED",
+      "experiment": "experiments/EXP-BMC-008"
+    },
+    {
+      "goal_id": "GOAL-009",
+      "status": "completed",
+      "decision": "AUTHORITY_REVIEW_PROTOCOL_COMPLETED_INTERNAL_ONLY",
+      "experiment": "experiments/EXP-BMC-009"
+    },
+    {
+      "goal_id": "GOAL-010",
+      "status": "completed",
+      "decision": "NO_BMC_ARXIV_SUBMISSION_YET",
+      "experiment": "experiments/EXP-BMC-010"
+    }
+  ]
+}

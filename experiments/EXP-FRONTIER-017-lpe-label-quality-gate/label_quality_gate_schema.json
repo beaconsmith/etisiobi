@@ -1,0 +1,41 @@
+{
+  "schema_id": "LPE-LABEL-QUALITY-GATE-SCHEMA-001",
+  "type": "object",
+  "claim_ceiling": "quality_gate_pilot_not_paper_result",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "input_layer",
+    "output_layer",
+    "promotion_error",
+    "severity",
+    "source_review_status",
+    "public_release_ok",
+    "evidence_anchor_check",
+    "layer_contrast_check",
+    "disagreement_state_check",
+    "adjudication_need_check",
+    "quality_gate_status"
+  ],
+  "properties": {
+    "case_id": {"type": "string"},
+    "input_layer": {"type": "string"},
+    "output_layer": {"type": "string"},
+    "promotion_error": {"type": "string", "enum": ["yes", "no"]},
+    "severity": {"type": "string"},
+    "source_review_status": {"type": "string"},
+    "public_release_ok": {"type": "string"},
+    "evidence_anchor_check": {"type": "string"},
+    "layer_contrast_check": {"type": "string"},
+    "disagreement_state_check": {"type": "string"},
+    "adjudication_need_check": {"type": "string"},
+    "quality_gate_status": {
+      "type": "string",
+      "enum": [
+        "review_ready_internal",
+        "needs_adjudication",
+        "blocked_public_release"
+      ]
+    }
+  }
+}

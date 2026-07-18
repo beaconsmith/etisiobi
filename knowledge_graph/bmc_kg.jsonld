@@ -1,0 +1,3526 @@
+{
+  "@context": {
+    "kg": "https://beaconsmith.example/kg/",
+    "hasBase": "kg:hasBase",
+    "hasModifier": "kg:hasModifier",
+    "derivesFrom": "kg:derivesFrom",
+    "locatedIn": "kg:locatedIn",
+    "encodedIn": "kg:encodedIn",
+    "supportsClaim": "kg:supportsClaim"
+  },
+  "@graph": [
+    {
+      "@id": "kg:BaseModifierCache",
+      "@type": "Dataset",
+      "name": "Base Modifier Cache"
+    },
+    {
+      "@id": "kg:NwaguAnekeTEI",
+      "@type": "TEIText",
+      "path": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml"
+    },
+    {
+      "@id": "kg:NwaguAnekeIIIFManifest",
+      "@type": "IIIFManifest",
+      "path": "artifacts/nwagu_aneke/iiif/manifest.json"
+    },
+    {
+      "@id": "kg:bBase",
+      "@type": "Base",
+      "label": "b"
+    },
+    {
+      "@id": "kg:chBase",
+      "@type": "Base",
+      "label": "ch"
+    },
+    {
+      "@id": "kg:dBase",
+      "@type": "Base",
+      "label": "d"
+    },
+    {
+      "@id": "kg:f-vBase",
+      "@type": "Base",
+      "label": "f/v"
+    },
+    {
+      "@id": "kg:gBase",
+      "@type": "Base",
+      "label": "g"
+    },
+    {
+      "@id": "kg:gbBase",
+      "@type": "Base",
+      "label": "gb"
+    },
+    {
+      "@id": "kg:ghBase",
+      "@type": "Base",
+      "label": "gh"
+    },
+    {
+      "@id": "kg:gwBase",
+      "@type": "Base",
+      "label": "gw"
+    },
+    {
+      "@id": "kg:hBase",
+      "@type": "Base",
+      "label": "h"
+    },
+    {
+      "@id": "kg:jBase",
+      "@type": "Base",
+      "label": "j"
+    },
+    {
+      "@id": "kg:kBase",
+      "@type": "Base",
+      "label": "k"
+    },
+    {
+      "@id": "kg:kpBase",
+      "@type": "Base",
+      "label": "kp"
+    },
+    {
+      "@id": "kg:kwBase",
+      "@type": "Base",
+      "label": "kw"
+    },
+    {
+      "@id": "kg:lBase",
+      "@type": "Base",
+      "label": "l"
+    },
+    {
+      "@id": "kg:mBase",
+      "@type": "Base",
+      "label": "m"
+    },
+    {
+      "@id": "kg:nBase",
+      "@type": "Base",
+      "label": "n"
+    },
+    {
+      "@id": "kg:Base",
+      "@type": "Base",
+      "label": "ṅ"
+    },
+    {
+      "@id": "kg:nyBase",
+      "@type": "Base",
+      "label": "ny"
+    },
+    {
+      "@id": "kg:nwBase",
+      "@type": "Base",
+      "label": "nw"
+    },
+    {
+      "@id": "kg:pBase",
+      "@type": "Base",
+      "label": "p"
+    },
+    {
+      "@id": "kg:rBase",
+      "@type": "Base",
+      "label": "r"
+    },
+    {
+      "@id": "kg:sBase",
+      "@type": "Base",
+      "label": "s"
+    },
+    {
+      "@id": "kg:tBase",
+      "@type": "Base",
+      "label": "t"
+    },
+    {
+      "@id": "kg:wBase",
+      "@type": "Base",
+      "label": "w"
+    },
+    {
+      "@id": "kg:yBase",
+      "@type": "Base",
+      "label": "y"
+    },
+    {
+      "@id": "kg:zBase",
+      "@type": "Base",
+      "label": "z"
+    },
+    {
+      "@id": "kg:aModifier",
+      "@type": "Modifier",
+      "label": "a"
+    },
+    {
+      "@id": "kg:iModifier",
+      "@type": "Modifier",
+      "label": "i"
+    },
+    {
+      "@id": "kg:oModifier",
+      "@type": "Modifier",
+      "label": "o"
+    },
+    {
+      "@id": "kg:uModifier",
+      "@type": "Modifier",
+      "label": "u"
+    },
+    {
+      "@id": "kg:eModifier",
+      "@type": "Modifier",
+      "label": "e"
+    },
+    {
+      "@id": "kg:Modifier",
+      "@type": "Modifier",
+      "label": "ị"
+    },
+    {
+      "@id": "kg:Modifier",
+      "@type": "Modifier",
+      "label": "ọ"
+    },
+    {
+      "@id": "kg:Modifier",
+      "@type": "Modifier",
+      "label": "ụ"
+    },
+    {
+      "@id": "kg:BMC-000001",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000001",
+      "hasBase": "kg:bBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000002",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000002",
+      "hasBase": "kg:bBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000003",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000003",
+      "hasBase": "kg:bBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000004",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000004",
+      "hasBase": "kg:bBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000005",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000005",
+      "hasBase": "kg:bBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000006",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000006",
+      "hasBase": "kg:bBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000007",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000007",
+      "hasBase": "kg:bBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000008",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000008",
+      "hasBase": "kg:bBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000009",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000009",
+      "hasBase": "kg:chBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000010",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000010",
+      "hasBase": "kg:chBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000011",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000011",
+      "hasBase": "kg:chBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000012",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000012",
+      "hasBase": "kg:chBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000013",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000013",
+      "hasBase": "kg:chBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000014",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000014",
+      "hasBase": "kg:chBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000015",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000015",
+      "hasBase": "kg:chBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000016",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000016",
+      "hasBase": "kg:chBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000017",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000017",
+      "hasBase": "kg:dBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000018",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000018",
+      "hasBase": "kg:dBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000019",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000019",
+      "hasBase": "kg:dBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000020",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000020",
+      "hasBase": "kg:dBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000021",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000021",
+      "hasBase": "kg:dBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000022",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000022",
+      "hasBase": "kg:dBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000023",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000023",
+      "hasBase": "kg:dBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000024",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000024",
+      "hasBase": "kg:dBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=3];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000025",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000025",
+      "hasBase": "kg:f-vBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000026",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000026",
+      "hasBase": "kg:f-vBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000027",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000027",
+      "hasBase": "kg:f-vBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000028",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000028",
+      "hasBase": "kg:f-vBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000029",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000029",
+      "hasBase": "kg:f-vBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000030",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000030",
+      "hasBase": "kg:f-vBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000031",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000031",
+      "hasBase": "kg:f-vBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000032",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000032",
+      "hasBase": "kg:f-vBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=4];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000033",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000033",
+      "hasBase": "kg:gBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000034",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000034",
+      "hasBase": "kg:gBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000035",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000035",
+      "hasBase": "kg:gBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000036",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000036",
+      "hasBase": "kg:gBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000037",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000037",
+      "hasBase": "kg:gBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000038",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000038",
+      "hasBase": "kg:gBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000039",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000039",
+      "hasBase": "kg:gBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000040",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000040",
+      "hasBase": "kg:gBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=5];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000041",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000041",
+      "hasBase": "kg:gbBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000042",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000042",
+      "hasBase": "kg:gbBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000043",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000043",
+      "hasBase": "kg:gbBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000044",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000044",
+      "hasBase": "kg:gbBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000045",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000045",
+      "hasBase": "kg:gbBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000046",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000046",
+      "hasBase": "kg:gbBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000047",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000047",
+      "hasBase": "kg:gbBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000048",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000048",
+      "hasBase": "kg:gbBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=6];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000049",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000049",
+      "hasBase": "kg:ghBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000050",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000050",
+      "hasBase": "kg:ghBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000051",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000051",
+      "hasBase": "kg:ghBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000052",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000052",
+      "hasBase": "kg:ghBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000053",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000053",
+      "hasBase": "kg:ghBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000054",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000054",
+      "hasBase": "kg:ghBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000055",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000055",
+      "hasBase": "kg:ghBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000056",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000056",
+      "hasBase": "kg:ghBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=7];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000057",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000057",
+      "hasBase": "kg:gwBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000058",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000058",
+      "hasBase": "kg:gwBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000059",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000059",
+      "hasBase": "kg:gwBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000060",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000060",
+      "hasBase": "kg:gwBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000061",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000061",
+      "hasBase": "kg:gwBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000062",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000062",
+      "hasBase": "kg:gwBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000063",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000063",
+      "hasBase": "kg:gwBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000064",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000064",
+      "hasBase": "kg:gwBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=8];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000065",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000065",
+      "hasBase": "kg:hBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000066",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000066",
+      "hasBase": "kg:hBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000067",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000067",
+      "hasBase": "kg:hBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000068",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000068",
+      "hasBase": "kg:hBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000069",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000069",
+      "hasBase": "kg:hBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000070",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000070",
+      "hasBase": "kg:hBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000071",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000071",
+      "hasBase": "kg:hBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000072",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000072",
+      "hasBase": "kg:hBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=9];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000073",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000073",
+      "hasBase": "kg:jBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000074",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000074",
+      "hasBase": "kg:jBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000075",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000075",
+      "hasBase": "kg:jBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000076",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000076",
+      "hasBase": "kg:jBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000077",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000077",
+      "hasBase": "kg:jBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000078",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000078",
+      "hasBase": "kg:jBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000079",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000079",
+      "hasBase": "kg:jBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000080",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000080",
+      "hasBase": "kg:jBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=10];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000081",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000081",
+      "hasBase": "kg:kBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000082",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000082",
+      "hasBase": "kg:kBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000083",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000083",
+      "hasBase": "kg:kBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000084",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000084",
+      "hasBase": "kg:kBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000085",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000085",
+      "hasBase": "kg:kBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000086",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000086",
+      "hasBase": "kg:kBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000087",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000087",
+      "hasBase": "kg:kBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000088",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000088",
+      "hasBase": "kg:kBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=11];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000089",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000089",
+      "hasBase": "kg:kpBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000090",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000090",
+      "hasBase": "kg:kpBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000091",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000091",
+      "hasBase": "kg:kpBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000092",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000092",
+      "hasBase": "kg:kpBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000093",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000093",
+      "hasBase": "kg:kpBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000094",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000094",
+      "hasBase": "kg:kpBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000095",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000095",
+      "hasBase": "kg:kpBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000096",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000096",
+      "hasBase": "kg:kpBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=12];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000097",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000097",
+      "hasBase": "kg:kwBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000098",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000098",
+      "hasBase": "kg:kwBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000099",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000099",
+      "hasBase": "kg:kwBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000100",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000100",
+      "hasBase": "kg:kwBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000101",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000101",
+      "hasBase": "kg:kwBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000102",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000102",
+      "hasBase": "kg:kwBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000103",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000103",
+      "hasBase": "kg:kwBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000104",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000104",
+      "hasBase": "kg:kwBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=13];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000105",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000105",
+      "hasBase": "kg:lBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000106",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000106",
+      "hasBase": "kg:lBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000107",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000107",
+      "hasBase": "kg:lBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000108",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000108",
+      "hasBase": "kg:lBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000109",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000109",
+      "hasBase": "kg:lBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000110",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000110",
+      "hasBase": "kg:lBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000111",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000111",
+      "hasBase": "kg:lBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000112",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000112",
+      "hasBase": "kg:lBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=14];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000113",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000113",
+      "hasBase": "kg:mBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000114",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000114",
+      "hasBase": "kg:mBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000115",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000115",
+      "hasBase": "kg:mBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000116",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000116",
+      "hasBase": "kg:mBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000117",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000117",
+      "hasBase": "kg:mBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000118",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000118",
+      "hasBase": "kg:mBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000119",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000119",
+      "hasBase": "kg:mBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000120",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000120",
+      "hasBase": "kg:mBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=15];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000121",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000121",
+      "hasBase": "kg:nBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000122",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000122",
+      "hasBase": "kg:nBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000123",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000123",
+      "hasBase": "kg:nBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000124",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000124",
+      "hasBase": "kg:nBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000125",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000125",
+      "hasBase": "kg:nBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000126",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000126",
+      "hasBase": "kg:nBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000127",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000127",
+      "hasBase": "kg:nBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000128",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000128",
+      "hasBase": "kg:nBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=16];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000129",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000129",
+      "hasBase": "kg:Base",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000130",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000130",
+      "hasBase": "kg:Base",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000131",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000131",
+      "hasBase": "kg:Base",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000132",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000132",
+      "hasBase": "kg:Base",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000133",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000133",
+      "hasBase": "kg:Base",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000134",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000134",
+      "hasBase": "kg:Base",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000135",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000135",
+      "hasBase": "kg:Base",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000136",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000136",
+      "hasBase": "kg:Base",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=17];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000137",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000137",
+      "hasBase": "kg:nyBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000138",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000138",
+      "hasBase": "kg:nyBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000139",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000139",
+      "hasBase": "kg:nyBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000140",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000140",
+      "hasBase": "kg:nyBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000141",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000141",
+      "hasBase": "kg:nyBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000142",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000142",
+      "hasBase": "kg:nyBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000143",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000143",
+      "hasBase": "kg:nyBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000144",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000144",
+      "hasBase": "kg:nyBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=18];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000145",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000145",
+      "hasBase": "kg:nwBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000146",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000146",
+      "hasBase": "kg:nwBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000147",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000147",
+      "hasBase": "kg:nwBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000148",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000148",
+      "hasBase": "kg:nwBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000149",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000149",
+      "hasBase": "kg:nwBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000150",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000150",
+      "hasBase": "kg:nwBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000151",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000151",
+      "hasBase": "kg:nwBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000152",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000152",
+      "hasBase": "kg:nwBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=19];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000153",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000153",
+      "hasBase": "kg:pBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000154",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000154",
+      "hasBase": "kg:pBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000155",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000155",
+      "hasBase": "kg:pBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000156",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000156",
+      "hasBase": "kg:pBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000157",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000157",
+      "hasBase": "kg:pBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000158",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000158",
+      "hasBase": "kg:pBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000159",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000159",
+      "hasBase": "kg:pBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000160",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000160",
+      "hasBase": "kg:pBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=20];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000161",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000161",
+      "hasBase": "kg:rBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000162",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000162",
+      "hasBase": "kg:rBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000163",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000163",
+      "hasBase": "kg:rBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000164",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000164",
+      "hasBase": "kg:rBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000165",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000165",
+      "hasBase": "kg:rBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000166",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000166",
+      "hasBase": "kg:rBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000167",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000167",
+      "hasBase": "kg:rBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000168",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000168",
+      "hasBase": "kg:rBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=21];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000169",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000169",
+      "hasBase": "kg:sBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000170",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000170",
+      "hasBase": "kg:sBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000171",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000171",
+      "hasBase": "kg:sBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000172",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000172",
+      "hasBase": "kg:sBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000173",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000173",
+      "hasBase": "kg:sBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000174",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000174",
+      "hasBase": "kg:sBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000175",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000175",
+      "hasBase": "kg:sBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000176",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000176",
+      "hasBase": "kg:sBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=22];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000177",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000177",
+      "hasBase": "kg:tBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000178",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000178",
+      "hasBase": "kg:tBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000179",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000179",
+      "hasBase": "kg:tBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000180",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000180",
+      "hasBase": "kg:tBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000181",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000181",
+      "hasBase": "kg:tBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000182",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000182",
+      "hasBase": "kg:tBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000183",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000183",
+      "hasBase": "kg:tBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000184",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000184",
+      "hasBase": "kg:tBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=23];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000185",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000185",
+      "hasBase": "kg:wBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000186",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000186",
+      "hasBase": "kg:wBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000187",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000187",
+      "hasBase": "kg:wBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000188",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000188",
+      "hasBase": "kg:wBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000189",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000189",
+      "hasBase": "kg:wBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000190",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000190",
+      "hasBase": "kg:wBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000191",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000191",
+      "hasBase": "kg:wBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000192",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000192",
+      "hasBase": "kg:wBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=24];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000193",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000193",
+      "hasBase": "kg:yBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000194",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000194",
+      "hasBase": "kg:yBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000195",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000195",
+      "hasBase": "kg:yBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000196",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000196",
+      "hasBase": "kg:yBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000197",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000197",
+      "hasBase": "kg:yBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000198",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000198",
+      "hasBase": "kg:yBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000199",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000199",
+      "hasBase": "kg:yBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000200",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000200",
+      "hasBase": "kg:yBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=25];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000201",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000201",
+      "hasBase": "kg:zBase",
+      "hasModifier": "kg:aModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=1]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000202",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000202",
+      "hasBase": "kg:zBase",
+      "hasModifier": "kg:iModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=2]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000203",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000203",
+      "hasBase": "kg:zBase",
+      "hasModifier": "kg:oModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=3]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000204",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000204",
+      "hasBase": "kg:zBase",
+      "hasModifier": "kg:uModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=4]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000205",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000205",
+      "hasBase": "kg:zBase",
+      "hasModifier": "kg:eModifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=5]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000206",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000206",
+      "hasBase": "kg:zBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=6]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000207",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000207",
+      "hasBase": "kg:zBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=7]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    },
+    {
+      "@id": "kg:BMC-000208",
+      "@type": "BMCObject",
+      "bmc_id": "BMC-000208",
+      "hasBase": "kg:zBase",
+      "hasModifier": "kg:Modifier",
+      "derivesFrom": "kg:BaseModifierCache",
+      "locatedIn": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+      "encodedIn": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=26];vowelColumn[n=8]",
+      "hasCertainty": 0.42,
+      "supportsClaim": [
+        "CLAIM-0006",
+        "CLAIM-0007"
+      ],
+      "reviewStatus": "human_review_needed"
+    }
+  ]
+}

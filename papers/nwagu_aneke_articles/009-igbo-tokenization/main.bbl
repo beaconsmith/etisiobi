@@ -1,0 +1,423 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{26}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Ager(nd)]%
+        {omniglotNwagu}
+\bibfield{author}{\bibinfo{person}{Simon Ager}.}
+  \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{title}{Nwag{\d{u}} Aneke Syllabary}.
+\newblock \bibinfo{howpublished}{Omniglot}.
+\newblock
+\urldef\tempurl%
+\url{https://www.omniglot.com/writing/nwaguaneke.htm}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed 2026-06-20}.
+
+
+\bibitem[{arXiv}(nda)]%
+        {arxivSubmitTex}
+\bibfield{author}{\bibinfo{person}{{arXiv}}.} \bibinfo{year}{n.d.}\natexlab{a}.
+\newblock \bibinfo{title}{Submit TeX/LaTeX}.
+\newblock \bibinfo{howpublished}{arXiv info}.
+\newblock
+\urldef\tempurl%
+\url{https://info.arxiv.org/help/submit_tex.html}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed 2026-06-20}.
+
+
+\bibitem[{arXiv}(ndb)]%
+        {arxivTexLive}
+\bibfield{author}{\bibinfo{person}{{arXiv}}.} \bibinfo{year}{n.d.}\natexlab{b}.
+\newblock \bibinfo{title}{TeX Live at arXiv}.
+\newblock \bibinfo{howpublished}{arXiv info}.
+\newblock
+\urldef\tempurl%
+\url{https://info.arxiv.org/help/faq/texlive.html}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed 2026-06-20}.
+
+
+\bibitem[{Association for Computing Machinery}(nd)]%
+        {acmSubmissions}
+\bibfield{author}{\bibinfo{person}{{Association for Computing Machinery}}.}
+  \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{title}{Submissions: The Workflow and Templates}.
+\newblock \bibinfo{howpublished}{ACM Publications}.
+\newblock
+\urldef\tempurl%
+\url{https://www.acm.org/publications/authors/submissions}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed 2026-06-20}.
+
+
+\bibitem[Azuonye(1992)]%
+        {azuonye1992}
+\bibfield{author}{\bibinfo{person}{Chukwuma Azuonye}.}
+  \bibinfo{year}{1992}\natexlab{}.
+\newblock \showarticletitle{The Nwagu Aneke Igbo Script: Its Origins, Features
+  and Potentials as a Medium of Alternative Literacy in African Languages}.
+\newblock \bibinfo{journal}{\emph{Africana Studies Faculty Publication Series}}
+  \bibinfo{number}{13} (\bibinfo{year}{1992}).
+\newblock
+\urldef\tempurl%
+\url{https://scholarworks.umb.edu/africana_faculty_pubs/13/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Bostrom and Durrett(2020)]%
+        {bostrom2020bytepair}
+\bibfield{author}{\bibinfo{person}{Kaj Bostrom} {and} \bibinfo{person}{Greg
+  Durrett}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Byte Pair Encoding is Suboptimal for Language Model
+  Pretraining}. In \bibinfo{booktitle}{\emph{Findings of the Association for
+  Computational Linguistics: EMNLP 2020}}.
+\newblock
+\href{https://doi.org/10.18653/v1/2020.findings-emnlp.414}{doi:\nolinkurl{10.18653/v1/2020.findings-emnlp.414}}
+
+
+\bibitem[Carroll et~al\mbox{.}(2020)]%
+        {carroll2020care}
+\bibfield{author}{\bibinfo{person}{Stephanie~Russo Carroll},
+  \bibinfo{person}{Ibrahim Garba}, \bibinfo{person}{Oscar~L.
+  Figueroa-Rodriguez}, \bibinfo{person}{Jarita Holbrook},
+  \bibinfo{person}{Raymond Lovett}, \bibinfo{person}{Simeon Materechera},
+  \bibinfo{person}{Mark Parsons}, \bibinfo{person}{Kay Raseroka},
+  \bibinfo{person}{Desi Rodriguez-Lonebear}, \bibinfo{person}{Robyn Rowe},
+  \bibinfo{person}{Rodrigo Sara}, \bibinfo{person}{Jennifer~D. Walker},
+  \bibinfo{person}{Jane Anderson}, {and} \bibinfo{person}{Maui Hudson}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The CARE Principles for Indigenous Data
+  Governance}.
+\newblock \bibinfo{journal}{\emph{Data Science Journal}} \bibinfo{volume}{19},
+  \bibinfo{number}{1} (\bibinfo{year}{2020}), \bibinfo{pages}{43}.
+\newblock
+\href{https://doi.org/10.5334/dsj-2020-043}{doi:\nolinkurl{10.5334/dsj-2020-043}}
+
+
+\bibitem[{CIDOC CRM Special Interest Group}({[n.\,d.]})]%
+        {cidocCrm}
+\bibfield{author}{\bibinfo{person}{{CIDOC CRM Special Interest Group}}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{CIDOC Conceptual Reference Model}.
+\newblock \bibinfo{howpublished}{CIDOC CRM}.
+\newblock
+\urldef\tempurl%
+\url{https://cidoc-crm.org/}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed 2026-06-20}.
+
+
+\bibitem[{DataCite Metadata Working Group}(2024)]%
+        {datacite45}
+\bibfield{author}{\bibinfo{person}{{DataCite Metadata Working Group}}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{DataCite Metadata Schema Documentation for the
+  Publication and Citation of Research Data and Other Research Outputs, Version
+  4.5}.
+\newblock
+\href{https://doi.org/10.14454/g8e5-6293}{doi:\nolinkurl{10.14454/g8e5-6293}}
+
+
+\bibitem[Gao et~al\mbox{.}(2023)]%
+        {gao2023alce}
+\bibfield{author}{\bibinfo{person}{Tianyu Gao}, \bibinfo{person}{Howard Yen},
+  \bibinfo{person}{Jiatong Yu}, {and} \bibinfo{person}{Danqi Chen}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Enabling Large Language Models to Generate Text
+  with Citations}. In \bibinfo{booktitle}{\emph{Proceedings of the 2023
+  Conference on Empirical Methods in Natural Language Processing}}.
+\newblock
+\href{https://doi.org/10.18653/v1/2023.emnlp-main.398}{doi:\nolinkurl{10.18653/v1/2023.emnlp-main.398}}
+
+
+\bibitem[{International Image Interoperability Framework Consortium}(nd)]%
+        {iiifPresentation3}
+\bibfield{author}{\bibinfo{person}{{International Image Interoperability
+  Framework Consortium}}.} \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{title}{IIIF Presentation API 3.0}.
+\newblock \bibinfo{howpublished}{IIIF Specification}.
+\newblock
+\urldef\tempurl%
+\url{https://iiif.io/api/presentation/3.0/}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed 2026-06-20}.
+
+
+\bibitem[Karpathy(nd)]%
+        {karpathyAutoresearch}
+\bibfield{author}{\bibinfo{person}{Andrej Karpathy}.}
+  \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{title}{autoresearch: AI Agents Running Research on
+  Single-GPU nanochat Training Automatically}.
+\newblock \bibinfo{howpublished}{GitHub repository}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/karpathy/autoresearch}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed 2026-06-20}.
+
+
+\bibitem[Kudo and Richardson(2018)]%
+        {kudo2018sentencepiece}
+\bibfield{author}{\bibinfo{person}{Taku Kudo} {and} \bibinfo{person}{John
+  Richardson}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{SentencePiece: A Simple and Language Independent
+  Subword Tokenizer and Detokenizer for Neural Text Processing}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2018 Conference on Empirical
+  Methods in Natural Language Processing: System Demonstrations}}.
+\newblock
+\href{https://doi.org/10.18653/v1/D18-2012}{doi:\nolinkurl{10.18653/v1/D18-2012}}
+
+
+\bibitem[{RO-Crate Community}(2024)]%
+        {rocrate12}
+\bibfield{author}{\bibinfo{person}{{RO-Crate Community}}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{RO-Crate Metadata Specification 1.2.0}.
+\newblock
+\href{https://doi.org/10.5281/zenodo.13751027}{doi:\nolinkurl{10.5281/zenodo.13751027}}
+
+
+\bibitem[Rust et~al\mbox{.}(2021)]%
+        {rust2021tokenization}
+\bibfield{author}{\bibinfo{person}{Phillip Rust}, \bibinfo{person}{Jonas
+  Pfeiffer}, \bibinfo{person}{Ivan Vuli{\'c}}, \bibinfo{person}{Sebastian
+  Ruder}, {and} \bibinfo{person}{Iryna Gurevych}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{How Good is Your Tokenizer? On the Monolingual
+  Performance of Multilingual Language Models}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 59th Annual Meeting of the
+  Association for Computational Linguistics}}.
+\newblock
+\href{https://doi.org/10.18653/v1/2021.acl-long.243}{doi:\nolinkurl{10.18653/v1/2021.acl-long.243}}
+
+
+\bibitem[{Script Encoding Initiative}(nd)]%
+        {seiProposalTips}
+\bibfield{author}{\bibinfo{person}{{Script Encoding Initiative}}.}
+  \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{title}{Tips for Writing Proposals}.
+\newblock \bibinfo{howpublished}{University of California, Berkeley}.
+\newblock
+\urldef\tempurl%
+\url{https://sei.berkeley.edu/tips-for-proposals/}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed 2026-06-20}.
+
+
+\bibitem[Sennrich et~al\mbox{.}(2016)]%
+        {sennrich2016bpe}
+\bibfield{author}{\bibinfo{person}{Rico Sennrich}, \bibinfo{person}{Barry
+  Haddow}, {and} \bibinfo{person}{Alexandra Birch}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Neural Machine Translation of Rare Words with
+  Subword Units}. In \bibinfo{booktitle}{\emph{Proceedings of the 54th Annual
+  Meeting of the Association for Computational Linguistics}}.
+\newblock
+\href{https://doi.org/10.18653/v1/P16-1162}{doi:\nolinkurl{10.18653/v1/P16-1162}}
+
+
+\bibitem[{SIL International}(nd)]%
+        {scriptSourceNwagu}
+\bibfield{author}{\bibinfo{person}{{SIL International}}.}
+  \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{title}{Unicode Status (Nwagu Aneke Igbo)}.
+\newblock \bibinfo{howpublished}{ScriptSource}.
+\newblock
+\urldef\tempurl%
+\url{https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=mgqnsfqapq}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed 2026-06-20}.
+
+
+\bibitem[{Smithsonian Libraries and Archives}(nd)]%
+        {sirisNwaguProposal}
+\bibfield{author}{\bibinfo{person}{{Smithsonian Libraries and Archives}}.}
+  \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{title}{The Nwagu Aneke Research Project Proposal}.
+\newblock \bibinfo{howpublished}{SIRIS library catalogue record}.
+\newblock
+\urldef\tempurl%
+\url{https://siris-libraries.si.edu/ipac20/ipac.jsp?uri=full=3100001~!553317~!0}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed 2026-06-20}.
+
+
+\bibitem[{Text Encoding Initiative Consortium}(nd)]%
+        {teiP5Glyphs}
+\bibfield{author}{\bibinfo{person}{{Text Encoding Initiative Consortium}}.}
+  \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{title}{TEI P5 Guidelines: Characters, Glyphs, and Writing
+  Modes}.
+\newblock \bibinfo{howpublished}{TEI Guidelines}.
+\newblock
+\urldef\tempurl%
+\url{https://www.tei-c.org/release/doc/tei-p5-doc/en/html/WD.html}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed 2026-06-20}.
+
+
+\bibitem[{Unicode Consortium}(2023)]%
+        {unicodeAfricanScripts2023}
+\bibfield{author}{\bibinfo{person}{{Unicode Consortium}}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{2023 Update on African Scripts}.
+\newblock \bibinfo{howpublished}{Unicode Technical Committee document
+  L2/23-203}.
+\newblock
+\urldef\tempurl%
+\url{https://www.unicode.org/L2/L2023/23203-update-african-scripts.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Wadden et~al\mbox{.}(2020)]%
+        {wadden2020scifact}
+\bibfield{author}{\bibinfo{person}{David Wadden}, \bibinfo{person}{Shanchuan
+  Lin}, \bibinfo{person}{Kyle Lo}, \bibinfo{person}{Lucy~Lu Wang},
+  \bibinfo{person}{Madeleine van Zuylen}, \bibinfo{person}{Arman Cohan}, {and}
+  \bibinfo{person}{Hannaneh Hajishirzi}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Fact or Fiction: Verifying Scientific Claims}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2020 Conference on Empirical
+  Methods in Natural Language Processing}}.
+\newblock
+\href{https://doi.org/10.18653/v1/2020.emnlp-main.609}{doi:\nolinkurl{10.18653/v1/2020.emnlp-main.609}}
+
+
+\bibitem[Wilkinson et~al\mbox{.}(2016)]%
+        {wilkinson2016fair}
+\bibfield{author}{\bibinfo{person}{Mark~D. Wilkinson}, \bibinfo{person}{Michel
+  Dumontier}, \bibinfo{person}{IJsbrand~Jan Aalbersberg},
+  \bibinfo{person}{Gabrielle Appleton}, \bibinfo{person}{Myles Axton},
+  \bibinfo{person}{Arie Baak}, \bibinfo{person}{Niklas Blomberg},
+  \bibinfo{person}{Jan-Willem Boiten}, \bibinfo{person}{Luiz~Bonino da
+  Silva~Santos}, \bibinfo{person}{Philip~E. Bourne}, \bibinfo{person}{Jildau
+  Bouwman}, \bibinfo{person}{Anthony~J. Brookes}, \bibinfo{person}{Tim Clark},
+  \bibinfo{person}{Merce Crosas}, \bibinfo{person}{Ingrid Dillo},
+  \bibinfo{person}{Olivier Dumon}, \bibinfo{person}{Scott Edmunds},
+  \bibinfo{person}{Chris~T. Evelo}, \bibinfo{person}{Richard Finkers},
+  \bibinfo{person}{Alejandra Gonzalez-Beltran}, \bibinfo{person}{Alasdair J.~G.
+  Gray}, \bibinfo{person}{Paul Groth}, \bibinfo{person}{Carole Goble},
+  \bibinfo{person}{Jeffrey~S. Grethe}, \bibinfo{person}{Jaap Heringa},
+  \bibinfo{person}{Peter A.~C. 't Hoen}, \bibinfo{person}{Rob Hooft},
+  \bibinfo{person}{Tobias Kuhn}, \bibinfo{person}{Ruben Kok},
+  \bibinfo{person}{Joost Kok}, \bibinfo{person}{Scott~J. Lusher},
+  \bibinfo{person}{Maryann~E. Martone}, \bibinfo{person}{Albert Mons},
+  \bibinfo{person}{Abel~L. Packer}, \bibinfo{person}{Bengt Persson},
+  \bibinfo{person}{Philippe Rocca-Serra}, \bibinfo{person}{Marco Roos},
+  \bibinfo{person}{Rene van Schaik}, \bibinfo{person}{Susanna-Assunta Sansone},
+  \bibinfo{person}{Erik Schultes}, \bibinfo{person}{Thierry Sengstag},
+  \bibinfo{person}{Ted Slater}, \bibinfo{person}{George Strawn},
+  \bibinfo{person}{Morris~A. Swertz}, \bibinfo{person}{Mark Thompson},
+  \bibinfo{person}{Johan van~der Lei}, \bibinfo{person}{Erik van Mulligen},
+  \bibinfo{person}{Jan Velterop}, \bibinfo{person}{Andra Waagmeester},
+  \bibinfo{person}{Peter Wittenburg}, \bibinfo{person}{Katherine Wolstencroft},
+  \bibinfo{person}{Jun Zhao}, {and} \bibinfo{person}{Barend Mons}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{The FAIR Guiding Principles for Scientific Data
+  Management and Stewardship}.
+\newblock \bibinfo{journal}{\emph{Scientific Data}}  \bibinfo{volume}{3}
+  (\bibinfo{year}{2016}), \bibinfo{pages}{160018}.
+\newblock
+\href{https://doi.org/10.1038/sdata.2016.18}{doi:\nolinkurl{10.1038/sdata.2016.18}}
+
+
+\bibitem[{World Wide Web Consortium}(2013)]%
+        {w3cProvO}
+\bibfield{author}{\bibinfo{person}{{World Wide Web Consortium}}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{title}{PROV-O: The PROV Ontology}.
+\newblock \bibinfo{howpublished}{W3C Recommendation}.
+\newblock
+\urldef\tempurl%
+\url{https://www.w3.org/TR/prov-o/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{World Wide Web Consortium}(2017a)]%
+        {w3cAnnotationModel}
+\bibfield{author}{\bibinfo{person}{{World Wide Web Consortium}}.}
+  \bibinfo{year}{2017}\natexlab{a}.
+\newblock \bibinfo{title}{Web Annotation Data Model}.
+\newblock \bibinfo{howpublished}{W3C Recommendation}.
+\newblock
+\urldef\tempurl%
+\url{https://www.w3.org/TR/annotation-model/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{World Wide Web Consortium}(2017b)]%
+        {w3cAnnotationVocab}
+\bibfield{author}{\bibinfo{person}{{World Wide Web Consortium}}.}
+  \bibinfo{year}{2017}\natexlab{b}.
+\newblock \bibinfo{title}{Web Annotation Vocabulary}.
+\newblock \bibinfo{howpublished}{W3C Recommendation}.
+\newblock
+\urldef\tempurl%
+\url{https://www.w3.org/TR/annotation-vocab/}
+\showURL{%
+\tempurl}
+
+
+\end{thebibliography}

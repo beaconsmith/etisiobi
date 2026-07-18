@@ -1,0 +1,25 @@
+{
+  "experiment_id": "EXP-FRONTIER-007",
+  "decision_status": "pending_user_approval",
+  "approval_scope": "possible future Inspect AI dependency-install and model/API execution cycle",
+  "approved_actions": [],
+  "forbidden_actions": [
+    "dependency installation",
+    "model/API call",
+    "external submission",
+    "publication PDF generation",
+    "readiness claim",
+    "private data download"
+  ],
+  "claim_ceiling": "eval_harness_relevance_not_model_claim",
+  "required_before_execution": [
+    "explicit dependency approval",
+    "model/API key approval",
+    "no private or restricted source data",
+    "human/domain review of seed labels",
+    "no secrets in repo or logs",
+    "output claim ceiling accepted",
+    "execution isolation reviewed"
+  ],
+  "exact_next_action": "User/lab reviews approval_checklist.csv and explicitly approves or rejects a separate Inspect execution cycle."
+}

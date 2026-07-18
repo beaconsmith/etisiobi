@@ -1,0 +1,11 @@
+{
+  "article_id": "ARTICLE-NA-017",
+  "required_files": [
+    "main.tex",
+    "main.pdf",
+    "approved_paper.json",
+    "review_team_trace.jsonl",
+    "storm_prewrite_trace.json",
+    "acceleration_trace.json"
+  ]
+}

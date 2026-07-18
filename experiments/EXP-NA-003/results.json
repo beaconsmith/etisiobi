@@ -1,0 +1,26 @@
+{
+  "experiment_id": "EXP-NA-003",
+  "canonical_source": "experiments/EXP-NA-003-f-v-hinge-audit/results.json",
+  "generated_at": "2026-06-27",
+  "decision": "F_V_HINGE_CONFIRMED_AS_DERIVED_OPERATION_NOT_SOURCE_ROW_COUNT",
+  "source_combined_records": 8,
+  "derived_split_records": 16,
+  "delta_records": 8,
+  "source_rows": 26,
+  "source_columns": 8,
+  "source_cells": 208,
+  "derived_rows_if_split": 27,
+  "derived_columns": 8,
+  "derived_cells_if_split": 216,
+  "permitted_use": [
+    "Use f/v split as a derived orthographic modeling operation.",
+    "Use 27 x 8 = 216 only when the split operation is explicitly labeled.",
+    "Use split forms in design, teaching, and computational normalization only with layer metadata."
+  ],
+  "forbidden_use": [
+    "Do not describe 27 rows as source-observed.",
+    "Do not describe 216 cells as the primary source inventory.",
+    "Do not use the split as evidence of completed phonological or glyph-level review."
+  ],
+  "article_implication": "Article 3 can argue that the f/v row is the controlled hinge between source and derived systems; it cannot claim a completed phonological review, public glyph corpus, or encoding proposal."
+}

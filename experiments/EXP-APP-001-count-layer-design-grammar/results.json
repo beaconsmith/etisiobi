@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EXP-APP-001",
+  "decision": "KEEP_AS_FOUNDATIONAL_DESIGN_GRAMMAR",
+  "invariants": {
+    "bmc_records": 208,
+    "source_rows": 26,
+    "source_modifiers": 8,
+    "source_tokens": 208,
+    "derived_tokens_after_fv_split": 216,
+    "passed": true
+  },
+  "first_research_output": "A drift-safe PAGC count-layer design grammar that can seed system applications.",
+  "next_experiment": "EXP-APP-002-governance-state-grammar or EXP-APP-003-agent-memory-claim-drift"
+}

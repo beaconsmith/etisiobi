@@ -1,0 +1,16 @@
+{
+  "states": [
+    "machine_seeded",
+    "human_review_needed",
+    "expert_reviewed",
+    "authority_approved",
+    "disputed",
+    "restricted",
+    "withdrawn",
+    "publication_allowed",
+    "publication_blocked"
+  ],
+  "current_default": "machine_seeded",
+  "publication_default": "publication_blocked",
+  "authority_record": "AUTH-2026-05-28-USER-LEGAL-RESEARCH"
+}

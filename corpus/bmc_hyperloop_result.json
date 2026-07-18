@@ -1,0 +1,17 @@
+{
+  "goal_id": "GOAL-010",
+  "decision": "NO_BMC_ARXIV_SUBMISSION_YET",
+  "readiness_status": "NOT_READY_BMC_HUMAN_REVIEW_AND_PRIOR_ART_REQUIRED",
+  "claims_checked": 9,
+  "claims_blocked_or_rewritten": 4,
+  "bmc_records": 208,
+  "benchmarks_seeded": 10,
+  "kg_bmc_object_nodes": 208,
+  "publication_blockers": [
+    "BMC novelty remains hypothesis pending systematic prior-art review",
+    "glyph coordinates and source transcription require human review",
+    "authority records allow internal research but block public release until documents/reviews are attached",
+    "BMC paper package has not been generated or externally submitted"
+  ],
+  "next_best_experiment": "Independent human review of EXP-BMC-001 BMC records and EXP-BMC-002 count layers."
+}

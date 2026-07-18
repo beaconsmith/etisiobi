@@ -1,0 +1,9 @@
+{
+  "latexmk_exit_code": 1,
+  "pdflatex_exit_code": 0,
+  "bibtex_exit_code": 0,
+  "compile_status": "pdflatex_bibtex_pass",
+  "notes": [
+    "latexmk is installed but MiKTeX cannot run it because Perl is missing."
+  ]
+}

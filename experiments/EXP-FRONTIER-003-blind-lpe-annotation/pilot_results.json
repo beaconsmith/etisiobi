@@ -1,0 +1,31 @@
+{
+  "experiment_id": "EXP-FRONTIER-003-PILOT",
+  "generated_at": "2026-06-21T09:31:51+01:00",
+  "status": "SYNTHETIC_PILOT_LABELS_CREATED_NOT_HUMAN_REVIEW",
+  "case_count": 360,
+  "reviewer_count": 3,
+  "annotation_count": 1080,
+  "pilot_positive_rate": 0.175,
+  "pairwise_agreement": [
+    {
+      "left": "methods_reviewer",
+      "right": "domain_postdoc",
+      "cohen_kappa": 1.0,
+      "agreement": 1.0
+    },
+    {
+      "left": "methods_reviewer",
+      "right": "rights_authority_reviewer",
+      "cohen_kappa": 0.7801,
+      "agreement": 0.9444
+    },
+    {
+      "left": "domain_postdoc",
+      "right": "rights_authority_reviewer",
+      "cohen_kappa": 0.7801,
+      "agreement": 0.9444
+    }
+  ],
+  "frontier_claim_status": "not_ready",
+  "current_limit": "Synthetic pilot labels are useful for harness testing but cannot replace independent human/domain annotation."
+}

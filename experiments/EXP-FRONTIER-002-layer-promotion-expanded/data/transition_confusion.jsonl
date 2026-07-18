@@ -1,0 +1,12 @@
+{"input_layer": "blocked", "output_layer": "blocked", "gold_promotion_error": false, "count": 18}
+{"input_layer": "blocked", "output_layer": "source_observed", "gold_promotion_error": true, "count": 15}
+{"input_layer": "derived", "output_layer": "derived", "gold_promotion_error": false, "count": 20}
+{"input_layer": "derived", "output_layer": "source_observed", "gold_promotion_error": true, "count": 21}
+{"input_layer": "design_hypothesis", "output_layer": "design_hypothesis", "gold_promotion_error": false, "count": 140}
+{"input_layer": "design_hypothesis", "output_layer": "source_observed", "gold_promotion_error": true, "count": 76}
+{"input_layer": "source_index", "output_layer": "design_hypothesis", "gold_promotion_error": false, "count": 10}
+{"input_layer": "source_index", "output_layer": "source_index", "gold_promotion_error": false, "count": 110}
+{"input_layer": "source_index", "output_layer": "source_observed", "gold_promotion_error": true, "count": 63}
+{"input_layer": "source_observed", "output_layer": "source_observed", "gold_promotion_error": false, "count": 4}
+{"input_layer": "speculative", "output_layer": "source_observed", "gold_promotion_error": true, "count": 15}
+{"input_layer": "speculative", "output_layer": "speculative", "gold_promotion_error": false, "count": 18}

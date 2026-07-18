@@ -1,0 +1,27 @@
+{
+  "article_id": "ARTICLE-NA-016",
+  "status": "QUARANTINED_GENERATED_PROCESS_TRACE_NOT_PAPER_CANDIDATE",
+  "generated_at": "2026-06-21T20:52:02+01:00",
+  "cycle": 2,
+  "builds_on": [
+    "ARTICLE-NA-002",
+    "ARTICLE-NA-003",
+    "ARTICLE-NA-004",
+    "ARTICLE-NA-009",
+    "ARTICLE-NA-010"
+  ],
+  "gates": {
+    "evidence": "PASS",
+    "citations": "PASS",
+    "source_review": "PASS",
+    "rights_authority": "PASS",
+    "review_team": "PASS",
+    "reproducibility": "PASS",
+    "storm_prewrite": "PASS",
+    "recursion": "PASS"
+  },
+  "not_external_submission": true,
+  "arxiv_quality_status": "FAILED_ARXIV_QUALITY_GATE",
+  "not_paper_candidate": true,
+  "reason": "Internal/generated process artifact; not arXiv-quality and not a paper candidate."
+}

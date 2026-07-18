@@ -1,0 +1,114 @@
+{
+  "status": "EXTERNAL_READER_LEGITIMACY_FAIL",
+  "passed_count": 3,
+  "checked_count": 10,
+  "articles": [
+    {
+      "article_id": "ARTICLE-NA-012",
+      "path": "papers/nwagu_aneke_articles_cycle2/012-layer-promotion-error-benchmark/main.tex",
+      "external_reader_legitimacy_pass": false,
+      "blockers": [
+        "private lab/project framing: \\bBeaconsmith Collective\\b, \\bEtisiobi\\b, \\bARTICLE-NA-\\d{3}\\b, \\bacmConference\\[[^\\]]*Etisiobi, \\bEtisiobi Research Studio\\b, \\bInternal Review\\b, \\bDevelopment Review\\b, \\bdevelopment-reviewed\\b",
+        "package/process prose: \\bclaim ceiling\\b, \\bclaim ceilings\\b, \\breview packet\\b, \\brole-review\\b, \\breproducibility packet\\b, \\bnot public-release\\b, \\bnot public release\\b, \\bgate checks\\b",
+        "abstract reads like package/process note: \\breview packet\\b, \\bclaim ceiling\\b, \\bARTICLE-NA\\b",
+        "missing expected scientific sections"
+      ]
+    },
+    {
+      "article_id": "ARTICLE-NA-002",
+      "path": "papers/nwagu_aneke_articles/002-count-layer-drift/main.tex",
+      "external_reader_legitimacy_pass": true,
+      "blockers": []
+    },
+    {
+      "article_id": "ARTICLE-NA-010",
+      "path": "papers/nwagu_aneke_articles/010-layer-safe-generative-design/main.tex",
+      "external_reader_legitimacy_pass": true,
+      "blockers": []
+    },
+    {
+      "article_id": "ARTICLE-NA-001",
+      "path": "papers/nwagu_aneke_articles/001-source-critical-reconstruction/main.tex",
+      "external_reader_legitimacy_pass": false,
+      "blockers": [
+        "private lab/project framing: \\bBeaconsmith Collective\\b, \\bEtisiobi\\b, \\bacmConference\\[[^\\]]*Etisiobi, \\bEtisiobi Research Studio\\b, \\bNwagu Aneke Article Program\\b, \\bDevelopment Review\\b, \\bdevelopment-reviewed\\b, \\bdevelopment-stage\\b",
+        "package/process prose: \\bclaim ceiling\\b, \\breview files\\b, \\breview-team\\b, \\breproducibility materials\\b, \\breproducibility packet\\b, \\banalysis package\\b, \\bnot a journal submission package\\b",
+        "self-describing paper prose: \\bThis article contributes a bounded research result\\b, \\bbounded research result\\b, \\bIts value is that it extends\\b, \\bThe article-specific result\\b, \\bThe present article meets\\b, \\bThe paper can be cited inside the lab\\b, \\bThis is the correct intermediate state\\b, \\bA weaker process would\\b",
+        "weak non-scientific contribution phrasing: \\bthe local finding\\b, \\bwithout pretending\\b, \\bdoes not pretend\\b",
+        "abstract reads like package/process note: \\bbounded\\b, \\barticle-specific\\b, \\breproducibility\\b, \\bdoes not claim\\b",
+        "conclusion inventories manuscript/package components instead of stating a field result"
+      ]
+    },
+    {
+      "article_id": "ARTICLE-NA-003",
+      "path": "papers/nwagu_aneke_articles/003-f-v-hinge/main.tex",
+      "external_reader_legitimacy_pass": false,
+      "blockers": [
+        "private lab/project framing: \\bBeaconsmith Collective\\b, \\bEtisiobi\\b, \\bacmConference\\[[^\\]]*Etisiobi, \\bEtisiobi Research Studio\\b, \\bNwagu Aneke Article Program\\b, \\bDevelopment Review\\b, \\bdevelopment-reviewed\\b, \\bdevelopment-stage\\b",
+        "package/process prose: \\bclaim ceiling\\b, \\breview files\\b, \\breproducibility materials\\b, \\breproducibility packet\\b, \\banalysis package\\b",
+        "self-describing paper prose: \\bThis article contributes a bounded research result\\b, \\bbounded research result\\b, \\bIt has a result, a method\\b, \\bIts value is that it extends\\b, \\bThe article-specific result\\b, \\bThe present article meets\\b, \\bThe paper can be cited inside the lab\\b, \\bThis is the correct intermediate state\\b",
+        "weak non-scientific contribution phrasing: \\bthe local finding\\b, \\bwithout pretending\\b, \\bdoes not pretend\\b",
+        "abstract reads like package/process note: \\bbounded\\b, \\barticle-specific\\b, \\breproducibility\\b, \\bdoes not claim\\b",
+        "conclusion inventories manuscript/package components instead of stating a field result"
+      ]
+    },
+    {
+      "article_id": "ARTICLE-NA-004",
+      "path": "papers/nwagu_aneke_articles/004-logographs-in-a-syllabary/main.tex",
+      "external_reader_legitimacy_pass": false,
+      "blockers": [
+        "private lab/project framing: \\bBeaconsmith Collective\\b, \\bEtisiobi\\b, \\bacmConference\\[[^\\]]*Etisiobi, \\bEtisiobi Research Studio\\b, \\bNwagu Aneke Article Program\\b, \\bDevelopment Review\\b, \\bdevelopment-reviewed\\b, \\bdevelopment-stage\\b",
+        "package/process prose: \\bclaim ceiling\\b, \\breview files\\b, \\breproducibility materials\\b, \\breproducibility packet\\b, \\banalysis package\\b, \\bnot a journal submission package\\b",
+        "self-describing paper prose: \\bThis article contributes a bounded research result\\b, \\bbounded research result\\b, \\bIts value is that it extends\\b, \\bThe article-specific result\\b, \\bThe present article meets\\b, \\bThe paper can be cited inside the lab\\b, \\bThis is the correct intermediate state\\b, \\bA weaker process would\\b",
+        "weak non-scientific contribution phrasing: \\bthe local finding\\b, \\bwithout pretending\\b, \\bdoes not pretend\\b",
+        "abstract reads like package/process note: \\bbounded\\b, \\barticle-specific\\b, \\breproducibility\\b, \\bdoes not claim\\b",
+        "conclusion inventories manuscript/package components instead of stating a field result"
+      ]
+    },
+    {
+      "article_id": "ARTICLE-NA-005",
+      "path": "papers/nwagu_aneke_articles/005-tei-iiif-critical-edition/main.tex",
+      "external_reader_legitimacy_pass": false,
+      "blockers": [
+        "private lab/project framing: \\bBeaconsmith Collective\\b, \\bEtisiobi\\b, \\bacmConference\\[[^\\]]*Etisiobi, \\bEtisiobi Research Studio\\b, \\bNwagu Aneke Article Program\\b, \\bDevelopment Review\\b, \\bdevelopment-reviewed\\b, \\bdevelopment-stage\\b",
+        "package/process prose: \\bclaim ceiling\\b, \\breview files\\b, \\breproducibility materials\\b, \\breproducibility packet\\b, \\banalysis package\\b, \\bnot a journal submission package\\b",
+        "self-describing paper prose: \\bThis article contributes a bounded research result\\b, \\bbounded research result\\b, \\bIts value is that it extends\\b, \\bThe article-specific result\\b, \\bThe present article meets\\b, \\bThe paper can be cited inside the lab\\b, \\bThis is the correct intermediate state\\b, \\bA weaker process would\\b",
+        "weak non-scientific contribution phrasing: \\bthe local finding\\b, \\bwithout pretending\\b, \\bdoes not pretend\\b",
+        "abstract reads like package/process note: \\bbounded\\b, \\barticle-specific\\b, \\breproducibility\\b, \\bdoes not claim\\b",
+        "conclusion inventories manuscript/package components instead of stating a field result"
+      ]
+    },
+    {
+      "article_id": "ARTICLE-NA-006",
+      "path": "papers/nwagu_aneke_articles/006-unicode-readiness/main.tex",
+      "external_reader_legitimacy_pass": true,
+      "blockers": []
+    },
+    {
+      "article_id": "ARTICLE-NA-008",
+      "path": "papers/nwagu_aneke_articles/008-comparative-standardization/main.tex",
+      "external_reader_legitimacy_pass": false,
+      "blockers": [
+        "private lab/project framing: \\bBeaconsmith Collective\\b, \\bEtisiobi\\b, \\bacmConference\\[[^\\]]*Etisiobi, \\bEtisiobi Research Studio\\b, \\bNwagu Aneke Article Program\\b, \\bInternal Review\\b, \\bDevelopment Review\\b, \\bdevelopment-reviewed\\b",
+        "package/process prose: \\bclaim ceiling\\b, \\breview files\\b, \\breproducibility materials\\b, \\breproducibility packet\\b, \\banalysis package\\b, \\bjournal package\\b, \\bnot public release\\b",
+        "self-describing paper prose: \\bThis article contributes a bounded research result\\b, \\bbounded research result\\b, \\bIt has a result, a method\\b, \\bIts value is that it extends\\b, \\bThe article-specific result\\b, \\bThe present article meets\\b, \\bThe paper can be cited inside the lab\\b, \\bThis is the correct intermediate state\\b",
+        "weak non-scientific contribution phrasing: \\bthe local finding\\b, \\bfuture external reviewers should be asked to evaluate\\b, \\bwithout pretending\\b, \\bdoes not pretend\\b",
+        "abstract reads like package/process note: \\bbounded\\b, \\barticle-specific\\b, \\breproducibility\\b, \\bdoes not claim\\b",
+        "conclusion inventories manuscript/package components instead of stating a field result"
+      ]
+    },
+    {
+      "article_id": "ARTICLE-NA-009",
+      "path": "papers/nwagu_aneke_articles/009-igbo-tokenization/main.tex",
+      "external_reader_legitimacy_pass": false,
+      "blockers": [
+        "private lab/project framing: \\bBeaconsmith Collective\\b, \\bEtisiobi\\b, \\bacmConference\\[[^\\]]*Etisiobi, \\bEtisiobi Research Studio\\b, \\bNwagu Aneke Article Program\\b, \\bInternal Review\\b, \\bDevelopment Review\\b, \\bdevelopment-reviewed\\b",
+        "package/process prose: \\bclaim ceiling\\b, \\breview files\\b, \\breproducibility materials\\b, \\breproducibility packet\\b, \\banalysis package\\b, \\bjournal package\\b, \\bnot public release\\b",
+        "self-describing paper prose: \\bThis article contributes a bounded research result\\b, \\bThis article develops a bounded research paper\\b, \\bbounded research result\\b, \\bIt has a result, a method\\b, \\bIts value is that it extends\\b, \\bThe article-specific result\\b, \\bThe present article meets\\b, \\bThe paper can be cited inside the lab\\b",
+        "weak non-scientific contribution phrasing: \\bthe local finding\\b, \\bfuture external reviewers should be asked to evaluate\\b, \\bwithout pretending\\b, \\bdoes not pretend\\b",
+        "abstract reads like package/process note: \\bbounded\\b, \\barticle-specific\\b, \\breproducibility\\b, \\bdoes not claim\\b",
+        "conclusion inventories manuscript/package components instead of stating a field result"
+      ]
+    }
+  ]
+}

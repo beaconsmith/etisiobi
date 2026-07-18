@@ -1,0 +1,224 @@
+{
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "urn:etisiobi:annotation:BMC-000001",
+      "type": "Annotation",
+      "motivation": "tagging",
+      "body": {
+        "type": "TextualBody",
+        "purpose": "identifying",
+        "value": "ba",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+        "selector": {
+          "type": "TextQuoteSelector",
+          "exact": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=1]"
+        }
+      },
+      "certainty": 0.42,
+      "reviewStatus": "human_review_needed",
+      "mappingStatus": "partial_selector_no_pixel_coordinates"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "urn:etisiobi:annotation:BMC-000002",
+      "type": "Annotation",
+      "motivation": "tagging",
+      "body": {
+        "type": "TextualBody",
+        "purpose": "identifying",
+        "value": "bi",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+        "selector": {
+          "type": "TextQuoteSelector",
+          "exact": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=2]"
+        }
+      },
+      "certainty": 0.42,
+      "reviewStatus": "human_review_needed",
+      "mappingStatus": "partial_selector_no_pixel_coordinates"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "urn:etisiobi:annotation:BMC-000003",
+      "type": "Annotation",
+      "motivation": "tagging",
+      "body": {
+        "type": "TextualBody",
+        "purpose": "identifying",
+        "value": "bo",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+        "selector": {
+          "type": "TextQuoteSelector",
+          "exact": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=3]"
+        }
+      },
+      "certainty": 0.42,
+      "reviewStatus": "human_review_needed",
+      "mappingStatus": "partial_selector_no_pixel_coordinates"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "urn:etisiobi:annotation:BMC-000004",
+      "type": "Annotation",
+      "motivation": "tagging",
+      "body": {
+        "type": "TextualBody",
+        "purpose": "identifying",
+        "value": "bu",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+        "selector": {
+          "type": "TextQuoteSelector",
+          "exact": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=4]"
+        }
+      },
+      "certainty": 0.42,
+      "reviewStatus": "human_review_needed",
+      "mappingStatus": "partial_selector_no_pixel_coordinates"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "urn:etisiobi:annotation:BMC-000005",
+      "type": "Annotation",
+      "motivation": "tagging",
+      "body": {
+        "type": "TextualBody",
+        "purpose": "identifying",
+        "value": "be",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+        "selector": {
+          "type": "TextQuoteSelector",
+          "exact": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=5]"
+        }
+      },
+      "certainty": 0.42,
+      "reviewStatus": "human_review_needed",
+      "mappingStatus": "partial_selector_no_pixel_coordinates"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "urn:etisiobi:annotation:BMC-000006",
+      "type": "Annotation",
+      "motivation": "tagging",
+      "body": {
+        "type": "TextualBody",
+        "purpose": "identifying",
+        "value": "bị",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+        "selector": {
+          "type": "TextQuoteSelector",
+          "exact": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=6]"
+        }
+      },
+      "certainty": 0.42,
+      "reviewStatus": "human_review_needed",
+      "mappingStatus": "partial_selector_no_pixel_coordinates"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "urn:etisiobi:annotation:BMC-000007",
+      "type": "Annotation",
+      "motivation": "tagging",
+      "body": {
+        "type": "TextualBody",
+        "purpose": "identifying",
+        "value": "bọ",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+        "selector": {
+          "type": "TextQuoteSelector",
+          "exact": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=7]"
+        }
+      },
+      "certainty": 0.42,
+      "reviewStatus": "human_review_needed",
+      "mappingStatus": "partial_selector_no_pixel_coordinates"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "urn:etisiobi:annotation:BMC-000008",
+      "type": "Annotation",
+      "motivation": "tagging",
+      "body": {
+        "type": "TextualBody",
+        "purpose": "identifying",
+        "value": "bụ",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+        "selector": {
+          "type": "TextQuoteSelector",
+          "exact": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=1];vowelColumn[n=8]"
+        }
+      },
+      "certainty": 0.42,
+      "reviewStatus": "human_review_needed",
+      "mappingStatus": "partial_selector_no_pixel_coordinates"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "urn:etisiobi:annotation:BMC-000009",
+      "type": "Annotation",
+      "motivation": "tagging",
+      "body": {
+        "type": "TextualBody",
+        "purpose": "identifying",
+        "value": "cha",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+        "selector": {
+          "type": "TextQuoteSelector",
+          "exact": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=1]"
+        }
+      },
+      "certainty": 0.42,
+      "reviewStatus": "human_review_needed",
+      "mappingStatus": "partial_selector_no_pixel_coordinates"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "urn:etisiobi:annotation:BMC-000010",
+      "type": "Annotation",
+      "motivation": "tagging",
+      "body": {
+        "type": "TextualBody",
+        "purpose": "identifying",
+        "value": "chi",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "urn:etisiobi:iiif:nwagu-aneke:canvas:omniglot-chart",
+        "selector": {
+          "type": "TextQuoteSelector",
+          "exact": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml#rowLabel[n=2];vowelColumn[n=2]"
+        }
+      },
+      "certainty": 0.42,
+      "reviewStatus": "human_review_needed",
+      "mappingStatus": "partial_selector_no_pixel_coordinates"
+    }
+  ]
+}

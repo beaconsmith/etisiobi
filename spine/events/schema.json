@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Etisiobi Research Event",
+  "type": "object",
+  "required": [
+    "event_id",
+    "timestamp",
+    "event_type",
+    "actor",
+    "scope",
+    "summary",
+    "status",
+    "authority_basis",
+    "evidence",
+    "outputs",
+    "affects"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "pattern": "^REVT-[0-9]{4}$"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "decision",
+        "human_attestation",
+        "research_result",
+        "gate_result",
+        "policy_change",
+        "artifact_quarantined",
+        "control_plane_change",
+        "blocker"
+      ]
+    },
+    "actor": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "authority_basis": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supersedes_events": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supersedes_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reversal_condition": {
+      "type": "string"
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "next_action": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

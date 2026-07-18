@@ -1,0 +1,78 @@
+{
+  "$id": "etisiobi:nwagu:dataset-boundary-review-submission:v1",
+  "title": "Nwagu Dataset Boundary Review Submission",
+  "status": "schema_for_future_human_rows_not_current_review",
+  "claim_ceiling": "review_intake_ready_not_human_review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "role",
+    "reviewer_name",
+    "reviewed_at",
+    "status",
+    "summary",
+    "files_reviewed",
+    "blocking_issues",
+    "attestation",
+    "agent_generated_placeholder",
+    "may_approve_boundary_alone"
+  ],
+  "properties": {
+    "role": {
+      "type": "string",
+      "enum": [
+        "rights_authority_reviewer",
+        "community_authority_reviewer",
+        "source_dossier_reviewer",
+        "preservation_infrastructure_reviewer",
+        "data_protection_reviewer"
+      ]
+    },
+    "reviewer_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewed_at": {
+      "type": "string",
+      "description": "ISO 8601 timestamp supplied by the human reviewer."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "REJECT",
+        "REVISE"
+      ]
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "files_reviewed": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "blocking_issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "attestation": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Reviewer statement that the row reflects real human review."
+    },
+    "agent_generated_placeholder": {
+      "type": "boolean",
+      "const": false
+    },
+    "may_approve_boundary_alone": {
+      "type": "boolean",
+      "const": false
+    }
+  }
+}

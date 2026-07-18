@@ -1,0 +1,35 @@
+{
+  "experiment_id": "EXP-FRONTIER-015",
+  "atlas_id": "NWAGU-RECOVERY-100",
+  "status": "HUNDRED_PAPER_RECOVERY_INTAKE_READY_SEEDS_ONLY",
+  "decision": "seed_100_research_questions_without_paper_or_readiness_claims",
+  "claim_ceiling": "research_intake_not_paper_pipeline_completion",
+  "paper_count_target": 100,
+  "seed_count": 100,
+  "local_context": [
+    "wiki/index.md",
+    "research/frontier/nwagu_aneke/FRONTIER_LAB_STATUS.json",
+    "research/frontier/nwagu_aneke/FRONTIER_OPPORTUNITY_REGISTER.md",
+    "research/frontier/nwagu_aneke/FRONTIER_PORTFOLIO_SCORECARD.md",
+    "research/frontier/nwagu_aneke/EXPERIMENT_BACKLOG.md",
+    "research/frontier/nwagu_aneke/ARTICLE_AND_PRODUCT_PORTFOLIO.md"
+  ],
+  "external_actions_taken": [],
+  "dependencies_installed": false,
+  "papers_generated": false,
+  "manuscripts_generated": false,
+  "publication_pdf_generated": false,
+  "private_data_downloaded": false,
+  "human_review_completed": false,
+  "rights_or_authority_cleared": false,
+  "public_release_claimed": false,
+  "blocked_promotions": [
+    "paper maturity claim",
+    "external submission",
+    "publication package",
+    "rights or authority clearance claim",
+    "derived layer source promotion",
+    "frontier novelty claim"
+  ],
+  "exact_next_action": "Select the first 12 seed-only records for source and lab triage then create one artifact per selected seed without producing manuscripts or readiness claims."
+}

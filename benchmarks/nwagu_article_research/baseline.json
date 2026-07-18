@@ -1,0 +1,20 @@
+{
+  "baseline_id": "NWAGU-ARTICLE-BENCH-BASELINE-001",
+  "created_at": "2026-06-20T06:34:37+01:00",
+  "description": "Baseline after EXP-NA-002 through EXP-NA-010 were executed but before article bodies were rewritten out of internal critique-note form.",
+  "evidence_completion_score": 0.9256,
+  "impact_journal_readiness_score": null,
+  "known_defect": "Article bodies contain internal meta-review sections such as 'Why The Earlier Draft Would Be Rejected' and therefore should not be considered impact-journal manuscripts even when experiments exist.",
+  "accepted_foundation": {
+    "source_observed_layer": {
+      "rows": 26,
+      "columns": 8,
+      "records": 208
+    },
+    "derived_layer": {
+      "rows_if_f_v_split": 27,
+      "records_if_f_v_split": 216,
+      "rule": "27/216 is a derived f/v split layer, not source-observed in the current evidence package."
+    }
+  }
+}

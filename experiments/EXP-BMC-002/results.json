@@ -1,0 +1,24 @@
+{
+  "goal_id": "GOAL-002",
+  "decision": "MULTI_LAYER_COUNT_VALID",
+  "checks": {
+    "tei_rows": 26,
+    "tei_vowels": 8,
+    "glyph_annotation_rows": 26,
+    "cell_grid_records": 208,
+    "bmc_rows": 26,
+    "bmc_vowels": 8,
+    "bmc_cells": 208,
+    "expected_cells": 208,
+    "derived_split_rows_if_f_v_split": 27,
+    "derived_split_cells_if_f_v_split": 216
+  },
+  "layer_model": {
+    "source_observed_rows": 26,
+    "source_observed_vowels": 8,
+    "source_observed_cells": 208,
+    "derived_phonemic_rows_if_f_v_split": 27,
+    "derived_phonemic_cells_if_f_v_split": 216,
+    "rule": "Do not call 27 or 216 source-observed; treat them as derived normalization layers."
+  }
+}

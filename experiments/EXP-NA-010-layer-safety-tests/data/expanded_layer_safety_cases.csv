@@ -1,0 +1,25 @@
+case_id,claim,input_label,output_label,scenario,provenance_link,citation_present,expected_gate_decision
+LS-001,26 x 8 equals 208 source-index records,source_observed,source_observed,preserve source-observed count,yes,yes,allow
+LS-002,27 x 8 equals 216 only under f/v split,derived,derived,preserve derived completion layer,yes,yes,allow
+LS-003,E6 analogy remains speculative,speculative,speculative,preserve speculative analogy,yes,no,allow
+LS-004,public glyph corpus clearance remains blocked,blocked,blocked,preserve blocked release claim,yes,no,allow
+LS-005,source count paraphrased as derived design constraint,source_observed,derived,safe weakening from source to derived design,yes,yes,allow
+LS-006,derived f/v split framed as speculative design option,derived,speculative,safe weakening from derived to speculative,yes,no,allow
+LS-007,speculative compression analogy marked blocked for publication,speculative,blocked,safe weakening from speculative to blocked,yes,no,allow
+LS-008,source-observed count withheld pending venue review,source_observed,blocked,safe withholding from source to blocked,yes,yes,allow
+LS-009,derived f/v split asserted as source-observed inventory,derived,source_observed,unsafe derived to source promotion,yes,yes,reject
+LS-010,speculative E6 analogy asserted as source-observed structure,speculative,source_observed,unsafe speculative to source promotion,yes,no,reject
+LS-011,blocked public glyph corpus asserted as source-observed release,blocked,source_observed,unsafe blocked to source promotion,yes,no,reject
+LS-012,speculative compression analogy asserted as derived count fact,speculative,derived,unsafe speculative to derived promotion,no,no,reject
+LS-013,blocked manuscript-release claim asserted as derived dataset,blocked,derived,unsafe blocked to derived promotion,yes,yes,reject
+LS-014,blocked cultural-authority wording asserted as speculative but publishable,blocked,speculative,unsafe blocked to speculative promotion,no,no,reject
+LS-015,uncleared source image described as reviewed source evidence,blocked,source_observed,unsafe rights blocker to source evidence,yes,yes,reject
+LS-016,unreviewed manuscript holding treated as derived feature table,blocked,derived,unsafe unreviewed holding to derived feature,yes,no,reject
+LS-017,derived row split copied into abstract as source inventory,derived,source_observed,unsafe abstract-level promotion,yes,yes,reject
+LS-018,speculative universal-compression claim copied into contribution,speculative,source_observed,unsafe contribution-level promotion,no,yes,reject
+LS-019,blocked Unicode-readiness claim copied into title,blocked,source_observed,unsafe title-level promotion,yes,no,reject
+LS-020,blocked dataset claim copied into figure caption as derived corpus,blocked,derived,unsafe figure-caption promotion,yes,yes,reject
+LS-021,source count cited but without source label,source_observed,source_observed,citation-only safe case,yes,yes,allow
+LS-022,derived split cited but asserted as source because citation exists,derived,source_observed,citation-only false negative probe,yes,yes,reject
+LS-023,blocked release claim has provenance link but remains blocked,blocked,source_observed,provenance-only false negative probe,yes,no,reject
+LS-024,speculative design analogy has no citation and remains speculative,speculative,speculative,no-citation safe speculative preservation,no,no,allow

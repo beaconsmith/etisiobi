@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-06-21",
+  "purpose": "Lab-wide stage gates preventing paper-looking artifacts from outrunning research substance.",
+  "stages": [
+    {
+      "stage": "RESEARCH_PROGRAM",
+      "minimum_evidence": ["artifact_or_problem_defined", "research_question_written"],
+      "allowed_outputs": ["wiki_page", "research_note", "branch_backlog"],
+      "forbidden_outputs": ["submission_pdf", "ready_status"]
+    },
+    {
+      "stage": "SOURCE_DOSSIER",
+      "minimum_evidence": ["primary_source_inventory", "source_uncertainty", "rights_status"],
+      "allowed_outputs": ["source_dossier", "audit_plan"],
+      "forbidden_outputs": ["novelty_claim", "submission_pdf"]
+    },
+    {
+      "stage": "CLAIM_MODEL",
+      "minimum_evidence": ["claim_map", "contradiction_map", "falsification_conditions"],
+      "allowed_outputs": ["claim_gate", "reviewer_attack_surface"],
+      "forbidden_outputs": ["positive_contribution_claim_without_result"]
+    },
+    {
+      "stage": "EXPERIMENTAL_RESULT",
+      "minimum_evidence": ["experiment_or_audit_output", "method", "decision", "logs_or_source_trace"],
+      "allowed_outputs": ["result_report", "negative_result", "benchmark_record"],
+      "forbidden_outputs": ["impact_ready_status"]
+    },
+    {
+      "stage": "PAPER_CANDIDATE",
+      "minimum_evidence": ["article_specific_prior_art", "external_contribution", "venue_fit", "decision_trace"],
+      "allowed_outputs": ["full_outline", "manuscript_draft", "internal_pdf"],
+      "forbidden_outputs": ["submission_ready_status"]
+    },
+    {
+      "stage": "SUBMISSION_CANDIDATE",
+      "minimum_evidence": ["full_manuscript", "verified_bibliography", "review_team_trace", "package_audit"],
+      "allowed_outputs": ["submission_package_for_human_review"],
+      "forbidden_outputs": ["public_release_without_authority_gate"]
+    },
+    {
+      "stage": "PUBLIC_RELEASE_READY",
+      "minimum_evidence": ["authority_clearance", "rights_clearance", "human_approval"],
+      "allowed_outputs": ["public_submission", "public_dataset_release"],
+      "forbidden_outputs": []
+    }
+  ],
+  "portfolio_limits": {
+    "max_active_article_hardening_branches": 2,
+    "default_nwagu_active_articles": ["ARTICLE-NA-002", "ARTICLE-NA-010"],
+    "default_nwagu_parked_articles": [
+      "ARTICLE-NA-001",
+      "ARTICLE-NA-003",
+      "ARTICLE-NA-004",
+      "ARTICLE-NA-005",
+      "ARTICLE-NA-006",
+      "ARTICLE-NA-007",
+      "ARTICLE-NA-008",
+      "ARTICLE-NA-009"
+    ]
+  }
+}
+

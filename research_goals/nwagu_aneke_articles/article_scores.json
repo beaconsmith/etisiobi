@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-06-19",
+  "scoring_formula": "0.25*source_grounding + 0.20*novelty_hypothesis + 0.15*falsifiability + 0.15*feasibility + 0.10*paper_fit + 0.10*community_authority_fit + 0.05*systems_potential - 0.20*rights_or_source_blocker",
+  "active_limit": 3,
+  "candidates": [
+    {
+      "article_id": "ARTICLE-NA-001",
+      "title": "A Source-Critical Reconstruction of the Nwagu Aneke Igbo Syllabary",
+      "status": "active",
+      "score": 0.82,
+      "primary_blocker": "rights/source-image review",
+      "next_experiment": "EXP-NA-002-count-layer-ledger",
+      "last_experiment": "EXP-NA-001-source-critical-reconstruction",
+      "last_decision": "RECONSTRUCTABLE_AS_SOURCE_LEDGER_NOT_FULL_GLYPH_CORPUS",
+      "article_readiness": "VIABLE_AS_SOURCE_CRITICAL_LEDGER_ARTICLE_NOT_GLYPH_CORPUS"
+    },
+    {
+      "article_id": "ARTICLE-NA-002",
+      "title": "Count-Layer Drift in Nwagu Aneke: 26x8, 27/216, 164, and 224",
+      "status": "active",
+      "score": 0.79,
+      "primary_blocker": "line-verified Ahamefula/Mbah evidence",
+      "next_experiment": "EXP-NA-002-count-layer-ledger"
+    },
+    {
+      "article_id": "ARTICLE-NA-003",
+      "title": "The f/v Hinge: Orthographic Economy and Dialect-Specific Design in Nwagu Aneke",
+      "status": "active",
+      "score": 0.73,
+      "primary_blocker": "Umuleri/Igbo phonology review",
+      "next_experiment": "EXP-NA-003-f-v-hinge-audit"
+    },
+    {
+      "article_id": "ARTICLE-NA-004",
+      "title": "Logographs in a Syllabary",
+      "status": "pending",
+      "score": 0.68,
+      "primary_blocker": "logograph source extraction",
+      "next_experiment": "EXP-NA-004-logograph-ledger"
+    },
+    {
+      "article_id": "ARTICLE-NA-005",
+      "title": "Toward a TEI/IIIF Critical Edition of an Unencoded African Syllabary",
+      "status": "pending",
+      "score": 0.70,
+      "primary_blocker": "source-publication scope",
+      "next_experiment": "EXP-NA-005-tei-iiif-minimal-edition"
+    },
+    {
+      "article_id": "ARTICLE-NA-006",
+      "title": "Unicode Readiness for Nwagu Aneke",
+      "status": "pending",
+      "score": 0.69,
+      "primary_blocker": "character-vs-glyph review and community authority",
+      "next_experiment": "EXP-NA-006-unicode-gap-matrix"
+    },
+    {
+      "article_id": "ARTICLE-NA-007",
+      "title": "Manuscript Corpus Provenance",
+      "status": "pending",
+      "score": 0.65,
+      "primary_blocker": "manuscript location and access authority",
+      "next_experiment": "EXP-NA-007-manuscript-provenance-map"
+    },
+    {
+      "article_id": "ARTICLE-NA-008",
+      "title": "Comparative Standardization Paths for African Syllabaries",
+      "status": "pending",
+      "score": 0.66,
+      "primary_blocker": "comparative source collection",
+      "next_experiment": "EXP-NA-008-comparative-scripts-matrix"
+    },
+    {
+      "article_id": "ARTICLE-NA-009",
+      "title": "Igbo Tokenization From a Source-Grounded Syllabary Layer",
+      "status": "pending",
+      "score": 0.62,
+      "primary_blocker": "frozen reproducible tokenizer baselines",
+      "next_experiment": "EXP-NA-009-tokenizer-sweep"
+    },
+    {
+      "article_id": "ARTICLE-NA-010",
+      "title": "Layer-Safe Generative Design Systems From Nwagu Aneke",
+      "status": "pending",
+      "score": 0.64,
+      "primary_blocker": "separate formal systems claim from historical artifact claim",
+      "next_experiment": "EXP-NA-010-layer-safety-system-tests"
+    }
+  ]
+}

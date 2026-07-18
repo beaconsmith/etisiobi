@@ -1,0 +1,9 @@
+{
+  "experiment_id": "EXP-APP-001",
+  "source_bmc_records": 208,
+  "source_rows": 26,
+  "source_modifiers": 8,
+  "source_tokens": 208,
+  "derived_tokens": 216,
+  "derived_rule": "split f/v row"
+}

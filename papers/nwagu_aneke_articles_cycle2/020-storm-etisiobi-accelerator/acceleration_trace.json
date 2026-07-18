@@ -1,0 +1,18 @@
+{
+  "article_id": "ARTICLE-NA-020",
+  "cycle": 2,
+  "builds_on": [
+    "ARTICLE-NA-011",
+    "ARTICLE-NA-012",
+    "ARTICLE-NA-013",
+    "ARTICLE-NA-019"
+  ],
+  "new_research_operation": "the second cycle composes perspective questioning, layer-promotion scoring, red-herring audit, and portfolio pruning into one acceleration protocol",
+  "storm_transfer": [
+    "perspective_guided_questions",
+    "simulated_review_turns",
+    "outline_quality_audit",
+    "red_herring_audit"
+  ],
+  "next_experiment": "External hardening or empirical follow-up for ARTICLE-NA-020"
+}

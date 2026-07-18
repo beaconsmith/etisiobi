@@ -1,0 +1,28 @@
+{
+  "decision_id": "BOUNDARY-DECISION-EXP-FRONTIER-008-TEMPLATE",
+  "gate_id": "BOUNDARY-REVIEW-GATE-EXP-FRONTIER-008-001",
+  "boundary_id": "BOUNDARY-EXP-FRONTIER-008-001",
+  "experiment_id": "EXP-FRONTIER-008",
+  "status": "template_not_decision",
+  "claim_ceiling": "review_gate_pending_not_boundary_approval",
+  "may_be_used_as_approval": false,
+  "allowed_final_decisions": [
+    "PASS",
+    "REJECT",
+    "REVISE"
+  ],
+  "required_roles": [
+    "rights_authority_reviewer",
+    "community_authority_reviewer",
+    "source_dossier_reviewer",
+    "preservation_infrastructure_reviewer",
+    "data_protection_reviewer"
+  ],
+  "required_before_final_decision": [
+    "replace template rows with real human review rows",
+    "record files reviewed by each role",
+    "record blockers for every non-PASS role",
+    "rerun boundary and review-gate validators",
+    "create a new decision record with a non-template decision_id"
+  ]
+}

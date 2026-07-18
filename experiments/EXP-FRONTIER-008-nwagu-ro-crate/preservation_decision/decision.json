@@ -1,0 +1,62 @@
+{
+  "decision_id": "PRESERVE-EXP-FRONTIER-008-001",
+  "experiment_id": "EXP-FRONTIER-008",
+  "created": "2026-06-22",
+  "status": "repo_local_internal_now",
+  "selected_path": "repo_local_internal_metadata_package",
+  "claim_ceiling": "preservation_route_decision_not_release",
+  "external_actions_taken": [],
+  "approved_current_actions": [
+    "maintain repo-local metadata package",
+    "validate preservation decision packet",
+    "revisit DataLad after dataset boundary review",
+    "revisit Software Heritage after public release or archive approval"
+  ],
+  "forbidden_current_actions": [
+    "create DataLad dataset",
+    "request Software Heritage save",
+    "claim SWHID",
+    "deposit public release",
+    "include restricted source material"
+  ],
+  "notes": [
+    "no external submission",
+    "no dependency installation",
+    "metadata package remains repo-local until rights and authority gates mature"
+  ],
+  "routes": {
+    "repo_local_internal_metadata_package": {
+      "decision": "selected_now",
+      "external_action_now": false,
+      "reason": "Current package is a detached internal metadata package with rights and authority blockers still open."
+    },
+    "datalad_versioned_dataset": {
+      "decision": "defer_until_dataset_boundary_review",
+      "external_action_now": false,
+      "reason": "DataLad is relevant to versioned datasets and provenance, but the lab has not yet defined a public or semi-public dataset boundary for this package."
+    },
+    "software_heritage_archive_identifier": {
+      "decision": "defer_until_public_release_or_archive_approval",
+      "external_action_now": false,
+      "reason": "Software Heritage is relevant to source-code preservation, but the current package is not a public release and no archive action is approved."
+    }
+  },
+  "blockers": [
+    "rights review",
+    "authority review",
+    "public release approval",
+    "source-image exclusion",
+    "private-data exclusion",
+    "dataset boundary review"
+  ],
+  "primary_sources": {
+    "datalad": [
+      "https://www.datalad.org/",
+      "https://handbook.datalad.org/en/latest/book_main.html"
+    ],
+    "software_heritage": [
+      "https://www.softwareheritage.org/",
+      "https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html"
+    ]
+  }
+}

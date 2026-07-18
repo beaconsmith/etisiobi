@@ -1,0 +1,26 @@
+{
+  "experiment_id": "EXP-NA-008",
+  "canonical_experiment_id": "EXP-NA-008-comparative-scripts-matrix",
+  "generated_at": "2026-07-06T00:00:00+01:00",
+  "decision": "COMPARATIVE_MATRIX_CREATED_NWAGU_POSITIONED_AS_UNENCODED_REVIEW_BLOCKED",
+  "result_type": "Comparative African script standardization evidence matrix",
+  "scripts_compared": 8,
+  "encoded_scripts": 3,
+  "unencoded_or_proposal_leads": 5,
+  "target_case": "Nwagu Aneke",
+  "target_case_status": "not encoded; not on roadmap; no Unicode proposal recorded in the matrix inputs",
+  "article_implication": "Article 8 can compare evidence conditions across encoded, proposal-lead, and unencoded African scripts while keeping Nwagu Aneke in a review-blocked position.",
+  "evidence_files": [
+    "experiments/EXP-NA-008-comparative-scripts-matrix/results.json",
+    "experiments/EXP-NA-008-comparative-scripts-matrix/data/comparative_scripts_matrix.csv",
+    "experiments/EXP-NA-008-comparative-scripts-matrix/data/comparative_scripts_matrix.jsonl",
+    "experiments/EXP-NA-008-comparative-scripts-matrix/analysis.md",
+    "experiments/EXP-NA-008-comparative-scripts-matrix/decision.md"
+  ],
+  "claim_boundary": "The matrix supports a comparative evidence-condition paper; it does not show that Nwagu Aneke is Unicode-ready, proposal-ready, community-authorized, or equivalent in maturity to encoded scripts.",
+  "external_sources_used": [
+    "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-19/",
+    "https://www.unicode.org/L2/L2023/23203-update-african-scripts.pdf",
+    "https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=mgqnsfqapq"
+  ]
+}

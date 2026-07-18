@@ -1,0 +1,33 @@
+{
+  "status": "HUMAN_SOURCE_RIGHTS_REVIEW_PACKETS_PREPARED_PUBLIC_RELEASE_BLOCKED",
+  "generated": "2026-07-07",
+  "public_journal_candidate_count": 0,
+  "public_preprint_candidate_count": 3,
+  "packets": [
+    {
+      "article_id": "ARTICLE-NA-002",
+      "packet": "research_runs/human_source_rights_review/ARTICLE-NA-002.md",
+      "current_release_class": "PUBLIC_PREPRINT_CANDIDATE",
+      "decision": "PUBLIC_PREPRINT_CANDIDATE_HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "article_id": "ARTICLE-NA-006",
+      "packet": "research_runs/human_source_rights_review/ARTICLE-NA-006.md",
+      "current_release_class": "PUBLIC_PREPRINT_CANDIDATE",
+      "decision": "PUBLIC_PREPRINT_CANDIDATE_HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "article_id": "ARTICLE-NA-010",
+      "packet": "research_runs/human_source_rights_review/ARTICLE-NA-010.md",
+      "current_release_class": "PUBLIC_PREPRINT_CANDIDATE",
+      "decision": "PUBLIC_PREPRINT_CANDIDATE_HUMAN_REVIEW_REQUIRED"
+    }
+  ],
+  "forbidden_current_statuses": [
+    "PUBLIC_JOURNAL_MANUSCRIPT_CANDIDATE",
+    "READY_FOR_SUBMISSION",
+    "READY_FOR_HUMAN_ARXIV_REVIEW",
+    "IMPACT_JOURNAL_READY"
+  ],
+  "exact_next_action": "Route ARTICLE-NA-006 to a human source/standards reviewer for public Unicode status, matrix accuracy, proposal-boundary wording, venue class, and text-only package scope decisions."
+}

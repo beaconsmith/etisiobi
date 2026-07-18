@@ -1,0 +1,4 @@
+route_id,route_label,decision,why_now,required_before_promotion,external_action_now,claim_ceiling
+repo_local_internal_metadata_package,Repo-local internal metadata package,selected_now,Matches current rights-safe metadata package and avoids external action,Maintain validators and update checksums after scoped artifact changes,no,preservation_route_decision_not_release
+datalad_versioned_dataset,DataLad versioned dataset,defer_until_dataset_boundary_review,Useful for dataset provenance after package boundary is stable,Dataset boundary review plus rights review plus authority review,no,preservation_route_decision_not_release
+software_heritage_archive_identifier,Software Heritage archive identifier,defer_until_public_release_or_archive_approval,Useful for public source-code preservation after release gate,Public release approval plus archive approval plus repository boundary review,no,preservation_route_decision_not_release

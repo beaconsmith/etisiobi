@@ -1,0 +1,43 @@
+{
+  "checklist_id": "REPO-BOUNDARY-REVIEW-CHECKLIST-001",
+  "status": "review_open_not_approved",
+  "claim_ceiling": "repository_boundary_review_not_public_release",
+  "all_items_required_before_release_or_archive": true,
+  "items": [
+    {
+      "item_id": "PATH_AUDIT_COMPLETE",
+      "current_status": "not_satisfied",
+      "required_evidence": "dated path inventory with every included file reviewed"
+    },
+    {
+      "item_id": "RESTRICTED_EXCLUSION_VALIDATED",
+      "current_status": "not_satisfied",
+      "required_evidence": "restricted source image and manuscript exclusion audit"
+    },
+    {
+      "item_id": "RIGHTS_AUTHORITY_REVIEWED",
+      "current_status": "not_satisfied",
+      "required_evidence": "rights and authority reviewer decision rows"
+    },
+    {
+      "item_id": "LICENSE_CITATION_REVIEWED",
+      "current_status": "not_satisfied",
+      "required_evidence": "license and citation metadata review for every candidate file"
+    },
+    {
+      "item_id": "PRIVATE_CONTACT_EXCLUSION_VALIDATED",
+      "current_status": "not_satisfied",
+      "required_evidence": "private data and contact data exclusion review"
+    },
+    {
+      "item_id": "PRESERVATION_REVIEW_COMPLETE",
+      "current_status": "not_satisfied",
+      "required_evidence": "human preservation infrastructure review"
+    },
+    {
+      "item_id": "EXPLICIT_RELEASE_ARCHIVE_APPROVAL",
+      "current_status": "not_satisfied",
+      "required_evidence": "explicit user and lab approval for any export or archive action"
+    }
+  ]
+}

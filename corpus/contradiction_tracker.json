@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "claim",
+    "id": "CLAIM-0013",
+    "text": "Repo files disagree about ICEGOV deadline: README says April 24, 2026 while AGENTS/SUBMISSION_RULES say May 8, 2026.",
+    "source": "README.md",
+    "action": [
+      "Resolve deadline source of truth and update stale file(s)."
+    ]
+  },
+  {
+    "kind": "claim",
+    "id": "CLAIM-0014",
+    "text": "Repo files disagree about ACM format defaults: submission rules say sigconf while the bootstrap prompt asks for manuscript.",
+    "source": "research/SUBMISSION_RULES.md",
+    "action": [
+      "Confirm venue submission mode before final compile."
+    ]
+  },
+  {
+    "kind": "mapping",
+    "id": "MAP-0004",
+    "text": "E6 claims are blocked until an independently justified 27-element object exists.",
+    "source": "27 bases",
+    "action": "Keep classified; do not promote without new evidence."
+  },
+  {
+    "kind": "mapping",
+    "id": "MAP-0005",
+    "text": "Biological analogies may inspire design language but are not evidence for PAGC.",
+    "source": "modifier grammar",
+    "action": "Keep classified; do not promote without new evidence."
+  }
+]

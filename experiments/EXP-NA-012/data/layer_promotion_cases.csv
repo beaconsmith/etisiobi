@@ -1,0 +1,13 @@
+case_id,input_layer,claim_text,expected_decision,gate_decision,outcome
+LPE-001,source_observed,"The current source layer is 26 rows by 8 vowel/modifier columns.",allow,allow,true_negative
+LPE-002,source_observed,"The current source layer yields 208 source-layer records.",allow,allow,true_negative
+LPE-003,derived,"The 27/216 matrix is a derived f/v split view.",allow,allow,true_negative
+LPE-004,derived,"A design interface may expose 27/216 only as a derived view.",allow,allow,true_negative
+LPE-005,speculative,"A tokenizer experiment may test whether layer labels affect model errors.",allow,allow,true_negative
+LPE-006,blocked,"Public source-image release requires separate rights and authority review.",allow,allow,true_negative
+LPE-007,derived,"The source-observed inventory is 27 rows and 216 records.",reject,reject,true_positive
+LPE-008,derived,"The f/v split proves a primary historical row count.",reject,reject,true_positive
+LPE-009,speculative,"The count layer proves universal compression.",reject,reject,true_positive
+LPE-010,speculative,"The count layer proves exceptional mathematics.",reject,reject,true_positive
+LPE-011,blocked,"The article authorizes public source-image release.",reject,reject,true_positive
+LPE-012,blocked,"The current ledger is a complete public glyph grammar.",reject,reject,true_positive

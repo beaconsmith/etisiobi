@@ -1,0 +1,44 @@
+{
+  "experiment_id": "EXP-NA-012",
+  "article_id": "ARTICLE-NA-012",
+  "status": "PASS",
+  "experiment_type": "layer_promotion_error_benchmark",
+  "source_layer": {
+    "rows": 26,
+    "columns": 8,
+    "records": 208
+  },
+  "derived_layer": {
+    "rule": "f/v split only",
+    "records": 216
+  },
+  "builds_on": [
+    "ARTICLE-NA-002",
+    "ARTICLE-NA-006",
+    "ARTICLE-NA-010"
+  ],
+  "research_question": "Can layer-promotion error be scored as an explicit benchmark task for artifact-first autonomous research?",
+  "hypothesis": "A layer-labeled gate will reject unsupported promotions from derived, speculative, or blocked claims into source-observed claims while preserving safe source and derived statements.",
+  "dataset": "data/layer_promotion_cases.csv",
+  "case_count": 12,
+  "unsafe_promotion_cases": 6,
+  "safe_preservation_cases": 6,
+  "results": {
+    "true_positive_rejections": 6,
+    "false_negative_promotions": 0,
+    "true_negative_preservations": 6,
+    "false_positive_rejections": 0,
+    "promotion_error_recall": 1.0,
+    "promotion_error_precision": 1.0,
+    "derived_layer_preservation": 1.0
+  },
+  "blocked_claims": [
+    "source-observed 216",
+    "universal compression proof",
+    "E6 proof",
+    "public release approval",
+    "complete glyph grammar"
+  ],
+  "result": "Layer-promotion error is measurable as a benchmark task over twelve source, derived, speculative, and blocked claim cases; the gate rejected all six unsafe promotions and preserved all six safe statements.",
+  "claim_ceiling": "Internal paper candidate for methods review; not public release, venue acceptance, or authority clearance."
+}

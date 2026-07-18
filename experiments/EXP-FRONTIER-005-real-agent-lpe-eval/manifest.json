@@ -1,0 +1,23 @@
+{
+  "experiment_id": "EXP-FRONTIER-005",
+  "generated_at": "2026-06-21T09:35:54+01:00",
+  "status": "ANNOTATION_AND_AGENT_RUN_TEMPLATES_READY_NOT_SCORED",
+  "source_queue": "experiments/EXP-FRONTIER-003-blind-lpe-annotation/annotation_queue.csv",
+  "source_queue_sha256": "0d9d20f8183de952b4d74caeeeb14ebf575ee4defdb0780b59d352cde10e9b15",
+  "case_count": 360,
+  "annotation_roles": [
+    "domain_source_reviewer",
+    "methods_reviewer",
+    "adversarial_impact_reviewer"
+  ],
+  "agent_conditions": [
+    "C0_no_layer_labels",
+    "C1_layer_labels",
+    "C2_claim_gate",
+    "C3_adversarial_review"
+  ],
+  "gold_labels_required": true,
+  "agent_outputs_required": true,
+  "frontier_claim_status": "not_ready",
+  "next_required_action": "Complete independent annotation inputs, adjudicate gold_labels.csv, then collect agent outputs before scoring."
+}

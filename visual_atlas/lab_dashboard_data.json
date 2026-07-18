@@ -1,0 +1,41 @@
+{
+  "claim_count": 21,
+  "artifact_count": 882,
+  "contradiction_count": 4,
+  "maturity_counts": {
+    "C3": 9,
+    "C2": 5,
+    "C5": 5,
+    "CX": 2
+  },
+  "artifact_counts": {
+    "artifact_dossier": 15,
+    "research": 674,
+    "paper": 135,
+    "experiment": 42,
+    "atlas": 7,
+    "emitter": 9
+  },
+  "top_paths": [
+    "artifacts/nwagu_aneke/azuonye_1992_audit.md",
+    "artifacts/nwagu_aneke/base_count_audit.md",
+    "artifacts/nwagu_aneke/README.md",
+    "artifacts/nwagu_aneke/source_inventory.md",
+    "artifacts/nwagu_aneke/symbol_inventory.jsonl",
+    "artifacts/nwagu_aneke/symbol_inventory.schema.json",
+    "artifacts/nwagu_aneke/transcription_uncertainties.md",
+    "artifacts/nwagu_aneke/structural_models/base_modifier.md",
+    "artifacts/nwagu_aneke/structural_models/compression_codebook.md",
+    "artifacts/nwagu_aneke/structural_models/reader_mark.md",
+    "artifacts/nwagu_aneke/structural_models/ritual_authority.md",
+    "artifacts/nwagu_aneke/structural_models/syllabary_grid.md",
+    "artifacts/nwagu_aneke/structural_models/unknown_model.md",
+    "artifacts/nwagu_aneke/structural_models/visual_algebra.md",
+    "artifacts/nwagu_aneke/visual_atlas/README.md",
+    "research/AGENTS.md",
+    "research/CHIEF_OF_STAFF.md",
+    "research/CITATION_POLICY.md",
+    "research/EVIDENCE_POLICY.md",
+    "research/HARNESS_AUDIT.md"
+  ]
+}

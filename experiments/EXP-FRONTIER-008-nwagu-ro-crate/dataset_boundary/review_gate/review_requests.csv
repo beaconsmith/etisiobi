@@ -1,0 +1,6 @@
+role_id,request_status,review_packet,required_output,may_agent_approve,focus
+rights_authority_reviewer,pending_human_review,experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/,PASS_OR_REJECT_OR_REVISE_WITH_BLOCKERS,no,rights and license boundary
+community_authority_reviewer,pending_human_review,experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/,PASS_OR_REJECT_OR_REVISE_WITH_BLOCKERS,no,cultural authority and display/training boundary
+source_dossier_reviewer,pending_human_review,experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/,PASS_OR_REJECT_OR_REVISE_WITH_BLOCKERS,no,source layer and raw-source exclusion boundary
+preservation_infrastructure_reviewer,pending_human_review,experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/,PASS_OR_REJECT_OR_REVISE_WITH_BLOCKERS,no,DataLad/archive-readiness boundary
+data_protection_reviewer,pending_human_review,experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/,PASS_OR_REJECT_OR_REVISE_WITH_BLOCKERS,no,privacy and human-response boundary

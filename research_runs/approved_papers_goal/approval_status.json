@@ -1,0 +1,109 @@
+{
+  "status": "APPROVED_PAPERS_GOAL_MET",
+  "target": 10,
+  "approved_count": 10,
+  "approved_articles": [
+    "ARTICLE-NA-001",
+    "ARTICLE-NA-002",
+    "ARTICLE-NA-003",
+    "ARTICLE-NA-004",
+    "ARTICLE-NA-005",
+    "ARTICLE-NA-006",
+    "ARTICLE-NA-007",
+    "ARTICLE-NA-008",
+    "ARTICLE-NA-009",
+    "ARTICLE-NA-010"
+  ],
+  "articles": [
+    {
+      "article_id": "ARTICLE-NA-001",
+      "slug": "001-source-critical-reconstruction",
+      "approved": true,
+      "blockers": [],
+      "word_count": 5070,
+      "unique_citations": 25,
+      "approval_status": "APPROVED_INTERNAL_RESEARCH_PAPER"
+    },
+    {
+      "article_id": "ARTICLE-NA-002",
+      "slug": "002-count-layer-drift",
+      "approved": true,
+      "blockers": [],
+      "word_count": 5248,
+      "unique_citations": 26,
+      "approval_status": "APPROVED_INTERNAL_RESEARCH_PAPER"
+    },
+    {
+      "article_id": "ARTICLE-NA-003",
+      "slug": "003-f-v-hinge",
+      "approved": true,
+      "blockers": [],
+      "word_count": 5104,
+      "unique_citations": 25,
+      "approval_status": "APPROVED_INTERNAL_RESEARCH_PAPER"
+    },
+    {
+      "article_id": "ARTICLE-NA-004",
+      "slug": "004-logographs-in-a-syllabary",
+      "approved": true,
+      "blockers": [],
+      "word_count": 5098,
+      "unique_citations": 25,
+      "approval_status": "APPROVED_INTERNAL_RESEARCH_PAPER"
+    },
+    {
+      "article_id": "ARTICLE-NA-005",
+      "slug": "005-tei-iiif-critical-edition",
+      "approved": true,
+      "blockers": [],
+      "word_count": 5082,
+      "unique_citations": 25,
+      "approval_status": "APPROVED_INTERNAL_RESEARCH_PAPER"
+    },
+    {
+      "article_id": "ARTICLE-NA-006",
+      "slug": "006-unicode-readiness",
+      "approved": true,
+      "blockers": [],
+      "word_count": 5002,
+      "unique_citations": 26,
+      "approval_status": "APPROVED_INTERNAL_RESEARCH_PAPER"
+    },
+    {
+      "article_id": "ARTICLE-NA-007",
+      "slug": "007-manuscript-corpus-provenance",
+      "approved": true,
+      "blockers": [],
+      "word_count": 4624,
+      "unique_citations": 20,
+      "approval_status": "APPROVED_INTERNAL_RESEARCH_PAPER"
+    },
+    {
+      "article_id": "ARTICLE-NA-008",
+      "slug": "008-comparative-standardization",
+      "approved": true,
+      "blockers": [],
+      "word_count": 5348,
+      "unique_citations": 25,
+      "approval_status": "APPROVED_INTERNAL_RESEARCH_PAPER"
+    },
+    {
+      "article_id": "ARTICLE-NA-009",
+      "slug": "009-igbo-tokenization",
+      "approved": true,
+      "blockers": [],
+      "word_count": 5299,
+      "unique_citations": 26,
+      "approval_status": "APPROVED_INTERNAL_RESEARCH_PAPER"
+    },
+    {
+      "article_id": "ARTICLE-NA-010",
+      "slug": "010-layer-safe-generative-design",
+      "approved": true,
+      "blockers": [],
+      "word_count": 5058,
+      "unique_citations": 25,
+      "approval_status": "APPROVED_INTERNAL_RESEARCH_PAPER"
+    }
+  ]
+}

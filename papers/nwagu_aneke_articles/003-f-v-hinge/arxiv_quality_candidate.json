@@ -1,0 +1,28 @@
+{
+  "article_id": "ARTICLE-NA-003",
+  "status": "STRUCTURAL_ARXIV_QUALITY_PASS_NOT_SUBMISSION_READY",
+  "candidate": false,
+  "reason": "The repository arXiv-quality validator passes for Article 003, but human source review, rights/submission clearance, and adversarial journal review remain open, so this is not an external submission candidate.",
+  "field_facing_result": "A formal derived-layer audit shows that the f/v split permits 27 x 8 = 216 only as a labeled transformation from the source-observed 26 x 8 = 208 foundation.",
+  "positive_evidence": [
+    "experiments/EXP-NA-003-f-v-hinge-audit/results.json",
+    "experiments/EXP-NA-003-f-v-hinge-audit/data/fv_hinge_records.csv",
+    "experiments/EXP-NA-003-f-v-hinge-audit/data/fv_hinge_records.jsonl",
+    "experiments/EXP-NA-003/results.json",
+    "papers/nwagu_aneke_articles/003-f-v-hinge/article_specific_experiment.md",
+    "papers/nwagu_aneke_articles/003-f-v-hinge/external_prior_art_audit.md",
+    "papers/nwagu_aneke_articles/003-f-v-hinge/figures_tables_manifest.json",
+    "papers/nwagu_aneke_articles/003-f-v-hinge/reviewer2_response_plan.md"
+  ],
+  "blocking_evidence": [
+    "papers/nwagu_aneke_articles/003-f-v-hinge/human_source_review.md",
+    "papers/nwagu_aneke_articles/003-f-v-hinge/rights_submission_clearance.md"
+  ],
+  "next_actions": [
+    "Attach human source review.",
+    "Attach rights and public-submission clearance.",
+    "Complete deeper prior-art comparison to source-critical orthographic modeling and African script standardization.",
+    "Run adversarial journal review against the revised f/v hinge argument.",
+    "Rerun python scripts\\validate_arxiv_quality_gate.py."
+  ]
+}

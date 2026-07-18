@@ -1,0 +1,38 @@
+{
+  "experiment_id": "EXP-FRONTIER-009",
+  "title": "MLAgentBench-style keep/reject loop design for LPE and glyph tasks",
+  "atlas_id": "ATLAS-0052",
+  "status": "MLAGENTBENCH_KEEP_REJECT_DESIGN_READY_NO_AGENT_RUN",
+  "created": "2026-06-23",
+  "updated": "2026-06-23T03:01:31+01:00",
+  "claim_ceiling": "agent_evaluation_design_not_research_result",
+  "primary_sources": [
+    "https://arxiv.org/abs/2310.03302",
+    "https://github.com/snap-stanford/MLAgentBench"
+  ],
+  "local_inputs": [
+    "instruments/lpe_bench/manifest.json",
+    "research/frontier/nwagu_aneke/claim_layer_fixtures.jsonl",
+    "experiments/EXP-FRONTIER-002-layer-promotion-expanded/data/lpe_cases.jsonl"
+  ],
+  "external_actions_taken": [],
+  "dependencies_installed": false,
+  "agents_run": false,
+  "model_or_api_run": false,
+  "private_data_downloaded": false,
+  "task_card_count": 4,
+  "decision_labels": [
+    "keep_for_review",
+    "revise_before_run",
+    "reject_as_overclaim",
+    "blocked_missing_authority"
+  ],
+  "blocking_gates": [
+    "human/domain review of task cards",
+    "explicit agent-run approval",
+    "model/API key approval",
+    "no private or restricted source data",
+    "claim ceiling accepted"
+  ],
+  "exact_next_action": "Review the four task cards for source-layer and rights/authority safety; do not run agents until explicit approval and human/domain review are recorded."
+}

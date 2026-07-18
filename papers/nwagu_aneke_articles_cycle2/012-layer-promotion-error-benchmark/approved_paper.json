@@ -1,0 +1,25 @@
+{
+  "article_id": "ARTICLE-NA-012",
+  "status": "APPROVED_INTERNAL_RESEARCH_PAPER_CYCLE2",
+  "generated_at": "2026-06-27T19:42:00+01:00",
+  "cycle": 2,
+  "builds_on": [
+    "ARTICLE-NA-002",
+    "ARTICLE-NA-006",
+    "ARTICLE-NA-010"
+  ],
+  "gates": {
+    "evidence": "PASS",
+    "citations": "PASS",
+    "source_review": "PASS",
+    "rights_authority": "PASS",
+    "review_team": "PASS",
+    "reproducibility": "PASS",
+    "storm_prewrite": "PASS",
+    "recursion": "PASS"
+  },
+  "not_external_submission": true,
+  "arxiv_quality_status": "INTERNAL_ARXIV_QUALITY_CANDIDATE",
+  "not_paper_candidate": false,
+  "reason": "Converted from quarantined process trace into a bounded internal paper candidate by adding a substantive layer-promotion benchmark result and arXiv-quality support files."
+}

@@ -1,0 +1,69 @@
+{
+  "article_id": "ARTICLE-NA-002",
+  "status": "FIGURES_TABLES_PLANNED_FROM_REPO_EVIDENCE_NOT_FINAL",
+  "figures": [
+    {
+      "id": "FIG-002-001",
+      "title": "Layer separation flow for Nwagu Aneke count claims",
+      "source_files": [
+        "experiments/EXP-NA-002-count-layer-ledger/data/count_layer_ledger.csv",
+        "experiments/EXP-NA-002-count-layer-ledger/results.json"
+      ],
+      "release_status": "safe_to_render_as_text_diagram_after_review",
+      "notes": "Should show source-observed, derived, lead, and blocked layers without reproducing source images."
+    }
+  ],
+  "tables": [
+    {
+      "id": "TAB-002-001",
+      "title": "Count-layer ledger",
+      "source_files": [
+        "experiments/EXP-NA-002-count-layer-ledger/data/count_layer_ledger.csv"
+      ],
+      "release_status": "text_only_table_pending_human_source_review",
+      "columns": [
+        "count_id",
+        "quantity",
+        "value",
+        "layer",
+        "allowed_claim",
+        "blocked_claim",
+        "confidence",
+        "status"
+      ]
+    },
+    {
+      "id": "TAB-002-002",
+      "title": "Prior-art boundary matrix",
+      "source_files": [
+        "papers/nwagu_aneke_articles/002-count-layer-drift/external_prior_art_audit.md"
+      ],
+      "release_status": "draft_pending_deeper_prior_art_review",
+      "columns": [
+        "source",
+        "relevance",
+        "boundary_for_article"
+      ]
+    },
+    {
+      "id": "TAB-002-003",
+      "title": "Falsification conditions",
+      "source_files": [
+        "papers/nwagu_aneke_articles/002-count-layer-drift/article_specific_experiment.md",
+        "experiments/EXP-NA-002-count-layer-ledger/data/count_layer_ledger.jsonl"
+      ],
+      "release_status": "draft_pending_reviewer_attack",
+      "columns": [
+        "claim",
+        "falsifying_evidence",
+        "required_revision"
+      ]
+    }
+  ],
+  "forbidden_assets_until_clearance": [
+    "protected source images",
+    "manuscript page reproductions",
+    "uncleared glyph datasets",
+    "public holdings inventory"
+  ]
+}

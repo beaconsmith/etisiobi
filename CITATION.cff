@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use Etisiobi, cite the repository and the specific emitted artifact."
+title: "Etisiobi: Artifact-First Evidence-Gated Research Lab OS"
+version: "2026-05-28"
+date-released: "2026-05-28"
+authors:
+  - name: "The Beaconsmith Collective"
+repository-code: "https://github.com/beaconsmith/etisiobi"

@@ -1,0 +1,639 @@
+University of Massachusetts Boston
+ScholarWorks at UMass Boston
+
+Africana Studies Faculty Publication Series                                                      Africana Studies
+
+
+1-1992
+
+
+The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials
+as a Medium of Alternative Literacy in African Languages
+Chukwuma Azuonye
+University of Massachusetts Boston, chukwuma.azuonye@umb.edu
+
+
+
+
+If you have a disability and have trouble accessing this content, please report the issue!
+
+
+Recommended Citation
+Azuonye, Chukwuma, "The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials as a Medium of
+Alternative Literacy in African Languages" (1992). Africana Studies Faculty Publication Series. 13.
+https://scholarworks.umb.edu/africana_faculty_pubs/13
+
+
+This Article is brought to you for free and open access by the Africana Studies at ScholarWorks at UMass Boston. It
+has been accepted for inclusion in Africana Studies Faculty Publication Series by an authorized administrator of
+ScholarWorks at UMass Boston. For more information, please contact scholarworks@umb.edu,
+Lydia.BurrageGoodwin@umb.edu.
+ The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials
+    as a Medium of Alternative Literacy in African Languages1
+                                                       By
+
+                                         Chukwuma Azuonye
+                                     Professor of African Literature
+                                  University of Massachusetts at Boston
+                                         Boston, Massachusetts
+
+Introduction
+   Since the middle of the 19th century, there have been numerous reports of the creation or,
+more probably, the (re)-discovery of various types of indigenous writing in some parts of West
+Africa by men commonly regarded as illiterate in the post-colonial situation in which literacy is
+measured exclusively in terms of proficiency in either the Arabic or the Roman script—the two
+systems of writing imposed on Africa through colonialism.2 This extremely narrow colonialist
+yardstick further limits the conditions of literacy by insisting on defining it in terms of ability to
+read and write the colonial languages. Thus, even today, in many African countries, millions of
+ordinary rural and urban folk who can read and write their own indigenous languages, in the
+Roman and Arabic scripts, are not officially reckoned as literate in statistics published by various
+national governments and international organizations such as the UNESCO. In general, the
+various forms of indigenous writing noticed so far in West Africa, seem to have (re-)emerged as
+modes of ultra-nationalist reaction against the dominance of the colonial scripts and languages
+and what their purveyors see as the alien and alienating systems of knowledge transmitted
+through them into the African mind. Invariably claiming supernatural inspiration, the chief
+exponents of each script is reported as setting out, not to complete the tripod of what Ali Mazrui
+(1986) calls the "triple heritage" of indigenous, Arabic and Western cultural values in Africa, but
+to assert the autonomy, purity, strength and superiority of traditional African values against the
+claims of the values arising from the colonial experience.
+   The present paper is a study of the origins, features and significance of one of the thirty or so
+indigenous systems of writing which (re-)emerged during the colonial period as a medium for
+challenging alien cultural values and for the re-assertion of the superiority of African spiritual
+and moral traditions and of the thought-patterns which lie behind them. I have in earlier papers
+focused attention almost exclusively on these radically revisionist views of the allegedly
+damaging legacy of colonialism purveyed though this remarkable script and its literature by the
+
+1. This paper was originally delivered as a lecture at the Literacy Speaker Series of the National Center for Adult
+Literacy/The Literacy Research Center, University of Pennsylvania, Philadelphia, Pennsylvania, May 13, 1992, and
+at the Adult Literacy Training Workshop, also organized by the National Center for Adult Literacy Center,
+University of Pennsylvania, Philadelphia, June 15-26, 1992. It was subsequently presented at the Healey Library,
+University of Massachusetts at Boston, under the auspices of the William Monroe Trotter Institute Forum Series
+1992/1993, on Wednesday, December 9, 1992. A revised version was also presented and enthusiastically discussed
+at the Xth Annual Conference on African Linguistics at the Ohio State University, Columbus, OH. The present
+version benefits from the critical comments and suggestions received from professional colleagues at the above
+presentations.
+2. See: Wilson and Wynkoop, 1834; Koelle, 1849
+      Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials                   2
+
+
+man who claimed to have invented it—a one-time prosperous land-owner and diviner, the late
+Ogbuevi Nwagu Aneke of the village of Umuleri in the Anambra Local Government Area of
+Anambra State of South-Eastern Nigeria. The present paper will focus on the mechanics of the
+script itself, and I shall be reflecting at large on one of the numerous potential values of studying
+it, namely the possibilities and problems of developing it as a medium for alternative literacy in
+African languages. I shall be reflecting on these matters as the Director of a project—the Nwagu
+Aneke Research Project3—which is committed to documenting and studying the Nwagu Aneke
+script from a wide range of disciplinary perspectives—linguistic, literary, historiographic,
+philosophical, educational, and so forth. I speak both for myself and for other members of the
+Nwagu Aneke Research team on the main directions of our research and my purpose is to try as
+best as I can to elicit wider scholarly discourse on the script.
+    The challenge of developing the script as a medium of "alternative literacy" figures
+prominently in the statement of the objectives of our research team. But what do we mean by
+"alternative literacy"? For us, "alternative literacy", by analogy to "alternative medicine", refers
+to all activities and processes of reading and writing which can profitably exist in complementary
+relationship with the official literacy media in a given social environment. Also, by analogy to
+alternative medicine, such activities and processes of reading and writing deserve official
+recognition and promotion if and where it is clearly demonstrable that they can reach the masses,
+especially at the rural grassroots, with relatively greater ease than the mainline systems. The
+question before us in this presentation is: Can the Nwagu Aneke script function effectively as
+such an alternative medium of literacy not only in Igbo, its base language, but in a wider range of
+indigenous African languages, especially those in the Niger-Congo family?
+
+The Origins of the Nwagu Aneke Script
+    On the eve of Nigeria's independence in 1960, Ogbuevi Nwagu Aneke, who was well-known
+in his village as an unlettered but highly successful land owner and diviner (dibịa afa) suddenly
+announced to his bewildered and amused townsmen that he had been taught how to read and
+write by spirits (ndị mmụọ). Like Coleridge's ancient mariner, he carried the story of his
+transformation from stark illiteracy to literacy to anyone who cared to listen. A few were
+impressed by the quaint characters which he poured out daily on cheap exercise books and called
+it an "Igbo shorthand"; but, as the great majority of his kinsmen watched him neglect his rights,
+privileges and responsibilities as a titled medicine man and head of his extended family,
+succumbing to poverty as he ignored the seizure of his property by land-grabbing neighbors
+while he devoted hours on end everyday writing, they concluded that he had either run stark mad
+or turned into a capricious fool. But Nwagu Aneke persisted in his story of spiritual revelation
+and the burden of a message for the salvation of the black man which the spirits had placed upon
+his head.
+
+
+
+3. The project, which was initiated by the late Professor Donatus Nwoga at the Institute of African Studies,
+University of Nigeria, Nsukka (Nwagu Aneke Research Project, 1990), is currently relocated in the Department of
+Africana Studies at the University of Massachusetts, Boston, USA
+     Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials                3
+
+
+   Now, this is his story. One night, when he went to bed, he was visited by strange beings who
+he later identified, as they persisted in visiting him night after night, as the spirits of his
+ancestors. According to Nwagu Aneke, these spirits asked him to go to the shrine of the earth
+goddess, Ajaana, at the holy village of Nneyi to perform certain rites of purification in view of
+the filthy life he had lead in the past, for he had been selected for a great mission on earth. One
+market week (izu) after this purification, the spirits returned. According to Nwagu Aneke, in one
+of his early books, dating back to the early nineteen-sixties:
+
+   [The spirits] told me that I would acquire the knowledge of reading and writing. They said that the
+   work I had to do in the world were enormous, that the actions I would have to perform in the
+   world were extensive. They said that it was not work that could be done from the memory that I
+   had come to do, that the messages I had to deliver were not messages that could be carried fully in
+   the memory, that the actions I had to take were not actions that could be borne in memory,
+   otherwise, the people who now live on earth would say that I had run mad. So, it was necessary
+   that I should obtain the knowledge of reading and writing.
+
+   Ironically, the eventual sudden acquisition of the knowledge of reading and writing, which
+purportedly followed this spiritual revelation, turned Nwagu Aneke into a lunatic in the eyes of
+his people. Struck down, as he says, by Agwụ, the Igbo god of madness and creativity, he roamed
+the forests like a wild animal, for weeks on end, gathering the leaves of trees. According to him,
+the leaves even spoke to him as he approached them, like objects in Alice in Wonderland, urging
+him to pluck them, and as he despaired, a certain bird was quick at hand to spur him on, crowing
+like a cock:
+
+   Gbadokwa ume ooooo!
+   Gbadokwa ume ooooo!
+   [Hold up your breath ooooo!
+   Hold up your breath ooooo!]
+
+   On returning home with sacks of the leaves of the trees, he claims that, as he copied the marks
+on leaf after leaf, spurred on by the spirits, each mark became associated with a distinctive
+sound, each of which, within the analytical framework of modern linguistics, can be said to
+represent a syllable. In this way, claims Nwagu Aneke, he succeeded, after some years of
+continuous and excruciating labor, in developing a complete syllabary for the writing of his
+native Umuleri dialect of Igbo, without ever stepping into a classroom. This syllabary is
+contained in the chart and the alphabetical list of characters presented in Appendix I and II
+respectively.
+   Needless to say, Nwagu Aneke's story has a familiar ring with echoes in many situations
+associated especially with the birth of religion across the world and across the centuries. We are
+reminded in particular of Prophet Mohammed and his message of Islam. Like the message of
+Islam, the message of Nwagu Aneke is a radical restatement of traditional values against what
+the inspired receptor of supernatural revelation regards as alien and alienating orthodoxy. In the
+100 or so extant exercise books filled with his messages, Nwagu Aneke restates the vitality of a
+     Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials            4
+
+
+triad of God, elemental deities and spirits who govern the world and control the interaction that
+should exist between human beings and these forces as well as other human beings and other
+creations against what he sees as the antithetical religion of Christianity and the spiritual nullity
+of Western civilization. These forcefully rendered arguments for a radical return to the roots of a
+truly indigenous African system of values and thought-patterns run through Nwagu Aneke's
+daily diaries, his comments on the events of the day and his other writings. These are currently
+being transcribed into the Roman alphabet, translated and edited by members of the Nwagu
+Aneke Research Team for critical study as literature, philosophy and social commentary.
+    Let us now proceed to the issue at hand - the features of the script itself and its potentials as a
+medium of alternative literacy in indigenous African languages. We need no apologia for this
+exercise. The script exists, and unlike the systems which have established themselves in Africa
+as legacies of Arab and European colonialism, it is a local manifestation of a wider West Africa
+phenomenon which has grown out of purely indigenous resources. If we must be as circumspect
+as we should be in planning mass literacy programs for Africa, indigenous resources of this kind
+need to be thoroughly examined for any alternative insights which they may provide, for what
+Nwagu Aneke describes as visitation by spirit beings may be nothing other than an expression, in
+terms of the traditional Igbo world view, of what in the rational philosophy of the West would
+simply be described as either pure inspiration or the fetishization of the power of reading and
+writing.
+
+The Features of the Nwagu Aneke Script
+   As should be clear by now, the Nwagu Aneke script is essentially a syllabic form of writing. It
+belongs to the phase in the evolution of writing systems at which various conventional characters
+are used to represent the syllables of a language (see Appendix 1 for the syllabary of the Nwagu
+Aneke script). However, as in all writing systems, including the Roman and Arabic scripts, a few
+logographs (characters representing complete words or morphemes) subsist in the system. These
+logographs which are contained in the box in Appendix I, may well be of some special interest in
+view of the world view and philosophy promoted through the medium of the script; but we are
+yet to fully understand their significance.
+   Respectively preceding and following the syllabic phase in the evolution of writing systems
+are the pictographic and ideographic phases, on the one hand, and the phonetic or alphabetic
+phase, on the other hand, the latter being the phase to which alphabets of the kind found in the
+Arabic and the Roman scripts belong. All these phases, which are not necessarily in strict
+chronological-evolutionary sequence, have manifested themselves in various parts of West
+Africa where more than thirty different types of indigenous writing systems are known to exist,
+and the Nwagu Aneke system is clearly part of this wider West African phenomenon.
+   Pictographic writing seems to have evolved from the rock art and symbolic markings on
+surfaces and bodies by early man. It is a form of writing in which man made use of simple
+pictures to represent his experiences. Thus, for example, a stylized picture of the sun [ O ] would
+be understood as representing the sun while such a picture of a person [ ^ ] would be understood
+as representing a man or a woman. A string of such pictures could be used to tell a story as in
+many early scripts. There are traces of picture-writing in Nsibidi—the writing system employed
+     Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials          5
+
+
+by the Igbo, Ibibio, Efik and Ekoi peoples of the Cross River Area of south-eastern Nigeria in
+pre-colonial times for various documentary, cultic, erotic and other expressive purposes (see
+Maxwell, 1905; MacGreggor, 1909; Dayrell, 1910 and 1911; Talbot, 1912; Jeffreys, 1934; and
+Kalu, 1982). Nsibidi is however not exclusively pictographic. It contains elements of the
+ideographic system of writing, showing that it probably belongs to the transitional stage between
+pictographic and ideographic writing. Thus, in Nsibidi, while the stylized characters [ ) ] and [ (
+] are used pictographically in isolation to represent man and woman respectively, they are also
+used ideographically, in various combinations, to represent various ideas connected with man-
+woman relationships. For example, the figure of a man and a woman backing one another with a
+line (pillow?) between them [ )I( ] represents a quarrel between husband and wife while marital
+love is represented by the figure of a man and a woman locked into one another [ () ]. Such ideas
+can be intensified by the addition of one or more strokes. For example, violent marital discord is
+indicated by strokes suggestive of sparks of fire from the discord, thus:
+
+
+In a few characters, such as the one for a prostitute [       ], we can see a clear link between
+pictographic and ideographic representation. The wide open legs of the whore is unmistakable in
+this strikingly pictographic ideograph. The provenance of such ideographs may be traced back to
+age-old decorative and symbolic markings on human bodies such as the Igbo uli (see Willis,
+1987) and mnemonic markings on other objects and surfaces such as the yam-marks of the
+Western Igbo (see Thomas, 1913, III:183). Other possible sources are the more elaborate forms
+of graphic symbolism associated with magical and religious rituals in most West African
+societies which have been discussed in some detail in Dalby (1968).
+   The Nwagu Aneke script has been erroneously described by the Nigerian press as Nsibidi, and
+Nwagu Aneke himself tended to accept this erroneous description in one of his books entitled
+The Spirits Implore Me to Record All They Have Taught Me (D13); but, as has been noted above,
+the script belongs to a different system and phase in the evolution of writing. It is syllabic, with
+the basic CV syllables of Nwagu Aneke's Umuleri dialect of Igbo represented by the characters
+presented in Appendix I. But this syllabary, like the syllabary of ancient Hebrew and many other
+ancient scripts, does not have characters for vowels per se. Consequently, it does not have any
+place for V syllables. This means that a number of words in the language which contain syllabic
+vowels cannot be fully represented in the script. For example, the common name, Obioma [O-bi-
+o-ma] which contains two V syllable [O] and [o] can only be realized in the script as bi-ma, thus:
+
+      O    bi    ọ   ma
+
+A new initiate into the script can therefore only read words of this kind by recall or in context
+(see Azuonye, forthcoming). Because of this deficiency, a number of characters are used
+somewhat logographically to represent many different words in different contexts. Thus, the
+character [           ], bi, will not only represent the word O-bi, as in the above example, but also
+u-bi (farm), i-bi (scrotal elephantiasis) and e-bi (porcupine), depending on the context. Similarly,
+     Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials          6
+
+
+
+the character [     ], ma, will represent, in addition to o-ma (beautiful; good), such other words
+as a-ma (village-square), u-ma (character), and the like. The Maseorites solved this kind of
+problem in the ancient Hebrew script in which YAHWEH, for example, was originally written as
+YHWH without vowels, by creating a system of vowel characters for the script. The Nwagu
+Aneke script is yet to be subjected to such a complementation.
+   However, neither Nwagu Aneke nor any of the other exponents of indigenous writing in West
+Africa regards such complementation a necessary refinement. Before his tragic death in an
+automobile accident on June 2, 1991, Nwagu Aneke had been engaged for about three years as a
+Writer-in-Residence in the Division of General Studies at the University of Nigeria, but he spent
+his time writing the numerous messages from the spirits rather than pay attention to such a purely
+mechanical matter although his attention was drawn to it from time to time. Oblivious of any
+deficiencies in the systems believed to have been received directly from God through the
+instrumentality of the ancestral spirits, Nwagu Aneke and his counterparts elsewhere in West
+Africa have been content to promote their scripts as media for alternative literacy counteracting
+the white man's claims to intellectual and cultural superiority by reason of the possession of the
+power of the written word capable of transmitting messages across time and space and providing
+the graphic infrastructure for technological development. Thus, as in the case of the Vai script of
+Liberia (see Wilson and Wynkoop, 1834; Koelle, 1849; and Hair, 1963), Nwagu Aneke claims in
+his books that the gift of writing from the spirits is proof not only that the black man has the
+same technological ability as the white man but that he will take over from where the white man,
+will sooner than later be forced to give way (F24: I Went Round the World).
+
+The Potentials of the Script as a Medium of Alternative Literacy
+   As I have pointed out, the wider implications of the propagation of indigenous writing as a
+medium for alternative literacy in West Africa constitute one of the key concerns of the Nwagu
+Aneke Research Project (1990: 7-8). Many of these concerns are purely psychological. But our
+main concern is with the prospects of establishing more practical uses of script in contemporary
+social communication.
+   Basically psychological is the exciting idea of "a script of our own" which must be used, even
+against the odds as an expression of cultural independence. In the 19th century, this kind of
+cultural nationalist attitude seems to have strongly influenced the great popularity enjoyed by the
+Vai script among the rural population of the Liberian hinterland. As "a script of our own", the
+Vai script served effectively as a medium of indigenous nationalist reaction against the growing
+dominance of Americo-Liberian elements in the national life of what was then a new African
+republic. Everywhere in the countryside, outside Freetown, the true indigenes (tailors, foremen,
+laborers, housewives, market-women, etc) spurned English and the Roman script and insisted on
+acquiring literacy in their own script, the Vai script, which they called to use in all transactions
+of everyday life - fabric measurement, recording lists of workers and their wages, market lists,
+and for personal correspondence and the keeping of family and private personal records (See
+Koelle (1849). This trend has continued to a large degree till today with very startling results for
+alternative adult literacy in rural Liberia. Thus, Carraher (1987: 103) observes, quoting statistical
+     Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials              7
+
+
+evidence from Scribner and Cole (1978), that, as recently as the middle of the 1980"s and
+"Despite competition with English and Arabic, 20-25% of adult males were literate in Vai,
+although Vai script was taught outside of formal schooling." Carraher's explanation for this
+phenomenon is that "Since Vai literacy is acquired under informal conditions of instruction, it is
+most likely that what favors the acquisition of Vai literacy is the meaning it has for those who
+learn it." Apart from the use of the script to protect business and personal records from the
+outsider, including the government (which is still regarded in most African countries as inimical
+to the interests of the individual), "the meaning" which Vai literacy holds for rural Liberians is
+purely cultural nationalistic. Thus, as Ofri-Scheps (1990: 36) observes,
+
+   the indigenous population is disinclined to acquire literacy in an African language by means of a
+   non-endogenously developed writing, e.g. using the Roman or Arabic alphabets (Emphasis
+   added).
+
+Such a cultural nationalist impulse may well lie behind the much-vaunted secrecy of the use of
+the older pictographic-ideographic system, Nsibidi, in south-eastern Nigeria where, as the
+literature repeatedly tells us, there was always a great deal of reluctance on the part of its
+purveyors to admit the white man into the secrets of its codes (see MacGreggor, 1909; Talbot,
+1912; and Dayrell, I910 and 1911).
+    But beyond these cultural nationalist arguments, lie a number of practical and pedagogical
+questions regarding the value of the indigenous scripts as a media for alternative literacy in
+African Languages, and these constitute the central concern in this paper.
+    As a syllabary, the Nwagu Aneke script, as we have noted, occupies a stage in the evolution
+of writing traditionally located by linguists "between phoneticized pictographic and alphabetic
+systems". Part of the rationale for setting up the Nwagu Aneke Research Project is the
+assumption that, "the more we understand the provenance, nature and other aspects of the script,
+the more we can understand certain aspects of the evolution of writing systems on which there is
+doubt, debate or paucity of evidence." Working, as have done until his death in 1991, with a
+living innovator of this type of script, we have been able to amass valuable textual and
+autobiographical data that must be of value to future students of the phenomenon of writing. In
+addition, as we have argued in our research project proposal, "the Nwagu Aneke script promises
+to contribute excellent data for the study of the rudiments of visual communication and for the
+investigation of certain aspects of the interface between literacy and orality". Such a study could
+be highly useful in planning adult literacy programs, especially in view of Nwagu Aneke's
+sudden and traumatic transformation from the oral-aural to the visual-graphic mode of
+communication.
+    If there are any doubts about the serious attention which our team is giving to the Nwagu
+Aneke phenomenon, it seems necessary to face the question of Nwagu Aneke's choice of the
+syllabic medium rather than the well-established alphabetic medium actively in use in schools,
+churches, offices, business establishments and elsewhere all around him. Why would the
+powerful voices or impulses from the past direct him, not toward the imitation of this actively
+present graphic medium but to something different and apparently distant? Are we faced here
+     Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials                 8
+
+
+with a case of sheer atavism? Or are we beholden to a form of nativism which seems to say: "If
+they have their own script, we must have ours". Or is there something fundamentally different in
+the structure of African and related languages which calls for a form of graphic representation
+which the Roman script is inadequate to offer?
+   In our proposal, we have hypothesized this vital difference and the relativism which naturally
+goes with it. It seems to us that the Nwagu Aneke and similar scripts do indeed represent
+effective counters to "the assumption that alphabetic scripts are based on the most sophisticated
+and accurate analysis of language structure as compared with `earlier' writing systems". In this
+regard, the agenda we have set for ourselves in the study of the script includes two broad fields
+of investigations: "Firstly, an investigation of the status of the script as a syllabary examining
+such issues as: the relations or interconnections of the script with other extant syllabaries; the
+grammatical features of the script with regard to its fidelity to the grammatical rules of Igbo and
+the internal consistency of the script with regard to the correspondence between its graphic
+symbols and the grammatical forms they are intended to represent. Secondly, the implications of
+the adoption of the script for language planning and other forms of social engineering would be
+considered". It is in the later field that we locate the alternative literacy option.
+   Our starting point in pursuing the alternative literacy option is the hypothesis which is
+currently beginning to be widely accepted in the scholarship of literacy that unlettered adults find
+it easier to acquire literacy through a syllabary than through an alphabet. Stubbs (1980: 80)
+invokes this hypothesis in his study of the conflict between Eskimo literacy in the Eskimo
+syllabary introduced in 1878 and in the Roman script introduced much later in 1953 and notes
+that the "syllabary is...easier to learn" on the linguistic grounds that, for literacy purposes, "a
+syllabary is preferable for those languages with a suitable phonological structure." But this fact
+notwithstanding, literacy in the Eskimo syllabary is rapidly declining. Stubbs (1980: 82-82)
+explains that, pandering to international politics of literacy which uses economic and
+questionable cultural arguments to exclude alternative to total world domination by entrenched
+Western systems, that,
+
+   although a syllabary is arguably efficient on linguistic and pedagogical grounds, and is widely
+   used and accepted by the Eskimo, it is clearly at odds with the broader socio-economic needs of
+   the Eskimo's place in Canadian society... the use of a Roman alphabet will facilitate their learning
+   to read and write English (or French) and ultimately make it easier for them to find jobs in Canada
+   and the USA. Thus the short-term educational needs of the individual are in conflict with the long-
+   term economic and cultural needs of the individual and the social group. This type of conflict is
+   always most clear-cut when it is between the language system of a small group and an
+   international language such as English.
+
+The political and neo-colonialist tone of this apologia is unmistakable, especially when put side
+by side with another argument justifying the continued use of a syllabary in Japan, an argument
+which can also be made for Eskimo and many African languages. According to Stubbs (1980: 4):
+   In a syllabary, there is ideally one symbol for each is syllable. Japanese uses two syllabaries,
+alongside other writing systems, with less than fifty symbols. The phonological structures of
+     Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials        9
+
+
+Japanese is ideal for such a system since the syllabic structure is very simple. Syllables in
+Japanese have the structure (C)V(N), that is, a vowel preceded optionally by a consonant and
+followed by a nasal /m/, /n/, or /n/, depending on the following sound. No other possibilities
+exist, and therefore Japanese has a very small number of possible syllabic type. A syllabary
+would on the other hand be very uneconomical in English, which allows so many other
+possibilities of syllable type that a syllabary would require hundreds of signs. In modern English,
+there are no syllabic signs in normal use.
+    If there are economic and neo-colonialist arguments for the continued use of the Roman script
+for the teaching of African languages, as in the case of Eskimo, the linguistic-structural
+arguments, illustrated by the example of Japanese, seems to suggest the opposite. The syllabic
+structure of many African languages are even simpler than that of Japanese, and there is no
+reason why the existing African syllabaries, such as the Nwagu Aneke syllabary, cannot be
+rationalized for literacy purposes into systems with fewer characters or symbols than they
+contain in their present crude forms. It is not expected that the syllabaries would displace the
+official Roman and Arabic scripts inherited from the colonial powers. It is difficult to see how
+African governments, which hang tenaciously to their colonial boundaries, can give up such
+precious legacies of colonialism. It is however hoped that, recognizing and capitalizing on their
+pedagogical efficiency, the indigenous scripts can promoted as media for alternative functional
+literacy at the grassroots. The Nwagu Aneke Research Project (1990: 7-8) is interested in
+exploring such possibilities. Confirming the existing pedagogical hypothesis just review, a pilot
+sampling of unlettered Igbo villagers in the Nsukka area by the late Professor Donatus Nwoga,
+originator and first Director of the project, suggests that when presented with visual information
+in the Roman and the Nwagu Aneke scripts, the stark illiterate found it much easier to associate
+sound with graphic forms in the syllabic system than in the alphabetic system. Indeed, the
+"syllable hypothesis" in child language learning (Olson, Torrance and Hildyard, 1985: 224-226),
+whereby the child unscrambles names and counts the syllables as a basis for learning, suggests
+that the syllabary is probably by far the most natural medium of literacy, and this is probably so
+because, as Plato says through Socrates in Theaetetus (202-202; quoted in Goody and Watt,
+1975: 54), "the elements or letters are only objects of perception, and cannot be defined or
+known; but the syllables or combinations of them are known and... apprehended". Nevertheless,
+it is our contention in the Nwagu Aneke Research Team that these possibilities still need to be
+subjected to further rigorous and systematic experimental verification in the field. If such
+systematic field verification confirm our sample observations not only for Igbo but for other
+African languages, the development of the script for the purposes of adult literacy programs
+ought to be pursued with utmost vigor, and this will involve finding solutions to some of the
+limitations of the script for such purposes, notably the absence of vowels, diacritical marks,
+punctuation marks and boundaries of words, sentences and larger syntagmatic units and the
+multiple value of certain characters. But we have the experience of the development of similar
+effects in many other scripts to draw from. And the example of Ofri-Scheps with the Vai script
+(1990: 36) suggests the viability of involving systems engineers in creating or adapting suitable
+software for the script to facilitate the production of reading material in it.
+    Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials           10
+
+
+    It may be argued that the development of alternative literacy in what many would regard as a
+quaint indigenous script cannot be of any real value other than as an expression of nativistic
+romanticism or the fetishization of writing. Furthermore, it may be argued that there is no need to
+complicate further the literacy problem in Africa by the introduction of a second-tier when
+efforts should be devoted to making the various scripts already in use and enjoying official
+patronage to reach the grassroots. But, such an argument can also easily be extended to the
+official recognition accorded alternative or traditional medicine by national governments and
+international organizations such as the World Health Organization. The development of
+alternative literacy in a script that is confirmed through empirical research to be more easily
+accessible to the generality of the illiterate masses need not be seen as either obstructive or
+destructive since such a second-tier of literacy exists in some other countries and does indeed
+exist in parts of Africa like in Northern Nigeria, where the Ajami script provides alternative
+literacy in Hausa, Fulfulde, Kanuri and some minority languages of that highly Islamicized
+region. The kind of alternative literacy which can be developed in the Nwagu Aneke system can
+be effectively exploited in devising communicative strategies for reaching the rural masses with
+vital health care messages, agricultural extension information, environmental protection briefs
+and other kinds of information about social policy designed for them but which have hardly been
+successfully transmitted to them through the Roman script over the decades. Clearly an
+alternative medium seems called for.
+    But, apart from the purely pedagogic and mass communicative aspects of alternative literacy
+is the possibility of developing the script as a form of shorthand for African languages, especially
+in view of the fact that Pitman's shorthand which is currently in vogue in West Africa was
+developed on the phonological system of English and has no provision for a number of sound
+patterns common to many African languages, especially implosives like \kp\, \kw\, \gb\, \gw\.
+\ny\, \nw\, etc. We are informed by Mr Loveday Umezurike, Secretary to the Director of the
+Division of General Studies at the University of Nigeria, Nsukka, and a stenographer attached to
+the Nwagu Aneke Research Project, that, from his knowledge of the Pitman's system, while it is
+founded on the same syllabic principles as the Nwagu Aneke script, the Nwagu Aneke system
+has the advantage of dual advantage of being shorter and covering sounds and sound-patterns in
+Igbo which he always wrote in long hand while taking notes in short hand. He however noted
+that the script is yet to develop a cursive style to enhance the speed of taking notes in it. If these
+claims are verified, the development of a cursive style in the script will take the course of such
+development in other scripts, including the far more cumbersome far eastern scripts.
+    The cultural nationalist implications of these and other practical possibilities seem plain
+enough. Like the other indigenous scripts of West Africa, the Nwagu Aneke script is not just the
+creation of its inspired originator or purveyor in reaction against the dominance of alien
+mentifacts imposed by colonialism; it is, more significantly, probably a rediscovery and
+reactivation of a mode of expression which has been developed without external stimulus in a
+traditional African culture and which seems to possess the potential of serving the present as
+effectively as the forms borrowed from alien sources. But even where their continued use in the
+present cultural situation cannot be assured, the knowledge of their existence seems to be a
+    Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials           11
+
+
+crucial part of the cultural nationalist assertion of a past with parallel intellectual attainments as
+those of the colonizer.
+
+Summary and Conclusions
+    This paper has examined the origins and aspects of the design and message of the Nwagu
+Aneke Igbo Syllabary, one of the major forms of indigenous writing that have (re)-emerged in
+West Africa since colonial times. Both the script and the message which it communicates have
+been shown to be deeply committed and powerful expressions of cultural nationalism which
+strike at the very roots of colonial mentality: spiritual and intellectual servitude. The mission of
+the script and its message is clear: to dismantle all alien and alienating structures superimposed
+on vital African cultural institutions and values by the colonial experience. The texts call for a
+radical return to these African cultural institutions and values, holding them up as superior to,
+and more suited to the African environment than values from the intellectual traditions inherited
+from the colonial powers. Apocalyptic, poetic, revolutionary and generally philosophical, the
+protests cover all aspects of post-colonial life which have been re-directed from the ancestral
+path by the colonial experience.
+    The ancestral message of the Nwagu Aneke and other indigenous scripts is probably belated.
+The ideas they question seem so deeply entrenched that only a grassroots, pan-African revolution
+(probably an impossible proposition in the contemporary African situation) can bring about the
+kind of change they envision. Nevertheless, the message is clearly important as part of the
+ongoing crusade for setting off evolutionary processes toward the decolonization of the African
+mind. And to this enterprise, Nwagu Aneke brings a home-bred intellect, imagination and
+honesty which western-educated crusaders in the same field, like Chinweizu, et al (1983) and
+Ngugi wa Thiong'o (1986), will be hard put to match.
+    The use of an indigenous script features frequently as part of the mission of prophets of new
+national religions or ideologies. Nwagu Aneke uses the script to draw attention to his mission,
+which he sees as the enormous task of revealing the rich spiritual, moral and intellectual
+resources of a pre-colonial African civilization which he considers as one of the greatest in the
+world. The triad of God, spirits and the elemental deities is central to that civilization and is
+promoted as superior to all imported faiths. The intellectual resources of that civilization have
+created a political system based on natural rulership which is far more conducive for peace and
+progress than the divisive and corrupt system inherited from the colonial powers. Nwagu Aneke
+sees his writings as the bridge between the chaotic present and that lost civilization.
+    Studies of literature in the indigenous scripts of West Africa are few and far between. Most of
+the existing studies focus on the Book of Rora in the Vai Script (see Hair, 1963: 48-49; Holsoe,
+1976, and Ofri-Scheps, 1990). Despite references to the large quantity of writings in by King
+Njoya of the Foubam kingdom in Cameroon in the Bamum script (Crawford, 1935: 438; Dugast
+and Jeffreys, 1950; and Schmitt, 1963), there are no extant studies of these writings. The reason
+for the paucity of such studies is probably the inaccessibility or scarcity of literary materials in
+the great majority of the indigenous scripts. The Nwagu Aneke Igbo script is refreshingly
+different. For over thirty years, from the late 1950's to his death in June 1991, Nwagu Aneke
+wrote persistently in the script and left behind over 100 exercise book filled with his vibrant anti-
+    Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials           12
+
+
+colonial messages. With the forthcoming publication of Nwoga's edition of his scriptures and
+with the publication of editions of other "books" produced before and during his tenure as
+Writer-in-Residence at the University of Nigeria, literature in the indigenous script of West
+Africa will no doubt be given more serious attention than they now command, not as cultural
+curios or merely as data for reconstructing aspects of the story of the evolution of writing
+systems, but as works of art and as expressions of the personal philosophies of their authors and
+of the world views and ideologies of the traditional societies and the larger African world to
+which they belong. The Nwagu Aneke corpus will no doubt occupy a central place in such a re-
+ordering of values. But, on a more practical note, as I have been arguing in this paper, it is hoped
+that it will provide a practical medium for alternative literacy in African languages, in "a script of
+our own" which will be assure its own continuity and the continuity of its message. The members
+of the Nwagu Aneke Research Project Team are ready at hand to participate in any wider project
+through which these objectives can be realized. Efforts to persuade the government and
+institutions in Nigeria to acquire the 100 extant manuscripts in the script have been frustrated
+owing to the apparent failure of the authorities to perceive their long-term value for black culture
+and history. The amount of money required for this acquisition is rather small at the moment, but
+as the years go by, we stand the risk of losing the manuscripts altogether or having to acquire
+them (but even then, possibly only fragments of them) at a much more exorbitant price. In the
+circumstances, the Nwagu Aneke Research Team stands ready to explore new avenues of
+support in its efforts to establish the texts in the script as an important corpus for Africana
+studies.
+
+                                          REFERENCES
+
+Achebe, Chinua. 1964. Arrow of God. London: Heinemann (African Writers Series).
+African Repository. 1834. "The Origins of the Vai Syllabary", African Repository, V, August:
+    180.
+Azuonye, Chukwuma. Forthcoming. "The Development of Written Igbo Literature".
+    Groundwork of Igbo History, ed. A.E. Afigbo. Lagos and New York: Nok Publishers.
+    Chapter 26.
+Bennett, J.A.H. and J.W. Berry. 1987. "The Future of Cree Literacy in Northern Canada". In:
+    Daniel Wagner (ed.), The Future of Literacy in a Changing World, Pergamon Press.
+Bloomfield, Leonard. 1935. Language. London: George Allen and Unwin Ltd. Reprinted 1973.
+Carraher, Terezinha Nunes. 1987. "Illiteracy in a Literate Society: Understanding Reading
+    Failure in Brazil". In: Daniel Wagner (ed.), The Future of Literacy in a Changing World,
+    Pergamon Press.
+Chinweizu, Onwuchekwa Jemie and Ihechukwu Madubuike. 1983. Toward the Decolonization
+    of African Literature. Washington, D.C.: Howard University Press.
+Dalby, David. 1967. "A Survey of the Indigenous Scripts of Liberia and Sierra Leone: Vai,
+   Mende, Loma, Kpelle and Bassa". African Language Studies, VIII: 1-51.
+_____. 1968. "The Indigenous Scripts of West Africa an Surinam: Their Inspiration and Design".
+   African Language Studies, IX: 156-197.
+    Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials     13
+
+
+_____. 1969. "Further Indigenous Scripts of West Africa: Manding, Wolof and Fula Alphabet,
+   and Yoruba 'Holy' Writing". African Language Studies, X, 1969: 161-181.
+Dayrell, Elphinstone. 1910. "Some Nsibidi Signs". Man, X (8).
+_____. 1911. "Further Notes on Nsibidi Signs with their Meanings from the Ikom District".
+   Journal of the Royal Anthropological Institute, 41: 521-540.
+Dugast, I and M.D.W.Jeffreys. 1950. L'Ecriture des Bamum. I.F.A.N. (Cameroon).
+Goody, Jack and Ian Watts. 1975. "The Consequences of Literacy". In: Jack Goody (ed.),
+   Literacy in Traditional Societies, Cambridge University Press.
+Hair, P.E.H. 1963. "Notes on the Discovery of the Vai Script with Bibliography". Sierra Leone
+   Language Review, 2: 36-49.
+Holsoe, Svend E. 1976. "An Early Vai Manuscript from Liberia". African Languages/Langues
+   Africaines, 2: 33-57.
+Jeffreys, M.D.W. 1934. "Corrections on Man, 1910, item 67: "Nsibidi Writing'. Man, item 194.
+Kalu, O.U. 1982. "Writing in Pre-Colonial Africa: A Case-Study of Nsibidi". Readings in
+    African Humanities: African Cultural Development, ed. Ogbu U. Kalu. Enugu: Fourth
+    Dimension Publishers. Chapter 6.
+Koelle, S.W. 1849. Narrative of an Expedition into the Vy Country of West Africa, and the
+    Discovery of a System of Syllabic Writing, recently invented by the Natives of the Vy Tribe.
+    London.
+MacGreggor, J.K. 1909. "Some Nsibidi Signs". Journal of the Royal Anthropological Institute,
+    39: 210.
+Mazrui, Ali A. c. 1986. The Africans: A Triple Heritage. Boston: Little, Brown and Company.
+Ngugi wa Thiong'o. 1986. Decolonizing the Mind: The Politics of Language in African
+    Literature. London: James Currey; Portsmouth, N.H.: Little, Brown and Company.
+Nwagu Aneke Research Project. 1990. Nwagu Aneke Research Project Proposal. Nsukka:
+    University of Nigeria.
+_____. 1991. The Passing of a Prophet: Funeral Rites of Ogbuefi Nwagu Aneke, c 1921-1991.
+    Nsukka: University of Nigeria.
+Nwoga, Donatus Ibe. 1984. The Supreme God as Stranger in Igbo Religious Thought.
+    Ekwereazu, Ahiazu, Mbaise: Hawk Press.
+_____. 1987. "The Origins, Form and Significance of the Nwagu Aneke Igbo Script, Part I:
+      Origins". Nsukka Journal of Linguistics and African Languages, 2: 1-21 (in press).
+_____. Forthcoming. Nwagu Aneke: The Scriptures of an African Visionary. Ibadan: Heinemann
+      Educational Publishers.
+Ofri-Scheps, Dorith Minna. 1990. "Using the Vai Language to Promote Literacy in Liberia".
+      Spirit of Enterprise: The 1990 Rolex Awards, ed. David W. Reed. Bern: Buri Druck, AG.
+Olson, David R., Nancy Torrance and Angela Hildyard. 1985. Literacy, Language and Learning:
+    The Nature and Consequences of Reading and Writing. Cambridge University Press.
+Schmitt, A. 1963. Die Bamum-Schrift. 3 Vols. Wiesbaden.
+Stubbs, Michael. 1980. Language and Literacy: The Sociolinguistics Reading and Writing.
+   Routledge and Kegan Paul.
+Talbot, P.A. 1912. In the Shadow of a Bush. London.
+    Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials   14
+
+
+Thomas, Northcote. 1914. Anthropological Report on the Ibo-Speaking People of Nigeria, Part
+  V: Law and Custom. Reprinted Negro Universities Press, New York, 1972.
+Willis, Elizabeth. 1987. "A Lexicon of Igbo Uli Motifs". Nsukka Journal of the Humanities, I
+  (June): 91-122.
+Wilson, J.L. and S.R. Wynkoop. 1834. Reports on the Discovery of the Vai Script in Missionary
+  Herald, 215, 337. Reproduced in O.Bates, ed., Harvard African Studies, 1, 1917: 290-292,
+Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials   15
+Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials   16
+
+
+
+             Appendix 1: The Syllabary of the Nwagu Aneke Script
+             (From The Nwagu Aneke Research Project Proposal, p. 5)
+           Appendix II: Alphabetical List of Nwagu Aneke's Characters
+
+
+
+
+                        (Prepared by Donatus Nwoga, 1991)
+Chukwuma Azuonye / The Nwagu Aneke Igbo Script: Its Origins, Features and Potentials
+                                                                                 17
+

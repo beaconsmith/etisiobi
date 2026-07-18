@@ -1,0 +1,12 @@
+{
+  "goal_id": "GOAL-001",
+  "decision": "COMPLETED_AS_WORKING_ANNOTATION_INDEX",
+  "bmc_records": 208,
+  "unique_rows": 26,
+  "unique_vowels": 8,
+  "records_with_tei_locator": 208,
+  "records_with_iiif_canvas": 208,
+  "records_with_certainty": 208,
+  "records_requiring_human_review": 208,
+  "output": "corpus/base_modifier_cache.jsonl"
+}

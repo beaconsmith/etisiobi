@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-0001",
+  "purpose": "Resolve PAGC base-inventory count using repo-local primary source artifacts.",
+  "status": "completed",
+  "decision": "MULTI_LAYER_COUNT_VALID",
+  "printed_chart_rows": 26,
+  "vowel_columns": 8,
+  "printed_cv_cells": 208,
+  "derived_phonemic_bases_if_fv_split": 27,
+  "derived_cv_slots_if_fv_split": 216,
+  "visible_full_word_symbols": 30,
+  "primary_source_explicit_numeric_count": null,
+  "effect_on_paper": "Forbids source-observed exactly-27, E6, and 216-token positive theory claims; permits a layered correction.",
+  "include_in_phase5_paper": true
+}

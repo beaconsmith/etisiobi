@@ -1,0 +1,361 @@
+case_id,claim_text,source_type,split,pilot_promotion_error,pilot_severity,pilot_label_status
+LPE3-0001,"They contain bounded audits and experiments, but they remain too shallow for global submission standards because article-specific prior art, rights, cultural/source authority, domain review, and manuscript depth remain open.",real_agent_output,test,no,none,synthetic_not_human
+LPE3-0002,"The strongest near-term candidates for serious development are Article 2, count-layer drift, and Article 10, layer-safe generative design.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0003,"The present contribution is a source-critical reconstruction ledger, not a completed glyph corpus.",real_agent_output,train,yes,material,synthetic_not_human
+LPE3-0004,"The ledger aligns twelve local evidence rows, thirty-six inventory records, and a 208-record row-vowel index.",real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0005,"The contribution is therefore bounded: it reports a bounded audit, states what can be believed from the current evidence package, and identifies the remaining human review needed before journal submission.",real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0006,"Nwagu Aneke is a rare case where a twentieth-century African writing artifact can support several research programs at once: historical reconstruction, digital editions, script standardization, low-resource NLP, and artifact-derived system design.",real_agent_output,train,yes,material,synthetic_not_human
+LPE3-0007,The risk is that those programs can silently exchange evidentiary layers.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0008,A derived design count can become a historical count; a chart lead can become a corpus claim; a tokenizer hypothesis can become a performance claim.,real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0009,This paper avoids that failure by treating layer labels as part of the result rather than as editorial footnotes.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0010,"The paper's research question is: what can be concluded about digital humanities and writing-system reconstruction from the present Nwagu Aneke evidence package, and what remains blocked?",real_agent_output,test,no,none,synthetic_not_human
+LPE3-0011,"The current article does not claim a completed public glyph corpus, a cleared manuscript dataset, universal compression, exceptional mathematics, or a completed Unicode proposal.",real_agent_output,train,yes,material,synthetic_not_human
+LPE3-0012,It reports the audit described here and uses that result to define a defensible contribution for Digital Scholarship in the Humanities / Digital Humanities Quarterly.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0013,Public status sources describe Nwagu Aneke as an unencoded script and record its relation to African script standardization work .,real_agent_output,test,no,none,synthetic_not_human
+LPE3-0014,"The digital-methods side draws on provenance, research-object packaging, source annotation, and data-governance standards .",real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0015,"For scientific control, the draft follows the claim-verification principle that generated or reconstructed claims must remain attached to evidence rather than to persuasive prose alone .",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0016,"Its contribution is the combination of a source-critical artifact layer, a bounded audit, and a source-evidence boundary that keeps historical, technical, and design claims separate.",real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0017,"Those standards do not by themselves decide whether a count is source-observed, derived, speculative, or blocked for this artifact.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0018,"For digital humanities and writing-system reconstruction, the gap is therefore practical and scholarly: reviewers need to see a result that can be checked without accepting the entire PAGC theory.",real_agent_output,test,no,none,synthetic_not_human
+LPE3-0019,The paper supplies that result by narrowing the claim to the present audit.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0020,"It does not depend on a broad claim that African symbolic systems are universally compressive, mathematically exceptional, or automatically ready for software standardization.",real_agent_output,test,yes,material,synthetic_not_human
+LPE3-0021,"The article should be read as a testable contribution in digital humanities and writing-system reconstruction, not as a progress report about lab infrastructure.",real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0022,"The source-critical base is the Nwagu Aneke dossier, the chart transcription, the symbol inventory, the base-modifier ledger records, the count reconciliation file, and the article-specific audit output.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0023,This distinction is not negotiable inside the experiment because it is the control variable that prevents layer drift.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0024,"The audit treats row labels, vowel columns, base-modifier ledger cells, source locator status, and uncertainty notes as separate units.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0025,"A statement is allowed into the paper only when its layer is explicit: source-observed, derived, secondary, or blocked.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0026,"A claim can be source-observed, derived, externally contextualized, experimentally produced, or blocked.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0027,Blocked claims are not deleted; they are made visible as limitations or future work.,real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0028,This matters because the article is not trying to produce persuasive prose from weak evidence.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0029,"Second, it asks whether the manuscript still exposes unsupported claims, missing evidence, or public-release blockers.",real_agent_output,train,yes,material,synthetic_not_human
+LPE3-0030,"A revision is kept only when it strengthens evidence, removes an overclaim, or makes a blocker clearer without weakening the source boundary.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0031,"First, all source claims inherit the 26-by-8 source ledger unless a later human source review changes it.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0032,"Third, every article must expose the missing evidence that would change the conclusion.",real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0033,This makes the method adversarial: it is designed to reject attractive claims when they are unsupported.,real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0034,"Missing coordinates, task labels, manuscript access, or authority clearance are represented as blockers, not as prose gaps.",real_agent_output,train,yes,material,synthetic_not_human
+LPE3-0035,"The study checked twelve local source files, produced twelve evidence rows, recorded twenty-six row labels and eight vowel columns, and classified all 208 base-modifier ledger entries as human-review-needed rather than reviewed glyph transcriptions.",real_agent_output,test,no,none,synthetic_not_human
+LPE3-0036,"Its value is that it can be reproduced locally and falsified directly: change the source ledger, source review, rights status, or experiment output, and the paper must change.",real_agent_output,dev,yes,material,synthetic_not_human
+LPE3-0037,It fails if a reviewed primary source shows that the current source layer is not 26 by 8.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0038,It fails if the f/v split is shown to be source-observed rather than derived.,real_agent_output,train,yes,material,synthetic_not_human
+LPE3-0039,It fails if a required rights or authority record blocks the public claim being made.,real_agent_output,train,yes,material,synthetic_not_human
+LPE3-0040,"In that sense, the article is intentionally easier to falsify than the earlier speculative PAGC branches.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0041,A journal reviewer does not need to accept broad claims about ancestral compression to evaluate the result.,real_agent_output,test,no,none,synthetic_not_human
+LPE3-0042,"They need only inspect the source ledger, the audit output, and the blocked evidence ledger.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0043,This result is useful because it converts a culturally important but unstable research archive into a reviewable scholarly object.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0044,"The artifact can generate novel applications, but the applications only become research when their claims are typed and tested.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0045,The 26-by-8 source layer is therefore not a limitation on imagination; it is the stable floor that allows derived systems to be explored without falsifying the source record.,real_agent_output,train,yes,material,synthetic_not_human
+LPE3-0046,Revisions must improve against fixed evidence criteria rather than local persuasion.,real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0047,"The current package still needs source transcription review, rights review, cultural/source authority review, and article-specific expert review.",real_agent_output,train,yes,material,synthetic_not_human
+LPE3-0048,Public image reproduction and public manuscript corpus release are not authorized by this article.,real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0049,"The current result is suitable for targeted human review and further research, not automatic public submission.",real_agent_output,test,yes,material,synthetic_not_human
+LPE3-0050,"If later source review contradicts the row inventory, the f/v split, the visible logograph leads, or the annotation status, the article must be revised rather than patched rhetorically.",real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0051,The plausible venue class is Digital Scholarship in the Humanities / Digital Humanities Quarterly.,real_agent_output,test,no,none,synthetic_not_human
+LPE3-0052,"The draft has a reproducible result, but it is not a final submission until field-specific prior art, source transcription review, authority clearance, and expert field review are complete.",real_agent_output,train,yes,material,synthetic_not_human
+LPE3-0053,"The analysis package records the source ledger, derived-layer audit, generated tables, manuscript source, and reproduction scripts.",real_agent_output,train,yes,material,synthetic_not_human
+LPE3-0054,"A public release should include those materials only after source transcription, rights, and authority review.",real_agent_output,train,yes,material,synthetic_not_human
+LPE3-0055,"Until then, the paper can be independently assessed by checking whether each visible claim is typed as source-observed, derived, externally contextualized, or blocked.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0056,"This article contributes a bounded, reproducible result derived from the Nwagu Aneke artifact.",real_agent_output,dev,yes,material,synthetic_not_human
+LPE3-0057,"On that foundation, the article identifies one application or research pathway that can be tested, criticized, and improved without promoting design speculation into source evidence.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0058,Nwagu Aneke count claims become coherent only when source-observed and derived layers are separated.,real_agent_output,test,yes,material,synthetic_not_human
+LPE3-0059,"The paper's research question is: what can be concluded about data quality, symbolic inventory audit, and digital humanities from the present Nwagu Aneke evidence package, and what remains blocked?",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0060,It reports the audit described here and uses that result to define a defensible contribution for Digital Scholarship in the Humanities / scholarly data-quality venues.,real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0061,"For data quality, symbolic inventory audit, and digital humanities, the gap is therefore practical and scholarly: reviewers need to see a result that can be checked without accepting the entire PAGC theory.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0062,"The article should be read as a testable contribution in data quality, symbolic inventory audit, and digital humanities, not as a progress report about lab infrastructure.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0063,"Every count is represented as a tuple: quantity, value, abstraction layer, evidence file, allowed claim, blocked claim, confidence, and status.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0064,This prevents an attractive derived number from becoming a false source observation.,real_agent_output,test,yes,material,synthetic_not_human
+LPE3-0065,The experiment exposes the paper-worthy result: the discovery is not that 27 is wrong or that 26 is final.,real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0066,The discovery is that several useful counts inhabit different evidentiary layers and must be governed by different publication rules.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0067,The plausible venue class is Digital Scholarship in the Humanities / scholarly data-quality venues.,real_agent_output,test,no,none,synthetic_not_human
+LPE3-0068,"The f/v split is a derived operation over the current ledger, not a source-observed row-count result.",real_agent_output,train,yes,material,synthetic_not_human
+LPE3-0069,The f/v audit shows that splitting one observed row produces exactly eight additional derived cells.,real_agent_output,train,yes,material,synthetic_not_human
+LPE3-0070,"The paper's research question is: what can be concluded about orthography, script analysis, and Igbo linguistic review from the present Nwagu Aneke evidence package, and what remains blocked?",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0071,"For orthography, script analysis, and Igbo linguistic review, the gap is therefore practical and scholarly: reviewers need to see a result that can be checked without accepting the entire PAGC theory.",real_agent_output,test,no,none,synthetic_not_human
+LPE3-0072,"The article should be read as a testable contribution in orthography, script analysis, and Igbo linguistic review, not as a progress report about lab infrastructure.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0073,"The experiment compares the printed f/v row against two derived rows, f and v, across the same eight vowel columns.",real_agent_output,dev,yes,material,synthetic_not_human
+LPE3-0074,The output is accepted only as a design and interpretation layer until expert linguistic review supplies examples.,real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0075,The study generated eight f/v records at the source layer and sixteen records after the derived split; the split therefore adds eight records.,real_agent_output,train,yes,material,synthetic_not_human
+LPE3-0076,The hinge interpretation creates useful system-design space while protecting the linguistic claim from overreach.,real_agent_output,test,no,none,synthetic_not_human
+LPE3-0077,"It also gives reviewers a falsification route: if primary evidence later shows separate f and v rows, the source layer changes; if not, the derived label remains mandatory.",real_agent_output,test,yes,material,synthetic_not_human
+LPE3-0078,Whole-word signs must be inventoried separately from CV cells before claims about the Nwagu Aneke logograph layer can be made.,real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0079,"The paper's research question is: what can be concluded about script studies, sign inventory, and lexical-corpus construction from the present Nwagu Aneke evidence package, and what remains blocked?",real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0080,It reports the audit described here and uses that result to define a defensible contribution for Digital Scholarship in the Humanities / script-studies venues.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0081,"For script studies, sign inventory, and lexical-corpus construction, the gap is therefore practical and scholarly: reviewers need to see a result that can be checked without accepting the entire PAGC theory.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0082,"The ledger stores ordinal, word, gloss, semantic domain, source path, and review status.",real_agent_output,test,no,none,synthetic_not_human
+LPE3-0083,"A whole-word sign cannot be counted as a CV cell, and a visible lead cannot be promoted into the reported 100-plus manuscript corpus.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0084,The study extracted thirty logograph leads from the chart transcription and counted their semantic-domain labels.,real_agent_output,test,no,none,synthetic_not_human
+LPE3-0085,The result preserves unknown glosses and marks every item as a visible lead rather than a reviewed glyph record.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0086,It identifies the first bounded object that a reviewer can inspect: a seed lead set for later human transcription and semantic review.,real_agent_output,test,no,none,synthetic_not_human
+LPE3-0087,The plausible venue class is Digital Scholarship in the Humanities / script-studies venues.,real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0088,"Nwagu Aneke can be represented as a staged standards bridge before Unicode encoding, but the current bridge lacks coordinate-level source annotation.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0089,The experiment created ten Web Annotation-style records and ten TEI glyph-declaration leads from base-modifier ledger entries.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0090,"The paper's research question is: what can be concluded about digital editions, cultural heritage infrastructure, and unencoded scripts from the present Nwagu Aneke evidence package, and what remains blocked?",real_agent_output,test,no,none,synthetic_not_human
+LPE3-0091,It reports the audit described here and uses that result to define a defensible contribution for Digital Scholarship in the Humanities / DHQ.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0092,"For digital editions, cultural heritage infrastructure, and unencoded scripts, the gap is therefore practical and scholarly: reviewers need to see a result that can be checked without accepting the entire PAGC theory.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0093,"Each sample maps a base-modifier ledger record to an annotation body, target, TEI locator, certainty value, and review status.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0094,The mapping deliberately records partiality instead of presenting the dossier as compliant final publication data.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0095,The study exported ten base-modifier ledger records into annotation JSON-LD and ten TEI glyph declaration leads.,real_agent_output,test,no,none,synthetic_not_human
+LPE3-0096,"Zero records have reviewed pixel coordinates, so the result is a partial selector layer rather than a complete critical edition.",real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0097,The missing coordinate layer is not a minor detail; it is the next experimental requirement.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0098,The plausible venue class is Digital Scholarship in the Humanities / DHQ.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0099,"The current package supports a Unicode-readiness audit, not a Unicode proposal.",real_agent_output,test,no,none,synthetic_not_human
+LPE3-0100,"The paper's research question is: what can be concluded about script encoding, standardization readiness, and community review from the present Nwagu Aneke evidence package, and what remains blocked?",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0101,It reports the audit described here and uses that result to define a defensible contribution for Unicode proposal track / digital humanities methods venues.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0102,"For script encoding, standardization readiness, and community review, the gap is therefore practical and scholarly: reviewers need to see a result that can be checked without accepting the entire PAGC theory.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0103,"The article should be read as a testable contribution in script encoding, standardization readiness, and community review, not as a progress report about lab infrastructure.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0104,"The matrix compares local source evidence with Unicode status information, ScriptSource status, and proposal-preparation expectations.",real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0105,"It marks script identity as present; repertoire inventory and character-glyph distinction as partial; representative glyphs, usage examples, and community authority as blocked; and encoding model, punctuation, numbers, implementation evidence, and proposal dossier as missing.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0106,It also makes the work actionable: future contributors know exactly which evidence categories must be gathered before an encoding proposal is credible.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0107,The plausible venue class is Unicode proposal track / digital humanities methods venues.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0108,Manuscript provenance and authority review must precede any public corpus claim for Nwagu Aneke.,real_agent_output,train,yes,blocking,synthetic_not_human
+LPE3-0109,"The experiment produced a rights-safe four-record provenance ledger that distinguishes public metadata, internal chart use, catalogue leads, and the blocked reported manuscript corpus.",real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0110,"The paper's research question is: what can be concluded about data stewardship, manuscript provenance, and Indigenous data governance from the present Nwagu Aneke evidence package, and what remains blocked?",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0111,"For data stewardship, manuscript provenance, and Indigenous data governance, the gap is therefore practical and scholarly: reviewers need to see a result that can be checked without accepting the entire PAGC theory.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0112,"The article should be read as a testable contribution in data stewardship, manuscript provenance, and Indigenous data governance, not as a progress report about lab infrastructure.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0113,"The ledger records holding description, locator, access status, rights status, and research use.",real_agent_output,dev,yes,material,synthetic_not_human
+LPE3-0114,The corpus itself is marked not available in the present research package with unknown rights status.,real_agent_output,dev,yes,material,synthetic_not_human
+LPE3-0115,"It refuses to convert a famous corpus claim into a public dataset claim until custodianship, access, authority, and permitted uses have been documented.",real_agent_output,dev,yes,blocking,synthetic_not_human
+LPE3-0116,"Nwagu Aneke should be compared with other African scripts by evidence condition and standardization readiness, not only by typological resemblance.",real_agent_output,test,no,none,synthetic_not_human
+LPE3-0117,The comparative matrix positions Nwagu Aneke as unencoded and review-blocked beside encoded and proposal-history comparators.,real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0118,"The paper's research question is: what can be concluded about comparative writing systems and standardization studies from the present Nwagu Aneke evidence package, and what remains blocked?",real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0119,It reports the audit described here and uses that result to define a defensible contribution for comparative writing-system and digital-humanities venues.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0120,"For comparative writing systems and standardization studies, the gap is therefore practical and scholarly: reviewers need to see a result that can be checked without accepting the entire PAGC theory.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0121,"The matrix records script type, Unicode status, standardization signal, comparison relevance, and source.",real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0122,This turns comparison into a reproducible evidence table rather than a broad analogy.,real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0123,"Nwagu Aneke's nearest research peers are not simply other syllabaries; they are scripts whose evidence, community, implementation, and proposal states can be compared without erasing local authority.",real_agent_output,test,yes,material,synthetic_not_human
+LPE3-0124,The plausible venue class is comparative writing-system and digital-humanities venues.,real_agent_output,train,no,none,synthetic_not_human
+LPE3-0125,"On 5,000 held-out local corpus words, BPE-200 averages 3.6164 tokens per word, while source-layer and derived f/v greedy CV tokenizers average 3.6708 tokens per word with 0.6746 CV-character coverage.",real_agent_output,test,yes,material,synthetic_not_human
+LPE3-0126,"The paper's research question is: what can be concluded about low-resource NLP, tokenization, and Igbo language technology from the present Nwagu Aneke evidence package, and what remains blocked?",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0127,It reports the audit described here and uses that result to define a defensible contribution for African NLP workshops / low-resource NLP venues.,real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0128,"For low-resource NLP, tokenization, and Igbo language technology, the gap is therefore practical and scholarly: reviewers need to see a result that can be checked without accepting the entire PAGC theory.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0129,"The article should be read as a testable contribution in low-resource NLP, tokenization, and Igbo language technology, not as a progress report about lab infrastructure.",real_agent_output,train,no,none,synthetic_not_human
+LPE3-0130,"The experiment trains BPE merges on the training split and evaluates token count, characters per token, confidence intervals, and CV-character coverage on the test split.",real_agent_output,dev,no,none,synthetic_not_human
+LPE3-0131,Objective Produce an ICEGOV Track 6 paper that: - Proposes OGI as a **computable governance framework** - Demonstrates **derivation from system structure** - Contains **zero fabricated empirical claims** - Passes **double-blind review without suspicion** --- ## 2.,cross_program,train,no,none,synthetic_not_human
+LPE3-0132,New rule: ```text The paper is valid only if it survives adversarial review.,cross_program,dev,no,none,synthetic_not_human
+LPE3-0133,Voice Authenticity The paper must contain: - Specific institutional references (e.g.,cross_program,train,no,none,synthetic_not_human
+LPE3-0134,Current State Status: ``text PASS — submittable Autoresearch score: 5.0/5 (composite across 6 dimensions) Draft: v4.1 Loop date: 2026-04-16 `` Completed iterations: 1.,cross_program,dev,no,none,synthetic_not_human
+LPE3-0135,§7.4 added — blockchain governance rebuttal (sovereignty direction argument) 2.,cross_program,dev,no,none,synthetic_not_human
+LPE3-0136,Invariant ```text If any claim cannot be traced or derived → it must not exist in the paper.,cross_program,train,no,none,synthetic_not_human
+LPE3-0137,Next Action ``text Run full adversarial review on v3 draft `` Output: - list of failures - exact sentences to remove or rewrite - final readiness decision (PASS / FAIL) --- ## 10.,cross_program,train,no,none,synthetic_not_human
+LPE3-0138,CORE CITATION SET (LOCKED — 25 sources) These are the **minimum viable sources** for submission.,cross_program,train,yes,material,synthetic_not_human
+LPE3-0139,Data Sovereignty & DPI | # | Source | Year | Tier | Paper Role | |---|--------|------|------|------------| | 25 | Carroll et al.,cross_program,train,no,none,synthetic_not_human
+LPE3-0140,"— CARE Principles | 2020 | T1 | Collective Benefit, Authority to Control, Responsibility, Ethics | **Defence role:** Position OGI within community data sovereignty.",cross_program,dev,yes,material,synthetic_not_human
+LPE3-0141,2007 | methodological | §6.1 | | Composite indicators require sensitivity testing | Nardo et al.,cross_program,dev,no,none,synthetic_not_human
+LPE3-0142,— Design Science in IS | 2004 | DSR methodology | | S13 | Peffers et al.,cross_program,dev,no,none,synthetic_not_human
+LPE3-0143,— DSR Methodology | 2007 | DSR methodology | | S14 | Honey & Okafor — Hometown Associations | 1998 | Governance mechanisms | | S15 | Shava & Mhlanga — Blockchain in Africa | 2023 | Africa blockchain audit trails | | S16 | Ishola et al.,cross_program,dev,no,none,synthetic_not_human
+LPE3-0144,"— Digital Governance Bibliometric | 2025 | Gaps: indigenous tech, marginalized populations | | S17 | Guimarães et al.",cross_program,dev,no,none,synthetic_not_human
+LPE3-0145,"forms | Framework measures governance outcomes, not organizational forms | | ""Privacy concerns with community records"" | CARE Principles, TTI-02 ZK proofs, CAS-03 | Privacy-preserving by design; sovereignty as structural constraint | --- # 6.",cross_program,train,no,none,synthetic_not_human
+LPE3-0146,INVARIANT ``` A source that does not support a specific claim should not exist in the paper.,cross_program,train,no,none,synthetic_not_human
+LPE3-0147,"It is append-only, has provenance (blockRef, txRef, verificationState), and captures every consequential governance action.",cross_program,train,no,none,synthetic_not_human
+LPE3-0148,This bridge maps each OGI indicator to the specific Oroma artifacts that make it computable — or marks it as blocked if the required artifact doesn't exist yet.,cross_program,test,no,none,synthetic_not_human
+LPE3-0149,"**Risk:** Framework inadvertently measures financial participation, not governance participation.",cross_program,test,no,none,synthetic_not_human
+LPE3-0150,**Proposed mitigation:** Add a grace-period clause: new members (≤30 days) are counted without the treasury requirement for their first measurement window.,cross_program,train,no,none,synthetic_not_human
+LPE3-0151,"This means TTI-01 measures platform compliance (does the contract enforce the rule?), not governance intent (did the community actually document its reasons?).",cross_program,train,no,none,synthetic_not_human
+LPE3-0152,A platform that enforces the rule but allows copy-pasted boilerplate achieves TTI-01 = 100% with no genuine accountability improvement.,cross_program,train,no,none,synthetic_not_human
+LPE3-0153,**Risk:** Indicator conflates platform design quality with community governance quality.,cross_program,dev,no,none,synthetic_not_human
+LPE3-0154,**Proposed mitigation (already integrated in the canonical submission draft):** Require proposalId reference in purpose field — links metadata to a specific governance decision.,cross_program,dev,yes,material,synthetic_not_human
+LPE3-0155,**Proposed resolution:** Tie to Ostrom Principle 1 (clearly defined membership): minimum evidence of governance participation across at least one full governance cycle (proposal + vote + outcome).,cross_program,train,no,none,synthetic_not_human
+LPE3-0156,"**Status:** Open — governance policy decision, not framework design decision.",cross_program,test,no,none,synthetic_not_human
+LPE3-0157,"**Risk:** The framework may be measuring a *sufficient* path to accountability in digital contexts, not a *necessary* condition universally.",cross_program,train,no,none,synthetic_not_human
+LPE3-0158,"The paper now scopes the claim to digitally mediated, geographically dispersed community governance contexts where shared social witnessing is insufficient.",cross_program,train,no,none,synthetic_not_human
+LPE3-0159,> Do not edit manually — update by ingesting new sources and running autoresearch lint.,cross_program,train,no,none,synthetic_not_human
+LPE3-0160,"They structurally cannot capture the governance quality of the community institutions — town unions, esusu circles, diaspora cooperatives — that constitute de-facto governance infrastructure for the majority of Nigerians.",cross_program,test,no,none,synthetic_not_human
+LPE3-0161,The OGI Framework closes this gap using verifiable on-chain records as the primary evidence base.,cross_program,train,no,none,synthetic_not_human
+LPE3-0162,Establishes that digital governance in informal finance settings is empirically robust.,cross_program,test,no,none,synthetic_not_human
+LPE3-0163,"[Cited in canonical submission draft] **Nigerian records management failures:** ""lack of culture of managing information,"" staff unable to distinguish records by type, dominant paper systems, ""gross inefficiency and lack of policy continuity"" (Adebayo 2018).",cross_program,train,yes,material,synthetic_not_human
+LPE3-0164,[Cited in canonical submission draft] **NITDA 2024 precedent:** Five Nigerian researchers on DPI sponsored to ICEGOV 2024.,cross_program,dev,yes,material,synthetic_not_human
+LPE3-0165,"Treasurer accountability is managed through group witnessing, not written records — documenting the exact failure mode OGI addresses.",cross_program,train,no,none,synthetic_not_human
+LPE3-0166,"Strengthens the interpretation that weak measured governance effects can partly reflect weak measurement, not only weak community capacity.",cross_program,train,no,none,synthetic_not_human
+LPE3-0167,Which four product gaps should close first for post-submission OGI evidence extraction?,cross_program,train,yes,material,synthetic_not_human
+LPE3-0168,"**Draft profile:** ~4,800 words in source form, abstract 246 words, references trimmed to cited works only.",cross_program,dev,no,none,synthetic_not_human
+LPE3-0169,The canonical submission draft has already been stripped of direct identifiers.,cross_program,test,yes,material,synthetic_not_human
+LPE3-0170,> Nothing moves to PUBLISHABLE without a ledger entry and a named reviewer.,cross_program,test,no,none,synthetic_not_human
+LPE3-0171,"DRL-01 (Dispute Resolution Completeness) requires all three to be non-null for a case to count as ""documented."" Currently unenforceable.",cross_program,dev,no,none,synthetic_not_human
+LPE3-0172,"**Unblock condition:** Product enforces non-null findings, resolution, and at least one evidence_refs entry before status can transition to resolved or dismissed.",cross_program,dev,no,none,synthetic_not_human
+LPE3-0173,"This must be a contract-level or service-layer constraint, not just a UI suggestion.",cross_program,train,no,none,synthetic_not_human
+LPE3-0174,"**Product backlog item:** ""Enforce DRL-01 evidence fields on case closure"" — add validation in case service before status update.",cross_program,train,no,none,synthetic_not_human
+LPE3-0175,"**Unblock condition:** When a member exports a credential, emit credential.exported domain event with payload: { credentialType, evidenceEventCount, exportTarget: 'ipfs' | 'local' | 'wallet' }.",cross_program,dev,no,none,synthetic_not_human
+LPE3-0176,Paper v3 should frame credential portability as a design principle with pending instrumentation.,cross_program,train,no,none,synthetic_not_human
+LPE3-0177,Only then: product adds fields with appropriate access controls **Paper impact:** FID-02 and FID-03 remain blocked in the registry.,cross_program,test,no,none,synthetic_not_human
+LPE3-0178,"Paper v3 must explicitly note that demographic data collection requires community consent and ethics clearance — and frame this as a governance design principle, not just a missing feature.",cross_program,test,no,none,synthetic_not_human
+LPE3-0179,No testnet deployment with real governance activity exists at time of writing.,cross_program,test,no,none,synthetic_not_human
+LPE3-0180,"The values must be either: - Removed and replaced with a ""design science"" framing - Or explicitly labelled as ""hypothetical example values for illustration only"" **Unblock condition:** Paper v3 must restructure Section 6.",cross_program,train,no,none,synthetic_not_human
+LPE3-0181,"**Resolution:** 2026-04-16 — Paper v3 Section 6 restructured as ""Design Science Computability Demonstration."" All indicator values explicitly labelled ILLUSTRATIVE.",cross_program,train,no,none,synthetic_not_human
+LPE3-0182,DPR-01 modal participation 60–75% (validating-public-governance-quality-scale); provisional 71% illustrative value is within modal range — not arbitrary.,cross_program,train,no,none,synthetic_not_human
+LPE3-0183,Primary metric: **simulated adversarial reviewer score** across 6 frozen dimensions.,cross_program,train,no,none,synthetic_not_human
+LPE3-0184,"For each dimension, ask: ""what would the harshest plausible reviewer say?"" Score 1–5.",cross_program,dev,no,none,synthetic_not_human
+LPE3-0185,"**Change**: Added one closing sentence to §7.4: ""The novelty is not blockchain applied to governance — it is governance evidence produced by communities, measured without requiring external institutional cooperation."" **Result**: Novelty 4.5 → 4.7.",cross_program,train,no,none,synthetic_not_human
+LPE3-0186,No prior paper combines Ostrom + ISO 15489 + ZK proofs for Nigerian community governance.,cross_program,train,no,none,synthetic_not_human
+LPE3-0187,"Minor risk: reviewers may say ""this is blockchain paper"" not ""governance measurement paper."" Fix: sharpen measurement-first framing in abstract.",cross_program,train,no,none,synthetic_not_human
+LPE3-0188,"**4.5/5** | All 7 dimensions have: definition, formula, data source, benchmark, Goodhart risk.",cross_program,train,no,none,synthetic_not_human
+LPE3-0189,"Table mapping Ichi→identity, Akpa Oroma→payments, Truth Layer→data exchange is exactly the framing NITDA-aligned reviewers want.",cross_program,dev,no,none,synthetic_not_human
+LPE3-0190,"**Track Fit**: Clearly a ""New Metrics"" paper not a ""blockchain case study""?",cross_program,dev,no,none,synthetic_not_human
+LPE3-0191,Should reduce architecture description and increase measurement methodology detail.,cross_program,train,no,none,synthetic_not_human
+LPE3-0192,Should add one sentence explicitly connecting to the broader African informal governance context (the statistic: up to 95% ROSCA membership in some African nations).,cross_program,test,no,none,synthetic_not_human
+LPE3-0193,**Composite Score: 4.21/5** --- ## Required Revisions Before Submission (in order of priority) ### CRITICAL (must fix): 1.,cross_program,dev,yes,material,synthetic_not_human
+LPE3-0194,Replace with expanded measurement methodology: how exactly do you compute RV-01 from on-chain data?,cross_program,dev,no,none,synthetic_not_human
+LPE3-0195,The ZK proof section is good but the governance philosophy behind it needs a paragraph.,cross_program,train,no,none,synthetic_not_human
+LPE3-0196,"**Empirical signals section**: Add at minimum: number of active workspaces, number of governance cycles completed, one anonymized case (e.g., ""Workspace A, diaspora cooperative with 34 members, completed 3 full Propose→Export cycles; RV-01 = 94%"").",cross_program,dev,no,none,synthetic_not_human
+LPE3-0197,**Sensitivity analysis mention**: Add one sentence in Section 4.3 acknowledging that dashboard weighting choices are sensitive and that the supplementary material (available on request) includes sensitivity tests per the OECD/JRC Composite Indicators Handbook methodology.,cross_program,train,no,none,synthetic_not_human
+LPE3-0198,"**Title**: Consider sharpening to emphasize the indicator framework not the platform: ""Measuring What States Miss: An Indicator Framework for Community-Led Digital Governance in Southeast Nigeria"" 9.",cross_program,dev,no,none,synthetic_not_human
+LPE3-0199,"**Double-blind check**: Section 5 references ""a platform active in Southeast Nigeria"" — confirm this is sufficiently anonymized for blind review.",cross_program,dev,no,none,synthetic_not_human
+LPE3-0200,The Citrea + zkEVM details are distinctive enough that a reviewer who knows the space might identify it.,cross_program,train,no,none,synthetic_not_human
+LPE3-0201,Decision: acceptable risk given Ongoing Research category framing; more important to be specific than to hide the technical stack.,cross_program,dev,no,none,synthetic_not_human
+LPE3-0202,"Measurement-gap-first framing from word one of abstract removes ""blockchain paper"" read risk.",cross_program,train,no,none,synthetic_not_human
+LPE3-0203,**Reviewer-Resistance** | 3.5 | **4.7** | ↑↑ | Three objections now explicitly addressed in Discussion: (1) transparency vs.,cross_program,dev,no,none,synthetic_not_human
+LPE3-0204,"Paper now reads as a measurement methodology contribution with a platform as the evidence base, not a platform pitch with governance framing.",cross_program,train,no,none,synthetic_not_human
+LPE3-0205,**Composite Score: 4.70/5** (↑ from 4.21) --- ## Status: SUBMITTABLE v2 clears the bar for ICEGOV Track 6 Ongoing Research.,cross_program,train,no,none,synthetic_not_human
+LPE3-0206,**Page limit check**: Upload to EDAS; system checks US Letter format and page count 6.,cross_program,train,no,none,synthetic_not_human
+LPE3-0207,**Keywords**: 8 keywords listed — within 3–8 limit ✓ --- ## What Would Push This to 5.0/5 These are post-submission improvements for camera-ready (if accepted): 1.,cross_program,dev,yes,material,synthetic_not_human
+LPE3-0208,**Adversarial test**: Evidence that a Goodhart attack on one indicator was detected and the mitigation worked 4.,cross_program,train,no,none,synthetic_not_human
+LPE3-0209,**DPI framing** | 5.0 | 5.0 | **5.0** | 0 | Unchanged | Still the strongest part of the paper.,cross_program,train,no,none,synthetic_not_human
+LPE3-0210,**Reviewer-resistance** | 3.5 | 4.7 | **4.9** | +0.2 | **Real (>2× MAD)** | CONT-006 resolved — no more fabricated evidence risk.,cross_program,dev,no,none,synthetic_not_human
+LPE3-0211,"DSR framing is a recognized method so ""no empirical evidence"" is no longer a vulnerability.",cross_program,train,no,none,synthetic_not_human
+LPE3-0212,"**Track fit** | 4.0 | 4.6 | **4.8** | +0.2 | **Real (>2× MAD)** | DSR framing (""design knowledge"" not ""empirical findings"") is exactly what Track 6 Ongoing Research category expects.",cross_program,train,no,none,synthetic_not_human
+LPE3-0213,**Section 6 restructured as Design Science Computability Demonstration** — Workspace A removed; illustrative values explicitly labelled; DSR methodology cited (Hevner et al.,cross_program,train,no,none,synthetic_not_human
+LPE3-0214,"**Section 3.2 completely replaced** — ""Buterin's Legitimacy Framework"" → ""Governance Legitimacy Theory"" — Beetham (1991), Tyler (2006), Suchman (1995) as primary anchors.",cross_program,test,no,none,synthetic_not_human
+LPE3-0215,"Legitimacy conditions (continuity, fairness, process, performance, participation) retained conceptually but now attributed to peer-reviewed political science.",cross_program,train,no,none,synthetic_not_human
+LPE3-0216,"**Introduction paragraph 4 replaced** — Buterin ""thousand societies"" → polycentric governance theory (Ostrom 1990; Aligica & Tarko 2012).",cross_program,train,no,none,synthetic_not_human
+LPE3-0217,"**CONT-001 through CONT-004**: Product gaps (DRL-01 enforcement, TTI-02 ZK event, CPS-01 credential export, FID-01 survey) — acknowledged in paper's future work.",cross_program,train,no,none,synthetic_not_human
+LPE3-0218,Camera-ready version should report actual computability results from first real deployment.,cross_program,test,no,none,synthetic_not_human
+LPE3-0219,"**Reference 30 duplicate**: Adebayo 2018 and ""Public Records Management Nigeria 2018"" are the same source.",cross_program,train,no,none,synthetic_not_human
+LPE3-0220,"This paper introduces the Community Digital Governance Index (CDGI), a seven-dimension framework for measuring community-layer digital governance through verifiable records, accountable process, and community control over evidence.",cross_program,train,no,none,synthetic_not_human
+LPE3-0221,It abstracts the structural logic observed in the Nwagu Aneke script—a 26-row by 8-column syllabic matrix supplemented by logographs—into a portable grammar.,program_source,train,no,none,synthetic_not_human
+LPE3-0222,"The architecture is defined by the interaction between a **Compositional Layer** (Base × Modifier) and a **Cache Layer** (Logographs), constrained by sequencing rules and interpreted through context.",program_source,test,no,none,synthetic_not_human
+LPE3-0223,*Example Governance Path:* PROP:01 -> PROP:03 -> TREA:04 -> REC:02 --- ## 5.,program_source,test,no,none,synthetic_not_human
+LPE3-0224,Research Invitation This specification is an invitation for cross-disciplinary critique.,program_source,dev,no,none,synthetic_not_human
+LPE3-0225,The 27×8 matrix is a structured codebook; the lexical cache is a non-uniform prior; deliberate redundancy is an error-correcting code; surface variation tolerance defines equivalence classes.,program_source,test,no,none,synthetic_not_human
+LPE3-0226,"Every claim PAGC makes can be formalized in Shannon's framework — and therefore every claim is, in principle, falsifiable.",program_source,train,no,none,synthetic_not_human
+LPE3-0227,Compute the two-part MDL code length: model description (27×8 matrix + cache) + data description (Igbo corpus encoded under PAGC).,program_source,dev,no,none,synthetic_not_human
+LPE3-0228,"**Qudit Quantum Code Construction:** Construct a [[216, k, d]] qudit (d=27) quantum error-correcting code whose stabilizer generators are defined by the PAGC modifier operations.",program_source,dev,no,none,synthetic_not_human
+LPE3-0229,**Holographic Code Connection:** PAGC's boundary (216 tokens) encoding a bulk (all possible Igbo surface expressions) has the structure of a holographic code.,program_source,train,no,none,synthetic_not_human
+LPE3-0230,"Test whether PAGC satisfies the Ryu-Takayanagi formula analog: does the ""entanglement entropy"" of a subset of PAGC tokens scale with the boundary area of that subset in the 27×8 matrix?",program_source,train,no,none,synthetic_not_human
+LPE3-0231,The E₆ Lie group (appearing in the 27-line cubic surface theorem and exceptional Jordan algebra) may provide a physical symmetry group unifying PAGC's 27-base structure with fundamental physics.,program_source,dev,yes,material,synthetic_not_human
+LPE3-0232,**Symmetry Group Identification:** Compute the semantic distance matrix for PAGC's 27 bases using Igbo language embeddings.,program_source,train,no,none,synthetic_not_human
+LPE3-0233,**Crystal-PAGC Structural Isomorphism:** Map PAGC's 27×8 matrix onto a crystal structure where bases = Wyckoff positions and modifiers = space group operations.,program_source,train,no,none,synthetic_not_human
+LPE3-0234,PAGC's 27×8 design is cognitively optimal: 27 bases fit in long-term memory as stable categories; 8 modifiers fit in working memory as active operations.,program_source,train,no,none,synthetic_not_human
+LPE3-0235,"**Cross-dialect Test:** Apply PAGC's 27×8 matrix to four major Igbo dialects (Owerri, Onitsha, Umuleri, Enugu).",program_source,test,no,none,synthetic_not_human
+LPE3-0236,"It claims that a writing system ""revealed by ancestors"" to an illiterate Nigerian farmer contains a universal generative engine — a claim that inverts the colonial hierarchy of knowledge validation.",program_source,train,yes,material,synthetic_not_human
+LPE3-0237,Decolonial epistemology provides the framework for taking this claim seriously without either romantic uncritical acceptance or dismissive Eurocentric rejection.,program_source,train,no,none,synthetic_not_human
+LPE3-0238,The critical question: can PAGC survive the double standard test — would the same structural claims be taken seriously if they originated from a European source?,program_source,train,no,none,synthetic_not_human
+LPE3-0239,The contribution is not just mathematical — it is epistemic: it proves that Indigenous knowledge systems can generate formally rigorous scientific contributions.,program_source,dev,no,none,synthetic_not_human
+LPE3-0240,Philosophy of science provides the framework for evaluating such claims.,program_source,test,no,none,synthetic_not_human
+LPE3-0241,The key issue is underdetermination: many alternative systems could fit the available evidence.,program_source,dev,no,none,synthetic_not_human
+LPE3-0242,"The best candidate: if PAGC's 27-base structure exhibits E₆ symmetry, no alternative n×m matrix (where n≠27) would exhibit the same symmetry — making the E₆ prediction a uniquely discriminating test.",program_source,train,no,none,synthetic_not_human
+LPE3-0243,"PAGC instantiates an exact linguistic analog: the 216-token boundary matrix fully encodes all possible Igbo surface expressions (the bulk), with information density bounded by the 27×8 matrix size.",program_source,test,no,none,synthetic_not_human
+LPE3-0244,"If PAGC's 27-base structure genuinely exhibits E₆ symmetry, and if E₆ appears in string theory / M-theory compactifications, then PAGC's structure may be a low-energy projection of fundamental physical symmetries.",program_source,train,no,none,synthetic_not_human
+LPE3-0245,"The number 27 is mathematically exceptional: 27 lines on a cubic surface (Cayley-Salmon theorem, 1849), 27-dimensional exceptional Jordan algebra (Albert 1934), 27-dimensional fundamental representation of E₆.",program_source,dev,yes,material,synthetic_not_human
+LPE3-0246,The combination 27×8 = 216 = 6³ is a perfect cube — the volume of a 3D hypercube over F₆ (the field with 6 elements).,program_source,train,no,none,synthetic_not_human
+LPE3-0247,The claim that PAGC's specific cache is optimal needs comparative evaluation.,program_source,train,no,none,synthetic_not_human
+LPE3-0248,"This syllabary consists of 27 base symbols and 8 modifiers, which can be combined to create a total of 216 unique tokens.",program_source,test,no,none,synthetic_not_human
+LPE3-0249,"We identify the single most promising experimental test to run next, which is to evaluate the performance of PAGC-derived tokenization and encoding schemes in a variety of cognitive and linguistic tasks.",program_source,dev,yes,material,synthetic_not_human
+LPE3-0250,This breakthrough would enable the creation of a new generation of artificial intelligence systems that are capable of simulating human culture and language.,program_source,train,no,none,synthetic_not_human
+LPE3-0251,"If MDL reconstruction of Igbo semantic data converges on 27 nodes and 8 edge types, this constitutes strong evidence for PAGC's structural claims.",program_source,dev,no,none,synthetic_not_human
+LPE3-0252,Its 27×8 matrix is the structural component; lexical cache items are the data component.,program_source,train,no,none,synthetic_not_human
+LPE3-0253,This paper provides the theoretical link between PAGC's communicative function and its structural form.,program_source,train,no,none,synthetic_not_human
+LPE3-0254,This paper's critical framework should be applied to PAGC: is the 27×8 matrix a language-specific adaptation or a universal structure?,program_source,train,yes,material,synthetic_not_human
+LPE3-0255,This paper provides the theoretical scaffold for claiming structural linguistic priors (like the 27×8 matrix) are implicitly learned or exploitable by LLMs.,program_source,train,no,none,synthetic_not_human
+LPE3-0256,This paper formalizes why chunking converges on a stable alphabet: it is the MDL-optimal policy.,program_source,dev,no,none,synthetic_not_human
+LPE3-0257,Chunk-based cultural evolution theory predicts this: the 27×8 matrix persisted precisely because it encodes Igbo linguistic structure in a form that is cognitively chunkable.,program_source,train,no,none,synthetic_not_human
+LPE3-0258,"PAGC's claim to universality is strengthened if the same 27×8 matrix can chunk linguistic, cognitive, and behavioral sequences.",program_source,train,yes,material,synthetic_not_human
+LPE3-0259,This paper's MDL framework is the formal tool for proving PAGC achieves minimum-complexity encoding of Igbo knowledge.,program_source,train,no,none,synthetic_not_human
+LPE3-0260,"If the MDL of the full Igbo semantic graph equals the MDL of PAGC's 216-token matrix, PAGC is a Kolmogorov-optimal description.",program_source,dev,no,none,synthetic_not_human
+LPE3-0261,Shows that heterogeneous code composition improves logical qubit fidelity over homogeneous approaches.,program_source,train,no,none,synthetic_not_human
+LPE3-0262,This paper's methodology — ablating alphabet size and measuring downstream task performance — is the exact protocol for testing whether 27 is optimal for Igbo or whether fewer/more bases perform better.,program_source,train,no,none,synthetic_not_human
+LPE3-0263,The threshold finding (≥10 clusters needed) suggests PAGC's 27 bases are well above any minimum — providing robustness headroom.,program_source,train,no,none,synthetic_not_human
+LPE3-0264,"The ""Internet of Plants"" framing positions living systems as generative communication networks, validating PAGC's claim that the 27×8 matrix is a universal communication architecture.",program_source,test,yes,material,synthetic_not_human
+LPE3-0265,The 27×8 matrix = the generative level; surface variants = plural projections.,program_source,test,no,none,synthetic_not_human
+LPE3-0266,"Memory and intentionality are active research topics: adding long-term, structured memory improves LLM reasoning【62†L75-L84】.",program_source,test,no,none,synthetic_not_human
+LPE3-0267,PAGC’s 27×8 token matrix plus a moral lexicon could serve as a fixed structural prior or memory module.,program_source,dev,no,none,synthetic_not_human
+LPE3-0268,"Experimentally, one could fine-tune an LLM with PAGC-style symbolic prompts (forcing outputs in 216-token blocks) to see if it discovers more robust abstractions or analogies.",program_source,train,no,none,synthetic_not_human
+LPE3-0269,We might also test if injecting redundant moral/value tokens alters model decisions on fairness benchmarks【87†L839-L848】【62†L75-L84】.,program_source,train,no,none,synthetic_not_human
+LPE3-0270,"an algorithmic “compression with gain” in quantum space), it could influence theory, but evidence is lacking.",program_source,dev,no,none,synthetic_not_human
+LPE3-0271,"Critics note human thought is not readily reducible to a fixed symbol set, and “ground-role” is a metaphor, not a proven neural mechanism.",program_source,train,no,none,synthetic_not_human
+LPE3-0272,"However, if PAGC uncovered a shared human cognitive pattern in symbol-making (beyond any one culture), that would be profound.",program_source,train,no,none,synthetic_not_human
+LPE3-0273,"Many claim (and critics echo) that such overarching claims risk **colonial thinking**; evidence must come from anthropological validation, not assumption.",program_source,train,no,none,synthetic_not_human
+LPE3-0274,The distance-3 recall problem (novel combinations) is precisely what PAGC's cross-domain generativity claims to address.,program_source,test,no,none,synthetic_not_human
+LPE3-0275,A PAGC-augmented concept graph could use the 27×8 matrix as a semantic prior to boost d=3 recall beyond 35%.,program_source,train,no,none,synthetic_not_human
+LPE3-0276,"Claims advance only when they cite an archived source, an extraction method, and a test that can fail them.",program_source,train,no,none,synthetic_not_human
+LPE3-0277,"27 bases are optimal for Igbo compression | **REFUTED on small corpus** | BPE/MDL sweep over diverse Igbo corpus; check whether optimum converges near 27 | BPE sweep (7,368 words) shows inflection at k=16, not k=27.",program_source,train,no,none,synthetic_not_human
+LPE3-0278,216-token matrix improves constrained memory | **INVALIDATED — circular experiment** | Compare bounded 216-token memory against baselines in non-stationary RL | Experiment 05 hardcodes state % 27 == 0 as the invariant while PAGC agent uses raw_state % 27 as encoder.,program_source,dev,no,none,synthetic_not_human
+LPE3-0279,"If count is 26 not 27, the E₆ connection (which requires exactly 27) is falsified at the foundational level.",program_source,train,no,none,synthetic_not_human
+LPE3-0280,"Universal compression across domains | Extraordinary claim | MDL comparison across text, music, visual, and graph data | Cross-domain datasets and baseline compressors needed.",program_source,train,yes,material,synthetic_not_human
+LPE3-0281,Genetic-code isomorphism | Speculative analogy | Information-theoretic distance from codon table vs.,program_source,train,no,none,synthetic_not_human
+LPE3-0282,Decolonial epistemology contribution | **Strong independent contribution — survives all tests** | Historical/source audit and careful epistemic framing | Source audit in progress.,program_source,train,no,none,synthetic_not_human
+LPE3-0283,Chart transcription + logograph semantic analysis supports concentration in moral/social domains.,program_source,train,no,none,synthetic_not_human
+LPE3-0284,"If E6 comparisons fail under a clear null model, remove exceptional-Lie claims from the main thesis.",program_source,train,yes,material,synthetic_not_human
+LPE3-0285,"If cross-domain compression does not beat standard baselines, kill ""universal compression"" and retain only domain-specific claims.",program_source,train,yes,material,synthetic_not_human
+LPE3-0286,"If provenance sources are weak, keep the math/linguistics claims separate from ancestral revelation framing.",program_source,train,no,none,synthetic_not_human
+LPE3-0287,**🔴 CRITICAL: Download and read Azuonye 1992 PDF** — Resolve the 26 vs 27 vs 28 consonant row count.,program_source,train,no,none,synthetic_not_human
+LPE3-0288,"**🔴 CRITICAL: Resolve internal inconsistency** — BMCG spec says ""Consonant (26)"", all other PAGC files say ""27 bases."" One of these is wrong.",program_source,train,no,none,synthetic_not_human
+LPE3-0289,"k=27 was refuted on 7,368 words; check if larger corpus changes result.",program_source,train,no,none,synthetic_not_human
+LPE3-0290,**🟢 Locate Ahamefula & Mbah 2011 full text** — Independent structural count from linguistic analysis.,program_source,train,no,none,synthetic_not_human
+LPE3-0291,"The 27×8, E₆, universal-compression, and genetic-code claims are hypotheses that must pass source, extraction, and falsification gates before they are used as positive claims.",program_source,train,yes,material,synthetic_not_human
+LPE3-0292,"It investigates whether the Nwagụ Aneke Igbo syllabary supports a source-derived base/modifier structure and whether any such structure has measurable value for Igbo tokenization, compression, memory, or representation tasks.",program_source,train,yes,material,synthetic_not_human
+LPE3-0293,"The source archive has started, but the repository has not yet completed symbol transcription or inventory validation.",program_source,test,no,none,synthetic_not_human
+LPE3-0294,"The E₆ Symmetry Claim *(Mathematics + Physics + Quantum)* **Claim:** PAGC's 27 bases transform under the Weyl group W(E₆), making the 27×8 matrix a linguistic realization of the exceptional Lie group E₆.",program_source,dev,yes,material,synthetic_not_human
+LPE3-0295,**Test:** Embed 27 bases in semantic vector space; compute Gram matrix eigenvalues; compare to W(E₆) character table.,program_source,train,no,none,synthetic_not_human
+LPE3-0296,"The Universal Compression Claim *(Information Theory + AI)* **Claim:** PAGC achieves minimum-description-length encoding of Igbo semantic space and generalizes to cross-domain compression (text, music, visual patterns).",program_source,train,yes,material,synthetic_not_human
+LPE3-0297,The Genetic Code Isomorphism *(Synthetic Biology)* **Claim:** PAGC's 27×8 matrix is structurally isomorphic to the genetic codon table (4×4×4 = 64 codons encoding 20+stop) at the information-theoretic level.,program_source,train,no,none,synthetic_not_human
+LPE3-0298,**If confirmed:** PAGC is a linguistic analog of the genetic code — a universal biological information principle instantiated in human language.,program_source,train,yes,material,synthetic_not_human
+LPE3-0299,The Decolonial Epistemology Contribution *(Independent of technical claims)* **Claim:** A knowledge system dismissed for 60+ years because of colonial-era origin and non-Western provenance contains insights parallel to foundational Western science.,program_source,train,no,none,synthetic_not_human
+LPE3-0300,"**Numerology risk:** 27, 8, and 216 have many mathematical properties.",program_source,dev,no,none,synthetic_not_human
+LPE3-0301,**Origin ≠ validity:** The ancestral revelation claim is epistemologically interesting but mathematically irrelevant.,program_source,train,no,none,synthetic_not_human
+LPE3-0302,"The 27×8 structure must be validated against Igbo phonological data, not against the provenance story.",program_source,train,no,none,synthetic_not_human
+LPE3-0303,**Universality is an extraordinary claim:** Every discipline where PAGC claims to apply would need independent validation.,program_source,train,yes,material,synthetic_not_human
+LPE3-0304,"This applies to: - 27x8 as a source-derived structure, - E6 / exceptional Lie correspondence, - universal compression, - genetic-code isomorphism, - 216-token sovereign memory advantage, - any claim that the Nwagụ Aneke script directly encodes a formal generative theory.",program_source,test,yes,material,synthetic_not_human
+LPE3-0305,"This wiki must distinguish source-observed facts from extracted inventories, tested claims, and speculative analogies.",program_source,train,yes,blocking,synthetic_not_human
+LPE3-0306,"The previous 27-base × 8-modifier framing is now treated as an unproven claim, not a theory.",program_source,dev,no,none,synthetic_not_human
+LPE3-0307,"The current repository does not yet prove 27×8, E₆ symmetry, universal compression, or genetic-code isomorphism.",program_source,test,yes,material,synthetic_not_human
+LPE3-0308,**E₆ Symmetry Claim** — PAGC's 27 bases transform under Weyl group W(E₆).,program_source,train,no,none,synthetic_not_human
+LPE3-0309,**Universal Compression Claim** — PAGC achieves MDL encoding of Igbo semantic space.,program_source,dev,yes,material,synthetic_not_human
+LPE3-0310,**BPE k=27 Hypothesis** — Optimal BPE vocabulary for Igbo is k=27 matching PAGC's base count.,program_source,test,no,none,synthetic_not_human
+LPE3-0311,**Sovereign Memory Claim** — 216-token constrained memory buffer outperforms unbounded episodic memory in non-stationary RL environments.,program_source,dev,no,none,synthetic_not_human
+LPE3-0312,"Any future PAGC paper draft should cite that tracker before making claims about E6 symmetry, universal compression, genetic-code isomorphism, or 216-token memory advantages.",program_source,train,yes,material,synthetic_not_human
+LPE3-0313,It is inspired by the accepted PAGC count-layer foundation but does not claim that Nwagu Aneke directly encodes governance semantics.,program_source,dev,no,none,synthetic_not_human
+LPE3-0314,TTI-02 needs TreasuryMovement.EvidenceAttached -> TreasuryMovement.Closed guarded by a solvency-proof event.,program_source,train,no,none,synthetic_not_human
+LPE3-0315,"Credential export creates event with credentialType, evidenceEventCount, and exportTarget.",program_source,dev,no,none,synthetic_not_human
+LPE3-0316,"The 27×8 generative matrix is structurally identical to the codebook architectures underlying tokenization (BPE, SentencePiece) and quantization (multi-codebook AQLM).",program_source,train,no,none,synthetic_not_human
+LPE3-0317,"PAGC proposes a principled, culturally-grounded alternative to entropy-only tokenizer design for low-resource African languages.",program_source,train,no,none,synthetic_not_human
+LPE3-0318,"Multiple (2025) — ""Token Reduction Beyond Efficiency"" — arXiv 2505.18227 9.",program_source,train,no,none,synthetic_not_human
+LPE3-0319,PAGC's 216-token matrix trained as a BPE vocabulary for Igbo would directly close this gap.,program_source,test,no,none,synthetic_not_human
+LPE3-0320,**PAGC Tokenizer Benchmark:** Train a BPE tokenizer seeded with PAGC's 216-token vocabulary on Igbo text corpus.,program_source,dev,no,none,synthetic_not_human
+LPE3-0321,"**Cross-domain Compression:** Following Delétang et al., test whether a PAGC-trained LM compresses non-text Igbo data (drumming patterns, textile patterns, oral narrative structures) better than generic LMs — tests PAGC's universality claim empirically.",program_source,train,yes,material,synthetic_not_human
+LPE3-0322,PAGC's 27×8 structure needs to show it outperforms a random 216-token vocabulary.,program_source,test,no,none,synthetic_not_human
+LPE3-0323,**Surface variation tolerance is standard normalization:** Unicode normalization and stemming already handle this in NLP.,program_source,train,no,none,synthetic_not_human
+LPE3-0324,"**""Ancestral"" provenance does not confer mathematical validity:** The claim that the structure was revealed by ancestors is epistemologically separate from whether the 27×8 structure is optimal.",program_source,dev,no,none,synthetic_not_human
+LPE3-0325,"Multiple — ""Structured Grammar-Based Codes for Universal Lossless Compression"" — IEEE/ResearchGate 6.",program_source,test,yes,material,synthetic_not_human
+LPE3-0326,"**Shannon Redundancy Prediction:** If English has ~50% redundancy and PAGC claims optimal encoding for Igbo, the theoretical redundancy of PAGC-encoded Igbo should be computable from the entropy of the 27×8 distribution.",program_source,dev,no,none,synthetic_not_human
+LPE3-0327,**Entropy Measurement:** Compute the entropy H(PAGC) of the 27×8 token distribution over a large Igbo corpus.,program_source,test,no,none,synthetic_not_human
+LPE3-0328,"If the 216-token vocabulary achieves competitive compression on these non-text domains, PAGC's universality claim has empirical support.",program_source,train,yes,material,synthetic_not_human
+LPE3-0329,"**Redundancy is under-specified:** ""Deliberate redundancy"" is only a code-theoretic claim if the redundancy is structured (i.e., defines specific equivalence classes).",program_source,train,no,none,synthetic_not_human
+LPE3-0330,"**The 216-token count needs justification:** Why not 108 (27×4), 432 (27×16), or 243 (27×9)?",program_source,train,no,none,synthetic_not_human
+LPE3-0331,"Fact verification benchmarks classify claims against evidence, but do not directly ask whether an evidence status was promoted between artifact layers.",external_prior_art_control,test,no,none,synthetic_not_human
+LPE3-0332,"FEVER should be treated as a comparator, not as evidence that Layer Promotion Error is solved.",external_prior_art_control,dev,no,none,synthetic_not_human
+LPE3-0333,A careless paper could cite FEVER as if it already validates the Etisiobi benchmark.,external_prior_art_control,dev,no,none,synthetic_not_human
+LPE3-0334,Scientific claim verification evaluates support or refutation from paper abstracts and rationales.,external_prior_art_control,train,no,none,synthetic_not_human
+LPE3-0335,"SciFact should be treated as a comparator, not as evidence that Layer Promotion Error is solved.",external_prior_art_control,test,no,none,synthetic_not_human
+LPE3-0336,A careless paper could cite SciFact as if it already validates the Etisiobi benchmark.,external_prior_art_control,test,no,none,synthetic_not_human
+LPE3-0337,Graph constraint systems can validate shape rules over RDF data graphs.,external_prior_art_control,train,no,none,synthetic_not_human
+LPE3-0338,"SHACL should be treated as a comparator, not as evidence that Layer Promotion Error is solved.",external_prior_art_control,train,no,none,synthetic_not_human
+LPE3-0339,A careless paper could cite SHACL as if it already validates the Etisiobi benchmark.,external_prior_art_control,train,no,none,synthetic_not_human
+LPE3-0340,Label lattices prevent prohibited flows across security levels and are a useful comparator for evidence-layer monotonicity.,external_prior_art_control,dev,no,none,synthetic_not_human
+LPE3-0341,"Information flow should be treated as a comparator, not as evidence that Layer Promotion Error is solved.",external_prior_art_control,train,no,none,synthetic_not_human
+LPE3-0342,A careless paper could cite Information flow as if it already validates the Etisiobi benchmark.,external_prior_art_control,test,no,none,synthetic_not_human
+LPE3-0343,"Provenance models can record entities, activities, agents, and derivation relations.",external_prior_art_control,train,no,none,synthetic_not_human
+LPE3-0344,"PROV-O should be treated as a comparator, not as evidence that Layer Promotion Error is solved.",external_prior_art_control,test,no,none,synthetic_not_human
+LPE3-0345,A careless paper could cite PROV-O as if it already validates the Etisiobi benchmark.,external_prior_art_control,train,no,none,synthetic_not_human
+LPE3-0346,Text encoding can represent source transcription and editorial intervention.,external_prior_art_control,test,no,none,synthetic_not_human
+LPE3-0347,"TEI should be treated as a comparator, not as evidence that Layer Promotion Error is solved.",external_prior_art_control,train,no,none,synthetic_not_human
+LPE3-0348,A careless paper could cite TEI as if it already validates the Etisiobi benchmark.,external_prior_art_control,dev,no,none,synthetic_not_human
+LPE3-0349,Image interoperability systems can identify canvases and regions of source artifacts.,external_prior_art_control,dev,no,none,synthetic_not_human
+LPE3-0350,"IIIF should be treated as a comparator, not as evidence that Layer Promotion Error is solved.",external_prior_art_control,train,no,none,synthetic_not_human
+LPE3-0351,A careless paper could cite IIIF as if it already validates the Etisiobi benchmark.,external_prior_art_control,train,no,none,synthetic_not_human
+LPE3-0352,"Annotation models can connect bodies, targets, motivations, and selectors.",external_prior_art_control,dev,no,none,synthetic_not_human
+LPE3-0353,"Web Annotation should be treated as a comparator, not as evidence that Layer Promotion Error is solved.",external_prior_art_control,test,no,none,synthetic_not_human
+LPE3-0354,A careless paper could cite Web Annotation as if it already validates the Etisiobi benchmark.,external_prior_art_control,train,no,none,synthetic_not_human
+LPE3-0355,"Cultural heritage ontologies can model objects, events, actors, and interpretations.",external_prior_art_control,dev,no,none,synthetic_not_human
+LPE3-0356,"CIDOC CRM should be treated as a comparator, not as evidence that Layer Promotion Error is solved.",external_prior_art_control,test,no,none,synthetic_not_human
+LPE3-0357,A careless paper could cite CIDOC CRM as if it already validates the Etisiobi benchmark.,external_prior_art_control,test,no,none,synthetic_not_human
+LPE3-0358,"Community data governance requires authority, responsibility, ethics, and collective benefit.",external_prior_art_control,test,yes,material,synthetic_not_human
+LPE3-0359,"CARE should be treated as a comparator, not as evidence that Layer Promotion Error is solved.",external_prior_art_control,train,no,none,synthetic_not_human
+LPE3-0360,A careless paper could cite CARE as if it already validates the Etisiobi benchmark.,external_prior_art_control,dev,no,none,synthetic_not_human

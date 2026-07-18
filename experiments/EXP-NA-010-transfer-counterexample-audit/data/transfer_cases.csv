@@ -1,0 +1,11 @@
+case_id,domain,input_layer,output_layer,provenance_link,citation_present,expected_decision,case_summary
+TC-001,nwagu_count_layer,derived,source_observed,yes,yes,reject,Derived 27/216 f-v split reported as source-observed Nwagu inventory.
+TC-002,digital_edition,derived,source_observed,yes,yes,reject,Editorial normalization reported as direct source transcription.
+TC-003,iiif_annotation,derived,source_observed,yes,no,reject,Region annotation promoted into a whole-object source claim.
+TC-004,unicode_process,speculative,source_observed,no,yes,reject,Script-interest note promoted into completed repertoire evidence.
+TC-005,cultural_heritage_ml,derived,source_observed,yes,yes,reject,OCR-derived collection text promoted into source-document wording.
+TC-006,rights_authority,blocked,source_observed,no,no,reject,Rights-blocked source image treated as public evidence.
+TC-007,nwagu_count_layer,derived,derived,yes,yes,allow,Derived f-v split remains labelled as a derived analytical view.
+TC-008,digital_edition,derived,derived,yes,yes,allow,Editorial expansion remains labelled as editorial.
+TC-009,rights_authority,blocked,blocked,yes,no,allow,Rights-blocked item is carried forward only as a limitation.
+TC-010,cultural_heritage_ml,speculative,speculative,yes,yes,allow,Model-generated reading remains a hypothesis pending review.

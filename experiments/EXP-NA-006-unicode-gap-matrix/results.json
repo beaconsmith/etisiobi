@@ -1,0 +1,13 @@
+{
+  "experiment_id": "EXP-NA-006",
+  "generated_at": "2026-06-20T06:34:13+01:00",
+  "decision": "UNICODE_GAP_MATRIX_CREATED_NOT_PROPOSAL_READY",
+  "requirements": 12,
+  "status_counts": {
+    "present": 1,
+    "partial": 4,
+    "blocked": 3,
+    "missing": 4
+  },
+  "article_implication": "Article 6 can be a readiness/gap article; it cannot be framed as a Unicode proposal."
+}

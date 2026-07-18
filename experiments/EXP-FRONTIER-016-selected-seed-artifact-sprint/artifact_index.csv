@@ -1,0 +1,13 @@
+seed_id,lane_id,evidence_layer,artifact_path,artifact_type,status,claim_ceiling,next_action
+NWR-001,1,source_observed,artifacts/NWR-001-source-acquisition-decision-note.md,decision_note,bounded_artifact_internal_only,artifact_not_paper_candidate,turn source acquisition branches into a reviewed decision table
+NWR-009,2,authority_rights,artifacts/NWR-009-authority-role-map.md,role_map,bounded_artifact_internal_only,artifact_not_paper_candidate,map each authority role to review evidence and non-approval states
+NWR-017,3,derived,artifacts/NWR-017-reader-response-protocol.md,protocol,bounded_artifact_internal_only,artifact_not_paper_candidate,prepare a local response template without collecting responses
+NWR-025,4,source_observed,artifacts/NWR-025-logograph-uncertainty-ledger.md,ledger,bounded_artifact_internal_only,artifact_not_paper_candidate,convert sample ledger rows into a reviewed schema
+NWR-033,5,infrastructure,artifacts/NWR-033-unicode-gap-map.md,gap_map,bounded_artifact_internal_only,artifact_not_paper_candidate,rank repertoire blockers by evidence and authority dependency
+NWR-041,6,speculative,artifacts/NWR-041-modifier-operation-sketch.md,operation_sketch,bounded_artifact_internal_only,artifact_not_paper_candidate,add counterexamples before any formal branch
+NWR-049,7,infrastructure,artifacts/NWR-049-lpe-label-quality-audit.md,audit,bounded_artifact_internal_only,artifact_not_paper_candidate,turn label checks into an annotation quality gate
+NWR-057,8,infrastructure,artifacts/NWR-057-ro-crate-boundary-audit.md,audit,bounded_artifact_internal_only,artifact_not_paper_candidate,compare crate parts against boundary review requirements
+NWR-065,9,application,artifacts/NWR-065-layered-explainer-storyboard.md,storyboard,bounded_artifact_internal_only,artifact_not_paper_candidate,convert storyboard panels into a reader task
+NWR-073,10,application,artifacts/NWR-073-layer-lineage-card.md,lineage_template,bounded_artifact_internal_only,artifact_not_paper_candidate,require this card for any design abstraction
+NWR-081,11,speculative,artifacts/NWR-081-cross-domain-transfer-grid.md,transfer_grid,bounded_artifact_internal_only,artifact_not_paper_candidate,add collapse conditions before expanding analogies
+NWR-089,12,infrastructure,artifacts/NWR-089-portfolio-acceleration-dashboard-spec.md,dashboard_spec,bounded_artifact_internal_only,artifact_not_paper_candidate,implement a local dashboard only after metric review

@@ -1,0 +1,7 @@
+paper: community-os-pilot
+stage: drafting
+owner: human
+priority_tier: B
+promotion_status: ready_to_draft
+last_checkpoint: 2026-04-27
+next_action: write draft.tex directly — structure and artifact evidence confirmed from Oroma backend assessment; see autoresearch.md section 7 for outline

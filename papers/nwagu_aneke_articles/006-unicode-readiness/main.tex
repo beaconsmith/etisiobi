@@ -1,0 +1,610 @@
+\documentclass[sigconf,nonacm]{acmart}
+\settopmatter{printacmref=false}
+\setcopyright{none}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\pagestyle{plain}
+\raggedbottom
+
+\acmConference[Manuscript Draft]{Unicode Readiness Study}{2026}{}
+\acmYear{2026}
+\acmISBN{}
+\acmDOI{}
+
+\title{Unicode Readiness for Nwagu Aneke: A Gap Matrix for Character Evidence and Community Review}
+\author{Anonymous Author(s)}
+\affiliation{\institution{Independent research manuscript}\country{Nigeria}}
+\email{anonymous@example.invalid}
+
+\begin{abstract}
+Underdocumented scripts often enter digital-humanities and standards discussion
+before their evidence is strong enough for character encoding. This paper
+examines that intermediate condition through Nwagu Aneke, an Igbo writing
+system described in the scholarly and public script-status literature. The
+source base used here preserves a 26 by 8 table of vowel/modifier combinations,
+yielding 208 source-observed records, while treating a 27/216 f/v expansion as
+derived. A twelve-item Unicode-readiness matrix evaluates script identity,
+repertoire, character-glyph distinction, representative glyphs, character
+names, encoding model, directionality, punctuation and numbers, usage examples,
+community authority, implementation evidence, and proposal dossier status. The
+matrix finds one present requirement, four partial requirements, three blocked
+requirements, and four missing requirements. The result supports an evidence
+audit of readiness conditions while withholding encoding, repertoire, glyph,
+and public data-release conclusions until source transcription review, rights
+review, and community authority review are completed.
+\end{abstract}
+
+\keywords{Nwagu Aneke, Igbo writing systems, Unicode readiness, digital humanities, script documentation}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+Digital work on underdocumented scripts faces a recurring timing problem. A
+script may be documented well enough to be discussed, compared, and modeled, but
+too incompletely documented to support encoding, public glyph charts, or
+software implementation. If that intermediate state is handled poorly, the
+researcher has only two unsatisfactory choices: either avoid the script until a
+complete edition exists, or write as though partial evidence already supports a
+standards proposal. Neither choice is adequate for cultural heritage, digital
+humanities, or language technology.
+
+Nwagu Aneke makes the timing problem concrete. Azuonye's account describes the
+script as an Igbo writing system with potential significance for alternative
+literacy \cite{azuonye1992}. Public script-status resources identify the script
+and connect it to Unicode-status discussion \cite{omniglotNwagu,scriptSourceNwagu}.
+At the same time, the evidence currently available for computational and
+standards-facing work remains incomplete. The working source base used in this
+paper is a 26 by 8 table of vowel/modifier combinations, for 208
+source-observed records. A 27/216 representation created by splitting f/v is
+treated as a derived analytical layer. That distinction matters because a useful
+derived representation can become misleading if it is later described as
+source-observed.
+
+This paper asks whether the intermediate state can be made analytically useful
+without making it look more mature than it is. The research question is: what
+Unicode-readiness requirements are present, partial, blocked, or missing for
+Nwagu Aneke under the present evidence base? The hypothesis is that a
+requirement-by-requirement matrix can produce a useful negative result: it can
+show why the script is suitable for readiness analysis while still withholding
+encoding, repertoire, glyph, and authority conclusions.
+
+The contribution is a matrix and its interpretation. Twelve requirements are
+evaluated: script identity, repertoire inventory, character-glyph distinction,
+representative glyphs, names list, encoding model, directionality, punctuation
+and numbers, usage examples, community authority, implementation evidence, and
+proposal dossier. The matrix finds one present requirement, four partial
+requirements, three blocked requirements, and four missing requirements. That
+distribution is the paper's central result. It is not a failure to produce an
+encoding proposal. It is evidence that the responsible next work is source
+review, rights review, authority review, and character-evidence collection.
+
+\section{Related Work}
+The source anchor is Azuonye's study of the Nwagu Aneke Igbo script
+\cite{azuonye1992}. Public descriptions and script-status records provide
+secondary context for the script's visibility and current encoding status
+\cite{omniglotNwagu,scriptSourceNwagu,sirisNwaguProposal}. The Unicode
+Consortium's African-script update and current Unicode documentation provide
+the standards context in which unencoded and proposal-stage scripts are
+discussed \cite{unicodeAfricanScripts2023,unicode17CoreSpec}. Unicode proposal
+guidance and roadmaps clarify that a script's cultural or historical interest
+does not by itself settle the evidence required for encoding
+\cite{unicodeProposals,unicodeRoadmaps,unicodePipeline2026,seiProposalTips}.
+
+The paper also draws on digital-humanities and cultural-heritage infrastructure.
+TEI offers mechanisms for describing characters, glyphs, and writing modes
+\cite{teiP5Glyphs}. IIIF and the Web Annotation Data Model support source
+presentation and annotation of digitized cultural materials
+\cite{iiifPresentation3,w3cAnnotationModel,w3cAnnotationVocab}. PROV-O,
+RO-Crate, DataCite, and CIDOC CRM provide vocabularies for provenance,
+research-object packaging, citation, and cultural-heritage modeling
+\cite{w3cProvO,rocrate12,datacite45,cidocCrm}. FAIR and CARE principles frame
+the difference between technical reusability and responsible stewardship,
+especially where community authority and cultural data are involved
+\cite{wilkinson2016fair,carroll2020care}.
+
+Unicode readiness is best understood as a layered evidence problem rather than
+as a simple question of whether a script is interesting enough to encode. The
+Script Encoding Working Group guidelines foreground the distinction between
+characters and glyphs, the need to show usage, stability, and interchange need,
+and the practical requirements of proposal documents, properties, summary
+forms, fonts, and licensing \cite{unicodeProposals}. Roadmap pages make a
+related distinction visible: some scripts are already published, some have
+formal or mature proposals, and some remain exploratory or provisional
+\cite{unicodeRoadmaps}. For a script such as Nwagu Aneke, these distinctions
+matter because an exploratory source table, a digital-humanities model, and a
+standards submission are different scholarly objects. Treating them as one
+object would make a partial evidence base appear more settled than it is.
+
+The character-glyph distinction is central to the present study. Unicode
+encoding is concerned with abstract characters and their use in plain-text
+interchange, while glyphs are visual realizations that may vary across hands,
+fonts, manuscripts, or editorial displays \cite{unicode17CoreSpec}. This
+distinction becomes difficult in historical and underdocumented scripts because
+the surviving evidence may consist of charts, pedagogical displays, isolated
+examples, or manuscript images rather than a settled typographic tradition. A
+row in a chart may be a character, a class of glyphs, an editorial label, or a
+convenient representation of a larger orthographic pattern. The present matrix
+therefore does not move directly from a visible table to a repertoire claim. It
+asks which intermediate conditions have been satisfied before such a move would
+be responsible.
+
+Those infrastructures are relevant because Unicode readiness is not only a
+standards problem. Before a proposal exists, a research community may still need
+to describe source witnesses, record uncertainty, compare transcriptions, cite
+metadata, and share derived representations. TEI can represent a distinction
+between a glyph occurrence and a normalized character-like unit. IIIF and Web
+Annotation can identify regions of source images without forcing those regions
+to become public glyphs. PROV-O and RO-Crate can describe how a matrix was
+derived from sources. CIDOC CRM can place signs, documents, and events in a
+cultural-heritage model. These systems do not answer the encoding question by
+themselves. They provide a way to preserve evidence discipline before encoding
+language becomes appropriate.
+
+Finally, the problem is related to evidence preservation in computational
+systems. Scientific claim verification and citation-grounded generation
+research show how fluent text can misstate what cited evidence supports
+\cite{wadden2020scifact,gao2023alce}. Tokenization research shows that
+computational representations can be useful while also encoding design choices
+that affect later systems \cite{sennrich2016bpe,kudo2018sentencepiece,bostrom2020bytepair,rust2021tokenization}.
+For Nwagu Aneke, the analogous risk is that a source table, a derived f/v
+expansion, and a future character model may be collapsed into one apparent
+inventory. Unicode readiness therefore requires evidence typing as well as
+evidence collection.
+
+The analogy to tokenization is methodological rather than topical. A tokenizer
+does not merely count units; it defines a representational layer whose choices
+affect downstream models. A script-readiness matrix likewise defines what kind
+of unit is being counted. In the Nwagu Aneke case, 208 source-observed records
+and 216 derived analytical records are both useful numbers, but they answer
+different questions. The former describes the current source table used here;
+the latter describes an expansion produced by splitting f/v for analysis. A
+standards-facing character inventory would require a third object: a reviewed
+set of proposed abstract characters with names, properties, representative
+glyphs, usage evidence, and authority review. Much of the present paper is
+therefore concerned with preventing movement between these three objects before
+the evidence supports it.
+
+\section{Materials and Evidence}
+The material examined here is a text-only evidence base for Nwagu Aneke. The
+accepted source layer is a 26 by 8 arrangement of consonant or row labels against
+vowel/modifier columns, producing 208 source-observed records. The derived f/v
+layer expands that structure to 27/216 for analytical purposes, but the
+expansion is not treated as primary evidence. This separation is retained
+throughout the matrix.
+
+The matrix uses three evidence categories. The first category is source
+evidence: the specific records that support the 26 by 8 table and the textual
+claims that identify Nwagu Aneke as an Igbo writing system. The second category
+is standards evidence: public Unicode, Script Encoding Working Group, and
+Script Encoding Initiative materials that describe what a proposal would need to
+contain. The third category is stewardship evidence: source-review, rights, and
+authority conditions that determine whether examples, glyphs, and manuscript
+data can responsibly be made public. A row is treated as strong only when the
+relevant category is present. For example, script identity can be present with
+source and public metadata evidence; representative glyphs require source
+images and rights review; community authority requires a different kind of
+evidence altogether.
+
+The text-only scope is important. This paper does not reproduce source images,
+glyph crops, manuscript examples, or a font. It also does not introduce a
+private-use encoding, a keyboard, or a proposed block allocation. The absence of
+these artifacts is not hidden. It is recorded as part of the result. In a
+readiness audit, evidence that is absent or unavailable is just as important as
+evidence that is present, because absent evidence determines the ceiling of the
+public claim.
+
+The readiness matrix is summarized in Table~\ref{tab:readiness}. A status of
+``present'' means the evidence is adequate for the matrix row at the audit
+stage. A status of ``partial'' means relevant information exists, but further
+review or formalization is needed. A status of ``blocked'' means the row depends
+on source access, rights clearance, or authority decisions that cannot be
+substituted with formatting or inference. A status of ``missing'' means the
+current evidence base lacks the relevant material.
+
+\begin{table*}[t]
+\caption{Unicode-readiness matrix for Nwagu Aneke under the current evidence base}
+\label{tab:readiness}
+\begin{tabular}{p{0.18\textwidth}p{0.11\textwidth}p{0.62\textwidth}}
+\toprule
+Requirement & Status & Evidence or gap \\
+\midrule
+Script identity & Present & Nwagu Aneke is identified in Azuonye's account and public script metadata. \\
+Repertoire inventory & Partial & The 26 by 8 source table exists; glyph-level repertoire review remains incomplete. \\
+Character-glyph distinction & Partial & A working distinction can be stated, but expert encoding review is still needed. \\
+Representative glyphs & Blocked & Public image rights and selector-level review are unresolved. \\
+Names list & Partial & Row and vowel readings exist; Unicode character names have not been drafted. \\
+Encoding model & Missing & No formal block, ordering, property, or character model is available. \\
+Directionality & Partial & Public descriptions suggest left-to-right writing; source confirmation remains necessary. \\
+Punctuation and numbers & Missing & No reviewed evidence is available in the current package. \\
+Usage examples & Blocked & Manuscript corpus examples are not rights-cleared for public use. \\
+Community authority & Blocked & Authority and consultation records remain incomplete. \\
+Implementation evidence & Missing & No font, keyboard, or interoperable encoding implementation is available. \\
+Proposal dossier & Missing & No proposal dossier exists under the standards requirements considered here. \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\section{Method}
+The method has three steps. First, the current source and derived layers are
+separated. The source-observed layer is the 26 by 8 arrangement; the f/v
+expansion is recorded as derived. Second, a readiness rubric is constructed from
+the kinds of evidence normally needed before unencoded scripts can be discussed
+as candidates for character encoding: identity, repertoire, character-glyph
+distinction, representative glyph evidence, names, model, directionality,
+punctuation and numbers, usage examples, authority, implementation, and proposal
+documentation. Third, each row is assigned a status and interpreted in relation
+to the strongest public claim it can support.
+
+The research question is operationalized as follows: for each readiness
+requirement, what is the strongest public statement supported by the evidence
+now available? The hypothesis is that the answer will be uneven across
+requirements: some rows will support limited positive claims, while others will
+show that the current materials are insufficient for proposal framing. The
+method therefore evaluates each row twice. The first pass asks whether a
+specific evidence item exists. The second pass asks whether that evidence item
+is the right kind of evidence for the row. A public description of direction is
+useful, for instance, but it is weaker than a reviewed set of source examples
+showing writing direction across documents. A chart is useful for repertoire
+discussion, but it is weaker than a reviewed character inventory.
+
+The method deliberately avoids a binary ready/unready label. Binary labels are
+too coarse for underdocumented scripts. They hide whether the problem is
+technical, evidential, legal, or community-governance related. The present
+matrix instead distinguishes four conditions. Present rows can be used as
+starting points. Partial rows invite further documentation. Blocked rows require
+human source transcription review, rights review, or authority review. Missing
+rows identify evidence that has not yet been collected.
+
+The unit of analysis is the requirement row, not the script as a whole. This is
+why the matrix can say that script identity is present while implementation
+evidence is missing. It can also say that repertoire inventory is partial while
+representative glyphs are blocked. A whole-script label would flatten those
+differences. Row-level analysis preserves them and makes the next task more
+precise. If the blocked rows remain blocked, no amount of prose polish can
+repair the readiness gap. If the missing rows are later supplied, the matrix can
+be updated without rewriting the source-observed and derived-layer distinction.
+
+The row statuses were assigned by four coding rules. The first rule is
+specificity: each row must point to a named evidentiary object or to a named
+absence. For example, the repertoire row points to the 26 by 8 source layer, and
+the implementation row points to the absence of a font, keyboard, or
+interoperable encoding test. The second rule is type fit: the evidence must
+match the decision being made. A public description can support script identity,
+but it cannot replace representative glyph evidence. A source table can support
+inventory discussion, but it cannot replace a character-property model. The
+third rule is reversibility: if a future reviewer obtains stronger evidence,
+the row should be updatable without disturbing unrelated rows. A rights decision
+about glyph crops, for instance, would affect representative glyphs and perhaps
+usage examples, but it would not automatically settle punctuation or ordering.
+The fourth rule is claim restraint: a row may support only the strongest claim
+licensed by its weakest necessary evidence category.
+
+Those coding rules make the matrix inspectable. A reviewer can disagree with a
+row by naming which rule was applied incorrectly. If the reviewer believes that
+directionality should be present rather than partial, the reviewer must show
+that the existing evidence is both specific and type-fitting for directionality.
+If the reviewer believes that representative glyphs should be partial rather
+than blocked, the reviewer must show that source access and public-use rights
+are sufficient for the glyph examples being discussed. If the reviewer believes
+that implementation evidence should be partial rather than missing, the
+reviewer must identify an implementation artifact that can be inspected outside
+the prose. This is more useful than a general readiness score because it turns
+disagreement into a row-level evidence question.
+
+The method also distinguishes three forms of uncertainty. Transcription
+uncertainty concerns whether the source table has been read correctly. Modeling
+uncertainty concerns whether a source record should become a character, a glyph
+variant, a sequence, or a derived analytical unit. Stewardship uncertainty
+concerns whether public release of an example is authorized and appropriate.
+These uncertainties interact but should not be collapsed. A perfectly
+transcribed table could still lack a defensible encoding model. A technically
+coherent model could still lack rights clearance for examples. A rights-cleared
+example could still require community review before being used as a
+representative public form. The matrix keeps those uncertainties visible by
+assigning blocked and missing rows separately from partial rows.
+
+The source/derived distinction is the main control condition. Every matrix row
+is read against the rule that 26 by 8 is the current source-observed structure
+and 27/216 is a derived f/v expansion. The distinction is not merely arithmetic.
+It determines whether a later reader is looking at source evidence, editorial
+analysis, or a hypothetical standards object. In an underdocumented script,
+numbers can become persuasive even when their evidence layer is weak. The
+matrix therefore uses the source/derived distinction as a guardrail for all
+readiness claims.
+
+Finally, the method treats blocked rows as first-class findings. In many
+technical reports, rights, authority, and source-access questions appear as
+administrative caveats after the main result. That ordering is unsuitable here.
+For cultural-heritage scripts, rights and authority affect which evidence can
+be inspected, which examples can be reproduced, and whose knowledge is being
+represented. A blocked row is therefore part of the result, not an external
+obstacle to the result. This is why the matrix can produce a useful negative
+finding: it identifies exactly which prerequisites must change before the
+stronger standards question can be reopened.
+
+The method also treats negative results as results. A missing encoding model is
+not simply an absence; it is a constraint on what scholars, technologists, and
+standards participants should write next. A blocked representative-glyph row is
+not a typographic inconvenience; it marks the point where rights and source
+access matter. A missing proposal dossier prevents proposal framing even if the
+script is culturally important. The matrix is useful only if these limits are
+visible.
+
+\section{Results}
+The matrix assigns one requirement to the present category: script identity.
+Nwagu Aneke can be identified and discussed as a historically meaningful Igbo
+writing system on the basis of existing scholarship and public metadata
+\cite{azuonye1992,omniglotNwagu,scriptSourceNwagu}. This supports scholarly
+discussion of the script and justifies a readiness audit.
+
+The single present row should not be underestimated. Script identity is the row
+that makes the rest of the audit meaningful. Without an identifiable script,
+the matrix would only be an abstract exercise. Here, the script can be named,
+cited, and placed in a public script-status conversation. That is enough to
+justify an evidence audit. It is not enough to settle the internal structure of
+the script, but it does prevent the case from being treated as merely
+hypothetical.
+
+Four requirements are partial. Repertoire inventory is partial because the 26 by
+8 table gives a structured basis for discussion, while glyph-level character
+review remains incomplete. Character-glyph distinction is partial because the
+paper can distinguish source records, glyph appearances, and derived analytical
+forms, but an expert encoding analysis has not yet reviewed which distinctions
+should become characters. Names list is partial because row and vowel readings
+exist, but formal character names have not been drafted. Directionality is
+partial because public descriptions indicate left-to-right writing, while
+source confirmation is still needed.
+
+The partial rows identify where the current evidence is useful but unstable.
+The 26 by 8 table supports a controlled discussion of source-observed records,
+yet it does not decide whether each record corresponds to a Unicode character.
+The character-glyph distinction can be stated in principle, yet the distinction
+has not been applied across a reviewed corpus of examples. Row and vowel
+readings provide material for future names, yet Unicode names must follow
+standards conventions and require review. Directionality can be described from
+public accounts, yet a proposal would need stronger source examples and text
+behavior analysis. These are not empty gaps; they are the places where the next
+evidence collection would most efficiently increase readiness.
+
+Three requirements are blocked. Representative glyphs are blocked because public
+image rights and selector-level review are unresolved. Usage examples are
+blocked because manuscript corpus examples cannot be assumed available for
+public distribution. Community authority is blocked because consultation and
+authority records are incomplete. These rows cannot be solved by inferential
+confidence. They require decisions by people with appropriate source, rights,
+and community knowledge.
+
+The blocked rows are qualitatively different from the partial rows. They cannot
+be advanced by more careful wording alone. Representative glyphs require a
+decision about which visual forms can be shown and under what license. Usage
+examples require source access and permissions that allow readers to inspect
+the examples. Community authority requires accountable consultation, especially
+because Nwagu Aneke is not only an object of technical interest but part of an
+Igbo cultural and historical setting. Treating these rows as merely technical
+would be a category error.
+
+Four requirements are missing. No formal encoding model is available. No
+reviewed evidence for punctuation and numbers is present. No implementation
+evidence such as a font, keyboard, or interoperable encoding experiment is
+available. No proposal dossier exists. These missing rows are decisive for
+standards framing. A readiness discussion can proceed, but proposal language
+would outrun the evidence.
+
+The missing rows also show why the present work should remain a readiness
+study. An encoding model would need decisions about repertoire structure,
+ordering, properties, combining behavior if any, normalization implications, and
+plain-text interchange. Punctuation and numbers would need either script-specific
+evidence or an explicit argument for using existing characters. Implementation
+evidence would need an appropriate font or other interoperable demonstration.
+A proposal dossier would need a coherent document, forms, property data,
+examples, and licensing. None of these items follows automatically from the 26
+by 8 table.
+
+The resulting distribution is therefore 1 present, 4 partial, 3 blocked, and 4
+missing. The distribution shows why the strongest current contribution is an
+evidence-gap analysis. The source base is strong enough to organize the problem,
+but not strong enough to settle repertoire, glyph, usage, implementation, or
+authority questions.
+
+The distribution has a further implication: the order of future work matters.
+The first priority is not a font, because representative glyphs and usage
+examples remain blocked. The first priority is also not a proposal document,
+because the encoding model and dossier are missing. The most efficient next
+work is to stabilize the evidentiary base: review the source transcription,
+resolve public rights questions for examples, document authority relationships,
+and then decide whether the partial rows can be promoted to present. Only after
+that sequence would implementation or proposal work become analytically
+well-founded.
+
+\section{Discussion}
+The readiness matrix changes the form of the scholarly question. Instead of
+asking whether Nwagu Aneke should be encoded, it asks what evidence would have
+to exist before encoding discussion could responsibly proceed. That shift is
+important. Encoding is not only a technical desire to preserve a script in a
+universal character set. It is also a claim about character identity,
+representative forms, usage, stability, and community interest.
+
+This reframing is especially important for scripts whose public evidence is
+fragmentary. If the first public computational representation is too confident,
+later work may inherit its categories as facts. A derived f/v expansion may
+become a supposed source inventory; a row label may become a character name; a
+chart cell may become a glyph standard. Once those moves are embedded in
+datasets, software, or teaching materials, they become harder to correct. The
+matrix is therefore a preventive instrument. It records where confidence is
+earned and where it is still pending.
+
+The matrix also separates three activities that are often conflated. The first
+activity is source-critical documentation: preserving what can be said from
+available records. The second is digital-humanities modeling: representing
+source and derived layers in TEI, annotation, provenance, or research-object
+form. The third is standards proposal work: preparing evidence for character
+encoding. Nwagu Aneke can support the first two activities in limited ways
+before it supports the third.
+
+This separation has practical value. A digital edition can represent the 26 by
+8 source layer and label the f/v expansion as derived. A teaching or research
+interface can show the difference between observed and analytical layers. A
+metadata record can identify the script and cite the scholarly source. None of
+those activities requires a public code chart or a completed Unicode proposal.
+Conversely, a proposal would require a much stronger evidentiary base than the
+present matrix supplies.
+
+The separation also helps explain what kind of public artifact would be
+appropriate at each stage. A source-critical note can report the 26 by 8
+structure and the derived status of 27/216. A technical report can describe how
+to store uncertainty and provenance. A future digital edition could expose
+cleared examples with annotations. A future proposal could draw on those
+materials only after they have been reviewed. The same evidence may travel
+across these artifacts, but its claim status changes as the review context
+changes. This is why the present paper treats readiness as a sequence of
+evidence states rather than a single manuscript milestone.
+
+The blocked rows are especially important for cultural-heritage practice. A
+script can be historically significant and still require careful handling of
+source images, manuscript examples, and authority claims. FAIR principles make
+data findable and reusable; CARE principles remind researchers that reusability
+alone is not enough where people, communities, and authority relationships are
+involved \cite{wilkinson2016fair,carroll2020care}. The matrix therefore treats
+rights and authority as part of the evidence condition rather than as an
+afterthought.
+
+For standards work, the same point appears as a licensing and process issue.
+Unicode proposal guidance requires attention to contributors, potential IP
+holders, fonts, proposal documents, and supporting evidence
+\cite{unicodeProposals}. Those requirements are not bureaucratic decoration.
+They are the mechanism by which a proposed character set becomes usable in a
+global standard without creating avoidable ambiguity or rights problems. Nwagu
+Aneke therefore needs both philological care and standards care. The former
+asks whether the source reading is correct; the latter asks whether the
+proposed character model would support public interchange.
+
+The analysis also suggests a modest role for computational tools. Tools can
+help maintain separate layers, check whether derived counts are being promoted
+into source counts, and preserve provenance from table rows to later models.
+They can also make absence visible by keeping blocked and missing rows in the
+same table as present rows. But tools cannot create authority, licensing, or
+source access. A well-designed computational workflow should therefore slow
+down at exactly the points where this matrix marks a row as blocked.
+
+The matrix can also serve as a comparison template for other underdocumented
+scripts, provided that its categories are not treated as universal scores. A
+different script may have strong manuscript evidence but weak implementation
+evidence, or strong community usage but incomplete property analysis. The value
+of the template is the discipline of separating requirement rows, evidence
+types, and claim strength. For Nwagu Aneke, that discipline prevents the 208
+source-observed records from being inflated into a settled repertoire. For
+another script, the same discipline might prevent a font demonstration from
+being mistaken for usage evidence, or a community teaching chart from being
+mistaken for a stable encoding model. The comparative lesson is that readiness
+is not a single ladder. It is a set of evidence relations that mature at
+different rates.
+
+For that reason, a future revision should report row movement explicitly. A row
+should move from missing to partial only when a concrete artifact appears, from
+partial to present only when the artifact fits the decision, and from blocked
+to partial only when the blocking review has actually occurred.
+This preserves reviewable evidence history.
+
+This point matters for digital preservation. Preservation work often begins
+before all standards questions are resolved. A repository can preserve a source
+description, a transcription, a provenance trail, or a non-normative teaching
+representation while still making clear that the material is not a character
+encoding. Such early preservation is valuable when it keeps uncertainty
+visible. It becomes risky only when provisional structures are exported as
+settled public standards. The matrix therefore supports preservation and
+restraint at the same time: it encourages documentation of what is known, while
+making the missing and blocked requirements hard to ignore.
+
+\section{Limitations}
+The matrix is limited by the evidence base available for this paper. It does not
+provide a public glyph corpus, a source-image edition, a manuscript corpus, or a
+character-name proposal. The source-observed 26 by 8 structure may need revision
+if future source transcription review identifies errors or omissions. The
+derived f/v expansion may remain useful for analysis, but it should not be
+treated as source-observed without additional evidence.
+
+The matrix is also limited by its granularity. Twelve rows are enough to expose
+the major readiness gaps, but they do not capture every technical detail that a
+full script proposal would require. Character properties, ordering behavior,
+line breaking, shaping behavior, normalization, representative forms, and font
+engineering would each require more detailed treatment. The row labeled
+``encoding model'' therefore compresses several future technical questions. It
+is sufficient for a readiness audit, but it is not a substitute for a proposal
+engineering document.
+
+The matrix also depends on current public status information. Unicode roadmaps,
+pipeline pages, and proposal records can change over time
+\cite{unicodeRoadmaps,unicodePipeline2026}. Any future use of the matrix for
+standards-facing work should re-check public script-status sources. Similarly,
+rights review remains necessary before any source image, glyph crop, or
+manuscript example is distributed or reproduced.
+
+Another limitation is that the present study cannot adjudicate the full history
+of Nwagu Aneke use. It can cite the source anchor and public metadata, but it
+does not claim a complete social history, complete manuscript census, or
+complete account of contemporary community interest. Those questions are
+important, but they require methods beyond a text-only readiness matrix:
+archival work, oral history, authority review, and community-led decisions about
+public representation.
+
+Finally, the matrix does not replace community review. Community authority
+cannot be inferred from the existence of a table, a citation, or a digital
+model. It requires consultation, accountable representation, and decisions about
+what should be made public. The matrix identifies that requirement; it does not
+complete it.
+
+These limitations constrain the strongest responsible claim. The paper can
+state that Nwagu Aneke has enough evidence for a readiness audit and that the
+current distribution of requirements blocks proposal framing. It cannot state
+that the script is ready for encoding, that the character repertoire is
+complete, that representative glyphs are settled, or that public release of
+examples is authorized. Keeping those claims out of scope is not a rhetorical
+weakness. It is the condition that makes the reported result reliable.
+
+\section{Reproducibility}
+The reported matrix can be reproduced by checking the twelve rows in
+Table~\ref{tab:readiness} against the cited source and standards materials. The
+minimum checks are: confirm that Nwagu Aneke is identifiable in Azuonye and
+public script metadata; confirm that the working source layer is treated as 26
+by 8 rather than 27/216; confirm that the f/v expansion is described as derived;
+confirm that representative glyphs, usage examples, and community authority are
+marked as blocked; and confirm that encoding model, punctuation and numbers,
+implementation evidence, and proposal dossier are marked as missing.
+
+Reproduction also requires checking the limitations. A reader should be able to
+verify that source transcription review and rights review remain necessary
+before stronger public claims are made. If new source records, rights decisions,
+or community review outcomes become available, the relevant rows should be
+updated rather than silently folded into the existing result.
+
+For a second reviewer, the most important reproducibility check is the
+source/derived distinction. The 26 by 8 table should reproduce as 208
+source-observed records. The 27/216 figure should appear only as a derived f/v
+expansion. If a future dataset, figure, or prose revision treats 27/216 as
+source-observed, it has changed the evidentiary layer and should be rejected or
+reclassified. This check is mechanical, but it protects the central claim of
+the paper.
+
+A third reviewer can reproduce the standards-facing conclusion by reading the
+missing and blocked rows against Unicode proposal expectations. Usage,
+stability, interchange need, character-glyph distinction, proposal documents,
+character properties, examples, fonts, and licensing all appear in the relevant
+standards guidance \cite{unicodeProposals,unicode17CoreSpec}. Under the present
+matrix, several of those items are blocked or missing. The conclusion therefore
+does not depend on a subjective judgment that the script is underdocumented; it
+depends on row-level evidence that named readiness conditions have not yet been
+satisfied.
+
+\section{Conclusion}
+Nwagu Aneke is ready for a Unicode-readiness audit, but the present evidence
+does not support proposal framing. The twelve-item matrix finds one present
+requirement, four partial requirements, three blocked requirements, and four
+missing requirements. This result gives digital-humanities and standards
+researchers a disciplined way to discuss an underdocumented script without
+turning source promise into character-encoding readiness. The next scholarly
+work is not a code chart; it is source transcription review, rights review,
+community authority review, and character-evidence collection.
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{../references}
+\end{document}

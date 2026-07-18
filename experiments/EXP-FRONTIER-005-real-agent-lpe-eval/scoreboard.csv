@@ -1,0 +1,9 @@
+condition,agent_id,n_scored,tp,fp,fn,tn,precision,recall,f1,mcc,balanced_accuracy,severity_weighted_recall,lpe_rate_ci,source_observed_false_assertion_rate,derived_layer_preservation_rate
+C0_no_layer_labels,codex_C0_no_layer_labels,360,45,15,12,288,0.75,0.7895,0.7692,0.7248,0.87,0.8201,"{'low': 0.1243, 'high': 0.1996}",0.0,0.0
+C2_claim_gate,codex_C2_claim_gate,360,21,1,36,302,0.9545,0.3684,0.5316,0.5564,0.6826,0.446,"{'low': 0.1243, 'high': 0.1996}",0.0528,0.3871
+C0_no_layer_labels,baseline_C0_no_layer_labels,360,32,38,25,265,0.4571,0.5614,0.5039,0.4022,0.718,0.6043,"{'low': 0.1243, 'high': 0.1996}",0.1611,0.3226
+C1_layer_labels,baseline_C1_layer_labels,360,31,45,26,258,0.4079,0.5439,0.4662,0.3536,0.6977,0.5827,"{'low': 0.1243, 'high': 0.1996}",0.1778,0.3226
+C2_claim_gate,baseline_C2_claim_gate,360,32,51,25,252,0.3855,0.5614,0.4571,0.3407,0.6965,0.6043,"{'low': 0.1243, 'high': 0.1996}",0.1972,0.3226
+C3_adversarial_review,baseline_C3_adversarial_review,360,32,67,25,236,0.3232,0.5614,0.4103,0.2782,0.6701,0.6043,"{'low': 0.1243, 'high': 0.1996}",0.2417,0.3226
+C1_layer_labels,codex_C1_layer_labels,360,15,2,42,301,0.8824,0.2632,0.4054,0.4415,0.6283,0.3237,"{'low': 0.1243, 'high': 0.1996}",0.0333,0.6452
+C3_adversarial_review,codex_C3_adversarial_review,360,10,2,47,301,0.8333,0.1754,0.2899,0.3434,0.5844,0.2158,"{'low': 0.1243, 'high': 0.1996}",0.0222,0.2903

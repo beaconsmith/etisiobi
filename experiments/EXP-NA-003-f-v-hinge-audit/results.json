@@ -1,0 +1,11 @@
+{
+  "experiment_id": "EXP-NA-003",
+  "generated_at": "2026-06-20T06:34:13+01:00",
+  "decision": "F_V_HINGE_CONFIRMED_AS_DERIVED_OPERATION_NOT_SOURCE_ROW_COUNT",
+  "source_combined_records": 8,
+  "derived_split_records": 16,
+  "delta_records": 8,
+  "source_rows": 26,
+  "derived_rows_if_split": 27,
+  "article_implication": "Article 3 can argue the f/v row is the controlled hinge between source and derived systems; it cannot claim a completed phonological review."
+}

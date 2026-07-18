@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-06-27",
+  "status": "pass",
+  "errors": [],
+  "checked": [
+    "RESEARCH_SYSTEM_BOOTSTRAP.md",
+    "research_state.yaml",
+    "research_repo_audit.md",
+    "repo_index.json",
+    "repo_map.md",
+    "corpus/sources.jsonl",
+    "corpus/claims.jsonl",
+    "corpus/evidence.jsonl",
+    "corpus/idea_graph.json",
+    "research_goals/backlog.md",
+    "obsidian_vault/00_Home.md",
+    "obsidian_vault/Canvases/Research Atlas.canvas",
+    "paper/main.tex",
+    "paper/claim_audit.md",
+    "SECURITY_RESEARCH_GUARDRAILS.md",
+    "HUMAN_APPROVAL_GATES.md"
+  ]
+}

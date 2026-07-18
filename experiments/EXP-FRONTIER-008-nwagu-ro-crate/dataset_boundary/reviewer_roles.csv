@@ -1,0 +1,6 @@
+role_id,responsibility,required_before,current_status,approval_scope,may_approve_current_public_release
+rights_authority_reviewer,check copyright licensing and source-file permissions,dataset_boundary_approval,not_reviewed,may approve or reject candidate rights boundary,no
+community_authority_reviewer,check cultural authority display and training restrictions,dataset_boundary_approval,not_reviewed,may approve or reject authority boundary,no
+source_dossier_reviewer,check that source observations stay in canonical source records,dataset_boundary_approval,not_reviewed,may approve or reject source-dossier boundary,no
+preservation_infrastructure_reviewer,check DataLad and archive-readiness implications,dataset_boundary_approval,not_reviewed,may approve or reject infrastructure boundary,no
+data_protection_reviewer,check privacy and human-response handling,dataset_boundary_approval,not_reviewed,may approve or reject privacy boundary,no

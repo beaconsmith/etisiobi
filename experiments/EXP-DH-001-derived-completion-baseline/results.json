@@ -1,0 +1,914 @@
+{
+  "experiment_id": "EXP-DH-001-derived-completion-baseline",
+  "hypothesis_id": "DH-001",
+  "status": "SOURCE_RECORD_SCREEN_PASS_ADVERSARIAL_VALUE_BLOCKED",
+  "source_layer": {
+    "rows": 26,
+    "columns": 8,
+    "records": 208
+  },
+  "derived_layer": {
+    "rule": "f/v split only",
+    "rows": 27,
+    "columns": 8,
+    "records": 216,
+    "claim_type": "derived formal hypothesis"
+  },
+  "dataset": "data\\toy_completion_cases.csv",
+  "counterexample_dataset": "data\\counterexample_cases.csv",
+  "source_constraint_dataset": "data\\source_transcription_constraints.csv",
+  "source_record_dataset": "data\\source_record_cases.csv",
+  "adversarial_variant_dataset": "data\\adversarial_variants.csv",
+  "source_feature_task_dataset": "data\\source_feature_task_cases.csv",
+  "case_count": 16,
+  "counterexample_case_count": 6,
+  "source_constraint_count": 6,
+  "source_record_case_count": 8,
+  "adversarial_variant_count": 6,
+  "source_feature_task_case_count": 5,
+  "source_constraint_status": "PASS",
+  "source_record_status": "PASS",
+  "adversarial_value_status": "BLOCKED_LABEL_ONLY",
+  "source_feature_task_status": "PASS",
+  "source_feature_value_status": "PARK_LABEL_DEPENDENT",
+  "label_dependence_detected": true,
+  "models": {
+    "source_26x8_collapsed": {
+      "model": "source_26x8_collapsed",
+      "case_count": 16,
+      "role_recovery_accuracy": 0.0,
+      "role_collision_count": 15,
+      "source_claim_safety": true,
+      "counterexample_gate_accuracy": 0.8333333333333334,
+      "unsafe_source_claim_rejections": 3,
+      "source_constraint_violations": 0,
+      "source_constraint_violation_ids": [],
+      "source_record_gate_accuracy": 1.0,
+      "adversarial_overclaim_rejections": 6,
+      "source_feature_task_accuracy": 1.0,
+      "source_feature_positive_support_count": 0,
+      "value_beyond_label_evidence": "not_demonstrated",
+      "counterexample_screen_status": "BOUNDED_OR_FAIL",
+      "predictions": [
+        {
+          "case_id": "DH001-001",
+          "expected": "F_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-002",
+          "expected": "F_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-003",
+          "expected": "F_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-004",
+          "expected": "F_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-005",
+          "expected": "F_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-006",
+          "expected": "F_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-007",
+          "expected": "F_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-008",
+          "expected": "F_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-009",
+          "expected": "V_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-010",
+          "expected": "V_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-011",
+          "expected": "V_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-012",
+          "expected": "V_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-013",
+          "expected": "V_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-014",
+          "expected": "V_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-015",
+          "expected": "V_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-016",
+          "expected": "V_ROLE",
+          "predicted": "FV_COLLAPSED",
+          "correct": false
+        }
+      ],
+      "counterexample_predictions": [
+        {
+          "case_id": "DH001-CE-001",
+          "claim_class": "unsafe_source_promotion",
+          "expected_gate": "reject",
+          "predicted_gate": "reject",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-CE-002",
+          "claim_class": "unsafe_source_promotion",
+          "expected_gate": "reject",
+          "predicted_gate": "reject",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-CE-003",
+          "claim_class": "unsafe_source_promotion",
+          "expected_gate": "reject",
+          "predicted_gate": "reject",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-CE-004",
+          "claim_class": "safe_source_statement",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-CE-005",
+          "claim_class": "safe_derived_statement",
+          "expected_gate": "preserve",
+          "predicted_gate": "reject",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-CE-006",
+          "claim_class": "safe_stage_statement",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        }
+      ],
+      "source_record_predictions": [
+        {
+          "case_id": "DH001-SR-001",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-002",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-003",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-004",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-005",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-006",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-007",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-008",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        }
+      ],
+      "adversarial_predictions": [
+        {
+          "case_id": "DH001-ADV-001",
+          "variant_type": "masked_role",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-ADV-002",
+          "variant_type": "masked_role",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-ADV-003",
+          "variant_type": "masked_role",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-ADV-004",
+          "variant_type": "source_only_combined_row",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-ADV-005",
+          "variant_type": "representation_choice",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-ADV-006",
+          "variant_type": "approximate_symbol_count",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        }
+      ],
+      "source_feature_predictions": [
+        {
+          "case_id": "DH001-SF-001",
+          "feature_name": "printed_consonant_rows",
+          "expected_decision": "insufficient_non_label_evidence",
+          "predicted_decision": "insufficient_non_label_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SF-002",
+          "feature_name": "f_v_row_status",
+          "expected_decision": "insufficient_non_label_evidence",
+          "predicted_decision": "insufficient_non_label_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SF-003",
+          "feature_name": "standalone_vowels",
+          "expected_decision": "insufficient_non_label_evidence",
+          "predicted_decision": "insufficient_non_label_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SF-004",
+          "feature_name": "tone_marking",
+          "expected_decision": "insufficient_non_label_evidence",
+          "predicted_decision": "insufficient_non_label_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SF-005",
+          "feature_name": "matrix_status",
+          "expected_decision": "insufficient_non_label_evidence",
+          "predicted_decision": "insufficient_non_label_evidence",
+          "correct": true
+        }
+      ]
+    },
+    "derived_27x8_role_split": {
+      "model": "derived_27x8_role_split",
+      "case_count": 16,
+      "role_recovery_accuracy": 1.0,
+      "role_collision_count": 14,
+      "source_claim_safety": true,
+      "counterexample_gate_accuracy": 1.0,
+      "unsafe_source_claim_rejections": 3,
+      "source_constraint_violations": 0,
+      "source_constraint_violation_ids": [],
+      "source_record_gate_accuracy": 1.0,
+      "adversarial_overclaim_rejections": 6,
+      "source_feature_task_accuracy": 1.0,
+      "source_feature_positive_support_count": 0,
+      "value_beyond_label_evidence": "not_demonstrated",
+      "counterexample_screen_status": "PASS",
+      "predictions": [
+        {
+          "case_id": "DH001-001",
+          "expected": "F_ROLE",
+          "predicted": "F_ROLE",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-002",
+          "expected": "F_ROLE",
+          "predicted": "F_ROLE",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-003",
+          "expected": "F_ROLE",
+          "predicted": "F_ROLE",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-004",
+          "expected": "F_ROLE",
+          "predicted": "F_ROLE",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-005",
+          "expected": "F_ROLE",
+          "predicted": "F_ROLE",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-006",
+          "expected": "F_ROLE",
+          "predicted": "F_ROLE",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-007",
+          "expected": "F_ROLE",
+          "predicted": "F_ROLE",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-008",
+          "expected": "F_ROLE",
+          "predicted": "F_ROLE",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-009",
+          "expected": "V_ROLE",
+          "predicted": "V_ROLE",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-010",
+          "expected": "V_ROLE",
+          "predicted": "V_ROLE",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-011",
+          "expected": "V_ROLE",
+          "predicted": "V_ROLE",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-012",
+          "expected": "V_ROLE",
+          "predicted": "V_ROLE",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-013",
+          "expected": "V_ROLE",
+          "predicted": "V_ROLE",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-014",
+          "expected": "V_ROLE",
+          "predicted": "V_ROLE",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-015",
+          "expected": "V_ROLE",
+          "predicted": "V_ROLE",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-016",
+          "expected": "V_ROLE",
+          "predicted": "V_ROLE",
+          "correct": true
+        }
+      ],
+      "counterexample_predictions": [
+        {
+          "case_id": "DH001-CE-001",
+          "claim_class": "unsafe_source_promotion",
+          "expected_gate": "reject",
+          "predicted_gate": "reject",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-CE-002",
+          "claim_class": "unsafe_source_promotion",
+          "expected_gate": "reject",
+          "predicted_gate": "reject",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-CE-003",
+          "claim_class": "unsafe_source_promotion",
+          "expected_gate": "reject",
+          "predicted_gate": "reject",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-CE-004",
+          "claim_class": "safe_source_statement",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-CE-005",
+          "claim_class": "safe_derived_statement",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-CE-006",
+          "claim_class": "safe_stage_statement",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        }
+      ],
+      "source_record_predictions": [
+        {
+          "case_id": "DH001-SR-001",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-002",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-003",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-004",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-005",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-006",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-007",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-008",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        }
+      ],
+      "adversarial_predictions": [
+        {
+          "case_id": "DH001-ADV-001",
+          "variant_type": "masked_role",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-ADV-002",
+          "variant_type": "masked_role",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-ADV-003",
+          "variant_type": "masked_role",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-ADV-004",
+          "variant_type": "source_only_combined_row",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-ADV-005",
+          "variant_type": "representation_choice",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-ADV-006",
+          "variant_type": "approximate_symbol_count",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        }
+      ],
+      "source_feature_predictions": [
+        {
+          "case_id": "DH001-SF-001",
+          "feature_name": "printed_consonant_rows",
+          "expected_decision": "insufficient_non_label_evidence",
+          "predicted_decision": "insufficient_non_label_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SF-002",
+          "feature_name": "f_v_row_status",
+          "expected_decision": "insufficient_non_label_evidence",
+          "predicted_decision": "insufficient_non_label_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SF-003",
+          "feature_name": "standalone_vowels",
+          "expected_decision": "insufficient_non_label_evidence",
+          "predicted_decision": "insufficient_non_label_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SF-004",
+          "feature_name": "tone_marking",
+          "expected_decision": "insufficient_non_label_evidence",
+          "predicted_decision": "insufficient_non_label_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SF-005",
+          "feature_name": "matrix_status",
+          "expected_decision": "insufficient_non_label_evidence",
+          "predicted_decision": "insufficient_non_label_evidence",
+          "correct": true
+        }
+      ]
+    },
+    "shuffled_completion": {
+      "model": "shuffled_completion",
+      "case_count": 16,
+      "role_recovery_accuracy": 0.0,
+      "role_collision_count": 14,
+      "source_claim_safety": true,
+      "counterexample_gate_accuracy": 0.8333333333333334,
+      "unsafe_source_claim_rejections": 3,
+      "source_constraint_violations": 2,
+      "source_constraint_violation_ids": [
+        "DH001-SC-004",
+        "DH001-SC-005"
+      ],
+      "source_record_gate_accuracy": 1.0,
+      "adversarial_overclaim_rejections": 6,
+      "source_feature_task_accuracy": 1.0,
+      "source_feature_positive_support_count": 0,
+      "value_beyond_label_evidence": "not_demonstrated",
+      "counterexample_screen_status": "BOUNDED_OR_FAIL",
+      "predictions": [
+        {
+          "case_id": "DH001-001",
+          "expected": "F_ROLE",
+          "predicted": "V_ROLE",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-002",
+          "expected": "F_ROLE",
+          "predicted": "V_ROLE",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-003",
+          "expected": "F_ROLE",
+          "predicted": "V_ROLE",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-004",
+          "expected": "F_ROLE",
+          "predicted": "V_ROLE",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-005",
+          "expected": "F_ROLE",
+          "predicted": "V_ROLE",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-006",
+          "expected": "F_ROLE",
+          "predicted": "V_ROLE",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-007",
+          "expected": "F_ROLE",
+          "predicted": "V_ROLE",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-008",
+          "expected": "F_ROLE",
+          "predicted": "V_ROLE",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-009",
+          "expected": "V_ROLE",
+          "predicted": "F_ROLE",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-010",
+          "expected": "V_ROLE",
+          "predicted": "F_ROLE",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-011",
+          "expected": "V_ROLE",
+          "predicted": "F_ROLE",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-012",
+          "expected": "V_ROLE",
+          "predicted": "F_ROLE",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-013",
+          "expected": "V_ROLE",
+          "predicted": "F_ROLE",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-014",
+          "expected": "V_ROLE",
+          "predicted": "F_ROLE",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-015",
+          "expected": "V_ROLE",
+          "predicted": "F_ROLE",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-016",
+          "expected": "V_ROLE",
+          "predicted": "F_ROLE",
+          "correct": false
+        }
+      ],
+      "counterexample_predictions": [
+        {
+          "case_id": "DH001-CE-001",
+          "claim_class": "unsafe_source_promotion",
+          "expected_gate": "reject",
+          "predicted_gate": "reject",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-CE-002",
+          "claim_class": "unsafe_source_promotion",
+          "expected_gate": "reject",
+          "predicted_gate": "reject",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-CE-003",
+          "claim_class": "unsafe_source_promotion",
+          "expected_gate": "reject",
+          "predicted_gate": "reject",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-CE-004",
+          "claim_class": "safe_source_statement",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-CE-005",
+          "claim_class": "safe_derived_statement",
+          "expected_gate": "preserve",
+          "predicted_gate": "reject",
+          "correct": false
+        },
+        {
+          "case_id": "DH001-CE-006",
+          "claim_class": "safe_stage_statement",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        }
+      ],
+      "source_record_predictions": [
+        {
+          "case_id": "DH001-SR-001",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-002",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-003",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-004",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-005",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-006",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-007",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SR-008",
+          "expected_gate": "preserve",
+          "predicted_gate": "preserve",
+          "correct": true
+        }
+      ],
+      "adversarial_predictions": [
+        {
+          "case_id": "DH001-ADV-001",
+          "variant_type": "masked_role",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-ADV-002",
+          "variant_type": "masked_role",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-ADV-003",
+          "variant_type": "masked_role",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-ADV-004",
+          "variant_type": "source_only_combined_row",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-ADV-005",
+          "variant_type": "representation_choice",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-ADV-006",
+          "variant_type": "approximate_symbol_count",
+          "expected_decision": "insufficient_evidence",
+          "predicted_decision": "insufficient_evidence",
+          "correct": true
+        }
+      ],
+      "source_feature_predictions": [
+        {
+          "case_id": "DH001-SF-001",
+          "feature_name": "printed_consonant_rows",
+          "expected_decision": "insufficient_non_label_evidence",
+          "predicted_decision": "insufficient_non_label_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SF-002",
+          "feature_name": "f_v_row_status",
+          "expected_decision": "insufficient_non_label_evidence",
+          "predicted_decision": "insufficient_non_label_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SF-003",
+          "feature_name": "standalone_vowels",
+          "expected_decision": "insufficient_non_label_evidence",
+          "predicted_decision": "insufficient_non_label_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SF-004",
+          "feature_name": "tone_marking",
+          "expected_decision": "insufficient_non_label_evidence",
+          "predicted_decision": "insufficient_non_label_evidence",
+          "correct": true
+        },
+        {
+          "case_id": "DH001-SF-005",
+          "feature_name": "matrix_status",
+          "expected_decision": "insufficient_non_label_evidence",
+          "predicted_decision": "insufficient_non_label_evidence",
+          "correct": true
+        }
+      ]
+    }
+  },
+  "best_model": "derived_27x8_role_split",
+  "result": "The derived role split wins this constructed role-recovery task and preserves reviewed source records, but adversarial variants and source-feature cases show that value beyond the f/v labels is not yet demonstrated.",
+  "claim_ceiling": "Internal derived-hypothesis evidence; not source-observed 27x8, not public release, and not paper-candidate evidence by itself.",
+  "next_action": "Park DH-001 as a formally safe but scientifically label-dependent branch unless a future source or corpus-usage event supplies non-label evidence for the f/v split."
+}

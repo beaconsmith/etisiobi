@@ -1,0 +1,24 @@
+{
+  "article_id": "ARTICLE-NA-006",
+  "status": "FIGURES_TABLES_MANIFEST_COMPLETE_TEXT_ONLY",
+  "tables": [
+    {
+      "id": "table_unicode_gap_matrix",
+      "source": "experiments/EXP-NA-006-unicode-gap-matrix/data/unicode_gap_matrix.csv",
+      "description": "Twelve Unicode-readiness requirements with present, partial, blocked, or missing status."
+    },
+    {
+      "id": "table_status_counts",
+      "source": "experiments/EXP-NA-006-unicode-gap-matrix/results.json",
+      "description": "Status-count summary: present=1, partial=4, blocked=3, missing=4."
+    }
+  ],
+  "figures": [],
+  "excluded": [
+    "No public source-image reproduction.",
+    "No representative glyph chart.",
+    "No Unicode block chart.",
+    "No implementation screenshot.",
+    "No public manuscript page or glyph crop."
+  ]
+}

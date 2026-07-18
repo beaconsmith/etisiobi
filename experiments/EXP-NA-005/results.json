@@ -1,0 +1,24 @@
+{
+  "experiment_id": "EXP-NA-005",
+  "canonical_source": "experiments/EXP-NA-005-tei-iiif-selectors/results.json",
+  "generated_at": "2026-06-27",
+  "decision": "SELECTOR_LAYER_SAMPLE_CREATED_PIXEL_COORDINATES_BLOCKED",
+  "annotation_records": 10,
+  "tei_glyph_declarations": 10,
+  "records_with_pixel_coordinates": 0,
+  "web_annotation_source": "experiments/EXP-NA-005-tei-iiif-selectors/data/web_annotation_sample.jsonld",
+  "tei_declaration_source": "experiments/EXP-NA-005-tei-iiif-selectors/data/tei_glyph_declarations.jsonl",
+  "mapping_status": "partial_selector_no_pixel_coordinates",
+  "review_status": "human_review_needed",
+  "permitted_use": [
+    "Use the ten-record sample as a standards-mapping proof of concept.",
+    "Use TEI locators and Web Annotation TextQuoteSelector values as non-image selector leads.",
+    "Use the result to define what a later coordinate-level critical edition must add."
+  ],
+  "forbidden_use": [
+    "Do not claim a complete IIIF critical edition.",
+    "Do not claim pixel-level source annotation.",
+    "Do not claim reviewed glyph images or public image release."
+  ],
+  "article_implication": "Article 5 can report a TEI/Web Annotation selector-layer mapping sample, but a critical edition still requires pixel coordinates, source-image rights, and human glyph review."
+}

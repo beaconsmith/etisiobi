@@ -1,0 +1,135 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "Etisiobi Lab OS Research Object",
+      "description": "Research object package for the Etisiobi lab OS and Nwagu Aneke artifact dossier.",
+      "datePublished": "2026-05-28",
+      "license": "Rights and community authority review required before external release.",
+      "hasPart": [
+        {
+          "@id": "LAB_CHARTER.md"
+        },
+        {
+          "@id": "LAB_OPERATING_SYSTEM.md"
+        },
+        {
+          "@id": "CLAIM_MATURITY_MODEL.md"
+        },
+        {
+          "@id": "EVIDENCE_POLICY.md"
+        },
+        {
+          "@id": "DATA_GOVERNANCE_CARE_FAIR.md"
+        },
+        {
+          "@id": "artifacts/nwagu_aneke/README.md"
+        },
+        {
+          "@id": "artifacts/nwagu_aneke/base_count_audit.md"
+        },
+        {
+          "@id": "corpus/claims.jsonl"
+        },
+        {
+          "@id": "corpus/claim_maturity.json"
+        },
+        {
+          "@id": "decisions/decision_log.jsonl"
+        },
+        {
+          "@id": "provenance/prov_graph.jsonld"
+        }
+      ]
+    },
+    {
+      "@id": "LAB_CHARTER.md",
+      "@type": "File",
+      "name": "LAB_CHARTER.md",
+      "contentSize": 2920,
+      "sha256": "c0e491a05d2b3cbaef2b511d2a1fab0edfdd052fa757fd307a62832038f4f334"
+    },
+    {
+      "@id": "LAB_OPERATING_SYSTEM.md",
+      "@type": "File",
+      "name": "LAB_OPERATING_SYSTEM.md",
+      "contentSize": 1671,
+      "sha256": "6f2ea2e58f5e22f6dc8fdd879c030180e6744872900a434fdc78be8b6c8b2661"
+    },
+    {
+      "@id": "CLAIM_MATURITY_MODEL.md",
+      "@type": "File",
+      "name": "CLAIM_MATURITY_MODEL.md",
+      "contentSize": 2783,
+      "sha256": "b0ba6120ad35eb4e69a7da228fa798f432f40f8cbb7795285f2268d196da0c65"
+    },
+    {
+      "@id": "EVIDENCE_POLICY.md",
+      "@type": "File",
+      "name": "EVIDENCE_POLICY.md",
+      "contentSize": 1523,
+      "sha256": "f95ace6d3ea4a7a61751a83c139619620f29546ab76b412980eea86dd1dba141"
+    },
+    {
+      "@id": "DATA_GOVERNANCE_CARE_FAIR.md",
+      "@type": "File",
+      "name": "DATA_GOVERNANCE_CARE_FAIR.md",
+      "contentSize": 1563,
+      "sha256": "f10a9cd710939a223739402447bca85d759f63c5d2279348d0b85792c2404ec3"
+    },
+    {
+      "@id": "artifacts/nwagu_aneke/README.md",
+      "@type": "File",
+      "name": "artifacts/nwagu_aneke/README.md",
+      "contentSize": 1146,
+      "sha256": "880b7d7de7640394ca70e0c938e6a822529e705400cc671ef703893789389b94"
+    },
+    {
+      "@id": "artifacts/nwagu_aneke/base_count_audit.md",
+      "@type": "File",
+      "name": "artifacts/nwagu_aneke/base_count_audit.md",
+      "contentSize": 1007,
+      "sha256": "51dc2e3892e82c8530c49d6b4a3765d3b8e8f8b8cbd117bb9b77d4b42131897a"
+    },
+    {
+      "@id": "corpus/claims.jsonl",
+      "@type": "File",
+      "name": "corpus/claims.jsonl",
+      "contentSize": 8833,
+      "sha256": "0b9cee0ec62cfeb3881c18e4da833cf0c7f05a9eb0ae715526edab31cc4d5043"
+    },
+    {
+      "@id": "corpus/claim_maturity.json",
+      "@type": "File",
+      "name": "corpus/claim_maturity.json",
+      "contentSize": 11288,
+      "sha256": "90e2a2af642fdf614a155e3505c1945a136203683aa54ba8f950e41a3e73cfc9"
+    },
+    {
+      "@id": "decisions/decision_log.jsonl",
+      "@type": "File",
+      "name": "decisions/decision_log.jsonl",
+      "contentSize": 4613,
+      "sha256": "cbdf0830aac90c98a816431a04a9b79b8acb14b4f2e4618eb654994e8488dc5b"
+    },
+    {
+      "@id": "provenance/prov_graph.jsonld",
+      "@type": "File",
+      "name": "provenance/prov_graph.jsonld",
+      "contentSize": 4101,
+      "sha256": "4578e35fd49e9d1538aaa41e5a484495b1ae8fdcaaa04a33d32a3c9d8fd40f55"
+    }
+  ]
+}

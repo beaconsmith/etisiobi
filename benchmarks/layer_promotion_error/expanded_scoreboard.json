@@ -1,0 +1,61 @@
+{
+  "experiment_id": "EXP-FRONTIER-002",
+  "benchmark_id": "LPE-BENCH-002",
+  "generated_at": "2026-06-21T09:31:50+01:00",
+  "status": "EXPANDED_BENCHMARK_INTERNAL_NOT_FRONTIER_PROOF",
+  "case_count": 510,
+  "source_type_counts": {
+    "real_repo_claim": 225,
+    "cross_program": 165,
+    "external_prior_art_control": 30,
+    "adversarial_hard_case": 90
+  },
+  "variant_type_counts": {
+    "real_claim": 130,
+    "edited_real_claim": 130,
+    "adversarial_promotion": 130,
+    "external_control": 10,
+    "external_adversarial": 10,
+    "external_boundary": 10,
+    "hard_positive_no_trigger": 50,
+    "hard_negative_trigger_words": 40
+  },
+  "split_counts": {
+    "train": 292,
+    "dev": 107,
+    "test": 111
+  },
+  "gold_positive_rate": 0.3725,
+  "best_test_baseline": {
+    "baseline": "rank_only_metadata",
+    "n": 111,
+    "tp": 44,
+    "fp": 0,
+    "fn": 0,
+    "tn": 67,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "balanced_accuracy": 1.0,
+    "mcc": 1.0,
+    "severity_weighted_recall": 1.0,
+    "split": "test"
+  },
+  "best_metadata_free_test_baseline": {
+    "baseline": "lexical_only",
+    "n": 111,
+    "tp": 34,
+    "fp": 7,
+    "fn": 10,
+    "tn": 60,
+    "precision": 0.8293,
+    "recall": 0.7727,
+    "f1": 0.8,
+    "balanced_accuracy": 0.8341,
+    "mcc": 0.6773,
+    "severity_weighted_recall": 0.75,
+    "split": "test"
+  },
+  "frontier_claim_status": "not_ready",
+  "current_limit": "Cases are larger and partly repo-derived, but labels are still heuristic and not blind-reviewed."
+}

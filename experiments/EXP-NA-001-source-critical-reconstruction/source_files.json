@@ -1,0 +1,88 @@
+[
+  {
+    "path": "research/pagc/primary_sources/nwagu_aneke/azuonye_1992.pdf",
+    "exists": true,
+    "bytes": 296685,
+    "sha256": "bf395ae1d5304bb12743d07a36cda481f461f0a0769b5752550e9e5cd831490d",
+    "role": "source_or_structured_evidence"
+  },
+  {
+    "path": "research/pagc/primary_sources/nwagu_aneke/nwaguaneke_omniglot_chart.gif",
+    "exists": true,
+    "bytes": 127877,
+    "sha256": "6a526cc40ba7a5e2485fc40abbea2dec6609f4c4ce74b41ef4df62c9d64a4a28",
+    "role": "source_or_structured_evidence",
+    "width": 600,
+    "height": 711
+  },
+  {
+    "path": "research/pagc/primary_sources/nwagu_aneke/omniglot_nwaguaneke.html",
+    "exists": true,
+    "bytes": 17650,
+    "sha256": "e6c58490a5bdbbd78cc6217406c6d7c62c5cac7730129e6087e265e10599eb3c",
+    "role": "source_or_structured_evidence"
+  },
+  {
+    "path": "research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md",
+    "exists": true,
+    "bytes": 6829,
+    "sha256": "845beb63545b862d557c8a327b121f529ed7f12d79b135d773c09d0cacdb93ca",
+    "role": "source_or_structured_evidence"
+  },
+  {
+    "path": "research/pagc/primary_sources/nwagu_aneke/SOURCE_AUDIT.md",
+    "exists": true,
+    "bytes": 7435,
+    "sha256": "f6348535f1a830d91044971bc68ec67bd2243a6781c77fd82ad596f58324b072",
+    "role": "source_or_structured_evidence"
+  },
+  {
+    "path": "artifacts/nwagu_aneke/symbol_inventory.jsonl",
+    "exists": true,
+    "bytes": 14462,
+    "sha256": "5c4d1351bd1bf4d5e0b7b31d7f319c3a09bd7a7387f10e05ade509ea1b204ae7",
+    "role": "source_or_structured_evidence"
+  },
+  {
+    "path": "artifacts/nwagu_aneke/base_count_audit.md",
+    "exists": true,
+    "bytes": 1007,
+    "sha256": "51dc2e3892e82c8530c49d6b4a3765d3b8e8f8b8cbd117bb9b77d4b42131897a",
+    "role": "source_or_structured_evidence"
+  },
+  {
+    "path": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml",
+    "exists": true,
+    "bytes": 2633,
+    "sha256": "c17bd7d43a9a0a4480169983cfd5acc4c08b520dcfd07a9791f3634f2ee983ac",
+    "role": "source_or_structured_evidence"
+  },
+  {
+    "path": "artifacts/nwagu_aneke/iiif/manifest.json",
+    "exists": true,
+    "bytes": 2330,
+    "sha256": "718091ecdf8a76276c0dca9879ebf09dc1bf1cec32c754c2d711866bd5ad07dc",
+    "role": "source_or_structured_evidence"
+  },
+  {
+    "path": "corpus/base_modifier_cache.jsonl",
+    "exists": true,
+    "bytes": 179098,
+    "sha256": "218698db7cd63a52df411682710b6530879c6fe0bacb0f65f509ec36b73fa747",
+    "role": "source_or_structured_evidence"
+  },
+  {
+    "path": "corpus/bmc_count_reconciliation.json",
+    "exists": true,
+    "bytes": 707,
+    "sha256": "0366dffdb7c4fbd72f5f1b1c035bcf10ab1e52a785fd62c499e4a97511b49b07",
+    "role": "source_or_structured_evidence"
+  },
+  {
+    "path": "corpus/pagc_inventory_observations.jsonl",
+    "exists": true,
+    "bytes": 5412,
+    "sha256": "0285165cff53a33b10761c75ed9fbd8c5fc9c800bacc36813e1c9dd115f777f9",
+    "role": "source_or_structured_evidence"
+  }
+]

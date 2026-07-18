@@ -1,0 +1,7 @@
+Highlights:
+
+- Introduces the Community Digital Governance Index (CDGI) for non-state governance.
+- Identifies the "measurement gap" in state-centered digital governance benchmarks.
+- Proposes seven dimensions for measuring community-layer digital accountability.
+- Demonstrates verifiable record computational tractability in a prototype.
+- Grounded in Southeast Nigerian town unions and diaspora savings group context.

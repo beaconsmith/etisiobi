@@ -108,6 +108,21 @@ Before declaring sweep complete:
 
 ---
 
+## Skill Lifecycle Trigger
+
+If a sweep reveals a repeatable query pattern, source database, paywall workaround, dedupe rule, OCR failure mode, metadata cleanup script, or cluster taxonomy improvement, invoke `skills/skill-lifecycle.md`.
+
+Before updating a skill:
+1. Record the baseline problem: missing source type, bad query, duplicate pattern, stale source cluster, or extraction failure.
+2. Change one query/rule/script at a time.
+3. Re-run a focused sweep or source check.
+4. Keep the lesson only if coverage, freshness, metadata quality, or gap documentation improves.
+5. Add a compact note to the relevant skill or sibling `.memory.md`; keep paper-specific source decisions in the paper's logs.
+
+Never treat a successful query as evidence for a claim. It only improves the acquisition method; claims still need source extraction and citation checks.
+
+---
+
 ## Artifact-First Rule
 
 For every source, the data source must be an observable artifact:

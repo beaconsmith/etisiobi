@@ -1,0 +1,15 @@
+paper: bitcoin-treasury
+status: blocked
+last_checked: 2026-04-24
+foundational_sources: partial
+regional_sources: fail
+methods_anchor: fail
+contradiction_coverage: partial
+thesis_clarity: partial
+reviewer_risk_below_threshold: fail
+blocking_reasons:
+  - no Nigeria/community treasury empirical spine yet
+  - ROSCA/cooperative finance literature missing
+  - Bitcoin-specific framing may create reviewer bias unless softened
+  - privacy and exclusion mitigations need source support
+promotion_condition: promote only if community finance sources and design-method anchor are added
