@@ -1,0 +1,109 @@
+{
+  "status": "NWAGU_CYCLE2_APPROVED_GOAL_NOT_MET",
+  "target": 10,
+  "approved_count": 1,
+  "approved_articles": [
+    "ARTICLE-NA-012"
+  ],
+  "errors": [],
+  "articles": [
+    {
+      "article_id": "ARTICLE-NA-011",
+      "slug": "011-storm-question-compiler",
+      "approved": false,
+      "blockers": [
+        "approved_paper.json status is not APPROVED_INTERNAL_RESEARCH_PAPER_CYCLE2"
+      ],
+      "word_count": 4882,
+      "unique_citations": 26
+    },
+    {
+      "article_id": "ARTICLE-NA-012",
+      "slug": "012-layer-promotion-error-benchmark",
+      "approved": true,
+      "blockers": [],
+      "word_count": 5103,
+      "unique_citations": 26
+    },
+    {
+      "article_id": "ARTICLE-NA-013",
+      "slug": "013-red-herring-audit",
+      "approved": false,
+      "blockers": [
+        "approved_paper.json status is not APPROVED_INTERNAL_RESEARCH_PAPER_CYCLE2"
+      ],
+      "word_count": 4848,
+      "unique_citations": 26
+    },
+    {
+      "article_id": "ARTICLE-NA-014",
+      "slug": "014-perspective-graph",
+      "approved": false,
+      "blockers": [
+        "approved_paper.json status is not APPROVED_INTERNAL_RESEARCH_PAPER_CYCLE2"
+      ],
+      "word_count": 4835,
+      "unique_citations": 26
+    },
+    {
+      "article_id": "ARTICLE-NA-015",
+      "slug": "015-source-to-system-transfer",
+      "approved": false,
+      "blockers": [
+        "approved_paper.json status is not APPROVED_INTERNAL_RESEARCH_PAPER_CYCLE2"
+      ],
+      "word_count": 4840,
+      "unique_citations": 26
+    },
+    {
+      "article_id": "ARTICLE-NA-016",
+      "slug": "016-evidence-weighted-design-grammar",
+      "approved": false,
+      "blockers": [
+        "approved_paper.json status is not APPROVED_INTERNAL_RESEARCH_PAPER_CYCLE2"
+      ],
+      "word_count": 4885,
+      "unique_citations": 26
+    },
+    {
+      "article_id": "ARTICLE-NA-017",
+      "slug": "017-authority-turn-taking",
+      "approved": false,
+      "blockers": [
+        "approved_paper.json status is not APPROVED_INTERNAL_RESEARCH_PAPER_CYCLE2"
+      ],
+      "word_count": 4810,
+      "unique_citations": 26
+    },
+    {
+      "article_id": "ARTICLE-NA-018",
+      "slug": "018-oroma-research-bridge",
+      "approved": false,
+      "blockers": [
+        "approved_paper.json status is not APPROVED_INTERNAL_RESEARCH_PAPER_CYCLE2"
+      ],
+      "word_count": 4816,
+      "unique_citations": 26
+    },
+    {
+      "article_id": "ARTICLE-NA-019",
+      "slug": "019-recursive-portfolio-pruning",
+      "approved": false,
+      "blockers": [
+        "approved_paper.json status is not APPROVED_INTERNAL_RESEARCH_PAPER_CYCLE2"
+      ],
+      "word_count": 4845,
+      "unique_citations": 26
+    },
+    {
+      "article_id": "ARTICLE-NA-020",
+      "slug": "020-storm-etisiobi-accelerator",
+      "approved": false,
+      "blockers": [
+        "approved_paper.json status is not APPROVED_INTERNAL_RESEARCH_PAPER_CYCLE2"
+      ],
+      "word_count": 4893,
+      "unique_citations": 26
+    }
+  ]
+}

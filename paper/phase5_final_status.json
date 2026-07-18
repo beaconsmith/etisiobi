@@ -1,0 +1,18 @@
+{
+  "outcome": "B",
+  "paper_title": "Foundation-Count Drift in PAGC: A Reproducible Audit of 26/27/28 Base-Inventory Claims",
+  "pagc_base_count_decision": "MULTI_LAYER_COUNT_VALID",
+  "readiness": "NOT_READY_REVIEW_TEAM_BLOCKED",
+  "validation_exit_code": 0,
+  "arxiv_check_exit_code": 0,
+  "compile_status": {
+    "latexmk_exit_code": 1,
+    "pdflatex_exit_code": 0,
+    "bibtex_exit_code": 0,
+    "compile_status": "pdflatex_bibtex_pass",
+    "notes": [
+      "latexmk is installed but MiKTeX cannot run it because Perl is missing."
+    ]
+  },
+  "obsidian_uri": "obsidian://open?path=C%3A%5CUsers%5CUSER%5Ccode%5Cetisiobi%5Cobsidian_vault"
+}

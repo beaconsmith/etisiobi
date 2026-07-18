@@ -1,0 +1,6 @@
+case_id,feature_name,feature_value,source_basis,expected_decision,reason
+DH001-SF-001,printed_consonant_rows,26,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,insufficient_non_label_evidence,The observed row count preserves the collapsed source view and does not support a separate f/v source row.
+DH001-SF-002,f_v_row_status,combined_printed_row,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,insufficient_non_label_evidence,The motivating ambiguity is observed but does not itself decide two derived roles.
+DH001-SF-003,standalone_vowels,absent,research/pagc/primary_sources/nwagu_aneke/SOURCE_AUDIT.md,insufficient_non_label_evidence,CV syllabary mechanics do not distinguish f from v without role labels or corpus usage.
+DH001-SF-004,tone_marking,absent,research/pagc/primary_sources/nwagu_aneke/SOURCE_AUDIT.md,insufficient_non_label_evidence,No tone marking is a source limitation, not evidence for derived row splitting.
+DH001-SF-005,matrix_status,pedagogical_or_formal_representation,research/pagc/primary_sources/nwagu_aneke/SOURCE_AUDIT.md,insufficient_non_label_evidence,A representation choice cannot prove the derived completion without additional source or usage evidence.

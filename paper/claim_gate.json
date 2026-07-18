@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-05-28",
+  "summary": {
+    "total_claims": 9,
+    "READY": 5,
+    "NEEDS_CITATION": 0,
+    "NEEDS_EXPERIMENT": 0,
+    "CONTRADICTED": 0,
+    "OVERCLAIMED": 0,
+    "REMOVE": 1,
+    "REWRITE_AS_LIMITATION": 2,
+    "SPECULATIVE_ONLY": 1
+  },
+  "claims": [
+    {
+      "claim_id": "CLAIM-P5-0001",
+      "paper_section": "Results",
+      "claim_text": "The primary chart supports 26 printed consonant rows and 8 vowel columns.",
+      "evidence": "INV-0001..INV-0003",
+      "status": "READY",
+      "risk": "low",
+      "action": "Use as main result."
+    },
+    {
+      "claim_id": "CLAIM-P5-0002",
+      "paper_section": "Results",
+      "claim_text": "The 8-column modifier claim survives as source-observed.",
+      "evidence": "INV-0002",
+      "status": "READY",
+      "risk": "low",
+      "action": "Use with chart-limited wording."
+    },
+    {
+      "claim_id": "CLAIM-P5-0003",
+      "paper_section": "Results",
+      "claim_text": "A 27-base count is a derived f/v split.",
+      "evidence": "INV-0004",
+      "status": "REWRITE_AS_LIMITATION",
+      "risk": "medium",
+      "action": "Do not call it source-observed."
+    },
+    {
+      "claim_id": "CLAIM-P5-0004",
+      "paper_section": "Discussion",
+      "claim_text": "The 27x8=216 matrix is a derived normalization.",
+      "evidence": "INV-0001, INV-0005",
+      "status": "REWRITE_AS_LIMITATION",
+      "risk": "medium",
+      "action": "Remove as positive validation."
+    },
+    {
+      "claim_id": "CLAIM-0010",
+      "paper_section": "Discussion",
+      "claim_text": "E6 claims depend on exact 27 bases.",
+      "evidence": "FALSIFICATION_TRACKER line 28",
+      "status": "REMOVE",
+      "risk": "high",
+      "action": "Exclude as contribution."
+    },
+    {
+      "claim_id": "CLAIM-P5-0006",
+      "paper_section": "Results",
+      "claim_text": "The existing BPE sweep refutes k=27 on the local test corpus.",
+      "evidence": "BPE report",
+      "status": "READY",
+      "risk": "medium",
+      "action": "Frame as local negative result only."
+    },
+    {
+      "claim_id": "CLAIM-P5-0007",
+      "paper_section": "Discussion",
+      "claim_text": "ICEGOV deadline/format drift is publication risk.",
+      "evidence": "CLAIM-0013, CLAIM-0014",
+      "status": "READY",
+      "risk": "medium",
+      "action": "Keep secondary."
+    },
+    {
+      "claim_id": "CLAIM-0011",
+      "paper_section": "Method",
+      "claim_text": "The Research Spine routes events into evidence artifacts.",
+      "evidence": "spine/ARCHITECTURE.md",
+      "status": "READY",
+      "risk": "medium",
+      "action": "Use as archive context, not result."
+    },
+    {
+      "claim_id": "CLAIM-0005",
+      "paper_section": "Discussion",
+      "claim_text": "T1 has a regional recordkeeping source gap.",
+      "evidence": "research/PORTFOLIO.md",
+      "status": "SPECULATIVE_ONLY",
+      "risk": "medium",
+      "action": "Do not center paper."
+    }
+  ]
+}

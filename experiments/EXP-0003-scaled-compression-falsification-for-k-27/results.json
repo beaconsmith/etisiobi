@@ -1,0 +1,51 @@
+{
+  "experiment_id": "EXP-0003",
+  "purpose": "Assess scaled k=27 compression falsification feasibility from repo-local artifacts.",
+  "status": "completed_dry_run_feasibility",
+  "decision": "EXISTING_LOCAL_SWEEP_REFUTES_K27_SCOPE_LIMITED",
+  "k16_metrics": {
+    "k": 16,
+    "fertility": 5.0062,
+    "coverage": 0.9995,
+    "chars_per_tok": 1.1352,
+    "avg_tok_len": 1.1352,
+    "total_tokens": 36886,
+    "total_words": 7368,
+    "total_chars": 41872
+  },
+  "k27_metrics": {
+    "k": 27,
+    "fertility": 4.7759,
+    "coverage": 0.9995,
+    "chars_per_tok": 1.1899,
+    "avg_tok_len": 1.1899,
+    "total_tokens": 35189,
+    "total_words": 7368,
+    "total_chars": 41872
+  },
+  "corpus_stats": {
+    "data/igbo_corpus/train.txt": {
+      "bytes": 1013177,
+      "lines": 49918,
+      "words": 135143
+    },
+    "data/igbo_corpus/val.txt": {
+      "bytes": 56861,
+      "lines": 2773,
+      "words": 7562
+    },
+    "data/igbo_corpus/test.txt": {
+      "bytes": 55424,
+      "lines": 2774,
+      "words": 7368
+    },
+    "data/igbo_corpus/merged.txt": {
+      "bytes": 1125466,
+      "lines": 55465,
+      "words": 150073
+    }
+  },
+  "blocked_scale_step": "No external larger corpus download allowed in this run.",
+  "effect_on_paper": "Use k=27 as scoped negative result only; do not generalize beyond local corpus.",
+  "include_in_phase5_paper": true
+}

@@ -1,0 +1,31 @@
+case_id,claim_text,input_layer,output_layer,gold_promotion_error
+LPE-001,The current local source ledger has 26 rows and 8 vowel/modifier columns.,source_observed,source_observed,False
+LPE-002,The source-observed index contains 208 records.,source_index,source_index,False
+LPE-003,The Nwagu source layer has 27 rows.,derived,source_observed,True
+LPE-004,216 is a source-observed cell count.,derived,source_observed,True
+LPE-005,A 27-row layer can be derived if f/v is split.,derived,derived,False
+LPE-006,The f/v split is a design operation over the current inventory.,derived,design_hypothesis,False
+LPE-007,The f/v split proves a universal compression law.,speculative,source_observed,True
+LPE-008,E6 follows directly from the Nwagu chart.,speculative,source_observed,True
+LPE-009,E6 remains a speculative analogy until formal evidence is produced.,speculative,speculative,False
+LPE-010,The lab has a rights-cleared public glyph corpus.,blocked,source_observed,True
+LPE-011,The reported manuscript corpus is a blocked source target pending holdings and rights review.,blocked,blocked,False
+LPE-012,A Unicode proposal is ready because a gap matrix exists.,blocked,source_observed,True
+LPE-013,The Unicode gap matrix identifies missing proposal evidence.,source_index,source_index,False
+LPE-014,Layer-safe design systems can use derived forms if they keep the derived label.,design_hypothesis,design_hypothesis,False
+LPE-015,A generated design glyph is historical evidence.,design_hypothesis,source_observed,True
+LPE-016,A generated design glyph is a design artifact derived from a source-labeled system.,design_hypothesis,design_hypothesis,False
+LPE-017,"The BMC is a working annotation index, not a fully reviewed glyph substrate.",source_index,source_index,False
+LPE-018,The BMC proves the final glyph grammar.,source_index,source_observed,True
+LPE-019,Tokenizer baselines show downstream NLP improvement.,design_hypothesis,source_observed,True
+LPE-020,Tokenizer baselines measure segmentation behavior only.,design_hypothesis,design_hypothesis,False
+LPE-021,Public metadata can be cited while reproduction rights remain unresolved.,blocked,blocked,False
+LPE-022,Public metadata means the manuscript images can be republished.,blocked,source_observed,True
+LPE-023,"Logograph leads are visible chart leads, not a complete corpus.",source_index,source_index,False
+LPE-024,The chart lead set is the complete logograph corpus.,source_index,source_observed,True
+LPE-025,"A standards mapping is interoperability evidence, not source validation.",design_hypothesis,design_hypothesis,False
+LPE-026,TEI/IIIF mapping validates all glyph shapes.,design_hypothesis,source_observed,True
+LPE-027,A negative result can be publication-relevant if it changes allowed claims.,design_hypothesis,design_hypothesis,False
+LPE-028,A compiled PDF means the paper is submission-ready.,blocked,source_observed,True
+LPE-029,A compiled PDF is an internal review artifact until gates pass.,blocked,blocked,False
+LPE-030,The source/derived distinction is the control variable for this research program.,source_observed,source_observed,False

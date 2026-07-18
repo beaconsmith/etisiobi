@@ -1,0 +1,219 @@
+{
+  "generated_at": "2026-05-28",
+  "programs": [
+    {
+      "id": "artifact-lab",
+      "name": "Artifact Lab",
+      "status": "active",
+      "focus": "Nwagu Aneke and other African knowledge artifacts as source-critical research objects.",
+      "primary_paths": [
+        "artifacts/nwagu_aneke/",
+        "research/pagc/primary_sources/nwagu_aneke/"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "pagc-formalization",
+      "name": "PAGC / Formalization Lab",
+      "status": "active but gated",
+      "focus": "Competing structural models derived from Nwagu Aneke, including base-modifier, syllabary grid, codebook, reader-mark, and visual algebra models.",
+      "primary_paths": [
+        "research/pagc/",
+        "research_lattice/"
+      ],
+      "risk": "high"
+    },
+    {
+      "id": "ogi-governance",
+      "name": "OGI / Governance Measurement Lab",
+      "status": "active",
+      "focus": "Community-led digital governance metrics and Oroma evidence extraction.",
+      "primary_paths": [
+        "research/icegov/",
+        "spine/"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "research-spine",
+      "name": "Research Spine / Evidence Infrastructure Lab",
+      "status": "buildable now",
+      "focus": "A lab-wide source/event -> fact -> claim -> evidence gate -> output pipeline.",
+      "primary_paths": [
+        "spine/",
+        "corpus/"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "african-nlp",
+      "name": "African NLP + Low-Resource AI Lab",
+      "status": "proposed",
+      "focus": "Igbo corpora, tokenization, diacritics, transcription, and benchmarks.",
+      "primary_paths": [
+        "experiments/01_bpe_igbo_k27/",
+        "emitters/datasets/"
+      ],
+      "risk": "medium"
+    },
+    {
+      "id": "visual-atlas",
+      "name": "Visual Atlas / Interface Lab",
+      "status": "active",
+      "focus": "Dashboards, atlases, Obsidian canvases, and public-facing research maps.",
+      "primary_paths": [
+        "visual_atlas/",
+        "obsidian_vault/"
+      ],
+      "risk": "low"
+    },
+    {
+      "id": "ethics-sovereignty",
+      "name": "Ethics + Sovereignty Lab",
+      "status": "active protocol",
+      "focus": "CARE/FAIR, consent, community authority, rights review, and responsible release.",
+      "primary_paths": [
+        "DATA_GOVERNANCE_CARE_FAIR.md",
+        "SECURITY_AND_SECRETS_POLICY.md"
+      ],
+      "risk": "high"
+    },
+    {
+      "id": "publication-translation",
+      "name": "Publication + Translation Lab",
+      "status": "active protocol",
+      "focus": "Papers, negative results, datasets, standards, policy briefs, teaching modules, and exhibitions.",
+      "primary_paths": [
+        "emitters/",
+        "PUBLICATION_GATE.md"
+      ],
+      "risk": "medium"
+    }
+  ],
+  "maturity_counts_from_existing_claims": {
+    "C3": 9,
+    "C2": 5,
+    "C5": 5,
+    "CX": 2
+  },
+  "top_research_branches": [
+    {
+      "mapping_id": "MAP-0001",
+      "source_object": "Nwagu Aneke Appendix I chart",
+      "target_domain": "writing systems",
+      "mapping_type": "historical",
+      "status": "promising",
+      "claim": "The source artifact can be reconstructed as a CV syllabary grid plus a separate logograph inventory.",
+      "evidence": "EXP-0001; Omniglot; Azuonye source trail.",
+      "maturity": "C5"
+    },
+    {
+      "mapping_id": "MAP-0002",
+      "source_object": "f/v combined row",
+      "target_domain": "Igbo/Umuleri phonology",
+      "mapping_type": "empirical",
+      "status": "promising",
+      "claim": "The f/v row should be tested as a dialect-specific phonological collapse or orthographic economy.",
+      "evidence": "EXP-0001 plus Ahamefula external lead.",
+      "maturity": "C2"
+    },
+    {
+      "mapping_id": "MAP-0003",
+      "source_object": "27 x 8 = 216",
+      "target_domain": "PAGC design grammar",
+      "mapping_type": "operational",
+      "status": "promising_if_rewritten",
+      "claim": "216 may be useful as a designed normalization, but not as a source-observed fact.",
+      "evidence": "EXP-0001 decision MULTI_LAYER_COUNT_VALID.",
+      "maturity": "C3"
+    },
+    {
+      "mapping_id": "MAP-0004",
+      "source_object": "27 bases",
+      "target_domain": "E6 / exceptional Lie theory",
+      "mapping_type": "formal",
+      "status": "rejected_for_now",
+      "claim": "E6 claims are blocked until an independently justified 27-element object exists.",
+      "evidence": "Claim gate; EXP-0001.",
+      "maturity": "CX"
+    },
+    {
+      "mapping_id": "MAP-0005",
+      "source_object": "modifier grammar",
+      "target_domain": "biology / tRNA / epigenetics",
+      "mapping_type": "metaphorical",
+      "status": "speculative",
+      "claim": "Biological analogies may inspire design language but are not evidence for PAGC.",
+      "evidence": "No direct experiment yet.",
+      "maturity": "C1"
+    },
+    {
+      "mapping_id": "MAP-0006",
+      "source_object": "Oroma domain events",
+      "target_domain": "governance measurement",
+      "mapping_type": "operational",
+      "status": "promising",
+      "claim": "Product events can become OGI facts through the Research Spine.",
+      "evidence": "spine/ARCHITECTURE.md; spine/extractor.py design.",
+      "maturity": "C3"
+    },
+    {
+      "mapping_id": "MAP-0007",
+      "source_object": "Research Spine",
+      "target_domain": "lab infrastructure",
+      "mapping_type": "operational",
+      "status": "promising",
+      "claim": "The lab can generalize source/event -> fact -> claim -> gate -> output across programs.",
+      "evidence": "This lab OS build; corpus and claim-gate artifacts.",
+      "maturity": "C3"
+    },
+    {
+      "mapping_id": "MAP-0008",
+      "source_object": "Nwagu Aneke unencoded status",
+      "target_domain": "Unicode / standards",
+      "mapping_type": "operational",
+      "status": "promising_but_blocked",
+      "claim": "A standards path exists only after character inventory, names, glyph variants, usage examples, and rights/community review.",
+      "evidence": "Unicode L2/23-203 external lead; source dossier gap analysis.",
+      "maturity": "C2"
+    }
+  ],
+  "top_contradictions": [
+    {
+      "id": "CONTRA-001",
+      "title": "26 printed rows vs derived 27 bases vs 216 matrix",
+      "evidence": "EXP-0001, corpus/pagc_inventory_observations.jsonl",
+      "status": "resolved into layers, not closed as exact 27",
+      "action": "Keep 27 and 216 out of positive source claims."
+    },
+    {
+      "id": "CONTRA-002",
+      "title": "164 actual symbols vs 224 ideal syllabary space",
+      "evidence": "Ahamefula external lead; not yet locally archived",
+      "status": "open",
+      "action": "Archive/extract Ahamefula and reconcile with Azuonye Appendix I/II."
+    },
+    {
+      "id": "CONTRA-003",
+      "title": "E6 and exceptional math depend on an unstable 27-object",
+      "evidence": "PAGC FALSIFICATION_TRACKER and Phase 5 claim gate",
+      "status": "blocked",
+      "action": "Move E6 to rejected/speculative lattice until formal object is defined."
+    },
+    {
+      "id": "CONTRA-004",
+      "title": "OGI deadline and ACM format drift",
+      "evidence": "corpus/claims.jsonl CLAIM-0013 and CLAIM-0014",
+      "status": "open publication risk",
+      "action": "Human venue/date decision before any submission package."
+    },
+    {
+      "id": "CONTRA-005",
+      "title": "Conceptual simulations risk being promoted as empirical results",
+      "evidence": "PAGC tracker and sovereign-memory experiment notes",
+      "status": "guarded",
+      "action": "Emit as concept/demo only unless benchmarks and null models exist."
+    }
+  ],
+  "next_command": "python spine\\claim_gate.py; python spine\\artifact_registry.py; python spine\\lab_dashboard.py"
+}

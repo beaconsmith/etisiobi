@@ -1,0 +1,21 @@
+{
+  "experiment_id": "EXP-FRONTIER-017",
+  "status": "QUALITY_GATE_PILOT_COMPLETE_INTERNAL_NOT_FRONTIER_RESULT",
+  "claim_ceiling": "quality_gate_pilot_not_paper_result",
+  "sample_case_count": 24,
+  "source_gold_label_count": 360,
+  "review_ready_internal_count": 11,
+  "needs_adjudication_count": 5,
+  "blocked_public_release_count": 8,
+  "paper_claim_status": "not_ready",
+  "frontier_claim_status": "not_ready",
+  "interpretation": "The pilot shows that LPE labels can be routed into internal review, adjudication, and public-release-blocked states before any score is used as paper evidence.",
+  "remaining_gates": [
+    "expand quality gate to all 360 labels",
+    "compare gate status against scored agent conditions",
+    "independent human/domain review",
+    "rights and authority review",
+    "review-team trace for any paper candidate"
+  ],
+  "external_actions_taken": []
+}

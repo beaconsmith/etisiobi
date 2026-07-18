@@ -1,0 +1,33 @@
+{
+  "identifier": {
+    "identifierType": "DOI",
+    "identifier": "TBD"
+  },
+  "creators": [
+    {
+      "name": "The Beaconsmith Collective"
+    }
+  ],
+  "titles": [
+    {
+      "title": "Etisiobi Lab OS"
+    }
+  ],
+  "publisher": "The Beaconsmith Collective",
+  "publicationYear": "2026",
+  "types": {
+    "resourceTypeGeneral": "Dataset",
+    "resourceType": "Research Object"
+  },
+  "descriptions": [
+    {
+      "descriptionType": "Abstract",
+      "description": "Artifact-first, evidence-gated research lab operating system rooted in Nwagu Aneke and Oroma/OGI research programs."
+    }
+  ],
+  "rightsList": [
+    {
+      "rights": "Rights and community authority review required before external release."
+    }
+  ]
+}

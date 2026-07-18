@@ -1,0 +1,6 @@
+{
+  "status": "NOT_ARXIV_QUALITY_GENERATED_WORKING_DRAFT",
+  "created_at": "2026-06-21T21:05:24+01:00",
+  "reason": "Generated/internal approval artifact. Requires substantive experiment, external prior art, source/rights review, and manuscript rewrite before any submission lane.",
+  "next_gate": "python scripts\\validate_arxiv_quality_gate.py"
+}

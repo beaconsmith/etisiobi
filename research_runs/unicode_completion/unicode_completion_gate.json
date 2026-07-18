@@ -1,0 +1,79 @@
+{
+  "status": "UNICODE_COMPLETION_BLOCKED_EVIDENCE_PACKAGE",
+  "generated": "2026-07-07",
+  "primary_script": "Nwagu Aneke",
+  "independent_submitter_path": "OPEN_PACKAGE_INCOMPLETE",
+  "draft_allowed": true,
+  "proposal_ready": false,
+  "may_submit": false,
+  "submit_decision": "DO_NOT_SUBMIT",
+  "current_supported_output": "Unicode-readiness audit and preliminary standards-facing evidence dossier",
+  "proposal_skeleton": "research_runs/unicode_completion/nwagu_aneke_preliminary_proposal_skeleton.md",
+  "package_components": {
+    "working_repertoire_table": "research_runs/unicode_completion/nwagu_aneke_working_repertoire_table.md",
+    "source_review_worksheet": "research_runs/unicode_completion/nwagu_aneke_source_review_worksheet.csv",
+    "source_review_worksheet_summary": "research_runs/unicode_completion/nwagu_aneke_source_review_worksheet.md",
+    "character_glyph_matrix": "research_runs/unicode_completion/nwagu_aneke_character_glyph_matrix.md",
+    "properties_behavior_matrix": "research_runs/unicode_completion/nwagu_aneke_properties_behavior_matrix.md",
+    "representative_evidence_plan": "research_runs/unicode_completion/nwagu_aneke_representative_evidence_plan.md",
+    "font_license_requirements": "research_runs/unicode_completion/nwagu_aneke_font_license_requirements.md",
+    "sewg_packet_index": "research_runs/unicode_completion/sewg_packet_index.md",
+    "sewg_packet_index_json": "research_runs/unicode_completion/sewg_packet_index.json"
+  },
+  "public_claim_ceiling": "Nwagu Aneke is ready for readiness research, not for a Unicode proposal submission",
+  "required_before_submission": [
+    "source_transcription_review",
+    "stable_character_repertoire",
+    "character_glyph_distinction_review",
+    "representative_glyphs_rights_cleared",
+    "usage_examples_rights_cleared",
+    "submitter_user_community_relationship_record",
+    "character_names",
+    "unicode_properties",
+    "ordering_collation",
+    "directionality",
+    "punctuation_numbers",
+    "segmentation_line_breaking",
+    "shaping_normalization_behavior",
+    "implementation_font_licence",
+    "cla_author_submitter_ip_endorsement",
+    "proposal_pdf",
+    "iso_iec_10646_summary_information",
+    "human_final_package_signoff"
+  ],
+  "currently_present_or_partial": [
+    "script_identity",
+    "source_observed_26_by_8_count_layer",
+    "derived_f_v_27_216_layer",
+    "unicode_readiness_gap_matrix",
+    "count_layer_non_promotion_control",
+    "working_repertoire_table_not_proposal_repertoire",
+    "source_review_worksheet_created_unreviewed",
+    "character_glyph_review_matrix",
+    "properties_behavior_questions",
+    "representative_evidence_plan",
+    "font_license_requirements"
+  ],
+  "related_scripts": [
+    {
+      "name": "Nwagugu",
+      "status": "NO_SEPARATE_SCRIPT_EVIDENCE_FOUND",
+      "decision": "Do not create a proposal branch without source evidence."
+    },
+    {
+      "name": "Ndebe / Ńdébé",
+      "status": "SEPARATE_CREATOR_AUTHORITY_REQUIRED",
+      "decision": "Do not bundle or submit without creator/authorized representative participation."
+    }
+  ],
+  "source_urls_checked": [
+    "https://sew.unicode.org/guidelines",
+    "https://www.unicode.org/pending/docsubmit.html",
+    "https://www.unicode.org/faq/char_proposal.html",
+    "https://www.unicode.org/L2/L2023/23105r-new-script-template-april2023.pdf",
+    "https://sei.berkeley.edu/2025/04/03/script-readiness-rubric/",
+    "https://ndebe.org/"
+  ],
+  "source_review_worksheet_rows": 208,
+  "exact_next_action": "Assign a human source reviewer to the 208-row worksheet and complete the decision columns for character, glyph variant, sequence, logograph, punctuation, number, symbol, or not encoded."
+}

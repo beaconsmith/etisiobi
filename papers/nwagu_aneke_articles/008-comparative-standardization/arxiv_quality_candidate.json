@@ -1,0 +1,28 @@
+{
+  "article_id": "ARTICLE-NA-008",
+  "status": "STRUCTURAL_ARXIV_QUALITY_PASS_NOT_SUBMISSION_READY",
+  "candidate": false,
+  "reason": "The repository arXiv-quality validator may pass after hardening, but human source/standards review and rights/submission clearance remain open, so this is not an external submission candidate yet.",
+  "field_facing_result": "An eight-script comparative evidence-condition matrix positions Nwagu Aneke as an unencoded, review-blocked target case rather than a Unicode-ready script.",
+  "positive_evidence": [
+    "experiments/EXP-NA-008/results.json",
+    "experiments/EXP-NA-008-comparative-scripts-matrix/results.json",
+    "experiments/EXP-NA-008-comparative-scripts-matrix/data/comparative_scripts_matrix.csv",
+    "experiments/EXP-NA-008-comparative-scripts-matrix/data/comparative_scripts_matrix.jsonl",
+    "papers/nwagu_aneke_articles/008-comparative-standardization/article_specific_experiment.md",
+    "papers/nwagu_aneke_articles/008-comparative-standardization/external_prior_art_audit.md",
+    "papers/nwagu_aneke_articles/008-comparative-standardization/figures_tables_manifest.json",
+    "papers/nwagu_aneke_articles/008-comparative-standardization/reviewer2_response_plan.md"
+  ],
+  "blocking_evidence": [
+    "papers/nwagu_aneke_articles/008-comparative-standardization/human_source_review.md",
+    "papers/nwagu_aneke_articles/008-comparative-standardization/rights_submission_clearance.md"
+  ],
+  "next_actions": [
+    "Attach human source and standards review.",
+    "Attach rights and public-submission clearance.",
+    "Update comparator rows against current script-status sources before submission.",
+    "Run adversarial venue review against the revised manuscript.",
+    "Rerun python scripts\\validate_arxiv_quality_gate.py."
+  ]
+}

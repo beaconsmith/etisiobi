@@ -1,0 +1,22 @@
+{
+  "experiment_id": "EXP-FRONTIER-003",
+  "generated_at": "2026-06-21T09:31:51+01:00",
+  "status": "BLIND_ANNOTATION_PACKET_READY_UNLABELED",
+  "case_count": 360,
+  "source_type_counts": {
+    "real_agent_output": 130,
+    "cross_program": 90,
+    "program_source": 110,
+    "external_prior_art_control": 30
+  },
+  "split_counts": {
+    "test": 66,
+    "train": 202,
+    "dev": 92
+  },
+  "annotation_required": true,
+  "labels_frozen": false,
+  "frontier_claim_status": "not_ready",
+  "minimum_annotators": 3,
+  "required_next_step": "Independent annotators must label input_layer, output_layer, promotion_error, severity, and rationale before scoring."
+}

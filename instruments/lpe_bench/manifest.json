@@ -1,0 +1,130 @@
+{
+  "instrument_id": "LPE-Bench",
+  "title": "Layer Promotion Error Benchmark",
+  "generated_at": "2026-06-21T14:16:41+01:00",
+  "status": "PUBLIC_INSTRUMENT_DRAFT_NOT_FRONTIER_PROOF",
+  "research_question": "Do AI research agents promote derived, speculative, blocked, or design-layer claims into source-observed or publication-ready claims?",
+  "current_case_count": 510,
+  "blind_annotation_queue_count": 360,
+  "best_internal_test_baseline": {
+    "baseline": "rank_only_metadata",
+    "n": 111,
+    "tp": 44,
+    "fp": 0,
+    "fn": 0,
+    "tn": 67,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "balanced_accuracy": 1.0,
+    "mcc": 1.0,
+    "severity_weighted_recall": 1.0,
+    "split": "test"
+  },
+  "best_metadata_free_test_baseline": {
+    "baseline": "lexical_only",
+    "n": 111,
+    "tp": 34,
+    "fp": 7,
+    "fn": 10,
+    "tn": 60,
+    "precision": 0.8293,
+    "recall": 0.7727,
+    "f1": 0.8,
+    "balanced_accuracy": 0.8341,
+    "mcc": 0.6773,
+    "severity_weighted_recall": 0.75,
+    "split": "test"
+  },
+  "source_type_counts": {
+    "real_repo_claim": 225,
+    "cross_program": 165,
+    "external_prior_art_control": 30,
+    "adversarial_hard_case": 90
+  },
+  "variant_type_counts": {
+    "real_claim": 130,
+    "edited_real_claim": 130,
+    "adversarial_promotion": 130,
+    "external_control": 10,
+    "external_adversarial": 10,
+    "external_boundary": 10,
+    "hard_positive_no_trigger": 50,
+    "hard_negative_trigger_words": 40
+  },
+  "split_counts": {
+    "train": 292,
+    "dev": 107,
+    "test": 111
+  },
+  "frontier_claim_status": "not_ready",
+  "exp005_status": {
+    "packet": "ANNOTATION_AND_AGENT_RUN_TEMPLATES_READY_NOT_SCORED",
+    "annotation": "ANNOTATION_ADJUDICATED_GOLD_CREATED_AI_REVIEW_NOT_HUMAN_FRONTIER_READY",
+    "score": "SCORED_NOT_VALIDATED_FOR_FRONTIER_CLAIM",
+    "promotion_error_fleiss_kappa": 0.6245,
+    "severity_fleiss_kappa": 0.5316,
+    "agent_prediction_count": 2880,
+    "best_overall": {
+      "condition": "C0_no_layer_labels",
+      "agent_id": "codex_C0_no_layer_labels",
+      "n_scored": 360,
+      "tp": 45,
+      "fp": 15,
+      "fn": 12,
+      "tn": 288,
+      "precision": 0.75,
+      "recall": 0.7895,
+      "f1": 0.7692,
+      "mcc": 0.7248,
+      "balanced_accuracy": 0.87,
+      "severity_weighted_recall": 0.8201,
+      "lpe_rate_ci": {
+        "low": 0.1243,
+        "high": 0.1996
+      },
+      "source_observed_false_assertion_rate": 0.0,
+      "derived_layer_preservation_rate": 0.0
+    },
+    "best_codex_agent": {
+      "condition": "C0_no_layer_labels",
+      "agent_id": "codex_C0_no_layer_labels",
+      "n_scored": 360,
+      "tp": 45,
+      "fp": 15,
+      "fn": 12,
+      "tn": 288,
+      "precision": 0.75,
+      "recall": 0.7895,
+      "f1": 0.7692,
+      "mcc": 0.7248,
+      "balanced_accuracy": 0.87,
+      "severity_weighted_recall": 0.8201,
+      "lpe_rate_ci": {
+        "low": 0.1243,
+        "high": 0.1996
+      },
+      "source_observed_false_assertion_rate": 0.0,
+      "derived_layer_preservation_rate": 0.0
+    }
+  },
+  "blocking_gates": [
+    "independent human/domain annotation",
+    "frozen gold labels",
+    "real agent/model runs",
+    "external non-Etisiobi cases",
+    "rights/authority review for public examples",
+    "statistical confidence intervals on final baselines"
+  ],
+  "inspiration_audit": {
+    "source": "elder-plinius profile audit",
+    "repos_audited": 46,
+    "safe_pattern": "named instrument -> runnable artifact -> raw traces -> validation report -> paper"
+  },
+  "related_experiments": [
+    "EXP-FRONTIER-001-layer-promotion-benchmark",
+    "EXP-FRONTIER-002-layer-promotion-expanded",
+    "EXP-FRONTIER-003-blind-lpe-annotation",
+    "EXP-FRONTIER-004-unicode-channel-risk-audit"
+  ]
+}

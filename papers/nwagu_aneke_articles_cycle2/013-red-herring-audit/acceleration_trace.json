@@ -1,0 +1,17 @@
+{
+  "article_id": "ARTICLE-NA-013",
+  "cycle": 2,
+  "builds_on": [
+    "ARTICLE-NA-003",
+    "ARTICLE-NA-004",
+    "ARTICLE-NA-010"
+  ],
+  "new_research_operation": "a red-herring audit separates useful cross-domain questions from unsupported analogy claims",
+  "storm_transfer": [
+    "perspective_guided_questions",
+    "simulated_review_turns",
+    "outline_quality_audit",
+    "red_herring_audit"
+  ],
+  "next_experiment": "External hardening or empirical follow-up for ARTICLE-NA-013"
+}

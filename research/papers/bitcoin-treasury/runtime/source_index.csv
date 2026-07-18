@@ -1,0 +1,7 @@
+key,title,year,category,confidence,status,notes
+T5-A,Bitcoin: A Peer-to-Peer Electronic Cash System,2008,technical,5,vetted,settlement infrastructure baseline
+T5-D,Digital Financial Services for Informal Economies,2025,recent,5,vetted,informal finance context
+T5-E,The Illusion of Decentralization: Governance Risks in Crypto-Treasuries,2026,critique,5,vetted,anti-evangelism critique spine
+T5-H,Informal Financial Groups and Local Economic Development in Nigeria,2021,regional,4,vetted,management and recordkeeping challenges
+T5-I,ROSCA/Esusu management literature in West Africa,,regional,,to_acquire,critical missing source class
+T5-J,SEC/CBN Nigeria crypto and digital finance guidance,,policy,,to_acquire,regulatory context

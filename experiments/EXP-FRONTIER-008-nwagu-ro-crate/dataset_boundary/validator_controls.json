@@ -1,0 +1,34 @@
+{
+  "control_id": "BOUNDARY-CONTROL-EXP-FRONTIER-008-001",
+  "boundary_id": "BOUNDARY-EXP-FRONTIER-008-001",
+  "experiment_id": "EXP-FRONTIER-008",
+  "status": "active_boundary_control_not_release",
+  "claim_ceiling": "dataset_boundary_checklist_not_dataset_release",
+  "forbidden_path_fragments": [
+    "primary_sources/",
+    ".pdf",
+    ".png",
+    ".jpg",
+    ".jpeg",
+    ".tif",
+    ".tiff",
+    "glyph_reproductions",
+    "restricted",
+    "private_data",
+    "responses/"
+  ],
+  "required_validators": [
+    "scripts/validate_nwagu_dataset_boundary.py",
+    "scripts/validate_nwagu_frontier_ro_crate.py",
+    "scripts/validate_nwagu_preservation_decision.py",
+    "scripts/validate_nwagu_dataset_boundary_contact_approval.py"
+  ],
+  "claim_rules": [
+    "candidate files are metadata only",
+    "excluded files require review before boundary change",
+    "validator behavior must block restricted source material",
+    "dataset boundary status is not a dataset release",
+    "no external submission"
+  ],
+  "external_actions_taken": []
+}

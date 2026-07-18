@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP-NA-010-transfer-counterexample-audit",
+  "generated_at": "2026-07-07T00:00:00+01:00",
+  "decision": "TRANSFER_COUNTEREXAMPLE_AUDIT_PASS_WITH_SCOPE_LIMITS",
+  "test_cases": 10,
+  "non_nwagu_transfer_cases": 8,
+  "intentional_promotion_errors": 6,
+  "promotion_errors_detected": 6,
+  "safe_cases_allowed": 4,
+  "layer_gate_false_negatives": 0,
+  "provenance_only_false_negatives_on_promotion_errors": 4,
+  "citation_only_false_negatives_on_promotion_errors": 4,
+  "scope_limit": "The audit shows transfer plausibility across cultural-heritage representation patterns, not completeness for all cultural-heritage AI systems or authority to release any source material.",
+  "source_foundation": "26 rows x 8 vowel/modifier columns = 208 source-observed records; 27/216 is derived f/v split only."
+}

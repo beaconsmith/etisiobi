@@ -1,0 +1,23 @@
+{
+  "article_id": "ARTICLE-NA-003",
+  "status": "FIGURES_TABLES_PLANNED_NOT_FINAL",
+  "tables": [
+    {
+      "id": "tab:article_na_003",
+      "source": "papers/nwagu_aneke_articles/003-f-v-hinge/main.tex",
+      "purpose": "Summarize article result, experiment id, source layer, derived layer, and claim ceiling."
+    },
+    {
+      "id": "planned_fv_hinge_table",
+      "source": "experiments/EXP-NA-003-f-v-hinge-audit/data/fv_hinge_records.csv",
+      "purpose": "Show the 8 combined source f/v cells and the 16 derived split cells used to explain the 208 to 216 transition."
+    }
+  ],
+  "figures": [],
+  "blocked_figures": [
+    {
+      "id": "source_image_regions",
+      "reason": "Source-image reproduction and region coordinates require human source review and rights clearance."
+    }
+  ]
+}

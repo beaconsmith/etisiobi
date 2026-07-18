@@ -1,0 +1,9 @@
+script,type,unicode_status,standardization_signal,comparison_relevance,source
+Vai,syllabary,encoded,Unicode core spec lists Vai as an encoded African syllabary.,mature syllabary comparator,"Unicode 17.0 Core Spec, Chapter 19"
+Bamum,syllabary/logographic historical layers,encoded,Unicode core spec describes Bamum and its historical logographic origin.,encoded African system with historical repertoire issues,"Unicode 17.0 Core Spec, Chapter 19"
+Mende Kikakui,syllabary,encoded,Unicode core spec describes 185 CV signs and right-to-left behavior.,CV inventory and directionality comparator,"Unicode 17.0 Core Spec, Chapter 19"
+Ndebe,semi-featural syllabary/abugida,not encoded,2023 African Scripts update lists no proposal and notes keyboard availability.,modern Igbo-adjacent unencoded comparator,Unicode L2/23-203
+Nsibidi (New),mixed logography/alphabet,proposal submitted for review,2023 African Scripts update reports recent proposal submission.,Igbo-adjacent public implementation comparator,Unicode L2/23-203
+Kpelle,syllabary,proposal lead,2023 African Scripts update lists L2/10-063 as latest proposal.,West African syllabary with proposal history,Unicode L2/23-203
+Loma,syllabary,proposal lead,2023 African Scripts update lists L2/10-005 and later documents.,West African syllabary with multi-document proposal history,Unicode L2/23-203
+Nwagu Aneke,syllabary with some logographs,not encoded; not on roadmap,ScriptSource says not in Unicode or roadmap; L2/23-203 says no proposal.,"target case: source-promising, review-blocked",ScriptSource; Unicode L2/23-203

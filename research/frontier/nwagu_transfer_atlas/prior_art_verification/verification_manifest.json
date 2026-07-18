@@ -1,0 +1,48 @@
+{
+  "verification_id": "NWAGU-PRIOR-ART-VERIFY-001",
+  "created": "2026-06-23",
+  "status": "selected_primary_source_relevance_verified_not_novelty_clearance",
+  "claim_ceiling": "prior_art_relevance_not_frontier_claim",
+  "whole_atlas_prior_art_status": "not_verified",
+  "external_actions_taken": [],
+  "dependencies_installed": false,
+  "model_or_api_run": false,
+  "private_data_downloaded": false,
+  "selected_records": [
+    {
+      "atlas_id": "ATLAS-0049",
+      "project": "Inspect AI",
+      "verified_status": "primary_source_relevance_verified_not_novelty_clearance",
+      "claim_ceiling": "prior_art_relevance_not_frontier_claim",
+      "bounded_next_action": "keep Inspect execution blocked unless explicit user/lab approval is recorded; keep downstream no-run, no-conversion, no-identifier, repository-boundary review, reviewer-assignment intake, and safe assignment recorder decisions internal; add only non-private approved role-assignment rows after human selection before any public software provenance package"
+    },
+    {
+      "atlas_id": "ATLAS-0052",
+      "project": "MLAgentBench",
+      "verified_status": "primary_source_relevance_verified_not_novelty_clearance",
+      "claim_ceiling": "prior_art_relevance_not_frontier_claim",
+      "bounded_next_action": "keep the no-run keep/reject design internal until human/domain review; keep the DataLad Software Heritage repository-boundary reviewer-assignment intake and safe recorder decisions internal; add only non-private approved role-assignment rows after human selection before any public software provenance package"
+    },
+    {
+      "atlas_id": "ATLAS-0039",
+      "project": "RO-Crate",
+      "verified_status": "primary_source_relevance_verified_not_novelty_clearance",
+      "claim_ceiling": "prior_art_relevance_not_frontier_claim",
+      "bounded_next_action": "keep current metadata package internal until dataset-boundary review"
+    },
+    {
+      "atlas_id": "ATLAS-0040",
+      "project": "DataLad",
+      "verified_status": "primary_source_relevance_verified_not_novelty_clearance",
+      "claim_ceiling": "prior_art_relevance_not_frontier_claim",
+      "bounded_next_action": "keep the DataLad no-conversion decision internal until dataset-boundary and authority gates; keep the Software Heritage no-identifier repository-boundary reviewer-assignment intake and safe recorder decisions internal; add only non-private approved role-assignment rows after human selection before any public software provenance package"
+    },
+    {
+      "atlas_id": "ATLAS-0043",
+      "project": "Software Heritage",
+      "verified_status": "primary_source_relevance_verified_not_novelty_clearance",
+      "claim_ceiling": "prior_art_relevance_not_frontier_claim",
+      "bounded_next_action": "when human selections exist outside the repo add only non-private approved role-assignment rows using pseudonymous reviewer references while keeping archive identifier work deferred until release and archive approval"
+    }
+  ]
+}

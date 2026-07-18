@@ -1,0 +1,39 @@
+{
+  "experiment_id": "EXP-NA-001",
+  "canonical_experiment_path": "experiments/EXP-NA-001-source-critical-reconstruction",
+  "generated_at": "2026-06-19T18:53:15+01:00",
+  "decision": "RECONSTRUCTABLE_AS_SOURCE_LEDGER_NOT_FULL_GLYPH_CORPUS",
+  "result_type": "source-critical reconstruction ledger",
+  "source_files_checked": 12,
+  "evidence_rows": 12,
+  "symbol_inventory": {
+    "record_count": 36,
+    "row_labels": 26,
+    "vowel_columns": 8
+  },
+  "bmc_summary": {
+    "row_count": 26,
+    "vowel_count": 8,
+    "cell_count": 208,
+    "human_review_needed": 208,
+    "source_region_not_annotated": 208
+  },
+  "source_layer": {
+    "rows": 26,
+    "vowels": 8,
+    "cells": 208
+  },
+  "derived_layer": {
+    "rows_if_f_v_split": 27,
+    "cells_if_f_v_split": 216
+  },
+  "evidence_files": [
+    "experiments/EXP-NA-001-source-critical-reconstruction/results.json",
+    "experiments/EXP-NA-001-source-critical-reconstruction/analysis.md",
+    "experiments/EXP-NA-001-source-critical-reconstruction/decision.md",
+    "experiments/EXP-NA-001-source-critical-reconstruction/evidence_table.csv",
+    "experiments/EXP-NA-001-source-critical-reconstruction/evidence_table.jsonl",
+    "experiments/EXP-NA-001-source-critical-reconstruction/source_files.json"
+  ],
+  "claim_boundary": "Article 1 may report a reconstructable row/vowel source ledger and uncertainty model, but it cannot claim a completed glyph-level corpus, public image release, or source-observed 27/216."
+}

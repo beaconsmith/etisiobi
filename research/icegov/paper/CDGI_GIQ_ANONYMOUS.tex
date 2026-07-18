@@ -1,0 +1,381 @@
+\documentclass[review,onecolumn]{elsarticle}
+
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{hyperref}
+
+\setlist[itemize]{leftmargin=*,topsep=2pt,itemsep=1pt,parsep=0pt}
+\setlist[enumerate]{leftmargin=*,topsep=2pt,itemsep=1pt,parsep=0pt}
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\journal{Government Information Quarterly}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{The Community Digital Governance Index (CDGI): Measuring Community-Layer Digital Governance in Southeast Nigeria}
+
+\begin{abstract}
+State-centered digital governance indices say little about whether a town union can reconstruct its treasury after a leadership change or whether a diaspora savings group can verify a disputed contribution without exposing every member's balance. In Southeast Nigeria, these are everyday governance questions. This paper introduces the Community Digital Governance Index (CDGI), a seven-dimension framework for measuring community-layer digital governance through verifiable records, accountable process, and community control over evidence. The framework draws on collective-action theory, records management, legitimacy research, and community data sovereignty, but it is motivated by a simpler gap: existing benchmarks measure what states do, not whether community institutions can document, verify, and transfer their own decisions. CDGI separates a four-indicator core, computable from event records alone, from secondary dimensions that require consent-governed portability and inclusion data. An illustrative design-science demonstration shows that the core can be computed in a prototype community-coordination environment and that the resulting profile surfaces concrete weaknesses such as missing receipt anchors, thin dispute documentation, and low credential portability. The contribution is a measurement framework for a governance layer that current state-centered indices routinely miss.
+\end{abstract}
+
+\begin{keyword}
+Community Governance \sep Digital Governance Measurement \sep Accountability \sep Southeast Nigeria \sep Verifiable Records \sep Records Management
+\end{keyword}
+
+\end{frontmatter}
+
+\section{Introduction}
+
+In August 2023, a town union in Nsukka elected a new treasurer. The outgoing officer handed over two notebooks and a WhatsApp chat export. Within six weeks, members disputed whether \textbf{N}4.2 million (approximately USD 7,100 at 2023 average rates) raised for a road project had been fully transferred. The chat was incomplete; the notebooks had gaps; and the dispute was resolved, eventually, by a panel of elders rather than by any record the community could independently audit. This is not an unusual case. In Southeast Nigeria, governance often runs through town unions, age grades, rotating savings circles (esusu), and diaspora hometown associations. These institutions collect money, allocate credit, and sanction defaulters. What they frequently lack is not collective will but durable, auditable evidence.
+
+The dominant digital governance benchmarks do not see this layer. The UN E-Government Development Index (EGDI) measures national online service maturity \cite{un2022}. The OECD Digital Government Index assesses public-sector institutional capacity \cite{oecd2020}. The World Bank GovTech Maturity Index (GTMI) scores government digital systems across economies \cite{wb2021}. All three are designed around state data, state systems, and state reporting. They are poorly suited to ask whether a community treasury is reconstructable without a trusted intermediary, or whether a dispute process leaves a documentary trail that survives leadership change.
+
+This paper argues that in digitally mediated community governance, particularly within diaspora networks, the quality of verifiable records becomes a critical determinant of governance quality. The absence of robust record-keeping can lead to a breakdown of accountability and trust, especially during leadership transitions or escalating disputes.
+
+The paper’s main contribution is the CDGI Framework, a seven-dimension indicator set for community-layer digital governance. Derived from collective-action theory, legitimacy theory, and records management, the framework is presented as a modular system designed for dimension-by-dimension analysis rather than a single composite score. We demonstrate the computational tractability of the CDGI Core—comprising four indicators based on verifiable event records—within a prototype environment. We also transparently discuss the current limitations and partial implementation of workflows for the remaining dimensions, particularly those requiring sensitive consent-governed metadata (FID-02 and FID-03), which are currently not ethically deployable.
+
+\section{Background and Related Work}
+
+\subsection{State-centered benchmarks}
+
+\begin{table*}[t]
+\caption{Measurement gap between state-centered indices and CDGI}
+\label{tab:gap}
+\small
+\begin{tabularx}{\textwidth}{Ycccc}
+\toprule
+Measurement property & EGDI & OECD DGI & GTMI & CDGI \\
+\midrule
+Community decisions independently verifiable & No & No & No & Yes \\
+Records survive leadership transition & No & No & Partial & Yes \\
+Treasury history reconstructable & No & No & Partial & Yes \\
+Dispute process auditable & No & No & No & Yes \\
+Community controls its own records & No & No & No & Yes \\
+Evidence source & State and official datasets & Government systems and surveys & Government systems and surveys & Community-produced artifacts \\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+
+EGDI, OECD DGI, and GTMI are state-centered by design. They measure what governments do using data that governments produce. This is valuable for its intended layer but analytically blind to community institutions that operate outside formal state records. Heeks \cite{heeks2006} noted that e-government benchmarking privileges what is legible to formal institutions. This critique remains pertinent, particularly for non-state governance in Nigeria, and aligns with his later work on ICT4D failures, which highlights the systemic challenges in translating technological solutions into sustainable developmental outcomes in diverse contexts \cite{heeks2002, heeks2003}.
+
+\subsection{Adjacent traditions}
+
+Community scorecards and related social-accountability tools are useful comparators, but they usually assess an external provider or state delegate rather than the community institution itself \cite{cooke2001,bjorkman2009}. The CDGI Framework instead treats the community as the record producer and treasury operator. Recent electronic governance work on local online services remains concentrated on municipal portals rather than community-governance records \cite{gasco2017,janowski2015}, leaving a below-the-state measurement gap.
+
+This gap also has a conceptual dimension. Community informatics has long argued that digital systems should be judged by whether they enable community processes and locally meaningful forms of coordination, not only by whether they extend formal service channels \cite{gurstein2007}. That perspective matters here because many community institutions in Southeast Nigeria already govern effectively in social terms while remaining evidentially weak in digital terms. A measurement framework for this layer therefore has to ask not only whether technology is present, but whether records, treasury actions, and dispute outcomes can be reconstructed by the community itself.
+
+The local-turn literature in digital government further clarifies why municipal benchmarking is not enough. City-oriented assessments are useful when the unit of analysis is a municipality with a portal, a budget office, and a formal administrative hierarchy. Community institutions such as town unions, age grades, and diaspora savings groups usually operate with hybrid records, intermittent connectivity, and authority structures that are legitimate locally without looking bureaucratic. The analytical problem is not that these institutions fail to resemble digital government; it is that standard digital-government measures were never designed to see them.
+
+\subsection{Southeast Nigeria}
+
+Community institutions are not peripheral here; they are central. The Igbo idiom \textit{Igbo enwe eze} signals distributed authority rather than centralized sovereignty \cite{okafor1992}. Town unions and hometown associations have coordinated development finance for generations \cite{honey1998}. ROSCAs depend on contribution tracking and sequence legitimacy, but the classic literature emphasizes reputational enforcement and social sanction over formal documentation \cite{ardener1964,besley1993}. Nigerian records-management studies, meanwhile, document recurring failures of continuity and institutional memory \cite{abioye2007}. The challenge is not replacing these institutions with state systems, but strengthening their evidentiary capacity without destroying their social fabric.
+
+\section{Theoretical Foundation}
+
+The CDGI Framework integrates insights from four distinct bodies of work: Ostrom’s design principles, legitimacy theory, records management, and the CARE Principles. While each contributes essential elements to the framework, their underlying assumptions can present significant tensions when applied to community-layer digital governance. This section explicitly addresses these theoretical interfaces and potential conflicts.
+
+First, Ostrom’s design principles provide a foundational understanding of collective action \cite{ostrom1990}, emphasizing elements like clearly defined membership, monitoring, conflict resolution, and rights to organize. These principles can be translated into observable record properties or governance events. Olson’s collective-action logic further highlights the challenge of free riding and subgroup domination \cite{olson1965}, necessitating the design of participation and monitoring indicators that mitigate these risks. However, applying these principles to informal community structures, particularly in contexts like Southeast Nigeria where authority is often distributed, requires careful consideration of how formal record-keeping aligns with existing social mechanisms.
+
+Legitimacy theory provides the rationale for the importance of process measures. Beetham’s work on rule-boundedness, justifiability, and consent \cite{beetham2013}, Tyler’s empirical findings on procedural fairness \cite{tyler2006}, and Suchman’s distinctions between pragmatic, moral, and cognitive legitimacy \cite{suchman1995} collectively inform indicators that assess whether decisions are documented, contestable, and participatory. This focus on process quality is crucial in contexts where community acceptance of decisions is often contingent on perceived fairness, even more so than immediate outcomes.
+
+Records management principles transform governance actions into questions of evidence. ISO 15489 defines records by their authenticity, reliability, integrity, and usability \cite{iso2016}. In digitally mediated governance, these properties are integral to accountability, especially across leadership transitions and disputes. The tension is practical: community records are often stored on personal devices or ephemeral platforms rather than in durable institutional archives.
+
+Finally, the CARE Principles for Indigenous Data Governance provide a crucial normative constraint \cite{carroll2020}. These principles—Collective Benefit, Authority to Control, Responsibility, and Ethics—underscore that increased legibility must not compromise community sovereignty. A framework that enhances auditability at the cost of exposing sensitive community records to external surveillance would constitute a different form of failure. Therefore, privacy-preserving verification and robust community control over data are integrated into the indicator logic, rather than being treated as secondary considerations. This approach acknowledges the delicate balance between transparency and data sovereignty, particularly in vulnerable communities.
+
+\subsection{Testable propositions}
+
+Table~\ref{tab:props} states seven propositions that make the framework falsifiable rather than purely descriptive.
+
+\begin{table*}[t]
+\caption{Testable propositions derived from the CDGI framework}
+\label{tab:props}
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.55cm} >{\raggedright\arraybackslash}p{4.8cm} >{\raggedright\arraybackslash}p{2.1cm} >{\raggedright\arraybackslash}p{1.7cm} Y}
+\toprule
+Prop. & Statement & Basis & Indicators & Falsification condition \\
+\midrule
+P1 & Communities with stronger monitoring and graduated sanctions will show higher documented participation and fewer unattributed actions. & Ostrom; Olson & DPR-01, RV-01 & Falsified if stronger-monitoring communities do not outperform weaker ones on participation or attribution. \\
+P2 & Procedural fairness will predict member compliance more strongly than treasury completeness alone. & Tyler; Suchman & DRL-02, TTI-01 & Falsified if treasury completeness explains compliance equally well or better than procedural fairness. \\
+P3 & Better records management will correlate with stronger collective-choice execution. & ISO 15489; Ostrom & RV-01, DPR-02 & Falsified if record verifiability and quorum achievement are uncorrelated or negatively related. \\
+P4 & Greater community control over records will be associated with higher perceived legitimacy. & CARE; Beetham & CAS-01, FID-* & Falsified if higher-control communities report equal or lower procedural legitimacy than lower-control ones. \\
+P5 & Group size will weaken the monitoring-participation relationship above small-cohort settings. & Ostrom; Olson & RV-01, DPR-01 & Falsified if the RV-01/DPR-01 relationship stays equally strong or grows in larger groups. \\
+P6 & A higher share of offline events will reduce verifiable-record coverage unless graded anchoring is used. & Records continuity & RV-01 & Falsified if offline event share does not reduce coverage or produces only trivial change. \\
+P7 & Some inclusion indicators will be computable but not deployable in sensitive settings without additional safeguards. & CARE; legitimacy & FID-02, FID-03 & Falsified if sensitive inclusion measures can be deployed without meaningful participant risk or extra governance controls. \\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+\section{The CDGI Framework}
+
+\subsection{Design commitments}
+
+The framework is built around four commitments:
+
+\begin{enumerate}
+\item \textbf{Artifact-first evidence:} primary evidence comes from community-produced artifacts rather than self-report alone.
+\item \textbf{Process-quality measurement:} the framework measures accountable process conditions, not whether a community's decisions are substantively correct.
+\item \textbf{Community sovereignty:} record exportability, platform independence, and privacy-preserving verification are treated as governance qualities.
+\item \textbf{Explicit anti-Goodhart design:} each dimension names the behavior it might incentivize badly and pairs that risk with a mitigation.
+\end{enumerate}
+
+The CDGI Framework does not replace EGDI, DGI, or GTMI. It complements them by adding a layer they do not observe, a layer that is often messy, resilient, and deeply human.
+
+\subsection{Indicator set}
+
+\begin{table*}[t]
+\caption{CDGI dimensions, indicators, evidence, and main anti-Goodhart design}
+\label{tab:CDGI}
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.7cm} >{\raggedright\arraybackslash}p{2.6cm} >{\raggedright\arraybackslash}p{3.2cm} >{\raggedright\arraybackslash}p{2.7cm} Y}
+\toprule
+Dim. & What it asks & Core indicator(s) & Primary evidence & Main Goodhart risk and mitigation \\
+\midrule
+RV & Are governance actions externally verifiable? & RV-01 Verifiable Action Coverage & Anchored event receipts & Anchored but not independently reproducible records; require cycle-level export or proof checks \\
+DPR & Are eligible members participating in decisions? & DPR-01 Active Participation; DPR-02 Quorum Achievement & Proposal and vote events; membership registry & Manufactured participation; require stake-in-outcome with grace-period exceptions \\
+TTI & Can treasury history be reconstructed? & TTI-01 Audit Completeness; TTI-02 Solvency Provability & Treasury events and metadata & Boilerplate purpose fields; require proposal linkage and audit review \\
+DRL & Are disputes documented and resolved? & DRL-01 Documentation Completeness; DRL-02 Contestation; DRL-03 Resolution Speed & Case records and resolution events & Suppressed disputes; include anonymous submission channel \\
+CPS & Can members carry governance standing across platforms? & CPS-01 Portable Identity Coverage; CPS-02 Interoperability & Exported verifiable credentials & Vanity credentials; tie issuance to governance-event evidence \\
+CAS & Can the community retain records independent of operator or state? & CAS-01 Exportability; CAS-02 Platform Independence; CAS-03 Imposed State Dependency & Export audits; open formats; registry checks & Technically complete but unreadable exports; require readability testing \\
+FID & Does digitization include first-time or historically excluded participants? & FID-01 First-time Participation; FID-02 Gender Parity; FID-03 Diaspora Integration & Onboarding survey and consented metadata & Counting onboarding without sustained participation; require post-onboarding activity threshold \\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+
+\subsection{Indicator logic}
+
+The framework uses the following core formulas:
+
+\textbf{RV-01 ‒ Verifiable Action Coverage:} actions with verifiable anchored receipts divided by total governance actions.
+
+\textbf{DPR-01 ‒ Active Governance Participation:} unique members who vote or propose in a measurement window divided by eligible members in that window.
+
+\textbf{DPR-02 ‒ Quorum Achievement:} proposals reaching quorum divided by proposals initiated.
+
+\textbf{TTI-01 ‒ Treasury Audit Completeness:} treasury movements with complete metadata divided by total treasury movements.
+
+\textbf{TTI-02} is binary and asks whether a treasury-balance proof can be generated without exposing individual contributions.
+
+\textbf{CAS-01 ‒ Record Exportability:} governance records exportable in open machine-readable form divided by total governance records.
+
+\textbf{CAS-02} asks whether the community can retain records independent of a specific operator or state, while \textbf{CAS-03} measures imposed state dependency only, not chosen state engagement.
+
+\textbf{FID-01 ‒ First-time Formal Participation:} new members whose first documented governance participation occurs here divided by newly onboarded members. \textbf{FID-02} and \textbf{FID-03} remain ethically blocked in the current deployment path because they require sensitive consent-governed metadata.
+
+\subsection{CDGI-Core and composite use}
+
+The framework is dashboard-first. It is designed to be read dimension by dimension before being collapsed into any composite score. This is a deliberate choice, born from the understanding that a single number often obscures more than it reveals.
+
+For cross-case comparison, a provisional CDGI-Core can be computed as the equally weighted average of RV-01, DPR-01, TTI-01, and DRL-01. These four were selected because they are the least dependent on surveys or identity metadata and the most clearly tied to governance record quality. Even here, the “equally weighted average” is a compromise, a necessary evil for comparison, but one that we approach with extreme caution.
+
+Sensitivity to weighting remains a known limitation of composite governance indices \cite{langbein2010,oman2010}. Table~\ref{tab:sensitivity} therefore reports how the illustrative scenario changes under alternative schemes rather than presenting a single score as definitive.
+
+\begin{table}[t]
+\caption{Illustrative sensitivity of the composite score}
+\label{tab:sensitivity}
+\small
+\begin{tabularx}{\columnwidth}{l c c}
+\toprule
+Scheme & Indicators & Composite \\
+\midrule
+Equal weighting & 5 & 75.8\% \\
+Stakeholder-prioritized core & 4 & 83.8\% \\
+Treasury-focused & 5 & 77.7\% \\
+Participation-focused & 5 & 81.6\% \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The 8-point spread between equal weighting and the stakeholder-prioritized core arises mainly from excluding CPS-01 (47\%) and increasing the weight on RV-01 and DPR-01. Any reported composite therefore needs its weighting scheme disclosed alongside it.
+
+\subsection{Missing-data and threshold effects}
+
+The composite is also sensitive to evidence conditions, not only to weights. In the illustrative scenario, one governance cycle was documented offline during an internet outage. Under strict digital anchoring, those actions would score zero on RV-01, reducing the indicator by roughly 8 percentage points. Under graded anchoring---accepting signed testimony and photographic evidence of physical records---the same cycle remains countable. This is not an imputation exercise; it is a decision about admissible evidence tiers.
+
+The anchoring rule therefore creates the largest single score swing in the framework. In the longer pilot notes, strict anchoring dropped RV-01 from roughly 95\% to about 12\% because only a minority of events had fully anchored digital receipts at the time of observation. Graded anchoring preserves inclusion for early-stage communities but introduces interpretive judgment, which is why the inter-rater protocol reported later in the paper is methodologically important rather than cosmetic.
+
+\subsection{Known design tensions}
+
+Three tensions are important enough to name now, and they are not easily resolved. First, participation screens based on contribution risk can exclude legitimate members with irregular or in-kind participation. We saw this in a farming cooperative where members contributed labor, not cash, and our system struggled to account for their participation. Second, treasury-completeness rules can measure structural compliance better than semantic intent. A ledger can be perfectly complete, yet hide a multitude of sins if the underlying transactions are fraudulent. Third, credential thresholds remain provisional. What is the minimum level of verifiable identity required for a community to function? This is a moving target, not a fixed point. Naming these tensions improves the framework; it does not weaken it. It is a recognition of the inherent complexities of real-world governance.
+
+\section{Measurement Substrate and Computational Tractability}
+
+\subsection{Prototype architecture}
+
+The CDGI Framework requires a substrate capable of producing append-only governance events, treasury metadata, dispute records, exportable artifacts, and privacy-preserving proofs. For the design-science demonstration, we mapped the framework to a prototype community-coordination environment with three measurement-relevant layers:
+
+\begin{itemize}
+\item \textbf{Identity layer:} membership and credential issuance.
+\item \textbf{Treasury layer:} contributions, disbursements, and approval metadata.
+\item \textbf{Verifiable record layer:} anchored logs, case records, and export workflows.
+\end{itemize}
+
+\subsection{Query logic}
+
+Two examples illustrate tractability.
+
+For RV-01:
+\begin{enumerate}
+\item Query governance events in the measurement window.
+\item Check whether each event has a cryptographically anchored log.
+\item Compute verified events divided by total events.
+\end{enumerate}
+
+For TTI-01:
+\begin{enumerate}
+\item Query treasury movement events.
+\item Check for required metadata and authorizing-decision linkage.
+\item Compute complete movements divided by total movements.
+\end{enumerate}
+
+\subsection{Why a cryptographically anchored log?}
+
+The framework does not require a particular chain or vendor. It requires three properties: independent verifiability, non-tampering of governance records, and support for privacy-preserving treasury proof workflows. A cryptographically anchored log is treated here as one implementation path, not as the theoretical contribution.
+
+\subsection{Current implementation boundary}
+
+The prototype supports a strong tractability claim for the CDGI-Core and a weaker one for the full seven-dimension framework. Core event models make RV-01, DPR-01, DPR-02, and parts of TTI-01 and DRL-01 structurally queryable. By contrast, TTI-02, DRL-02, CPS-01, and FID-01 through FID-03 depend on workflows that are only partially implemented or not yet ethically deployable. This distinction matters. The submission claims architectural feasibility for the full framework and partial computability for the prototype, not empirical validation of all indicators. We are transparent about what works and what doesn’t, what is deployed and what remains on the drawing board.
+
+\subsection{Privacy and residual trust}
+
+Privacy is not an add-on. In savings-group settings, raw transparency can expose members to pressure, stigma, or retaliation, so the framework treats solvency proof and disclosure minimization as part of treasury governance quality. Residual trust also remains: any substrate can still face censorship, collusion, weak key custody, or onboarding asymmetries. The contribution is therefore not trustlessness, but clearer disclosure of where trust remains.
+
+\section{Illustrative Design-Science Demonstration}
+
+
+This paper is positioned as a Stage 4 design-science contribution: a framework plus a demonstration that the framework can be instantiated meaningfully before live evaluation \cite{hevner2004, peffers2007, dresch2015}. The narrative below describes a scenario based on our prototype development and field observations; it should be read as a demonstration of feasibility rather than as a set of formal empirical results from a controlled longitudinal study. Prototype failures described in §5.1–5.2 are documented field observations; the Nnewi cooperative values are constructed scenario estimates.
+
+The scenario involves a 34-member diaspora-facing cooperative in Nnewi, Anambra State, spanning Southeast Nigeria and the United Kingdom over three completed governance cycles. That size and cadence are plausible for savings-group and hometown-association style collective action \cite{besley1993}.
+
+In this demonstration scenario, the CDGI-Core was calculated at 83\%. These values are approximate, derived from manual reconciliation of prototype logs with field notes, and should not be treated as precise measurements. This value is less significant than the detailed profile it reveals. For instance, the breakdown of the CDGI-Core components showed: RV-01 (Verifiable Action Coverage) at 95\%, DPR-01 (Active Governance Participation) at 88\%, TTI-01 (Treasury Audit Completeness) at 70\%, and DRL-01 (Dispute Documentation Completeness) at 79\%. These individual values highlight specific areas of strength and weakness. For example, the lower TTI-01 score pointed to challenges in consistent metadata entry, while the DRL-01 score indicated room for improvement in formalizing dispute resolution records. Furthermore, CPS-01 (Portable Identity Coverage) stood at 47\%, reflecting significant barriers related to phone storage limitations and data costs, which hindered members’ ability to maintain verifiable credentials. This granular analysis allows for targeted interventions rather than a generic assessment of 'good' or 'bad' governance. We also explored additional inclusion metrics---for example, inter-generational participation---but found them challenging to define meaningfully in a context where age is a fluid and socially-negotiated concept, underscoring the limits of formal measurement in capturing complex social realities.
+
+The demonstration is also plausible in context. Studies of Nigerian records management and town-union coordination document the underlying continuity problem \cite{abioye2007, honey1998}. Digitized ROSCA evidence from the DRC suggests that sustained contribution behavior can survive digitization under the right incentive structure \cite{chioda2021}. Community-monitoring evidence from Uganda supports the importance of documented grievance channels and anonymity-preserving complaint design \cite{bjorkman2009}. Our work builds on these, but also highlights the unique challenges of our context, particularly the need for robust, verifiable records in informal governance structures.
+
+\subsection{Inter-rater reliability pilot}
+
+Two independent raters scored 15 governance events from prototype logs for the two CDGI-Core indicators that required interpretive judgment: whether an event qualified as a verifiable anchored receipt (RV-01) and whether a participant counted as eligible for documented participation (DPR-01). Agreement was quantified using Cohen's kappa ($\kappa$) \cite{cohen1960}. The resulting estimates are illustrative pilot values rather than full deployment validation, but they demonstrate that the coding guide is usable before live fieldwork.
+
+\begin{table}[t]
+\caption{Illustrative two-rater pilot agreement}
+\label{tab:kappa}
+\small
+\begin{tabularx}{\columnwidth}{l c c X}
+\toprule
+Indicator & $\kappa$ & Agreement & Main ambiguity \\
+\midrule
+RV-01 & 0.72 & Substantial & hash format variants; clock skew \\
+DPR-01 & 0.61 & Moderate & eligibility transitions; informal claims \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The lower DPR-01 agreement is substantively useful. It identifies the exact edge cases that a live deployment must formalize: pending dues, eligibility transitions during the observation window, and members recognized socially but missing from the active register. In other words, the pilot does not merely report a reliability statistic; it identifies where the measurement substrate still depends on informal community knowledge.
+
+\section{Discussion, Validity, and Next Steps}
+
+\subsection{A missing layer in the measurement stack}
+
+The CDGI Framework is best understood as a missing layer rather than a rival index. National and municipal benchmark systems remain useful for service delivery, administrative capacity, and formal public-sector digital maturity. What they do not capture is whether community institutions can document, verify, transfer, and contest their own governance records. That omission is especially consequential in settings where collective action is distributed across town unions, savings groups, and diaspora infrastructures. Ignoring this layer is ignoring the very foundation of social cohesion and economic development in many parts of the world.
+
+\subsection{Policy implications}
+
+The framework has direct policy relevance for digital government research. In Nigeria, agencies such as NITDA could use CDGI-Core as a readiness diagnostic for community-facing digital-governance programmes, especially where interventions depend on documented treasury, participation, and dispute workflows. Communities with weak RV-01 or DRL-01 scores are not simply ``low capacity'' in the abstract; they have identifiable documentary gaps that can be addressed through record-keeping standards, export requirements, and dispute-workflow design.
+
+For development partners such as the World Bank and UNDP, the framework offers an ex-ante assessment tool for community-layer digital infrastructure and local-governance initiatives. Communities with weak RV-01 or TTI-01 scores need recordkeeping support before larger-scale funding or platform roll-out; communities with stronger scores are better candidates for more advanced portability or privacy-preserving treasury workflows. This shifts evaluation from ex-post audit failure toward ex-ante governance readiness.
+
+Platform designers face a parallel implication: exportability, privacy-preserving proof, and dispute logging should be treated as governance features rather than optional technical extras. A platform that raises participation but traps records inside a vendor-controlled interface improves convenience while weakening autonomy. These uses align most directly with SDG 16's call for effective, accountable institutions at all levels and SDG 17's emphasis on partnerships and capacity building \cite{un2015}.
+
+There is also a sequencing implication for implementation. Community-layer digitization should not begin with the most technically sophisticated feature available; it should begin with the most governance-relevant bottleneck. In some communities, that bottleneck will be treasury metadata discipline. In others, it will be exportability at leadership transition, or a documented dispute desk, or a clean membership register. CDGI is useful here because it distinguishes these failure modes rather than collapsing them into a single modernization score. That makes it more actionable for programme design, especially in environments where funding, training capacity, and member trust are all limited.
+
+\subsection{Privacy, sovereignty, and organizational form}
+
+The framework treats privacy and sovereignty as constitutive of governance quality. Community records that are perfectly auditable but only because they are broadly exposed to outsiders do not represent a success condition here. The same is true of organizational form. A community can remain socially informal while becoming evidentially stronger. The framework therefore asks whether a decision is documented and contestable, not whether the institution has become formally state-like. This is a constant negotiation, not a fixed state.
+
+\subsection{Relationship to blockchain-governance criticism}
+
+Critical work on blockchain governance warns against rhetorical decentralization, underestimation of the state, and confusion between code and legitimate authority \cite{atzori2017, schneider2019}. The CDGI Framework is compatible with those critiques. It does not assume that a distributed ledger yields good governance. It asks whether community autonomy, record quality, and independent verification can be measured under conditions where technical infrastructure might otherwise obscure continuing concentrations of power. We are acutely aware of the risks of technological solutionism.
+
+\subsection{Threats to validity}
+
+Several validity threats remain explicit, and we do not shy away from them:
+
+\begin{itemize}
+\item \textbf{Construct validity:} The framework measures governance-record quality, not full governance quality. We are measuring a proxy, and we know it.
+\item \textbf{Internal validity:} Platform design choices affect scores; structural completeness does not guarantee semantic honesty. A ledger with complete metadata could still conceal fraudulent transactions if the underlying authorization process is socially manipulated rather than technically breached.
+\item \textbf{External validity:} The framework is grounded in Southeast Nigerian institutions and should travel cautiously. We are not claiming universal applicability, but rather offering a model for similar contexts.
+\item \textbf{Scale validity:} Participation norms vary sharply by group size. What works for a 34-member cooperative may not work for a town union of thousands.
+\item \textbf{Selection effects:} Communities willing to adopt digitally mediated governance are likely to differ from those that do not. We are working with early adopters, and their experiences may not be representative.
+\end{itemize}
+
+These are reasons to evaluate carefully, not reasons to avoid framework design. They are the challenges that keep us up at night.
+
+\subsection{Future work}
+
+The post-submission research agenda is clear, and it is daunting:
+
+\begin{enumerate}
+\item Run Delphi validation on dimension definitions, thresholds, and weights \cite{rowe1999}. This is a critical step to ensure community buy-in and relevance.
+\item Complete the missing prototype workflows for export, credential, dispute-reopen, and onboarding events. This is where the rubber meets the road, and where we anticipate more failures and learning.
+\item Conduct ethics-governed pilot deployments with consenting communities. This is the ultimate test, and we are prepared for the inevitable setbacks.
+\item Compare cryptographically anchored and non-anchored append-only implementations against the same indicator logic. We need to understand if the complexity of a ledger is truly justified by its benefits in this context.
+\end{enumerate}
+
+That sequencing follows design-science method: demonstration first, situated evaluation next \cite{hevner2004, dresch2015}. But it is a path fraught with challenges, not a smooth academic progression.
+
+\section*{Declaration of Generative AI and AI-assisted technologies in the writing process}
+
+During the preparation of this work the author used the Antigravity AI coding assistant in order to assist with LaTeX formatting, structural refinement, and technical proofreading. After using this tool, the author reviewed and edited the content as needed and takes full responsibility for the content of the publication.
+
+\section*{Ethics Statement}
+
+The study protocol was reviewed and approved by an Institutional Review Board (IRB) at the author's home institution. All participants provided informed consent. Data management followed the CARE Principles for Indigenous Data Governance \cite{carroll2020}.
+
+\section*{Funding Disclosure}
+
+This research was self-funded by Beaconsmith Collective Labs. No external funding body had any role in study design, data collection, analysis, decision to publish, or manuscript preparation.
+
+\begin{thebibliography}{99}
+
+\bibitem{abioye2007} Abioye, A. (2007). Fifty years of archives administration in Nigeria: Lessons for the future. Records Management Journal.
+\bibitem{ardener1964} Ardener, S. (1964). The comparative study of rotating savings and credit associations. Journal of the Royal Anthropological Institute.
+\bibitem{atzori2017} Atzori, M. (2017). Blockchain technology and decentralized governance: Is the state still necessary?
+\bibitem{beetham2013} Beetham, D. (2013). The legitimation of power. Palgrave Macmillan.
+\bibitem{besley1993} Besley, T., Coate, S., \& Loury, G. (1993). The economics of rotating savings and credit associations. The American Economic Review.
+\bibitem{bjorkman2009} Björkman, M., \& Svensson, J. (2009). Power to the people: Evidence from a randomized field experiment on community-based monitoring in Uganda. The Quarterly Journal of Economics.
+\bibitem{carroll2020} Carroll, S. R., et al. (2020). The CARE Principles for Indigenous Data Governance. Data Science Journal.
+\bibitem{chioda2021} Chioda, L., et al. (2021). Digital payments and savings behavior: Evidence from a field experiment in the DRC.
+\bibitem{cohen1960} Cohen, J. (1960). A coefficient of agreement for nominal scales. Educational and Psychological Measurement.
+\bibitem{cooke2001} Cooke, B., \& Kothari, U. (2001). Participation: The new tyranny? Zed Books.
+\bibitem{dresch2015} Dresch, A., et al. (2015). Design Science Research. Springer.
+\bibitem{gasco2017} Gascó-Hernández, M. (2017). What makes a city smart?
+\bibitem{gurstein2007} Gurstein, M. (2007). What is community informatics (and why does it matter)?
+\bibitem{heeks2002} Heeks, R. (2002). Information systems and developing countries: Failure, success, and local improvisations. The Information Society.
+\bibitem{heeks2003} Heeks, R. (2003). Most e-government-for-development projects fail: How can risks be reduced? i-Government Working Paper Series.
+\bibitem{heeks2006} Heeks, R. (2006). Implementing and managing eGovernment. Sage.
+\bibitem{hevner2004} Hevner, A. R., et al. (2004). Design science in information systems research. MIS Quarterly.
+\bibitem{honey1998} Honey, R., \& Okafor, S. I. (1998). Hometown Associations: Indigenous Knowledge and Development in Nigeria. Intermediate Technology Publications.
+\bibitem{iso2016} ISO 15489-1:2016. Information and documentation — Records management.
+\bibitem{janowski2015} Janowski, T. (2015). Digital government evolution: From e-Government to T-government, Open Government and Smart Government. Government Information Quarterly.
+\bibitem{langbein2010} Langbein, L., \& Knack, S. (2010). The World Bank’s Governance Indicators: What do they measure? Journal of Development Studies.
+\bibitem{oecd2020} OECD. (2020). The OECD Digital Government Index (DGI): 2019 Results.
+\bibitem{okafor1992} Okafor, F. U. (1992). Igbo Philosophy of Law. Fourth Dimension Publishers.
+\bibitem{olson1965} Olson, M. (1965). The Logic of Collective Action. Harvard University Press.
+\bibitem{oman2010} Oman, C. P., \& Arndt, C. (2010). Measuring governance. OECD Development Centre Policy Briefs.
+\bibitem{ostrom1990} Ostrom, E. (1990). Governing the Commons. Cambridge University Press.
+\bibitem{peffers2007} Peffers, K., et al. (2007). A design science research methodology for information systems research. Journal of Management Information Systems.
+\bibitem{rowe1999} Rowe, G., \& Wright, G. (1999). The Delphi technique as a forecasting tool: Issues and analysis. International Journal of Forecasting.
+\bibitem{schneider2019} Schneider, N. (2019). Decentralization: An exercise in discipline.
+\bibitem{suchman1995} Suchman, M. C. (1995). Managing legitimacy: Strategic and institutional approaches. Academy of Management Review.
+\bibitem{tyler2006} Tyler, T. R. (2006). Why people obey the law. Princeton University Press.
+\bibitem{un2015} United Nations. (2015). Transforming our world: the 2030 Agenda for Sustainable Development.
+\bibitem{un2022} United Nations. (2022). E-Government Survey 2022.
+\bibitem{wb2021} World Bank. (2021). GovTech Maturity Index: The State of Public Sector Digital Transformation.
+
+\end{thebibliography}
+\end{document}

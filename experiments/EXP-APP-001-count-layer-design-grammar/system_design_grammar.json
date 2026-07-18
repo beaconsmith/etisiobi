@@ -1,0 +1,39 @@
+{
+  "grammar_id": "PAGC-DESIGN-GRAMMAR-001",
+  "created_at": "2026-05-28T11:02:20+00:00",
+  "foundation": {
+    "source_layer": {
+      "bases": 26,
+      "modifiers": 8,
+      "tokens": 208
+    },
+    "derived_layer": {
+      "bases": 27,
+      "modifiers": 8,
+      "tokens": 216,
+      "rule": "split f/v row"
+    },
+    "hard_rule": "derived tokens must not be reported as source-observed"
+  },
+  "constructs": {
+    "Base": "domain primitive, source-observed row, or mapped system object",
+    "Modifier": "state, operator, vowel/modifier, or transformation axis",
+    "Token": "Base x Modifier object with layer label and provenance",
+    "Cache": "high-salience object that bypasses composition only when evidence/authority allows",
+    "Transition": "valid movement between tokens, constrained by domain rules",
+    "Authority": "permission or legitimacy state for using a generated object"
+  },
+  "design_rules": [
+    "Every generated object must carry a layer label: source_observed, derived_fv_split, domain_mapped, or speculative.",
+    "A derived object may support design exploration but not source-inventory claims.",
+    "Every system mapping must define bases, modifiers, transitions, authority, and falsification criteria.",
+    "A design is stronger when it compresses repeated structure without hiding uncertainty."
+  ],
+  "active_domains": [
+    "systems design",
+    "governance",
+    "AI agent memory",
+    "interface design",
+    "NLP/tokenization"
+  ]
+}

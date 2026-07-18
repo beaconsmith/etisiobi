@@ -1,0 +1,134 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{7}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[{arXiv}(2026)]%
+        {ArxivTeXLive2026}
+\bibfield{author}{\bibinfo{person}{{arXiv}}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{TeX Live at arXiv}.
+\newblock
+\urldef\tempurl%
+\url{https://info.arxiv.org/help/faq/texlive.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{Association for Computing Machinery}(2026)]%
+        {ACMSubmissions2026}
+\bibfield{author}{\bibinfo{person}{{Association for Computing Machinery}}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Submissions}.
+\newblock
+\urldef\tempurl%
+\url{https://www.acm.org/publications/authors/submissions}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Azuonye(1992)]%
+        {Azuonye1992}
+\bibfield{author}{\bibinfo{person}{Chukwuma Azuonye}.}
+  \bibinfo{year}{1992}\natexlab{}.
+\newblock \bibinfo{title}{The Nwagu Aneke Igbo Script: Its Origins, Features
+  and Potentials as a Medium of Alternative Literacy in African Languages}.
+\newblock \bibinfo{howpublished}{ScholarWorks at UMass Boston}.
+\newblock
+\urldef\tempurl%
+\url{https://scholarworks.umb.edu/africana_faculty_pubs/13/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Ho et~al\mbox{.}(2026)]%
+        {Ho2026}
+\bibfield{author}{\bibinfo{person}{Hao-Chen Ho} {et~al\mbox{.}}}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{SciClaimEval: A Cross-Modal Benchmark for Scientific
+  Claim Verification}.
+\newblock
+\showeprint[arxiv]{2602.07621}
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2602.07621}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Jaradeh et~al\mbox{.}(2019)]%
+        {Jaradeh2019}
+\bibfield{author}{\bibinfo{person}{Mohamad~Yaser Jaradeh},
+  \bibinfo{person}{Allard Oelen}, \bibinfo{person}{Kheir~Eddine Farfar},
+  \bibinfo{person}{Manuel Prinz}, \bibinfo{person}{Jennifer D'Souza},
+  \bibinfo{person}{Gabor Kismihok}, \bibinfo{person}{Markus Stocker}, {and}
+  \bibinfo{person}{Soren Auer}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Open Research Knowledge Graph: Next Generation
+  Infrastructure for Semantic Scholarly Knowledge}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 10th International Conference on
+  Knowledge Capture}}.
+\newblock
+\href{https://doi.org/10.1145/3360901.3364435}{doi:\nolinkurl{10.1145/3360901.3364435}}
+
+
+\bibitem[Karpathy(2026)]%
+        {Karpathy2026}
+\bibfield{author}{\bibinfo{person}{Andrej Karpathy}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{autoresearch: AI agents running research on
+  single-GPU nanochat training automatically}.
+\newblock \bibinfo{howpublished}{GitHub repository}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/karpathy/autoresearch}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Sennrich et~al\mbox{.}(2016)]%
+        {Sennrich2016}
+\bibfield{author}{\bibinfo{person}{Rico Sennrich}, \bibinfo{person}{Barry
+  Haddow}, {and} \bibinfo{person}{Alexandra Birch}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Neural Machine Translation of Rare Words with
+  Subword Units}. In \bibinfo{booktitle}{\emph{Proceedings of the 54th Annual
+  Meeting of the Association for Computational Linguistics}}.
+\newblock
+\urldef\tempurl%
+\url{https://aclanthology.org/P16-1162/}
+\showURL{%
+\tempurl}
+
+
+\end{thebibliography}

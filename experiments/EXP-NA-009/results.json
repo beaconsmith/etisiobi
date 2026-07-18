@@ -1,0 +1,38 @@
+{
+  "experiment_id": "EXP-NA-009",
+  "canonical_experiment_id": "EXP-NA-009-tokenizer-baselines",
+  "generated_at": "2026-07-06T00:00:00+01:00",
+  "decision": "TOKENIZER_BASELINES_RAN_NO_DOWNSTREAM_TASK_RESULT",
+  "result_type": "Bounded tokenizer baseline comparison",
+  "train_words_used": 25000,
+  "test_words_used": 5000,
+  "seed": 42,
+  "tokenizers_compared": [
+    "character",
+    "whitespace_word",
+    "bpe_200_merges",
+    "source_layer_cv_greedy",
+    "derived_fv_cv_greedy"
+  ],
+  "key_metrics": {
+    "character_mean_tokens_per_word": 5.6358,
+    "whitespace_word_mean_tokens_per_word": 1.0,
+    "bpe_200_merges_mean_tokens_per_word": 3.6164,
+    "source_layer_cv_greedy_mean_tokens_per_word": 3.6708,
+    "derived_fv_cv_greedy_mean_tokens_per_word": 3.6708,
+    "source_layer_cv_coverage": 0.6746,
+    "derived_fv_cv_coverage": 0.6746,
+    "bpe_vs_source_cv_tokens_per_word_delta": 0.0544,
+    "derived_vs_source_cv_coverage_delta": 0.0
+  },
+  "article_implication": "Article 9 can report a bounded tokenizer baseline with compression and coverage metrics while explicitly refusing downstream NLP improvement claims.",
+  "evidence_files": [
+    "experiments/EXP-NA-009-tokenizer-baselines/results.json",
+    "experiments/EXP-NA-009-tokenizer-baselines/data/tokenizer_metrics.csv",
+    "experiments/EXP-NA-009-tokenizer-baselines/data/tokenizer_metrics.jsonl",
+    "experiments/EXP-NA-009-tokenizer-baselines/data/bpe_merges_200.json",
+    "experiments/EXP-NA-009-tokenizer-baselines/analysis.md",
+    "experiments/EXP-NA-009-tokenizer-baselines/decision.md"
+  ],
+  "claim_boundary": "The experiment supports a tokenizer-baseline paper; it does not support downstream NLP improvement, task transfer, public corpus release, or a claim that the derived f/v layer is source-observed."
+}

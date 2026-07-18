@@ -1,0 +1,28 @@
+{
+  "article_id": "ARTICLE-NA-005",
+  "status": "FIGURES_TABLES_PLANNED_NOT_FINAL",
+  "tables": [
+    {
+      "id": "tab:article_na_005",
+      "source": "papers/nwagu_aneke_articles/005-tei-iiif-critical-edition/main.tex",
+      "purpose": "Summarize article result, experiment id, source layer, derived layer, and claim ceiling."
+    },
+    {
+      "id": "planned_tei_web_annotation_mapping_table",
+      "source": "experiments/EXP-NA-005-tei-iiif-selectors/data/tei_glyph_declarations.jsonl",
+      "purpose": "Show mapped TEI glyph declaration leads and their review status."
+    },
+    {
+      "id": "planned_selector_status_table",
+      "source": "experiments/EXP-NA-005-tei-iiif-selectors/data/web_annotation_sample.jsonld",
+      "purpose": "Show Web Annotation records, TextQuoteSelector targets, certainty, review status, and missing pixel-coordinate status."
+    }
+  ],
+  "figures": [],
+  "blocked_figures": [
+    {
+      "id": "iiif_canvas_pixel_regions",
+      "reason": "Pixel-coordinate regions, source-image crops, and IIIF image display require human source review and rights clearance."
+    }
+  ]
+}

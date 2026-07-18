@@ -1,0 +1,27 @@
+{
+  "article_id": "ARTICLE-NA-002",
+  "status": "STRUCTURAL_ARXIV_QUALITY_PASS_NOT_SUBMISSION_READY",
+  "candidate": false,
+  "reason": "The repository arXiv-quality validator passes for Article 002, but human source review and rights/submission clearance remain open, so this is not an external submission candidate yet.",
+  "field_facing_result": "A reproducible count-layer audit separates the current source-observed 26 x 8 Nwagu Aneke index layer from the derived f/v split layer that yields 27 rows and 216 cells.",
+  "positive_evidence": [
+    "experiments/EXP-NA-002-count-layer-ledger/results.json",
+    "experiments/EXP-NA-002-count-layer-ledger/data/count_layer_ledger.csv",
+    "experiments/EXP-NA-002-count-layer-ledger/data/count_layer_ledger.jsonl",
+    "papers/nwagu_aneke_articles/002-count-layer-drift/article_specific_experiment.md",
+    "papers/nwagu_aneke_articles/002-count-layer-drift/external_prior_art_audit.md",
+    "papers/nwagu_aneke_articles/002-count-layer-drift/figures_tables_manifest.json",
+    "papers/nwagu_aneke_articles/002-count-layer-drift/reviewer2_response_plan.md"
+  ],
+  "blocking_evidence": [
+    "papers/nwagu_aneke_articles/002-count-layer-drift/human_source_review.md",
+    "papers/nwagu_aneke_articles/002-count-layer-drift/rights_submission_clearance.md"
+  ],
+  "next_actions": [
+    "Attach human source review.",
+    "Attach rights and public-submission clearance.",
+    "Complete deeper article-specific prior-art audit with domain expert review.",
+    "Run adversarial journal review against the revised manuscript.",
+    "Rerun python scripts\\validate_arxiv_quality_gate.py."
+  ]
+}

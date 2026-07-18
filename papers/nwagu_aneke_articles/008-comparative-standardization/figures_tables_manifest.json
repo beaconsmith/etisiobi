@@ -1,0 +1,25 @@
+{
+  "article_id": "ARTICLE-NA-008",
+  "status": "FIGURES_TABLES_DEFINED_TEXT_ONLY",
+  "tables": [
+    {
+      "id": "table_comparative_scripts_matrix",
+      "source": "experiments/EXP-NA-008-comparative-scripts-matrix/data/comparative_scripts_matrix.csv",
+      "description": "Eight-row comparator matrix with script, type, Unicode status, standardization signal, comparison relevance, and source."
+    },
+    {
+      "id": "table_standardization_condition_counts",
+      "source": "experiments/EXP-NA-008/results.json",
+      "description": "Summary counts: 8 scripts compared, 3 encoded scripts, 5 unencoded or proposal-lead scripts."
+    }
+  ],
+  "figures": [],
+  "excluded_visuals": [
+    "public source-image reproduction",
+    "glyph-crop figure",
+    "Unicode code chart",
+    "proposal block allocation",
+    "community-authorized representative glyph chart"
+  ],
+  "rights_boundary": "The current package is text-only. Visual source material and code-chart-style representations require human rights and authority clearance."
+}

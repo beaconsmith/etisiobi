@@ -1,0 +1,1 @@
+# Source Index: track_12_experiments\n\nThis index catalogs all sources harvested during the research loop for this track.\n\n## Ranked Sources\n(See RESEARCH_LOG.md for full details)\n- T12-A\n- T12-B\n- T12-C\n- T12-D\n- T12-E\n- T12-F\n- T12-G\n

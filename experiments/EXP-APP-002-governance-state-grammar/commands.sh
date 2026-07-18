@@ -1,0 +1,1 @@
+python scripts/run_pagc_governance_state_grammar.py

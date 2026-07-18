@@ -1,0 +1,7 @@
+baseline,n,tp,fp,fn,tn,precision,recall,f1,balanced_accuracy,mcc,severity_weighted_recall,split
+rank_only_metadata,111,44,0,0,67,1.0,1.0,1.0,1.0,1.0,1.0,test
+shacl_type_sim,111,44,0,0,67,1.0,1.0,1.0,1.0,1.0,1.0,test
+hybrid_rank_lexical,111,44,7,0,60,0.8627,1.0,0.9263,0.9478,0.879,1.0,test
+lexical_only,111,34,7,10,60,0.8293,0.7727,0.8,0.8341,0.6773,0.75,test
+metadata_free_text,111,32,5,12,62,0.8649,0.7273,0.7901,0.8263,0.6772,0.6875,test
+majority_negative,111,0,0,44,67,0.0,0.0,0.0,0.5,0.0,0.0,test

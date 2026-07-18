@@ -1,0 +1,12 @@
+{
+  "goal_id": "GOAL-007",
+  "decision": "KG_INTEGRATION_COMPLETED",
+  "bmc_graph_nodes": 245,
+  "bmc_object_nodes": 208,
+  "base_nodes": 26,
+  "modifier_nodes": 8,
+  "outputs": [
+    "knowledge_graph/bmc_kg.jsonld",
+    "knowledge_graph/etisiobi_kg.jsonld"
+  ]
+}

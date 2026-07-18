@@ -1,0 +1,7 @@
+key,title,year,category,confidence,status,notes
+T12-A,Design Science in Information Systems Research,2004,methods,5,vetted,Hevner DSR anchor
+T12-B,A Design Science Research Methodology for Information Systems Research,2007,methods,5,vetted,Peffers process model
+T12-C,Action Design Research,2011,methods,5,vetted,ADR if organizational intervention exists
+T12-D,DSR evaluation artificiality study,2020,critique,4,vetted,evaluation weakness anchor
+T12-E,Civic tech pilot evaluation in Africa,,regional,,to_acquire,critical missing source class
+T12-F,Platform artifact evidence,,artifact,,to_audit,required before promotion

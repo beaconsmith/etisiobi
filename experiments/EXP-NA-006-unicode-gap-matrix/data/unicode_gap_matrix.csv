@@ -1,0 +1,13 @@
+requirement,status,evidence_or_gap
+script identity,present,Nwagu Aneke identified in Azuonye/public metadata.
+repertoire inventory,partial,26 row labels and 8 vowel columns exist; glyph-level repertoire not reviewed.
+character-glyph distinction,partial,Working distinction exists; expert encoding review missing.
+representative glyphs,blocked,Public image rights and selector-level review missing.
+names list,partial,Row/vowel readings exist; Unicode character names not drafted.
+encoding model,missing,"No formal Unicode block, ordering, or property model."
+directionality,partial,Public status says left-to-right; needs source confirmation.
+punctuation and numbers,missing,No reviewed evidence in current package.
+usage examples,blocked,Manuscript corpus not rights-cleared.
+community authority,blocked,Authority register incomplete for submission.
+implementation evidence,missing,"No font, keyboard, or Unicode proposal package in repo."
+proposal dossier,missing,No Unicode proposal should be claimed yet.

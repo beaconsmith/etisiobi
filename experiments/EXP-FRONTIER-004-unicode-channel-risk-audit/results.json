@@ -1,0 +1,24 @@
+{
+  "experiment_id": "EXP-FRONTIER-004",
+  "title": "Unicode Channel Risk Audit",
+  "status": "UNICODE_CHANNEL_AUDIT_COMPLETE_NOT_PUBLICATION_BLOCKING",
+  "command": "python scripts\\audit_unicode_channel_risk.py",
+  "files_scanned": 939,
+  "findings": 2,
+  "encoding_counts": {
+    "utf-8": 936,
+    "utf-16-le-bom": 3
+  },
+  "non_utf8_text_files": 3,
+  "risk_class_counts": {
+    "format_or_control": 2
+  },
+  "top_findings_file": "research/pagc/sources/pagc_library/african_linguistics___igbo_phonology.md",
+  "audit_outputs": [
+    "security/unicode_channel_audit/unicode_channel_audit.json",
+    "security/unicode_channel_audit/unicode_channel_findings.json",
+    "security/unicode_channel_audit/UNICODE_CHANNEL_AUDIT.md"
+  ],
+  "interpretation": "The audit found two real control-character findings in one PAGC source note and three UTF-16 text files that should be treated as portability risks. This is defensive publication hygiene, not proof of covert-channel use."
+}
+

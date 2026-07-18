@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Base Modifier Cache Record",
+  "type": "object",
+  "required": [
+    "bmc_id",
+    "base_id",
+    "modifier_id",
+    "row_label",
+    "vowel_label",
+    "cell_id",
+    "tei_locator",
+    "iiif_canvas",
+    "certainty",
+    "provenance_activity",
+    "kg_node",
+    "claim_dependencies",
+    "status"
+  ]
+}

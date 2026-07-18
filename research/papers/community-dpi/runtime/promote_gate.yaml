@@ -1,0 +1,14 @@
+paper: community-dpi
+status: blocked
+last_checked: 2026-04-24
+foundational_sources: partial
+regional_sources: fail
+methods_anchor: fail
+contradiction_coverage: fail
+thesis_clarity: partial
+reviewer_risk_below_threshold: fail
+blocking_reasons:
+  - "community DPI" may be a category error unless reframed as community-layer infrastructure
+  - regional and community informatics sources are missing
+  - explicit counterarguments for state-scale DPI boundaries are needed
+promotion_condition: promote only after vocabulary and category-boundary defense are credible

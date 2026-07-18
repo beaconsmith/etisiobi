@@ -1,0 +1,5 @@
+check_id,question,pass_condition,fail_condition,current_status,paper_promotion_allowed
+evidence_anchor_check,Does the label cite or preserve the source record,case_id and source review status are present,label floats without trace,active_internal_pilot,no
+layer_contrast_check,Does the label distinguish input and output evidence layers,input_layer and output_layer are explicit,label only says right or wrong,active_internal_pilot,no
+disagreement_state_check,Can disagreement remain visible before final use,review status and gate status can store uncertainty,disagreement is overwritten,active_internal_pilot,no
+adjudication_need_check,Does the row say what still needs adjudication,gate status can block or route the label,label becomes final by default,active_internal_pilot,no

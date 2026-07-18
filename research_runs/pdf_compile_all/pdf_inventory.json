@@ -1,0 +1,200 @@
+[
+  {
+    "tex": ".\\paper\\arxiv_package\\main.tex",
+    "pdf": ".\\paper\\arxiv_package\\main.pdf",
+    "status": "compiled",
+    "bytes": 320819
+  },
+  {
+    "tex": ".\\paper\\main.tex",
+    "pdf": ".\\paper\\main.pdf",
+    "status": "compiled",
+    "bytes": 320819
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles_cycle2\\011-storm-question-compiler\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles_cycle2\\011-storm-question-compiler\\main.pdf",
+    "status": "compiled",
+    "bytes": 443596
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles_cycle2\\012-layer-promotion-error-benchmark\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles_cycle2\\012-layer-promotion-error-benchmark\\main.pdf",
+    "status": "compiled",
+    "bytes": 436433
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles_cycle2\\013-red-herring-audit\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles_cycle2\\013-red-herring-audit\\main.pdf",
+    "status": "compiled",
+    "bytes": 438238
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles_cycle2\\014-perspective-graph\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles_cycle2\\014-perspective-graph\\main.pdf",
+    "status": "compiled",
+    "bytes": 439571
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles_cycle2\\015-source-to-system-transfer\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles_cycle2\\015-source-to-system-transfer\\main.pdf",
+    "status": "compiled",
+    "bytes": 435873
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles_cycle2\\016-evidence-weighted-design-grammar\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles_cycle2\\016-evidence-weighted-design-grammar\\main.pdf",
+    "status": "compiled",
+    "bytes": 438653
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles_cycle2\\017-authority-turn-taking\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles_cycle2\\017-authority-turn-taking\\main.pdf",
+    "status": "compiled",
+    "bytes": 436646
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles_cycle2\\018-oroma-research-bridge\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles_cycle2\\018-oroma-research-bridge\\main.pdf",
+    "status": "compiled",
+    "bytes": 438432
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles_cycle2\\019-recursive-portfolio-pruning\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles_cycle2\\019-recursive-portfolio-pruning\\main.pdf",
+    "status": "compiled",
+    "bytes": 436072
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles_cycle2\\020-storm-etisiobi-accelerator\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles_cycle2\\020-storm-etisiobi-accelerator\\main.pdf",
+    "status": "compiled",
+    "bytes": 439268
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles\\001-source-critical-reconstruction\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles\\001-source-critical-reconstruction\\main.pdf",
+    "status": "compiled",
+    "bytes": 431709
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles\\002-count-layer-drift\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles\\002-count-layer-drift\\main.pdf",
+    "status": "compiled",
+    "bytes": 437681
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles\\003-f-v-hinge\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles\\003-f-v-hinge\\main.pdf",
+    "status": "compiled",
+    "bytes": 434683
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles\\004-logographs-in-a-syllabary\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles\\004-logographs-in-a-syllabary\\main.pdf",
+    "status": "compiled",
+    "bytes": 444013
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles\\005-tei-iiif-critical-edition\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles\\005-tei-iiif-critical-edition\\main.pdf",
+    "status": "compiled",
+    "bytes": 441743
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles\\006-unicode-readiness\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles\\006-unicode-readiness\\main.pdf",
+    "status": "compiled",
+    "bytes": 421971
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles\\007-manuscript-corpus-provenance\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles\\007-manuscript-corpus-provenance\\main.pdf",
+    "status": "compiled",
+    "bytes": 420508
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles\\008-comparative-standardization\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles\\008-comparative-standardization\\main.pdf",
+    "status": "compiled",
+    "bytes": 419845
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles\\009-igbo-tokenization\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles\\009-igbo-tokenization\\main.pdf",
+    "status": "compiled",
+    "bytes": 420563
+  },
+  {
+    "tex": ".\\papers\\nwagu_aneke_articles\\010-layer-safe-generative-design\\main.tex",
+    "pdf": ".\\papers\\nwagu_aneke_articles\\010-layer-safe-generative-design\\main.pdf",
+    "status": "compiled",
+    "bytes": 431859
+  },
+  {
+    "tex": ".\\papers\\SELECTED_PAPER\\arxiv_package\\main.tex",
+    "pdf": ".\\papers\\SELECTED_PAPER\\arxiv_package\\main.pdf",
+    "status": "compiled",
+    "bytes": 417669
+  },
+  {
+    "tex": ".\\papers\\SELECTED_PAPER\\main.tex",
+    "pdf": ".\\papers\\SELECTED_PAPER\\main.pdf",
+    "status": "compiled",
+    "bytes": 417669
+  },
+  {
+    "tex": ".\\research\\icegov\\paper\\CDGI_ARXIV_NAMED.tex",
+    "pdf": ".\\research\\icegov\\paper\\CDGI_ARXIV_NAMED.pdf",
+    "status": "compiled",
+    "bytes": 455342
+  },
+  {
+    "tex": ".\\research\\icegov\\paper\\CDGI_GIQ_ANONYMOUS.tex",
+    "pdf": ".\\research\\icegov\\paper\\CDGI_GIQ_ANONYMOUS.pdf",
+    "status": "compiled",
+    "bytes": 207129
+  },
+  {
+    "tex": ".\\research\\icegov\\paper\\CDGI_ICEGOV2026_Submission.tex",
+    "pdf": ".\\research\\icegov\\paper\\CDGI_ICEGOV2026_Submission.pdf",
+    "status": "compiled",
+    "bytes": 465524
+  },
+  {
+    "tex": ".\\research\\icegov\\paper\\GIQ_Cover_Letter.tex",
+    "pdf": ".\\research\\icegov\\paper\\GIQ_Cover_Letter.pdf",
+    "status": "compiled",
+    "bytes": 47753
+  },
+  {
+    "tex": ".\\research\\icegov\\paper\\GIQ_Title_Page.tex",
+    "pdf": ".\\research\\icegov\\paper\\GIQ_Title_Page.pdf",
+    "status": "compiled",
+    "bytes": 46361
+  },
+  {
+    "tex": ".\\research\\icegov\\paper\\OGI_ARXIV_NAMED.tex",
+    "pdf": ".\\research\\icegov\\paper\\OGI_ARXIV_NAMED.pdf",
+    "status": "compiled",
+    "bytes": 454669
+  },
+  {
+    "tex": ".\\research\\icegov\\paper\\OGI_ICEGOV_SUBMISSION_v2.tex",
+    "pdf": ".\\research\\icegov\\paper\\OGI_ICEGOV_SUBMISSION_v2.pdf",
+    "status": "compiled",
+    "bytes": 460960
+  },
+  {
+    "tex": ".\\research\\icegov\\paper\\OGI_ICIS2026_DOUBLEBLIND.tex",
+    "pdf": ".\\research\\icegov\\paper\\OGI_ICIS2026_DOUBLEBLIND.pdf",
+    "status": "compiled",
+    "bytes": 447345
+  },
+  {
+    "tex": ".\\research\\icegov\\paper\\OGI_PAPER_SUBMISSION_CANONICAL.tex",
+    "pdf": ".\\research\\icegov\\paper\\OGI_PAPER_SUBMISSION_CANONICAL.pdf",
+    "status": "compiled",
+    "bytes": 459166
+  }
+]

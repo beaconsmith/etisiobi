@@ -1,0 +1,15 @@
+{
+  "paper": "artifact-first-trust",
+  "last_checked": "2026-04-24",
+  "stage": "evidence_population",
+  "vetted_sources": 14,
+  "core_claims": 4,
+  "claims_moderate_or_better": 3,
+  "regional_sources": 1,
+  "critical_gaps": [
+    "Africa/Nigeria community recordkeeping evidence",
+    "formalization and surveillance critique sources",
+    "empirical trust evidence"
+  ],
+  "promotion_ready": false
+}

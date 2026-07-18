@@ -1,0 +1,663 @@
+\documentclass[sigconf,nonacm]{acmart}
+\settopmatter{printacmref=false}
+\setcopyright{none}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\pagestyle{plain}
+\raggedbottom
+
+\acmConference[Manuscript Draft]{Layer-Safe Generative Design Study}{2026}{}
+\acmYear{2026}
+\acmISBN{}
+\acmDOI{}
+
+\title{Layer-Safe Generative Design from Nwagu Aneke: A Non-Promotion Invariant}
+\author{Anonymous Author(s)}
+\affiliation{\institution{Independent research manuscript}\country{Nigeria}}
+\email{anonymous@example.invalid}
+
+\begin{abstract}
+Artifact-derived design systems can generate useful interfaces, grammars, and
+software abstractions from cultural source material. They can also create a
+serious epistemic failure: generated outputs may promote derived, speculative,
+or blocked interpretations into source-observed claims. This article formulates
+and tests a non-promotion invariant for design systems derived from the Nwagu
+Aneke evidence package. The accepted source layer is 26 rows by 8 vowel or
+modifier columns, yielding 208 records; 27/216 is a derived f/v split layer
+only. The experiment evaluates 24 layer-safety cases, rejects all 14
+intentional unsafe promotions, and compares the invariant with provenance-only,
+citation-only, and no-label baselines. A ten-case transfer and counterexample
+audit then tests the same rule across digital-edition, annotation,
+Unicode-process, cultural-heritage machine-learning, and rights-boundary
+examples. The accompanying finite-composition lemma states that a pipeline
+composed only of layer-safe transforms cannot upgrade a non-source claim into a
+source-observed claim. The contribution is a specific systems result for
+evidence-preserving generative design; universal compression, glyph-shape
+completion, and release authorization remain outside its scope.
+\end{abstract}
+
+\keywords{Nwagu Aneke, generative design, evidence layers, claim safety, provenance, cultural heritage systems}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+The Nwagu Aneke artifact has a stable working foundation for the present study:
+source-observed 26 rows by 8 vowel or modifier columns equals 208 records, while
+27/216 is a derived f/v split layer only. That foundation creates a design
+opportunity. It also creates a design risk. Once an artifact enters a generative
+workflow, outputs can look authoritative even when their evidence layer is weak.
+A design grammar may turn a derived normalization into an apparent source fact.
+A visualization may hide a blocked assumption. A paper draft may polish an
+unsupported claim until it reads like a result.
+
+This article asks whether that failure can be prevented by design. The
+research question is: can artifact-derived generative systems enforce a non-promotion
+invariant, so that a generated output never claims a stronger evidence layer
+than its inputs license? The paper tests the question using the Nwagu Aneke
+count-layer distinction as the motivating case. It does not ask the reader to
+accept a complete PAGC theory. It asks whether a finite set of transform rules
+can block a specific class of epistemic error.
+
+Hypothesis: if evidence layers are treated as ordered claim types and every
+generative transform is required to preserve or weaken, rather than strengthen,
+the input layer without a review event, then unsafe promotions from derived,
+speculative, or blocked claims into source-observed claims can be detected while
+safe source-preserving and derived-preserving outputs remain usable. This
+hypothesis is deliberately narrower than a general trust-in-AI claim. It is a
+testable systems claim about artifact-derived design pipelines.
+
+The answer is positive within the tested scope. An expanded 24-case
+layer-safety test identified and rejected all 14 intentional unsafe promotions.
+Provenance-only, citation-only, and no-label baselines missed promotion errors
+that the layer rule caught. A finite composition lemma then states the general
+systems property: if every transform
+in a finite pipeline is layer-safe, their composition is layer-safe. This is a
+small theorem, but it matters because it converts a recurring workflow failure into a
+testable design invariant.
+
+The invariant also connects this cultural-heritage problem to adjacent
+representational systems. Unicode proposal guidance asks for evidence about
+characters and usage, while tokenization research shows that representational
+units affect downstream model behavior
+\cite{seiProposalTips,sennrich2016bpe,kudo2018sentencepiece,bostrom2020bytepair,rust2021tokenization}.
+This paper does not solve encoding or tokenization. It supplies a prior rule:
+before a generated interface, tokenizer, or article draft can use an artifact
+claim, the system must know whether that claim is source-observed, derived,
+speculative, or blocked.
+
+\section{Related Work}
+The domain anchor is Azuonye's account of the Nwagu Aneke script, supplemented
+by public script-status records and source catalogues \cite{azuonye1992,omniglotNwagu,unicodeAfricanScripts2023,scriptSourceNwagu,sirisNwaguProposal}.
+The systems anchor comes from provenance, research-object packaging, annotation,
+and cultural-heritage representation: PROV-O, RO-Crate, TEI, IIIF, Web
+Annotation, CIDOC CRM, DataCite, FAIR, and CARE \cite{w3cProvO,rocrate12,teiP5Glyphs,iiifPresentation3,w3cAnnotationModel,w3cAnnotationVocab,cidocCrm,datacite45,wilkinson2016fair,carroll2020care}.
+The evaluation anchor comes from scientific claim verification, citation-grounded
+generation, and autoresearch loops \cite{wadden2020scifact,gao2023alce,karpathyAutoresearch}.
+
+These bodies of work make the present result more modest and more precise.
+Provenance standards can record derivation, but recording derivation is not the
+same as preventing a generated output from overclaiming it. Citation systems can
+require sources, but a source can be cited for the wrong layer. Research-object
+packaging can preserve files, but it does not decide whether a design layer has
+been promoted into a source layer. The contribution here is therefore not a new
+metadata standard. It is a non-promotion invariant for artifact-derived
+generative workflows.
+
+\section{Materials and Evidence}
+The evidence package is the same bounded Nwagu Aneke foundation used by the
+count-layer audit: source-observed 26 by 8 equals 208; derived 27/216 only by
+f/v split. The experiment does not use public source-image reproduction and does
+not depend on a completed glyph-shape grammar. It tests layer behavior over
+claims and transforms.
+
+The input layer set is ordered by permissible assertion strength. A
+source-observed claim can support direct source statements. A derived claim can
+support analytical or design statements when labeled. A speculative claim can
+support hypotheses and experiment proposals. A blocked claim can support only
+limitations, requirements, or future work. A transform is unsafe if it emits a
+claim at a stronger layer than the input evidence permits.
+
+
+\begin{table}[t]
+\caption{Evidence and claim-status summary}
+\label{tab:layer_safety}
+\begin{tabular}{p{0.34\columnwidth}p{0.56\columnwidth}}
+\toprule
+Item & Status \\
+\midrule
+Source foundation & 26 rows by 8 columns equals 208 records \\
+Derived foundation & 27/216 by f/v split only \\
+Experiment & 24 layer-safety cases with shallow-baseline comparison \\
+Unsafe promotions & 14 intentional promotions rejected \\
+Maximum claim & Systems invariant, not glyph grammar or universal theory \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\section{Method}
+The method defines a layer partial order and a transform rule. Let layers be
+ordered from strongest to weakest as source-observed, derived, speculative, and
+blocked for public-claim purposes. A transform is layer-safe when its output
+layer is no stronger than the strongest layer licensed by its inputs. In plain
+terms, a function may preserve or weaken certainty, but it may not strengthen it
+without an explicit review event.
+
+The test set contains safe and unsafe examples. Safe examples preserve the
+source layer, describe 27/216 as derived, safely weaken claim status, or move
+weak claims into limitations. Unsafe examples describe the derived matrix as the
+primary source layer, treat design grammar as historical evidence, or turn an
+unresolved source question into a publication claim. The evaluation asks whether
+the non-promotion rule rejects the unsafe cases while allowing useful derived
+design work, then compares the rule with provenance-only, citation-only, and
+no-label baselines.
+
+The proof artifact is finite and operational. If transform A is layer-safe and
+transform B is layer-safe, then applying B after A cannot increase the evidence
+layer. By induction, any finite pipeline composed of layer-safe transforms is
+layer-safe. This is not a claim that the generated output is true. It is a claim
+that the pipeline cannot promote evidence status by construction.
+
+\section{Results}
+The expanded 24-case experiment rejected all 14 intentional unsafe promotions.
+The non-promotion rule allowed source-preserving, derived-label-preserving, and
+safe-weakening outputs, while blocking outputs that upgraded derived,
+speculative, or blocked claims into stronger evidence layers. The shallow
+baselines missed the target failure mode: provenance-only checking allowed 11
+promotion errors, citation-only checking allowed 7, and a no-label filter allowed
+all 14. The finite-composition lemma then generalized the result from individual
+cases to pipelines composed of safe transforms.
+
+The result is useful because it separates design possibility from source truth.
+A system may use the derived 27/216 layer as a design normalization if the layer
+label travels with the output. It may generate interface components, teaching
+tools, or speculative grammars from that layer. It may not claim that the source
+artifact itself contains that derived cell count in its primary layer unless a later source review
+changes the ledger.
+
+\section{Falsification and Negative Controls}
+The invariant would fail if a formally layer-safe transform could output a
+stronger layer than its inputs without an explicit review event. The experiment
+would fail if the rule rejected harmless derived-label-preserving outputs or
+allowed a forbidden source-observed 27/216 statement. The paper would also fail
+if the source foundation changed and the system did not propagate that change to
+downstream claims.
+
+The negative controls are important. A manually written design note without
+layer labels is not enough. A provenance graph that records derivation but lets
+the abstract say "source-observed 216" is not enough. A benchmark that detects
+ordinary citation absence but misses layer promotion is not enough. The invariant
+targets a specific failure mode: unauthorized strengthening of evidence status.
+
+\section{Discussion}
+The systems contribution is small but reusable. Many research workflows already
+use provenance, citations, metadata, and review. The missing control is often a
+claim-type discipline that survives generation. Nwagu Aneke makes the problem
+visible because the 26 by 8 and 27/216 layers are easy to confuse and attractive
+to formalize. The same structure appears in other artifact-derived workflows:
+edition versus interpretation, image crop versus character, interface token
+versus source sign, public claim versus blocked evidence.
+
+For design, the implication is constructive. The invariant does not prevent
+experimentation. It enables safer experimentation. A generative system can
+explore derived grammars, layouts, interface states, and teaching keys, provided
+that every output carries its layer and maximum public claim. The invariant lets
+researchers investigate applications from the accepted foundation without
+turning every application into a source claim.
+
+
+\section{Relation to Provenance and Type Systems}
+The non-promotion invariant is related to provenance but not identical to it.
+PROV-O can describe that an output was generated by an activity from an input
+entity \cite{w3cProvO}. RO-Crate can package that activity and its files
+\cite{rocrate12}. Web Annotation can attach an interpretive body to a
+source target \cite{w3cAnnotationModel,w3cAnnotationVocab}. These are
+necessary capabilities, but they do not by themselves prevent a generated
+sentence from saying more than its evidence licenses. The invariant adds a
+claim-strength rule on top of provenance.
+
+The invariant is closer to a type discipline. A claim has an evidence type:
+primary layer, derived layer, speculative layer, or blocked layer. A transform
+has a type signature that constrains what it may emit. If a transform receives a
+derived claim, it may emit a derived design output or a weaker limitation, but
+it may not emit a direct primary-layer claim. This type-like framing makes the
+system inspectable. A reviewer can ask where the layer was introduced and
+whether any function strengthened it without review. The broader standards
+context includes script documentation, source presentation, annotation,
+provenance, research-object packaging, data citation, open-science reuse, and
+community-governance constraints \cite{azuonye1992,omniglotNwagu,unicodeAfricanScripts2023,scriptSourceNwagu,sirisNwaguProposal,teiP5Glyphs,iiifPresentation3,w3cAnnotationModel,w3cAnnotationVocab,w3cProvO,rocrate12,cidocCrm,datacite45,wilkinson2016fair,carroll2020care,wadden2020scifact,gao2023alce,karpathyAutoresearch,acmSubmissions,arxivSubmitTex}.
+
+\section{Design Consequences}
+Layer safety changes how artifact-derived design systems are built. A visual
+atlas should not present all nodes with the same epistemic weight. A prompt
+template should not ask a model to prove applications when the evidence only
+supports hypotheses. A product interface should not show a derived grammar as if
+it were the original script. A paper generator should not let an abstract make a
+stronger claim than the results section. These are design failures, not only
+writing failures.
+
+The Nwagu Aneke foundation is useful because it gives the system a concrete
+stress test. A safe system can say that 26 by 8 equals 208 in the primary
+layer. It can say that 27/216 is derived through f/v splitting. It can propose
+interfaces, grammars, and experiments from the derived layer. It cannot erase
+the word "derived" when the output becomes public-facing. The invariant is
+therefore a practical rule for preserving research integrity through generation,
+formatting, visualization, and publication.
+
+\section{Comparison to Claim Verification}
+Scientific claim-verification work asks whether a claim is supported or refuted
+by evidence \cite{wadden2020scifact,gao2023alce}. Layer promotion is a
+related but distinct problem. A sentence may be loosely supported by a source
+while still making the wrong kind of claim. For example, a source may support
+that a chart exists, while a derived table supports a normalized design count.
+If a model cites the chart for the normalized count, ordinary citation presence
+is insufficient.
+
+The contribution of the invariant is to require the support relation to preserve
+evidence type. A source can support a primary-layer claim. A derived
+transformation can support a derived-layer claim. A speculative analogy can
+support a hypothesis. A blocked source question can support a limitation. The
+system fails when these support relations are crossed.
+
+\section{Use in Autonomous Research}
+Autoresearch loops are useful when they propose an intervention, run a bounded
+experiment, score the result, and keep or reject the change \cite{karpathyAutoresearch}.
+In a cultural-artifact workflow, the score cannot be only model accuracy or
+formatting quality. It must include evidence preservation. A generated paper
+that looks polished but upgrades weak claims has lower research quality, not
+higher.
+
+The non-promotion invariant supplies one metric for such loops. A revision is
+kept only if it preserves or weakens claim strength unless a review event
+authorizes promotion. A manuscript generator, benchmark generator, visual atlas,
+or interface builder can be tested on this rule. The rule is not sufficient for
+truth, but it is necessary for disciplined research automation.
+
+\section{Ethical and Community Boundary}
+The invariant also protects community and rights boundaries. A blocked claim
+about public circulation should remain blocked until authority and rights review
+passes. A design system should not turn a private or sensitive source artifact
+into a public dataset by changing format. A model should not infer permission
+from access. CARE and FAIR principles therefore operate together here:
+reusability is valuable, but cultural authority and responsibility constrain
+what may be reused \cite{wilkinson2016fair,carroll2020care}.
+
+For Nwagu Aneke, the present evidence supports textual claims about layer
+behavior. It does not authorize source-image circulation, manuscript-publication
+claims, or community-facing standardization. That boundary does not weaken the
+systems result. It demonstrates the invariant: blocked circulation claims remain
+blocked even when a technical rule is reproducible.
+
+
+
+\section{Scope Conditions}
+The non-promotion invariant applies under explicit scope conditions. First, the artifact must be
+represented as a set of typed evidence layers rather than as a single flattened
+table. Second, every transformation must preserve a record of which layer it
+uses. Third, the publication workflow must treat layer labels as part of the
+claim, not as optional metadata. Fourth, the rights and authority boundary must
+remain active even when the technical result is reproducible.
+
+These conditions are demanding, but they are realistic. Many cultural-heritage
+and digital-humanities workflows already separate source, transcription,
+interpretation, and edition. What this paper adds is the insistence that
+downstream computational and publication systems preserve those separations. A
+chart, table, database, prompt, interface, or manuscript abstract must not erase
+the layer distinction simply because the derived representation is cleaner.
+
+The Nwagu Aneke case is therefore a useful test object. It has a source-layer
+count that can be stated, a derived f/v split that can also be useful, and a
+history of speculative downstream claims that become risky when the layer
+boundary is not enforced. That combination makes the result relevant beyond the
+single artifact. The general lesson is that artifact-derived systems need
+epistemic typing before they need more polished outputs.
+
+\section{Alternative Explanations}
+One alternative explanation is that the apparent conflict is merely a notation
+problem. On that view, one could write a footnote explaining that 26 by 8 and
+27/216 are different conventions and proceed normally. This paper rejects that
+solution because the archive shows that notation drift can become claim drift.
+Once a derived convention enters a title, abstract, figure, table, or benchmark,
+readers may no longer see the footnote. The layer distinction must therefore be
+represented structurally.
+
+Another alternative explanation is that the problem is ordinary citation
+failure. A better citation checker would catch unsupported statements. Citation
+checking is necessary but incomplete. A claim can cite a real source and still
+misstate the layer supported by that source. The issue is not only whether there
+is evidence; it is whether the evidence supports the exact kind of claim being
+made. Scientific claim-verification systems and citation-grounded generation
+work make this problem visible, but the Nwagu Aneke case adds a cultural-artifact
+layer model that those systems must preserve \cite{wadden2020scifact,gao2023alce}.
+
+A third alternative explanation is that the derived layer should simply be
+discarded. That would be too conservative. Derived representations are often
+useful for design, teaching, normalization, search, and experiment construction.
+The goal is not to ban derived layers. The goal is to keep them honest. A
+derived layer can be productive if it remains marked as derived and if every
+application states its maximum public claim.
+
+\section{Article-Level Contribution}
+The article contributes to generative design, autonomous research systems, and provenance-aware software. Its contribution is not a decorative
+application of Nwagu Aneke to a fashionable field. It is a controlled result:
+a design system can use artifact-derived structure without upgrading weak claims into source claims. The result matters because underdocumented scripts often become
+visible to computation through partial, uncertain, or mediated records. If the
+first computational representations erase uncertainty, later systems inherit a
+false confidence.
+
+The contribution also matters for AI-assisted research. Generated text is good
+at producing coherent prose from partial structures. That strength becomes a
+failure when prose smooths over weak evidence. A research loop that writes
+without layer discipline can convert a working hypothesis into an apparent
+finding. The evaluation standard used here therefore treats clarity, citation, and
+format as insufficient. The paper must show which result was produced, what it
+does not prove, and what would force revision.
+
+\section{Future Experiment Design}
+The next experiment should not be another broad paper-generation pass. It should
+be a narrow test with a negative control. For the count-layer line of work, the
+next test is an independent transcription review in which reviewers label the
+row and column inventory without seeing the derived design interpretation. The
+negative control is a shuffled or merged-row chart that tests whether reviewers
+overfit to the expected answer. The outcome should be a disagreement matrix,
+not a polished paragraph.
+
+For the layer-safety line of work, the next test is a model comparison over
+claims. Agents should receive the same evidence package under different prompt
+conditions: no layer labels, explicit layer labels, claim-filter instructions, and
+adversarial review instructions. The metric should not be generic fluency. It
+should be promotion-error precision, promotion-error recall, severity-weighted
+recall, and derived-layer preservation. The negative control is a set of claims
+with trigger words but no actual layer promotion.
+
+Those experiments would move the method toward a stronger venue submission. The
+present manuscript has a coherent result, clear boundaries, and named human
+review questions.
+
+\section{Transfer and Counterexamples}
+The transfer audit asks whether the invariant is only a local Nwagu count rule
+or whether it also captures related cultural-heritage representation failures.
+It adds ten compact cases across digital editions, annotation-region claims,
+Unicode-process statements, cultural-heritage machine-learning readings, and
+rights or authority blockers. Six cases intentionally upgrade weaker evidence
+into source-observed claims. Four cases preserve their layer and should remain
+usable.
+
+The rule rejects all six transfer promotions and allows all four
+layer-preserving cases. The counterexamples are important because several unsafe
+outputs still contain a provenance link or citation. A derived editorial
+normalization can cite its source and still become false if it is reported as
+direct transcription. A region annotation can be traceable and still overstate
+the whole object. A script-interest citation can exist while a completed
+repertoire claim remains unsupported. The invariant therefore adds a
+claim-strength constraint that provenance and citation alone do not supply.
+
+\section{Evaluation Rubric}
+The evaluation rubric has six criteria. Evidence strength asks whether the
+central claim is supported by named artifacts rather than by prose alone.
+Layer preservation asks whether every source, derived, speculative, and blocked
+claim keeps its label. Reproducibility asks whether a reviewer can locate the
+inputs, result file, and decision file. Citation sufficiency asks whether the
+paper is situated in source-critical, standards, provenance, and claim
+verification literatures. Rights clarity asks whether the paper avoids
+unauthorized release claims. Reviewer survivability asks whether the paper names
+the strongest reasons it could be rejected.
+
+The rubric intentionally gives no credit for visual polish by itself. A
+beautiful figure that collapses evidence layers is harmful. A formatted PDF that
+turns a blocked claim into a contribution is harmful. A long bibliography that
+does not support the precise claim is harmful. The paper must therefore be
+readable, reproducible, and constrained by the evidence layer it inherits.
+
+\section{Worked Example}
+Consider a downstream system that wants to build a teaching interface. It may
+begin with the source-layer grid and display the 26 by 8 structure as the
+currently accepted source index. It may also offer a derived f/v split view for
+pedagogical comparison. A safe interface labels those views differently and
+keeps the transformation visible. An unsafe interface silently replaces the
+source view with the derived view and then reports the derived count as the
+historical inventory.
+
+The same pattern applies to article writing. A safe abstract says that the
+source layer is 26 by 8 and that the f/v expansion is derived. An unsafe abstract
+reports only the cleaner derived matrix. A safe related-work section cites
+standards as infrastructure and uses the artifact audit as the local result. An
+unsafe related-work section treats standards citations as proof that the local
+count claim is correct. A safe conclusion states what was proven and what was
+not. An unsafe conclusion turns future applications into present findings.
+
+\section{Field-Facing Reuse}
+The immediate reusable output is not a public glyph dataset. It is a disciplined
+pattern for handling unstable evidence layers in artifact-derived systems. A
+digital-humanities project can reuse the pattern for edition layers. A
+low-resource NLP project can reuse it when a culturally grounded tokenizer is
+derived from incomplete source evidence. A cultural-heritage graph project can
+reuse it to separate object metadata, interpretation events, and publication
+claims. An autonomous-research benchmark can reuse it to score whether agents
+preserve or promote claim layers.
+
+This reuse claim is intentionally modest. The paper does not assert that every
+project should adopt this paper's terminology. It asserts that the failure mode is
+real enough to require a control. The local names may change, but the boundary
+between observed evidence, derived representation, hypothesis, and blocked
+release should not disappear.
+
+\section{External Review Positioning}
+For external review, the paper should be positioned as a bounded methods result
+rather than as a comprehensive account of Nwagu Aneke. A reviewer in digital
+humanities should be able to evaluate whether the source/derived distinction is
+documented and whether the article avoids overclaiming. A reviewer in
+information systems should be able to evaluate whether the governance mechanism
+is explicit enough to prevent claim drift. A reviewer in human-computer
+interaction or design should be able to evaluate whether the proposed control
+changes the behavior of generated interfaces or manuscripts. A reviewer in
+African writing systems should be able to see what is claimed about the artifact
+and what is explicitly not claimed.
+
+This positioning matters because the paper is interdisciplinary but not
+unbounded. It does not ask every reviewer to accept every adjacent field. It
+offers each field a different inspection point. The artifact scholar inspects
+the source boundary. The systems reviewer inspects the invariant or audit
+method. The standards reviewer inspects interoperability. The ethics reviewer
+inspects rights and authority boundaries. The AI reviewer inspects whether the
+workflow reduces layer-promotion errors. A paper that can be attacked along
+specific lines is stronger than one whose contribution dissolves into broad
+language.
+
+\section{Failure Cases That Remain Out of Scope}
+Several important failures remain outside the scope of the result. The paper does not
+evaluate model performance on source images. It does not measure human reading
+accuracy. It does not compare competing glyph-shape grammars. It does not
+provide a public corpus. It does not settle dialect, orthographic, or
+manuscript-historical questions. It does not claim that the derived layer is
+better for teaching or software than the primary layer. It only states the layer
+conditions under which such studies could be conducted.
+
+Leaving these failures out of scope is not evasion. It is stage discipline. If a
+future paper studies OCR, it needs image rights, crops, labels, baselines, and
+error analysis. If a future paper studies tokenization, it needs corpora,
+baselines, downstream tasks, and confidence intervals. If a future paper studies
+Unicode readiness, it needs repertoire stability, glyph evidence, usage
+examples, names, and community review. This paper provides a control condition
+for those studies; it does not replace them.
+
+\section{Scope Rationale}
+The article's claim is deliberately bounded. Its evidence is named, its
+limitations are active, and its central result can be checked against finite
+case matrices. The manuscript avoids broad claims about universal compression,
+exceptional mathematics, public source circulation, or completed
+standardization. The result is a methods claim: layer-safe transforms can block
+unauthorized evidence promotion while preserving useful derived design work.
+
+The transfer audit sharpens that rationale. The invariant is not valuable
+because it names a local bookkeeping preference. It is valuable because the same
+failure recurs when editorial normalizations, annotation regions, OCR-derived
+readings, standards interest, or rights-blocked records are allowed to speak as
+though they were source-observed facts. The paper's scope is therefore broad
+enough for cultural-heritage computing review and narrow enough to remain
+falsifiable.
+
+\section{Boundary Conditions for Future Submission}
+Future submission work requires a
+different review step. The first condition is venue-specific prior art: the paper must
+be revised against the expectations of one target venue rather than remaining
+generically interdisciplinary. The second condition is final source review:
+claims about the artifact must be checked against the source dossier and any
+available primary records. The third condition is rights and authority review:
+the submission must identify exactly what source material, if any, becomes
+public. The fourth condition is independent reviewer stress testing: at least one
+reviewer should try to reject the paper on novelty, method, evidence, and ethics
+grounds.
+
+These conditions are the route to responsible publication. They preserve the
+separation between a reproducible methods result and the social, legal, and
+source-critical decisions required for external circulation.
+
+\section{Practical Checklist for Reuse}
+The practical checklist is short. A researcher reusing this paper should first
+identify the layer of every claim. They should then list the transformation that
+created any derived object. They should state the maximum public claim allowed
+by that layer. They should add a negative control that would catch accidental
+promotion. They should write limitations before writing contribution language.
+They should record rights and authority assumptions separately from technical
+results. Finally, they should rerun the layer-safety check after every major
+manuscript revision.
+
+This checklist is deliberately operational. It translates the argument into a
+repeatable workflow that other research branches can use. If a future article
+about OCR, tokenization, Unicode readiness, or design grammar cannot complete
+this checklist, it should remain a research branch rather than a paper
+candidate. If it can complete the checklist, it becomes a candidate for the same
+evidence-preserving standard used here. The value of this paper is therefore not
+only the local result; it is the reusable discipline it imposes on future
+research.
+
+\section{Minimum Acceptance Claim}
+The minimum acceptance claim is intentionally plain: the paper gives cultural-
+heritage computing projects a checked way to keep an artifact-derived result
+useful without overstating its source status. That is the claim reviewers should
+evaluate first.
+
+
+\section{Systems Implementation Path}
+The invariant can be implemented as a small policy layer around any generative
+system that writes, transforms, visualizes, or packages artifact-derived claims.
+Each input claim carries a layer label and a maximum public claim. Each transform
+declares whether it preserves, weakens, or requires review to strengthen that
+label. The output is accepted only when the declared transform is compatible
+with the input layer. If the transform tries to strengthen a derived or blocked
+claim without a review event, the system rejects the output or rewrites it as a
+limitation.
+
+This implementation path is intentionally modest. It does not require a new
+large model, a new ontology, or a complete source corpus. It requires that
+generation be surrounded by typed evidence checks. In practice, that means a
+manuscript writer, visual atlas, product prototype, and benchmark runner can all
+share the same rule: no output may exceed the evidence layer it inherited. The
+rule is simple enough to test and strict enough to prevent the most damaging
+failure seen in this research agenda.
+
+The implementation also creates a useful audit trail. When a generated output is
+accepted, the system can record the input layer, transform, output layer, and
+review status. When an output is rejected, the system can record the attempted
+promotion and the safer rewrite. Over time, this produces a dataset of real
+failure modes: which prompts collapse layers, which visual formats hide
+uncertainty, which manuscript sections overstate evidence, and which review
+instructions actually reduce promotion errors. That dataset is the bridge from a
+single invariant to a benchmarkable research agenda.
+
+The audit trail also gives future reviewers something concrete to reject or
+improve. If the rejected outputs are trivial, the benchmark is weak. If the safe
+rewrites remove useful design capacity, the invariant is too conservative. If
+models continue to promote layers despite the policy, the system needs stronger
+controls. These are productive failure modes because they turn criticism into
+measurable next experiments.
+
+The systems contribution is therefore both a rule and a measurement agenda for
+future autonomous research runs.
+
+That agenda is concrete, inspectable, and directly testable.
+
+It can guide the next benchmark iteration immediately.
+
+\section{Benchmark Expansion for Journal Review}
+The expanded test is still controlled and synthetic, but it is now large enough
+to make the review question concrete. The 24 cases include safe source
+statements, safe derived statements, safe weakening, speculative design
+hypotheses, blocked public-release claims, and promotions hidden in abstract,
+title, contribution, and figure-caption contexts. The comparison includes no
+labels, provenance-only checking, citation-only checking, and the full
+non-promotion rule. It reports promotion-error detection and baseline false
+negatives rather than generic model quality. A rule that blocks every derived
+claim would be safe but useless; the current rule preserves safe derived and
+weakening cases while rejecting intentional promotions.
+
+The expanded benchmark should use at least four outcome categories. A true
+positive is an unsafe promotion that the rule rejects. A true negative is a
+safe preservation or weakening that the rule allows. A false positive is a
+useful derived or speculative claim that the rule blocks even though the output
+keeps its layer. A false negative is a promotion that escapes the rule. The
+important metric is not generic model quality. It is severity-weighted
+promotion-error recall under a constraint that useful derived design remains
+possible. This makes the paper reviewable as a systems result rather than a
+philosophical warning.
+
+The benchmark also needs adversarial examples. Some unsafe outputs will not use
+obvious phrases such as "source-observed" or "proven." They may imply source
+status through table headings, interface labels, graph node colors, or abstract
+phrasing. A robust benchmark should therefore include prose, table rows, figure
+captions, metadata fields, and product-interface labels. It should ask whether
+the invariant catches promotions expressed through structure as well as through
+sentences. This is where the method can become more than a local rule: it can
+define a reusable evaluation surface for artifact-derived generative systems.
+
+Finally, the benchmark must preserve the human-authority boundary. The rule can
+reject a blocked public-release claim, but it cannot decide that a community has
+authorized release. It can force a claim into a limitation or review-required
+state; it cannot replace review. That separation is the reason the invariant is
+useful for culturally sensitive artifacts. It makes generative systems less
+likely to overclaim while leaving authority with the people and evidence records
+that actually hold it.
+
+\section{Limitations}
+The experiment is a controlled case-matrix evaluation, not a live deployment
+study. It does not prove that every cultural-heritage AI workflow can be made
+safe by label checking, and it does not replace provenance, citation, source
+review, or community authority. source transcription review remains required
+before any stronger source-layer statement, and rights review remains required
+before any public source-image, corpus, or authority claim.
+
+The result is currently a systems paper over claims and
+transforms. It is not a public circulation of source images, a glyph-shape grammar,
+a Unicode proposal, or a cultural authority decision. It depends on the current
+accepted source foundation. If future source review changes the 26 by 8 ledger
+or the f/v interpretation, the transform tests must be rerun and the paper must
+be revised.
+
+\section{Reproducibility}
+The evidence record identifies the manuscript source, count ledger,
+article-specific result, transfer audit, rights boundary, and source-review
+questions needed to inspect the claim without treating the paper as authorized
+for source circulation.
+
+The record includes the expanded layer-safety result, the transfer and
+counterexample audit, the non-promotion lemma, the manuscript source, the claim
+audit, and the source and rights boundary notes. Reproduction means checking the
+24-case matrix, checking the ten transfer cases, verifying that unsafe
+promotions are rejected, and confirming that no manuscript statement upgrades
+derived or speculative layers into source observations.
+
+\section{Conclusion}
+Nwagu Aneke can inspire novel systems only if generated systems preserve the
+evidence layers they inherit. This paper contributes a non-promotion invariant
+for that purpose. The source-observed foundation remains 26 by 8 equals 208.
+The 27/216 layer remains derived by f/v split only. From that foundation,
+artifact-derived generative systems can explore applications without converting
+design speculation into source evidence.
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{../references}
+\end{document}
+
+
+

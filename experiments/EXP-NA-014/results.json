@@ -1,0 +1,28 @@
+{
+  "experiment_id": "EXP-NA-014",
+  "article_id": "ARTICLE-NA-014",
+  "decision": "CYCLE2_STORM_PREWRITE_APPROVED_INTERNAL",
+  "source_layer": {
+    "rows": 26,
+    "columns": 8,
+    "records": 208
+  },
+  "derived_layer": {
+    "rule": "f/v split only",
+    "records": 216
+  },
+  "builds_on": [
+    "ARTICLE-NA-001",
+    "ARTICLE-NA-005",
+    "ARTICLE-NA-008"
+  ],
+  "result": "a perspective graph links applications to source, derived, standards, and rights layers",
+  "red_herring_blocked": [
+    "source-observed 216",
+    "universal compression proof",
+    "E6 proof",
+    "public release approval",
+    "complete glyph grammar"
+  ],
+  "status": "PASS"
+}

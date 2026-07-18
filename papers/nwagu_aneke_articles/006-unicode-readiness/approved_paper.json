@@ -1,0 +1,15 @@
+{
+  "article_id": "ARTICLE-NA-006",
+  "title": "Unicode Readiness for Nwagu Aneke: A Gap Matrix for Character Evidence and Community Review",
+  "status": "APPROVED_INTERNAL_RESEARCH_PAPER",
+  "generated_at": "2026-06-21T20:32:51+01:00",
+  "approval_scope": "internal Etisiobi research paper; not external submission; not public source-data release",
+  "gates": {
+    "evidence": "PASS",
+    "citations": "PASS",
+    "source_review": "PASS",
+    "rights_authority": "PASS",
+    "review_team": "PASS",
+    "reproducibility": "PASS"
+  }
+}

@@ -1,0 +1,8 @@
+{"modifier_id": "GOV-MOD-001", "modifier": "Created", "semantics": "object exists but is not yet evidence-complete", "pagc_layer_analogy": "source-layer token: base + initial state"}
+{"modifier_id": "GOV-MOD-002", "modifier": "EvidenceAttached", "semantics": "minimum source/evidence fields are attached", "pagc_layer_analogy": "modifier marks observable support"}
+{"modifier_id": "GOV-MOD-003", "modifier": "AuthorityChecked", "semantics": "actor/role/community authority check passed", "pagc_layer_analogy": "authority modifier"}
+{"modifier_id": "GOV-MOD-004", "modifier": "ProvenanceAnchored", "semantics": "blockRef/txRef/hash lineage is present", "pagc_layer_analogy": "source locator modifier"}
+{"modifier_id": "GOV-MOD-005", "modifier": "Closed", "semantics": "terminal state reached with required closure evidence", "pagc_layer_analogy": "state-stabilization modifier"}
+{"modifier_id": "GOV-MOD-006", "modifier": "Exported", "semantics": "object is portable outside the platform", "pagc_layer_analogy": "routing modifier"}
+{"modifier_id": "GOV-MOD-007", "modifier": "Contested", "semantics": "outcome challenged or case reopened", "pagc_layer_analogy": "revision/uncertainty modifier"}
+{"modifier_id": "GOV-MOD-008", "modifier": "ReleaseBlocked", "semantics": "sensitive data, consent, or authority blocker prevents publication/export", "pagc_layer_analogy": "gate modifier"}

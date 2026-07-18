@@ -1,0 +1,16 @@
+{
+  "article_id": "ARTICLE-NA-017",
+  "cycle": 2,
+  "builds_on": [
+    "ARTICLE-NA-007",
+    "ARTICLE-NA-010"
+  ],
+  "new_research_operation": "authority review can be modeled as a turn-taking protocol that blocks public-claim escalation",
+  "storm_transfer": [
+    "perspective_guided_questions",
+    "simulated_review_turns",
+    "outline_quality_audit",
+    "red_herring_audit"
+  ],
+  "next_experiment": "External hardening or empirical follow-up for ARTICLE-NA-017"
+}

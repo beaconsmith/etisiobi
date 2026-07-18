@@ -1,0 +1,793 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nwagu Aneke Count-Layer View</title>
+  <style>
+    :root {
+      --bg: #f6f7f4;
+      --ink: #141611;
+      --muted: #5e665b;
+      --line: #d9dfd2;
+      --panel: #ffffff;
+      --panel-soft: #eef2e8;
+      --source: #255f4b;
+      --derived: #7a4e19;
+      --restricted: #7a2d35;
+      --speculative: #514181;
+      --applied: #245d72;
+      --computational: #35507a;
+      --contested: #6c5820;
+      --dropped: #596062;
+      --shadow: 0 22px 60px rgba(20, 22, 17, 0.08);
+      --radius: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .shell {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 280px minmax(0, 1fr);
+      width: 100%;
+      overflow-x: hidden;
+    }
+
+    .rail {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      padding: 28px 22px;
+      border-right: 1px solid var(--line);
+      background: #fbfcf8;
+      overflow-y: auto;
+    }
+
+    .brand {
+      display: grid;
+      gap: 6px;
+      margin-bottom: 28px;
+    }
+
+    .brand strong {
+      font-size: 18px;
+      line-height: 1.2;
+      font-weight: 750;
+    }
+
+    .brand span,
+    .status-note,
+    .small-label {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .layer-nav {
+      display: grid;
+      gap: 8px;
+      margin: 22px 0;
+    }
+
+    .layer-button {
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--muted);
+      text-align: left;
+      border-radius: 7px;
+      padding: 10px 10px;
+      font: inherit;
+      font-size: 13px;
+      line-height: 1.2;
+      cursor: pointer;
+    }
+
+    .layer-button:hover,
+    .layer-button:focus-visible,
+    .layer-button.active {
+      background: var(--panel-soft);
+      border-color: var(--line);
+      color: var(--ink);
+      outline: none;
+    }
+
+    .rail-rule {
+      height: 1px;
+      background: var(--line);
+      margin: 24px 0;
+    }
+
+    main {
+      padding: 34px;
+      min-width: 0;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+      gap: 28px;
+      align-items: stretch;
+      margin-bottom: 26px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(34px, 5vw, 72px);
+      line-height: 0.98;
+      font-weight: 780;
+      letter-spacing: 0;
+      max-width: 920px;
+    }
+
+    .lede {
+      margin: 22px 0 0;
+      max-width: 780px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.55;
+      overflow-wrap: anywhere;
+    }
+
+    .status-card {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: var(--radius);
+      padding: 22px;
+      box-shadow: var(--shadow);
+      display: grid;
+      gap: 18px;
+    }
+
+    .status-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 12px;
+    }
+
+    .status-row:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .status-row span:first-child {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.3;
+    }
+
+    .status-row span:last-child {
+      font-weight: 720;
+      text-align: right;
+      font-size: 13px;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .count-strip {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 26px;
+    }
+
+    .count-tile {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 18px;
+      min-height: 132px;
+      display: grid;
+      align-content: space-between;
+      gap: 18px;
+    }
+
+    .count-tile strong {
+      display: block;
+      font-size: 30px;
+      line-height: 1;
+      font-weight: 780;
+    }
+
+    .count-tile span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .panel-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      align-items: start;
+    }
+
+    .layer-panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      min-height: 280px;
+      overflow: hidden;
+    }
+
+    .layer-panel.hidden {
+      display: none;
+    }
+
+    .panel-head {
+      padding: 18px 18px 14px;
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      gap: 12px;
+    }
+
+    .label-line {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .label {
+      color: #ffffff;
+      border-radius: 5px;
+      padding: 6px 8px;
+      font-size: 11px;
+      font-weight: 780;
+      line-height: 1.15;
+      text-transform: uppercase;
+    }
+
+    .record-id {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.15;
+      font-weight: 760;
+      letter-spacing: 0;
+    }
+
+    .panel-body {
+      padding: 18px;
+      display: grid;
+      gap: 18px;
+    }
+
+    .claim {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .mini-section {
+      display: grid;
+      gap: 8px;
+    }
+
+    .mini-section h3 {
+      margin: 0;
+      color: var(--ink);
+      font-size: 12px;
+      line-height: 1.3;
+      text-transform: uppercase;
+      font-weight: 790;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    li + li {
+      margin-top: 5px;
+    }
+
+    p,
+    li,
+    span,
+    strong,
+    h1,
+    h2,
+    h3 {
+      overflow-wrap: anywhere;
+    }
+
+    .source_observed .label { background: var(--source); }
+    .derived_f_v .label { background: var(--derived); }
+    .restricted_blocked .label { background: var(--restricted); }
+    .speculative_frontier .label { background: var(--speculative); }
+    .applied_design .label { background: var(--applied); }
+    .computational_evaluation .label { background: var(--computational); }
+    .contested_counts .label { background: var(--contested); }
+    .dropped_branches .label { background: var(--dropped); }
+
+    .source_observed { border-top: 5px solid var(--source); }
+    .derived_f_v { border-top: 5px solid var(--derived); }
+    .restricted_blocked { border-top: 5px solid var(--restricted); }
+    .speculative_frontier { border-top: 5px solid var(--speculative); }
+    .applied_design { border-top: 5px solid var(--applied); }
+    .computational_evaluation { border-top: 5px solid var(--computational); }
+    .contested_counts { border-top: 5px solid var(--contested); }
+    .dropped_branches { border-top: 5px solid var(--dropped); }
+
+    .footer-note {
+      margin-top: 28px;
+      border-top: 1px solid var(--line);
+      padding-top: 20px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    @media (max-width: 980px) {
+      .shell {
+        grid-template-columns: 1fr;
+      }
+
+      .rail {
+        position: relative;
+        height: auto;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .layer-nav {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .hero,
+      .panel-grid,
+      .count-strip {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      main,
+      .rail {
+        padding: 22px 16px;
+      }
+
+      .shell,
+      .hero,
+      .status-card,
+      .count-strip,
+      .count-tile,
+      .panel-grid,
+      .layer-panel {
+        max-width: 100%;
+        min-width: 0;
+        width: 100%;
+      }
+
+      .rail,
+      main {
+        max-width: 358px;
+        min-width: 0;
+        width: 100%;
+      }
+
+      .layer-nav {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .layer-button {
+        font-size: 12px;
+        padding: 9px 8px;
+      }
+
+      .status-row {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 5px;
+      }
+
+      .status-row span:last-child {
+        text-align: left;
+      }
+
+      .label-line {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .record-id {
+        white-space: normal;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside class="rail" aria-label="Layer controls">
+      <div class="brand">
+        <strong>Nwagu Aneke Count-Layer View</strong>
+        <span>Internal prototype. Claims keep their evidence layer.</span>
+      </div>
+
+      <div class="small-label">Layer filter</div>
+      <nav class="layer-nav" aria-label="Filter panels by layer">
+        <button class="layer-button active" type="button" data-filter="all">All layers</button>
+        <button class="layer-button" type="button" data-filter="source_observed">Source-observed</button>
+        <button class="layer-button" type="button" data-filter="derived_f_v">Derived f/v</button>
+        <button class="layer-button" type="button" data-filter="restricted_blocked">Restricted</button>
+        <button class="layer-button" type="button" data-filter="speculative_frontier">Speculative</button>
+        <button class="layer-button" type="button" data-filter="applied_design">Applied</button>
+        <button class="layer-button" type="button" data-filter="computational_evaluation">Computational</button>
+        <button class="layer-button" type="button" data-filter="contested_counts">Contested</button>
+        <button class="layer-button" type="button" data-filter="dropped_branches">Dropped</button>
+      </nav>
+
+      <div class="rail-rule"></div>
+      <p class="status-note">No source figures, glyph reproductions, manuscript images, or publication claims are included.</p>
+    </aside>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <h1 id="page-title">Evidence layers stay separate.</h1>
+          <p class="lede">A compact interface for reading the current Nwagu Aneke count model without collapsing source display, derived analysis, restricted evidence, speculation, computation, and application.</p>
+        </div>
+        <div class="status-card" aria-label="Prototype status">
+          <div class="status-row"><span>Prototype status</span><span>Internal only</span></div>
+          <div class="status-row"><span>Data source</span><span>10 claim-layer fixtures</span></div>
+          <div class="status-row"><span>Source images</span><span>Not used</span></div>
+          <div class="status-row"><span>Claim ceiling</span><span>Interface outline/prototype</span></div>
+        </div>
+      </section>
+
+      <section class="count-strip" aria-label="Count comparison">
+        <div class="count-tile">
+          <strong>26/208</strong>
+          <span>Source-observed Appendix I chart layer.</span>
+        </div>
+        <div class="count-tile">
+          <strong>27/216</strong>
+          <span>Derived f/v split. Not source-observed.</span>
+        </div>
+        <div class="count-tile">
+          <strong>164/224</strong>
+          <span>External repertoire lead. Separate count type.</span>
+        </div>
+        <div class="count-tile">
+          <strong>II</strong>
+          <span>Appendix II named but unrecovered in this package.</span>
+        </div>
+      </section>
+
+      <section class="panel-grid" aria-label="Claim layer panels">
+        <article class="layer-panel source_observed" data-panel="source_observed" data-record-id="NA-FIX-001">
+          <div class="panel-head">
+            <div class="label-line">
+              <span class="label">Source-observed Appendix I chart layer</span>
+              <span class="record-id">NA-FIX-001</span>
+            </div>
+            <h2>26 x 8 = 208</h2>
+          </div>
+          <div class="panel-body">
+            <p class="claim">Azuonye 1992 Appendix I, as archived locally, displays 26 printed consonant rows and 8 printed vowel columns in the current chart layer.</p>
+            <div class="mini-section">
+              <h3>Must show</h3>
+              <ul>
+                <li>Appendix I chart layer.</li>
+                <li>Not complete inventory.</li>
+                <li>Rights review required.</li>
+                <li>Authority not reviewed.</li>
+              </ul>
+            </div>
+            <div class="mini-section">
+              <h3>Blocked release conditions</h3>
+              <ul>
+                <li>Source figure reproduction rights unresolved.</li>
+                <li>Community/domain review not complete.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="layer-panel derived_f_v" data-panel="derived_f_v" data-record-id="NA-FIX-002">
+          <div class="panel-head">
+            <div class="label-line">
+              <span class="label">Derived f/v split - not source-observed</span>
+              <span class="record-id">NA-FIX-002</span>
+            </div>
+            <h2>27/216 is analytic, not canonical.</h2>
+          </div>
+          <div class="panel-body">
+            <p class="claim">Splitting the combined f/v row into separate f and v rows yields 27 rows and 216 cells, but this is a derived operation rather than a source-observed Appendix I count.</p>
+            <div class="mini-section">
+              <h3>Must show</h3>
+              <ul>
+                <li>Derived operation.</li>
+                <li>Combined f/v row split.</li>
+                <li>Contradicts no source evidence if labeled derived.</li>
+              </ul>
+            </div>
+            <div class="mini-section">
+              <h3>Blocked release conditions</h3>
+              <ul>
+                <li>Domain review incomplete.</li>
+                <li>Risk of reader confusing derived count with source count.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="layer-panel restricted_blocked" data-panel="restricted_blocked" data-record-id="NA-FIX-003">
+          <div class="panel-head">
+            <div class="label-line">
+              <span class="label">Restricted corpus - no public dataset</span>
+              <span class="record-id">NA-FIX-003</span>
+            </div>
+            <h2>Reported corpus, unresolved access.</h2>
+          </div>
+          <div class="panel-body">
+            <p class="claim">The 100-plus Nwagu Aneke exercise-book corpus is reported, but it is not available as a public dataset in the current Etisiobi evidence package.</p>
+            <div class="mini-section">
+              <h3>Must show</h3>
+              <ul>
+                <li>Reported corpus.</li>
+                <li>Custody unresolved.</li>
+                <li>Rights unresolved.</li>
+                <li>Authority unresolved.</li>
+              </ul>
+            </div>
+            <div class="mini-section">
+              <h3>Blocked release conditions</h3>
+              <ul>
+                <li>Rights/authority review absent.</li>
+                <li>No verifiable corpus inventory.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="layer-panel speculative_frontier" data-panel="speculative_frontier" data-record-id="NA-FIX-004">
+          <div class="panel-head">
+            <div class="label-line">
+              <span class="label">Speculative / exploratory only</span>
+              <span class="record-id">NA-FIX-004</span>
+            </div>
+            <h2>Discovery can continue. Promotion cannot jump.</h2>
+          </div>
+          <div class="panel-body">
+            <p class="claim">PAGC, universal compression, E6, and broad cross-domain theory claims remain speculative until source evidence, extraction method, and falsification path exist.</p>
+            <div class="mini-section">
+              <h3>Must show</h3>
+              <ul>
+                <li>PAGC/cross-domain theory exploratory.</li>
+                <li>Not artifact fact.</li>
+                <li>Requires source, method, falsification.</li>
+              </ul>
+            </div>
+            <div class="mini-section">
+              <h3>Blocked release conditions</h3>
+              <ul>
+                <li>Unsupported promotion risk.</li>
+                <li>No controlled test.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="layer-panel applied_design" data-panel="applied_design" data-record-id="NA-FIX-005">
+          <div class="panel-head">
+            <div class="label-line">
+              <span class="label">Applied design - lineage required</span>
+              <span class="record-id">NA-FIX-005</span>
+            </div>
+            <h2>Applications inherit labels.</h2>
+          </div>
+          <div class="panel-body">
+            <p class="claim">A layer-safe design grammar may use source-observed and derived Nwagu count layers only when the output preserves source-to-abstraction lineage and does not present design artifacts as historical source evidence.</p>
+            <div class="mini-section">
+              <h3>Must show</h3>
+              <ul>
+                <li>Source-to-abstraction lineage.</li>
+                <li>Application is not historical meaning.</li>
+                <li>Contact/usability test required.</li>
+              </ul>
+            </div>
+            <div class="mini-section">
+              <h3>Blocked release conditions</h3>
+              <ul>
+                <li>Reader may infer unsupported source meaning.</li>
+                <li>Rights-safe assets unavailable.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="layer-panel restricted_blocked" data-panel="restricted_blocked" data-record-id="NA-FIX-006">
+          <div class="panel-head">
+            <div class="label-line">
+              <span class="label">Appendix II unrecovered - not an absence claim</span>
+              <span class="record-id">NA-FIX-006</span>
+            </div>
+            <h2>Named, not recovered.</h2>
+          </div>
+          <div class="panel-body">
+            <p class="claim">Azuonye Appendix II is named in the local PDF, but the alphabetical character-list body has not been recovered from the current repo-local extraction/render trail.</p>
+            <div class="mini-section">
+              <h3>Must show</h3>
+              <ul>
+                <li>Appendix II named.</li>
+                <li>Body not recovered.</li>
+                <li>Deposit/archive route needed.</li>
+              </ul>
+            </div>
+            <div class="mini-section">
+              <h3>Blocked release conditions</h3>
+              <ul>
+                <li>ScholarWorks/UNN response pending.</li>
+                <li>No recovered character list.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="layer-panel computational_evaluation" data-panel="computational_evaluation" data-record-id="NA-FIX-007">
+          <div class="panel-head">
+            <div class="label-line">
+              <span class="label">Computational evaluation - not source evidence</span>
+              <span class="record-id">NA-FIX-007</span>
+            </div>
+            <h2>Agents can be tested. Sources still decide.</h2>
+          </div>
+          <div class="panel-body">
+            <p class="claim">Layer-promotion-error evaluation records are computational artifacts that can test whether agents preserve claim layers, but they do not themselves prove Nwagu source facts.</p>
+            <div class="mini-section">
+              <h3>Must show</h3>
+              <ul>
+                <li>Agent/LPE evaluation.</li>
+                <li>Tests layer preservation.</li>
+                <li>Does not prove Nwagu facts.</li>
+              </ul>
+            </div>
+            <div class="mini-section">
+              <h3>Blocked release conditions</h3>
+              <ul>
+                <li>Gold labels not target-reviewed.</li>
+                <li>Evaluation could be misread as evidence.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="layer-panel contested_counts" data-panel="contested_counts" data-record-id="NA-FIX-008">
+          <div class="panel-head">
+            <div class="label-line">
+              <span class="label">Contested / separate count type</span>
+              <span class="record-id">NA-FIX-008</span>
+            </div>
+            <h2>164/224 is a different question.</h2>
+          </div>
+          <div class="panel-body">
+            <p class="claim">Ahamefula/Mbah external leads report a 164 actual-symbol and 224 ideal-symbol repertoire problem, which should be modeled as a separate count layer rather than collapsed into the 208 Appendix I chart-cell layer.</p>
+            <div class="mini-section">
+              <h3>Must show</h3>
+              <ul>
+                <li>164 actual external lead.</li>
+                <li>224 ideal external lead.</li>
+                <li>Not the same count type as 208 chart cells.</li>
+                <li>Needs local extraction.</li>
+              </ul>
+            </div>
+            <div class="mini-section">
+              <h3>Blocked release conditions</h3>
+              <ul>
+                <li>Source not locally archived/extracted.</li>
+                <li>Domain review incomplete.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="layer-panel dropped_branches" data-panel="dropped_branches" data-record-id="NA-FIX-009">
+          <div class="panel-head">
+            <div class="label-line">
+              <span class="label">Dropped access path - 403 is not source absence</span>
+              <span class="record-id">NA-FIX-009</span>
+            </div>
+            <h2>Access failure is not source evidence.</h2>
+          </div>
+          <div class="panel-body">
+            <p class="claim">The failed automated ScholarWorks PDF refresh is a negative recovery result: it records that the endpoint returned 403/HTML under automated access, not that the official file lacks Appendix II.</p>
+            <div class="mini-section">
+              <h3>Must show</h3>
+              <ul>
+                <li>Automated endpoint returned 403/HTML.</li>
+                <li>Manual/repository route still open.</li>
+              </ul>
+            </div>
+            <div class="mini-section">
+              <h3>Blocked release conditions</h3>
+              <ul>
+                <li>Hosted file identity unresolved.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="layer-panel dropped_branches" data-panel="dropped_branches" data-record-id="NA-FIX-010">
+          <div class="panel-head">
+            <div class="label-line">
+              <span class="label">Dropped source-observed 27/216 wording</span>
+              <span class="record-id">NA-FIX-010</span>
+            </div>
+            <h2>27/216 stays derived.</h2>
+          </div>
+          <div class="panel-body">
+            <p class="claim">Source-observed 27/216 language is a dropped promotion branch unless future source review shows separate f and v rows or an equivalent source-layer inventory.</p>
+            <div class="mini-section">
+              <h3>Must show</h3>
+              <ul>
+                <li>27/216 allowed only as derived.</li>
+                <li>Source-observed wording rejected.</li>
+              </ul>
+            </div>
+            <div class="mini-section">
+              <h3>Blocked release conditions</h3>
+              <ul>
+                <li>Future evidence could revise layer.</li>
+                <li>Domain review incomplete.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <p class="footer-note">Prototype path: research/frontier/nwagu_aneke/interfaces/count_layer_static_prototype.html. This file is a local interface artifact; validators and review gates still control any promotion.</p>
+    </main>
+  </div>
+
+  <script>
+    const buttons = Array.from(document.querySelectorAll(".layer-button"));
+    const panels = Array.from(document.querySelectorAll(".layer-panel"));
+
+    function setFilter(filter) {
+      buttons.forEach((button) => {
+        button.classList.toggle("active", button.dataset.filter === filter);
+      });
+
+      panels.forEach((panel) => {
+        const visible = filter === "all" || panel.dataset.panel === filter;
+        panel.classList.toggle("hidden", !visible);
+      });
+    }
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => setFilter(button.dataset.filter));
+    });
+  </script>
+</body>
+</html>

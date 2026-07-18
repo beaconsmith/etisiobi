@@ -1,0 +1,15 @@
+paper: artifact-first-trust
+status: blocked
+last_checked: 2026-04-24
+foundational_sources: partial
+regional_sources: fail
+methods_anchor: partial
+contradiction_coverage: partial
+thesis_clarity: pass
+reviewer_risk_below_threshold: fail
+blocking_reasons:
+  - only one regional/local anchor is currently visible
+  - critique literature on formalization, exclusion, and surveillance is underdeveloped
+  - community recordkeeping evidence is missing
+  - central trust claim requires careful wording because no empirical trust measurement exists
+promotion_condition: add 3 regional/community recordkeeping sources and 3 critique sources before drafting

@@ -1,0 +1,15 @@
+pattern,exclusion_reason,current_status,allowed_without_review,validator_control
+research/pagc/primary_sources/,primary source material requires separate rights and authority review,excluded_pending_review,no,blocked_path_prefix
+research/frontier/nwagu_aneke/primary_sources/,frontier primary source material requires separate rights and authority review,excluded_pending_review,no,blocked_path_prefix
+primary_sources/,any primary source tree requires explicit source dossier approval,excluded_pending_review,no,blocked_path_fragment
+*.pdf,publication and source PDFs require separate release review,excluded_pending_review,no,blocked_extension
+*.png,image files may reproduce source or interface material,excluded_pending_review,no,blocked_extension
+*.jpg,image files may reproduce source or interface material,excluded_pending_review,no,blocked_extension
+*.jpeg,image files may reproduce source or interface material,excluded_pending_review,no,blocked_extension
+*.tif,scan files may reproduce source material,excluded_pending_review,no,blocked_extension
+*.tiff,scan files may reproduce source material,excluded_pending_review,no,blocked_extension
+.env,environment files may contain secrets,excluded_pending_review,no,blocked_secret_pattern
+private_data,private data requires privacy review,excluded_pending_review,no,blocked_path_fragment
+contact_records,contact records require privacy and send approval review,excluded_pending_review,no,blocked_path_fragment
+human_reader_response_csv,human response data requires data protection review,excluded_pending_review,no,blocked_path_fragment
+restricted_manuscript_material,restricted manuscript material requires authority review,excluded_pending_review,no,blocked_path_fragment

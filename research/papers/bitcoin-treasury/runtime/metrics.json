@@ -1,0 +1,16 @@
+{
+  "paper": "bitcoin-treasury",
+  "last_checked": "2026-04-24",
+  "stage": "evidence_population",
+  "vetted_sources": 10,
+  "core_claims": 3,
+  "claims_moderate_or_better": 3,
+  "regional_sources": 1,
+  "critical_gaps": [
+    "Nigeria community finance studies",
+    "ROSCA/cooperative governance literature",
+    "CBN/regulatory context",
+    "design framework methodology"
+  ],
+  "promotion_ready": false
+}

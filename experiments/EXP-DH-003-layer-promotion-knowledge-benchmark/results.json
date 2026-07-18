@@ -1,0 +1,112 @@
+{
+  "experiment_id": "EXP-DH-003-layer-promotion-knowledge-benchmark",
+  "hypothesis_id": "DH-003",
+  "status": "SIGNIFICANT_INTERNAL_KNOWLEDGE_BREAKTHROUGH_DH003",
+  "knowledge_unit_count": 10,
+  "passed_units": 10,
+  "failed_units": [],
+  "source_case_count": 510,
+  "collision_count": 200,
+  "quality_gate_sample_count": 24,
+  "rank_only_metadata_test_f1": 1.0,
+  "lexical_only_test_f1": 0.8,
+  "global_benchmark_claim": "not_met",
+  "novelty_scope": "internal_repo_knowledge",
+  "paper_claim_status": "not_ready",
+  "public_release_status": "blocked",
+  "celebration_worthy": true,
+  "claim_ceiling": "Ten internal knowledge units for DH-003 benchmark design; not a global novelty, paper, public benchmark, or submission-readiness claim.",
+  "evaluations": [
+    {
+      "unit_id": "KU-001",
+      "title": "Layer-qualified IDs are mandatory for safe PAGC application grammars",
+      "benchmark_dimension": "representation_safety",
+      "knowledge_type": "engineering_invariant",
+      "claim_ceiling": "internal_repo_knowledge",
+      "required_signal": "collision_count>=200",
+      "status": "PASS"
+    },
+    {
+      "unit_id": "KU-002",
+      "title": "Metadata-aware layer ranking can solve the current held-out LPE split",
+      "benchmark_dimension": "benchmark_baseline",
+      "knowledge_type": "benchmark_observation",
+      "claim_ceiling": "internal_repo_knowledge",
+      "required_signal": "rank_only_metadata_test_f1==1.0",
+      "status": "PASS"
+    },
+    {
+      "unit_id": "KU-003",
+      "title": "Lexical-only detection is insufficient for hard promotion cases",
+      "benchmark_dimension": "adversarial_robustness",
+      "knowledge_type": "negative_result",
+      "claim_ceiling": "internal_repo_knowledge",
+      "required_signal": "lexical_only_test_f1<0.9",
+      "status": "PASS"
+    },
+    {
+      "unit_id": "KU-004",
+      "title": "Hard positive no-trigger cases are needed in any serious LPE benchmark",
+      "benchmark_dimension": "adversarial_coverage",
+      "knowledge_type": "benchmark_design_rule",
+      "claim_ceiling": "internal_repo_knowledge",
+      "required_signal": "hard_positive_no_trigger_count>=50",
+      "status": "PASS"
+    },
+    {
+      "unit_id": "KU-005",
+      "title": "Hard negative trigger-word cases are needed to prevent overblocking",
+      "benchmark_dimension": "false_positive_control",
+      "knowledge_type": "benchmark_design_rule",
+      "claim_ceiling": "internal_repo_knowledge",
+      "required_signal": "hard_negative_trigger_words_count>=40",
+      "status": "PASS"
+    },
+    {
+      "unit_id": "KU-006",
+      "title": "Source-index claims must not be treated as final source-observed glyph grammar",
+      "benchmark_dimension": "layer_boundary",
+      "knowledge_type": "claim_safety_rule",
+      "claim_ceiling": "internal_repo_knowledge",
+      "required_signal": "source_index_cases_present",
+      "status": "PASS"
+    },
+    {
+      "unit_id": "KU-007",
+      "title": "Derived f/v split claims can be preserved if they remain derived",
+      "benchmark_dimension": "derived_layer_preservation",
+      "knowledge_type": "claim_safety_rule",
+      "claim_ceiling": "internal_repo_knowledge",
+      "required_signal": "derived_to_derived_negatives_present",
+      "status": "PASS"
+    },
+    {
+      "unit_id": "KU-008",
+      "title": "Rights and public-release readiness are independent layers from evidence truth",
+      "benchmark_dimension": "rights_authority_gate",
+      "knowledge_type": "review_rule",
+      "claim_ceiling": "internal_repo_knowledge",
+      "required_signal": "blocked_public_release_count>=8",
+      "status": "PASS"
+    },
+    {
+      "unit_id": "KU-009",
+      "title": "LPE labels need quality routing before paper evidence use",
+      "benchmark_dimension": "label_quality",
+      "knowledge_type": "method_rule",
+      "claim_ceiling": "internal_repo_knowledge",
+      "required_signal": "needs_adjudication_count>=5",
+      "status": "PASS"
+    },
+    {
+      "unit_id": "KU-010",
+      "title": "DH-003 can mature as a benchmark branch only after blind review and full-gate expansion",
+      "benchmark_dimension": "stage_discipline",
+      "knowledge_type": "research_next_action",
+      "claim_ceiling": "internal_repo_knowledge",
+      "required_signal": "paper_claim_status==not_ready",
+      "status": "PASS"
+    }
+  ],
+  "next_action": "Expand EXP-FRONTIER-017 quality routing from 24 pilot labels to the full label set, then run blind review before any paper-candidate decision."
+}

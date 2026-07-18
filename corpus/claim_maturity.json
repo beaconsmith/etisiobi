@@ -1,0 +1,296 @@
+[
+  {
+    "claim_id": "CLAIM-0001",
+    "claim_text": "etisiobi is the research infrastructure for The Beaconsmith Collective and houses active research programs, literature wikis, experiment logs, and paper drafts.",
+    "claim_type": "implementation",
+    "source_path": "AGENTS.md",
+    "source_locator": "line 6",
+    "evidence_status": "repo_supported",
+    "confidence": 0.9,
+    "needed_validation": [
+      "Keep repo map current as generated artifacts are added."
+    ],
+    "maturity": "C3",
+    "gate": "research_only"
+  },
+  {
+    "claim_id": "CLAIM-0002",
+    "claim_text": "The active research programs are ICegov/OGI and PAGC.",
+    "claim_type": "method",
+    "source_path": "README.md",
+    "source_locator": "line 16",
+    "evidence_status": "repo_supported",
+    "confidence": 0.9,
+    "needed_validation": [
+      "Check whether any newer programs under research/ should be promoted to active status."
+    ],
+    "maturity": "C3",
+    "gate": "research_only"
+  },
+  {
+    "claim_id": "CLAIM-0003",
+    "claim_text": "The ICEGOV 2026 portfolio is currently focused on three active papers: community-governance, artifact-first-trust, and community-os-pilot.",
+    "claim_type": "implementation",
+    "source_path": "research/PORTFOLIO.md",
+    "source_locator": "line 5",
+    "evidence_status": "repo_supported",
+    "confidence": 0.9,
+    "needed_validation": [
+      "Verify that runtime manifests agree with portfolio state."
+    ],
+    "maturity": "C3",
+    "gate": "research_only"
+  },
+  {
+    "claim_id": "CLAIM-0004",
+    "claim_text": "bitcoin-treasury and community-dpi were killed or parked because source and category risks were too high for the deadline window.",
+    "claim_type": "limitation",
+    "source_path": "research/PORTFOLIO.md",
+    "source_locator": "line 16",
+    "evidence_status": "repo_supported",
+    "confidence": 0.85,
+    "needed_validation": [
+      "Confirm killed manifests remain inert before future loops reuse sources."
+    ],
+    "maturity": "C3",
+    "gate": "research_only"
+  },
+  {
+    "claim_id": "CLAIM-0005",
+    "claim_text": "T1 artifact-first-trust has a critical Africa/Nigeria regional recordkeeping source gap.",
+    "claim_type": "limitation",
+    "source_path": "research/PORTFOLIO.md",
+    "source_locator": "line 53",
+    "evidence_status": "repo_supported",
+    "confidence": 0.85,
+    "needed_validation": [
+      "Run targeted source search before promoting or submitting."
+    ],
+    "maturity": "C3",
+    "gate": "research_only"
+  },
+  {
+    "claim_id": "CLAIM-0006",
+    "claim_text": "PAGC's 27-base source inventory is unresolved because current chart transcription observes 26-28 rows and BMCG says 26.",
+    "claim_type": "theory",
+    "source_path": "research/pagc/FALSIFICATION_TRACKER.md",
+    "source_locator": "line 23",
+    "evidence_status": "repo_supported",
+    "confidence": 0.9,
+    "needed_validation": [
+      "Read Azuonye 1992 and reconcile all base-count files."
+    ],
+    "maturity": "C3",
+    "gate": "research_only"
+  },
+  {
+    "claim_id": "CLAIM-0007",
+    "claim_text": "The 8-modifier inventory is visually confirmed from the chart as the eight Standard Igbo vowel columns.",
+    "claim_type": "theory",
+    "source_path": "research/pagc/FALSIFICATION_TRACKER.md",
+    "source_locator": "line 24",
+    "evidence_status": "repo_supported",
+    "confidence": 0.8,
+    "needed_validation": [
+      "Record exact chart provenance and independent transcription."
+    ],
+    "maturity": "C2",
+    "gate": "research_only"
+  },
+  {
+    "claim_id": "CLAIM-0008",
+    "claim_text": "The small-corpus BPE k=27 optimality claim is refuted by a sweep showing an inflection at k=16 rather than k=27.",
+    "claim_type": "performance",
+    "source_path": "experiments/01_bpe_igbo_k27/results/report.md",
+    "source_locator": "line 8",
+    "evidence_status": "experiment_supported",
+    "confidence": 0.85,
+    "needed_validation": [
+      "Replicate on larger and better documented corpora with fixed seeds."
+    ],
+    "maturity": "C5",
+    "gate": "usable_with_limits"
+  },
+  {
+    "claim_id": "CLAIM-0009",
+    "claim_text": "The sovereign-memory RL simulation is currently invalidated as circular because its invariant is baked into the experimental structure.",
+    "claim_type": "limitation",
+    "source_path": "research/pagc/FALSIFICATION_TRACKER.md",
+    "source_locator": "line 27",
+    "evidence_status": "repo_supported",
+    "confidence": 0.8,
+    "needed_validation": [
+      "Redesign with non-aligned invariants and null-model baselines."
+    ],
+    "maturity": "C2",
+    "gate": "research_only"
+  },
+  {
+    "claim_id": "CLAIM-0010",
+    "claim_text": "The E6 symmetry claim is blocked until the base count is resolved, because the E6 connection requires exactly 27 bases.",
+    "claim_type": "theory",
+    "source_path": "research/pagc/FALSIFICATION_TRACKER.md",
+    "source_locator": "line 28",
+    "evidence_status": "repo_supported",
+    "confidence": 0.8,
+    "needed_validation": [
+      "Resolve base count before algebraic mapping experiments."
+    ],
+    "maturity": "C2",
+    "gate": "research_only"
+  },
+  {
+    "claim_id": "CLAIM-0011",
+    "claim_text": "The Research Spine is designed to route Oroma domain events into normalized research facts, contradictions, wikis, logs, and papers.",
+    "claim_type": "implementation",
+    "source_path": "spine/ARCHITECTURE.md",
+    "source_locator": "line 13",
+    "evidence_status": "repo_supported",
+    "confidence": 0.85,
+    "needed_validation": [
+      "Build or validate extractor against read-only product fixtures before pilot claims."
+    ],
+    "maturity": "C3",
+    "gate": "research_only"
+  },
+  {
+    "claim_id": "CLAIM-0012",
+    "claim_text": "The repo's evidence policy requires non-trivial claims to be traceable to sources or explicitly marked as reasoning or conjecture.",
+    "claim_type": "method",
+    "source_path": "research/EVIDENCE_POLICY.md",
+    "source_locator": "line 9",
+    "evidence_status": "repo_supported",
+    "confidence": 0.95,
+    "needed_validation": [
+      "Enforce with claim ledger checks in validation script."
+    ],
+    "maturity": "C3",
+    "gate": "research_only"
+  },
+  {
+    "claim_id": "CLAIM-0013",
+    "claim_text": "Repo files disagree about ICEGOV deadline: README says April 24, 2026 while AGENTS/SUBMISSION_RULES say May 8, 2026.",
+    "claim_type": "limitation",
+    "source_path": "README.md",
+    "source_locator": "line 21",
+    "evidence_status": "contradicted",
+    "confidence": 0.9,
+    "needed_validation": [
+      "Resolve deadline source of truth and update stale file(s)."
+    ],
+    "maturity": "CX",
+    "gate": "negative_or_remove"
+  },
+  {
+    "claim_id": "CLAIM-0014",
+    "claim_text": "Repo files disagree about ACM format defaults: submission rules say sigconf while the bootstrap prompt asks for manuscript.",
+    "claim_type": "limitation",
+    "source_path": "research/SUBMISSION_RULES.md",
+    "source_locator": "line 11",
+    "evidence_status": "contradicted",
+    "confidence": 0.85,
+    "needed_validation": [
+      "Confirm venue submission mode before final compile."
+    ],
+    "maturity": "CX",
+    "gate": "negative_or_remove"
+  },
+  {
+    "claim_id": "CLAIM-P5-0001",
+    "claim_text": "The primary chart supports 26 printed consonant rows and 8 vowel columns, yielding 208 printed CV cells before any phonemic reinterpretation.",
+    "claim_type": "result",
+    "source_path": "corpus/pagc_inventory_observations.jsonl",
+    "source_locator": "INV-0001, INV-0002, INV-0003",
+    "evidence_status": "experiment_supported",
+    "confidence": 0.9,
+    "needed_validation": [
+      "Independent human review of the chart image."
+    ],
+    "maturity": "C5",
+    "gate": "usable_with_limits"
+  },
+  {
+    "claim_id": "CLAIM-P5-0002",
+    "claim_text": "The 8-column modifier claim survives the chart audit as a source-observed column count.",
+    "claim_type": "result",
+    "source_path": "corpus/pagc_inventory_observations.jsonl",
+    "source_locator": "INV-0002",
+    "evidence_status": "experiment_supported",
+    "confidence": 0.88,
+    "needed_validation": [
+      "Confirm vowel labels against the source image."
+    ],
+    "maturity": "C5",
+    "gate": "usable_with_limits"
+  },
+  {
+    "claim_id": "CLAIM-P5-0003",
+    "claim_text": "A 27-base count is a derived phonemic split of the combined f/v row, not a directly printed source count.",
+    "claim_type": "result",
+    "source_path": "corpus/pagc_inventory_observations.jsonl",
+    "source_locator": "INV-0004",
+    "evidence_status": "experiment_supported",
+    "confidence": 0.72,
+    "needed_validation": [
+      "Check independent phonological analyses before using the split as theory."
+    ],
+    "maturity": "C2",
+    "gate": "research_only"
+  },
+  {
+    "claim_id": "CLAIM-P5-0004",
+    "claim_text": "The exact 27x8=216 matrix should be rewritten as a derived theoretical normalization, not a primary-source observation.",
+    "claim_type": "limitation",
+    "source_path": "corpus/pagc_inventory_observations.jsonl",
+    "source_locator": "INV-0001, INV-0004, INV-0005",
+    "evidence_status": "experiment_supported",
+    "confidence": 0.86,
+    "needed_validation": [
+      "Do not use E6 or 216-token claims as positive findings without a separate model."
+    ],
+    "maturity": "C5",
+    "gate": "usable_with_limits"
+  },
+  {
+    "claim_id": "CLAIM-P5-0005",
+    "claim_text": "Visible full-word symbols in the chart must be analyzed separately from the CV syllabary grid.",
+    "claim_type": "method",
+    "source_path": "corpus/pagc_inventory_observations.jsonl",
+    "source_locator": "INV-0006",
+    "evidence_status": "experiment_supported",
+    "confidence": 0.78,
+    "needed_validation": [
+      "Locate full manuscript corpus before making 100+ logograph claims."
+    ],
+    "maturity": "C2",
+    "gate": "research_only"
+  },
+  {
+    "claim_id": "CLAIM-P5-0006",
+    "claim_text": "The local BPE sweep refutes k=27 as the fertility-knee optimum on the existing test corpus, with a reported inflection at k=16.",
+    "claim_type": "performance",
+    "source_path": "experiments/01_bpe_igbo_k27/results/report.md",
+    "source_locator": "line 8",
+    "evidence_status": "experiment_supported",
+    "confidence": 0.84,
+    "needed_validation": [
+      "Replicate on a larger documented corpus before making broader language claims."
+    ],
+    "maturity": "C5",
+    "gate": "usable_with_limits"
+  },
+  {
+    "claim_id": "CLAIM-P5-0007",
+    "claim_text": "ICEGOV publication artifacts have deadline and format drift that should be treated as publication-risk evidence rather than paper contribution evidence.",
+    "claim_type": "limitation",
+    "source_path": "corpus/claims.jsonl",
+    "source_locator": "CLAIM-0013, CLAIM-0014",
+    "evidence_status": "repo_supported",
+    "confidence": 0.85,
+    "needed_validation": [
+      "Human venue decision before final ACM submission compile."
+    ],
+    "maturity": "C3",
+    "gate": "research_only"
+  }
+]

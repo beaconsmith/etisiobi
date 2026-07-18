@@ -1,0 +1,95 @@
+{
+  "release_id": "ETISIOBI-SOTA-2026-05-28",
+  "created_at": "2026-05-28T08:20:53+00:00",
+  "status": "internal_release_only",
+  "external_release_allowed": false,
+  "external_release_blockers": [
+    "attach legal/approval documents to authority records",
+    "rights review for Nwagu Aneke source images/PDF/manuscript material",
+    "human review of glyph annotations and base-count interpretation",
+    "publication gate must be scoped to a specific output"
+  ],
+  "files": [
+    {
+      "path": "decisions/decision_log.jsonl",
+      "exists": true,
+      "sha256": "cbdf0830aac90c98a816431a04a9b79b8acb14b4f2e4618eb654994e8488dc5b"
+    },
+    {
+      "path": "provenance/prov_graph.jsonld",
+      "exists": true,
+      "sha256": "4578e35fd49e9d1538aaa41e5a484495b1ae8fdcaaa04a33d32a3c9d8fd40f55"
+    },
+    {
+      "path": "ro_crate/ro-crate-metadata.json",
+      "exists": true,
+      "sha256": "f9e4c0a8634b111becd7f4a7e4c1f44d2bca538387225d269b62dc413db1b6a3"
+    },
+    {
+      "path": "artifacts/nwagu_aneke/iiif/manifest.json",
+      "exists": true,
+      "sha256": "718091ecdf8a76276c0dca9879ebf09dc1bf1cec32c754c2d711866bd5ad07dc"
+    },
+    {
+      "path": "artifacts/nwagu_aneke/tei/nwagu_aneke_working_dossier.xml",
+      "exists": true,
+      "sha256": "c17bd7d43a9a0a4480169983cfd5acc4c08b520dcfd07a9791f3634f2ee983ac"
+    },
+    {
+      "path": "annotations/nwagu_aneke/glyph_annotations.jsonl",
+      "exists": true,
+      "sha256": "5dabe6e38f498b68c2d84141c49c9cee1bdf488368eedddc9ccf04d875267ea9"
+    },
+    {
+      "path": "authority/approval_register.jsonl",
+      "exists": true,
+      "sha256": "70fa6a0abca948fe32a64c55b8d70abc9b0d1940107f9991fa4d6bd67429ce4e"
+    },
+    {
+      "path": "benchmarks/benchmark_registry.jsonl",
+      "exists": true,
+      "sha256": "4f52b863f40f4c771efefa30bd175fd6c6e96bf209532ffa035174c000b08774"
+    },
+    {
+      "path": "corpus/base_modifier_cache.jsonl",
+      "exists": true,
+      "sha256": "218698db7cd63a52df411682710b6530879c6fe0bacb0f65f509ec36b73fa747"
+    },
+    {
+      "path": "corpus/base_modifier_cache.schema.json",
+      "exists": true,
+      "sha256": "671af37b2f04709c0ffd933f082029940f50ecf58d9a716cee6640b85ae703d8"
+    },
+    {
+      "path": "research_goals/bmc/completion_audit.json",
+      "exists": true,
+      "sha256": "ddeebd1e6a9ab48865f1166cae26c8b5914ee3162aaba7c3c5fe9737fad17c5b"
+    },
+    {
+      "path": "research_goals/bmc/COMPLETION_AUDIT.md",
+      "exists": true,
+      "sha256": "eafc17afb6e4a54fd15f60a5658d91931fac5ba08059914962587c91dfdadaee"
+    },
+    {
+      "path": "knowledge_graph/bmc_kg.jsonld",
+      "exists": true,
+      "sha256": "0293cf4a43e56ddf60f00d877156068f6bd7a68b43050f9c16bd2e313310c2cb"
+    },
+    {
+      "path": "benchmarks/bmc_benchmark_tasks.jsonl",
+      "exists": true,
+      "sha256": "a77ff8fb5e1959161f652b01d663e5a7f3019fa828b8e2fe83e2d8710efa957d"
+    },
+    {
+      "path": "authority/bmc_review_protocol.json",
+      "exists": true,
+      "sha256": "1043feb0fa6dbc59ade4b10033bce01adef3af19a8975df91a445e08c604e7ff"
+    },
+    {
+      "path": "paper/bmc_submission_readiness_decision.md",
+      "exists": true,
+      "sha256": "97dbfc3e99d41e5fbe558d4b148d1a1e3874d1b70cb5e4966b9d21a2c0655652"
+    }
+  ],
+  "updated_at": "2026-05-28T10:07:00+00:00"
+}

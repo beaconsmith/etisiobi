@@ -1,0 +1,11 @@
+task_id,task,evidence_weight,ijrs_weight,pass_threshold,hard_gate,reject_if,score_0_1,evidence_points,ijrs_points,passes_threshold,soft_cap_if_unresolved
+NA-BENCH-001,Source-layer discipline and claim safety,0.1,15,13,True,27/216 or 216 is described as source-observed; unsupported E6 or universal-compression claims appear as results.,1.0,0.1,15.0,True,
+NA-BENCH-002,Evidence ledger and citation reliability,0.1,12,10,True,"Counts, citations, source statuses, or manuscript holdings are asserted without evidence files or verified source records.",1.0,0.1,12.0,True,
+NA-BENCH-003,Article-specific result strength,0.18,18,15,False,"The article only proposes work and reports no experiment, audit, matrix, theorem, benchmark, or negative result.",0.9222,0.166,16.6,True,
+NA-BENCH-004,Novelty against prior art,0.08,12,10,False,The article claims first-ever novelty without a prior-art matrix or states that BMC alone is novel as a generic annotation cache.,0.72,0.0576,8.64,False,
+NA-BENCH-005,Reproducible method/data/code,0.12,10,8,False,The result cannot be regenerated from repo-local scripts and named input artifacts.,0.9,0.108,9.0,True,
+NA-BENCH-006,Reviewer attack-surface burn-down,0.08,10,8,False,"The article hides missing human review, rights review, expert review, or failed/negative experiment results.",0.84,0.0672,8.4,True,
+NA-BENCH-007,"Rights, authority, CARE/community ethics",0.08,8,7,False,The article states that public data release or public source-image use is approved without authority and rights records.,0.55,0.044,4.4,False,74
+NA-BENCH-008,Manuscript coherence and venue fit,0.1,8,7,False,The body reads as internal notes to an AI rather than a field-specific research article.,0.65,0.065,5.2,False,
+NA-BENCH-009,Field impact and reusable artifact value,0.08,7,6,False,"The article has no reusable artifact, benchmark, ledger, theorem, dataset, matrix, or protocol.",0.88,0.0704,6.16,True,
+NA-BENCH-010,Benchmark comparability and keep/reject ledger,0.08,0,0,False,"Runs do not record fixed inputs, input checksums, score history, or keep/reject decisions.",1.0,0.08,0.0,True,

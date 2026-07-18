@@ -1,0 +1,28 @@
+{
+  "article_id": "ARTICLE-NA-010",
+  "status": "STRUCTURAL_ARXIV_QUALITY_PASS_NOT_SUBMISSION_READY",
+  "candidate": false,
+  "reason": "The repository arXiv-quality validator passes for Article 010, but human source review, rights/submission clearance, and adversarial journal review remain open, so this is not an external submission candidate yet.",
+  "field_facing_result": "A non-promotion invariant rejects unsafe layer promotions in artifact-derived generative design systems.",
+  "positive_evidence": [
+    "experiments/EXP-NA-010-layer-safety-tests/results.json",
+    "experiments/EXP-NA-010-layer-safety-tests/layer_non_promotion_lemma.md",
+    "experiments/EXP-NA-010-layer-safety-tests/data/layer_safety_cases.csv",
+    "papers/nwagu_aneke_articles/010-layer-safe-generative-design/article_specific_experiment.md",
+    "papers/nwagu_aneke_articles/010-layer-safe-generative-design/external_prior_art_audit.md",
+    "papers/nwagu_aneke_articles/010-layer-safe-generative-design/figures_tables_manifest.json",
+    "papers/nwagu_aneke_articles/010-layer-safe-generative-design/reviewer2_response_plan.md"
+  ],
+  "blocking_evidence": [
+    "papers/nwagu_aneke_articles/010-layer-safe-generative-design/human_source_review.md",
+    "papers/nwagu_aneke_articles/010-layer-safe-generative-design/rights_submission_clearance.md"
+  ],
+  "next_actions": [
+    "Attach human source review.",
+    "Attach rights and public-submission clearance.",
+    "Expand the test set beyond seven synthetic cases.",
+    "Complete deeper comparison to provenance, type systems, and claim verification with domain expert review.",
+    "Run adversarial journal review against the benchmark design.",
+    "Rerun python scripts\\validate_arxiv_quality_gate.py."
+  ]
+}

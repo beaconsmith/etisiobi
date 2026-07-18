@@ -1,0 +1,1 @@
+# Source Index: track_2_sovereignty\n\nThis index catalogs all sources harvested during the research loop for this track.\n\n## Ranked Sources\n(See RESEARCH_LOG.md for full details)\n- T2-A\n- T2-B\n- T2-C\n- T2-D\n- T2-E\n

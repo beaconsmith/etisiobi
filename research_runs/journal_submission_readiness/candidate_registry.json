@@ -1,0 +1,224 @@
+{
+  "status": "TEN_CANDIDATE_GOAL_MET_HUMAN_SIGNOFF_BLOCKED",
+  "external_reader_legitimacy_status": "EXTERNAL_READER_LEGITIMACY_FAIL",
+  "external_reader_legitimacy_pass_count": 3,
+  "external_reader_legitimacy_checked_count": 10,
+  "external_reader_legitimacy_report": "research_runs/external_reader_legitimacy/external_reader_legitimacy_report.md",
+  "external_reader_legitimacy_interpretation": "The ten candidate packets exist and pass structural registry gates, but only ARTICLE-NA-002, ARTICLE-NA-006, and ARTICLE-NA-010 currently pass external-reader legitimacy. The remaining manuscripts retain private lab framing, package/process prose, or self-describing paper language. They must not be represented as journal-ready manuscripts until this gate passes for each manuscript.",
+  "public_release_triage_status": "PUBLIC_RELEASE_TRIAGE_BLOCKED",
+  "public_release_triage_report": "research_runs/public_release_triage/independent_public_output_audit.md",
+  "public_journal_candidate_count": 0,
+  "public_preprint_candidate_count": 3,
+  "public_release_triage_interpretation": "The previous ten-candidate registry is structurally useful but not a public-release claim. At the current evidence stage there are zero public journal-manuscript candidates, three public-facing preprint candidates, and seven outputs that must be merged, parked, or kept internal before release.",
+  "context_contamination_status": "CONTEXT_CONTAMINATION_FAIL",
+  "context_contamination_pass_count": 3,
+  "context_contamination_checked_count": 20,
+  "context_contamination_report": "research_runs/context_contamination/context_contamination_report.md",
+  "context_contamination_interpretation": "The manuscript corpus still contains hidden evaluation/status-frame residue in most papers. Only ARTICLE-NA-002, ARTICLE-NA-006, and ARTICLE-NA-010 currently pass the context-contamination gate. This set must not be represented as public journal-ready while the gate fails.",
+  "target_count": 10,
+  "submission_review_candidate_count": 10,
+  "candidates": [
+    {
+      "article_id": "ARTICLE-NA-012",
+      "title": "Layer-Promotion Error as a Benchmark for Autonomous Research Labs",
+      "status": "SUBMISSION_REVIEW_CANDIDATE_HUMAN_SIGNOFF_BLOCKED",
+      "target_venue": "Research Integrity and Peer Review",
+      "independent_contribution": "Layer-promotion error is defined and tested as a measurable research-integrity benchmark task.",
+      "reproducible_evidence_package": "papers/nwagu_aneke_articles_cycle2/012-layer-promotion-error-benchmark/reproducibility_packet.md",
+      "target_venue_fit": "papers/nwagu_aneke_articles_cycle2/012-layer-promotion-error-benchmark/target_venue_fit_review.md",
+      "review_team_trace": "papers/nwagu_aneke_articles_cycle2/012-layer-promotion-error-benchmark/review_team_trace.jsonl",
+      "signoff_packet": "papers/nwagu_aneke_articles_cycle2/012-layer-promotion-error-benchmark/submission_signoff_packet.md",
+      "remaining_blockers": [
+        "human author target-venue approval",
+        "human author/source reviewer evidence-scope approval",
+        "final source review for public text scope",
+        "final rights and authority review for exact public package",
+        "APC/funding/waiver decision",
+        "competing-interest and AI-assistance disclosure approval",
+        "final submission package approval"
+      ]
+    },
+    {
+      "article_id": "ARTICLE-NA-002",
+      "title": "Count-Layer Drift in Nwagu Aneke: A Reproducible Audit of 26 by 8, 27, and 216",
+      "status": "SUBMISSION_REVIEW_CANDIDATE_HUMAN_SIGNOFF_BLOCKED",
+      "target_venue": "Digital Scholarship in the Humanities",
+      "independent_contribution": "A reproducible source-critical count-layer audit that prevents source-observed, editorial, and derived computational inventories from being promoted into the same evidence layer.",
+      "reproducible_evidence_package": "papers/nwagu_aneke_articles/002-count-layer-drift/reproducibility_packet.md",
+      "target_venue_fit": "papers/nwagu_aneke_articles/002-count-layer-drift/target_venue_fit_review.md",
+      "review_team_trace": "papers/nwagu_aneke_articles/002-count-layer-drift/review_team_trace.jsonl",
+      "signoff_packet": "papers/nwagu_aneke_articles/002-count-layer-drift/submission_signoff_packet.md",
+      "remaining_blockers": [
+        "human author target-venue approval",
+        "human source reviewer evidence-scope approval",
+        "final source review for public wording",
+        "final rights and authority review for exact public package",
+        "APC/funding/waiver or licence decision",
+        "competing-interest and AI-assistance disclosure approval",
+        "final submission package approval"
+      ]
+    },
+    {
+      "article_id": "ARTICLE-NA-010",
+      "title": "Layer-Safe Generative Design from Nwagu Aneke: A Non-Promotion Invariant",
+      "status": "SUBMISSION_REVIEW_CANDIDATE_HUMAN_SIGNOFF_BLOCKED",
+      "target_venue": "ACM Journal on Computing and Cultural Heritage",
+      "independent_contribution": "A non-promotion invariant, expanded baseline comparison, and ten-case transfer/counterexample audit for preventing artifact-derived generative systems from promoting weaker evidence layers into stronger public claims.",
+      "reproducible_evidence_package": "papers/nwagu_aneke_articles/010-layer-safe-generative-design/reproducibility_packet.md",
+      "target_venue_fit": "papers/nwagu_aneke_articles/010-layer-safe-generative-design/target_venue_fit_review.md",
+      "review_team_trace": "papers/nwagu_aneke_articles/010-layer-safe-generative-design/review_team_trace.jsonl",
+      "signoff_packet": "papers/nwagu_aneke_articles/010-layer-safe-generative-design/submission_signoff_packet.md",
+      "remaining_blockers": [
+        "human author target-venue approval",
+        "human source reviewer evidence-scope approval",
+        "final source review for public wording",
+        "final rights and authority review for exact public package",
+        "APC/funding/waiver or licence decision",
+        "competing-interest and AI-assistance disclosure approval",
+        "final submission package approval"
+      ]
+    },
+    {
+      "article_id": "ARTICLE-NA-001",
+      "title": "A Source-Critical Reconstruction Ledger for the Nwagu Aneke Igbo Syllabary",
+      "status": "SUBMISSION_REVIEW_CANDIDATE_HUMAN_SIGNOFF_BLOCKED",
+      "target_venue": "Journal of Documentation (Emerald Publishing)",
+      "independent_contribution": "A source-critical documentation ledger and uncertainty model that records what can be reconstructed from the Nwagu Aneke dossier without promoting it into a completed glyph corpus or public digital edition.",
+      "reproducible_evidence_package": "papers/nwagu_aneke_articles/001-source-critical-reconstruction/reproducibility_packet.md",
+      "target_venue_fit": "papers/nwagu_aneke_articles/001-source-critical-reconstruction/target_venue_fit_review.md",
+      "review_team_trace": "papers/nwagu_aneke_articles/001-source-critical-reconstruction/review_team_trace.jsonl",
+      "signoff_packet": "papers/nwagu_aneke_articles/001-source-critical-reconstruction/submission_signoff_packet.md",
+      "remaining_blockers": [
+        "human author target-venue approval",
+        "human source reviewer evidence-scope approval",
+        "final source review for public wording",
+        "final rights and authority review for exact public package",
+        "APC/funding/waiver or licence decision",
+        "competing-interest and AI-assistance disclosure approval",
+        "final submission package approval"
+      ]
+    },
+    {
+      "article_id": "ARTICLE-NA-003",
+      "title": "The f/v Hinge in Nwagu Aneke: Derived Orthographic Expansion Without Source-Layer Promotion",
+      "status": "SUBMISSION_REVIEW_CANDIDATE_HUMAN_SIGNOFF_BLOCKED",
+      "target_venue": "Digital Scholarship in the Humanities (Oxford University Press)",
+      "independent_contribution": "A bounded orthographic hinge rule showing how the f/v split can support derived modeling while preventing 27 rows or 216 cells from being promoted into the source-observed inventory.",
+      "reproducible_evidence_package": "papers/nwagu_aneke_articles/003-f-v-hinge/reproducibility_packet.md",
+      "target_venue_fit": "papers/nwagu_aneke_articles/003-f-v-hinge/target_venue_fit_review.md",
+      "review_team_trace": "papers/nwagu_aneke_articles/003-f-v-hinge/review_team_trace.jsonl",
+      "signoff_packet": "papers/nwagu_aneke_articles/003-f-v-hinge/submission_signoff_packet.md",
+      "remaining_blockers": [
+        "human author target-venue approval",
+        "human source reviewer evidence-scope approval",
+        "final source review for public wording",
+        "final rights and authority review for exact public package",
+        "APC/funding/waiver or licence decision",
+        "competing-interest and AI-assistance disclosure approval",
+        "final submission package approval"
+      ]
+    },
+    {
+      "article_id": "ARTICLE-NA-004",
+      "title": "Logographs in a Syllabary: A Lead-Set Audit for Nwagu Aneke Whole-Word Signs",
+      "status": "SUBMISSION_REVIEW_CANDIDATE_HUMAN_SIGNOFF_BLOCKED",
+      "target_venue": "Journal of Cultural Heritage (Elsevier)",
+      "independent_contribution": "A cultural-heritage documentation method that treats 30 visible whole-word-sign leads as a rights-aware corpus-building seed rather than a completed logograph corpus.",
+      "reproducible_evidence_package": "papers/nwagu_aneke_articles/004-logographs-in-a-syllabary/reproducibility_packet.md",
+      "target_venue_fit": "papers/nwagu_aneke_articles/004-logographs-in-a-syllabary/target_venue_fit_review.md",
+      "review_team_trace": "papers/nwagu_aneke_articles/004-logographs-in-a-syllabary/review_team_trace.jsonl",
+      "signoff_packet": "papers/nwagu_aneke_articles/004-logographs-in-a-syllabary/submission_signoff_packet.md",
+      "remaining_blockers": [
+        "human author target-venue approval",
+        "human source reviewer evidence-scope approval",
+        "final source review for public wording",
+        "final rights and authority review for exact public package",
+        "APC/funding/waiver or licence decision",
+        "competing-interest and AI-assistance disclosure approval",
+        "final submission package approval"
+      ]
+    },
+    {
+      "article_id": "ARTICLE-NA-005",
+      "title": "A TEI, IIIF, and Web Annotation Bridge for an Unencoded African Syllabary",
+      "status": "SUBMISSION_REVIEW_CANDIDATE_HUMAN_SIGNOFF_BLOCKED",
+      "target_venue": "ACM Journal on Computing and Cultural Heritage",
+      "independent_contribution": "A standards-compatible selector-layer bridge showing how TEI glyph declarations and Web Annotation records can stage future IIIF coordinate work without claiming a completed critical edition.",
+      "reproducible_evidence_package": "papers/nwagu_aneke_articles/005-tei-iiif-critical-edition/reproducibility_packet.md",
+      "target_venue_fit": "papers/nwagu_aneke_articles/005-tei-iiif-critical-edition/target_venue_fit_review.md",
+      "review_team_trace": "papers/nwagu_aneke_articles/005-tei-iiif-critical-edition/review_team_trace.jsonl",
+      "signoff_packet": "papers/nwagu_aneke_articles/005-tei-iiif-critical-edition/submission_signoff_packet.md",
+      "remaining_blockers": [
+        "human author target-venue approval",
+        "human source reviewer evidence-scope approval",
+        "final source review for public wording",
+        "final rights and authority review for exact public package",
+        "APC/funding/waiver or licence decision",
+        "competing-interest and AI-assistance disclosure approval",
+        "final submission package approval"
+      ]
+    },
+    {
+      "article_id": "ARTICLE-NA-006",
+      "title": "Unicode Readiness for Nwagu Aneke: A Gap Matrix for Character Evidence and Community Review",
+      "status": "SUBMISSION_REVIEW_CANDIDATE_HUMAN_SIGNOFF_BLOCKED",
+      "target_venue": "Digital Scholarship in the Humanities (Oxford University Press)",
+      "independent_contribution": "A reproducible Unicode-readiness gap matrix that shows the current Nwagu Aneke package is suitable for audit discussion but not for a Unicode proposal.",
+      "reproducible_evidence_package": "papers/nwagu_aneke_articles/006-unicode-readiness/reproducibility_packet.md",
+      "target_venue_fit": "papers/nwagu_aneke_articles/006-unicode-readiness/target_venue_fit_review.md",
+      "review_team_trace": "papers/nwagu_aneke_articles/006-unicode-readiness/review_team_trace.jsonl",
+      "signoff_packet": "papers/nwagu_aneke_articles/006-unicode-readiness/submission_signoff_packet.md",
+      "remaining_blockers": [
+        "human author target-venue approval",
+        "human source and standards reviewer evidence-scope approval",
+        "final source review for public wording",
+        "final rights and authority review for exact public package",
+        "APC/funding/waiver or licence decision",
+        "competing-interest and AI-assistance disclosure approval",
+        "final submission package approval"
+      ]
+    },
+    {
+      "article_id": "ARTICLE-NA-008",
+      "title": "Comparative Evidence Conditions for African Script Standardization: Positioning Nwagu Aneke",
+      "status": "SUBMISSION_REVIEW_CANDIDATE_HUMAN_SIGNOFF_BLOCKED",
+      "target_venue": "Written Language & Literacy (John Benjamins Publishing Company)",
+      "independent_contribution": "An eight-script comparative evidence-condition matrix that positions Nwagu Aneke as an unencoded, review-blocked target case rather than a Unicode-ready script.",
+      "reproducible_evidence_package": "papers/nwagu_aneke_articles/008-comparative-standardization/reproducibility_packet.md",
+      "target_venue_fit": "papers/nwagu_aneke_articles/008-comparative-standardization/target_venue_fit_review.md",
+      "review_team_trace": "papers/nwagu_aneke_articles/008-comparative-standardization/review_team_trace.jsonl",
+      "signoff_packet": "papers/nwagu_aneke_articles/008-comparative-standardization/submission_signoff_packet.md",
+      "remaining_blockers": [
+        "human author target-venue approval",
+        "human source and standards reviewer evidence-scope approval",
+        "final source review for public wording",
+        "final rights and authority review for exact public package",
+        "APC/funding/waiver or licence decision",
+        "competing-interest and AI-assistance disclosure approval",
+        "final submission package approval"
+      ]
+    },
+    {
+      "article_id": "ARTICLE-NA-009",
+      "title": "Source-Layer and Derived-Layer Tokenizers for Igbo: A Bounded Nwagu Aneke Baseline",
+      "status": "SUBMISSION_REVIEW_CANDIDATE_HUMAN_SIGNOFF_BLOCKED",
+      "target_venue": "Language Resources and Evaluation (Springer Nature)",
+      "independent_contribution": "A five-tokenizer Igbo baseline that reports segmentation and coverage metrics while explicitly refusing downstream NLP improvement claims.",
+      "reproducible_evidence_package": "papers/nwagu_aneke_articles/009-igbo-tokenization/reproducibility_packet.md",
+      "target_venue_fit": "papers/nwagu_aneke_articles/009-igbo-tokenization/target_venue_fit_review.md",
+      "review_team_trace": "papers/nwagu_aneke_articles/009-igbo-tokenization/review_team_trace.jsonl",
+      "signoff_packet": "papers/nwagu_aneke_articles/009-igbo-tokenization/submission_signoff_packet.md",
+      "remaining_blockers": [
+        "human author target-venue approval",
+        "human source and NLP reviewer evidence-scope approval",
+        "final source review for public wording",
+        "final rights and authority review for exact public package",
+        "APC/funding/waiver or licence decision",
+        "competing-interest and AI-assistance disclosure approval",
+        "final submission package approval"
+      ]
+    }
+  ],
+  "next_candidate_queue": [],
+  "exact_next_action": "Route ARTICLE-NA-006's 2026-07-08 standards freshness audit to human source/standards review, then collect source, rights, venue, disclosure, licence, and final package sign-offs for ARTICLE-NA-002, ARTICLE-NA-006, and ARTICLE-NA-010 before any public journal-manuscript or submission-ready claim."
+}

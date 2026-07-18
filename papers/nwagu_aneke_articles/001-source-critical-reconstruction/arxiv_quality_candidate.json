@@ -1,0 +1,27 @@
+{
+  "article_id": "ARTICLE-NA-001",
+  "status": "STRUCTURAL_ARXIV_QUALITY_PASS_NOT_SUBMISSION_READY",
+  "candidate": false,
+  "reason": "The repository arXiv-quality validator passes for Article 001, but human source review, rights/submission clearance, and adversarial journal review remain open, so this is not an external submission candidate yet.",
+  "field_facing_result": "A source-critical reconstruction ledger shows that the current local Nwagu Aneke dossier supports a row/vowel source ledger and uncertainty model, not a completed glyph-level corpus.",
+  "positive_evidence": [
+    "experiments/EXP-NA-001-source-critical-reconstruction/results.json",
+    "experiments/EXP-NA-001-source-critical-reconstruction/evidence_table.csv",
+    "experiments/EXP-NA-001-source-critical-reconstruction/source_files.json",
+    "papers/nwagu_aneke_articles/001-source-critical-reconstruction/article_specific_experiment.md",
+    "papers/nwagu_aneke_articles/001-source-critical-reconstruction/external_prior_art_audit.md",
+    "papers/nwagu_aneke_articles/001-source-critical-reconstruction/figures_tables_manifest.json",
+    "papers/nwagu_aneke_articles/001-source-critical-reconstruction/reviewer2_response_plan.md"
+  ],
+  "blocking_evidence": [
+    "papers/nwagu_aneke_articles/001-source-critical-reconstruction/human_source_review.md",
+    "papers/nwagu_aneke_articles/001-source-critical-reconstruction/rights_submission_clearance.md"
+  ],
+  "next_actions": [
+    "Attach human source review.",
+    "Attach rights and public-submission clearance.",
+    "Complete deeper prior-art comparison to source-critical digital edition work with domain expert review.",
+    "Run adversarial journal review against the revised source-critical reconstruction argument.",
+    "Rerun python scripts\\validate_arxiv_quality_gate.py."
+  ]
+}

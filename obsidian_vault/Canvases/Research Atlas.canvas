@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": "repo",
+      "type": "text",
+      "text": "Repo primitives",
+      "x": 0,
+      "y": 0,
+      "width": 240,
+      "height": 100
+    },
+    {
+      "id": "claims",
+      "type": "file",
+      "file": "Claims/CLAIM-0006.md",
+      "x": 320,
+      "y": 0,
+      "width": 280,
+      "height": 140
+    },
+    {
+      "id": "sources",
+      "type": "file",
+      "file": "Sources/SRC-0011.md",
+      "x": 650,
+      "y": 0,
+      "width": 260,
+      "height": 140
+    },
+    {
+      "id": "latent",
+      "type": "file",
+      "file": "03_Latent_Research_Space.md",
+      "x": 0,
+      "y": 220,
+      "width": 280,
+      "height": 160
+    },
+    {
+      "id": "goals",
+      "type": "file",
+      "file": "04_Goal_Backlog.md",
+      "x": 340,
+      "y": 240,
+      "width": 280,
+      "height": 160
+    },
+    {
+      "id": "experiments",
+      "type": "file",
+      "file": "05_Experiment_Log.md",
+      "x": 680,
+      "y": 240,
+      "width": 280,
+      "height": 160
+    },
+    {
+      "id": "paper",
+      "type": "file",
+      "file": "06_Paper_Map.md",
+      "x": 340,
+      "y": 480,
+      "width": 280,
+      "height": 160
+    },
+    {
+      "id": "risks",
+      "type": "text",
+      "text": "Risks: deadline drift, format drift, base-count contradiction, secrets, citations",
+      "x": 0,
+      "y": 500,
+      "width": 280,
+      "height": 140
+    },
+    {
+      "id": "arxiv-readiness",
+      "type": "file",
+      "file": "08_Arxiv_Readiness.md",
+      "x": 700,
+      "y": 520,
+      "width": 300,
+      "height": 160
+    },
+    {
+      "id": "bmc-goals",
+      "type": "file",
+      "file": "Goals/BMC_Goals.md",
+      "x": 1040,
+      "y": 240,
+      "width": 300,
+      "height": 170
+    },
+    {
+      "id": "bmc-cache",
+      "type": "text",
+      "text": "Base Modifier Cache\\ninventory -> structure -> claims -> grammar -> compression -> certainty -> graph -> benchmark -> authority -> paper",
+      "x": 1040,
+      "y": 20,
+      "width": 320,
+      "height": 160
+    },
+    {
+      "id": "bmc-completion",
+      "type": "file",
+      "file": "Goals/BMC_Goals.md",
+      "x": 1040,
+      "y": 460,
+      "width": 320,
+      "height": 170
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "repo",
+      "toNode": "claims"
+    },
+    {
+      "id": "e2",
+      "fromNode": "claims",
+      "toNode": "sources"
+    },
+    {
+      "id": "e3",
+      "fromNode": "repo",
+      "toNode": "latent"
+    },
+    {
+      "id": "e4",
+      "fromNode": "latent",
+      "toNode": "goals"
+    },
+    {
+      "id": "e5",
+      "fromNode": "goals",
+      "toNode": "experiments"
+    },
+    {
+      "id": "e6",
+      "fromNode": "experiments",
+      "toNode": "paper"
+    },
+    {
+      "id": "e7",
+      "fromNode": "risks",
+      "toNode": "goals"
+    },
+    {
+      "id": "e-arxiv-paper",
+      "fromNode": "paper",
+      "toNode": "arxiv-readiness"
+    },
+    {
+      "id": "e-bmc-cache-goals",
+      "fromNode": "bmc-cache",
+      "toNode": "bmc-goals"
+    },
+    {
+      "id": "e-goals-bmc-goals",
+      "fromNode": "goals",
+      "toNode": "bmc-goals"
+    },
+    {
+      "id": "e-bmc-claims",
+      "fromNode": "bmc-goals",
+      "toNode": "claims"
+    },
+    {
+      "id": "e-bmc-completion",
+      "fromNode": "bmc-goals",
+      "toNode": "bmc-completion"
+    }
+  ]
+}

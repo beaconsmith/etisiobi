@@ -1,0 +1,15 @@
+{
+  "article_id": "ARTICLE-NA-002",
+  "title": "Count-Layer Drift in Nwagu Aneke: A Reproducible Audit of 26 by 8, 27, and 216",
+  "status": "APPROVED_INTERNAL_RESEARCH_PAPER",
+  "generated_at": "2026-06-21T14:41:52+01:00",
+  "approval_scope": "internal Etisiobi research paper; not external submission; not public source-data release",
+  "gates": {
+    "evidence": "PASS",
+    "citations": "PASS",
+    "source_review": "PASS",
+    "rights_authority": "PASS",
+    "review_team": "PASS",
+    "reproducibility": "PASS"
+  }
+}

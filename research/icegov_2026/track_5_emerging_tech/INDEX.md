@@ -1,0 +1,1 @@
+# Source Index: track_5_emerging_tech\n\nThis index catalogs all sources harvested during the research loop for this track.\n\n## Ranked Sources\n(See RESEARCH_LOG.md for full details)\n- T5-A\n- T5-B\n- T5-C\n- T5-D\n- T5-E\n- T5-F\n- T5-G\n- T5-H\n- T5-I\n

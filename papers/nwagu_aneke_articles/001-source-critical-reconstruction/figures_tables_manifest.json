@@ -1,0 +1,68 @@
+{
+  "article_id": "ARTICLE-NA-001",
+  "status": "FIGURES_TABLES_PLANNED_FROM_REPO_EVIDENCE_NOT_FINAL",
+  "figures": [
+    {
+      "id": "FIG-001-001",
+      "title": "Source-critical reconstruction boundary",
+      "source_files": [
+        "experiments/EXP-NA-001-source-critical-reconstruction/results.json",
+        "experiments/EXP-NA-001-source-critical-reconstruction/evidence_table.csv"
+      ],
+      "release_status": "safe_to_render_as_text_diagram_after_review",
+      "notes": "Should show reconstructable ledger, visible leads, and blocked corpus claims without reproducing source images."
+    }
+  ],
+  "tables": [
+    {
+      "id": "TAB-001-001",
+      "title": "Evidence table for source-critical reconstruction",
+      "source_files": [
+        "experiments/EXP-NA-001-source-critical-reconstruction/evidence_table.csv"
+      ],
+      "release_status": "text_only_table_pending_human_source_review",
+      "columns": [
+        "evidence_id",
+        "claim_or_observation",
+        "evidence_type",
+        "source_path",
+        "support_strength",
+        "reconstruction_effect",
+        "limitation"
+      ]
+    },
+    {
+      "id": "TAB-001-002",
+      "title": "Source files checked",
+      "source_files": [
+        "experiments/EXP-NA-001-source-critical-reconstruction/source_files.json"
+      ],
+      "release_status": "draft_pending_rights_review",
+      "columns": [
+        "path",
+        "exists",
+        "sha256",
+        "role"
+      ]
+    },
+    {
+      "id": "TAB-001-003",
+      "title": "Reconstructable vs blocked claims",
+      "source_files": [
+        "experiments/EXP-NA-001-source-critical-reconstruction/results.json"
+      ],
+      "release_status": "draft_pending_adversarial_review",
+      "columns": [
+        "can_claim",
+        "cannot_claim",
+        "required_review"
+      ]
+    }
+  ],
+  "forbidden_assets_until_clearance": [
+    "protected source images",
+    "manuscript page reproductions",
+    "uncleared glyph datasets",
+    "public complete-corpus claims"
+  ]
+}

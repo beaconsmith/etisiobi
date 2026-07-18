@@ -1,0 +1,15 @@
+{
+  "goal_id": "GOAL-005",
+  "decision": "COMPRESSION_POSITIVE_FOR_ROW_VOWEL_INDEX_ONLY",
+  "description_lengths": {
+    "R1_flat_cell_list_bytes": 10028,
+    "R2_row_vowel_table_bytes": 251,
+    "R3_full_bmc_json_bytes": 179098,
+    "R4_induced_grammar_bytes": 566
+  },
+  "row_vowel_vs_flat_ratio": 0.025,
+  "grammar_vs_flat_ratio": 0.0564,
+  "reconstruction_accuracy_for_readings": 1.0,
+  "reconstruction_accuracy_for_glyph_shapes": 0.0,
+  "interpretation": "The BMC/grammar compresses the romanized row-vowel index, not the untranscribed glyph-shape evidence."
+}

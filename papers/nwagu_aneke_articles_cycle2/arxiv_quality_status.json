@@ -1,0 +1,17 @@
+{
+  "status": "NOT_ARXIV_QUALITY_GENERATED_WORKING_DRAFTS",
+  "created_at": "2026-06-21T21:05:24+01:00",
+  "reason": "The package passed internal structure gates but failed the arXiv-quality gate as AI-to-AI/internal process writing without substantive article-specific results.",
+  "quality_gate": "python scripts\\validate_arxiv_quality_gate.py",
+  "allowed_use": [
+    "internal branch notes",
+    "source for selecting one real submission candidate",
+    "negative examples for validator hardening"
+  ],
+  "not_allowed_use": [
+    "arXiv submission",
+    "impact-journal submission",
+    "public release as research papers",
+    "evidence that Etisiobi has 20 submission-quality papers"
+  ]
+}

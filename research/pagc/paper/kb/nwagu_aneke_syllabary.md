@@ -1,4 +1,6 @@
-# Knowledge Base: Nwagu Aneke Igbo Syllabary — Primary Sources
+# Knowledge Base: Nwagụ Aneke Igbo Syllabary — Primary Sources
+
+> Source-integrity note: the repository now treats all PAGC derivations from this script as hypotheses until the archived chart and Azuonye appendix are transcribed and counted. See `../../primary_sources/nwagu_aneke/README.md` and `../../PAGC_RESET.md`.
 
 ## Origin & Inventor
 Ogbuevi Nwagụ Aneke (c. 1910–1991) was an illiterate land owner and diviner from Umuleri village, Anambra State, Nigeria. He claimed the symbols of his script were revealed by ancestral spirits. Between the late 1950s and his death in June 1991, he wrote persistently in the script, leaving over 100 exercise books of anti-colonial messages in the Umuleri dialect of Igbo.
@@ -33,13 +35,15 @@ Ogbuevi Nwagụ Aneke (c. 1910–1991) was an illiterate land owner and diviner 
 
 ---
 
-## PAGC Derivation from the Syllabary
-The Principle of Ancestral Generative Compression (PAGC) extends the Nwagu Aneke syllabary's implicit matrix structure into an explicit generative system:
-- **27 bases** ← consonant/syllable-initial inventory of the script
-- **8 modifiers** ← vowel/tonal/aspectual dimensions of Igbo syllable structure
-- **216 tokens** = 27 × 8 combinatorial matrix
-- **Lexical cache** ← high-frequency moral/equity terms from Aneke's 100+ exercise books
-- **Deliberate redundancy** ← mirrors the anti-colonial redundancy strategy (multiple encodings of the same message for resilience against censorship and erasure)
+## PAGC Hypotheses from the Syllabary
+The Principle of Ancestral Generative Compression (PAGC) previously extended the Nwagụ Aneke syllabary's apparent matrix structure into an explicit generative system. That extension is now downgraded to hypothesis status:
+- **27 bases** ← unverified until source transcription confirms reusable base rows
+- **8 modifiers** ← unverified until source transcription confirms systematic modifier columns
+- **216 tokens** ← unverified unless `27 × 8` is observed or defensibly derived
+- **Lexical cache** ← unverified until source texts or corpora support high-frequency moral/equity terms
+- **Deliberate redundancy** ← interpretive hypothesis until measured against manuscript/corpus evidence
+
+Do not cite this section as evidence that PAGC is true. Cite it only as a hypothesis map.
 
 ---
 

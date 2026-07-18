@@ -1,0 +1,87 @@
+{
+  "status": "SCORE_GATE_ALIGNMENT_INTERNAL_NOT_FRONTIER_RESULT",
+  "best_overall_condition": "C0_no_layer_labels",
+  "best_overall_agent_id": "codex_C0_no_layer_labels",
+  "best_overall_f1": 0.7692,
+  "condition_count": 8,
+  "status_counts": {
+    "review_ready_internal": 290,
+    "needs_adjudication": 28,
+    "blocked_public_release": 42
+  },
+  "condition_metrics": [
+    {
+      "condition": "C0_no_layer_labels",
+      "agent_id": "codex_C0_no_layer_labels",
+      "f1": 0.7692,
+      "precision": 0.75,
+      "recall": 0.7895,
+      "source_observed_false_assertion_rate": 0.0,
+      "derived_layer_preservation_rate": 0.0
+    },
+    {
+      "condition": "C0_no_layer_labels",
+      "agent_id": "baseline_C0_no_layer_labels",
+      "f1": 0.5039,
+      "precision": 0.4571,
+      "recall": 0.5614,
+      "source_observed_false_assertion_rate": 0.1611,
+      "derived_layer_preservation_rate": 0.3226
+    },
+    {
+      "condition": "C1_layer_labels",
+      "agent_id": "codex_C1_layer_labels",
+      "f1": 0.4054,
+      "precision": 0.8824,
+      "recall": 0.2632,
+      "source_observed_false_assertion_rate": 0.0333,
+      "derived_layer_preservation_rate": 0.6452
+    },
+    {
+      "condition": "C1_layer_labels",
+      "agent_id": "baseline_C1_layer_labels",
+      "f1": 0.4662,
+      "precision": 0.4079,
+      "recall": 0.5439,
+      "source_observed_false_assertion_rate": 0.1778,
+      "derived_layer_preservation_rate": 0.3226
+    },
+    {
+      "condition": "C2_claim_gate",
+      "agent_id": "baseline_C2_claim_gate",
+      "f1": 0.4571,
+      "precision": 0.3855,
+      "recall": 0.5614,
+      "source_observed_false_assertion_rate": 0.1972,
+      "derived_layer_preservation_rate": 0.3226
+    },
+    {
+      "condition": "C2_claim_gate",
+      "agent_id": "codex_C2_claim_gate",
+      "f1": 0.5316,
+      "precision": 0.9545,
+      "recall": 0.3684,
+      "source_observed_false_assertion_rate": 0.0528,
+      "derived_layer_preservation_rate": 0.3871
+    },
+    {
+      "condition": "C3_adversarial_review",
+      "agent_id": "baseline_C3_adversarial_review",
+      "f1": 0.4103,
+      "precision": 0.3232,
+      "recall": 0.5614,
+      "source_observed_false_assertion_rate": 0.2417,
+      "derived_layer_preservation_rate": 0.3226
+    },
+    {
+      "condition": "C3_adversarial_review",
+      "agent_id": "codex_C3_adversarial_review",
+      "f1": 0.2899,
+      "precision": 0.8333,
+      "recall": 0.1754,
+      "source_observed_false_assertion_rate": 0.0222,
+      "derived_layer_preservation_rate": 0.2903
+    }
+  ],
+  "interpretation": "Quality routing now covers the full local label set, but score comparison remains internal because human/domain review and rights review are not complete."
+}

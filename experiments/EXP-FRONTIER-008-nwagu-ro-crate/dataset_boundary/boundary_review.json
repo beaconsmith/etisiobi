@@ -1,0 +1,46 @@
+{
+  "boundary_id": "BOUNDARY-EXP-FRONTIER-008-001",
+  "experiment_id": "EXP-FRONTIER-008",
+  "created": "2026-06-22",
+  "status": "checklist_ready_for_review_not_approved",
+  "current_package_route": "repo_local_internal_metadata_package",
+  "claim_ceiling": "dataset_boundary_checklist_not_dataset_release",
+  "external_actions_taken": [],
+  "scope": {
+    "candidate_boundary": "non-sensitive metadata and validators only",
+    "excluded_boundary": "raw sources, source images, glyph reproductions, restricted manuscript material, private data, and uncollected or identifiable human-reader responses"
+  },
+  "required_before_promotion": [
+    "rights review",
+    "authority review",
+    "dataset boundary approval",
+    "public release approval",
+    "restricted-material exclusion audit"
+  ],
+  "allowed_current_actions": [
+    "review candidate file boundary",
+    "review excluded file boundary",
+    "run validators",
+    "update internal metadata after scoped artifact changes"
+  ],
+  "forbidden_current_actions": [
+    "create DataLad dataset",
+    "request Software Heritage save",
+    "copy raw sources",
+    "include source images",
+    "include restricted manuscript material",
+    "include private data",
+    "claim public release readiness"
+  ],
+  "reviewer_roles": [
+    "rights_authority_reviewer",
+    "community_authority_reviewer",
+    "source_dossier_reviewer",
+    "preservation_infrastructure_reviewer",
+    "data_protection_reviewer"
+  ],
+  "validator_controls": {
+    "control_id": "BOUNDARY-CONTROL-EXP-FRONTIER-008-001",
+    "path": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/validator_controls.json"
+  }
+}

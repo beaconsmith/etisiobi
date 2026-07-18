@@ -1,0 +1,31 @@
+logograph_id,ordinal,word,gloss,semantic_domain,source,status
+LOGO-001,1,ubosi,day,Time,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-002,2,uche,thought/wisdom,Cognition,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-003,3,avo,?,Unknown,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-004,4,ovia,?,Unknown,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-005,5,oga,master/boss,Social role,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-006,6,nga,?,Unknown,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-007,7,ogbenye,poor person,Social/moral,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-008,8,ogbu,killer,Social/moral,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-009,9,ugwu,respect/honor,Moral/equity,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-010,10,ije,journey/walking,Action,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-011,11,aku,wealth,Economic,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-012,12,ike,strength/power,Physical/social,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-013,13,uka,church/gathering,Institution,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-014,14,akwa,cloth/crying,Material/emotion,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-015,15,akwukwo,book/leaf,Material/knowledge,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-016,16,alo,counsel/advice,Moral/governance,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-017,17,ili,burial/eating,Ritual/sustenance,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-018,18,ana,land/ground,Territory,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-019,19,enu,sky/up,Space,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-020,20,uno,house,Dwelling,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-021,21,onwa,moon/month,Time/celestial,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-022,22,aro,thought/year,Cognition/time,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-023,23,iru,face/arrival,Body/action,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-024,24,asato,?,Unknown,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-025,25,osu,outcast (caste term),Social/moral,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-026,26,ewu,goat,Animal,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-027,27,uwa,world/life,Cosmological,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-028,28,uzo,road/way,Space/path,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-029,29,izu,week,Time,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph
+LOGO-030,30,oya,?,Unknown,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,visible_chart_lead_not_reviewed_glyph

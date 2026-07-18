@@ -1,0 +1,44 @@
+{
+  "run_id": "RUN-APPROVED-20260621-143029",
+  "generated_at": "2026-06-21T14:30:29+01:00",
+  "status": "APPROVED_PAPER_LOOP_CONTINUE",
+  "approved_count": 0,
+  "target": 10,
+  "git": {
+    "branch": "reset/public-truth-v1",
+    "commit": "58d3f34"
+  },
+  "selected_batch": [
+    {
+      "id": "ARTICLE-NA-002",
+      "title": "Count-Layer Drift in Nwagu Aneke: A Reproducible Audit of 26 by 8, 27, and 216",
+      "slug": "002-count-layer-drift",
+      "tex_path": "002-count-layer-drift/main.tex",
+      "experiment_id": "EXP-NA-002",
+      "benchmark_task_id": "NA-BENCH-001",
+      "readiness_status": "TARGETED_HUMAN_REVIEW_DRAFT_NOT_SUBMISSION_READY",
+      "approval_loop_score": 73.0,
+      "score_reasons": [
+        "portfolio_priority:40",
+        "blocker_count_adjusted:18",
+        "A_plus_active_hardening_branch:15"
+      ]
+    },
+    {
+      "id": "ARTICLE-NA-010",
+      "title": "Layer-Safe Generative Design from Nwagu Aneke: A Non-Promotion Invariant",
+      "slug": "010-layer-safe-generative-design",
+      "tex_path": "010-layer-safe-generative-design/main.tex",
+      "experiment_id": "EXP-NA-010",
+      "benchmark_task_id": "NA-BENCH-009",
+      "readiness_status": "TARGETED_HUMAN_REVIEW_DRAFT_NOT_SUBMISSION_READY",
+      "approval_loop_score": 71.0,
+      "score_reasons": [
+        "portfolio_priority:38",
+        "blocker_count_adjusted:18",
+        "A_plus_active_hardening_branch:15"
+      ]
+    }
+  ],
+  "next_action": "harden selected batch; do not mark approved until validator passes"
+}

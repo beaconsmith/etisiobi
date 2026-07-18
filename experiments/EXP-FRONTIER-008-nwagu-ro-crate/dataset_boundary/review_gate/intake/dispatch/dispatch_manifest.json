@@ -1,0 +1,28 @@
+{
+  "dispatch_id": "BOUNDARY-REVIEW-DISPATCH-EXP-FRONTIER-008-001",
+  "intake_id": "BOUNDARY-REVIEW-INTAKE-EXP-FRONTIER-008-001",
+  "gate_id": "BOUNDARY-REVIEW-GATE-EXP-FRONTIER-008-001",
+  "boundary_id": "BOUNDARY-EXP-FRONTIER-008-001",
+  "experiment_id": "EXP-FRONTIER-008",
+  "created": "2026-06-22",
+  "status": "ready_to_prepare_contacts_not_sent",
+  "claim_ceiling": "dispatch_packet_ready_not_sent",
+  "messages_sent": 0,
+  "approval_to_send_recorded": false,
+  "external_actions_taken": [],
+  "contact_approval_packet": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/contact_approval/contact_approval_manifest.json",
+  "required_roles": [
+    "rights_authority_reviewer",
+    "community_authority_reviewer",
+    "source_dossier_reviewer",
+    "preservation_infrastructure_reviewer",
+    "data_protection_reviewer"
+  ],
+  "invitation_templates": {
+    "rights_authority_reviewer": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/rights_authority_reviewer_invitation.md",
+    "community_authority_reviewer": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/community_authority_reviewer_invitation.md",
+    "source_dossier_reviewer": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/source_dossier_reviewer_invitation.md",
+    "preservation_infrastructure_reviewer": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/preservation_infrastructure_reviewer_invitation.md",
+    "data_protection_reviewer": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/data_protection_reviewer_invitation.md"
+  }
+}

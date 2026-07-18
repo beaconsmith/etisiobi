@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-06-20T00:16:11+01:00",
+  "format": "ACM-style double-column LaTeX",
+  "documentclass": "acmart",
+  "options": [
+    "sigconf",
+    "nonacm"
+  ],
+  "article_count": 10,
+  "source_observed_layer": {
+    "rows": 26,
+    "columns": 8,
+    "records": 208
+  },
+  "derived_layer": {
+    "rows_if_f_v_split": 27,
+    "records_if_f_v_split": 216
+  },
+  "status": "TARGETED_HUMAN_REVIEW_DRAFTS_NOT_SUBMISSION_READY",
+  "human_gates": [
+    "source transcription review",
+    "rights review",
+    "cultural/source authority review",
+    "final author approval"
+  ],
+  "articles": [
+    {
+      "id": "ARTICLE-NA-001",
+      "title": "A Source-Critical Reconstruction Ledger for the Nwagu Aneke Igbo Syllabary",
+      "slug": "001-source-critical-reconstruction",
+      "tex_path": "001-source-critical-reconstruction/main.tex",
+      "experiment_id": "EXP-NA-001",
+      "benchmark_task_id": "NA-BENCH-002",
+      "readiness_status": "TARGETED_HUMAN_REVIEW_DRAFT_NOT_SUBMISSION_READY"
+    },
+    {
+      "id": "ARTICLE-NA-002",
+      "title": "Count-Layer Drift in Nwagu Aneke: A Reproducible Audit of 26 by 8, 27, and 216",
+      "slug": "002-count-layer-drift",
+      "tex_path": "002-count-layer-drift/main.tex",
+      "experiment_id": "EXP-NA-002",
+      "benchmark_task_id": "NA-BENCH-001",
+      "readiness_status": "TARGETED_HUMAN_REVIEW_DRAFT_NOT_SUBMISSION_READY"
+    },
+    {
+      "id": "ARTICLE-NA-003",
+      "title": "The f/v Hinge in Nwagu Aneke: Derived Orthographic Expansion Without Source-Layer Promotion",
+      "slug": "003-f-v-hinge",
+      "tex_path": "003-f-v-hinge/main.tex",
+      "experiment_id": "EXP-NA-003",
+      "benchmark_task_id": "NA-BENCH-001",
+      "readiness_status": "TARGETED_HUMAN_REVIEW_DRAFT_NOT_SUBMISSION_READY"
+    },
+    {
+      "id": "ARTICLE-NA-004",
+      "title": "Logographs in a Syllabary: A Lead-Set Audit for Nwagu Aneke Whole-Word Signs",
+      "slug": "004-logographs-in-a-syllabary",
+      "tex_path": "004-logographs-in-a-syllabary/main.tex",
+      "experiment_id": "EXP-NA-004",
+      "benchmark_task_id": "NA-BENCH-003",
+      "readiness_status": "TARGETED_HUMAN_REVIEW_DRAFT_NOT_SUBMISSION_READY"
+    },
+    {
+      "id": "ARTICLE-NA-005",
+      "title": "A TEI, IIIF, and Web Annotation Bridge for an Unencoded African Syllabary",
+      "slug": "005-tei-iiif-critical-edition",
+      "tex_path": "005-tei-iiif-critical-edition/main.tex",
+      "experiment_id": "EXP-NA-005",
+      "benchmark_task_id": "NA-BENCH-004",
+      "readiness_status": "TARGETED_HUMAN_REVIEW_DRAFT_NOT_SUBMISSION_READY"
+    },
+    {
+      "id": "ARTICLE-NA-006",
+      "title": "Unicode Readiness for Nwagu Aneke: A Gap Matrix for Character Evidence and Community Review",
+      "slug": "006-unicode-readiness",
+      "tex_path": "006-unicode-readiness/main.tex",
+      "experiment_id": "EXP-NA-006",
+      "benchmark_task_id": "NA-BENCH-005",
+      "readiness_status": "TARGETED_HUMAN_REVIEW_DRAFT_NOT_SUBMISSION_READY"
+    },
+    {
+      "id": "ARTICLE-NA-007",
+      "title": "A CARE-First Provenance Ledger for the Reported Nwagu Aneke Manuscript Corpus",
+      "slug": "007-manuscript-corpus-provenance",
+      "tex_path": "007-manuscript-corpus-provenance/main.tex",
+      "experiment_id": "EXP-NA-007",
+      "benchmark_task_id": "NA-BENCH-006",
+      "readiness_status": "TARGETED_HUMAN_REVIEW_DRAFT_NOT_SUBMISSION_READY"
+    },
+    {
+      "id": "ARTICLE-NA-008",
+      "title": "Comparative Evidence Conditions for African Script Standardization: Positioning Nwagu Aneke",
+      "slug": "008-comparative-standardization",
+      "tex_path": "008-comparative-standardization/main.tex",
+      "experiment_id": "EXP-NA-008",
+      "benchmark_task_id": "NA-BENCH-007",
+      "readiness_status": "TARGETED_HUMAN_REVIEW_DRAFT_NOT_SUBMISSION_READY"
+    },
+    {
+      "id": "ARTICLE-NA-009",
+      "title": "Source-Layer and Derived-Layer Tokenizers for Igbo: A Bounded Nwagu Aneke Baseline",
+      "slug": "009-igbo-tokenization",
+      "tex_path": "009-igbo-tokenization/main.tex",
+      "experiment_id": "EXP-NA-009",
+      "benchmark_task_id": "NA-BENCH-008",
+      "readiness_status": "TARGETED_HUMAN_REVIEW_DRAFT_NOT_SUBMISSION_READY"
+    },
+    {
+      "id": "ARTICLE-NA-010",
+      "title": "Layer-Safe Generative Design from Nwagu Aneke: A Non-Promotion Invariant",
+      "slug": "010-layer-safe-generative-design",
+      "tex_path": "010-layer-safe-generative-design/main.tex",
+      "experiment_id": "EXP-NA-010",
+      "benchmark_task_id": "NA-BENCH-009",
+      "readiness_status": "TARGETED_HUMAN_REVIEW_DRAFT_NOT_SUBMISSION_READY"
+    }
+  ],
+  "impact_upgrade_generated_at": "2026-06-20T06:21:03+01:00",
+  "impact_journal_assessment": {
+    "previous_failure": "formatted notes without enough original research substance",
+    "current_status": "working-paper drafts with blocked journal path",
+    "submission_ready": false
+  },
+  "portfolio_triage": {
+    "active_hardening": [
+      "ARTICLE-NA-002",
+      "ARTICLE-NA-010"
+    ],
+    "parked": [
+      "ARTICLE-NA-001",
+      "ARTICLE-NA-003",
+      "ARTICLE-NA-004",
+      "ARTICLE-NA-005",
+      "ARTICLE-NA-006",
+      "ARTICLE-NA-007",
+      "ARTICLE-NA-008",
+      "ARTICLE-NA-009"
+    ],
+    "rationale": "The lab may maintain ten research branches, but only count-layer drift and layer-safe generative design currently have the strongest path to external contribution. The other branches need article-specific results before hardening."
+  },
+  "rewritten_from_benchmark_at": "2026-06-21T02:45:32+01:00",
+  "benchmark": {
+    "path": "benchmarks/nwagu_article_research/scoreboard.json",
+    "evidence_completion_score": 0.8582,
+    "impact_journal_readiness_score": 59.0
+  }
+}

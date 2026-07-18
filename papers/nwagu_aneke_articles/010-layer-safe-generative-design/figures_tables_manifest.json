@@ -1,0 +1,61 @@
+{
+  "article_id": "ARTICLE-NA-010",
+  "status": "FIGURES_TABLES_PLANNED_FROM_REPO_EVIDENCE_NOT_FINAL",
+  "figures": [
+    {
+      "id": "FIG-010-001",
+      "title": "Non-promotion invariant over evidence labels",
+      "source_files": [
+        "experiments/EXP-NA-010-layer-safety-tests/layer_non_promotion_lemma.md"
+      ],
+      "release_status": "safe_to_render_as_text_diagram_after_review",
+      "notes": "Show labels and forbidden promotions without reproducing source images."
+    },
+    {
+      "id": "FIG-010-002",
+      "title": "Gate decision flow for artifact-derived design outputs",
+      "source_files": [
+        "experiments/EXP-NA-010-layer-safety-tests/data/layer_safety_cases.csv"
+      ],
+      "release_status": "draft_pending_reviewer_attack",
+      "notes": "Diagram should distinguish preserve, derive, speculate, block, and reject."
+    }
+  ],
+  "tables": [
+    {
+      "id": "TAB-010-001",
+      "title": "Layer-safety test cases",
+      "source_files": [
+        "experiments/EXP-NA-010-layer-safety-tests/data/layer_safety_cases.csv"
+      ],
+      "release_status": "text_only_table_pending_human_source_review",
+      "columns": [
+        "claim",
+        "input_label",
+        "output_label",
+        "scenario",
+        "promotion_error",
+        "gate_decision"
+      ]
+    },
+    {
+      "id": "TAB-010-002",
+      "title": "Prior-art comparison matrix",
+      "source_files": [
+        "papers/nwagu_aneke_articles/010-layer-safe-generative-design/external_prior_art_audit.md"
+      ],
+      "release_status": "draft_pending_deeper_prior_art_review",
+      "columns": [
+        "area",
+        "relevance",
+        "boundary_for_article"
+      ]
+    }
+  ],
+  "forbidden_assets_until_clearance": [
+    "protected source images",
+    "manuscript page reproductions",
+    "uncleared glyph datasets",
+    "public source-authority claims"
+  ]
+}

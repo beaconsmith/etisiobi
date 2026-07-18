@@ -1,0 +1,6 @@
+role_id,reviewer_name,contact_channel,contact_target,template_path,dispatch_status,approval_to_send,sent_at,sent_by,external_action_taken
+rights_authority_reviewer,,,,experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/rights_authority_reviewer_invitation.md,not_sent_missing_reviewer_contact,no,,,no
+community_authority_reviewer,,,,experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/community_authority_reviewer_invitation.md,not_sent_missing_reviewer_contact,no,,,no
+source_dossier_reviewer,,,,experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/source_dossier_reviewer_invitation.md,not_sent_missing_reviewer_contact,no,,,no
+preservation_infrastructure_reviewer,,,,experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/preservation_infrastructure_reviewer_invitation.md,not_sent_missing_reviewer_contact,no,,,no
+data_protection_reviewer,,,,experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/data_protection_reviewer_invitation.md,not_sent_missing_reviewer_contact,no,,,no

@@ -1,0 +1,25 @@
+{
+  "article_id": "ARTICLE-NA-009",
+  "status": "FIGURES_TABLES_DEFINED_TEXT_ONLY",
+  "tables": [
+    {
+      "id": "table_tokenizer_metrics",
+      "source": "experiments/EXP-NA-009-tokenizer-baselines/data/tokenizer_metrics.csv",
+      "description": "Tokenizer metrics for character, whitespace word, BPE 200 merges, source-layer CV greedy, and derived f/v CV greedy tokenizers."
+    },
+    {
+      "id": "table_key_baseline_deltas",
+      "source": "experiments/EXP-NA-009/results.json",
+      "description": "Key deltas: BPE versus source CV tokens per word delta and derived-versus-source coverage delta."
+    }
+  ],
+  "figures": [],
+  "excluded_visuals": [
+    "public source-image reproduction",
+    "public corpus sample",
+    "glyph-crop figure",
+    "downstream benchmark leaderboard",
+    "task-performance chart"
+  ],
+  "rights_boundary": "The current package is text-only and metric-only. Corpus release, source images, and task datasets require human rights and authority clearance."
+}

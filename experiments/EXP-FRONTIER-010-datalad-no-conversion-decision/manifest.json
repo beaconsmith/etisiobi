@@ -1,0 +1,44 @@
+{
+  "experiment_id": "EXP-FRONTIER-010",
+  "atlas_id": "ATLAS-0040",
+  "status": "DATALAD_NO_CONVERSION_DECISION_READY_NOT_EXECUTED",
+  "decision": "defer_conversion_until_boundary_and_authority_gates",
+  "claim_ceiling": "reproducibility_planning_not_dataset_conversion",
+  "primary_sources": [
+    "https://www.datalad.org/",
+    "https://docs.datalad.org/en/stable/",
+    "https://handbook.datalad.org/en/latest/book_main.html"
+  ],
+  "local_context": [
+    "experiments/EXP-FRONTIER-008-nwagu-ro-crate/preservation_decision/decision.json",
+    "experiments/EXP-FRONTIER-008-nwagu-ro-crate/preservation_decision/PRESERVATION_DECISION.md",
+    "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/boundary_review.json",
+    "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/candidate_files.csv",
+    "research/frontier/nwagu_transfer_atlas/prior_art_verification/verification_manifest.json"
+  ],
+  "external_actions_taken": [],
+  "dependencies_installed": false,
+  "datalad_installed": false,
+  "datalad_command_run": false,
+  "dataset_created": false,
+  "private_data_downloaded": false,
+  "public_release_claimed": false,
+  "blocked_promotions": [
+    "DataLad dataset conversion",
+    "public dataset release",
+    "rights or authority clearance claim",
+    "derived-layer source-status promotion",
+    "article or submission maturity status"
+  ],
+  "required_before_conversion": [
+    "dataset boundary approval",
+    "rights review",
+    "authority review",
+    "restricted-material exclusion audit",
+    "private-data exclusion audit",
+    "annex policy for large or sensitive files",
+    "human preservation-infrastructure review",
+    "explicit user/lab conversion approval"
+  ],
+  "exact_next_action": "Create the ATLAS-0043 Software Heritage no-archive-identifier decision note, keeping archive identifier work deferred until release and archive approval."
+}

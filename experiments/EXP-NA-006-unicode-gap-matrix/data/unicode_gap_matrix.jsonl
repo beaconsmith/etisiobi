@@ -1,0 +1,12 @@
+{"requirement": "script identity", "status": "present", "evidence_or_gap": "Nwagu Aneke identified in Azuonye/public metadata."}
+{"requirement": "repertoire inventory", "status": "partial", "evidence_or_gap": "26 row labels and 8 vowel columns exist; glyph-level repertoire not reviewed."}
+{"requirement": "character-glyph distinction", "status": "partial", "evidence_or_gap": "Working distinction exists; expert encoding review missing."}
+{"requirement": "representative glyphs", "status": "blocked", "evidence_or_gap": "Public image rights and selector-level review missing."}
+{"requirement": "names list", "status": "partial", "evidence_or_gap": "Row/vowel readings exist; Unicode character names not drafted."}
+{"requirement": "encoding model", "status": "missing", "evidence_or_gap": "No formal Unicode block, ordering, or property model."}
+{"requirement": "directionality", "status": "partial", "evidence_or_gap": "Public status says left-to-right; needs source confirmation."}
+{"requirement": "punctuation and numbers", "status": "missing", "evidence_or_gap": "No reviewed evidence in current package."}
+{"requirement": "usage examples", "status": "blocked", "evidence_or_gap": "Manuscript corpus not rights-cleared."}
+{"requirement": "community authority", "status": "blocked", "evidence_or_gap": "Authority register incomplete for submission."}
+{"requirement": "implementation evidence", "status": "missing", "evidence_or_gap": "No font, keyboard, or Unicode proposal package in repo."}
+{"requirement": "proposal dossier", "status": "missing", "evidence_or_gap": "No Unicode proposal should be claimed yet."}

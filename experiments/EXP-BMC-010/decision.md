@@ -1,0 +1,5 @@
+# Decision
+
+`NO_BMC_ARXIV_SUBMISSION_YET`
+
+Generated: 2026-05-28T10:07:00+00:00

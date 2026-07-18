@@ -1,0 +1,25 @@
+{
+  "template_id": "REPO-BOUNDARY-DECISION-TEMPLATE-001",
+  "status": "template_only_not_decision_record",
+  "claim_ceiling": "reviewer_assignment_intake_not_review_completion",
+  "reviewer_assignments": [],
+  "candidate_path_decisions": [],
+  "excluded_path_decisions": [],
+  "blocking_issues": [],
+  "required_follow_up": [],
+  "allowed_status_values": [
+    "keep_internal",
+    "revise_candidate",
+    "exclude",
+    "needs_rights_review",
+    "needs_authority_review",
+    "needs_data_protection_review",
+    "not_decided"
+  ],
+  "forbidden_decision_values": [
+    "release_now",
+    "archive_now",
+    "approve_public_package",
+    "claim_rights_clearance"
+  ]
+}

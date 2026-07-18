@@ -1,0 +1,111 @@
+{
+  "run_id": "RUN-CONT-20260622-182710",
+  "generated_at": "2026-06-22T18:27:10+01:00",
+  "status": "RUN_CREATED_RESEARCH_SELECTION_ONLY_NOT_FRONTIER_PROOF",
+  "goal": "GOAL-CONT-001",
+  "git": {
+    "branch": "reset/public-truth-v1",
+    "commit": "58d3f34",
+    "status_short_hash": "c13a7dcb65d94654e596de2dd72c4420dd6e7afd9d5c5076e05b48174184249d"
+  },
+  "inputs": {
+    "atlas_path": "research/frontier/nwagu_transfer_atlas/nwagu_research_atlas.jsonl",
+    "atlas_sha256": "73a80ae70a358fd67a279e9c9c63c6df27672b18489dcae32d41abf588d283fc",
+    "lpe_manifest_path": "instruments/lpe_bench/manifest.json",
+    "lpe_manifest_sha256": "6566b1bd3a9403a2685bdce7feb3b40e61c4f895fd89e6bec7dbcb65bb930f2a",
+    "stage_gates_path": "research/LAB_STAGE_GATES.json",
+    "stage_gates_sha256": "78d7ef91992c13ee231d68138702809a56ba1ff211c985f016f001505494b579"
+  },
+  "foundation": {
+    "source_observed_layer": "26 rows x 8 vowel/modifier columns = 208 records",
+    "derived_layer": "derived 27/216 by f/v split only",
+    "forbidden_promotion": "27/216 must not be described as source-observed"
+  },
+  "source_state": {
+    "atlas_status": "NWAGU_TRANSFER_ATLAS_SEEDED_NOT_PRIOR_ART_VERIFIED",
+    "atlas_record_count": 54,
+    "atlas_frontier_claim_status": "not_ready",
+    "lpe_status": "PUBLIC_INSTRUMENT_DRAFT_NOT_FRONTIER_PROOF",
+    "lpe_frontier_claim_status": "not_ready",
+    "stage_count": 7
+  },
+  "selected_experiments": [
+    {
+      "atlas_id": "ATLAS-0049",
+      "project": "Inspect AI",
+      "source_family": "model evaluation",
+      "phase_gate": "begin_now",
+      "rights_risk": "low",
+      "prior_art_status": "seeded_from_attachment_requires_verification",
+      "experiment": "port LPE-Bench to Inspect-style evals",
+      "negative_control": "manual prompt batch",
+      "claim_ceiling": "eval harness, not model claim",
+      "article_candidate": "Can AI Preserve Evidence Layers?",
+      "frontier_loop_score": 97.0,
+      "score_reasons": "phase_gate=begin_now:30; rights_risk=low:22; negative_control_present:12; claim_ceiling_present:12; article_candidate_present:6; experiment_defined:8; bounded_required_evidence:5; benchmark_or_eval_family:8; prior_art_unverified:-6"
+    },
+    {
+      "atlas_id": "ATLAS-0052",
+      "project": "MLAgentBench",
+      "source_family": "agent experimentation benchmark",
+      "phase_gate": "begin_now",
+      "rights_risk": "low",
+      "prior_art_status": "seeded_from_attachment_requires_verification",
+      "experiment": "define keep/reject loops for LPE and glyph tasks",
+      "negative_control": "unscored agent notes",
+      "claim_ceiling": "agent evaluation, not research result",
+      "article_candidate": "Benchmarking AI Research Agents on Evidence Scarcity",
+      "frontier_loop_score": 97.0,
+      "score_reasons": "phase_gate=begin_now:30; rights_risk=low:22; negative_control_present:12; claim_ceiling_present:12; article_candidate_present:6; experiment_defined:8; bounded_required_evidence:5; benchmark_or_eval_family:8; prior_art_unverified:-6"
+    },
+    {
+      "atlas_id": "ATLAS-0039",
+      "project": "RO-Crate",
+      "source_family": "research object packaging",
+      "phase_gate": "begin_now",
+      "rights_risk": "low",
+      "prior_art_status": "seeded_from_attachment_requires_verification",
+      "experiment": "package non-sensitive benchmark metadata as RO-Crate",
+      "negative_control": "zip of files",
+      "claim_ceiling": "packaging, not clearance",
+      "article_candidate": "RO-Crate for Source-Critical Script Research",
+      "frontier_loop_score": 95.0,
+      "score_reasons": "phase_gate=begin_now:30; rights_risk=low:22; negative_control_present:12; claim_ceiling_present:12; article_candidate_present:6; experiment_defined:8; bounded_required_evidence:5; reproducibility_family:6; prior_art_unverified:-6"
+    },
+    {
+      "atlas_id": "ATLAS-0040",
+      "project": "DataLad",
+      "source_family": "data versioning",
+      "phase_gate": "begin_now",
+      "rights_risk": "low",
+      "prior_art_status": "seeded_from_attachment_requires_verification",
+      "experiment": "track count-model changes and affected papers",
+      "negative_control": "manual changelog only",
+      "claim_ceiling": "reproducibility, not evidence truth",
+      "article_candidate": "Versioned Hypotheses for Nwagụ Aneke",
+      "frontier_loop_score": 95.0,
+      "score_reasons": "phase_gate=begin_now:30; rights_risk=low:22; negative_control_present:12; claim_ceiling_present:12; article_candidate_present:6; experiment_defined:8; bounded_required_evidence:5; reproducibility_family:6; prior_art_unverified:-6"
+    },
+    {
+      "atlas_id": "ATLAS-0043",
+      "project": "Software Heritage",
+      "source_family": "software preservation",
+      "phase_gate": "begin_now",
+      "rights_risk": "low",
+      "prior_art_status": "seeded_from_attachment_requires_verification",
+      "experiment": "map benchmark scripts to preservation identifiers",
+      "negative_control": "local script only",
+      "claim_ceiling": "software provenance, not scientific validity",
+      "article_candidate": "Preserving Nwagụ Research Software",
+      "frontier_loop_score": 95.0,
+      "score_reasons": "phase_gate=begin_now:30; rights_risk=low:22; negative_control_present:12; claim_ceiling_present:12; article_candidate_present:6; experiment_defined:8; bounded_required_evidence:5; reproducibility_family:6; prior_art_unverified:-6"
+    }
+  ],
+  "blocked_promotions": [
+    "no paper-ready status",
+    "no public release status",
+    "no source-observed 27/216 claim",
+    "no AI-only gold-label frontier claim"
+  ],
+  "next_command": "python scripts\\continuous_research_loop.py --mode cycle --max-experiments 5"
+}

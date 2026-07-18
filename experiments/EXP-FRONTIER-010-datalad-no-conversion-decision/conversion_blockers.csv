@@ -1,0 +1,6 @@
+blocker_id,current_status,why_it_blocks,required_resolution,external_action_allowed
+dataset_boundary_unapproved,blocks_conversion,The candidate package boundary is still pending review,Record a passing dataset-boundary decision before conversion,no
+rights_authority_unreviewed,blocks_conversion,Rights and authority reviewers have not approved the route,Collect human review rows and decision records before conversion,no
+restricted_material_policy_unsettled,blocks_conversion,Source images restricted manuscript material and private data must stay excluded,Run exclusion audit and preserve only approved metadata paths,no
+annex_policy_absent,blocks_conversion,No annex policy exists for large files sensitive files or nested package layout,Define a reviewed annex and subdataset policy before conversion,no
+public_release_not_approved,blocks_conversion,The package is internal and has no release approval,Record explicit user/lab conversion approval after boundary and review gates,no

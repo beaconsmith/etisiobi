@@ -1,0 +1,74 @@
+{
+  "schema_id": "HUNDRED-PAPER-RECOVERY-SEED-SCHEMA-001",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "seed_id",
+    "lane_id",
+    "opportunity_id",
+    "working_title",
+    "research_question",
+    "evidence_layer",
+    "first_artifact",
+    "falsification_gate",
+    "rights_authority_gate",
+    "product_or_lab_payoff",
+    "status",
+    "claim_ceiling",
+    "next_action"
+  ],
+  "properties": {
+    "seed_id": {
+      "type": "string",
+      "pattern": "^NWR-[0-9]{3}$"
+    },
+    "lane_id": {
+      "type": "string",
+      "enum": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+    },
+    "opportunity_id": {
+      "type": "string",
+      "pattern": "^OPP-[0-9]{3}$"
+    },
+    "working_title": {
+      "type": "string"
+    },
+    "research_question": {
+      "type": "string"
+    },
+    "evidence_layer": {
+      "type": "string",
+      "enum": [
+        "source_observed",
+        "derived",
+        "speculative",
+        "application",
+        "infrastructure",
+        "authority_rights"
+      ]
+    },
+    "first_artifact": {
+      "type": "string"
+    },
+    "falsification_gate": {
+      "type": "string"
+    },
+    "rights_authority_gate": {
+      "type": "string"
+    },
+    "product_or_lab_payoff": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "const": "seed_only_not_paper_candidate"
+    },
+    "claim_ceiling": {
+      "type": "string",
+      "const": "research_seed_not_paper_claim"
+    },
+    "next_action": {
+      "type": "string"
+    }
+  }
+}

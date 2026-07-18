@@ -1,0 +1,66 @@
+{
+  "experiment_id": "EXP-DH-001-derived-completion-baseline",
+  "hypothesis_id": "DH-001",
+  "status": "GLOBAL_BENCHMARK_NEGATIVE_BREAKTHROUGH_PARK_DH001",
+  "criteria_passed": 6,
+  "criteria_failed": 1,
+  "failed_criteria": [
+    "non_label_generalization"
+  ],
+  "global_benchmark_claim": "not_met",
+  "decision": "PARK_DH001_BEFORE_PAPER_CANDIDATE",
+  "celebration_worthy": true,
+  "reason": "DH-001 passes reproducibility, data, baseline, adversarial, transparency, and source-boundary checks, but fails the global breakthrough criterion because value beyond labels is not demonstrated.",
+  "evaluations": [
+    {
+      "criterion_id": "GB-001",
+      "criterion_name": "reproducible_artifact",
+      "global_reference": "ACM Artifact Review and Badging",
+      "status": "PASS",
+      "pass_condition": "Runner and tests exist and regenerate results locally."
+    },
+    {
+      "criterion_id": "GB-002",
+      "criterion_name": "documented_datasets",
+      "global_reference": "NeurIPS Paper Checklist and Datasets/Benchmarks guidance",
+      "status": "PASS",
+      "pass_condition": "All datasets used by the benchmark are named in results."
+    },
+    {
+      "criterion_id": "GB-003",
+      "criterion_name": "baseline_comparison",
+      "global_reference": "NeurIPS Datasets/Benchmarks guidance",
+      "status": "PASS",
+      "pass_condition": "At least source-collapsed derived-split and shuffled baselines are scored."
+    },
+    {
+      "criterion_id": "GB-004",
+      "criterion_name": "adversarial_source_safety",
+      "global_reference": "HELM-style scenario and risk coverage",
+      "status": "PASS",
+      "pass_condition": "Counterexamples/adversarial variants are scored and unsafe source-promotion is rejected."
+    },
+    {
+      "criterion_id": "GB-005",
+      "criterion_name": "transparent_metrics",
+      "global_reference": "HELM transparency norm",
+      "status": "PASS",
+      "pass_condition": "Results expose counts statuses and per-model metrics."
+    },
+    {
+      "criterion_id": "GB-006",
+      "criterion_name": "source_boundary_control",
+      "global_reference": "ACM/NeurIPS reproducibility and limitations norms",
+      "status": "PASS",
+      "pass_condition": "The source-observed 26 x 8 foundation is preserved and 27 x 8 remains derived."
+    },
+    {
+      "criterion_id": "GB-007",
+      "criterion_name": "non_label_generalization",
+      "global_reference": "Global benchmark breakthrough threshold",
+      "status": "FAIL",
+      "pass_condition": "The derived split must demonstrate value beyond explicit f/v labels."
+    }
+  ],
+  "next_action": "Park DH-001 unless a future source or corpus-usage event supplies non-label evidence for the f/v split."
+}

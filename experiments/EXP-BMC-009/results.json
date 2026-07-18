@@ -1,0 +1,9 @@
+{
+  "goal_id": "GOAL-009",
+  "decision": "AUTHORITY_REVIEW_PROTOCOL_COMPLETED_INTERNAL_ONLY",
+  "records": 208,
+  "internal_research_allowed": true,
+  "legal_consent_recorded": true,
+  "publication_allowed_records": 0,
+  "publication_blocked_records": 208
+}

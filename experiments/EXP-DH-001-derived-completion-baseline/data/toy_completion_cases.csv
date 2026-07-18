@@ -1,0 +1,17 @@
+case_id,source_row,modifier,target_role,expected_derived_row,task_note
+DH001-001,FV_COLLAPSED,a,f_role,F_ROLE,Recover f role under modifier a
+DH001-002,FV_COLLAPSED,e,f_role,F_ROLE,Recover f role under modifier e
+DH001-003,FV_COLLAPSED,i,f_role,F_ROLE,Recover f role under modifier i
+DH001-004,FV_COLLAPSED,o,f_role,F_ROLE,Recover f role under modifier o
+DH001-005,FV_COLLAPSED,u,f_role,F_ROLE,Recover f role under modifier u
+DH001-006,FV_COLLAPSED,aa,f_role,F_ROLE,Recover f role under modifier aa
+DH001-007,FV_COLLAPSED,ee,f_role,F_ROLE,Recover f role under modifier ee
+DH001-008,FV_COLLAPSED,oo,f_role,F_ROLE,Recover f role under modifier oo
+DH001-009,FV_COLLAPSED,a,v_role,V_ROLE,Recover v role under modifier a
+DH001-010,FV_COLLAPSED,e,v_role,V_ROLE,Recover v role under modifier e
+DH001-011,FV_COLLAPSED,i,v_role,V_ROLE,Recover v role under modifier i
+DH001-012,FV_COLLAPSED,o,v_role,V_ROLE,Recover v role under modifier o
+DH001-013,FV_COLLAPSED,u,v_role,V_ROLE,Recover v role under modifier u
+DH001-014,FV_COLLAPSED,aa,v_role,V_ROLE,Recover v role under modifier aa
+DH001-015,FV_COLLAPSED,ee,v_role,V_ROLE,Recover v role under modifier ee
+DH001-016,FV_COLLAPSED,oo,v_role,V_ROLE,Recover v role under modifier oo

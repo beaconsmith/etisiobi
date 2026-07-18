@@ -1,0 +1,7 @@
+evidence_layer,allowed_current_output,promotion_allowed,required_before_promotion,blocked_claim
+source_observed,source note or extraction table,no,source access and domain review and rights review,source edition claim
+derived,count model or sensitivity table,no,source link and reviewer adjudication,source layer promotion
+speculative,formal object or analogy map,no,collapse condition and counterexample set,mechanism claim
+application,interface or design prototype,no,lineage record and reader response,product doctrine
+infrastructure,validator or package metadata,no,boundary review and reproducibility audit,release package
+authority_rights,review protocol or approval template,no,actual authority record and benefit review,clearance claim

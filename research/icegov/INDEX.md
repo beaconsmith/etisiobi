@@ -2,12 +2,12 @@
 
 ## OGI ICEGOV 2026 — Evidence & Citation Control System
 
-### Paper: *From WhatsApp Screenshots to Verifiable Records*
+### Paper: *Measuring Community-Layer Digital Governance: An Indicator Framework for Southeast Nigeria*
 
-### Submission Deadline: April 24, 2026
+### Submission Deadline: May 8, 2026
 
 > Total sources indexed: **124**
-> Status: **Structured → Claim-binding in progress**
+> Status: **Canonical blinded submission draft frozen on 2026-04-20**
 > This document is the **citation control layer** for the paper.
 
 ---
@@ -131,13 +131,13 @@ These are the **minimum viable sources** for submission. Each is mapped to a pap
 
 **Defence role:** Position OGI within community data sovereignty.
 
-**Total Tier 1: 25 sources. All 25 appear in v4 References.**
+**Total Tier 1: 25 sources. Core set represented in the canonical submission draft.**
 
 ---
 
 # 3. CLAIM → SOURCE BINDING
 
-## Active bindings (from v4 draft)
+## Active bindings (canonical blinded draft)
 
 | Claim | Source | Type | Paper Section |
 |-------|--------|------|---------------|
@@ -167,7 +167,7 @@ These are the **minimum viable sources** for submission. Each is mapped to a pap
 
 ---
 
-# 4. SUPPORTING SOURCES (Tier 2 — cited in v4)
+# 4. SUPPORTING SOURCES (Tier 2 — available to support the canonical draft)
 
 | # | Source | Year | Paper Role |
 |---|--------|------|------------|
@@ -196,7 +196,7 @@ These are the **minimum viable sources** for submission. Each is mapped to a pap
 | S23 | Global Informality Project — Esusu | 2020 | Trust mechanisms, failure modes |
 | S24 | World Bank GHS Panel | various | 17% informal savings statistic |
 
-**Total cited in v4: 43 references (25 T1 + 18 T2 actively cited)**
+**Canonical blinded draft cites 43 works after bibliography compression.**
 
 ---
 
@@ -213,7 +213,7 @@ These are the **minimum viable sources** for submission. Each is mapped to a pap
 
 ---
 
-# 6. BACKGROUND SOURCES (Tier 3 — indexed but not cited in v4)
+# 6. BACKGROUND SOURCES (Tier 3 — indexed but not cited in the canonical draft)
 
 These 124 - 43 = **81 sources** remain indexed in the cluster manifests for future empirical versions:
 
@@ -246,17 +246,17 @@ These 124 - 43 = **81 sources** remain indexed in the cluster manifests for futu
 # 8. CURRENT STATUS
 
 ```
-CLAIM-BOUND — v4 draft aligned
+CLAIM-BOUND — canonical blinded draft aligned
 ```
 
 Completed:
-* [x] Full claim → source mapping for v4 draft
+* [x] Full claim → source mapping for canonical submission draft
 * [x] Source reduction to 25 Tier 1
 * [x] Reviewer defense map with specific sources
 * [x] Tier classification for all 124 sources
 
 Remaining:
-* [ ] Cross-check every v4 paragraph against claim bindings
+* [ ] Cross-check ACM-formatted PDF against claim bindings
 * [ ] Verify no orphan citations (cited but not claim-bound)
 * [ ] Final alignment with claims/LEDGER.md
 

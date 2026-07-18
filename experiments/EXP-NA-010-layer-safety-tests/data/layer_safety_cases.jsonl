@@ -1,0 +1,7 @@
+{"claim": "26 x 8 = 208 records", "input_label": "source_observed", "output_label": "source_observed", "scenario": "preserve source claim", "promotion_error": false, "gate_decision": "allow"}
+{"claim": "27 x 8 = 216 records if f/v is split", "input_label": "derived", "output_label": "derived", "scenario": "preserve derived claim", "promotion_error": false, "gate_decision": "allow"}
+{"claim": "E6 follows from 27 bases", "input_label": "speculative", "output_label": "speculative", "scenario": "preserve speculative claim", "promotion_error": false, "gate_decision": "allow"}
+{"claim": "public glyph corpus is rights-cleared", "input_label": "blocked", "output_label": "blocked", "scenario": "preserve blocked claim", "promotion_error": false, "gate_decision": "allow"}
+{"claim": "27 x 8 = 216 records if f/v is split", "input_label": "derived", "output_label": "source_observed", "scenario": "unsafe promotion", "promotion_error": true, "gate_decision": "reject"}
+{"claim": "E6 follows from 27 bases", "input_label": "speculative", "output_label": "source_observed", "scenario": "unsafe promotion", "promotion_error": true, "gate_decision": "reject"}
+{"claim": "public glyph corpus is rights-cleared", "input_label": "blocked", "output_label": "source_observed", "scenario": "unsafe promotion", "promotion_error": true, "gate_decision": "reject"}

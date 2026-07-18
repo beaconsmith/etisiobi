@@ -1,0 +1,1 @@
+# Source Index: track_11_global_south\n\nThis index catalogs all sources harvested during the research loop for this track.\n\n## Ranked Sources\n(See RESEARCH_LOG.md for full details)\n- T11-A\n- T11-B\n- T11-C\n- T11-D\n- T11-E\n- T11-F\n- T11-G\n- T11-H\n- T11-I\n- T11-J\n- T11-K\n- T11-L\n- T11-M\n- T11-N\n- T11-O\n- T11-P\n- T11-Q\n- T11-R\n- T11-S\n- T11-T\n

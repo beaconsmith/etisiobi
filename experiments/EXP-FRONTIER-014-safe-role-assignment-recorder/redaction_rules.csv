@@ -1,0 +1,7 @@
+rule_id,current_status,blocked_material,allowed_in_repo,replacement
+no_real_names,active_required,real reviewer names,no,pseudonymous reviewer_ref
+no_email_addresses,active_required,direct address strings,no,external approval-record reference
+no_phone_numbers,active_required,direct number strings,no,external approval-record reference
+no_messaging_handles,active_required,private messaging handles,no,external approval-record reference
+no_private_contact_locations,active_required,private contact storage paths,no,contact_data_location enum only
+no_review_content,active_required,review text or decisions,no,role assignment metadata only

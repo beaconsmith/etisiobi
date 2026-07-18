@@ -1,0 +1,95 @@
+{
+  "experiment_id": "EXP-NA-001",
+  "generated_at": "2026-06-19T18:53:15+01:00",
+  "decision": "RECONSTRUCTABLE_AS_SOURCE_LEDGER_NOT_FULL_GLYPH_CORPUS",
+  "article_candidate": "ARTICLE-NA-001",
+  "source_files_checked": 12,
+  "missing_source_files": [],
+  "evidence_rows": 12,
+  "symbol_inventory": {
+    "record_count": 36,
+    "by_type": {
+      "aggregate": 2,
+      "row_label": 26,
+      "vowel_column": 8
+    },
+    "by_maturity": {
+      "C2": 1,
+      "C5": 35
+    },
+    "row_labels": [
+      "b",
+      "ch",
+      "d",
+      "f/v",
+      "g",
+      "gb",
+      "gh",
+      "gw",
+      "h",
+      "j",
+      "k",
+      "kp",
+      "kw",
+      "l",
+      "m",
+      "n",
+      "ṅ",
+      "ny",
+      "nw",
+      "p",
+      "r",
+      "s",
+      "t",
+      "w",
+      "y",
+      "z"
+    ],
+    "vowel_columns": [
+      "a",
+      "i",
+      "o",
+      "u",
+      "e",
+      "ị",
+      "ọ",
+      "ụ"
+    ]
+  },
+  "bmc_summary": {
+    "record_count": 208,
+    "row_count": 26,
+    "vowel_count": 8,
+    "cell_count": 208,
+    "review_status": {
+      "human_review_needed": 208
+    },
+    "source_region_status": {
+      "not_annotated": 208
+    },
+    "certainty_min": 0.42,
+    "certainty_max": 0.42
+  },
+  "count_decision": "MULTI_LAYER_COUNT_VALID",
+  "source_layer": {
+    "rows": 26,
+    "vowels": 8,
+    "cells": 208
+  },
+  "derived_layer": {
+    "rows_if_f_v_split": 27,
+    "cells_if_f_v_split": 216
+  },
+  "can_claim": [
+    "A source-critical article can be started from the local Nwagu Aneke dossier.",
+    "The current reconstructable object is a row/vowel source ledger plus visible logograph leads.",
+    "The source-observed layer must remain separate from the derived f/v split layer."
+  ],
+  "cannot_claim": [
+    "A completed glyph-level corpus has been reconstructed.",
+    "27/216 is source-observed.",
+    "The chart proves a generative grammar or universal compression theory.",
+    "The visible chart proves all 100+ manuscript books or logographs are available for public analysis."
+  ],
+  "next_action": "Human review of chart transcription and Azuonye appendix, then EXP-NA-002 count-layer ledger."
+}

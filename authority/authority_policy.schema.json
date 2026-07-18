@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Etisiobi Authority Approval Record",
+  "type": "object",
+  "required": [
+    "approval_id",
+    "authority_type",
+    "authority_holder",
+    "research_approval_obtained",
+    "legal_consent_obtained",
+    "scope",
+    "status",
+    "evidence_locator"
+  ]
+}

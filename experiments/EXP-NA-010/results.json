@@ -1,0 +1,30 @@
+{
+  "experiment_id": "EXP-NA-010",
+  "canonical_experiment_path": "experiments/EXP-NA-010-layer-safety-tests",
+  "generated_at": "2026-07-06T00:00:00+01:00",
+  "decision": "EXPANDED_LAYER_SAFETY_BASELINE_COMPARISON_PASS",
+  "result_type": "formal systems invariant plus executable gate tests",
+  "test_cases": 24,
+  "promotion_errors": 14,
+  "promotion_errors_detected": 14,
+  "promotion_error_detection_rate": 1.0,
+  "baseline_false_negatives": {
+    "provenance_only": 11,
+    "citation_only": 7,
+    "no_label_gate": 14
+  },
+  "proof_artifact": "experiments/EXP-NA-010-layer-safety-tests/layer_non_promotion_lemma.md",
+  "evidence_files": [
+    "experiments/EXP-NA-010-layer-safety-tests/results.json",
+    "experiments/EXP-NA-010-layer-safety-tests/expanded_results.json",
+    "experiments/EXP-NA-010-layer-safety-tests/baseline_comparison.json",
+    "experiments/EXP-NA-010-layer-safety-tests/analysis.md",
+    "experiments/EXP-NA-010-layer-safety-tests/decision.md",
+    "experiments/EXP-NA-010-layer-safety-tests/layer_non_promotion_lemma.md",
+    "experiments/EXP-NA-010-layer-safety-tests/data/layer_safety_cases.csv",
+    "experiments/EXP-NA-010-layer-safety-tests/data/layer_safety_cases.jsonl",
+    "experiments/EXP-NA-010-layer-safety-tests/data/expanded_layer_safety_cases.csv",
+    "experiments/EXP-NA-010-layer-safety-tests/data/expanded_layer_safety_cases.jsonl"
+  ],
+  "claim_boundary": "Article 10 may report a non-promotion invariant for artifact-derived design systems and an expanded baseline comparison against provenance-only, citation-only, and no-label gates. External submission still needs human source review, rights clearance, and final venue/package approval."
+}

@@ -1,0 +1,26 @@
+{
+  "approval_id": "LAB-EXEC-APPROVAL-20260623-USER",
+  "recorded_at": "2026-06-23T13:39:33+01:00",
+  "approval_source": "user_message_current_thread",
+  "approval_scope": "internal_bounded_artifact_creation_for_selected_seed_sprint",
+  "approved_actions": [
+    "create internal bounded artifacts",
+    "update local validators and status surfaces",
+    "run local repo validators",
+    "run controlled research loop"
+  ],
+  "external_authority_review_completed": false,
+  "rights_or_authority_cleared": false,
+  "private_contact_data_recorded": false,
+  "external_actions_taken": [],
+  "claim_ceiling": "lab_execution_approval_not_rights_or_authority_clearance",
+  "forbidden_actions": [
+    "external submission",
+    "publication package generation",
+    "public release claim",
+    "archive request",
+    "private data download",
+    "reviewer identity recording",
+    "rights or authority clearance claim"
+  ]
+}

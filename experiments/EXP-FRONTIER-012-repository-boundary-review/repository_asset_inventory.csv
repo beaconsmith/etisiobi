@@ -1,0 +1,11 @@
+path,artifact_class,current_boundary_status,rights_risk,why_candidate,external_release_now,required_review,next_action
+scripts/continuous_research_loop.py,research_loop_script,candidate_internal_review_only,low,loop orchestration code for reproducible selection,no,repository_boundary_review,review code comments imports and side effects
+scripts/validate_continuous_research_loop.py,validator,candidate_internal_review_only,low,validator for loop outputs,no,repository_boundary_review,review for release-neutral language
+scripts/validate_software_heritage_no_identifier_decision.py,validator,candidate_internal_review_only,low,validator for deferred archive decision,no,repository_boundary_review,review for release-neutral language
+scripts/validate_repository_boundary_review.py,validator,candidate_internal_review_only,low,validator for this repository-boundary packet,no,repository_boundary_review,review after packet stabilizes
+experiments/EXP-FRONTIER-008-nwagu-ro-crate/ro-crate-metadata.json,metadata_manifest,candidate_internal_review_only,low,detached metadata package index,no,repository_boundary_review,review hashes paths and exclusion assumptions
+experiments/EXP-FRONTIER-011-software-heritage-no-identifier-decision/manifest.json,decision_manifest,candidate_internal_review_only,low,no-identifier decision metadata,no,repository_boundary_review,review no-action fields and gates
+experiments/EXP-FRONTIER-012-repository-boundary-review/manifest.json,review_manifest,candidate_internal_review_only,low,repository-boundary review metadata,no,repository_boundary_review,review after human roles are assigned
+research/frontier/nwagu_aneke/FRONTIER_LAB_STATUS.json,status_surface,candidate_internal_review_only,low,machine-readable frontier lab status,no,repository_boundary_review,review for claim ceilings and no private data
+research/frontier/nwagu_transfer_atlas/prior_art_verification/verification_manifest.json,prior_art_manifest,candidate_internal_review_only,low,selected primary-source relevance metadata,no,repository_boundary_review,review scope and prior-art limits
+Makefile,workflow_index,candidate_internal_review_only,low,validator and loop command index,no,repository_boundary_review,review targets before public packaging

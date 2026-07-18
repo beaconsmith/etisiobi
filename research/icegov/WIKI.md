@@ -1,12 +1,22 @@
 # ICegov / OGI Research Wiki
-> LLM-maintained knowledge base. Last compiled: 2026-04-16.
+> LLM-maintained knowledge base. Last compiled: 2026-04-20.
 > Do not edit manually — update by ingesting new sources and running autoresearch lint.
 
 ---
 
 ## What This Wiki Covers
 
-The Oroma Governance Indicator (OGI) Framework: a seven-dimension indicator set for measuring community-led digital governance success in Southeast Nigeria, operationalized through Oroma (Bitcoin L2 community coordination platform). Submitted to ICEGOV 2026 Track 6.
+The OGI Framework: a seven-dimension indicator set for measuring community-led digital governance success in Southeast Nigeria. A canonical blinded submission draft is frozen for ICEGOV 2026 Track 6 at `research/icegov/paper/OGI_PAPER_SUBMISSION_CANONICAL.md`.
+
+---
+
+## Current Submission State
+
+- Canonical paper file: `research/icegov/paper/OGI_PAPER_SUBMISSION_CANONICAL.md`
+- Review mode: double-blind
+- Draft posture: Stage 4 design-science demonstration, not empirical validation
+- Abstract length: 246 words
+- Main remaining tasks: ACM formatting, final page check, EDAS upload
 
 ---
 
@@ -70,21 +80,21 @@ Existing digital governance indices (EGDI, OECD DGI, GTMI) measure what states d
 
 ### Key Evidence
 
-**e-ROSCA field experiment (DRC):** ~90% contribution compliance in mobile-money-enabled ROSCAs (Francois & Squires 2021, Science Advances). Establishes that digital governance in informal finance settings is empirically robust. [Tier 1 — directly cited in v5]
+**e-ROSCA field experiment (DRC):** ~90% contribution compliance in mobile-money-enabled ROSCAs (Francois & Squires 2021, Science Advances). Establishes that digital governance in informal finance settings is empirically robust. [Cited in canonical submission draft]
 
-**Nigerian records management failures:** "lack of culture of managing information," staff unable to distinguish records by type, dominant paper systems, "gross inefficiency and lack of policy continuity" (Adebayo 2018). [Tier 1 — directly cited in v5]
+**Nigerian records management failures:** "lack of culture of managing information," staff unable to distinguish records by type, dominant paper systems, "gross inefficiency and lack of policy continuity" (Adebayo 2018). [Cited in canonical submission draft]
 
 **NITDA 2024 precedent:** Five Nigerian researchers on DPI sponsored to ICEGOV 2024. Measurement + Nigeria + DPI = fundable. [Tier 3 — strategic context]
 
-**Esusu governance in trader networks** *(sources/papers_raw/esusu-saving-scheme-traders.pdf)*: Esusu groups among market traders in SE Nigeria operate with 15–40 members, weekly contribution cycles, and oral enforcement mechanisms including exclusion and social sanction. Treasurer accountability is managed through group witnessing, not written records — documenting the exact failure mode OGI addresses. Modal group size (15–40) validates the §6.2 illustrative scenario (34 members). [Tier 1 — journal version; Tier 2 — supports v5 contextual grounding]
+**Esusu governance in trader networks** *(sources/papers_raw/esusu-saving-scheme-traders.pdf)*: Esusu groups among market traders in SE Nigeria operate with 15–40 members, weekly contribution cycles, and oral enforcement mechanisms including exclusion and social sanction. Treasurer accountability is managed through group witnessing, not written records — documenting the exact failure mode OGI addresses. [Context source retained for post-submission empirical versions]
 
-**Validated governance quality scale** *(sources/papers_raw/validating-public-governance-quality-scale.pdf)*: Empirically validated participation benchmarks for community organizations: 60–75% active participation rate is modal for functional community governance groups in development contexts. Supports DPR-01 threshold: illustrative 71% is within the modal range, not arbitrary. [Tier 1 — journal threshold calibration]
+**Validated governance quality scale** *(sources/papers_raw/validating-public-governance-quality-scale.pdf)*: Empirically validated participation benchmarks for community organizations: 60–75% active participation rate is modal for functional community governance groups in development contexts. [Supporting calibration source; not required in canonical submission draft]
 
-**Community monitoring Uganda** *(sources/papers_raw/community-monitoring-uganda.pdf)*: CDD monitoring study — external monitoring raises participation 12–18%; anonymous complaint channels increase dispute reporting 3.2× vs identified channels. Direct empirical support for DRL-01 Goodhart mitigation (anonymous channel). Establishes that documentation completeness in early community governance deployments runs 65–70% — consistent with DRL-01 illustrative value of 67%. [Tier 1 — journal; supports v5 §6.3 contextual evidence]
+**Community monitoring Uganda** *(sources/papers_raw/community-monitoring-uganda.pdf)*: CDD monitoring study — external monitoring raises participation and strengthens complaint visibility. Direct empirical support for DRL-oriented documentation and anonymity design. [Cited in canonical submission draft via Bjorkman & Svensson 2009]
 
-**Town unions Nigeria** *(sources/papers_raw/town-unions-nigeria.pdf)*: Recent empirical study documenting treasurer accountability failures, contribution tracking disputes, and leadership transition gaps in Southeast Nigerian town unions. Maps directly to TTI-01 (treasury audit completeness), CAS-01 (record exportability), and the §1 narrative about the treasurer who relocated with no handover record. [Tier 1 — journal version strengthening]
+**Town unions Nigeria** *(sources/papers_raw/town-unions-nigeria.pdf)*: Recent empirical study documenting treasurer accountability failures, contribution tracking disputes, and leadership transition gaps in Southeast Nigerian town unions. Maps directly to TTI-01 and CAS-01 style governance-record failures. [Cited in canonical submission draft via Nwangwu 2024]
 
-**Casey (2024) — CDD update** *(sources/papers_raw/casey-2024-cdd.pdf)*: Updates Mansuri & Rao (2013). "Measurement failure, not governance failure" conclusion strengthened with newer evidence base. Distinguishes externally-induced vs organically-grown participation — directly maps to DPR-01 Goodhart mitigation rationale (stake-in-outcome weighting filters induced participation). New citation for journal version. [Tier 2 — journal version]
+**Casey (2024) — CDD update** *(sources/papers_raw/casey-2024-cdd.pdf)*: Updates Mansuri & Rao (2013). Strengthens the interpretation that weak measured governance effects can partly reflect weak measurement, not only weak community capacity. [Cited in canonical submission draft]
 
 **NITDA 2024 precedent:** Five Nigerian researchers on DPI sponsored to ICEGOV 2024. Measurement + Nigeria + DPI = fundable. [Tier 3 — strategic context]
 
@@ -105,17 +115,16 @@ Empirical grounding for OGI provisional thresholds (for journal version Delphi v
 
 ---
 
-## Journal Backlog — Sources to Acquire
+## Post-Submission Backlog
 
-Flagged by reviewers; not yet in sources/:
+Priority work after ICEGOV submission:
 
-| Source | Why needed | Priority |
-|--------|-----------|----------|
-| Bouman (1995) "Rotating and accumulating savings" *World Development* | Foundational ROSCA — predates Besley/Gugerty | HIGH |
-| Ardener (1964) "Comparative study of rotating credit associations" | Original ROSCA academic reference | HIGH |
-| Gregor & Hevner (2013) "Positioning and presenting DSR" | Strengthens DSR framing for journal version | MEDIUM |
-| Community Scorecard methodology literature | Comparator to OGI — needed for "how OGI differs" discussion | MEDIUM |
-| Social Audit literature (Gaventa & McGee 2013) | Second comparator | LOW |
+| Task | Why needed | Priority |
+|------|------------|----------|
+| Delphi validation of thresholds and weights | Converts provisional thresholds into reviewed measurement design | HIGH |
+| First ethics-governed pilot data | Moves paper from illustrative computability to evaluated evidence | HIGH |
+| Cross-substrate comparison (ledger vs simpler append-only logs) | Tests whether the framework depends on a single implementation style | MEDIUM |
+| Large-group calibration | Tests how DPR and related indicators behave beyond small and medium groups | MEDIUM |
 
 ---
 
@@ -132,16 +141,16 @@ Flagged by reviewers; not yet in sources/:
 
 ## Open Questions
 
-1. Is Workspace A evidence real (testnet deployment) or illustrative? → Determines paper framing in Section 6
-2. Which specific SE Nigeria communities are confirmed pilot participants?
-3. What ethics/IRB process governs community data collection?
-4. Which 4 Oroma product gaps must close before OGI-Core is computable? (See CLAUDE.md)
+1. Which communities should be first pilot candidates after submission?
+2. What ethics/IRB path will govern onboarding-survey and inclusion data?
+3. Which four product gaps should close first for post-submission OGI evidence extraction?
+4. When should the Research Spine start producing daily facts files?
 
 ---
 
 ## Health Check Needed
 
-- [ ] Cross-references between CARE Principles and ZK design sections verified
-- [ ] Ostrom-to-OGI mapping table complete (8 principles → 7 dimensions)
-- [ ] All 31 references in v2 paper have DOIs or stable URLs
-- [ ] Workspace A data source confirmed before submission
+- [x] Canonical blinded submission draft frozen
+- [ ] ACM PDF page check completed
+- [ ] DOI/URL spot-check completed on canonical bibliography
+- [ ] First facts file generated once DB connection is available

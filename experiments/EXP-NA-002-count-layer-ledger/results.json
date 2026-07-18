@@ -1,0 +1,18 @@
+{
+  "experiment_id": "EXP-NA-002",
+  "generated_at": "2026-06-20T06:34:13+01:00",
+  "decision": "COUNT_LAYERS_RECONCILED_WITH_REVIEW_BLOCKERS",
+  "ledger_records": 7,
+  "ready_or_derived_records": 5,
+  "blocked_or_lead_records": 2,
+  "source_layer": {
+    "rows": 26,
+    "vowels": 8,
+    "records": 208
+  },
+  "derived_layer": {
+    "rows_if_f_v_split": 27,
+    "records_if_f_v_split": 216
+  },
+  "article_implication": "Article 2 can now report an executed count-ledger experiment, but final submission still needs human source review."
+}

@@ -1,0 +1,15 @@
+{
+  "paper": "community-governance",
+  "last_checked": "2026-04-24",
+  "stage": "evidence_population",
+  "vetted_sources": 22,
+  "core_claims": 5,
+  "claims_moderate_or_better": 5,
+  "regional_sources": 8,
+  "critical_gaps": [
+    "conceptual analysis methods anchor",
+    "SE Nigeria failure/accountability cases",
+    "policy/legal context for town unions"
+  ],
+  "promotion_ready": false
+}

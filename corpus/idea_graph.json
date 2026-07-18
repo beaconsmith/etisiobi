@@ -1,0 +1,199 @@
+{
+  "generated_at": "2026-05-28",
+  "possibilities": [
+    {
+      "possibility_id": "POSS-0001",
+      "title": "PAGC base-inventory resolution",
+      "parent_claims": [
+        "CLAIM-0006",
+        "CLAIM-0010"
+      ],
+      "latent_axes": [
+        "Representation",
+        "Theory",
+        "Evaluation"
+      ],
+      "why_it_exists": "The source-derived base count is unresolved and blocks E6, 27-base, and 216-token claims.",
+      "first_principles_basis": "A finite symbol inventory can be counted from primary source artifacts before any theory is built on it.",
+      "novelty_hypothesis": "A rigorous source-first count may separate decolonial knowledge-system claims from numerological overreach.",
+      "feasibility": 0.9,
+      "expected_information_gain": 0.95,
+      "cost": "low",
+      "risk": "low",
+      "falsifiability": 0.95,
+      "paper_potential": 0.85,
+      "next_test": "Audit Azuonye 1992 PDF and chart transcription line-by-line.",
+      "priority": 0.862
+    },
+    {
+      "possibility_id": "POSS-0002",
+      "title": "Scaled compression falsification for k=27",
+      "parent_claims": [
+        "CLAIM-0008"
+      ],
+      "latent_axes": [
+        "Evaluation",
+        "Data / environment",
+        "Representation"
+      ],
+      "why_it_exists": "The small-corpus sweep refutes k=27 but requires replication on larger corpora.",
+      "first_principles_basis": "If 27 is a structural optimum, the optimum should be robust across corpus scale and baselines.",
+      "novelty_hypothesis": "The result may become a useful negative finding about culturally inspired tokenization claims.",
+      "feasibility": 0.75,
+      "expected_information_gain": 0.9,
+      "cost": "medium",
+      "risk": "medium",
+      "falsifiability": 0.9,
+      "paper_potential": 0.8,
+      "next_test": "Replicate BPE sweep on larger documented Igbo corpus and add MDL baselines.",
+      "priority": 0.775
+    },
+    {
+      "possibility_id": "POSS-0003",
+      "title": "Non-circular bounded-memory experiment",
+      "parent_claims": [
+        "CLAIM-0009"
+      ],
+      "latent_axes": [
+        "Mechanism / algorithm",
+        "Robustness / safety / security",
+        "Evaluation"
+      ],
+      "why_it_exists": "The current memory simulation is invalidated as circular.",
+      "first_principles_basis": "An encoder should succeed on invariants not embedded in its own representation rule.",
+      "novelty_hypothesis": "A careful null-model comparison could clarify whether bounded symbolic memory has real adaptation value.",
+      "feasibility": 0.65,
+      "expected_information_gain": 0.85,
+      "cost": "medium",
+      "risk": "medium",
+      "falsifiability": 0.85,
+      "paper_potential": 0.7,
+      "next_test": "Design fixtures with non-aligned invariant structure and random-hash controls.",
+      "priority": 0.705
+    },
+    {
+      "possibility_id": "POSS-0004",
+      "title": "ICEGOV evidence-gate reconciliation",
+      "parent_claims": [
+        "CLAIM-0003",
+        "CLAIM-0005",
+        "CLAIM-0013",
+        "CLAIM-0014"
+      ],
+      "latent_axes": [
+        "Paper potential",
+        "Systems architecture",
+        "Evaluation"
+      ],
+      "why_it_exists": "Active papers exist, but deadline/format drift and evidence gaps threaten submission readiness.",
+      "first_principles_basis": "A paper cannot be submission-ready if its gate state, venue constraints, and claim evidence disagree.",
+      "novelty_hypothesis": "A machine-readable gate audit can become a reusable research-lab contribution.",
+      "feasibility": 0.85,
+      "expected_information_gain": 0.85,
+      "cost": "low",
+      "risk": "medium",
+      "falsifiability": 0.8,
+      "paper_potential": 0.9,
+      "next_test": "Diff portfolio, runtime manifests, promote gates, source gaps, and submission rules.",
+      "priority": 0.785
+    },
+    {
+      "possibility_id": "POSS-0005",
+      "title": "Research Spine computability dry run",
+      "parent_claims": [
+        "CLAIM-0011"
+      ],
+      "latent_axes": [
+        "Systems architecture",
+        "Evaluation",
+        "Data / environment"
+      ],
+      "why_it_exists": "The Spine promises product-to-research evidence routing but needs dry-run validation.",
+      "first_principles_basis": "Indicators are only research evidence when their data dependencies are computable and logged.",
+      "novelty_hypothesis": "A computability-first governance indicator pipeline may be a strong method contribution.",
+      "feasibility": 0.7,
+      "expected_information_gain": 0.8,
+      "cost": "medium",
+      "risk": "medium",
+      "falsifiability": 0.8,
+      "paper_potential": 0.85,
+      "next_test": "Run extractor against synthetic read-only fixtures, not production data.",
+      "priority": 0.727
+    },
+    {
+      "possibility_id": "POSS-0006",
+      "title": "Repo-level citation and claim auditor",
+      "parent_claims": [
+        "CLAIM-0012"
+      ],
+      "latent_axes": [
+        "Systems architecture",
+        "Robustness / safety / security",
+        "Paper potential"
+      ],
+      "why_it_exists": "The repo already has many paper harnesses and source registries but lacks a unified claim audit.",
+      "first_principles_basis": "No unsupported claims requires a machine-checkable relation between claims, evidence, and sources.",
+      "novelty_hypothesis": "The tool could become the quality-control spine for all research outputs.",
+      "feasibility": 0.9,
+      "expected_information_gain": 0.75,
+      "cost": "low",
+      "risk": "low",
+      "falsifiability": 0.75,
+      "paper_potential": 0.65,
+      "next_test": "Parse claim maps and source registries for missing links and citation metadata.",
+      "priority": 0.713
+    }
+  ],
+  "edges": [
+    {
+      "from": "CLAIM-0006",
+      "to": "POSS-0001",
+      "type": "motivates"
+    },
+    {
+      "from": "CLAIM-0010",
+      "to": "POSS-0001",
+      "type": "motivates"
+    },
+    {
+      "from": "CLAIM-0008",
+      "to": "POSS-0002",
+      "type": "motivates"
+    },
+    {
+      "from": "CLAIM-0009",
+      "to": "POSS-0003",
+      "type": "motivates"
+    },
+    {
+      "from": "CLAIM-0003",
+      "to": "POSS-0004",
+      "type": "motivates"
+    },
+    {
+      "from": "CLAIM-0005",
+      "to": "POSS-0004",
+      "type": "motivates"
+    },
+    {
+      "from": "CLAIM-0013",
+      "to": "POSS-0004",
+      "type": "motivates"
+    },
+    {
+      "from": "CLAIM-0014",
+      "to": "POSS-0004",
+      "type": "motivates"
+    },
+    {
+      "from": "CLAIM-0011",
+      "to": "POSS-0005",
+      "type": "motivates"
+    },
+    {
+      "from": "CLAIM-0012",
+      "to": "POSS-0006",
+      "type": "motivates"
+    }
+  ]
+}

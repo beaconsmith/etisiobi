@@ -1,0 +1,155 @@
+{
+  "generated_at": "2026-06-21T20:52:02+01:00",
+  "format": "ACM-style double-column LaTeX",
+  "documentclass": "acmart",
+  "options": [
+    "sigconf",
+    "nonacm"
+  ],
+  "article_count": 10,
+  "cycle": 2,
+  "status": "QUARANTINED_AI_TO_AI_PROCESS_TRACES_NOT_PAPER_CANDIDATES",
+  "method_transfer": "STORM-inspired prewriting, Co-STORM-style review turns, Karpathy-style metric loop",
+  "source_observed_layer": {
+    "rows": 26,
+    "columns": 8,
+    "records": 208
+  },
+  "derived_layer": {
+    "rows_if_f_v_split": 27,
+    "records_if_f_v_split": 216
+  },
+  "articles": [
+    {
+      "id": "ARTICLE-NA-011",
+      "title": "A STORM-Adapted Question Compiler for Artifact-First Research on Nwagu Aneke",
+      "slug": "011-storm-question-compiler",
+      "tex_path": "011-storm-question-compiler/main.tex",
+      "experiment_id": "EXP-NA-011",
+      "builds_on": [
+        "ARTICLE-NA-001",
+        "ARTICLE-NA-002",
+        "ARTICLE-NA-004"
+      ],
+      "readiness_status": "QUARANTINED_NOT_PAPER_CANDIDATE"
+    },
+    {
+      "id": "ARTICLE-NA-012",
+      "title": "Layer-Promotion Error as a Benchmark for Autonomous Research Labs",
+      "slug": "012-layer-promotion-error-benchmark",
+      "tex_path": "012-layer-promotion-error-benchmark/main.tex",
+      "experiment_id": "EXP-NA-012",
+      "builds_on": [
+        "ARTICLE-NA-002",
+        "ARTICLE-NA-006",
+        "ARTICLE-NA-010"
+      ],
+      "readiness_status": "APPROVED_INTERNAL_RESEARCH_PAPER_CYCLE2_NOT_SUBMITTED"
+    },
+    {
+      "id": "ARTICLE-NA-013",
+      "title": "Red-Herring Audits for Symbolic Analogy Discovery in PAGC Research",
+      "slug": "013-red-herring-audit",
+      "tex_path": "013-red-herring-audit/main.tex",
+      "experiment_id": "EXP-NA-013",
+      "builds_on": [
+        "ARTICLE-NA-003",
+        "ARTICLE-NA-004",
+        "ARTICLE-NA-010"
+      ],
+      "readiness_status": "QUARANTINED_NOT_PAPER_CANDIDATE"
+    },
+    {
+      "id": "ARTICLE-NA-014",
+      "title": "Perspective Graphs for Nwagu Aneke Applications: From Source Ledger to Research Map",
+      "slug": "014-perspective-graph",
+      "tex_path": "014-perspective-graph/main.tex",
+      "experiment_id": "EXP-NA-014",
+      "builds_on": [
+        "ARTICLE-NA-001",
+        "ARTICLE-NA-005",
+        "ARTICLE-NA-008"
+      ],
+      "readiness_status": "QUARANTINED_NOT_PAPER_CANDIDATE"
+    },
+    {
+      "id": "ARTICLE-NA-015",
+      "title": "A Source-to-System Transfer Protocol for Layer-Safe Generative Design",
+      "slug": "015-source-to-system-transfer",
+      "tex_path": "015-source-to-system-transfer/main.tex",
+      "experiment_id": "EXP-NA-015",
+      "builds_on": [
+        "ARTICLE-NA-005",
+        "ARTICLE-NA-009",
+        "ARTICLE-NA-010"
+      ],
+      "readiness_status": "QUARANTINED_NOT_PAPER_CANDIDATE"
+    },
+    {
+      "id": "ARTICLE-NA-016",
+      "title": "Evidence-Weighted Design Grammars from a 26 by 8 Source Layer",
+      "slug": "016-evidence-weighted-design-grammar",
+      "tex_path": "016-evidence-weighted-design-grammar/main.tex",
+      "experiment_id": "EXP-NA-016",
+      "builds_on": [
+        "ARTICLE-NA-002",
+        "ARTICLE-NA-003",
+        "ARTICLE-NA-004",
+        "ARTICLE-NA-009",
+        "ARTICLE-NA-010"
+      ],
+      "readiness_status": "QUARANTINED_NOT_PAPER_CANDIDATE"
+    },
+    {
+      "id": "ARTICLE-NA-017",
+      "title": "Authority-Aware Turn Taking for Human-AI Research on Cultural Artifacts",
+      "slug": "017-authority-turn-taking",
+      "tex_path": "017-authority-turn-taking/main.tex",
+      "experiment_id": "EXP-NA-017",
+      "builds_on": [
+        "ARTICLE-NA-007",
+        "ARTICLE-NA-010"
+      ],
+      "readiness_status": "QUARANTINED_NOT_PAPER_CANDIDATE"
+    },
+    {
+      "id": "ARTICLE-NA-018",
+      "title": "Bridging Nwagu Aneke Research to Oroma Without Productizing Unsupported Claims",
+      "slug": "018-oroma-research-bridge",
+      "tex_path": "018-oroma-research-bridge/main.tex",
+      "experiment_id": "EXP-NA-018",
+      "builds_on": [
+        "ARTICLE-NA-010"
+      ],
+      "readiness_status": "QUARANTINED_NOT_PAPER_CANDIDATE"
+    },
+    {
+      "id": "ARTICLE-NA-019",
+      "title": "Recursive Portfolio Pruning for AI-Augmented Research Labs",
+      "slug": "019-recursive-portfolio-pruning",
+      "tex_path": "019-recursive-portfolio-pruning/main.tex",
+      "experiment_id": "EXP-NA-019",
+      "builds_on": [
+        "ARTICLE-NA-001",
+        "ARTICLE-NA-010"
+      ],
+      "readiness_status": "QUARANTINED_NOT_PAPER_CANDIDATE"
+    },
+    {
+      "id": "ARTICLE-NA-020",
+      "title": "The STORM-Etisiobi Accelerator: A Controlled Knowledge-Curation Protocol for Frontier Research",
+      "slug": "020-storm-etisiobi-accelerator",
+      "tex_path": "020-storm-etisiobi-accelerator/main.tex",
+      "experiment_id": "EXP-NA-020",
+      "builds_on": [
+        "ARTICLE-NA-011",
+        "ARTICLE-NA-012",
+        "ARTICLE-NA-013",
+        "ARTICLE-NA-019"
+      ],
+      "readiness_status": "QUARANTINED_NOT_PAPER_CANDIDATE"
+    }
+  ],
+  "arxiv_quality_status": "PARTIAL_INTERNAL_ARXIV_QUALITY_CANDIDATES",
+  "allowed_use": "ARTICLE-NA-012 may be used as an internal paper candidate; remaining quarantined rows remain limited to negative examples, process archaeology, validator hardening, and branch selection."
+}

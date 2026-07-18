@@ -1,0 +1,22 @@
+{
+  "experiment_id": "EXP-NA-006",
+  "canonical_experiment_path": "experiments/EXP-NA-006-unicode-gap-matrix",
+  "generated_at": "2026-07-06T00:00:00+01:00",
+  "decision": "UNICODE_GAP_MATRIX_CREATED_NOT_PROPOSAL_READY",
+  "result_type": "Unicode-readiness gap matrix",
+  "requirements": 12,
+  "status_counts": {
+    "present": 1,
+    "partial": 4,
+    "blocked": 3,
+    "missing": 4
+  },
+  "evidence_files": [
+    "experiments/EXP-NA-006-unicode-gap-matrix/results.json",
+    "experiments/EXP-NA-006-unicode-gap-matrix/analysis.md",
+    "experiments/EXP-NA-006-unicode-gap-matrix/decision.md",
+    "experiments/EXP-NA-006-unicode-gap-matrix/data/unicode_gap_matrix.csv",
+    "experiments/EXP-NA-006-unicode-gap-matrix/data/unicode_gap_matrix.jsonl"
+  ],
+  "claim_boundary": "Article 6 may report a Unicode-readiness gap matrix and negative readiness result. It must not be framed as a Unicode proposal, character repertoire, public glyph corpus, or community-authorized submission package."
+}

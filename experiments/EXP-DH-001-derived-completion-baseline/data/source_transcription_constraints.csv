@@ -1,0 +1,7 @@
+constraint_id,field,required_value,source_basis,violation_if
+DH001-SC-001,printed_consonant_rows,26,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,Any output describes 27 rows as printed or source-observed.
+DH001-SC-002,vowel_modifier_columns,8,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,Any output changes the column count without a new source event.
+DH001-SC-003,source_observed_records,208,research/A_PLUS_LAB_STANDARD.md,Any output describes 216 as source-observed.
+DH001-SC-004,f_v_row_status,combined_printed_row,research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md,Any output treats f and v as separate printed rows.
+DH001-SC-005,derived_completion_status,derived_formal_hypothesis,research/pagc/DERIVED_HYPOTHESIS_CHARTER.md,Any output treats 27 x 8 as historical proof or authority-cleared fact.
+DH001-SC-006,matrix_status,pedagogical_or_formal_representation,research/pagc/primary_sources/nwagu_aneke/SOURCE_AUDIT.md,Any output treats the matrix layout as an inherent source fact without qualification.

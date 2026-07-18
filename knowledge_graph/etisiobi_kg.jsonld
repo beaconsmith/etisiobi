@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "kg": "https://beaconsmith.example/kg/",
+    "name": "http://schema.org/name",
+    "subject": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+      "@type": "@id"
+    },
+    "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate",
+    "object": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#object",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "kg:Etisiobi",
+      "@type": "ResearchLab",
+      "name": "Etisiobi"
+    },
+    {
+      "@id": "kg:NwaguAneke",
+      "@type": "Artifact",
+      "name": "Nwagu Aneke Igbo script"
+    },
+    {
+      "@id": "kg:PAGC",
+      "@type": "ResearchProgram",
+      "name": "PAGC / Formalization Lab"
+    },
+    {
+      "@id": "kg:OGI",
+      "@type": "ResearchProgram",
+      "name": "OGI / Governance Measurement Lab"
+    },
+    {
+      "@id": "kg:ResearchSpine",
+      "@type": "SoftwareSystem",
+      "name": "Research Spine"
+    },
+    {
+      "@id": "kg:ClaimMaturity",
+      "@type": "Method",
+      "name": "C0-C7/CX claim maturity"
+    },
+    {
+      "@id": "kg:edge1",
+      "@type": "Relation",
+      "subject": "kg:Etisiobi",
+      "predicate": "hasProgram",
+      "object": "kg:PAGC"
+    },
+    {
+      "@id": "kg:edge2",
+      "@type": "Relation",
+      "subject": "kg:Etisiobi",
+      "predicate": "hasProgram",
+      "object": "kg:OGI"
+    },
+    {
+      "@id": "kg:edge3",
+      "@type": "Relation",
+      "subject": "kg:PAGC",
+      "predicate": "seededBy",
+      "object": "kg:NwaguAneke"
+    },
+    {
+      "@id": "kg:edge4",
+      "@type": "Relation",
+      "subject": "kg:ResearchSpine",
+      "predicate": "implements",
+      "object": "kg:ClaimMaturity"
+    },
+    {
+      "@id": "kg:BaseModifierCache",
+      "@type": "Dataset",
+      "name": "Base Modifier Cache"
+    },
+    {
+      "@id": "kg:edge-bmc-1",
+      "@type": "Relation",
+      "subject": "kg:Etisiobi",
+      "predicate": "hasDataset",
+      "object": "kg:BaseModifierCache"
+    },
+    {
+      "@id": "kg:edge-bmc-2",
+      "@type": "Relation",
+      "subject": "kg:BaseModifierCache",
+      "predicate": "derivesFrom",
+      "object": "kg:NwaguAneke"
+    }
+  ]
+}

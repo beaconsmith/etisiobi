@@ -1,0 +1,27 @@
+{
+  "experiment_id": "EXP-APP-003",
+  "created_at": "2026-05-28T19:22:53+00:00",
+  "theorem": "Layer-Safety Theorem for PAGC Applications Grammar",
+  "decision": "PROOF_ACCEPTED_WITH_ASSUMPTIONS",
+  "proof_checks": {
+    "unqualified_collision_count": 200,
+    "qualified_token_count": 472,
+    "qualified_unique_count": 472,
+    "duplicate_qualified_ids": [],
+    "source_count": 208,
+    "derived_count": 216,
+    "domain_mapped_count": 48,
+    "forbidden_derived_to_source_rule_present": true,
+    "forbidden_domain_to_source_rule_present": true
+  },
+  "proof_passed": true,
+  "novelty_scope": "Novel inside Etisiobi/PAGC as a formal invariant connecting count-layer evidence, application design grammar, and claim-drift prevention. Not claimed as globally first.",
+  "counterexample": "Unqualified local token IDs collide across source and derived layers, so layer labels or qualified IDs are necessary.",
+  "proved_property": "Under the qualified-ID representation and forbidden-promotion matrix, no derived_fv_split or domain_mapped object can be promoted to source_observed by a valid grammar operation.",
+  "not_proved": [
+    "No proof that PAGC improves governance outcomes.",
+    "No proof that Nwagu Aneke directly encodes governance semantics.",
+    "No proof of E6, universal compression, or glyph-shape grammar.",
+    "No proof of global novelty over all formal-methods literature."
+  ]
+}

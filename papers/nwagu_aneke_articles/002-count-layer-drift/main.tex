@@ -1,0 +1,665 @@
+\documentclass[sigconf,nonacm]{acmart}
+\settopmatter{printacmref=false}
+\setcopyright{none}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\pagestyle{plain}
+\raggedbottom
+
+\acmConference[Manuscript Draft]{Count-Layer Audit Study}{2026}{}
+\acmYear{2026}
+\acmISBN{}
+\acmDOI{}
+
+\title{Count-Layer Drift in Nwagu Aneke: Separating Source Evidence, Derived Orthographic Expansion, and Public Claims}
+\author{Anonymous Author(s)}
+\affiliation{\institution{Independent research manuscript}\country{Nigeria}}
+\email{anonymous@example.invalid}
+
+\begin{abstract}
+Underdocumented scripts are often represented through tables, teaching charts,
+transcriptions, source images, and later analytical normalizations. These
+objects can be useful at the same time that they support different kinds of
+claims. This paper examines the problem through Nwagu Aneke, an Igbo writing
+system whose current working evidence base contains a 26 by 8 source-observed
+table, yielding 208 records, and a 27/216 representation produced only when a
+combined f/v row is split for analysis. The paper defines count-layer drift as
+the error in which a number from one evidentiary layer is repeated as though it
+belonged to another layer. A six-field audit model records quantity, layer,
+source basis, transformation rule, permitted wording, and revision condition.
+Applied to the Nwagu Aneke case, the model preserves 26 by 8 as the present
+source-observed count and treats 27/216 as a derived orthographic expansion.
+The result is a reproducible source-critical boundary for digital-humanities,
+standards-readiness, and computational representations of the script: later
+systems may use a derived f/v view, but they must not report it as the observed
+source inventory.
+\end{abstract}
+
+\keywords{Nwagu Aneke, Igbo writing systems, source criticism, digital humanities, evidence layers, script documentation}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+Digital scholarship on underdocumented scripts depends on acts of
+representation. A manuscript image becomes a crop, a chart becomes a table, a
+row label becomes metadata, a classroom form becomes a teaching interface, and
+an analytical normalization becomes a computational inventory. Each act can be
+useful, but each act can also change the evidentiary status of the object being
+represented. When the change is not recorded, a count can drift. A number that
+belongs to a source table can be repeated as a character repertoire; a
+normalization introduced for analysis can be cited as a historical observation;
+an unresolved chart can become a software inventory.
+
+This paper studies that failure mode through Nwagu Aneke, an Igbo writing
+system discussed in scholarship and public script-status resources
+\cite{azuonye1992,omniglotNwagu,scriptSourceNwagu,sirisNwaguProposal}. The
+current working source layer used here is a 26 by 8 table of row and
+vowel/modifier combinations, for 208 source-observed records. A second number,
+27/216, appears only when a combined f/v row is split as a derived analytical
+operation. Both representations can be useful. They cannot, however, support the
+same claim. The 26 by 8 table describes the present source-observed structure
+used by this study. The 27/216 representation describes a transformation applied
+to that structure. If the transformed representation is later described as the
+source-observed inventory, a derived model has been promoted into a source
+claim.
+
+The research question is: can a small count-layer audit prevent such promotion
+while still allowing derived representations to be used responsibly? The
+hypothesis is that count claims become more reliable when every quantity is
+stored together with its layer, source basis, transformation rule, permitted
+wording, and revision condition. Under that model, the source-observed
+26 by 8 layer and the derived 27/216 f/v expansion can coexist without being
+collapsed into a single inventory claim.
+
+The paper's central result is a source-critical decision rule. In the current
+evidence base, 26 by 8 equals 208 is the source-observed layer. The 27/216
+representation is permitted only as a derived f/v expansion. A manuscript,
+dataset, teaching tool, tokenizer, standards note, or visualization that uses
+27/216 must label it as derived. A public statement that treats 27/216 as the
+observed source inventory fails the audit. This result does not settle the full
+history of Nwagu Aneke, produce a public glyph corpus, or establish a Unicode
+repertoire. It supplies a narrower but important control: which count may be
+used for which kind of claim under the evidence now available.
+
+The contribution matters beyond this single case because count-layer drift is a
+general risk in cultural-heritage computing. Digital-humanities standards can
+represent source witnesses, annotations, entities, derivations, and research
+objects \cite{teiP5Glyphs,iiifPresentation3,w3cAnnotationModel,w3cAnnotationVocab,w3cProvO,rocrate12,cidocCrm,datacite45}.
+FAIR and CARE principles clarify that preservation, reuse, and authority are
+not the same problem \cite{wilkinson2016fair,carroll2020care}. Unicode guidance
+distinguishes script interest from the evidentiary requirements for encoding
+\cite{unicodeAfricanScripts2023,unicode17CoreSpec,unicodeProposals,unicodeRoadmaps,unicodePipeline2026,seiProposalTips}.
+Tokenization and claim-verification research show that representational units
+and fluent summaries can affect downstream conclusions
+\cite{sennrich2016bpe,kudo2018sentencepiece,bostrom2020bytepair,rust2021tokenization,wadden2020scifact,gao2023alce}.
+What these literatures do not automatically supply is the local source-critical
+judgment that tells a project whether a particular count is observed, derived,
+speculative, blocked, or revised.
+
+\section{Related Work}
+The source anchor for this study is Azuonye's account of the Nwagu Aneke script,
+together with public script-status resources that identify the script and its
+relationship to broader discussions of African writing systems
+\cite{azuonye1992,omniglotNwagu,scriptSourceNwagu,sirisNwaguProposal}. These
+sources are sufficient to motivate a source-critical and digital-humanities
+study. They are not, by themselves, sufficient to settle a public character
+repertoire, a representative glyph set, or an authority decision. That
+distinction is precisely why a count-layer audit is needed.
+
+Digital-humanities infrastructure provides mature tools for describing cultural
+materials while preserving the fact that some representations are provisional.
+TEI can record
+characters, glyphs, uncertain readings, and editorial practice
+\cite{teiP5Glyphs}. IIIF can identify canvases and regions in image-based
+collections \cite{iiifPresentation3}. The Web Annotation Data Model and
+Vocabulary can attach assertions, comments, and classifications to source
+targets \cite{w3cAnnotationModel,w3cAnnotationVocab}. PROV-O can represent
+entities, activities, agents, and derivations \cite{w3cProvO}. RO-Crate and
+DataCite support research-object packaging and citation
+\cite{rocrate12,datacite45}. CIDOC CRM provides a cultural-heritage ontology for
+objects, events, actors, and interpretations \cite{cidocCrm}. These standards
+are important because they can carry the result of a count-layer audit. They do
+not perform the audit automatically.
+
+Responsible data governance is also relevant. FAIR principles emphasize
+findability, accessibility, interoperability, and reuse
+\cite{wilkinson2016fair}. CARE principles emphasize collective benefit,
+authority to control, responsibility, and ethics \cite{carroll2020care}. For an
+Igbo writing-system artifact, those two framings must be read together. A table
+may be technically reusable while still requiring source review, rights review,
+and community authority review before images, examples, or representative forms
+are circulated. The count-layer audit therefore treats rights and authority as
+part of the evidentiary state, not as a decorative limitation at the end of the
+paper.
+
+Standards-facing work adds a second layer of caution. Unicode documentation and
+Script Encoding Working Group guidance distinguish scripts, characters, glyphs,
+properties, examples, names, fonts, proposal documents, and roadmaps
+\cite{unicodeAfricanScripts2023,unicode17CoreSpec,unicodeProposals,unicodeRoadmaps,unicodePipeline2026,seiProposalTips}.
+An underdocumented script can be important, named, and worth preserving while
+still lacking the evidence required for a formal encoding proposal. The
+Nwagu Aneke case illustrates why. A 26 by 8 source table can support a
+readiness audit and source-critical discussion, but it cannot be treated as a
+completed proposal dossier. A derived f/v expansion can support modeling, but it
+cannot stand in for observed source evidence.
+
+Computational representation research clarifies the downstream stakes. Subword
+tokenization work shows that unit choices affect language models and later
+systems \cite{sennrich2016bpe,kudo2018sentencepiece,bostrom2020bytepair,rust2021tokenization}.
+Scientific claim-verification and citation-grounded generation research show
+that text can be fluent while misrepresenting what evidence supports
+\cite{wadden2020scifact,gao2023alce}. The same risk appears in script
+documentation. A table that has been normalized for analysis can be rendered
+cleanly, cited smoothly, and used in software while no longer preserving the
+source layer from which it came. Count-layer auditing is one way to make that
+representational shift visible.
+
+\section{Materials and Evidence}
+The material examined in this paper is a text-based source and analysis layer
+for Nwagu Aneke. The source-observed structure is treated as 26 rows by
+8 vowel/modifier columns, yielding 208 records. The f/v expansion is a derived
+operation in which a combined f/v row is separated into two analytical rows,
+producing 27 rows and 216 cells. The difference between those numbers is not a
+minor notation issue. It marks the difference between a source-observed table
+and a transformation applied to that table.
+
+The paper uses three kinds of evidence. The first is source evidence: the local
+record of the 26 by 8 table and the scholarly or public sources that identify
+Nwagu Aneke. The second is transformation evidence: the operation that produces
+the 27/216 representation by splitting f/v. The third is claim-boundary
+evidence: standards, provenance, annotation, and responsible-data literature
+that explains why a representation must preserve its evidence layer. The paper
+does not depend on public reproduction of manuscript images or glyph crops. It
+does not require an implementation artifact such as a font or keyboard. Those
+would be separate evidentiary objects.
+
+Table~\ref{tab:count_layers} summarizes the count layers examined here. The
+table is deliberately simple because the main issue is not arithmetic. The main
+issue is whether the arithmetic is attached to the correct kind of claim.
+
+\begin{table}[t]
+\caption{Count layers used in the audit}
+\label{tab:count_layers}
+\begin{tabular}{p{0.28\columnwidth}p{0.22\columnwidth}p{0.40\columnwidth}}
+\toprule
+Layer & Quantity & Permitted interpretation \\
+\midrule
+Source-observed table & 26 by 8 = 208 & Current table of row and vowel/modifier records \\
+Derived f/v expansion & 27 by 8 = 216 & Analytical view produced by splitting a combined f/v row \\
+Standards repertoire & unresolved & Requires separate character, glyph, usage, and authority evidence \\
+Public data release & unresolved & Requires rights and source-access decisions \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Two boundaries follow from the materials. First, a derived count can be useful
+without being source-observed. The 27/216 representation may help compare
+orthographic patterns, build teaching views, test layer-preserving software, or
+construct a normalized analytical table. Second, usefulness is not the same as
+evidentiary status. A source-critical paper must not cite the derived count as
+the observed inventory simply because it is tidier or more convenient for a
+downstream task.
+
+\section{Method}
+The method is a six-field count-layer audit. Each count claim is represented by
+the following fields: quantity, evidence layer, source basis, transformation
+rule, permitted wording, and revision condition. A count is acceptable only when
+all six fields can be stated. If a count has a quantity but no layer, it is
+ambiguous. If it has a layer but no source basis, it is unsupported. If it has a
+transformation rule but the wording hides that transformation, it risks drift.
+If it has no revision condition, later evidence cannot correct it cleanly.
+
+The evidence layers used here are source-observed, derived, standards-facing,
+speculative, and blocked. Source-observed counts are those supported by the
+present table or source record under discussion. Derived counts are
+transformations made from source-observed material. Standards-facing counts are
+candidate units for character encoding or interchange and require a different
+evidentiary package. Speculative counts may motivate future work but cannot be
+reported as results. Blocked counts are those for which the relevant evidence
+cannot yet be inspected, released, or authorized.
+
+The audit proceeds in four passes. The first pass identifies every count in the
+manuscript or dataset. In this case the relevant counts are 26, 8, 208, 27, and
+216. The second pass assigns each count to a layer. The third pass writes
+permitted and forbidden wording. For example, ``the current source-observed
+table has 26 rows by 8 columns'' is permitted under the present evidence base;
+``the script has 216 source-observed signs'' is not. The fourth pass states the
+revision condition that would change the result. A reviewed source record could
+alter the source table. A separate standards analysis could propose different
+characters. A rights decision could allow public examples. Each change would
+affect a specific layer rather than silently rewriting all layers at once.
+
+The method includes negative controls. The primary negative control is any
+sentence that describes 27/216 as source-observed. A second negative control is
+any table caption, abstract sentence, or conclusion sentence that reports only
+the derived number without naming its transformation. A third negative control
+is any standards-facing statement that treats the table as a completed Unicode
+repertoire. A fourth negative control is any public-data statement that implies
+source images or glyph crops may be released without rights and authority
+review. These controls are intentionally linguistic because drift often appears
+first in prose before it appears in data structures.
+
+The method can be represented as a rule:
+
+\begin{quote}
+A count may be reused only if its evidence layer and transformation rule remain
+attached to the statement in which the count appears.
+\end{quote}
+
+The rule is stricter than ordinary citation checking. A sentence can cite a real
+source and still promote the wrong layer. It is also stricter than ordinary
+format checking. A formatted table can be beautiful and still wrong if it
+collapses source and derived counts. The audit therefore asks whether the
+claim, not just the citation or format, has preserved the evidence layer.
+
+\section{Results}
+The audit produces three results. First, the present source-observed count is
+26 by 8, yielding 208 records. This statement is a source-layer statement. It is
+the appropriate basis for source-critical discussion under the current evidence
+base.
+
+Second, the 27/216 representation is derived. It is produced when the combined
+f/v row is split into separate analytical rows. The f/v split may be useful for
+orthographic modeling, teaching, search, comparison, or later computational
+experiments, but it does not change the source-observed layer. The derived
+representation must therefore be written as derived wherever it appears.
+
+Third, the audit blocks three stronger moves. It blocks a source claim that
+reports 27/216 as observed. It blocks a standards claim that treats either count
+as a completed character repertoire. It blocks a public-data claim that implies
+source images, manuscript examples, representative glyphs, or community
+authority have been cleared for release. These blocks are not failures of the
+audit. They are the audit's main value: they prevent a useful representation
+from becoming a false foundation.
+
+Table~\ref{tab:permitted_wording} gives examples of the wording distinction.
+The left column contains formulations that preserve the layer. The right column
+contains formulations that fail the audit.
+
+\begin{table*}[t]
+\caption{Permitted and failed wording under the count-layer audit}
+\label{tab:permitted_wording}
+\begin{tabular}{p{0.46\textwidth}p{0.46\textwidth}}
+\toprule
+Permitted wording & Failed wording \\
+\midrule
+The current source-observed table has 26 rows by 8 vowel/modifier columns. &
+Nwagu Aneke has a 216-sign source inventory. \\
+The 27/216 representation is produced by a derived f/v split. &
+The source table contains 27 rows and 216 observed cells. \\
+The f/v split may be used as a labeled analytical view. &
+The f/v split proves a completed repertoire. \\
+The evidence supports a source-critical count audit. &
+The evidence supplies a Unicode proposal or public glyph corpus. \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+The result is narrow but consequential. It changes what later work may safely
+say. A digital edition can show the 26 by 8 table as the present source layer
+and offer a derived f/v view as a separate mode. A teaching interface can use
+the split only if learners can still see that it is derived. A tokenizer
+experiment can use the derived view only if its evaluation reports the
+transformation. A readiness matrix can cite the 26 by 8 table as evidence for
+discussion while reserving repertoire, glyph, name, and implementation claims
+for later work.
+
+\section{The f/v Hinge as a Case Study}
+The f/v hinge is the most important derived operation in the present case
+because it produces the cleanest alternative count. A combined source row can
+be handled in at least three ways. It can remain combined, preserving the
+source-observed table. It can be split for analytical purposes, producing a
+derived view. Or it can be mistakenly treated as evidence that the source table
+itself had separate f and v rows. The first two uses are legitimate under the
+audit. The third is the drift error.
+
+The hinge is attractive because it regularizes the table. A 27 by 8 view can
+look more complete, more computationally convenient, and more compatible with
+modern expectations about consonant rows. That attractiveness is exactly why it
+needs a label. If a derived representation is cleaner than the source
+representation, downstream systems will tend to prefer it. Without a layer
+label, preference can become evidence. A teaching tool may present only the
+cleaner view. A dataset may store only the derived rows. A later paper may cite
+the derived total as though it were the original count.
+
+The audit does not reject the f/v split. Rejecting every derived representation
+would make useful analysis impossible. Instead, the audit asks the split to
+carry its own conditions. The transformation is allowed when the combined row is
+visible or recoverable, when the split is named, when the resulting count is
+described as derived, and when no standards or source claim is inferred from the
+derived count. A software system could satisfy this condition by storing a
+``source row'' field, a ``derived row'' field, and a ``transformation'' field.
+A manuscript can satisfy it by stating that 27/216 is an analytical expansion
+from the combined f/v row.
+
+This case study also shows why the audit belongs in digital humanities rather
+than only in script encoding. The problem appears before formal encoding work
+begins. It appears when a scholar writes a table caption, when a database schema
+chooses a primary key, when an interface chooses a default view, and when a
+paper compresses a layered evidence situation into one sentence. The f/v hinge
+therefore functions as a small but concrete test of whether a representation
+preserves provenance.
+
+\section{Discussion}
+The count-layer audit reframes the Nwagu Aneke count question. The issue is not
+which number should win. The issue is which number answers which question. The
+26 by 8 count answers the source-layer question under the present evidence
+base. The 27/216 count answers a derived analytical question under the f/v
+split. A future Unicode or standards count would answer a different question
+and would require evidence that this paper does not claim to provide.
+
+This reframing has practical consequences for scholarship. A source-critical
+study should lead with the source-observed count. A standards-readiness study
+should separate identity, repertoire, glyph evidence, names, usage, authority,
+implementation, and proposal documentation. A computational study should state
+whether it uses source or derived units. A cultural-heritage data model should
+store the transformation rather than only the resulting integer. The same
+source object can support all these studies only if its layers remain visible.
+
+The audit also changes how negative results are treated. Blocking a 27/216
+source claim is not a retreat from research. It is a positive result about the
+limits of the current evidence. It prevents a downstream false premise. It also
+makes future revision easier. If a later source review shows that separate f
+and v rows are source-observed, the audit can be updated by changing the source
+basis and revision history. If later review confirms that the split is derived,
+the existing distinction becomes stronger. In both cases, the layer model gives
+future evidence a place to land.
+
+The broader implication is that cultural-heritage computing needs epistemic
+typing. Metadata schemas and annotation models can store many things, but the
+project must still decide whether an item is a source observation, editorial
+normalization, analytical model, hypothesis, or blocked claim. When that
+decision is left implicit, polished outputs can hide weak evidence. The risk is
+heightened in AI-assisted writing and software generation, where systems can
+produce coherent prose, tables, and interfaces from partially specified
+materials. A clean output is not the same as a clean evidence chain.
+
+\section{Implications for Standards and Encoding Discussion}
+The audit should not be mistaken for a Unicode proposal. It is a pre-proposal
+discipline for keeping the evidence legible. Unicode work requires character
+identity, representative glyphs, names, properties, usage examples, stability,
+implementation considerations, fonts, licensing, and proposal documentation
+\cite{unicode17CoreSpec,unicodeProposals,unicodeRoadmaps,unicodePipeline2026,seiProposalTips}.
+The present count-layer result supplies only one part of that future work: a
+way to prevent a source table and a derived analytical view from being
+confused.
+
+That pre-proposal role is still useful. Without a count-layer audit, a future
+standards discussion could begin from the wrong premise. It could mistake 216
+derived cells for 216 observed source units. It could use a derived f/v split as
+evidence for character separation before character-glyph analysis has been
+completed. It could cite a source table while actually relying on an editorial
+normalization. The audit prevents those moves by forcing every count to carry
+its source basis and transformation rule.
+
+The audit also helps identify the next standards-facing evidence. A future
+readiness study would need source transcription review, public examples whose
+rights are clear, representative glyph discussion, character naming principles,
+directionality confirmation, punctuation and number evidence, usage examples,
+community authority review, and implementation artifacts. Some of those items
+are technical. Others are philological, legal, or social. Treating them as one
+generic readiness problem would hide the work that remains.
+
+\section{Implications for Digital Editions and Data Models}
+A digital edition can implement the count-layer result directly. It can store
+source rows and derived rows separately. It can show the 26 by 8 table as a
+source view and the 27/216 f/v split as an analytical view. It can expose the
+transformation rule and preserve links from derived cells back to source rows.
+It can keep rights-sensitive source images or examples outside public release
+until permissions and authority decisions are complete.
+
+The same pattern applies to TEI, IIIF, Web Annotation, PROV-O, RO-Crate,
+DataCite, and CIDOC CRM. TEI can distinguish between a source glyph occurrence,
+an editorial label, and a derived representation. IIIF can identify source
+regions when source images are available for the relevant use. Web Annotation
+can attach a derived-cell assertion to a source target. PROV-O can record the
+activity that split f/v. RO-Crate can package the audit with its source and
+derived objects. DataCite can describe a citable release if one is approved.
+CIDOC CRM can represent the cultural object, interpretation event, and actors.
+The count-layer audit supplies the local epistemic decision these standards
+would carry.
+
+The practical design rule is simple: no interface should make the derived view
+easier to see than the source relationship that produced it. If the 27/216 view
+is displayed, the combined source row and the split operation should remain
+recoverable. If a dataset exports derived rows, it should export the
+transformation metadata. If a figure shows a normalized grid, its caption should
+state that it is normalized. These design choices prevent visual regularity
+from becoming false evidence.
+
+\section{Implications for Computational Experiments}
+Computational experiments often need clean units. A tokenizer baseline, search
+index, OCR label set, or pedagogical interface may prefer the derived f/v view
+because it gives a more regular structure. The audit does not forbid such use.
+It requires the experiment to report what it used. A model trained on the source
+view and a model trained on the derived view are not using the same evidence
+layer. Their results should not be compared without naming that difference.
+
+The count-layer distinction also affects evaluation. If a system emits 216 as
+the source inventory, it has made a layer-promotion error. If it emits 216 as a
+derived f/v analytical view and preserves the 26 by 8 source relationship, it
+has preserved the evidence layer. A useful benchmark could therefore measure
+promotion-error precision and recall, not just fluency or formatting. The
+negative examples would include sentences and tables that look plausible while
+promoting the derived count.
+
+This point connects script documentation to broader concerns in language
+technology. Unit choices shape downstream behavior. In subword tokenization,
+the choice of segmentation affects model performance and representation
+\cite{sennrich2016bpe,kudo2018sentencepiece,bostrom2020bytepair,rust2021tokenization}.
+In citation-grounded generation, the presence of a citation does not guarantee
+that the cited evidence supports the exact claim
+\cite{wadden2020scifact,gao2023alce}. In an underdocumented script, the
+presence of a clean count does not guarantee that the count belongs to the
+source layer. The audit makes that distinction testable.
+
+\section{Error Analysis}
+The most likely error is not arithmetic. All relevant quantities are simple:
+26 rows, 8 columns, 208 source-observed records, 27 derived rows, and 216 derived
+cells. The difficult question is how those quantities travel through prose,
+tables, filenames, interfaces, and later systems. Count-layer drift usually
+appears when a correct number is moved into the wrong sentence.
+
+The first error class is title and abstract compression. A careful methods
+section may distinguish the source table from the derived f/v expansion, while
+a title, abstract, or conclusion reports only the cleaner derived total. This is
+dangerous because many readers encounter only the compressed surfaces of a
+paper. A safe compressed statement says that the present source table has
+208 records and that 216 is a derived f/v view. An unsafe compressed statement
+says that the script has 216 signs. The latter may be shorter, but it changes
+the evidence layer.
+
+The second error class is table normalization. A normalized table can be easier
+to read than the source table, especially when a derived f/v split makes the row
+structure more regular. That visual improvement can mislead readers into
+treating the normalized table as the observed one. The audit therefore requires
+caption-level disclosure. A normalized table should state which source row was
+split, what new rows were produced, and whether the source table remains
+available for inspection. If the normalized view is the only view shown, the
+paper should treat it as an analytical display rather than as a source record.
+
+The third error class is data export loss. A spreadsheet or JSON export may
+store derived rows without carrying the transformation metadata. Once the
+transformation is lost, later tools have no way to know that 216 cells came from
+a split. This error can persist even if the manuscript prose is careful. A data
+model should therefore store at least four fields: source row identifier,
+source-layer count, derived-row label, and transformation rule. If a data model
+cannot store those fields, it should not be used as the authoritative carrier of
+the result.
+
+The fourth error class is citation displacement. A statement may cite Azuonye or
+public script metadata while actually depending on a later analytical
+transformation. The citation is real, but the claim is misplaced. This is the
+same structural problem studied in claim-verification work: evidence can be
+present while the exact claim outruns it \cite{wadden2020scifact,gao2023alce}.
+For this paper, the remedy is to cite source identity sources for source
+identity and transformation records for derived counts. A source citation alone
+does not authorize the derived layer.
+
+The fifth error class is standards leakage. Unicode and script-encoding
+language is precise. Terms such as character, glyph, representative form,
+property, repertoire, proposal, and implementation have consequences
+\cite{unicode17CoreSpec,unicodeProposals}. A count-layer audit cannot turn a
+source table into those objects. If standards language is used, it should be
+used to identify missing work: character-glyph analysis, names, examples,
+properties, rights, authority, and implementation evidence.
+
+\section{Alternative Explanations}
+One alternative explanation is that the difference between 208 and 216 is merely
+a notation problem. On this view, a footnote could state that the numbers use
+different conventions, and the rest of the paper could proceed with whichever
+number is convenient. This paper rejects that approach because conventions
+become claims when they enter titles, tables, datasets, and software. A
+footnote is too weak if the exported artifact or default interface preserves
+only the derived count. The layer must be represented structurally.
+
+A second alternative explanation is that ordinary provenance metadata already
+solves the problem. Provenance is necessary, but it is not sufficient. PROV-O
+can record that a derived table was generated from a source table
+\cite{w3cProvO}; RO-Crate can package both objects \cite{rocrate12}; TEI can
+represent editorial choices \cite{teiP5Glyphs}. Those systems need the local
+decision supplied by the audit: which count is observed, which count is
+derived, and which public statements are permitted. Without that decision,
+provenance machinery can faithfully preserve a mistaken claim.
+
+A third alternative explanation is that the derived f/v split should simply be
+discarded. That would be too conservative. Derived representations are often
+valuable. They can support teaching, comparison, software tests, and
+normalization. The problem is not derivation; the problem is unmarked
+derivation. The audit preserves the useful derived view while preventing it
+from becoming the source layer.
+
+A fourth alternative explanation is that the evidence is too incomplete for any
+paper. This objection is partly right and partly wrong. The evidence is too
+incomplete for a repertoire proposal, public glyph corpus, or definitive
+history of the script. It is not too incomplete for a source-critical method
+paper about how counts should be typed. In fact, the incompleteness is why the
+method is needed. A complete, rights-cleared, community-reviewed edition would
+reduce the risk studied here; a partial evidence base makes the risk visible.
+
+\section{Reviewer Objections}
+A reviewer may object that the result is small. The response is that small
+source-critical controls can have large downstream effects. If a derived count
+is promoted early, later software, articles, and teaching materials may inherit
+the mistake. Preventing one false foundation claim is a legitimate result when
+the object is culturally significant and underdocumented.
+
+A reviewer may object that the paper does not show enough primary source
+material. That objection identifies a real limitation. The paper is not a
+source-image edition. Its claim is about the relationship between a stated
+source layer and a stated derived layer. If a future venue requires public
+source images or glyph crops, rights review and source access must come first.
+The present argument remains inspectable as a text-based layer audit, but it
+does not substitute for image-based philology.
+
+A reviewer may object that the f/v split requires linguistic or orthographic
+analysis beyond the scope of a count audit. That is also fair. This paper does
+not decide the full linguistic status of f and v in Nwagu Aneke. It decides the
+status of the split as used in the current representation. Under the present
+evidence base, the split is derived. A later linguistic or source review could
+revise that status. The audit is designed so that such revision would change a
+specific field rather than the whole paper silently.
+
+A reviewer may object that digital-humanities standards already allow
+uncertainty, so a new audit model is unnecessary. The response is that this
+paper is not proposing a replacement standard. It is proposing a source-critical
+decision that existing standards can carry. The standards answer how a decision
+can be represented; the audit answers what the decision currently is.
+
+\section{Future Evidence Work}
+The next evidence task is source transcription review. A reviewer should inspect
+the row structure, column structure, and combined f/v row against the source
+dossier. The output should not be a polished paragraph. It should be a
+disagreement matrix that records stable rows, uncertain rows, missing evidence,
+and any row or column whose status changes under review.
+
+The second task is rights and authority review. If future work needs to show
+source images, glyph crops, or examples, it must establish what can be shown,
+under what conditions, and with whose authority. A count-layer audit can guide
+that work, but it cannot authorize public release. Rights and community
+authority remain separate evidence categories.
+
+The third task is structured implementation. The six-field audit model should be
+encoded in a small machine-readable form: quantity, layer, source basis,
+transformation rule, permitted wording, and revision condition. That form could
+then be tested in TEI, JSON-LD, RO-Crate, or a relational schema. The test would
+ask whether the model can export both source and derived views without losing
+the transformation.
+
+The fourth task is a promotion-error benchmark. Given a set of source-layer and
+derived-layer statements, a system should identify whether a sentence preserves
+or promotes the layer. The metric should report false negatives for dangerous
+promotions and false positives for legitimate derived uses. Such a benchmark
+would connect this source-critical paper to broader work on claim verification,
+citation-grounded generation, and reliable computational representation.
+
+\section{Limitations}
+The audit is limited by the current evidence base. It accepts 26 by 8 as the
+present source-observed layer for the purpose of this study, but future source
+transcription review could revise rows, columns, readings, or the status of the
+combined f/v row. The paper therefore does not claim a final critical edition
+or a complete glyph corpus. It reports a layer decision under the evidence now
+available.
+
+The paper is also limited by its text-only scope. It does not reproduce source
+images, glyph crops, manuscript examples, or a public dataset. Rights review
+remains necessary before any public source-image or example release. Community
+authority review remains necessary before stronger public representation claims
+are made. These limitations are not peripheral. They define what kind of claim
+the audit can responsibly support.
+
+The six-field model is intentionally lightweight. It is sufficient for the
+count problem studied here, but a full digital edition or standards dossier
+would require more detailed metadata, source links, uncertainty measures,
+rights statements, and authority records. A future version could formalize the
+model in TEI, PROV-O, RO-Crate, or another structured format. The present paper
+keeps the model small so that the source/derived distinction remains inspectable
+without specialized software.
+
+Finally, the audit does not decide whether the derived f/v split is
+orthographically, pedagogically, or computationally superior. It only decides
+how that split must be described if it is used. A future study could compare
+teaching outcomes, search behavior, tokenizer coverage, or reader
+interpretation under source and derived views. Such a study would need its own
+data, methods, and ethics review.
+
+\section{Reproducibility}
+The reported result can be reproduced by checking five steps. First, identify
+the current source-observed structure used by the study: 26 rows by
+8 vowel/modifier columns, for 208 records. Second, identify the derived
+operation: splitting a combined f/v row into separate analytical rows, yielding
+27 rows and 216 cells. Third, inspect the manuscript for any sentence, caption,
+or table that reports 27/216 as source-observed. Fourth, check that standards,
+encoding, glyph, public-data, and authority claims are not inferred from either
+count. Fifth, record the revision condition: if future source transcription
+review changes the source table or the f/v interpretation, the count-layer
+ledger and manuscript must change together.
+
+A second reviewer can reproduce the standards-facing conclusion by comparing
+the audit with Unicode and Script Encoding Working Group requirements
+\cite{unicode17CoreSpec,unicodeProposals,unicodeRoadmaps,unicodePipeline2026,seiProposalTips}.
+The count-layer audit does not supply representative glyphs, character names,
+usage examples, implementation evidence, or a proposal dossier. It supplies a
+source/derived boundary that such future work must preserve.
+
+A third reviewer can reproduce the digital-humanities conclusion by asking how
+the result would be represented in TEI, IIIF, Web Annotation, PROV-O, RO-Crate,
+DataCite, or CIDOC CRM. In each case, the answer should preserve the
+transformation from source layer to derived view rather than storing only a
+single preferred count. If a representation cannot preserve that distinction,
+it is not an adequate carrier for the result.
+
+\section{Conclusion}
+The Nwagu Aneke count problem is not resolved by choosing one attractive number.
+It is resolved by assigning each number to the evidence layer it can support.
+Under the current evidence base, the source-observed table is 26 by 8, yielding
+208 records. The 27/216 representation is a derived f/v expansion. That
+distinction lets digital-humanities, standards-readiness, and computational
+work proceed without turning a useful analytical view into a false source
+claim. The next scholarly work is source transcription review, rights review,
+authority review, and more detailed representation of the ledger in a format
+that preserves the same layer distinction.
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{../references}
+\end{document}

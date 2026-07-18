@@ -1,0 +1,14 @@
+paper: community-os-pilot
+status: blocked
+last_checked: 2026-04-24
+foundational_sources: partial
+regional_sources: fail
+methods_anchor: pass
+contradiction_coverage: partial
+thesis_clarity: partial
+reviewer_risk_below_threshold: fail
+blocking_reasons:
+  - platform/artifact evidence has not been audited
+  - no regional civic-tech evaluation sources are visible
+  - paper may collapse into engineering report without design-theory contribution
+promotion_condition: promote only after artifact evidence exists and claim boundaries are fixed

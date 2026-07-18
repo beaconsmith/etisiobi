@@ -1,0 +1,43 @@
+{
+  "checklist_id": "SWH-NO-IDENTIFIER-CHECKLIST-001",
+  "experiment_id": "EXP-FRONTIER-011",
+  "atlas_id": "ATLAS-0043",
+  "status": "not_ready_for_archive_action",
+  "claim_ceiling": "software_provenance_planning_not_archive_action",
+  "all_items_required_before_archive_action": true,
+  "items": [
+    {
+      "item_id": "PUBLIC_RELEASE_APPROVED",
+      "current_status": "not_satisfied",
+      "required_evidence": "explicit public release approval naming repository and archive scope"
+    },
+    {
+      "item_id": "REPOSITORY_BOUNDARY_REVIEWED",
+      "current_status": "not_satisfied",
+      "required_evidence": "reviewed public software package boundary with included and excluded paths"
+    },
+    {
+      "item_id": "RIGHTS_AUTHORITY_REVIEWED",
+      "current_status": "not_satisfied",
+      "required_evidence": "rights and authority reviewer rows with no blocking issues"
+    },
+    {
+      "item_id": "RESTRICTED_EXCLUSION_VALIDATED",
+      "current_status": "not_satisfied",
+      "required_evidence": "validator output proving source images restricted manuscript material and private data are excluded"
+    },
+    {
+      "item_id": "ARCHIVE_ACTION_APPROVED",
+      "current_status": "not_satisfied",
+      "required_evidence": "explicit user/lab approval naming allowed Software Heritage action and identifier handling"
+    }
+  ],
+  "forbidden_current_actions": [
+    "request archive save",
+    "claim archive identifier",
+    "deposit repository",
+    "publish or push data",
+    "include restricted source material",
+    "claim release readiness"
+  ]
+}

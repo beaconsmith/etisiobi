@@ -1,0 +1,42 @@
+{
+  "run_id": "RUN-APPROVED-20260621-144202",
+  "generated_at": "2026-06-21T14:42:02+01:00",
+  "status": "APPROVED_PAPER_LOOP_CONTINUE",
+  "approved_count": 2,
+  "target": 10,
+  "git": {
+    "branch": "reset/public-truth-v1",
+    "commit": "58d3f34"
+  },
+  "selected_batch": [
+    {
+      "id": "ARTICLE-NA-005",
+      "title": "A TEI, IIIF, and Web Annotation Bridge for an Unencoded African Syllabary",
+      "slug": "005-tei-iiif-critical-edition",
+      "tex_path": "005-tei-iiif-critical-edition/main.tex",
+      "experiment_id": "EXP-NA-005",
+      "benchmark_task_id": "NA-BENCH-004",
+      "readiness_status": "TARGETED_HUMAN_REVIEW_DRAFT_NOT_SUBMISSION_READY",
+      "approval_loop_score": 42.0,
+      "score_reasons": [
+        "portfolio_priority:24",
+        "blocker_count_adjusted:18"
+      ]
+    },
+    {
+      "id": "ARTICLE-NA-009",
+      "title": "Source-Layer and Derived-Layer Tokenizers for Igbo: A Bounded Nwagu Aneke Baseline",
+      "slug": "009-igbo-tokenization",
+      "tex_path": "009-igbo-tokenization/main.tex",
+      "experiment_id": "EXP-NA-009",
+      "benchmark_task_id": "NA-BENCH-008",
+      "readiness_status": "TARGETED_HUMAN_REVIEW_DRAFT_NOT_SUBMISSION_READY",
+      "approval_loop_score": 40.0,
+      "score_reasons": [
+        "portfolio_priority:22",
+        "blocker_count_adjusted:18"
+      ]
+    }
+  ],
+  "next_action": "harden selected batch; do not mark approved until validator passes"
+}

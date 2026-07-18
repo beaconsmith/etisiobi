@@ -1,0 +1,1 @@
+python scripts/run_nwagu_article_experiments.py

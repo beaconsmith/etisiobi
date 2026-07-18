@@ -1,0 +1,13 @@
+{
+  "goal_id": "GOAL-003",
+  "decision": "CLAIM_GATE_COMPLETED_CORE_BMC_CLAIMS_SCOPED",
+  "summary": {
+    "READY": 2,
+    "REWRITE_AS_LIMITATION": 3,
+    "REMOVE": 1,
+    "OUT_OF_SCOPE_FOR_BMC": 3
+  },
+  "claims_checked": 9,
+  "bmc_relevant_claims": 6,
+  "output": "corpus/bmc_claim_gate.jsonl"
+}

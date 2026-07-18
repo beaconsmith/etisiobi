@@ -1,0 +1,6 @@
+review_role,question_id,question,current_status,required_before
+repository_boundary_reviewer,RBR-001,Does the candidate inventory include only non-sensitive software and metadata,unanswered,repository_boundary_decision
+rights_authority_reviewer,RAR-001,Do any candidate files need rights authority or community approval before public packaging,unanswered,repository_boundary_decision
+source_dossier_reviewer,SDR-001,Do any candidate files expose raw source content source images or source-only claims,unanswered,repository_boundary_decision
+preservation_infrastructure_reviewer,PIR-001,Are the candidate files technically suitable for future software provenance without requesting archive action now,unanswered,repository_boundary_decision
+data_protection_reviewer,DPR-001,Do candidate files exclude private data contact records and human response data,unanswered,repository_boundary_decision

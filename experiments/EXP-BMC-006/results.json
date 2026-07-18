@@ -1,0 +1,10 @@
+{
+  "goal_id": "GOAL-006",
+  "decision": "CERTAINTY_MODEL_COMPLETED_WITH_PUBLICATION_BLOCKERS",
+  "records": 208,
+  "average_certainty": 0.5922,
+  "min_certainty": 0.5922,
+  "max_certainty": 0.5922,
+  "safe_claim_level": "row_vowel_index_only",
+  "blocked_claim_level": "glyph_shape_or_publication_ready_claim"
+}

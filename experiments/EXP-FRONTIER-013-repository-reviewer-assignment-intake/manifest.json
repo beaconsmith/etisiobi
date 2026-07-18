@@ -1,0 +1,44 @@
+{
+  "experiment_id": "EXP-FRONTIER-013",
+  "atlas_id": "ATLAS-0043",
+  "status": "REPOSITORY_REVIEWER_ASSIGNMENT_INTAKE_READY_NO_ASSIGNMENTS",
+  "decision": "prepare_assignment_and_adjudication_intake_without_contact_or_approval",
+  "claim_ceiling": "reviewer_assignment_intake_not_review_completion",
+  "local_context": [
+    "experiments/EXP-FRONTIER-012-repository-boundary-review/manifest.json",
+    "experiments/EXP-FRONTIER-012-repository-boundary-review/reviewer_questions.csv",
+    "experiments/EXP-FRONTIER-012-repository-boundary-review/repository_asset_inventory.csv",
+    "experiments/EXP-FRONTIER-012-repository-boundary-review/excluded_repository_paths.csv",
+    "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/contact_approval/contact_approval_manifest.json",
+    "experiments/EXP-FRONTIER-011-software-heritage-no-identifier-decision/manifest.json"
+  ],
+  "external_actions_taken": [],
+  "dependencies_installed": false,
+  "reviewer_identities_recorded": false,
+  "private_contact_data_recorded": false,
+  "invitations_sent": false,
+  "reviews_collected": false,
+  "adjudication_completed": false,
+  "public_package_approved": false,
+  "public_release_claimed": false,
+  "software_heritage_request_made": false,
+  "archive_identifier_claimed": false,
+  "required_roles": [
+    "repository_boundary_reviewer",
+    "rights_authority_reviewer",
+    "source_dossier_reviewer",
+    "preservation_infrastructure_reviewer",
+    "data_protection_reviewer"
+  ],
+  "blocked_promotions": [
+    "reviewer assignment claim",
+    "review completion claim",
+    "adjudication completion claim",
+    "public repository package",
+    "Software Heritage archive action",
+    "rights or authority clearance claim"
+  ],
+  "tracker_role_count": 5,
+  "adjudication_area_count": 5,
+  "exact_next_action": "Fill reviewer identities and safe contact-handling details outside the repo, then record only approved role assignments without private contact data."
+}

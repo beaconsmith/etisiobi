@@ -1,0 +1,27 @@
+{
+  "experiment_id": "EXP-FRONTIER-001",
+  "benchmark_id": "LPE-BENCH-001",
+  "generated_at": "2026-06-21T09:31:49+01:00",
+  "status": "FRONTIER_BENCHMARK_SEEDED_NOT_PAPER_READY",
+  "case_count": 30,
+  "input_layer_counts": {
+    "source_observed": 2,
+    "source_index": 6,
+    "derived": 4,
+    "speculative": 3,
+    "blocked": 7,
+    "design_hypothesis": 8
+  },
+  "metrics": {
+    "true_positive": 13,
+    "false_positive": 0,
+    "false_negative": 0,
+    "true_negative": 17,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "decision": "FRONTIER_BENCHMARK_SEEDED_BASELINE_DETECTOR_PASSES_CURATED_SET",
+  "research_claim": "Layer Promotion Error is a measurable failure mode for artifact-derived research and design systems.",
+  "current_limit": "Curated 30-case benchmark; not yet a field benchmark or paper-ready result."
+}

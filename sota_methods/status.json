@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-05-28T08:20:53+00:00",
+  "approval_state": "user_attested_research_approval_and_legal_consent_obtained",
+  "methods": [
+    {
+      "method_id": "SOTA-01",
+      "slug": "decision_trace",
+      "title": "First-class decision trace",
+      "primary_artifact": "decisions/decision_log.jsonl",
+      "exists": true,
+      "status": "implemented"
+    },
+    {
+      "method_id": "SOTA-02",
+      "slug": "formal_provenance_graph",
+      "title": "Formal provenance graph",
+      "primary_artifact": "provenance/prov_graph.jsonld",
+      "exists": true,
+      "status": "implemented"
+    },
+    {
+      "method_id": "SOTA-03",
+      "slug": "ro_crate",
+      "title": "RO-Crate research packaging",
+      "primary_artifact": "ro_crate/ro-crate-metadata.json",
+      "exists": true,
+      "status": "implemented"
+    },
+    {
+      "method_id": "SOTA-04",
+      "slug": "iiif_tei",
+      "title": "IIIF + TEI for Nwagu Aneke",
+      "primary_artifact": "artifacts/nwagu_aneke/iiif/manifest.json",
+      "exists": true,
+      "status": "implemented"
+    },
+    {
+      "method_id": "SOTA-05",
+      "slug": "glyph_annotation_pipeline",
+      "title": "Glyph-level annotation pipeline",
+      "primary_artifact": "annotations/nwagu_aneke/glyph_annotations.jsonl",
+      "exists": true,
+      "status": "implemented"
+    },
+    {
+      "method_id": "SOTA-06",
+      "slug": "systematic_review_protocol",
+      "title": "Systematic review protocol",
+      "primary_artifact": "systematic_reviews/review_protocols.jsonl",
+      "exists": true,
+      "status": "implemented"
+    },
+    {
+      "method_id": "SOTA-07",
+      "slug": "evidence_certainty_model",
+      "title": "Evidence certainty model",
+      "primary_artifact": "certainty/evidence_certainty.jsonl",
+      "exists": true,
+      "status": "implemented"
+    },
+    {
+      "method_id": "SOTA-08",
+      "slug": "data_versioning_lineage",
+      "title": "Data versioning and lineage",
+      "primary_artifact": "lineage/data_lineage.jsonl",
+      "exists": true,
+      "status": "implemented"
+    },
+    {
+      "method_id": "SOTA-09",
+      "slug": "experiment_tracking",
+      "title": "Experiment tracking registry",
+      "primary_artifact": "experiment_tracking/runs.jsonl",
+      "exists": true,
+      "status": "implemented"
+    },
+    {
+      "method_id": "SOTA-10",
+      "slug": "ontology_kg",
+      "title": "Ontology / knowledge graph",
+      "primary_artifact": "knowledge_graph/etisiobi_kg.jsonld",
+      "exists": true,
+      "status": "implemented"
+    },
+    {
+      "method_id": "SOTA-11",
+      "slug": "agent_observability",
+      "title": "Agent observability traces",
+      "primary_artifact": "observability/agent_trace.jsonl",
+      "exists": true,
+      "status": "implemented"
+    },
+    {
+      "method_id": "SOTA-12",
+      "slug": "community_authority_workflow",
+      "title": "Community authority workflow",
+      "primary_artifact": "authority/approval_register.jsonl",
+      "exists": true,
+      "status": "implemented"
+    },
+    {
+      "method_id": "SOTA-13",
+      "slug": "benchmark_harness",
+      "title": "Benchmark harness",
+      "primary_artifact": "benchmarks/benchmark_registry.jsonl",
+      "exists": true,
+      "status": "implemented"
+    },
+    {
+      "method_id": "SOTA-14",
+      "slug": "release_engineering",
+      "title": "Release engineering",
+      "primary_artifact": "release/release_manifest.json",
+      "exists": true,
+      "status": "implemented"
+    }
+  ],
+  "implemented_count": 14,
+  "total_count": 14
+}

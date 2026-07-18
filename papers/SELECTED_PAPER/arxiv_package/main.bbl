@@ -1,0 +1,271 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{20}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Azuonye(1992)]%
+        {azuonye_nwagu_1992}
+\bibfield{author}{\bibinfo{person}{Chukwuma Azuonye}.}
+  \bibinfo{year}{1992}\natexlab{}.
+\newblock \bibinfo{title}{The Nwagu Aneke Igbo Script}.
+\newblock
+\urldef\tempurl%
+\url{https://scholarworks.umb.edu/africana_faculty_pubs/13/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Community(2023)]%
+        {rocrate_spec_2023}
+\bibfield{author}{\bibinfo{person}{RO-Crate Community}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{RO-Crate Specification 1.1}.
+\newblock
+\urldef\tempurl%
+\url{https://www.researchobject.org/ro-crate/specification/1.1/introduction.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Consortium(2020)]%
+        {iiif_presentation_3}
+\bibfield{author}{\bibinfo{person}{IIIF Consortium}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{IIIF Presentation API 3.0}.
+\newblock
+\urldef\tempurl%
+\url{https://iiif.io/api/presentation/3.0/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Consortium(2026a)]%
+        {tei_glyphs}
+\bibfield{author}{\bibinfo{person}{Text Encoding~Initiative Consortium}.}
+  \bibinfo{year}{2026}\natexlab{a}.
+\newblock \bibinfo{title}{TEI Characters, Glyphs, and Writing Modes}.
+\newblock
+\urldef\tempurl%
+\url{https://guidelines.tei-c.de/en/html/WD.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Consortium(2026b)]%
+        {tei_guidelines}
+\bibfield{author}{\bibinfo{person}{Text Encoding~Initiative Consortium}.}
+  \bibinfo{year}{2026}\natexlab{b}.
+\newblock \bibinfo{title}{TEI Guidelines}.
+\newblock
+\urldef\tempurl%
+\url{https://guidelines.tei-c.de/en/html/index.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[et~al.(2022)]%
+        {soilandreyes_rocrate_2022}
+\bibfield{author}{\bibinfo{person}{Soiland-Reyes et al.}}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{Packaging research artefacts with RO-Crate}.
+\newblock
+\href{https://doi.org/10.3233/DS-210053}{doi:\nolinkurl{10.3233/DS-210053}}
+
+
+\bibitem[et~al.(2016)]%
+        {wilkinson_fair_2016}
+\bibfield{author}{\bibinfo{person}{Wilkinson et al.}}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{title}{The FAIR Guiding Principles for scientific data
+  management and stewardship}.
+\newblock
+\href{https://doi.org/10.1038/sdata.2016.18}{doi:\nolinkurl{10.1038/sdata.2016.18}}
+
+
+\bibitem[FAIR(2026)]%
+        {gofair_principles}
+\bibfield{author}{\bibinfo{person}{GO FAIR}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{FAIR Principles}.
+\newblock
+\urldef\tempurl%
+\url{https://www.go-fair.org/fair-principles}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Group(2024)]%
+        {datacite_46}
+\bibfield{author}{\bibinfo{person}{DataCite Metadata~Working Group}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{DataCite Metadata Schema 4.6}.
+\newblock
+\urldef\tempurl%
+\url{https://schema.datacite.org/meta/kernel-4.6/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Group(2013)]%
+        {w3c_provo_2013}
+\bibfield{author}{\bibinfo{person}{W3C Provenance~Working Group}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{title}{PROV-O: The PROV Ontology}.
+\newblock
+\urldef\tempurl%
+\url{https://www.w3.org/TR/prov-o/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Group(2017a)]%
+        {w3c_annotation_2017}
+\bibfield{author}{\bibinfo{person}{W3C Web Annotation~Working Group}.}
+  \bibinfo{year}{2017}\natexlab{a}.
+\newblock \bibinfo{title}{Web Annotation Data Model}.
+\newblock
+\urldef\tempurl%
+\url{https://www.w3.org/TR/annotation-model/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Group(2017b)]%
+        {w3c_annotation_vocab_2017}
+\bibfield{author}{\bibinfo{person}{W3C Web Annotation~Working Group}.}
+  \bibinfo{year}{2017}\natexlab{b}.
+\newblock \bibinfo{title}{Web Annotation Vocabulary}.
+\newblock
+\urldef\tempurl%
+\url{https://www.w3.org/TR/annotation-vocab/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Karpathy(2026)]%
+        {karpathy_autoresearch}
+\bibfield{author}{\bibinfo{person}{Andrej Karpathy}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Karpathy autoresearch}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/karpathy/autoresearch}
+\showURL{%
+\tempurl}
+
+
+\bibitem[manuscript case-study authors(2022)]%
+        {iiif_leonardo_2022}
+\bibfield{author}{\bibinfo{person}{IIIF manuscript case-study authors}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{Manuscript Linking, Comparison, and Visual Annotation
+  with IIIF}.
+\newblock
+\href{https://doi.org/10.1080/02614340.2022.2223439}{doi:\nolinkurl{10.1080/02614340.2022.2223439}}
+
+
+\bibitem[Omniglot(2023)]%
+        {omniglot_nwagu}
+\bibfield{author}{\bibinfo{person}{Omniglot}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Nwagu Aneke Syllabary}.
+\newblock
+\urldef\tempurl%
+\url{https://www.omniglot.com/writing/nwaguaneke.htm}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Platform(2026)]%
+        {rongorongo_platform}
+\bibfield{author}{\bibinfo{person}{Rongorongo~Research Platform}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Rongorongo Research Platform}.
+\newblock
+\urldef\tempurl%
+\url{https://rongorongo.top/about}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Project(2014)]%
+        {nahua_glyphs}
+\bibfield{author}{\bibinfo{person}{Nahua~Glyphs Project}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{title}{Nahua Glyphs project}.
+\newblock
+\urldef\tempurl%
+\url{https://blogs.uoregon.edu/nahuaglyphs/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[SIG(2022)]%
+        {cidoc_crm_713}
+\bibfield{author}{\bibinfo{person}{CIDOC~CRM SIG}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{CIDOC CRM 7.1.3 Classes and Properties}.
+\newblock
+\urldef\tempurl%
+\url{https://cidoc-crm.org/cidoc-crm/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[SIG(2023)]%
+        {crmdig_50}
+\bibfield{author}{\bibinfo{person}{CIDOC~CRM SIG}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{CRMdig: An Extension of CIDOC CRM to Support
+  Provenance Metadata}.
+\newblock
+\urldef\tempurl%
+\url{https://cidoc-crm.org/crmdig/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[SIG(2026)]%
+        {cidoc_crm_home}
+\bibfield{author}{\bibinfo{person}{CIDOC~CRM SIG}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{CIDOC CRM}.
+\newblock
+\urldef\tempurl%
+\url{https://cidoc-crm.org/}
+\showURL{%
+\tempurl}
+
+
+\end{thebibliography}

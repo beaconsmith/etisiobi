@@ -1,0 +1,10 @@
+{
+  "updated_at": "2026-06-27T18:34:43+01:00",
+  "status": "RUN_CREATED_RESEARCH_SELECTION_ONLY_NOT_FRONTIER_PROOF",
+  "active_goal": "GOAL-CONT-001",
+  "latest_run": "research_runs/continuous/RUN-CONT-20260627-183443",
+  "latest_run_id": "RUN-CONT-20260627-183443",
+  "selected_count": 5,
+  "frontier_claim_status": "not_ready",
+  "next_command": "python scripts\\continuous_research_loop.py --mode cycle --max-experiments 5"
+}

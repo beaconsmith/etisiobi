@@ -1,0 +1,125 @@
+{
+  "nodes": [
+    {
+      "id": "source",
+      "type": "text",
+      "text": "Azuonye 1992\nsource anchor",
+      "x": -580,
+      "y": -220,
+      "width": 260,
+      "height": 130,
+      "color": "#7c3aed"
+    },
+    {
+      "id": "chart",
+      "type": "text",
+      "text": "Chart audit\n26 rows x 8 columns",
+      "x": -230,
+      "y": -220,
+      "width": 260,
+      "height": 130,
+      "color": "#2563eb"
+    },
+    {
+      "id": "fv",
+      "type": "text",
+      "text": "f/v combined row\n27 only derived",
+      "x": 130,
+      "y": -220,
+      "width": 260,
+      "height": 130,
+      "color": "#e11d48"
+    },
+    {
+      "id": "ahamefula",
+      "type": "text",
+      "text": "Ahamefula thread\n164 actual / 224 ideal",
+      "x": -340,
+      "y": 70,
+      "width": 260,
+      "height": 130,
+      "color": "#d97706"
+    },
+    {
+      "id": "logographs",
+      "type": "text",
+      "text": "Logograph lexicon\nseparate inventory",
+      "x": 40,
+      "y": 70,
+      "width": 260,
+      "height": 130,
+      "color": "#0f9f6e"
+    },
+    {
+      "id": "manuscripts",
+      "type": "text",
+      "text": "100+ books?\nprovenance and access",
+      "x": 410,
+      "y": 70,
+      "width": 260,
+      "height": 130,
+      "color": "#0891b2"
+    },
+    {
+      "id": "unicode",
+      "type": "text",
+      "text": "Digitization / Unicode\nunencoded status",
+      "x": 170,
+      "y": 340,
+      "width": 260,
+      "height": 130,
+      "color": "#111827"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "source",
+      "fromSide": "right",
+      "toNode": "chart",
+      "toSide": "left"
+    },
+    {
+      "id": "e2",
+      "fromNode": "chart",
+      "fromSide": "right",
+      "toNode": "fv",
+      "toSide": "left"
+    },
+    {
+      "id": "e3",
+      "fromNode": "chart",
+      "fromSide": "right",
+      "toNode": "ahamefula",
+      "toSide": "left"
+    },
+    {
+      "id": "e4",
+      "fromNode": "ahamefula",
+      "fromSide": "right",
+      "toNode": "logographs",
+      "toSide": "left"
+    },
+    {
+      "id": "e5",
+      "fromNode": "logographs",
+      "fromSide": "right",
+      "toNode": "manuscripts",
+      "toSide": "left"
+    },
+    {
+      "id": "e6",
+      "fromNode": "manuscripts",
+      "fromSide": "right",
+      "toNode": "unicode",
+      "toSide": "left"
+    },
+    {
+      "id": "e7",
+      "fromNode": "fv",
+      "fromSide": "right",
+      "toNode": "unicode",
+      "toSide": "left"
+    }
+  ]
+}

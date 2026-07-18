@@ -1,0 +1,1576 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.3/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.3"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "Nwagu Frontier Non-Sensitive Metadata Package",
+      "description": "Detached RO-Crate-style metadata package for selected Nwagu frontier lab artifacts, validators, and execution gates.",
+      "datePublished": "2026-06-22",
+      "license": "Internal metadata only; rights and authority review required before external release.",
+      "status": "DETACHED_METADATA_PACKAGE_INTERNAL_NOT_RELEASED",
+      "claimCeiling": "packaging_not_clearance",
+      "blockingGates": [
+        "rights review",
+        "authority review",
+        "source-image exclusion",
+        "no publication readiness claim"
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.researchobject.org/ro-crate/specification"
+        },
+        {
+          "@id": "https://w3id.org/ro/crate/1.3"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "research/frontier/nwagu_aneke/claim_layer_fixtures.jsonl"
+        },
+        {
+          "@id": "research/frontier/nwagu_aneke/interfaces/count_layer_data_to_view_map.jsonl"
+        },
+        {
+          "@id": "research/frontier/nwagu_aneke/interfaces/count_layer_view_outline.md"
+        },
+        {
+          "@id": "research/frontier/nwagu_aneke/interfaces/usability/README.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/manifest.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/execution_decision.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/review/review_manifest.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/review/EXECUTION_GATE_REVIEW.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-009-mlagentbench-keep-reject-loop/manifest.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-009-mlagentbench-keep-reject-loop/KEEP_REJECT_LOOP_DESIGN.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-009-mlagentbench-keep-reject-loop/task_cards.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-009-mlagentbench-keep-reject-loop/decision_schema.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-009-mlagentbench-keep-reject-loop/negative_control.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-010-datalad-no-conversion-decision/manifest.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-010-datalad-no-conversion-decision/NO_CONVERSION_DECISION.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-010-datalad-no-conversion-decision/conversion_blockers.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-010-datalad-no-conversion-decision/future_readiness_checklist.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-011-software-heritage-no-identifier-decision/manifest.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-011-software-heritage-no-identifier-decision/NO_ARCHIVE_IDENTIFIER_DECISION.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-011-software-heritage-no-identifier-decision/archive_blockers.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-011-software-heritage-no-identifier-decision/future_readiness_checklist.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/preservation_decision/decision.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/preservation_decision/PRESERVATION_DECISION.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/preservation_decision/decision_matrix.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/preservation_decision/deferred_actions.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/boundary_review.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/DATASET_BOUNDARY_CHECKLIST.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/candidate_files.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/excluded_files.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/reviewer_roles.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/validator_controls.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/review_gate.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/REVIEW_GATE.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/review_requests.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/review_trace_template.jsonl"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/decision_record_template.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/review_intake_manifest.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/REVIEW_INTAKE_RUNBOOK.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/review_submission_schema.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/collected_reviews/README.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/role_forms/rights_authority_reviewer.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/role_forms/community_authority_reviewer.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/role_forms/source_dossier_reviewer.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/role_forms/preservation_infrastructure_reviewer.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/role_forms/data_protection_reviewer.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/dispatch_manifest.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/DISPATCH_RUNBOOK.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/dispatch_tracker.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/rights_authority_reviewer_invitation.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/community_authority_reviewer_invitation.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/source_dossier_reviewer_invitation.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/preservation_infrastructure_reviewer_invitation.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/data_protection_reviewer_invitation.md"
+        },
+        {
+          "@id": "scripts/validate_claim_layer_fixtures.py"
+        },
+        {
+          "@id": "scripts/validate_count_layer_view_map.py"
+        },
+        {
+          "@id": "scripts/validate_inspect_lpe_port.py"
+        },
+        {
+          "@id": "scripts/validate_inspect_execution_gate.py"
+        },
+        {
+          "@id": "scripts/validate_inspect_execution_gate_review.py"
+        },
+        {
+          "@id": "scripts/validate_mlagentbench_keep_reject_design.py"
+        },
+        {
+          "@id": "scripts/validate_datalad_no_conversion_decision.py"
+        },
+        {
+          "@id": "scripts/validate_software_heritage_no_identifier_decision.py"
+        },
+        {
+          "@id": "scripts/validate_nwagu_frontier_ro_crate.py"
+        },
+        {
+          "@id": "scripts/validate_nwagu_preservation_decision.py"
+        },
+        {
+          "@id": "scripts/validate_nwagu_dataset_boundary.py"
+        },
+        {
+          "@id": "scripts/validate_nwagu_dataset_boundary_review_gate.py"
+        },
+        {
+          "@id": "scripts/validate_nwagu_dataset_boundary_review_intake.py"
+        },
+        {
+          "@id": "scripts/validate_nwagu_dataset_boundary_review_dispatch.py"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/contact_approval/contact_approval_manifest.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/contact_approval/CONTACT_APPROVAL_RUNBOOK.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/contact_approval/reviewer_selection_criteria.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/contact_approval/contact_intake_template.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/contact_approval/send_approval_record_template.json"
+        },
+        {
+          "@id": "scripts/validate_nwagu_dataset_boundary_contact_approval.py"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-012-repository-boundary-review/manifest.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-012-repository-boundary-review/REPOSITORY_BOUNDARY_REVIEW.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-012-repository-boundary-review/repository_asset_inventory.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-012-repository-boundary-review/excluded_repository_paths.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-012-repository-boundary-review/future_public_package_checklist.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-012-repository-boundary-review/reviewer_questions.csv"
+        },
+        {
+          "@id": "scripts/validate_repository_boundary_review.py"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/manifest.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/REVIEWER_ASSIGNMENT_INTAKE.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/reviewer_assignment_tracker.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/candidate_adjudication_matrix.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/conflict_of_interest_checklist.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/decision_record_template.json"
+        },
+        {
+          "@id": "scripts/validate_repository_reviewer_assignment_intake.py"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-014-safe-role-assignment-recorder/manifest.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-014-safe-role-assignment-recorder/SAFE_ROLE_ASSIGNMENT_RECORDER.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-014-safe-role-assignment-recorder/approved_role_assignment_schema.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-014-safe-role-assignment-recorder/approved_role_assignment_template.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-014-safe-role-assignment-recorder/redaction_rules.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-014-safe-role-assignment-recorder/approved_role_assignments.jsonl"
+        },
+        {
+          "@id": "scripts/validate_safe_role_assignment_recorder.py"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/manifest.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/HUNDRED_PAPER_RECOVERY_INTAKE.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/research_seeds.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/research_seed_schema.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/claim_gate_matrix.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/sprint_selection.json"
+        },
+        {
+          "@id": "scripts/validate_hundred_paper_recovery_intake.py"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/manifest.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/SELECTED_SEED_ARTIFACT_SPRINT.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifact_index.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/approval_record.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-001-source-acquisition-decision-note.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-009-authority-role-map.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-017-reader-response-protocol.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-025-logograph-uncertainty-ledger.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-033-unicode-gap-map.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-041-modifier-operation-sketch.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-049-lpe-label-quality-audit.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-057-ro-crate-boundary-audit.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-065-layered-explainer-storyboard.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-073-layer-lineage-card.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-081-cross-domain-transfer-grid.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-089-portfolio-acceleration-dashboard-spec.md"
+        },
+        {
+          "@id": "scripts/validate_selected_seed_artifact_sprint.py"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/manifest.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/LPE_LABEL_QUALITY_GATE.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/label_quality_gate_schema.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/quality_gate_matrix.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/pilot_sample.csv"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/pilot_results.json"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/failure_cases.md"
+        },
+        {
+          "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/paper_pathway.md"
+        },
+        {
+          "@id": "scripts/validate_lpe_label_quality_gate.py"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.researchobject.org/ro-crate/specification",
+      "@type": "CreativeWork",
+      "name": "RO-Crate Specification",
+      "description": "Primary source for current RO-Crate specification versions."
+    },
+    {
+      "@id": "https://w3id.org/ro/crate/1.3",
+      "@type": "CreativeWork",
+      "name": "RO-Crate 1.3"
+    },
+    {
+      "@id": "research/frontier/nwagu_aneke/claim_layer_fixtures.jsonl",
+      "@type": "File",
+      "name": "claim_layer_fixtures.jsonl",
+      "encodingFormat": "application/jsonl",
+      "contentSize": 10342,
+      "sha256": "970a904f7d300062415b76857b33f935c8c78aa5c7050b0b22fe3ad88abbe830",
+      "description": "non-sensitive layer fixture records"
+    },
+    {
+      "@id": "research/frontier/nwagu_aneke/interfaces/count_layer_data_to_view_map.jsonl",
+      "@type": "File",
+      "name": "count_layer_data_to_view_map.jsonl",
+      "encodingFormat": "application/jsonl",
+      "contentSize": 4119,
+      "sha256": "d345d33e286c883f2850226a0a2b80448780f9974f7a5974c9470f33c47536f1",
+      "description": "non-sensitive data-to-view mapping"
+    },
+    {
+      "@id": "research/frontier/nwagu_aneke/interfaces/count_layer_view_outline.md",
+      "@type": "File",
+      "name": "count_layer_view_outline.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 9597,
+      "sha256": "73446362adc907a1db498a80f3fa7599cc10dfe0524d6db8e5bc6748281add10",
+      "description": "layer-separation interface outline"
+    },
+    {
+      "@id": "research/frontier/nwagu_aneke/interfaces/usability/README.md",
+      "@type": "File",
+      "name": "README.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 2040,
+      "sha256": "debf8d16c8f16f4c1f646cc9587091fbf3daceab9c4553ad426089700d28988b",
+      "description": "protocol index without response data"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/manifest.json",
+      "@type": "File",
+      "name": "manifest.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1442,
+      "sha256": "1c067c810a195c113ab2aff42163a5d3316b0a92fba6db44e2c54b0f4a5ef85b",
+      "description": "Inspect port manifest without model run"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/execution_decision.json",
+      "@type": "File",
+      "name": "execution_decision.json",
+      "encodingFormat": "application/json",
+      "contentSize": 902,
+      "sha256": "365d0113ddc849ac15d80d98261c6c3c6b97980d58219490da94260f7c73b873",
+      "description": "pending execution decision"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/review/review_manifest.json",
+      "@type": "File",
+      "name": "review_manifest.json",
+      "encodingFormat": "application/json",
+      "contentSize": 2442,
+      "sha256": "7196828fa563e3755c160fa1e61e254afe3c4f3e2845abc86ba9dabcfb8d7192",
+      "description": "Inspect execution gate review manifest"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/review/EXECUTION_GATE_REVIEW.md",
+      "@type": "File",
+      "name": "EXECUTION_GATE_REVIEW.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 3173,
+      "sha256": "7941083dc0a1ed3f0f4efa6c1924dd0622a7382a7d23f42f5027f6ad3a9f27ba",
+      "description": "Inspect execution gate review note"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-009-mlagentbench-keep-reject-loop/manifest.json",
+      "@type": "File",
+      "name": "manifest.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1384,
+      "sha256": "89d09921569f5dd8fe908d2e3d5f258ca4c23291c7b34fa17a58968519b265d2",
+      "description": "MLAgentBench keep-reject design manifest"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-009-mlagentbench-keep-reject-loop/KEEP_REJECT_LOOP_DESIGN.md",
+      "@type": "File",
+      "name": "KEEP_REJECT_LOOP_DESIGN.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 3066,
+      "sha256": "0df1e6158e7c4125350de35fbd6a58cd92951cfa26e81f2f63bad7b440c1208b",
+      "description": "MLAgentBench keep-reject design note"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-009-mlagentbench-keep-reject-loop/task_cards.csv",
+      "@type": "File",
+      "name": "task_cards.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 2707,
+      "sha256": "e302d592fb18aae39169111e55e389e2ff9249bd12688e561ef0c2eed1a35846",
+      "description": "MLAgentBench keep-reject task cards"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-009-mlagentbench-keep-reject-loop/decision_schema.json",
+      "@type": "File",
+      "name": "decision_schema.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1404,
+      "sha256": "152e072bbdc0ad7227e432cd73ab9dcc8ba60b5abef0105407d4424cdc9e523a",
+      "description": "MLAgentBench decision schema"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-009-mlagentbench-keep-reject-loop/negative_control.md",
+      "@type": "File",
+      "name": "negative_control.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1356,
+      "sha256": "f5b93861f626373ad1c571dbeec42405108fb7ed09ef1d5e566c3fea959a302e",
+      "description": "MLAgentBench negative control"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-010-datalad-no-conversion-decision/manifest.json",
+      "@type": "File",
+      "name": "manifest.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1892,
+      "sha256": "d900054d49d0b984dd0190a1e79696597493ae4b72eeb3fbc4ee29078756cd29",
+      "description": "DataLad no-conversion decision manifest"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-010-datalad-no-conversion-decision/NO_CONVERSION_DECISION.md",
+      "@type": "File",
+      "name": "NO_CONVERSION_DECISION.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 2846,
+      "sha256": "d54e4ff4823ed7c8e60bb1a9cfe8621c41001cebf4cd3f5823d3509f7b6f8ecc",
+      "description": "DataLad no-conversion decision note"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-010-datalad-no-conversion-decision/conversion_blockers.csv",
+      "@type": "File",
+      "name": "conversion_blockers.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 986,
+      "sha256": "57e15c39b932a51975a8dca787641f2168156e7eaa6460cb07560639b7d24d6f",
+      "description": "DataLad conversion blockers table"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-010-datalad-no-conversion-decision/future_readiness_checklist.json",
+      "@type": "File",
+      "name": "future_readiness_checklist.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1550,
+      "sha256": "24901ac1422f5ffeba0816c56abdf023f1b3d1c160ce7e62ef6b4e4e02dc1d82",
+      "description": "DataLad future readiness checklist"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-011-software-heritage-no-identifier-decision/manifest.json",
+      "@type": "File",
+      "name": "manifest.json",
+      "encodingFormat": "application/json",
+      "contentSize": 2104,
+      "sha256": "804dfaa5575d614edbcfe793746bafc61f838bcb2d38e6dde0eb4226316da36c",
+      "description": "Software Heritage no-identifier decision manifest"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-011-software-heritage-no-identifier-decision/NO_ARCHIVE_IDENTIFIER_DECISION.md",
+      "@type": "File",
+      "name": "NO_ARCHIVE_IDENTIFIER_DECISION.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 2948,
+      "sha256": "05cdd8a64273dc6bd392c7af57d5e72f4d6f5693185fb105ce6563e5f44beef2",
+      "description": "Software Heritage no-identifier decision note"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-011-software-heritage-no-identifier-decision/archive_blockers.csv",
+      "@type": "File",
+      "name": "archive_blockers.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 1037,
+      "sha256": "97bd702b831b73ed983eb617dde230a6c941d00024c7b27ed2a689f4423514b5",
+      "description": "Software Heritage archive blockers table"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-011-software-heritage-no-identifier-decision/future_readiness_checklist.json",
+      "@type": "File",
+      "name": "future_readiness_checklist.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1573,
+      "sha256": "49b1b99673fee4875cb905acdf1f9ad0396591a3976d0b29718fca573a92b1b8",
+      "description": "Software Heritage future readiness checklist"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/preservation_decision/decision.json",
+      "@type": "File",
+      "name": "decision.json",
+      "encodingFormat": "application/json",
+      "contentSize": 2301,
+      "sha256": "b10b4657b7c6686f2688774b59c630546270f47ced648b420135552ca976f0ec",
+      "description": "machine-readable preservation route"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/preservation_decision/PRESERVATION_DECISION.md",
+      "@type": "File",
+      "name": "PRESERVATION_DECISION.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 3023,
+      "sha256": "db342e4abb7bd15c4c621288df43d1cc3a1232f7d9087702154db970d7ec5239",
+      "description": "human-readable preservation route"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/preservation_decision/decision_matrix.csv",
+      "@type": "File",
+      "name": "decision_matrix.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 934,
+      "sha256": "0c6d1c328a5f8b60f418103b7b7c303c6c234bc2964b3cceaff2b66d45928015",
+      "description": "preservation route comparison"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/preservation_decision/deferred_actions.md",
+      "@type": "File",
+      "name": "deferred_actions.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1426,
+      "sha256": "16d062697b4e81256c440fff7059b12bc132e535d5d11928ad3bd1ff0916d15d",
+      "description": "no-action preservation record"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/boundary_review.json",
+      "@type": "File",
+      "name": "boundary_review.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1653,
+      "sha256": "b8c515f3c608b4c6dcd4598ebd0c46072f55148eaf464e073d3cc66111385bd5",
+      "description": "machine-readable boundary status"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/DATASET_BOUNDARY_CHECKLIST.md",
+      "@type": "File",
+      "name": "DATASET_BOUNDARY_CHECKLIST.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 2495,
+      "sha256": "b185b5ad0d69058199a9f7c9e24155646072cb92246650e7baf79e911b2b8f81",
+      "description": "human-readable boundary checklist"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/candidate_files.csv",
+      "@type": "File",
+      "name": "candidate_files.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 30710,
+      "sha256": "2cf81bbc8b852d019e7abb47926a70739dab1f03825ac18802a5b92b47ca7e93",
+      "description": "candidate boundary table"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/excluded_files.csv",
+      "@type": "File",
+      "name": "excluded_files.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 1821,
+      "sha256": "ad0de2d6a18b596304e40b1c5cecec456020d0e3bee7f7f2a3fb862b483a1ed0",
+      "description": "excluded boundary table"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/reviewer_roles.csv",
+      "@type": "File",
+      "name": "reviewer_roles.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 943,
+      "sha256": "3ca70e0d83623159dfcf29523c4f85fa5ad8b717355e1c580063db12ab3228bd",
+      "description": "boundary reviewer table"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/validator_controls.json",
+      "@type": "File",
+      "name": "validator_controls.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1046,
+      "sha256": "c1e04e693397719dc9407ad62f39ded513a9ce1f25780f7c199510c1ff0a9545",
+      "description": "boundary validator controls"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/review_gate.json",
+      "@type": "File",
+      "name": "review_gate.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1344,
+      "sha256": "476c457965973f36ab057dbf492899926c62db0fc7e91e8f62d5f1ac6d23475e",
+      "description": "pending review-gate status"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/REVIEW_GATE.md",
+      "@type": "File",
+      "name": "REVIEW_GATE.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1924,
+      "sha256": "d43f9bcebd73bb2fae52a67969ec55dcb7b200a9405c500617b9929bb2708991",
+      "description": "human-facing review gate"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/review_requests.csv",
+      "@type": "File",
+      "name": "review_requests.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 1038,
+      "sha256": "1c5032017e4eb090b9f2a0aa057c83a83b8e456294bd419975c8d396a77c5969",
+      "description": "one pending request per reviewer role"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/review_trace_template.jsonl",
+      "@type": "File",
+      "name": "review_trace_template.jsonl",
+      "encodingFormat": "application/jsonl",
+      "contentSize": 1361,
+      "sha256": "37e657ca79ae12c178366815659b3d2162737167faa9f4d6d2ab8b835fa87847",
+      "description": "non-approval review trace template"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/decision_record_template.json",
+      "@type": "File",
+      "name": "decision_record_template.json",
+      "encodingFormat": "application/json",
+      "contentSize": 933,
+      "sha256": "5e43a876105922af50a8b155280b0eb2e2b273242bdbd70ecaf724714052deab",
+      "description": "non-approval decision template"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/review_intake_manifest.json",
+      "@type": "File",
+      "name": "review_intake_manifest.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1459,
+      "sha256": "6f1dcc7a92abc7269c423d42fc2d2fa71693bfa3d77b0e7e47457873864b6fe3",
+      "description": "review intake manifest with no reviews collected"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/REVIEW_INTAKE_RUNBOOK.md",
+      "@type": "File",
+      "name": "REVIEW_INTAKE_RUNBOOK.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1888,
+      "sha256": "2fe31721971026561a0ea89c08b7026477c8615b807e7be691b50116fbeacb64",
+      "description": "review intake runbook"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/review_submission_schema.json",
+      "@type": "File",
+      "name": "review_submission_schema.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1776,
+      "sha256": "0aa69de0906cfac49d010168a6c8422b47b967db204ad98fc02b9845c3fad0fe",
+      "description": "future human review row schema"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/collected_reviews/README.md",
+      "@type": "File",
+      "name": "README.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 590,
+      "sha256": "619ba83bd898c9dcfebfcb104db8b141fb9fe220aa574f873590f94be4fa2a8b",
+      "description": "index showing no review rows collected yet"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/role_forms/rights_authority_reviewer.md",
+      "@type": "File",
+      "name": "rights_authority_reviewer.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 690,
+      "sha256": "7373a2d7f9711372737b0e6d962e948f6f01da27cdde92513bc4461dbfccb77c",
+      "description": "rights authority role-specific form"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/role_forms/community_authority_reviewer.md",
+      "@type": "File",
+      "name": "community_authority_reviewer.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 744,
+      "sha256": "c6a13d829f83fa46095fcf8421694fe4ca1b2426398e35bf672bb399cbc2a1b0",
+      "description": "community authority role-specific form"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/role_forms/source_dossier_reviewer.md",
+      "@type": "File",
+      "name": "source_dossier_reviewer.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 767,
+      "sha256": "985634f586986d66e8722d8a5ba9d48d5178157174339a931d129256218fcbaa",
+      "description": "source dossier role-specific form"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/role_forms/preservation_infrastructure_reviewer.md",
+      "@type": "File",
+      "name": "preservation_infrastructure_reviewer.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 805,
+      "sha256": "caa0b3ddc9242033a883aaa5ccbb61a08f92bf31531765a986f12fa5224240b7",
+      "description": "preservation infrastructure role-specific form"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/role_forms/data_protection_reviewer.md",
+      "@type": "File",
+      "name": "data_protection_reviewer.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 755,
+      "sha256": "9e26e45114ccb799e715fd534465c53a1bfcda03872b1bd7f3264a0ed9d640a2",
+      "description": "data protection role-specific form"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/dispatch_manifest.json",
+      "@type": "File",
+      "name": "dispatch_manifest.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1855,
+      "sha256": "cf7614fdcc5a117858ff97340e7558e933340cf6a1b7806cdda5a394de59e716",
+      "description": "dispatch manifest with no messages sent"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/DISPATCH_RUNBOOK.md",
+      "@type": "File",
+      "name": "DISPATCH_RUNBOOK.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1601,
+      "sha256": "b3f45e05fe876726832ad082a1d3b5c0098617076a63c77dae77a55111a75fa8",
+      "description": "dispatch runbook"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/dispatch_tracker.csv",
+      "@type": "File",
+      "name": "dispatch_tracker.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 1265,
+      "sha256": "e8b20160d674c7c47d64300fd607e270f3c8d20e13b476be240c05d999a490b1",
+      "description": "unsent dispatch tracker"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/rights_authority_reviewer_invitation.md",
+      "@type": "File",
+      "name": "rights_authority_reviewer_invitation.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 986,
+      "sha256": "24a4f3bdc7c22c4868589da9efb932c460bb18f2ceb46631119e7d23a3afc249",
+      "description": "rights authority invitation draft"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/community_authority_reviewer_invitation.md",
+      "@type": "File",
+      "name": "community_authority_reviewer_invitation.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 998,
+      "sha256": "4490ba8a6fa6f1527c596562ea3801a52b7899792f4d2f84237293d1baad1b2e",
+      "description": "community authority invitation draft"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/source_dossier_reviewer_invitation.md",
+      "@type": "File",
+      "name": "source_dossier_reviewer_invitation.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 978,
+      "sha256": "3c99e71a4f414f9428572e615c6ef04457b0b9ee2803d23b3f61ff9910604508",
+      "description": "source dossier invitation draft"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/preservation_infrastructure_reviewer_invitation.md",
+      "@type": "File",
+      "name": "preservation_infrastructure_reviewer_invitation.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1030,
+      "sha256": "a69f077f0bd56ec53172ebcd487ba908cca79202844abe75d0574e785ccae22b",
+      "description": "preservation infrastructure invitation draft"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/invitation_templates/data_protection_reviewer_invitation.md",
+      "@type": "File",
+      "name": "data_protection_reviewer_invitation.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 982,
+      "sha256": "153a0a5a051de62b0baac7a4f098902f226178f0de96d8282fff5d83a7b6323a",
+      "description": "data protection invitation draft"
+    },
+    {
+      "@id": "scripts/validate_claim_layer_fixtures.py",
+      "@type": "File",
+      "name": "validate_claim_layer_fixtures.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 4362,
+      "sha256": "f1a65b82c1de6acc901d684b17fd14e240281fb9f652a3bd3011faaec6bcf91c",
+      "description": "claim-layer validator"
+    },
+    {
+      "@id": "scripts/validate_count_layer_view_map.py",
+      "@type": "File",
+      "name": "validate_count_layer_view_map.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 3115,
+      "sha256": "946df40d5531bfda765a2f7664d067c3982fad7db225d9b9f5a97e336b956ac0",
+      "description": "count-layer map validator"
+    },
+    {
+      "@id": "scripts/validate_inspect_lpe_port.py",
+      "@type": "File",
+      "name": "validate_inspect_lpe_port.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 7629,
+      "sha256": "a3d6bb8b36ec675a088db5ea21cf98c920b6de6f2ce87b8b2f98f626b8dee7f7",
+      "description": "Inspect port validator"
+    },
+    {
+      "@id": "scripts/validate_inspect_execution_gate.py",
+      "@type": "File",
+      "name": "validate_inspect_execution_gate.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 5777,
+      "sha256": "e35f1575549f676e1b3ac6b4dcbb14ee14494be0e1826eee83233e31bef5c0df",
+      "description": "Inspect execution-gate validator"
+    },
+    {
+      "@id": "scripts/validate_inspect_execution_gate_review.py",
+      "@type": "File",
+      "name": "validate_inspect_execution_gate_review.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 6212,
+      "sha256": "89221ef1d8bbd54b43c4c08f3fa3648a18fe9cc86ed33a498c9fbcc2b8abcf5d",
+      "description": "Inspect execution-gate review validator"
+    },
+    {
+      "@id": "scripts/validate_mlagentbench_keep_reject_design.py",
+      "@type": "File",
+      "name": "validate_mlagentbench_keep_reject_design.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 8408,
+      "sha256": "2bea7289c033722366222ad06a60f2a311dbef3dc4045a066325a47e0035dede",
+      "description": "MLAgentBench keep-reject design validator"
+    },
+    {
+      "@id": "scripts/validate_datalad_no_conversion_decision.py",
+      "@type": "File",
+      "name": "validate_datalad_no_conversion_decision.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 9237,
+      "sha256": "0c69c57487a24ce7c1597beef2f140d7ba1fbd196ad9b8590f7e0ebf52eb70c3",
+      "description": "DataLad no-conversion decision validator"
+    },
+    {
+      "@id": "scripts/validate_software_heritage_no_identifier_decision.py",
+      "@type": "File",
+      "name": "validate_software_heritage_no_identifier_decision.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 9694,
+      "sha256": "f5cb149bd7094f7a477d968804ff5cca93e60d27bfab571a802dab3901d1ad23",
+      "description": "Software Heritage no-identifier decision validator"
+    },
+    {
+      "@id": "scripts/validate_nwagu_frontier_ro_crate.py",
+      "@type": "File",
+      "name": "validate_nwagu_frontier_ro_crate.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 17268,
+      "sha256": "0a71f2669aaff3624d89b644c65c60b938c87b4371d0772b08eb2634cc87e936",
+      "description": "RO-Crate package validator"
+    },
+    {
+      "@id": "scripts/validate_nwagu_preservation_decision.py",
+      "@type": "File",
+      "name": "validate_nwagu_preservation_decision.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 6890,
+      "sha256": "a0f8dc667ee0a7975e76ad6d51f4602453a0d9dff9ceb005624a06f317ed5730",
+      "description": "preservation decision validator"
+    },
+    {
+      "@id": "scripts/validate_nwagu_dataset_boundary.py",
+      "@type": "File",
+      "name": "validate_nwagu_dataset_boundary.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 21696,
+      "sha256": "3d6d69fb38e9dc856a087ef2e4c0c942f535b20ad9e7304452f4879e8b6b43d8",
+      "description": "dataset boundary validator"
+    },
+    {
+      "@id": "scripts/validate_nwagu_dataset_boundary_review_gate.py",
+      "@type": "File",
+      "name": "validate_nwagu_dataset_boundary_review_gate.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 7135,
+      "sha256": "18582631bd0976fedc9e44c3f873f5720d0591ce00bbab2fcd4b99799de2a5f2",
+      "description": "dataset boundary review-gate validator"
+    },
+    {
+      "@id": "scripts/validate_nwagu_dataset_boundary_review_intake.py",
+      "@type": "File",
+      "name": "validate_nwagu_dataset_boundary_review_intake.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 8309,
+      "sha256": "55ad2367af203605d47a15e58768b64378e8c1a74428f87f033e51d87ef303e5",
+      "description": "dataset boundary review-intake validator"
+    },
+    {
+      "@id": "scripts/validate_nwagu_dataset_boundary_review_dispatch.py",
+      "@type": "File",
+      "name": "validate_nwagu_dataset_boundary_review_dispatch.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 7259,
+      "sha256": "780ca4b147b1499a469b34ec51e3c374b4d9a3a40b1d4f2f39841587b9e345d1",
+      "description": "dataset boundary review-dispatch validator"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/contact_approval/contact_approval_manifest.json",
+      "@type": "File",
+      "name": "contact_approval_manifest.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1587,
+      "sha256": "222b9c3e68d3f1872bdb9b8c5a035b27450a2b7690d8c584bb83338f35ea6182",
+      "description": "contact approval manifest with no contacts recorded"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/contact_approval/CONTACT_APPROVAL_RUNBOOK.md",
+      "@type": "File",
+      "name": "CONTACT_APPROVAL_RUNBOOK.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 2187,
+      "sha256": "043703a470161fd40f413ffb03152f721ddb6a098fc49396f9ca605de4073456",
+      "description": "contact approval runbook with no private contact data"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/contact_approval/reviewer_selection_criteria.csv",
+      "@type": "File",
+      "name": "reviewer_selection_criteria.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 1939,
+      "sha256": "0763a7774bd8c6e148c763e47c7f27ed488b956aa41a6e902bcb7bf6648a1961",
+      "description": "reviewer selection criteria without contact targets"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/contact_approval/contact_intake_template.csv",
+      "@type": "File",
+      "name": "contact_intake_template.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 530,
+      "sha256": "7c2481ef41ece4ad1089a59f9c61c441683d9e6ae32e128fdf81f765c84e3cee",
+      "description": "blank contact intake template with no private contact data"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-008-nwagu-ro-crate/dataset_boundary/review_gate/intake/dispatch/contact_approval/send_approval_record_template.json",
+      "@type": "File",
+      "name": "send_approval_record_template.json",
+      "encodingFormat": "application/json",
+      "contentSize": 784,
+      "sha256": "391f98a7de65acf8dc4f1893a7bde19fff19df4f2ddff4e3c984f5be6c689a15",
+      "description": "non-approval send approval record template"
+    },
+    {
+      "@id": "scripts/validate_nwagu_dataset_boundary_contact_approval.py",
+      "@type": "File",
+      "name": "validate_nwagu_dataset_boundary_contact_approval.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 8842,
+      "sha256": "6956fdd2afc97b9acc7b099ca2d9937f2b77fd98b2cb74917448a4d42c1cfb1c",
+      "description": "contact approval packet validator"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-012-repository-boundary-review/manifest.json",
+      "@type": "File",
+      "name": "manifest.json",
+      "encodingFormat": "application/json",
+      "contentSize": 2001,
+      "sha256": "945a66ae9ecf2fd96aa6e33c4193c7782abcae58c4e8394471be889d2973a311",
+      "description": "repository-boundary review manifest"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-012-repository-boundary-review/REPOSITORY_BOUNDARY_REVIEW.md",
+      "@type": "File",
+      "name": "REPOSITORY_BOUNDARY_REVIEW.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 2641,
+      "sha256": "104149aa44eaf77f611c78906f36daf906e481e55c6fb6d8dd0c3db20cb9dfa0",
+      "description": "repository-boundary review note"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-012-repository-boundary-review/repository_asset_inventory.csv",
+      "@type": "File",
+      "name": "repository_asset_inventory.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 2247,
+      "sha256": "3c5e025066693c204a6b1c18fa4e5ef10505aea0b4d3508c9f2f00ca5d9aa2c6",
+      "description": "repository asset inventory"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-012-repository-boundary-review/excluded_repository_paths.csv",
+      "@type": "File",
+      "name": "excluded_repository_paths.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 1727,
+      "sha256": "74df60ac338e633927c081bda341436c7d6c17d363db6340c1673bb52a571622",
+      "description": "excluded repository paths"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-012-repository-boundary-review/future_public_package_checklist.json",
+      "@type": "File",
+      "name": "future_public_package_checklist.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1531,
+      "sha256": "f90f4993bd555da141285d8aceb0de26d77e3a0e5c86646e98c4473684a51b34",
+      "description": "future public package checklist"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-012-repository-boundary-review/reviewer_questions.csv",
+      "@type": "File",
+      "name": "reviewer_questions.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 893,
+      "sha256": "ebe612dd6feec37bb31b3ae023b62c6336c0c2a42e6df86298f630c328ae0296",
+      "description": "repository-boundary reviewer questions"
+    },
+    {
+      "@id": "scripts/validate_repository_boundary_review.py",
+      "@type": "File",
+      "name": "validate_repository_boundary_review.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 12973,
+      "sha256": "9299f982c0ef114d80f16756ccbb65bf0d2951c28d611d8f379dccf034d594b8",
+      "description": "repository-boundary review validator"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/manifest.json",
+      "@type": "File",
+      "name": "manifest.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1994,
+      "sha256": "384a81c89e99ddf260a049d6c68820311c10131a09077c1b700bbcf27c0ddd5d",
+      "description": "repository reviewer assignment intake manifest"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/REVIEWER_ASSIGNMENT_INTAKE.md",
+      "@type": "File",
+      "name": "REVIEWER_ASSIGNMENT_INTAKE.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1851,
+      "sha256": "dc9a6145244b9e395f57fcfad4b5309012915aad4251f28ee9cf22ad6d2decf2",
+      "description": "repository reviewer assignment intake note"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/reviewer_assignment_tracker.csv",
+      "@type": "File",
+      "name": "reviewer_assignment_tracker.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 1010,
+      "sha256": "8bd860167a72286e0459b1f160089bc136313cc04a45061b47054d2c86f0960e",
+      "description": "unassigned reviewer role tracker"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/candidate_adjudication_matrix.csv",
+      "@type": "File",
+      "name": "candidate_adjudication_matrix.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 917,
+      "sha256": "eda4be88fcce4a12dea5e799f77131fa5bf6e2c26e528a26a0cf94b5d8da271a",
+      "description": "candidate adjudication matrix"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/conflict_of_interest_checklist.json",
+      "@type": "File",
+      "name": "conflict_of_interest_checklist.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1169,
+      "sha256": "5a09d22cb7c11dcca7e17379612348ad60543e9e45d864de9aab57dc61ab5222",
+      "description": "conflict of interest checklist"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-013-repository-reviewer-assignment-intake/decision_record_template.json",
+      "@type": "File",
+      "name": "decision_record_template.json",
+      "encodingFormat": "application/json",
+      "contentSize": 669,
+      "sha256": "cebea3bfaa7f1c7a0bcb6fe65c2e55d86f8b91a42e0b33a983da0fe2494e415f",
+      "description": "decision record template"
+    },
+    {
+      "@id": "scripts/validate_repository_reviewer_assignment_intake.py",
+      "@type": "File",
+      "name": "validate_repository_reviewer_assignment_intake.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 11605,
+      "sha256": "4d8849312ec21fbf63551ce028ba978d900876a08ed09b2037316d05174cc9ca",
+      "description": "repository reviewer assignment intake validator"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-014-safe-role-assignment-recorder/manifest.json",
+      "@type": "File",
+      "name": "manifest.json",
+      "encodingFormat": "application/json",
+      "contentSize": 2006,
+      "sha256": "ac31800f913032c0348cd0027f943cd4ddbb806bae7256df7228d1c3b684e45e",
+      "description": "safe role assignment recorder manifest"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-014-safe-role-assignment-recorder/SAFE_ROLE_ASSIGNMENT_RECORDER.md",
+      "@type": "File",
+      "name": "SAFE_ROLE_ASSIGNMENT_RECORDER.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1846,
+      "sha256": "2c9c09301249a1065bc003c351663d6ce222f5cac480e490506034f84a52dcd4",
+      "description": "safe role assignment recorder note"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-014-safe-role-assignment-recorder/approved_role_assignment_schema.json",
+      "@type": "File",
+      "name": "approved_role_assignment_schema.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1482,
+      "sha256": "ff83ffe71c7022da714627a927a0c4d1387266c2220d684d319937776ba281bd",
+      "description": "approved role assignment schema"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-014-safe-role-assignment-recorder/approved_role_assignment_template.json",
+      "@type": "File",
+      "name": "approved_role_assignment_template.json",
+      "encodingFormat": "application/json",
+      "contentSize": 453,
+      "sha256": "8da70fe3c80a361f66b069449c43519058ecc9ce5e1e4ff62defc1059b094728",
+      "description": "approved role assignment template"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-014-safe-role-assignment-recorder/redaction_rules.csv",
+      "@type": "File",
+      "name": "redaction_rules.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 639,
+      "sha256": "c69a2d84e9ec0f467fca2ff58f4dd292e13481c10de7736a8224dd1c69b36815",
+      "description": "role assignment redaction rules"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-014-safe-role-assignment-recorder/approved_role_assignments.jsonl",
+      "@type": "File",
+      "name": "approved_role_assignments.jsonl",
+      "encodingFormat": "application/jsonl",
+      "contentSize": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "description": "empty approved role assignments log"
+    },
+    {
+      "@id": "scripts/validate_safe_role_assignment_recorder.py",
+      "@type": "File",
+      "name": "validate_safe_role_assignment_recorder.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 11283,
+      "sha256": "2f36a0d4e1d0e0aa5e4dc5915c92fae57cffac588c2acd5fa835ddddb94a5b0f",
+      "description": "safe role assignment recorder validator"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/manifest.json",
+      "@type": "File",
+      "name": "manifest.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1434,
+      "sha256": "165b0c7f3d1cbebac60878dbab8902c7393e32e437bf977dcd860bf696d8d6aa",
+      "description": "100-seed recovery intake manifest"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/HUNDRED_PAPER_RECOVERY_INTAKE.md",
+      "@type": "File",
+      "name": "HUNDRED_PAPER_RECOVERY_INTAKE.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1712,
+      "sha256": "faf42e366241eaa2ef53645256b2ef91ba884e94d21ff2732c6632652f73ed78",
+      "description": "100-seed recovery intake note"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/research_seeds.csv",
+      "@type": "File",
+      "name": "research_seeds.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 32652,
+      "sha256": "bdacec9c0b4ae8bd16e66ad2a33b491311dc3ec69571c79d37cc98dd594b3b48",
+      "description": "100 seed-only research records"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/research_seed_schema.json",
+      "@type": "File",
+      "name": "research_seed_schema.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1546,
+      "sha256": "4b5fc339a028390b291a473df7987dd21afbd33ccc091bf17a829ae12d797c1d",
+      "description": "research seed schema"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/claim_gate_matrix.csv",
+      "@type": "File",
+      "name": "claim_gate_matrix.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 744,
+      "sha256": "abd278a20465517ad212cf9bbf21b5a452478234167ec936dfaa56ef5c1ff65e",
+      "description": "recovery intake claim gates"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/sprint_selection.json",
+      "@type": "File",
+      "name": "sprint_selection.json",
+      "encodingFormat": "application/json",
+      "contentSize": 557,
+      "sha256": "7dd190b65f6b0ca48a81a4fda28f3b5531750bf9d7972a901e8342b3808fa52d",
+      "description": "seed-only sprint selection"
+    },
+    {
+      "@id": "scripts/validate_hundred_paper_recovery_intake.py",
+      "@type": "File",
+      "name": "validate_hundred_paper_recovery_intake.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 11508,
+      "sha256": "1329e13e04b9496c7729500ce90ea9b27b3ad83b74d4121ed24a595508f30922",
+      "description": "hundred-paper recovery intake validator"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/manifest.json",
+      "@type": "File",
+      "name": "manifest.json",
+      "encodingFormat": "application/json",
+      "contentSize": 2201,
+      "sha256": "d46e54857ff2156aa0a8589c123416acebdb4abcbb9da312f7469b5da4941560",
+      "description": "selected seed artifact sprint manifest"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/SELECTED_SEED_ARTIFACT_SPRINT.md",
+      "@type": "File",
+      "name": "SELECTED_SEED_ARTIFACT_SPRINT.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1596,
+      "sha256": "b4d90830c0f5024da546035609b724b1cf7c57cf9f06294b06d4dcb9103880ea",
+      "description": "selected seed artifact sprint note"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifact_index.csv",
+      "@type": "File",
+      "name": "artifact_index.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 2446,
+      "sha256": "1b92bb968eacedb45718ace08615e41a466b5585b9083a26016a500d76ac2a78",
+      "description": "selected seed artifact index"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/approval_record.json",
+      "@type": "File",
+      "name": "approval_record.json",
+      "encodingFormat": "application/json",
+      "contentSize": 918,
+      "sha256": "ff4960921cda3c43af1aac3d669d8c05f770d8971dab4e58db1bc2d0d1e96e0f",
+      "description": "internal lab execution approval record"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-001-source-acquisition-decision-note.md",
+      "@type": "File",
+      "name": "NWR-001-source-acquisition-decision-note.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1717,
+      "sha256": "bc821ba1ea857f06b6ee9e86c565ac679f002d6a67e4a3296b81e06321e75b23",
+      "description": "source acquisition bounded artifact"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-009-authority-role-map.md",
+      "@type": "File",
+      "name": "NWR-009-authority-role-map.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1631,
+      "sha256": "918a1a20e8223ba1befe75d9271b75f1bcb79125f6da7a9dac66ed48d200e3f7",
+      "description": "authority role bounded artifact"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-017-reader-response-protocol.md",
+      "@type": "File",
+      "name": "NWR-017-reader-response-protocol.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1360,
+      "sha256": "aaf4b72a949593542d3e8af7986554654042b7c51836d3f29db44be345bbdd37",
+      "description": "reader response protocol bounded artifact"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-025-logograph-uncertainty-ledger.md",
+      "@type": "File",
+      "name": "NWR-025-logograph-uncertainty-ledger.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1362,
+      "sha256": "f2d225e9b8a308d514e5e8e2c146d2b6aafd3f4a09b660e6c655645f240a51a1",
+      "description": "logograph uncertainty bounded artifact"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-033-unicode-gap-map.md",
+      "@type": "File",
+      "name": "NWR-033-unicode-gap-map.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1297,
+      "sha256": "ea5f679f518470a798e294b78b8f358de5641155ef22b79b2be6e459ecd380e8",
+      "description": "Unicode gap bounded artifact"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-041-modifier-operation-sketch.md",
+      "@type": "File",
+      "name": "NWR-041-modifier-operation-sketch.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1319,
+      "sha256": "e2543b2d93f9edd799a6d6e71392b671d7e50eab70af86ec48e8e0582156d3fc",
+      "description": "modifier operation bounded artifact"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-049-lpe-label-quality-audit.md",
+      "@type": "File",
+      "name": "NWR-049-lpe-label-quality-audit.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1256,
+      "sha256": "a28b5ab07d39b86ce3935b6694e70b665da56875a92f513b19c4f116c6acfad5",
+      "description": "LPE label quality bounded artifact"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-057-ro-crate-boundary-audit.md",
+      "@type": "File",
+      "name": "NWR-057-ro-crate-boundary-audit.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1292,
+      "sha256": "aee37ff86aec48e37a72c3fd1e995a494900c32e22da957673ca8d5b0805cbb0",
+      "description": "RO-Crate boundary bounded artifact"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-065-layered-explainer-storyboard.md",
+      "@type": "File",
+      "name": "NWR-065-layered-explainer-storyboard.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1116,
+      "sha256": "f6f70465564bd86705049411f34bad4b20b716fa48e1a68fa42d38f56f0e8804",
+      "description": "layered explainer bounded artifact"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-073-layer-lineage-card.md",
+      "@type": "File",
+      "name": "NWR-073-layer-lineage-card.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1261,
+      "sha256": "73c76b74b3851477e274b1711326f7d721b6fd2aabf553273087d7a88e3978fc",
+      "description": "layer lineage bounded artifact"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-081-cross-domain-transfer-grid.md",
+      "@type": "File",
+      "name": "NWR-081-cross-domain-transfer-grid.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1246,
+      "sha256": "b130b02662d48565ae0968a33e59c48d283955fc9bdf54d6a1e933a179d5138e",
+      "description": "cross-domain transfer bounded artifact"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-016-selected-seed-artifact-sprint/artifacts/NWR-089-portfolio-acceleration-dashboard-spec.md",
+      "@type": "File",
+      "name": "NWR-089-portfolio-acceleration-dashboard-spec.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1329,
+      "sha256": "48eea6db95900f3e173ac5d52067ce7f25d1ad4e13d3f1b3d0a9e9f260449982",
+      "description": "portfolio dashboard bounded artifact"
+    },
+    {
+      "@id": "scripts/validate_selected_seed_artifact_sprint.py",
+      "@type": "File",
+      "name": "validate_selected_seed_artifact_sprint.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 12389,
+      "sha256": "7b4429c0c7a1f9720b06941e0ebd19cd583b0b6dd27ff90fcded5fba30e1d90b",
+      "description": "selected seed artifact sprint validator"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/manifest.json",
+      "@type": "File",
+      "name": "manifest.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1436,
+      "sha256": "76b12070739653d22eb0106bb453a6615e205459f5f9646e5cf3b0bd3a39be64",
+      "description": "LPE label quality gate manifest"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/LPE_LABEL_QUALITY_GATE.md",
+      "@type": "File",
+      "name": "LPE_LABEL_QUALITY_GATE.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1414,
+      "sha256": "8b5a7d4a8ad5e87aab986a6905fe7f1727369b679bee00b85d4ed3dd71584aea",
+      "description": "LPE label quality gate note"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/label_quality_gate_schema.json",
+      "@type": "File",
+      "name": "label_quality_gate_schema.json",
+      "encodingFormat": "application/json",
+      "contentSize": 1190,
+      "sha256": "76969991c9964686c4b0605d109682d402c1a6205faf1eab522bfa0964ea24e9",
+      "description": "LPE label quality schema"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/quality_gate_matrix.csv",
+      "@type": "File",
+      "name": "quality_gate_matrix.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 782,
+      "sha256": "656e9cd497c8e5748feae2ef41b35843080d0a1dd9037c0175bdf017581deec2",
+      "description": "LPE quality gate matrix"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/pilot_sample.csv",
+      "@type": "File",
+      "name": "pilot_sample.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": 3480,
+      "sha256": "3e6330183d9fc86faad723c837413807e288f0761490ddc6c0d346d3574d6741",
+      "description": "LPE quality gate pilot sample"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/pilot_results.json",
+      "@type": "File",
+      "name": "pilot_results.json",
+      "encodingFormat": "application/json",
+      "contentSize": 886,
+      "sha256": "1ef27c00286e3acbb4022c4981c190727419b95704722db51174a91f31e01768",
+      "description": "LPE quality gate pilot results"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/failure_cases.md",
+      "@type": "File",
+      "name": "failure_cases.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1072,
+      "sha256": "47aa5336ae9ecd20f30d94f26eeb3071bddef59b2cf7da126882b819f9e5d90f",
+      "description": "LPE quality gate failure cases"
+    },
+    {
+      "@id": "experiments/EXP-FRONTIER-017-lpe-label-quality-gate/paper_pathway.md",
+      "@type": "File",
+      "name": "paper_pathway.md",
+      "encodingFormat": "text/markdown",
+      "contentSize": 1347,
+      "sha256": "17554d75e36c23f323339d8b742051708886350e6e76d2292dbd4b215640648c",
+      "description": "LPE quality gate paper pathway below result claim"
+    },
+    {
+      "@id": "scripts/validate_lpe_label_quality_gate.py",
+      "@type": "File",
+      "name": "validate_lpe_label_quality_gate.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 9275,
+      "sha256": "4974efcab7dc54613f18b2c59a518791060363ee3b9732c8d1213e02b51086b6",
+      "description": "LPE label quality gate validator"
+    }
+  ]
+}

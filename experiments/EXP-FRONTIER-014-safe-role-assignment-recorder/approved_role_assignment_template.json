@@ -1,0 +1,11 @@
+{
+  "assignment_id": "ASSIGN-0000",
+  "review_role": "repository_boundary_reviewer",
+  "reviewer_ref": "RB-REVIEWER-000",
+  "selection_basis": "role-fit summary without identifying details",
+  "approval_record_ref": "external-approval-record-ref",
+  "contact_data_location": "outside_repo_private_channel",
+  "private_contact_data_in_repo": false,
+  "assignment_status": "template_only_not_recorded",
+  "scope": "repository-boundary review role only"
+}

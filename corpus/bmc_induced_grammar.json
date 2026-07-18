@@ -1,0 +1,15 @@
+{
+  "grammar_id": "BMC-GRAMMAR-001",
+  "status": "partial_structural_grammar",
+  "rules": [
+    "Base := one source-observed row label from TEI rows",
+    "Modifier := one source-observed vowel column from TEI vowels",
+    "Cell := Base + Modifier",
+    "Reading := row_label concatenated with vowel label",
+    "DerivedFoundation := optional f/v split; not source-observed"
+  ],
+  "limits": [
+    "Glyph-shape production is not inferred because coordinates and glyph transcriptions are pending.",
+    "The f/v split can generate derived 27-row structures but must stay separate from source-observed rows."
+  ]
+}

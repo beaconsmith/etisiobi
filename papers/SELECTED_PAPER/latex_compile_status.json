@@ -1,0 +1,16 @@
+{
+  "tool": "C:\\Users\\USER\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\latexmk.EXE",
+  "attempted": true,
+  "exit_code": 1,
+  "status": "PASS_DIRECT_PDFLATEX",
+  "fallback": {
+    "toolchain": "pdflatex+bibtex",
+    "exit_codes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Etisiobi Decision Trace Record",
+  "type": "object",
+  "required": [
+    "decision_id",
+    "timestamp",
+    "actor",
+    "scope",
+    "decision",
+    "rationale",
+    "evidence",
+    "status",
+    "reversal_condition"
+  ],
+  "properties": {
+    "decision_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "actor": {
+      "type": "string"
+    },
+    "authority_basis": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string"
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "alternatives_considered": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risk": {
+      "type": "string"
+    },
+    "reversal_condition": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "supersedes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

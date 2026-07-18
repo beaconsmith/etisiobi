@@ -1,0 +1,15 @@
+source_id,title,kind,repo_path,read_status,relevance,trust_level,gap
+SRC-0001,Repository overview,repo_file,README.md,skimmed,0.95,primary,metadata verification
+SRC-0002,Root agent instructions,repo_file,AGENTS.md,skimmed,0.95,primary,metadata verification
+SRC-0003,Research operating system instructions,repo_file,research/AGENTS.md,skimmed,0.95,primary,metadata verification
+SRC-0004,ICEGOV portfolio,repo_file,research/PORTFOLIO.md,skimmed,0.95,primary,metadata verification
+SRC-0005,Quality bar,repo_file,research/QUALITY_BAR.md,skimmed,0.9,primary,metadata verification
+SRC-0006,Evidence policy,repo_file,research/EVIDENCE_POLICY.md,skimmed,0.9,primary,metadata verification
+SRC-0007,Citation policy,repo_file,research/CITATION_POLICY.md,skimmed,0.9,primary,metadata verification
+SRC-0008,Submission rules,repo_file,research/SUBMISSION_RULES.md,skimmed,0.9,primary,metadata verification
+SRC-0009,Harness audit,repo_file,research/HARNESS_AUDIT.md,skimmed,0.9,primary,metadata verification
+SRC-0010,Research Spine architecture,repo_file,spine/ARCHITECTURE.md,skimmed,0.9,primary,metadata verification
+SRC-0011,PAGC falsification tracker,repo_file,research/pagc/FALSIFICATION_TRACKER.md,skimmed,0.95,primary,replication or primary-source verification
+SRC-0012,PAGC experiments README,repo_file,experiments/README.md,skimmed,0.9,primary,metadata verification
+SRC-0013,BPE sweep report,repo_file,experiments/01_bpe_igbo_k27/results/report.md,skimmed,0.95,primary,replication or primary-source verification
+SRC-0014,Research lab dashboard,repo_file,research/LAB_DASHBOARD.md,skimmed,0.9,primary,metadata verification

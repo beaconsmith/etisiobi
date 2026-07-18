@@ -1,0 +1,27 @@
+{
+  "article_id": "ARTICLE-NA-006",
+  "status": "STRUCTURAL_ARXIV_QUALITY_PASS_NOT_SUBMISSION_READY",
+  "candidate": false,
+  "reason": "The repository arXiv-quality validator may pass after hardening, but human source review and rights/submission clearance remain open, so this is not an external submission candidate yet.",
+  "field_facing_result": "A 12-requirement Unicode-readiness gap matrix shows that the current Nwagu Aneke package is not proposal-ready: 1 requirement is present, 4 are partial, 3 are blocked, and 4 are missing.",
+  "positive_evidence": [
+    "experiments/EXP-NA-006-unicode-gap-matrix/results.json",
+    "experiments/EXP-NA-006-unicode-gap-matrix/data/unicode_gap_matrix.csv",
+    "experiments/EXP-NA-006-unicode-gap-matrix/data/unicode_gap_matrix.jsonl",
+    "papers/nwagu_aneke_articles/006-unicode-readiness/article_specific_experiment.md",
+    "papers/nwagu_aneke_articles/006-unicode-readiness/external_prior_art_audit.md",
+    "papers/nwagu_aneke_articles/006-unicode-readiness/figures_tables_manifest.json",
+    "papers/nwagu_aneke_articles/006-unicode-readiness/reviewer2_response_plan.md"
+  ],
+  "blocking_evidence": [
+    "papers/nwagu_aneke_articles/006-unicode-readiness/human_source_review.md",
+    "papers/nwagu_aneke_articles/006-unicode-readiness/rights_submission_clearance.md"
+  ],
+  "next_actions": [
+    "Attach human source and standards review.",
+    "Attach rights and public-submission clearance.",
+    "Exclude any Unicode-proposal-ready language until blocked/missing fields are resolved.",
+    "Run adversarial venue review against the revised manuscript.",
+    "Rerun python scripts\\validate_arxiv_quality_gate.py."
+  ]
+}

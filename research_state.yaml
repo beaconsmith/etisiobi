@@ -1,0 +1,66 @@
+generated_at: 2026-05-28
+repository: etisiobi
+branch: research-hyperloop/bootstrap
+phase: phase_5_to_15
+outcome: B_negative_result_paper
+pagc_base_count_decision: MULTI_LAYER_COUNT_VALID
+submission_readiness: READY_FOR_HUMAN_ARXIV_REVIEW
+active_goals:
+  - GOAL-0001: resolved by EXP-0001 as MULTI_LAYER_COUNT_VALID
+  - GOAL-0002: claim gate completed with rewrites/removals
+  - GOAL-0003: local k=27 result retained; scale replication blocked by no-download rule
+blocked_items:
+  - external large-corpus replication
+  - independent human chart review
+  - author metadata and arXiv category selection
+  - actual external submission
+paper:
+  title: "Foundation-Count Drift in PAGC: A Reproducible Audit of 26/27/28 Base-Inventory Claims"
+  path: paper/main.tex
+  arxiv_package: paper/arxiv_package
+
+# BEGIN BMC_RESEARCH_PROGRAM
+bmc_research_program:
+  generated_at: 2026-05-28
+  theme: Base Modifier Cache as reproducible generative and evidentiary substrate
+  novelty_status: hypotheses_pending_prior_art_review
+  active_goals:
+    - GOAL-001: Base Modifier Cache formal reconstruction
+    - GOAL-002: BMC count reconciliation
+    - GOAL-003: BMC claim-gating engine
+  pending_or_blocked_goals:
+    - GOAL-004: blocked until GOAL-002 count stability
+    - GOAL-005: blocked until GOAL-004 grammar result
+    - GOAL-006: pending until GOAL-003 claim gate seed
+    - GOAL-007: pending until GOAL-006 certainty model
+    - GOAL-008: pending until GOAL-007 graph model
+    - GOAL-009: pending until GOAL-003 and GOAL-006
+    - GOAL-010: blocked until GOAL-001 through GOAL-009
+  next_experiment: experiments/EXP-BMC-001/
+  next_artifact: corpus/base_modifier_cache.jsonl
+  next_human_review: source transcription and exact-count review
+  files:
+    index: research_goals/bmc/README.md
+    scores: research_goals/bmc/goal_scores.json
+    dependency_graph: research_goals/bmc/goal_dependency_graph.md
+    active_selection: research_goals/bmc/active_goal_selection.md
+# END BMC_RESEARCH_PROGRAM
+
+<!-- BEGIN BMC_COMPLETION -->
+bmc_completion:
+      generated_at: 2026-05-28
+      status: completed_repo_local_all_10
+      decisions:
+- GOAL-001: COMPLETED_AS_WORKING_ANNOTATION_INDEX
+- GOAL-002: MULTI_LAYER_COUNT_VALID
+- GOAL-003: CLAIM_GATE_COMPLETED_CORE_BMC_CLAIMS_SCOPED
+- GOAL-004: PARTIAL_STRUCTURAL_GRAMMAR_NOT_GLYPH_GRAMMAR
+- GOAL-005: COMPRESSION_POSITIVE_FOR_ROW_VOWEL_INDEX_ONLY
+- GOAL-006: CERTAINTY_MODEL_COMPLETED_WITH_PUBLICATION_BLOCKERS
+- GOAL-007: KG_INTEGRATION_COMPLETED
+- GOAL-008: BENCHMARK_SEED_COMPLETED
+- GOAL-009: AUTHORITY_REVIEW_PROTOCOL_COMPLETED_INTERNAL_ONLY
+- GOAL-010: NO_BMC_ARXIV_SUBMISSION_YET
+      readiness: NOT_READY_BMC_HUMAN_REVIEW_AND_PRIOR_ART_REQUIRED
+      next_best_experiment: Independent human review of EXP-BMC-001 BMC records and EXP-BMC-002 count layers.
+<!-- END BMC_COMPLETION -->

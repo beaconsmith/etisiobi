@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EXP-FRONTIER-005",
+  "generated_at": "2026-06-21T09:35:56+01:00",
+  "status": "AGENT_PROMPTS_READY_NOT_RUN",
+  "conditions": [
+    "C0_no_layer_labels",
+    "C1_layer_labels",
+    "C2_claim_gate",
+    "C3_adversarial_review"
+  ],
+  "case_count_per_condition": 360,
+  "prompt_count": 1440,
+  "frontier_claim_status": "not_ready"
+}

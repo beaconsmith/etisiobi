@@ -1,0 +1,20 @@
+[
+  {
+    "path": "research/pagc/sources/pagc_library/african_linguistics___igbo_phonology.md",
+    "line": 3,
+    "column": 1370,
+    "codepoint": "U+0080",
+    "name": "UNKNOWN",
+    "category": "Cc",
+    "risk_class": "format_or_control"
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/african_linguistics___igbo_phonology.md",
+    "line": 3,
+    "column": 1371,
+    "codepoint": "U+0099",
+    "name": "UNKNOWN",
+    "category": "Cc",
+    "risk_class": "format_or_control"
+  }
+]

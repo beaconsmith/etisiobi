@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-06-21T20:52:02+01:00",
+  "sources": [
+    {
+      "id": "STORM-001",
+      "url": "https://arxiv.org/abs/2402.14207",
+      "role": "primary paper"
+    },
+    {
+      "id": "STORM-002",
+      "url": "https://storm-project.stanford.edu/research/storm/",
+      "role": "project page"
+    },
+    {
+      "id": "STORM-003",
+      "url": "https://github.com/stanford-oval/storm",
+      "role": "official code"
+    },
+    {
+      "id": "STORM-004",
+      "url": "https://arxiv.org/abs/2408.15232",
+      "role": "Co-STORM paper"
+    }
+  ]
+}

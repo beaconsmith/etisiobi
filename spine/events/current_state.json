@@ -1,0 +1,225 @@
+{
+  "accepted_research_results": [
+    {
+      "event_id": "REVT-0003",
+      "event_type": "research_result",
+      "next_action": "Use source/derived labels in every PAGC application experiment.",
+      "scope": "pagc_nwagu_aneke_count_layer_foundation",
+      "status": "accepted",
+      "summary": "Keep MULTI_LAYER_COUNT_VALID as the current base-count decision: source layer is 26 x 8 = 208; 27/216 is derived only by f/v split.",
+      "timestamp": "2026-05-28T08:20:53+00:00"
+    },
+    {
+      "event_id": "REVT-0009",
+      "event_type": "research_result",
+      "next_action": "Turn the proof into a testable system invariant and avoid expanding it beyond its assumptions.",
+      "scope": "pagc_applications_layer_safety",
+      "status": "accepted_with_assumptions",
+      "summary": "Accept the Layer-Safety Theorem as the first bounded proof from PAGC applications research.",
+      "timestamp": "2026-05-28T19:22:53+00:00"
+    },
+    {
+      "event_id": "REVT-0018",
+      "event_type": "research_result",
+      "next_action": "Run EXP-NA-002 count-layer ledger or attach human source review for the chart transcription and Azuonye appendix.",
+      "scope": "nwagu_aneke_source_critical_reconstruction",
+      "status": "accepted_with_limitations",
+      "summary": "Complete EXP-NA-001 for ARTICLE-NA-001; the article is viable as a source-critical ledger paper, not as a completed glyph-corpus paper.",
+      "timestamp": "2026-06-19T18:55:00+01:00"
+    }
+  ],
+  "artifact_event_index_path": "spine/events/artifact_event_index.json",
+  "blockers": [],
+  "event_count": 21,
+  "gate_status": {
+    "retrieval_firewall": {
+      "event_id": "REVT-0012",
+      "event_type": "gate_result",
+      "next_action": "Link manifest rows to event IDs so artifacts have provenance for their retrieval status.",
+      "status": "pass",
+      "summary": "Build and validate the retrieval manifest; stale/generated outputs are excluded from canonical retrieval by default.",
+      "timestamp": "2026-06-18T13:11:00+01:00"
+    },
+    "vendor_neutrality": {
+      "event_id": "REVT-0013",
+      "event_type": "gate_result",
+      "next_action": "Keep provider-neutrality audit in the reset gate set.",
+      "status": "pass",
+      "summary": "Vendor-neutrality gate passes with zero blocking hits; remaining hits are historical/source/generated-projection traces.",
+      "timestamp": "2026-06-18T13:11:00+01:00"
+    }
+  },
+  "generated_at": "2026-06-21T03:11:13+01:00",
+  "indexed_artifact_count": 101,
+  "last_event_id": "REVT-0021",
+  "latest_by_scope": {
+    "artifact_lab": {
+      "event_id": "REVT-0002",
+      "event_type": "decision",
+      "next_action": "Keep PAGC applications downstream of source-layer reconstruction.",
+      "status": "accepted",
+      "summary": "Make Nwagu Aneke the first canonical artifact dossier.",
+      "timestamp": "2026-05-28T08:20:53+00:00"
+    },
+    "authority_workflow": {
+      "event_id": "REVT-0005",
+      "event_type": "human_attestation",
+      "next_action": "Attach paper-specific authority and rights documents before external submission.",
+      "status": "accepted_for_internal_research",
+      "summary": "Record approvals as obtained-by-user-attestation for internal implementation, while external release still requires attached approval documents.",
+      "timestamp": "2026-05-28T08:20:53+00:00"
+    },
+    "canonical_instruction_reset": {
+      "event_id": "REVT-0015",
+      "event_type": "control_plane_change",
+      "next_action": "Run reset audit again and continue editing only live canonical instruction surfaces.",
+      "status": "accepted",
+      "summary": "Update root research instructions to stop presenting old PAGC exact-27 and exceptional-theory branches as current live truth.",
+      "timestamp": "2026-06-19T10:00:00+01:00"
+    },
+    "lab_identity": {
+      "event_id": "REVT-0001",
+      "event_type": "decision",
+      "next_action": "Keep lab-wide state projected from events rather than generated packets.",
+      "status": "accepted",
+      "summary": "Treat Etisiobi as a lab operating system, not only a research archive or paper pipeline.",
+      "timestamp": "2026-05-28T08:20:53+00:00"
+    },
+    "nwagu_aneke_article_program": {
+      "event_id": "REVT-0017",
+      "event_type": "decision",
+      "next_action": "Start EXP-NA-001 source-critical reconstruction for ARTICLE-NA-001.",
+      "status": "active",
+      "summary": "Spawn a research-backed goal program for ten novel article candidates derived from the Nwagu Aneke artifact, with three active candidates and seven pending candidates.",
+      "timestamp": "2026-06-19T10:25:00+01:00"
+    },
+    "nwagu_aneke_autoresearch_benchmark": {
+      "event_id": "REVT-0021",
+      "event_type": "research_result",
+      "next_action": "Prioritize ARTICLE-NA-002 and ARTICLE-NA-010 for expert review; run downstream NLP task design before promoting ARTICLE-NA-009.",
+      "status": "internal_research_drafts_benchmark_validated",
+      "summary": "Execute EXP-NA-002 through EXP-NA-010, create a Karpathy-style fixed benchmark for the ten-article program, rewrite the manuscripts out of internal-note form, and compile ten validated PDFs.",
+      "timestamp": "2026-06-20T06:55:00+01:00"
+    },
+    "nwagu_aneke_source_critical_reconstruction": {
+      "event_id": "REVT-0018",
+      "event_type": "research_result",
+      "next_action": "Run EXP-NA-002 count-layer ledger or attach human source review for the chart transcription and Azuonye appendix.",
+      "status": "accepted_with_limitations",
+      "summary": "Complete EXP-NA-001 for ARTICLE-NA-001; the article is viable as a source-critical ledger paper, not as a completed glyph-corpus paper.",
+      "timestamp": "2026-06-19T18:55:00+01:00"
+    },
+    "nwagu_aneke_ten_article_impact_upgrade": {
+      "event_id": "REVT-0020",
+      "event_type": "research_result",
+      "next_action": "Pick ARTICLE-NA-002 and ARTICLE-NA-010 for the first deep frontier experiments, or choose a different pair if human strategy prioritizes source-critical or Unicode work.",
+      "status": "journal_track_drafts_not_submission_ready",
+      "summary": "Evaluate why the ten Nwagu Aneke PDFs are not impact-journal submissions and upgrade them into stronger journal-track drafts with explicit rejection rationale, venue fit, impact gates, and next experiments.",
+      "timestamp": "2026-06-20T06:25:00+01:00"
+    },
+    "nwagu_aneke_ten_article_manuscript_package": {
+      "event_id": "REVT-0019",
+      "event_type": "research_result",
+      "next_action": "Select the first two articles for deepening, then run domain-specific experiments and literature sweeps until at least one draft contains a frontier-grade novel result.",
+      "status": "compiled_review_drafts",
+      "summary": "Generate ten Nwagu Aneke-derived double-column ACM-style article drafts with top matter abstracts, shared BibTeX citations, PDFs, and structural validation.",
+      "timestamp": "2026-06-20T00:20:00+01:00"
+    },
+    "pagc_applications_layer_safety": {
+      "event_id": "REVT-0009",
+      "event_type": "research_result",
+      "next_action": "Turn the proof into a testable system invariant and avoid expanding it beyond its assumptions.",
+      "status": "accepted_with_assumptions",
+      "summary": "Accept the Layer-Safety Theorem as the first bounded proof from PAGC applications research.",
+      "timestamp": "2026-05-28T19:22:53+00:00"
+    },
+    "pagc_applications_research": {
+      "event_id": "REVT-0007",
+      "event_type": "decision",
+      "next_action": "Run only experiments with explicit falsification and layer labels.",
+      "status": "active",
+      "summary": "Start PAGC applications research from the confirmed 26 x 8 source layer and derived 27/216 f/v split layer.",
+      "timestamp": "2026-05-28T11:02:20+00:00"
+    },
+    "pagc_governance_state_grammar": {
+      "event_id": "REVT-0008",
+      "event_type": "research_result",
+      "next_action": "Translate computability gaps into reviewed product state transitions and acceptance tests.",
+      "status": "active",
+      "summary": "Keep EXP-APP-002 as the first product-connected PAGC applications branch.",
+      "timestamp": "2026-05-28T11:56:46+00:00"
+    },
+    "pagc_nwagu_aneke_count_layer_foundation": {
+      "event_id": "REVT-0006",
+      "event_type": "human_attestation",
+      "next_action": "Research applications that preserve source/derived boundaries.",
+      "status": "accepted_for_internal_research_and_design_exploration",
+      "summary": "Accept the 26 x 8 source layer and derived 27/216 f/v split layer as the foundation for internal PAGC applications and novel system design research.",
+      "timestamp": "2026-05-28T12:00:00+01:00"
+    },
+    "provider_neutrality": {
+      "event_id": "REVT-0011",
+      "event_type": "artifact_quarantined",
+      "next_action": "Use vendor-neutral gate output before claiming the public protocol is clean.",
+      "status": "accepted",
+      "summary": "Quarantine provider-specific/session-harness artifacts instead of letting them define public research protocol.",
+      "timestamp": "2026-06-18T13:08:00+01:00"
+    },
+    "research_event_trace": {
+      "event_id": "REVT-0014",
+      "event_type": "control_plane_change",
+      "next_action": "Project current state, link artifacts to event IDs, and validate the event stream.",
+      "status": "active",
+      "summary": "Add a canonical research event stream and projector so current lab state can be derived from append-only events.",
+      "timestamp": "2026-06-19T00:00:00+01:00"
+    },
+    "research_lattice": {
+      "event_id": "REVT-0004",
+      "event_type": "decision",
+      "next_action": "Keep exceptional-math branches outside abstracts and contribution claims until revalidated.",
+      "status": "accepted",
+      "summary": "Classify E6/exact-27 exceptional-math mapping as rejected-for-now rather than deleting it.",
+      "timestamp": "2026-05-28T08:20:53+00:00"
+    },
+    "research_reset_control_plane": {
+      "event_id": "REVT-0010",
+      "event_type": "control_plane_change",
+      "next_action": "Keep adding gates that reduce ordinary retrieval to current, source-backed control files.",
+      "status": "accepted",
+      "summary": "Create the reset/public-truth-v1 branch and tag the pre-control-plane state.",
+      "timestamp": "2026-06-18T13:00:00+01:00"
+    },
+    "reset_audit_precision": {
+      "event_id": "REVT-0016",
+      "event_type": "control_plane_change",
+      "next_action": "Rerun reset audit and inspect remaining non-canonical authority collisions.",
+      "status": "accepted",
+      "summary": "Tighten reset-audit collision logic so legitimate canonical control files are not flagged solely for containing authority language.",
+      "timestamp": "2026-06-19T10:10:00+01:00"
+    },
+    "retrieval_firewall": {
+      "event_id": "REVT-0012",
+      "event_type": "gate_result",
+      "next_action": "Link manifest rows to event IDs so artifacts have provenance for their retrieval status.",
+      "status": "pass",
+      "summary": "Build and validate the retrieval manifest; stale/generated outputs are excluded from canonical retrieval by default.",
+      "timestamp": "2026-06-18T13:11:00+01:00"
+    },
+    "vendor_neutrality": {
+      "event_id": "REVT-0013",
+      "event_type": "gate_result",
+      "next_action": "Keep provider-neutrality audit in the reset gate set.",
+      "status": "pass",
+      "summary": "Vendor-neutrality gate passes with zero blocking hits; remaining hits are historical/source/generated-projection traces.",
+      "timestamp": "2026-06-18T13:11:00+01:00"
+    }
+  },
+  "superseded_artifacts": {
+    "legacy-provider/pagc-autoreason-runner.py": "REVT-0011",
+    "legacy-provider/session-config/scheduled_tasks.lock": "REVT-0011",
+    "legacy-provider/session-config/settings.local.json": "REVT-0011",
+    "legacy-provider/session-harness.md": "REVT-0011",
+    "research/pagc/INDEX.md": "REVT-0003",
+    "research/pagc/WIKI.md": "REVT-0003"
+  }
+}

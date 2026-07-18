@@ -1,0 +1,32 @@
+{
+  "experiment_id": "EXP-FRONTIER-007",
+  "title": "Inspect-style LPE-Bench port plan",
+  "atlas_id": "ATLAS-0049",
+  "status": "INSPECT_LPE_PORT_PLAN_READY_NO_DEPENDENCY_INSTALL",
+  "created": "2026-06-22",
+  "claim_ceiling": "eval_harness_relevance_not_model_claim",
+  "dependency_policy": "no_install_in_continuous_loop",
+  "case_count": 10,
+  "negative_control_count": 2,
+  "primary_sources": [
+    "https://inspect.aisi.org.uk/",
+    "https://github.com/UKGovernmentBEIS/inspect_ai",
+    "https://www.aisi.gov.uk/blog/inspect-evals",
+    "https://inspect.aisi.org.uk/tutorial.html"
+  ],
+  "local_sources": [
+    "research/frontier/lpe_bench/prior_art/ATLAS-0049-inspect-ai.md",
+    "experiments/EXP-FRONTIER-002-layer-promotion-expanded/data/lpe_cases.jsonl",
+    "research/frontier/nwagu_aneke/claim_layer_fixtures.jsonl"
+  ],
+  "blocking_gates": [
+    "explicit dependency approval",
+    "model/API key approval",
+    "human/domain review of seed labels",
+    "no private or restricted source data",
+    "execution gate pending user approval"
+  ],
+  "execution_gate": "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/",
+  "execution_gate_review": "experiments/EXP-FRONTIER-007-inspect-ai-lpe-port/execution_gate/review/review_manifest.json",
+  "exact_next_action": "Record explicit user/lab approval or rejection for a separate Inspect execution cycle; without approval continue to the ATLAS-0052 design-only loop."
+}

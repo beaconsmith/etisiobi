@@ -1,0 +1,32 @@
+{
+  "checklist_id": "REPO-REVIEWER-CONFLICT-CHECKLIST-001",
+  "status": "not_satisfied_no_reviewers_selected",
+  "claim_ceiling": "reviewer_assignment_intake_not_review_completion",
+  "items": [
+    {
+      "item_id": "NO_SELF_APPROVAL",
+      "current_status": "not_satisfied",
+      "required_evidence": "reviewer selection record showing no author self-approval"
+    },
+    {
+      "item_id": "NO_PRIVATE_CONTACTS_IN_REPO",
+      "current_status": "not_satisfied",
+      "required_evidence": "contact-handling record stored outside the public repo"
+    },
+    {
+      "item_id": "NO_UNAPPROVED_AUTHORITY_SUBSTITUTION",
+      "current_status": "not_satisfied",
+      "required_evidence": "authority role fit reviewed before assignment"
+    },
+    {
+      "item_id": "NO_RELEASE_OR_ARCHIVE_ACTION",
+      "current_status": "not_satisfied",
+      "required_evidence": "reviewer assignment record explicitly blocks release and archive action"
+    },
+    {
+      "item_id": "NO_SOURCE_MATERIAL_EXPOSURE",
+      "current_status": "not_satisfied",
+      "required_evidence": "source dossier reviewer confirms no restricted source exposure in candidate package"
+    }
+  ]
+}

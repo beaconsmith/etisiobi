@@ -1,0 +1,7 @@
+key,title,year,category,confidence,status,notes
+T7-A,RIS DPI Handbook,2025,dpi,5,vetted,canonical DPI definition
+T7-B,World Bank DPI Sourcebook,2025,dpi,5,vetted,canonical DPI definition
+T7-C,G20 DPI synthesis,2023,policy,4,vetted,state-scale assumption
+T7-D,Aguerre et al. Polycentric Digital Data Governance,2024,foundational,5,vetted,polycentric bridge
+T7-E,Ostrom Governing the Commons,1990,foundational,5,vetted,community governance theory
+T7-F,Community informatics in Africa,,regional,,to_acquire,critical missing source class

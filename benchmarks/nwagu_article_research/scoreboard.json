@@ -1,0 +1,270 @@
+{
+  "generated_at": "2026-06-21T02:46:40+01:00",
+  "benchmark_name": "Nwagu Aneke Article Research Benchmark",
+  "sota_design_basis": [
+    "Karpathy/autoresearch: fixed budget, one metric, compare/keep/reject loop",
+    "ScienceAgentBench/PaperBench style task/rubric decomposition",
+    "SciFact/ALCE style claim and citation verification",
+    "RO-Crate style provenance packaging"
+  ],
+  "accepted_foundation": {
+    "source_observed_layer": "26 rows x 8 vowel/modifier columns = 208 records",
+    "derived_layer": "27/216 only as derived f/v split layer"
+  },
+  "evidence_completion_score": 0.8582,
+  "impact_journal_readiness_score": 59.0,
+  "research_loss_lower_is_better": 0.1418,
+  "status": "WORKING_PAPER_SET_NOT_IMPACT_READY",
+  "hard_gate_failures": [],
+  "applied_caps": [
+    "Article 9 cannot exceed bounded-baseline status without downstream NLP task result.",
+    "Article-specific novelty/prior-art gate failed; cap IJRS below impact-readiness.",
+    "Rights/authority unresolved; cap IJRS below impact-readiness.",
+    "Manuscripts are short working-paper drafts, not full impact-journal articles; cap IJRS below impact-readiness."
+  ],
+  "task_scores": [
+    {
+      "task_id": "NA-BENCH-001",
+      "task": "Source-layer discipline and claim safety",
+      "evidence_weight": 0.1,
+      "ijrs_weight": 15,
+      "pass_threshold": 13,
+      "hard_gate": true,
+      "reject_if": "27/216 or 216 is described as source-observed; unsupported E6 or universal-compression claims appear as results.",
+      "score_0_1": 1.0,
+      "evidence_points": 0.1,
+      "ijrs_points": 15.0,
+      "passes_threshold": true
+    },
+    {
+      "task_id": "NA-BENCH-002",
+      "task": "Evidence ledger and citation reliability",
+      "evidence_weight": 0.1,
+      "ijrs_weight": 12,
+      "pass_threshold": 10,
+      "hard_gate": true,
+      "reject_if": "Counts, citations, source statuses, or manuscript holdings are asserted without evidence files or verified source records.",
+      "score_0_1": 1.0,
+      "evidence_points": 0.1,
+      "ijrs_points": 12.0,
+      "passes_threshold": true
+    },
+    {
+      "task_id": "NA-BENCH-003",
+      "task": "Article-specific result strength",
+      "evidence_weight": 0.18,
+      "ijrs_weight": 18,
+      "pass_threshold": 15,
+      "hard_gate": false,
+      "reject_if": "The article only proposes work and reports no experiment, audit, matrix, theorem, benchmark, or negative result.",
+      "score_0_1": 0.9222,
+      "evidence_points": 0.166,
+      "ijrs_points": 16.6,
+      "passes_threshold": true
+    },
+    {
+      "task_id": "NA-BENCH-004",
+      "task": "Novelty against prior art",
+      "evidence_weight": 0.08,
+      "ijrs_weight": 12,
+      "pass_threshold": 10,
+      "hard_gate": false,
+      "reject_if": "The article claims first-ever novelty without a prior-art matrix or states that BMC alone is novel as a generic annotation cache.",
+      "score_0_1": 0.72,
+      "evidence_points": 0.0576,
+      "ijrs_points": 8.64,
+      "passes_threshold": false
+    },
+    {
+      "task_id": "NA-BENCH-005",
+      "task": "Reproducible method/data/code",
+      "evidence_weight": 0.12,
+      "ijrs_weight": 10,
+      "pass_threshold": 8,
+      "hard_gate": false,
+      "reject_if": "The result cannot be regenerated from repo-local scripts and named input artifacts.",
+      "score_0_1": 0.9,
+      "evidence_points": 0.108,
+      "ijrs_points": 9.0,
+      "passes_threshold": true
+    },
+    {
+      "task_id": "NA-BENCH-006",
+      "task": "Reviewer attack-surface burn-down",
+      "evidence_weight": 0.08,
+      "ijrs_weight": 10,
+      "pass_threshold": 8,
+      "hard_gate": false,
+      "reject_if": "The article hides missing human review, rights review, expert review, or failed/negative experiment results.",
+      "score_0_1": 0.84,
+      "evidence_points": 0.0672,
+      "ijrs_points": 8.4,
+      "passes_threshold": true
+    },
+    {
+      "task_id": "NA-BENCH-007",
+      "task": "Rights, authority, CARE/community ethics",
+      "evidence_weight": 0.08,
+      "ijrs_weight": 8,
+      "pass_threshold": 7,
+      "hard_gate": false,
+      "soft_cap_if_unresolved": 74,
+      "reject_if": "The article states that public data release or public source-image use is approved without authority and rights records.",
+      "score_0_1": 0.55,
+      "evidence_points": 0.044,
+      "ijrs_points": 4.4,
+      "passes_threshold": false
+    },
+    {
+      "task_id": "NA-BENCH-008",
+      "task": "Manuscript coherence and venue fit",
+      "evidence_weight": 0.1,
+      "ijrs_weight": 8,
+      "pass_threshold": 7,
+      "hard_gate": false,
+      "reject_if": "The body reads as internal notes to an AI rather than a field-specific research article.",
+      "score_0_1": 0.65,
+      "evidence_points": 0.065,
+      "ijrs_points": 5.2,
+      "passes_threshold": false
+    },
+    {
+      "task_id": "NA-BENCH-009",
+      "task": "Field impact and reusable artifact value",
+      "evidence_weight": 0.08,
+      "ijrs_weight": 7,
+      "pass_threshold": 6,
+      "hard_gate": false,
+      "reject_if": "The article has no reusable artifact, benchmark, ledger, theorem, dataset, matrix, or protocol.",
+      "score_0_1": 0.88,
+      "evidence_points": 0.0704,
+      "ijrs_points": 6.16,
+      "passes_threshold": true
+    },
+    {
+      "task_id": "NA-BENCH-010",
+      "task": "Benchmark comparability and keep/reject ledger",
+      "evidence_weight": 0.08,
+      "ijrs_weight": 0,
+      "pass_threshold": 0,
+      "hard_gate": false,
+      "reject_if": "Runs do not record fixed inputs, input checksums, score history, or keep/reject decisions.",
+      "score_0_1": 1.0,
+      "evidence_points": 0.08,
+      "ijrs_points": 0.0,
+      "passes_threshold": true
+    }
+  ],
+  "article_quality": [
+    {
+      "article": "001-source-critical-reconstruction",
+      "words": 1425,
+      "unique_citations": 14,
+      "sections_present": 9,
+      "has_experiment_reference": false,
+      "has_result_table": true,
+      "meta_note_hits": "",
+      "overclaim_hits": "",
+      "article_quality_score": 0.65
+    },
+    {
+      "article": "002-count-layer-drift",
+      "words": 1452,
+      "unique_citations": 14,
+      "sections_present": 9,
+      "has_experiment_reference": false,
+      "has_result_table": true,
+      "meta_note_hits": "",
+      "overclaim_hits": "",
+      "article_quality_score": 0.65
+    },
+    {
+      "article": "003-f-v-hinge",
+      "words": 1438,
+      "unique_citations": 13,
+      "sections_present": 9,
+      "has_experiment_reference": false,
+      "has_result_table": true,
+      "meta_note_hits": "",
+      "overclaim_hits": "",
+      "article_quality_score": 0.65
+    },
+    {
+      "article": "004-logographs-in-a-syllabary",
+      "words": 1439,
+      "unique_citations": 15,
+      "sections_present": 9,
+      "has_experiment_reference": false,
+      "has_result_table": true,
+      "meta_note_hits": "",
+      "overclaim_hits": "",
+      "article_quality_score": 0.65
+    },
+    {
+      "article": "005-tei-iiif-critical-edition",
+      "words": 1451,
+      "unique_citations": 15,
+      "sections_present": 9,
+      "has_experiment_reference": false,
+      "has_result_table": true,
+      "meta_note_hits": "",
+      "overclaim_hits": "",
+      "article_quality_score": 0.65
+    },
+    {
+      "article": "006-unicode-readiness",
+      "words": 1422,
+      "unique_citations": 16,
+      "sections_present": 9,
+      "has_experiment_reference": false,
+      "has_result_table": true,
+      "meta_note_hits": "",
+      "overclaim_hits": "",
+      "article_quality_score": 0.65
+    },
+    {
+      "article": "007-manuscript-corpus-provenance",
+      "words": 1434,
+      "unique_citations": 16,
+      "sections_present": 9,
+      "has_experiment_reference": false,
+      "has_result_table": true,
+      "meta_note_hits": "",
+      "overclaim_hits": "",
+      "article_quality_score": 0.65
+    },
+    {
+      "article": "008-comparative-standardization",
+      "words": 1432,
+      "unique_citations": 16,
+      "sections_present": 9,
+      "has_experiment_reference": false,
+      "has_result_table": true,
+      "meta_note_hits": "",
+      "overclaim_hits": "",
+      "article_quality_score": 0.65
+    },
+    {
+      "article": "009-igbo-tokenization",
+      "words": 1466,
+      "unique_citations": 18,
+      "sections_present": 9,
+      "has_experiment_reference": false,
+      "has_result_table": true,
+      "meta_note_hits": "",
+      "overclaim_hits": "",
+      "article_quality_score": 0.65
+    },
+    {
+      "article": "010-layer-safe-generative-design",
+      "words": 1439,
+      "unique_citations": 14,
+      "sections_present": 9,
+      "has_experiment_reference": false,
+      "has_result_table": true,
+      "meta_note_hits": "",
+      "overclaim_hits": "",
+      "article_quality_score": 0.65
+    }
+  ]
+}

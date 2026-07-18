@@ -1,0 +1,7 @@
+case_id,variant_type,input_signal,expected_decision,reason
+DH001-ADV-001,masked_role,FV_COLLAPSED plus modifier a without f/v label,insufficient_evidence,No non-label cue distinguishes f-role from v-role.
+DH001-ADV-002,masked_role,FV_COLLAPSED plus modifier e without f/v label,insufficient_evidence,No non-label cue distinguishes f-role from v-role.
+DH001-ADV-003,masked_role,FV_COLLAPSED plus modifier i without f/v label,insufficient_evidence,No non-label cue distinguishes f-role from v-role.
+DH001-ADV-004,source_only_combined_row,printed f/v row only,insufficient_evidence,The source record preserves a combined row rather than separate printed rows.
+DH001-ADV-005,representation_choice,matrix layout without manuscript-level usage evidence,insufficient_evidence,A grid representation does not prove an inherent generative grammar.
+DH001-ADV-006,approximate_symbol_count,secondary approximately 200 symbols summary,insufficient_evidence,Approximate symbol count does not support source-observed 216 records.

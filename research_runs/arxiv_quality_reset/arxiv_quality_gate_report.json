@@ -1,0 +1,269 @@
+{
+  "status": "ARXIV_QUALITY_GATE_PARTIAL",
+  "passed_count": 10,
+  "checked_count": 20,
+  "passed_articles": [
+    "001-source-critical-reconstruction",
+    "002-count-layer-drift",
+    "003-f-v-hinge",
+    "004-logographs-in-a-syllabary",
+    "005-tei-iiif-critical-edition",
+    "006-unicode-readiness",
+    "008-comparative-standardization",
+    "009-igbo-tokenization",
+    "010-layer-safe-generative-design",
+    "012-layer-promotion-error-benchmark"
+  ],
+  "articles": [
+    {
+      "article": "001-source-critical-reconstruction",
+      "package": "nwagu_aneke_articles",
+      "arxiv_quality_pass": true,
+      "blockers": []
+    },
+    {
+      "article": "002-count-layer-drift",
+      "package": "nwagu_aneke_articles",
+      "arxiv_quality_pass": true,
+      "blockers": []
+    },
+    {
+      "article": "003-f-v-hinge",
+      "package": "nwagu_aneke_articles",
+      "arxiv_quality_pass": true,
+      "blockers": []
+    },
+    {
+      "article": "004-logographs-in-a-syllabary",
+      "package": "nwagu_aneke_articles",
+      "arxiv_quality_pass": true,
+      "blockers": []
+    },
+    {
+      "article": "005-tei-iiif-critical-edition",
+      "package": "nwagu_aneke_articles",
+      "arxiv_quality_pass": true,
+      "blockers": []
+    },
+    {
+      "article": "006-unicode-readiness",
+      "package": "nwagu_aneke_articles",
+      "arxiv_quality_pass": true,
+      "blockers": []
+    },
+    {
+      "article": "007-manuscript-corpus-provenance",
+      "package": "nwagu_aneke_articles",
+      "arxiv_quality_pass": false,
+      "blockers": [
+        "manuscript below arXiv-quality depth threshold: 4624 validator words",
+        "too few unique citations for arXiv-quality candidate: 20",
+        "AI-to-AI/internal process language remains: internal approval, internally approved, review-team trace, approved internal, not external submission",
+        "missing explicit research question and hypothesis pair",
+        "missing arXiv-quality evidence file: arxiv_quality_candidate.json",
+        "missing arXiv-quality evidence file: external_prior_art_audit.md",
+        "missing arXiv-quality evidence file: article_specific_experiment.md",
+        "missing arXiv-quality evidence file: figures_tables_manifest.json",
+        "missing arXiv-quality evidence file: human_source_review.md",
+        "missing arXiv-quality evidence file: rights_submission_clearance.md",
+        "missing arXiv-quality evidence file: reviewer2_response_plan.md",
+        "missing experiment result EXP-NA-007"
+      ]
+    },
+    {
+      "article": "008-comparative-standardization",
+      "package": "nwagu_aneke_articles",
+      "arxiv_quality_pass": true,
+      "blockers": []
+    },
+    {
+      "article": "009-igbo-tokenization",
+      "package": "nwagu_aneke_articles",
+      "arxiv_quality_pass": true,
+      "blockers": []
+    },
+    {
+      "article": "010-layer-safe-generative-design",
+      "package": "nwagu_aneke_articles",
+      "arxiv_quality_pass": true,
+      "blockers": []
+    },
+    {
+      "article": "011-storm-question-compiler",
+      "package": "nwagu_aneke_articles_cycle2",
+      "arxiv_quality_pass": false,
+      "blockers": [
+        "manuscript below arXiv-quality depth threshold: 4882 validator words",
+        "AI-to-AI/internal process language remains: internal approval, internally approved, this article is part of, first ten etisiobi papers, second cycle, review-team trace",
+        "result is framed as process/prewriting rather than discovery: perspective trace, outline-quality audit, red-herring audit, bounded question compiler, converts the first-cycle ledger, sharper research question",
+        "missing arXiv-quality evidence file: arxiv_quality_candidate.json",
+        "missing arXiv-quality evidence file: external_prior_art_audit.md",
+        "missing arXiv-quality evidence file: article_specific_experiment.md",
+        "missing arXiv-quality evidence file: figures_tables_manifest.json",
+        "missing arXiv-quality evidence file: human_source_review.md",
+        "missing arXiv-quality evidence file: rights_submission_clearance.md",
+        "missing arXiv-quality evidence file: reviewer2_response_plan.md",
+        "linked experiments are prewriting/approval artifacts, not substantive research results: EXP-NA-011",
+        "own readiness decision says not arXiv/journal-submission ready"
+      ]
+    },
+    {
+      "article": "012-layer-promotion-error-benchmark",
+      "package": "nwagu_aneke_articles_cycle2",
+      "arxiv_quality_pass": true,
+      "blockers": []
+    },
+    {
+      "article": "013-red-herring-audit",
+      "package": "nwagu_aneke_articles_cycle2",
+      "arxiv_quality_pass": false,
+      "blockers": [
+        "manuscript below arXiv-quality depth threshold: 4848 validator words",
+        "AI-to-AI/internal process language remains: internal approval, internally approved, this article is part of, first ten etisiobi papers, second cycle, review-team trace",
+        "result is framed as process/prewriting rather than discovery: perspective trace, outline-quality audit, red-herring audit, sharper research question",
+        "missing arXiv-quality evidence file: arxiv_quality_candidate.json",
+        "missing arXiv-quality evidence file: external_prior_art_audit.md",
+        "missing arXiv-quality evidence file: article_specific_experiment.md",
+        "missing arXiv-quality evidence file: figures_tables_manifest.json",
+        "missing arXiv-quality evidence file: human_source_review.md",
+        "missing arXiv-quality evidence file: rights_submission_clearance.md",
+        "missing arXiv-quality evidence file: reviewer2_response_plan.md",
+        "linked experiments are prewriting/approval artifacts, not substantive research results: EXP-NA-013",
+        "own readiness decision says not arXiv/journal-submission ready"
+      ]
+    },
+    {
+      "article": "014-perspective-graph",
+      "package": "nwagu_aneke_articles_cycle2",
+      "arxiv_quality_pass": false,
+      "blockers": [
+        "manuscript below arXiv-quality depth threshold: 4835 validator words",
+        "AI-to-AI/internal process language remains: internal approval, internally approved, this article is part of, first ten etisiobi papers, second cycle, review-team trace",
+        "result is framed as process/prewriting rather than discovery: perspective trace, outline-quality audit, red-herring audit, sharper research question",
+        "missing arXiv-quality evidence file: arxiv_quality_candidate.json",
+        "missing arXiv-quality evidence file: external_prior_art_audit.md",
+        "missing arXiv-quality evidence file: article_specific_experiment.md",
+        "missing arXiv-quality evidence file: figures_tables_manifest.json",
+        "missing arXiv-quality evidence file: human_source_review.md",
+        "missing arXiv-quality evidence file: rights_submission_clearance.md",
+        "missing arXiv-quality evidence file: reviewer2_response_plan.md",
+        "linked experiments are prewriting/approval artifacts, not substantive research results: EXP-NA-014",
+        "own readiness decision says not arXiv/journal-submission ready"
+      ]
+    },
+    {
+      "article": "015-source-to-system-transfer",
+      "package": "nwagu_aneke_articles_cycle2",
+      "arxiv_quality_pass": false,
+      "blockers": [
+        "manuscript below arXiv-quality depth threshold: 4840 validator words",
+        "AI-to-AI/internal process language remains: internal approval, internally approved, this article is part of, first ten etisiobi papers, second cycle, review-team trace",
+        "result is framed as process/prewriting rather than discovery: perspective trace, outline-quality audit, red-herring audit, sharper research question",
+        "missing arXiv-quality evidence file: arxiv_quality_candidate.json",
+        "missing arXiv-quality evidence file: external_prior_art_audit.md",
+        "missing arXiv-quality evidence file: article_specific_experiment.md",
+        "missing arXiv-quality evidence file: figures_tables_manifest.json",
+        "missing arXiv-quality evidence file: human_source_review.md",
+        "missing arXiv-quality evidence file: rights_submission_clearance.md",
+        "missing arXiv-quality evidence file: reviewer2_response_plan.md",
+        "linked experiments are prewriting/approval artifacts, not substantive research results: EXP-NA-015",
+        "own readiness decision says not arXiv/journal-submission ready"
+      ]
+    },
+    {
+      "article": "016-evidence-weighted-design-grammar",
+      "package": "nwagu_aneke_articles_cycle2",
+      "arxiv_quality_pass": false,
+      "blockers": [
+        "manuscript below arXiv-quality depth threshold: 4885 validator words",
+        "AI-to-AI/internal process language remains: internal approval, internally approved, this article is part of, first ten etisiobi papers, second cycle, review-team trace",
+        "result is framed as process/prewriting rather than discovery: perspective trace, outline-quality audit, red-herring audit, sharper research question",
+        "missing arXiv-quality evidence file: arxiv_quality_candidate.json",
+        "missing arXiv-quality evidence file: external_prior_art_audit.md",
+        "missing arXiv-quality evidence file: article_specific_experiment.md",
+        "missing arXiv-quality evidence file: figures_tables_manifest.json",
+        "missing arXiv-quality evidence file: human_source_review.md",
+        "missing arXiv-quality evidence file: rights_submission_clearance.md",
+        "missing arXiv-quality evidence file: reviewer2_response_plan.md",
+        "linked experiments are prewriting/approval artifacts, not substantive research results: EXP-NA-016",
+        "own readiness decision says not arXiv/journal-submission ready"
+      ]
+    },
+    {
+      "article": "017-authority-turn-taking",
+      "package": "nwagu_aneke_articles_cycle2",
+      "arxiv_quality_pass": false,
+      "blockers": [
+        "manuscript below arXiv-quality depth threshold: 4810 validator words",
+        "AI-to-AI/internal process language remains: internal approval, internally approved, this article is part of, first ten etisiobi papers, second cycle, review-team trace",
+        "result is framed as process/prewriting rather than discovery: perspective trace, outline-quality audit, red-herring audit, sharper research question",
+        "missing arXiv-quality evidence file: arxiv_quality_candidate.json",
+        "missing arXiv-quality evidence file: external_prior_art_audit.md",
+        "missing arXiv-quality evidence file: article_specific_experiment.md",
+        "missing arXiv-quality evidence file: figures_tables_manifest.json",
+        "missing arXiv-quality evidence file: human_source_review.md",
+        "missing arXiv-quality evidence file: rights_submission_clearance.md",
+        "missing arXiv-quality evidence file: reviewer2_response_plan.md",
+        "linked experiments are prewriting/approval artifacts, not substantive research results: EXP-NA-017",
+        "own readiness decision says not arXiv/journal-submission ready"
+      ]
+    },
+    {
+      "article": "018-oroma-research-bridge",
+      "package": "nwagu_aneke_articles_cycle2",
+      "arxiv_quality_pass": false,
+      "blockers": [
+        "manuscript below arXiv-quality depth threshold: 4816 validator words",
+        "AI-to-AI/internal process language remains: internal approval, internally approved, this article is part of, first ten etisiobi papers, second cycle, review-team trace",
+        "result is framed as process/prewriting rather than discovery: perspective trace, outline-quality audit, red-herring audit, sharper research question",
+        "missing arXiv-quality evidence file: arxiv_quality_candidate.json",
+        "missing arXiv-quality evidence file: external_prior_art_audit.md",
+        "missing arXiv-quality evidence file: article_specific_experiment.md",
+        "missing arXiv-quality evidence file: figures_tables_manifest.json",
+        "missing arXiv-quality evidence file: human_source_review.md",
+        "missing arXiv-quality evidence file: rights_submission_clearance.md",
+        "missing arXiv-quality evidence file: reviewer2_response_plan.md",
+        "linked experiments are prewriting/approval artifacts, not substantive research results: EXP-NA-018",
+        "own readiness decision says not arXiv/journal-submission ready"
+      ]
+    },
+    {
+      "article": "019-recursive-portfolio-pruning",
+      "package": "nwagu_aneke_articles_cycle2",
+      "arxiv_quality_pass": false,
+      "blockers": [
+        "manuscript below arXiv-quality depth threshold: 4845 validator words",
+        "AI-to-AI/internal process language remains: internal approval, internally approved, this article is part of, first ten etisiobi papers, second cycle, review-team trace",
+        "result is framed as process/prewriting rather than discovery: perspective trace, outline-quality audit, red-herring audit, sharper research question",
+        "missing arXiv-quality evidence file: arxiv_quality_candidate.json",
+        "missing arXiv-quality evidence file: external_prior_art_audit.md",
+        "missing arXiv-quality evidence file: article_specific_experiment.md",
+        "missing arXiv-quality evidence file: figures_tables_manifest.json",
+        "missing arXiv-quality evidence file: human_source_review.md",
+        "missing arXiv-quality evidence file: rights_submission_clearance.md",
+        "missing arXiv-quality evidence file: reviewer2_response_plan.md",
+        "linked experiments are prewriting/approval artifacts, not substantive research results: EXP-NA-019",
+        "own readiness decision says not arXiv/journal-submission ready"
+      ]
+    },
+    {
+      "article": "020-storm-etisiobi-accelerator",
+      "package": "nwagu_aneke_articles_cycle2",
+      "arxiv_quality_pass": false,
+      "blockers": [
+        "manuscript below arXiv-quality depth threshold: 4893 validator words",
+        "AI-to-AI/internal process language remains: internal approval, internally approved, this article is part of, first ten etisiobi papers, second cycle, review-team trace",
+        "result is framed as process/prewriting rather than discovery: perspective trace, outline-quality audit, red-herring audit, sharper research question",
+        "missing arXiv-quality evidence file: arxiv_quality_candidate.json",
+        "missing arXiv-quality evidence file: external_prior_art_audit.md",
+        "missing arXiv-quality evidence file: article_specific_experiment.md",
+        "missing arXiv-quality evidence file: figures_tables_manifest.json",
+        "missing arXiv-quality evidence file: human_source_review.md",
+        "missing arXiv-quality evidence file: rights_submission_clearance.md",
+        "missing arXiv-quality evidence file: reviewer2_response_plan.md",
+        "linked experiments are prewriting/approval artifacts, not substantive research results: EXP-NA-020",
+        "own readiness decision says not arXiv/journal-submission ready"
+      ]
+    }
+  ]
+}

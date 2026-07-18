@@ -1,0 +1,17 @@
+{
+  "article_id": "ARTICLE-NA-012",
+  "tables": [
+    {
+      "label": "tab:cycle2",
+      "title": "Cycle-two evidence and recursion summary",
+      "source": "papers/nwagu_aneke_articles_cycle2/012-layer-promotion-error-benchmark/main.tex"
+    },
+    {
+      "label": "benchmark_cases",
+      "title": "Layer-promotion benchmark cases",
+      "source": "experiments/EXP-NA-012/data/layer_promotion_cases.csv"
+    }
+  ],
+  "figures": [],
+  "release_boundary": "No source images or restricted source material are included."
+}

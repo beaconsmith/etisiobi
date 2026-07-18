@@ -1,0 +1,92 @@
+[
+  {
+    "Article": "011-storm-question-compiler",
+    "Pdf": true,
+    "pdflatex1": 0,
+    "bibtex": 0,
+    "pdflatex2": 0,
+    "pdflatex3": 0,
+    "Ok": true
+  },
+  {
+    "Article": "012-layer-promotion-error-benchmark",
+    "Pdf": true,
+    "pdflatex1": 0,
+    "bibtex": 0,
+    "pdflatex2": 0,
+    "pdflatex3": 0,
+    "Ok": true
+  },
+  {
+    "Article": "013-red-herring-audit",
+    "Pdf": true,
+    "pdflatex1": 0,
+    "bibtex": 0,
+    "pdflatex2": 0,
+    "pdflatex3": 0,
+    "Ok": true
+  },
+  {
+    "Article": "014-perspective-graph",
+    "Pdf": true,
+    "pdflatex1": 0,
+    "bibtex": 0,
+    "pdflatex2": 0,
+    "pdflatex3": 0,
+    "Ok": true
+  },
+  {
+    "Article": "015-source-to-system-transfer",
+    "Pdf": true,
+    "pdflatex1": 0,
+    "bibtex": 0,
+    "pdflatex2": 0,
+    "pdflatex3": 0,
+    "Ok": true
+  },
+  {
+    "Article": "016-evidence-weighted-design-grammar",
+    "Pdf": true,
+    "pdflatex1": 0,
+    "bibtex": 0,
+    "pdflatex2": 0,
+    "pdflatex3": 0,
+    "Ok": true
+  },
+  {
+    "Article": "017-authority-turn-taking",
+    "Pdf": true,
+    "pdflatex1": 0,
+    "bibtex": 0,
+    "pdflatex2": 0,
+    "pdflatex3": 0,
+    "Ok": true
+  },
+  {
+    "Article": "018-oroma-research-bridge",
+    "Pdf": true,
+    "pdflatex1": 0,
+    "bibtex": 0,
+    "pdflatex2": 1,
+    "pdflatex3": 1,
+    "Ok": false
+  },
+  {
+    "Article": "019-recursive-portfolio-pruning",
+    "Pdf": true,
+    "pdflatex1": 0,
+    "bibtex": 0,
+    "pdflatex2": 0,
+    "pdflatex3": 0,
+    "Ok": true
+  },
+  {
+    "Article": "020-storm-etisiobi-accelerator",
+    "Pdf": true,
+    "pdflatex1": 0,
+    "bibtex": 0,
+    "pdflatex2": 0,
+    "pdflatex3": 0,
+    "Ok": true
+  }
+]

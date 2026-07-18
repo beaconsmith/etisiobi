@@ -1,0 +1,8 @@
+claim,input_label,output_label,scenario,promotion_error,gate_decision
+26 x 8 = 208 records,source_observed,source_observed,preserve source claim,False,allow
+27 x 8 = 216 records if f/v is split,derived,derived,preserve derived claim,False,allow
+E6 follows from 27 bases,speculative,speculative,preserve speculative claim,False,allow
+public glyph corpus is rights-cleared,blocked,blocked,preserve blocked claim,False,allow
+27 x 8 = 216 records if f/v is split,derived,source_observed,unsafe promotion,True,reject
+E6 follows from 27 bases,speculative,source_observed,unsafe promotion,True,reject
+public glyph corpus is rights-cleared,blocked,source_observed,unsafe promotion,True,reject

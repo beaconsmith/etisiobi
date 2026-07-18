@@ -1,0 +1,2 @@
+respondent_id,date,role,question_id,answer,expected_layer,correct,confusion_type,notes
+R001,YYYY-MM-DD,reader_role,Q01,,source_observed,,,

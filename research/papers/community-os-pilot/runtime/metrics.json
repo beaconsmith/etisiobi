@@ -1,0 +1,15 @@
+{
+  "paper": "community-os-pilot",
+  "last_checked": "2026-04-24",
+  "stage": "source_acquisition",
+  "vetted_sources": 7,
+  "core_claims": 3,
+  "claims_moderate_or_better": 3,
+  "regional_sources": 0,
+  "critical_gaps": [
+    "actual artifact evidence",
+    "Africa civic-tech evaluation sources",
+    "claim-boundary audit"
+  ],
+  "promotion_ready": false
+}

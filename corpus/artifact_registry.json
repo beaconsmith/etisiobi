@@ -1,0 +1,5294 @@
+[
+  {
+    "path": "artifacts/nwagu_aneke/azuonye_1992_audit.md",
+    "kind": "artifact_dossier",
+    "suffix": ".md",
+    "size": 1107
+  },
+  {
+    "path": "artifacts/nwagu_aneke/base_count_audit.md",
+    "kind": "artifact_dossier",
+    "suffix": ".md",
+    "size": 1007
+  },
+  {
+    "path": "artifacts/nwagu_aneke/README.md",
+    "kind": "artifact_dossier",
+    "suffix": ".md",
+    "size": 1146
+  },
+  {
+    "path": "artifacts/nwagu_aneke/source_inventory.md",
+    "kind": "artifact_dossier",
+    "suffix": ".md",
+    "size": 1450
+  },
+  {
+    "path": "artifacts/nwagu_aneke/symbol_inventory.jsonl",
+    "kind": "artifact_dossier",
+    "suffix": ".jsonl",
+    "size": 14462
+  },
+  {
+    "path": "artifacts/nwagu_aneke/symbol_inventory.schema.json",
+    "kind": "artifact_dossier",
+    "suffix": ".json",
+    "size": 1444
+  },
+  {
+    "path": "artifacts/nwagu_aneke/transcription_uncertainties.md",
+    "kind": "artifact_dossier",
+    "suffix": ".md",
+    "size": 914
+  },
+  {
+    "path": "artifacts/nwagu_aneke/structural_models/base_modifier.md",
+    "kind": "artifact_dossier",
+    "suffix": ".md",
+    "size": 409
+  },
+  {
+    "path": "artifacts/nwagu_aneke/structural_models/compression_codebook.md",
+    "kind": "artifact_dossier",
+    "suffix": ".md",
+    "size": 393
+  },
+  {
+    "path": "artifacts/nwagu_aneke/structural_models/reader_mark.md",
+    "kind": "artifact_dossier",
+    "suffix": ".md",
+    "size": 378
+  },
+  {
+    "path": "artifacts/nwagu_aneke/structural_models/ritual_authority.md",
+    "kind": "artifact_dossier",
+    "suffix": ".md",
+    "size": 391
+  },
+  {
+    "path": "artifacts/nwagu_aneke/structural_models/syllabary_grid.md",
+    "kind": "artifact_dossier",
+    "suffix": ".md",
+    "size": 398
+  },
+  {
+    "path": "artifacts/nwagu_aneke/structural_models/unknown_model.md",
+    "kind": "artifact_dossier",
+    "suffix": ".md",
+    "size": 369
+  },
+  {
+    "path": "artifacts/nwagu_aneke/structural_models/visual_algebra.md",
+    "kind": "artifact_dossier",
+    "suffix": ".md",
+    "size": 343
+  },
+  {
+    "path": "artifacts/nwagu_aneke/visual_atlas/README.md",
+    "kind": "artifact_dossier",
+    "suffix": ".md",
+    "size": 325
+  },
+  {
+    "path": "research/AGENTS.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 10639
+  },
+  {
+    "path": "research/CHIEF_OF_STAFF.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2976
+  },
+  {
+    "path": "research/CITATION_POLICY.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2071
+  },
+  {
+    "path": "research/EVIDENCE_POLICY.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2601
+  },
+  {
+    "path": "research/HARNESS_AUDIT.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1713
+  },
+  {
+    "path": "research/KILL_CRITERIA.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 3325
+  },
+  {
+    "path": "research/LAB_DASHBOARD.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2753
+  },
+  {
+    "path": "research/PORTFOLIO.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 4913
+  },
+  {
+    "path": "research/QUALITY_BAR.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 4091
+  },
+  {
+    "path": "research/REGISTRY.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 8067
+  },
+  {
+    "path": "research/RESEARCH_ORG.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 4569
+  },
+  {
+    "path": "research/SUBMISSION_RULES.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2443
+  },
+  {
+    "path": "research/icegov/autoresearch.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 4064
+  },
+  {
+    "path": "research/icegov/INDEX.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 12597
+  },
+  {
+    "path": "research/icegov/OROMA_OGI_SCHEMA_MAP.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 7477
+  },
+  {
+    "path": "research/icegov/PRODUCT_BRIDGE.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 3662
+  },
+  {
+    "path": "research/icegov/RESEARCH_CONTRADICTIONS.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 5554
+  },
+  {
+    "path": "research/icegov/WIKI.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 10786
+  },
+  {
+    "path": "research/icegov/WORKSPACE.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 4036
+  },
+  {
+    "path": "research/pagc/BMCG_SPEC_V0_1.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 3999
+  },
+  {
+    "path": "research/pagc/CLAIM_GATE_REPORT.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 37456
+  },
+  {
+    "path": "research/pagc/FALSIFICATION_TRACKER.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 5304
+  },
+  {
+    "path": "research/pagc/INDEX.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 9649
+  },
+  {
+    "path": "research/pagc/PAGC_RESET.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1922
+  },
+  {
+    "path": "research/pagc/WIKI.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 3385
+  },
+  {
+    "path": "research/product_feedback/README.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 694
+  },
+  {
+    "path": "research/product_feedback/2026-04-25/backend_truth_findings.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1179
+  },
+  {
+    "path": "research/product_feedback/2026-04-25/engineering_risks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1265
+  },
+  {
+    "path": "research/product_feedback/2026-04-25/INDEX.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 371
+  },
+  {
+    "path": "research/product_feedback/2026-04-25/product_recommendation.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1255
+  },
+  {
+    "path": "research/product_feedback/2026-04-25/test_gap_report.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1163
+  },
+  {
+    "path": "research/product_feedback/2026-04-25/ui_benchmark_findings.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1251
+  },
+  {
+    "path": "research/papers/artifact-first-trust/autoresearch.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 14895
+  },
+  {
+    "path": "research/papers/artifact-first-trust/decision_log.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 73
+  },
+  {
+    "path": "research/papers/artifact-first-trust/exclusions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 71
+  },
+  {
+    "path": "research/papers/artifact-first-trust/MANUSCRIPT_T1_DRAFT.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 23260
+  },
+  {
+    "path": "research/papers/artifact-first-trust/paper_brief.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 72
+  },
+  {
+    "path": "research/papers/artifact-first-trust/questions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 70
+  },
+  {
+    "path": "research/papers/artifact-first-trust/scope.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 66
+  },
+  {
+    "path": "research/papers/artifact-first-trust/search_plan.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 72
+  },
+  {
+    "path": "research/papers/artifact-first-trust/source_quotas.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 757
+  },
+  {
+    "path": "research/papers/artifact-first-trust/thesis.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 67
+  },
+  {
+    "path": "research/papers/artifact-first-trust/track_fit.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 70
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/autoresearch.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 11817
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/decision_log.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 69
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/exclusions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 67
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/paper_brief.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 68
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/questions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 66
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/scope.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 62
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/search_plan.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 68
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/source_quotas.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 639
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/thesis.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 63
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/track_fit.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 66
+  },
+  {
+    "path": "research/papers/community-dpi/autoresearch.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 8999
+  },
+  {
+    "path": "research/papers/community-dpi/decision_log.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 66
+  },
+  {
+    "path": "research/papers/community-dpi/exclusions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 64
+  },
+  {
+    "path": "research/papers/community-dpi/paper_brief.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 65
+  },
+  {
+    "path": "research/papers/community-dpi/questions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 63
+  },
+  {
+    "path": "research/papers/community-dpi/scope.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 59
+  },
+  {
+    "path": "research/papers/community-dpi/search_plan.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 65
+  },
+  {
+    "path": "research/papers/community-dpi/source_quotas.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 664
+  },
+  {
+    "path": "research/papers/community-dpi/thesis.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 60
+  },
+  {
+    "path": "research/papers/community-dpi/track_fit.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 63
+  },
+  {
+    "path": "research/papers/community-governance/autoresearch.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 14414
+  },
+  {
+    "path": "research/papers/community-governance/decision_log.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 73
+  },
+  {
+    "path": "research/papers/community-governance/exclusions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 71
+  },
+  {
+    "path": "research/papers/community-governance/MANUSCRIPT_T11_DRAFT.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 28678
+  },
+  {
+    "path": "research/papers/community-governance/paper_brief.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 72
+  },
+  {
+    "path": "research/papers/community-governance/questions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 70
+  },
+  {
+    "path": "research/papers/community-governance/scope.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 66
+  },
+  {
+    "path": "research/papers/community-governance/search_plan.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 72
+  },
+  {
+    "path": "research/papers/community-governance/source_quotas.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 797
+  },
+  {
+    "path": "research/papers/community-governance/thesis.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 67
+  },
+  {
+    "path": "research/papers/community-governance/track_fit.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 70
+  },
+  {
+    "path": "research/papers/community-os-pilot/autoresearch.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 18859
+  },
+  {
+    "path": "research/papers/community-os-pilot/decision_log.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 71
+  },
+  {
+    "path": "research/papers/community-os-pilot/exclusions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 69
+  },
+  {
+    "path": "research/papers/community-os-pilot/MANUSCRIPT_T12_DRAFT.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 28528
+  },
+  {
+    "path": "research/papers/community-os-pilot/paper_brief.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 70
+  },
+  {
+    "path": "research/papers/community-os-pilot/questions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 68
+  },
+  {
+    "path": "research/papers/community-os-pilot/scope.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 64
+  },
+  {
+    "path": "research/papers/community-os-pilot/search_plan.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 70
+  },
+  {
+    "path": "research/papers/community-os-pilot/source_quotas.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 658
+  },
+  {
+    "path": "research/papers/community-os-pilot/thesis.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 65
+  },
+  {
+    "path": "research/papers/community-os-pilot/track_fit.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 68
+  },
+  {
+    "path": "research/papers/digital-sovereignty/autoresearch.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 3977
+  },
+  {
+    "path": "research/papers/digital-sovereignty/decision_log.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 72
+  },
+  {
+    "path": "research/papers/digital-sovereignty/exclusions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 70
+  },
+  {
+    "path": "research/papers/digital-sovereignty/paper_brief.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 71
+  },
+  {
+    "path": "research/papers/digital-sovereignty/questions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 69
+  },
+  {
+    "path": "research/papers/digital-sovereignty/scope.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 65
+  },
+  {
+    "path": "research/papers/digital-sovereignty/search_plan.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 71
+  },
+  {
+    "path": "research/papers/digital-sovereignty/source_quotas.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 141
+  },
+  {
+    "path": "research/papers/digital-sovereignty/thesis.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 66
+  },
+  {
+    "path": "research/papers/digital-sovereignty/track_fit.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 69
+  },
+  {
+    "path": "research/papers/platform-governance/autoresearch.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 3550
+  },
+  {
+    "path": "research/papers/platform-governance/decision_log.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 72
+  },
+  {
+    "path": "research/papers/platform-governance/exclusions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 70
+  },
+  {
+    "path": "research/papers/platform-governance/paper_brief.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 71
+  },
+  {
+    "path": "research/papers/platform-governance/questions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 69
+  },
+  {
+    "path": "research/papers/platform-governance/scope.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 65
+  },
+  {
+    "path": "research/papers/platform-governance/search_plan.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 71
+  },
+  {
+    "path": "research/papers/platform-governance/source_quotas.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 141
+  },
+  {
+    "path": "research/papers/platform-governance/thesis.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 66
+  },
+  {
+    "path": "research/papers/platform-governance/track_fit.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 69
+  },
+  {
+    "path": "research/papers/platform-governance/evidence/claim_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 218
+  },
+  {
+    "path": "research/papers/platform-governance/evidence/cluster_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 175
+  },
+  {
+    "path": "research/papers/platform-governance/evidence/contradiction_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 197
+  },
+  {
+    "path": "research/papers/platform-governance/evidence/legal_policy_context.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 137
+  },
+  {
+    "path": "research/papers/platform-governance/evidence/methods_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 103
+  },
+  {
+    "path": "research/papers/platform-governance/evidence/quote_bank.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 88
+  },
+  {
+    "path": "research/papers/platform-governance/evidence/regional_context.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 110
+  },
+  {
+    "path": "research/papers/platform-governance/evidence/reviewer_attack_surface.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 116
+  },
+  {
+    "path": "research/papers/platform-governance/evidence/source_gaps.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 221
+  },
+  {
+    "path": "research/papers/platform-governance/evidence/source_inbox.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 166
+  },
+  {
+    "path": "research/papers/platform-governance/evidence/source_registry.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 195
+  },
+  {
+    "path": "research/papers/platform-governance/runtime/autoresearch.jsonl",
+    "kind": "research",
+    "suffix": ".jsonl",
+    "size": 0
+  },
+  {
+    "path": "research/papers/platform-governance/runtime/bib_status.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 128
+  },
+  {
+    "path": "research/papers/platform-governance/runtime/metrics.json",
+    "kind": "research",
+    "suffix": ".json",
+    "size": 220
+  },
+  {
+    "path": "research/papers/platform-governance/runtime/promote_gate.yaml",
+    "kind": "research",
+    "suffix": ".yaml",
+    "size": 367
+  },
+  {
+    "path": "research/papers/platform-governance/runtime/run_manifest.yaml",
+    "kind": "research",
+    "suffix": ".yaml",
+    "size": 225
+  },
+  {
+    "path": "research/papers/platform-governance/runtime/source_index.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 142
+  },
+  {
+    "path": "research/papers/platform-governance/writing/argument_spine.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 87
+  },
+  {
+    "path": "research/papers/platform-governance/writing/blinding_check.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 87
+  },
+  {
+    "path": "research/papers/platform-governance/writing/draft.tex",
+    "kind": "research",
+    "suffix": ".tex",
+    "size": 104
+  },
+  {
+    "path": "research/papers/platform-governance/writing/limitations.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 84
+  },
+  {
+    "path": "research/papers/platform-governance/writing/methods.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 80
+  },
+  {
+    "path": "research/papers/platform-governance/writing/outline.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 80
+  },
+  {
+    "path": "research/papers/platform-governance/writing/related_work.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 85
+  },
+  {
+    "path": "research/papers/platform-governance/writing/section_plan.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 85
+  },
+  {
+    "path": "research/papers/platform-governance/writing/submission_checklist.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 93
+  },
+  {
+    "path": "research/papers/digital-sovereignty/evidence/claim_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 216
+  },
+  {
+    "path": "research/papers/digital-sovereignty/evidence/cluster_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 169
+  },
+  {
+    "path": "research/papers/digital-sovereignty/evidence/contradiction_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 230
+  },
+  {
+    "path": "research/papers/digital-sovereignty/evidence/legal_policy_context.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 140
+  },
+  {
+    "path": "research/papers/digital-sovereignty/evidence/methods_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 103
+  },
+  {
+    "path": "research/papers/digital-sovereignty/evidence/quote_bank.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 88
+  },
+  {
+    "path": "research/papers/digital-sovereignty/evidence/regional_context.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 113
+  },
+  {
+    "path": "research/papers/digital-sovereignty/evidence/reviewer_attack_surface.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 116
+  },
+  {
+    "path": "research/papers/digital-sovereignty/evidence/source_gaps.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 278
+  },
+  {
+    "path": "research/papers/digital-sovereignty/evidence/source_inbox.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 169
+  },
+  {
+    "path": "research/papers/digital-sovereignty/evidence/source_registry.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 195
+  },
+  {
+    "path": "research/papers/digital-sovereignty/runtime/autoresearch.jsonl",
+    "kind": "research",
+    "suffix": ".jsonl",
+    "size": 0
+  },
+  {
+    "path": "research/papers/digital-sovereignty/runtime/bib_status.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 127
+  },
+  {
+    "path": "research/papers/digital-sovereignty/runtime/metrics.json",
+    "kind": "research",
+    "suffix": ".json",
+    "size": 227
+  },
+  {
+    "path": "research/papers/digital-sovereignty/runtime/promote_gate.yaml",
+    "kind": "research",
+    "suffix": ".yaml",
+    "size": 382
+  },
+  {
+    "path": "research/papers/digital-sovereignty/runtime/run_manifest.yaml",
+    "kind": "research",
+    "suffix": ".yaml",
+    "size": 226
+  },
+  {
+    "path": "research/papers/digital-sovereignty/runtime/source_index.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 160
+  },
+  {
+    "path": "research/papers/digital-sovereignty/writing/argument_spine.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 87
+  },
+  {
+    "path": "research/papers/digital-sovereignty/writing/blinding_check.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 87
+  },
+  {
+    "path": "research/papers/digital-sovereignty/writing/draft.tex",
+    "kind": "research",
+    "suffix": ".tex",
+    "size": 104
+  },
+  {
+    "path": "research/papers/digital-sovereignty/writing/limitations.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 84
+  },
+  {
+    "path": "research/papers/digital-sovereignty/writing/methods.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 80
+  },
+  {
+    "path": "research/papers/digital-sovereignty/writing/outline.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 80
+  },
+  {
+    "path": "research/papers/digital-sovereignty/writing/related_work.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 85
+  },
+  {
+    "path": "research/papers/digital-sovereignty/writing/section_plan.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 85
+  },
+  {
+    "path": "research/papers/digital-sovereignty/writing/submission_checklist.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 93
+  },
+  {
+    "path": "research/papers/community-os-pilot/evidence/claim_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 798
+  },
+  {
+    "path": "research/papers/community-os-pilot/evidence/cluster_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 394
+  },
+  {
+    "path": "research/papers/community-os-pilot/evidence/contradiction_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 875
+  },
+  {
+    "path": "research/papers/community-os-pilot/evidence/legal_policy_context.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 336
+  },
+  {
+    "path": "research/papers/community-os-pilot/evidence/methods_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 616
+  },
+  {
+    "path": "research/papers/community-os-pilot/evidence/quote_bank.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 177
+  },
+  {
+    "path": "research/papers/community-os-pilot/evidence/regional_context.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 531
+  },
+  {
+    "path": "research/papers/community-os-pilot/evidence/reviewer_attack_surface.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 718
+  },
+  {
+    "path": "research/papers/community-os-pilot/evidence/source_gaps.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 694
+  },
+  {
+    "path": "research/papers/community-os-pilot/evidence/source_inbox.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 248
+  },
+  {
+    "path": "research/papers/community-os-pilot/evidence/source_registry.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 575
+  },
+  {
+    "path": "research/papers/community-os-pilot/runtime/autoresearch.jsonl",
+    "kind": "research",
+    "suffix": ".jsonl",
+    "size": 0
+  },
+  {
+    "path": "research/papers/community-os-pilot/runtime/bib_status.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 354
+  },
+  {
+    "path": "research/papers/community-os-pilot/runtime/metrics.json",
+    "kind": "research",
+    "suffix": ".json",
+    "size": 360
+  },
+  {
+    "path": "research/papers/community-os-pilot/runtime/promote_gate.yaml",
+    "kind": "research",
+    "suffix": ".yaml",
+    "size": 539
+  },
+  {
+    "path": "research/papers/community-os-pilot/runtime/run_manifest.yaml",
+    "kind": "research",
+    "suffix": ".yaml",
+    "size": 290
+  },
+  {
+    "path": "research/papers/community-os-pilot/runtime/source_index.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 621
+  },
+  {
+    "path": "research/papers/community-os-pilot/sections/section_1_introduction.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2252
+  },
+  {
+    "path": "research/papers/community-os-pilot/sections/section_2_related_work.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2433
+  },
+  {
+    "path": "research/papers/community-os-pilot/sections/section_3_problem.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2436
+  },
+  {
+    "path": "research/papers/community-os-pilot/sections/section_4_artifact.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 3264
+  },
+  {
+    "path": "research/papers/community-os-pilot/sections/section_5_evaluation.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2004
+  },
+  {
+    "path": "research/papers/community-os-pilot/sections/section_6_conclusion.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1763
+  },
+  {
+    "path": "research/papers/community-os-pilot/writing/argument_spine.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 86
+  },
+  {
+    "path": "research/papers/community-os-pilot/writing/blinding_check.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 86
+  },
+  {
+    "path": "research/papers/community-os-pilot/writing/draft.tex",
+    "kind": "research",
+    "suffix": ".tex",
+    "size": 135
+  },
+  {
+    "path": "research/papers/community-os-pilot/writing/limitations.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 83
+  },
+  {
+    "path": "research/papers/community-os-pilot/writing/methods.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 79
+  },
+  {
+    "path": "research/papers/community-os-pilot/writing/outline.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 79
+  },
+  {
+    "path": "research/papers/community-os-pilot/writing/related_work.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 84
+  },
+  {
+    "path": "research/papers/community-os-pilot/writing/section_plan.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 84
+  },
+  {
+    "path": "research/papers/community-os-pilot/writing/submission_checklist.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 92
+  },
+  {
+    "path": "research/papers/community-governance/evidence/claim_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 726
+  },
+  {
+    "path": "research/papers/community-governance/evidence/cluster_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 734
+  },
+  {
+    "path": "research/papers/community-governance/evidence/contradiction_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1320
+  },
+  {
+    "path": "research/papers/community-governance/evidence/legal_policy_context.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 569
+  },
+  {
+    "path": "research/papers/community-governance/evidence/methods_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 683
+  },
+  {
+    "path": "research/papers/community-governance/evidence/quote_bank.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 306
+  },
+  {
+    "path": "research/papers/community-governance/evidence/regional_context.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1261
+  },
+  {
+    "path": "research/papers/community-governance/evidence/reviewer_attack_surface.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1133
+  },
+  {
+    "path": "research/papers/community-governance/evidence/source_gaps.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1319
+  },
+  {
+    "path": "research/papers/community-governance/evidence/source_inbox.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 365
+  },
+  {
+    "path": "research/papers/community-governance/evidence/source_registry.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2920
+  },
+  {
+    "path": "research/papers/community-governance/runtime/autoresearch.jsonl",
+    "kind": "research",
+    "suffix": ".jsonl",
+    "size": 0
+  },
+  {
+    "path": "research/papers/community-governance/runtime/bib_status.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 572
+  },
+  {
+    "path": "research/papers/community-governance/runtime/metrics.json",
+    "kind": "research",
+    "suffix": ".json",
+    "size": 393
+  },
+  {
+    "path": "research/papers/community-governance/runtime/promote_gate.yaml",
+    "kind": "research",
+    "suffix": ".yaml",
+    "size": 403
+  },
+  {
+    "path": "research/papers/community-governance/runtime/run_manifest.yaml",
+    "kind": "research",
+    "suffix": ".yaml",
+    "size": 248
+  },
+  {
+    "path": "research/papers/community-governance/runtime/source_index.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 1192
+  },
+  {
+    "path": "research/papers/community-governance/sections/section_1_introduction.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2637
+  },
+  {
+    "path": "research/papers/community-governance/sections/section_2_related_work.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2420
+  },
+  {
+    "path": "research/papers/community-governance/sections/section_3_theory.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2869
+  },
+  {
+    "path": "research/papers/community-governance/sections/section_4_empirical.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2431
+  },
+  {
+    "path": "research/papers/community-governance/sections/section_5_discussion.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2219
+  },
+  {
+    "path": "research/papers/community-governance/sections/section_6_conclusion.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1663
+  },
+  {
+    "path": "research/papers/community-governance/writing/argument_spine.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 88
+  },
+  {
+    "path": "research/papers/community-governance/writing/blinding_check.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 88
+  },
+  {
+    "path": "research/papers/community-governance/writing/draft.tex",
+    "kind": "research",
+    "suffix": ".tex",
+    "size": 161
+  },
+  {
+    "path": "research/papers/community-governance/writing/limitations.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 85
+  },
+  {
+    "path": "research/papers/community-governance/writing/methods.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 81
+  },
+  {
+    "path": "research/papers/community-governance/writing/outline.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1847
+  },
+  {
+    "path": "research/papers/community-governance/writing/related_work.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 86
+  },
+  {
+    "path": "research/papers/community-governance/writing/SECTION_3_THEORY.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 3114
+  },
+  {
+    "path": "research/papers/community-governance/writing/section_plan.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 86
+  },
+  {
+    "path": "research/papers/community-governance/writing/submission_checklist.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 94
+  },
+  {
+    "path": "research/papers/community-dpi/evidence/claim_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 846
+  },
+  {
+    "path": "research/papers/community-dpi/evidence/cluster_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 458
+  },
+  {
+    "path": "research/papers/community-dpi/evidence/contradiction_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 962
+  },
+  {
+    "path": "research/papers/community-dpi/evidence/definitions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1521
+  },
+  {
+    "path": "research/papers/community-dpi/evidence/legal_policy_context.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 391
+  },
+  {
+    "path": "research/papers/community-dpi/evidence/methods_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 339
+  },
+  {
+    "path": "research/papers/community-dpi/evidence/quote_bank.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 171
+  },
+  {
+    "path": "research/papers/community-dpi/evidence/regional_context.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 689
+  },
+  {
+    "path": "research/papers/community-dpi/evidence/reviewer_attack_surface.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 846
+  },
+  {
+    "path": "research/papers/community-dpi/evidence/source_gaps.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 729
+  },
+  {
+    "path": "research/papers/community-dpi/evidence/source_inbox.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 238
+  },
+  {
+    "path": "research/papers/community-dpi/evidence/source_registry.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 603
+  },
+  {
+    "path": "research/papers/community-dpi/runtime/autoresearch.jsonl",
+    "kind": "research",
+    "suffix": ".jsonl",
+    "size": 0
+  },
+  {
+    "path": "research/papers/community-dpi/runtime/bib_status.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 379
+  },
+  {
+    "path": "research/papers/community-dpi/runtime/metrics.json",
+    "kind": "research",
+    "suffix": ".json",
+    "size": 357
+  },
+  {
+    "path": "research/papers/community-dpi/runtime/promote_gate.yaml",
+    "kind": "research",
+    "suffix": ".yaml",
+    "size": 562
+  },
+  {
+    "path": "research/papers/community-dpi/runtime/run_manifest.yaml",
+    "kind": "research",
+    "suffix": ".yaml",
+    "size": 223
+  },
+  {
+    "path": "research/papers/community-dpi/runtime/source_index.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 534
+  },
+  {
+    "path": "research/papers/community-dpi/writing/argument_spine.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 81
+  },
+  {
+    "path": "research/papers/community-dpi/writing/blinding_check.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 81
+  },
+  {
+    "path": "research/papers/community-dpi/writing/draft.tex",
+    "kind": "research",
+    "suffix": ".tex",
+    "size": 146
+  },
+  {
+    "path": "research/papers/community-dpi/writing/limitations.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 78
+  },
+  {
+    "path": "research/papers/community-dpi/writing/methods.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 74
+  },
+  {
+    "path": "research/papers/community-dpi/writing/outline.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 74
+  },
+  {
+    "path": "research/papers/community-dpi/writing/related_work.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 79
+  },
+  {
+    "path": "research/papers/community-dpi/writing/section_plan.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 79
+  },
+  {
+    "path": "research/papers/community-dpi/writing/submission_checklist.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 87
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/evidence/claim_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 923
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/evidence/cluster_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 535
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/evidence/contradiction_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1269
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/evidence/legal_policy_context.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 353
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/evidence/methods_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 456
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/evidence/quote_bank.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 345
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/evidence/regional_context.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 761
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/evidence/reviewer_attack_surface.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 940
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/evidence/source_gaps.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 668
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/evidence/source_inbox.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 283
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/evidence/source_registry.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1359
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/runtime/autoresearch.jsonl",
+    "kind": "research",
+    "suffix": ".jsonl",
+    "size": 0
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/runtime/bib_status.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 394
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/runtime/metrics.json",
+    "kind": "research",
+    "suffix": ".json",
+    "size": 410
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/runtime/promote_gate.yaml",
+    "kind": "research",
+    "suffix": ".yaml",
+    "size": 578
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/runtime/run_manifest.yaml",
+    "kind": "research",
+    "suffix": ".yaml",
+    "size": 219
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/runtime/source_index.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 729
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/writing/argument_spine.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 84
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/writing/blinding_check.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 84
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/writing/draft.tex",
+    "kind": "research",
+    "suffix": ".tex",
+    "size": 160
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/writing/limitations.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 81
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/writing/methods.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 77
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/writing/outline.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 77
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/writing/related_work.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 82
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/writing/section_plan.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 82
+  },
+  {
+    "path": "research/papers/bitcoin-treasury/writing/submission_checklist.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 90
+  },
+  {
+    "path": "research/papers/artifact-first-trust/evidence/claim_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 563
+  },
+  {
+    "path": "research/papers/artifact-first-trust/evidence/cluster_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 553
+  },
+  {
+    "path": "research/papers/artifact-first-trust/evidence/contradiction_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1209
+  },
+  {
+    "path": "research/papers/artifact-first-trust/evidence/legal_policy_context.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 447
+  },
+  {
+    "path": "research/papers/artifact-first-trust/evidence/methods_map.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 570
+  },
+  {
+    "path": "research/papers/artifact-first-trust/evidence/quote_bank.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 355
+  },
+  {
+    "path": "research/papers/artifact-first-trust/evidence/regional_context.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 809
+  },
+  {
+    "path": "research/papers/artifact-first-trust/evidence/reviewer_attack_surface.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1003
+  },
+  {
+    "path": "research/papers/artifact-first-trust/evidence/source_gaps.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 900
+  },
+  {
+    "path": "research/papers/artifact-first-trust/evidence/source_inbox.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 295
+  },
+  {
+    "path": "research/papers/artifact-first-trust/evidence/source_registry.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1660
+  },
+  {
+    "path": "research/papers/artifact-first-trust/runtime/autoresearch.jsonl",
+    "kind": "research",
+    "suffix": ".jsonl",
+    "size": 0
+  },
+  {
+    "path": "research/papers/artifact-first-trust/runtime/bib_status.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 479
+  },
+  {
+    "path": "research/papers/artifact-first-trust/runtime/metrics.json",
+    "kind": "research",
+    "suffix": ".json",
+    "size": 402
+  },
+  {
+    "path": "research/papers/artifact-first-trust/runtime/promote_gate.yaml",
+    "kind": "research",
+    "suffix": ".yaml",
+    "size": 647
+  },
+  {
+    "path": "research/papers/artifact-first-trust/runtime/run_manifest.yaml",
+    "kind": "research",
+    "suffix": ".yaml",
+    "size": 230
+  },
+  {
+    "path": "research/papers/artifact-first-trust/runtime/source_index.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 823
+  },
+  {
+    "path": "research/papers/artifact-first-trust/sections/section_1_introduction.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2114
+  },
+  {
+    "path": "research/papers/artifact-first-trust/sections/section_2_related_work.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2326
+  },
+  {
+    "path": "research/papers/artifact-first-trust/sections/section_3_principles.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2088
+  },
+  {
+    "path": "research/papers/artifact-first-trust/sections/section_4_evidence.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2129
+  },
+  {
+    "path": "research/papers/artifact-first-trust/sections/section_5_risks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1752
+  },
+  {
+    "path": "research/papers/artifact-first-trust/sections/section_6_conclusion.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1130
+  },
+  {
+    "path": "research/papers/artifact-first-trust/writing/argument_spine.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 88
+  },
+  {
+    "path": "research/papers/artifact-first-trust/writing/blinding_check.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 88
+  },
+  {
+    "path": "research/papers/artifact-first-trust/writing/draft.tex",
+    "kind": "research",
+    "suffix": ".tex",
+    "size": 163
+  },
+  {
+    "path": "research/papers/artifact-first-trust/writing/limitations.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 85
+  },
+  {
+    "path": "research/papers/artifact-first-trust/writing/methods.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 81
+  },
+  {
+    "path": "research/papers/artifact-first-trust/writing/outline.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 81
+  },
+  {
+    "path": "research/papers/artifact-first-trust/writing/related_work.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 86
+  },
+  {
+    "path": "research/papers/artifact-first-trust/writing/SECTION_3_THEORY.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2816
+  },
+  {
+    "path": "research/papers/artifact-first-trust/writing/section_plan.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 86
+  },
+  {
+    "path": "research/papers/artifact-first-trust/writing/submission_checklist.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 94
+  },
+  {
+    "path": "research/pagc/disciplines/01_ai_ml.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 4363
+  },
+  {
+    "path": "research/pagc/disciplines/02_information_theory.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 4913
+  },
+  {
+    "path": "research/pagc/disciplines/03_quantum_computing.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 5349
+  },
+  {
+    "path": "research/pagc/disciplines/04_thermodynamics_computation.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 4409
+  },
+  {
+    "path": "research/pagc/disciplines/05_physics_materials.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 4242
+  },
+  {
+    "path": "research/pagc/disciplines/06_09_life_and_mind.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 9575
+  },
+  {
+    "path": "research/pagc/disciplines/10_15_language_origins.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 11493
+  },
+  {
+    "path": "research/pagc/disciplines/16_17_cosmology_mathematics.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 8457
+  },
+  {
+    "path": "research/pagc/hermes_workspace/ingestion_agent.py",
+    "kind": "research",
+    "suffix": ".py",
+    "size": 6674
+  },
+  {
+    "path": "research/pagc/hermes_workspace/run_autoreason.py",
+    "kind": "research",
+    "suffix": ".py",
+    "size": 7975
+  },
+  {
+    "path": "research/pagc/nwagu_aneke/NWAGU_ANEKE_RESEARCH_MAP.html",
+    "kind": "research",
+    "suffix": ".html",
+    "size": 22040
+  },
+  {
+    "path": "research/pagc/nwagu_aneke/NWAGU_ANEKE_RESEARCH_MAP.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 6302
+  },
+  {
+    "path": "research/pagc/paper/autoreason_draft.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 4517
+  },
+  {
+    "path": "research/pagc/paper/autoreason_draft_v2.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 4875
+  },
+  {
+    "path": "research/pagc/paper/autoreason_draft_v3.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 7156
+  },
+  {
+    "path": "research/pagc/schema/bmcg_path_schema.json",
+    "kind": "research",
+    "suffix": ".json",
+    "size": 704
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/african_linguistics___igbo_phonology.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 49915
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/cognitive_science_(chunking___working_memory).md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 52309
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/complex_adaptive_systems___emergent_network_topology.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 46128
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/computational_linguistics___tokenization.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 50018
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/decolonial_epistemology.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 49732
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/eric_weinstein_recommended.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 39190
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/ethnobotany___plant_chemical_signaling.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 48419
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/frontier_applications.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 29892
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/hardware_radix_compression.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2976
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/holographic_principle___cosmology.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 45941
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/information_theory_(mdl___coding_theory).md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 48113
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/knowledge_graph___link_prediction_(graph_ml).md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 51249
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/mathematics_(lie_theory___group_theory).md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 48988
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/philosophy_of_science.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 51522
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/quantum_information_theory___error_correction.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 48710
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/sovereign_memory.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 4591
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/synthetic_biology___genetic_code_theory.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 52317
+  },
+  {
+    "path": "research/pagc/sources/pagc_library/thermodynamics_of_computation___landauer_principle.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 50737
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/A 20 Gbps Data Transmitting ASIC with PAM4 for Particle Physics Experiments.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2417
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/A Condition for Cooperation in a Game on Complex Networks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1764
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/A guided tour of asynchronous cellular automata.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 982
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/A Joint Multitask Model for Morpho-Syntactic Parsing.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1689
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/A Large Multi-Target Dataset of Common Bengali Handwritten Graphemes.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2385
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/A model of quantum spacetime.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1051
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/A Neural Network-Evolutionary Computational Framework for Remaining Useful Life.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1880
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/A Neutral Temporal Deontic STIT Logic.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1327
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/A Note on Elementary Cellular Automata Classification.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1131
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/A Review on Neural Network Models of Schizophrenia and Autism Spectrum Disorder.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2451
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/A stochastic diffusion process for the Dirichlet distribution.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1761
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/A study on the composition of elementary cellular automata.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2032
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/A Survey of Word Reordering in Statistical Machine Translation Computational Mod.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2399
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/A Survey on Masked Autoencoder for Self-supervised Learning in Vision and Beyond.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1960
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/A Variational Principle for Extended Irreversible Thermodynamics Heat Conducting.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2586
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Achieving the quantum field theory limit in far-from-equilibrium quantum link mo.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2696
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Acute Lymphoblastic Leukemia Detection Using Hypercomplex-Valued Convolutional N.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1769
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Adaptive Chunking Optimizing Chunking-Method Selection for RAG.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2490
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Adjoint computations by algorithmic differentiation of a parallel solver for tim.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1746
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/AeroGen Enhancing Remote Sensing Object Detection with Diffusion-Driven Data Gen.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2435
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/An Approach to Efficient Fitting of Univariate and Multivariate Stochastic Volat.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1842
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/An Extended Result on the Optimal Estimation under Minimum Error Entropy Criteri.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1524
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/An Initial Description of Capabilities and Constraints for a Computational Audit.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1475
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/An Introduction to Topological Data Analysis Ball Mapper in Python.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1620
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Analogical Concept Memory for Architectures Implementing the Common Model of Cog.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1808
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Architectural Implications of Graph Neural Networks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1694
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Assessing the Influence of Locational Suitability on the Spatial Distribution of.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2375
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Back to Bytes Revisiting Tokenization Through UTF-8.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1913
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Bayesian uncertainty analysis for complex systems biology models emulation globa.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2583
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Boundless Byte Pair Encoding Breaking the Pre-tokenization Barrier.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2019
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Byte Pair Encoding for Efficient Time Series Forecasting.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2091
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Byte Pair Encoding for Symbolic Music.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2009
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Byzantine-Resilient SGD in High Dimensions on Heterogeneous Data.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2634
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/CiwGAN and fiwGAN Encoding information in acoustic data to model lexical learnin.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2691
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Clustering in networks with the collapsed Stochastic Block Model.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1809
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Coarse Graining of Partitioned Cellular Automata.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1604
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Cognition and Emotion Perspectives of a Closing Gap.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1782
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Cognitive computation with autonomously active neural networks an emerging field.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2390
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Collaborative Information Bottleneck.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2572
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Combinatorial Limits of Transcription Factors and Gene Regulatory Networks in De.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1753
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Comparative Resilience Notions and Vertex Attack Tolerance of Scale-Free Network.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2676
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Computation and Universality Class IV versus Class III Cellular Automata.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1224
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Computational Topology Techniques for Characterizing Time-Series Data.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1684
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Conditional Information Inequalities for Entropic and Almost Entropic Points.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1263
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Constraints on dark energy from H II starburst galaxy apparent magnitude versus.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1122
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Construction Grammar and Artificial Intelligence.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1797
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Construction Grammar and Language Models.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2205
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Continual Learning for Recurrent Neural Networks an Empirical Evaluation.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2062
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Continuous time Gaussian process dynamical models in gene regulatory network inf.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2325
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Corporate competition A self-organized network.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2409
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Corrected Bayesian information criterion for stochastic block models.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1746
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/DAC-h3 A Proactive Robot Cognitive Architecture to Acquire and Express Knowledge.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2409
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Dalorex A Data-Local Program Execution and Architecture for Memory-bound Applica.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2632
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Data Encoding for Byzantine-Resilient Distributed Optimization.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2674
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Developing a 21st Century Global Library for Mathematics Research.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2400
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Development of a sensory-neural network for medical diagnosing.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1401
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Differential entropy and time.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1847
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/DiM Distilling Dataset into Generative Model.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2349
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Dissipative quadratizations of polynomial ODE systems.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1672
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/DTM-based Filtrations.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1430
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Dual Accuracy-Quality-Driven Neural Network for Prediction Interval Generation.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2491
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Dynamical Landauer Principle Quantifying Information Transmission by Thermodynam.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1917
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Dynamics and Thermodynamics of a model with long-range interactions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2248
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Editorial for the First Workshop on Mining Scientific Papers Computational Lingu.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1832
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Entropy as a Topological Operad Derivation.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1526
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Entropy-Driven Pre-Tokenization for Byte-Pair Encoding.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2023
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Evidence of Scale-Free Topology and Dynamics in Gene Regulatory Networks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1258
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Exact variations for stochastic heat equations driven by space--time white noise.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 984
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Explicit formulas for a continuous stochastic maturation model Application to an.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1461
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Factorization threshold models for scale-free networks generation.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2648
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/FAIR Fairness-Aware Information Retrieval Evaluation.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2032
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Fast calibration of two-factor models for energy option pricing.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1833
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/From Pixels to Tokens Byte-Pair Encoding on Quantized Visual Modalities.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1991
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/From Rota-Baxter Algebras to Pre-Lie Algebras.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1109
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Functional Synthetic Biology.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2062
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/GC-MS Profile of Diodella sarmentosa SW Bacigalupo El Cabral ex Borhidi Ethanol.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2348
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Gene regulatory network inference an introductory survey.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1524
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Gene regulatory networks a primer in biological processes and statistical modell.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1850
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Generalising Landauers Principle.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1668
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Generalization in Quantum Machine Learning a Quantum Information Perspective.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2458
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Generalization of the construction method for multistability-equivalent gene reg.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2204
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Generalizing Quantum Mechanics for Quantum Spacetime.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2147
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Hawking evaporation and the Landauer Principle.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1288
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Heterogeneity and Disorder Contributions of Rolf Landauer.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1217
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Hierarchical Attentional Hybrid Neural Networks for Document Classification.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1666
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Holographic bound and protein linguistics.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1148
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/How Many Genes Are Needed for a Discriminant Microarray Data Analysis.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2169
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Hybrid Tokenization Strategy for DNA Language Model using Byte Pair Encoding and.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2237
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Improving Generalization of Deep Neural Networks by Leveraging Margin Distributi.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1746
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Information Flow in Computational Systems.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1942
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Information Potential Auto-Encoders.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1605
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Information-Theoretic Foundations of DNA Data Storage.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2586
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Intelligent data analysis based on the complex network theory methods a case stu.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1693
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Interpretable Mnemonic Generation for Kanji Learning via Expectation-Maximizatio.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1988
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Intrinsic Simulations between Stochastic Cellular Automata.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1693
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Introduction to Dynamic Unary Encoding.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1410
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Irreversible Opinion Spreading on Scale-Free Networks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1826
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Isotropic Cellular Automata the DDLab iso-rule paradigm.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1631
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/IT formulae for gamma target mutual information and relative entropy.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1657
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Lack of Model Structures on the Category of Graphs.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1172
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Landauer Principle and General Relativity.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1773
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Landauer Principle and Thermodynamics of Computation.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2187
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Language Model Tokenizers Introduce Unfairness Between Languages.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1916
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Learning Active Subspaces and Discovering Important Features with Gaussian Radia.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2639
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Learning hard quantum distributions with variational autoencoders.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2477
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Linguistic Blind Spots of Large Language Models.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1964
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Linguistic Markers of Influence in Informal Interactions.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1644
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Mathematical Structure of Syntactic Merge.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1225
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Memory-Centred Cognitive Architectures for Robots Interacting Socially with Huma.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1715
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Minimalist Grammars and Minimalist Categorial Grammars definitions toward inclus.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1450
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/MisInformation Operations An Integrated Perspective.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2120
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Modeling Stochasticity and Variability in Gene Regulatory Networks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1997
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Modified Landauer principle according to Tsallis entropy.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1377
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Modified Levenberg-Marquardt Algorithm For Tensor CP Decomposition in Image Comp.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1603
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/MorphTok Morphologically Grounded Tokenization for Indian Languages.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2567
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Multidimensional Byte Pair Encoding Shortened Sequences for Improved Visual Data.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2369
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Multilinear Grammar Ranks and Interpretations.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2248
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Multiscale Principle of Relevant Information for Hyperspectral Image Classificat.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1805
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Natural Language Processing RELIES on Linguistics.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1592
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Network synchronization Optimal and Pessimal Scale-Free Topologies.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1667
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Newton-Puiseux Analysis for Interpretability and Calibration of Complex-Valued N.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2509
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Non-Uniform Cellular Automata classes dynamics and decidability.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1195
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Nonequilibrium physics aspects of probabilistic cellular automata.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1446
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Old and New Minimalism a Hopf algebra comparison.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2065
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/On a stochastic differential equation arising in a price impact model.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1057
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/On Decidability Properties of One-Dimensional Cellular Automata.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1938
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/On the Controllability of Clustered Scale-Free Networks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1450
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/On the decomposition of stochastic cellular automata.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1508
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/On the Information Dimension of Multivariate Gaussian Processes.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1840
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/On the Reliability of Large Language Models to Misinformed and Demographically-I.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2136
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Optimal hierarchical modular topologies for producing limited sustained activati.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2571
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/PageRank Nibble on the sparse directed stochastic block model.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1506
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Parity-Aware Byte-Pair Encoding Improving Cross-lingual Fairness in Tokenization.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1972
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Patterns of Multiplex Layer Entanglement across Real and Synthetic Networks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1784
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Phase-Coded Memory and Morphological Resonance A Next-Generation Retrieval-Augme.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1846
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Physical Foundations of Landauers Principle.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2511
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Plasmons in Holographic Graphene.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1693
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Power laws in biological networks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1528
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Pre to Post-Treatment Glioblastoma MRI Prediction using a Latent Diffusion Model.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2422
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Probabilistic Cellular Automata for Granular Media in Video Games.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1801
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Propositional computability logic I.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2109
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Protein Structure Tokenization via Geometric Byte Pair Encoding.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2633
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Quantum Advantage for Shared Randomness Generation.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2089
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Quantum Alchemy and Universal Orthogonality Catastrophe in One-Dimensional Anyon.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1660
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Quantum Autoencoder for Multivariate Time Series Anomaly Detection.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2394
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Quantum Galilei group as quantum reference frame transformations.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2261
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Quantum games and synchronicity.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1502
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Quantum Kolmogorov Complexity and Information-Disturbance Theorem.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1264
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Quantum neural network autoencoder and classifier applied to an industrial case.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1779
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Quaternion Generative Adversarial Networks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2174
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Regular Decomposition an information and graph theoretic approach to stochastic.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1231
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Regulatory patterns in molecular interaction networks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1916
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Rota-Baxter Coalgebras.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 913
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Scaffold-BPE Enhancing Byte Pair Encoding for Large Language Models with Simple.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2331
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Searching for Coherent States From Origins to Quantum Gravity.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1252
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Shakin All Over Proving Landauers Principle without neglect of fluctuations.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1657
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Shannon Information and Kolmogorov Complexity.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1553
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Signal Propagation in Nonlinear Stochastic Gene Regulatory Networks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1262
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Single-atom demonstration of quantum Landauer principle.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1742
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Small Data Explainer -- The impact of small data methods in everyday life.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2219
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Some scale-free networks could be robust under the selective node attacks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1887
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Spiking Inception Module for Multi-layer Unsupervised Spiking Neural Networks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2006
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Statistical methods for linguistic research Foundational Ideas - Part I.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1956
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Statistical methods for linguistic research Foundational Ideas - Part II.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1671
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Stochastic inequalities for single-server loss queueing systems.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1156
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Stochastic PDEs with heavy-tailed noise.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1578
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Stochastic temporal data upscaling using the generalized k-nearest neighbor algo.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1698
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Structure induction by lossless graph compression.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1533
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Style Transfer Generative Adversarial Networks Learning to Play Chess Differentl.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1324
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Superpositions of thermalisations in relativistic quantum field theory.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2248
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Synaptic Theory of Chunking in Working Memory.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2128
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Syntactic Surprisal From Neural Models Predicts But Underestimates Human Process.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2289
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Systematic improvement of user engagement with academic titles using computation.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2336
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Ternary cellular automata induced by semigroups of order 3 are solvable.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1459
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/TerraGen A Unified Multi-Task Layout Generation Framework for Remote Sensing Dat.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2329
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Tevatron-for-LHC Report of the QCD Working Group.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2440
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2960
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/The distance backbone of complex networks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1838
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/The Dynamics of Internet Traffic Self-Similarity Self-Organization and Complex P.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1445
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/The Information Bottleneck Principle in Corporate Hierarchies.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1684
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/The parallel logic gates in synthetic gene networks induced by non-Gausssian noi.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1500
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/The Tsallis entropy and the Shannon entropy of a universal probability.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1614
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/The X-rule universal computation in a non-isotropic Life-like Cellular Automaton.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1298
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Theoretical Analysis of Byte-Pair Encoding.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1801
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Thermodynamic Phase Stability Structural Mechanical Optoelectronic and Thermoele.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2706
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Thermodynamics of low-dimensional trapped Fermi gases.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1660
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Tianyan Cloud services with quantum advantage.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1754
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Towards Dropout Training for Convolutional Neural Networks.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1954
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/TuLiPA Towards a Multi-Formalism Parsing Environment for Grammar Engineering.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1519
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Universal Landauer-Like Inequality from the First Law of Thermodynamics.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1914
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Updating Probabilities A Complex Agent Based Example.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1777
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Using a cognitive architecture to consider antiBlackness in design and developme.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1852
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/VerChol -- Grammar-First Tokenization for Agglutinative Languages.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1458
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Watset Local-Global Graph Clustering with Applications in Sense and Frame Induct.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1705
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/WEBCA Weakly-Electric-Fish Bioinspired Cognitive Architecture.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1472
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/What Transcription Factors Cant Do On the Combinatorial Limits of Gene Regulator.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2520
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/When is Noisy State Information at the Encoder as Useless as No Information or a.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1337
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Wolframs Classification and Computation in Cellular Automata Classes III and IV.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1353
+  },
+  {
+    "path": "research/pagc/sources/raw_literature/Working Memory Networks Augmenting Memory Networks with a Relational Reasoning M.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2008
+  },
+  {
+    "path": "research/pagc/primary_sources/nwagu_aneke/azuonye_1992.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 296685
+  },
+  {
+    "path": "research/pagc/primary_sources/nwagu_aneke/CHART_TRANSCRIPTION.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 6829
+  },
+  {
+    "path": "research/pagc/primary_sources/nwagu_aneke/nwaguaneke_omniglot_chart.gif",
+    "kind": "research",
+    "suffix": ".gif",
+    "size": 127877
+  },
+  {
+    "path": "research/pagc/primary_sources/nwagu_aneke/omniglot_nwaguaneke.html",
+    "kind": "research",
+    "suffix": ".html",
+    "size": 17650
+  },
+  {
+    "path": "research/pagc/primary_sources/nwagu_aneke/README.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2082
+  },
+  {
+    "path": "research/pagc/primary_sources/nwagu_aneke/SOURCE_AUDIT.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 7435
+  },
+  {
+    "path": "research/pagc/paper/kb/information_theory_fundamentals.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 5870
+  },
+  {
+    "path": "research/pagc/paper/kb/mathematics_27_e6_jordan.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 4426
+  },
+  {
+    "path": "research/pagc/paper/kb/nwagu_aneke_syllabary.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 4099
+  },
+  {
+    "path": "research/pagc/paper/methods/decolonial_epistemology.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 4472
+  },
+  {
+    "path": "research/pagc/paper/methods/linguistics_generative_grammar.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 6607
+  },
+  {
+    "path": "research/pagc/paper/papers/ai_ml_compression_tokenization.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 6559
+  },
+  {
+    "path": "research/pagc/paper/papers/cognitive_neuroscience_chunking_predictive.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 9738
+  },
+  {
+    "path": "research/pagc/paper/papers/network_science_complex_systems.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 9107
+  },
+  {
+    "path": "research/pagc/paper/papers/physics_materials_crystal_generation.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 6117
+  },
+  {
+    "path": "research/pagc/paper/papers/quantum_computing_error_correction.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 3969
+  },
+  {
+    "path": "research/pagc/paper/papers/synthetic_biology_expanded_genetic_code.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 6802
+  },
+  {
+    "path": "research/pagc/paper/raw/ethnobotany_arts_philosophy.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 9714
+  },
+  {
+    "path": "research/pagc/paper/reports/cosmology_holographic_information.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 3662
+  },
+  {
+    "path": "research/pagc/paper/reports/deep-research-report.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 36092
+  },
+  {
+    "path": "research/pagc/paper/reports/generative_ai_chemistry_materials.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 6973
+  },
+  {
+    "path": "research/pagc/paper/reports/thermodynamics_computation.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 4430
+  },
+  {
+    "path": "research/pagc/hermes_workspace/wiki_os/app.js",
+    "kind": "research",
+    "suffix": ".js",
+    "size": 20808
+  },
+  {
+    "path": "research/pagc/hermes_workspace/wiki_os/index.html",
+    "kind": "research",
+    "suffix": ".html",
+    "size": 5455
+  },
+  {
+    "path": "research/pagc/hermes_workspace/wiki_os/serve.py",
+    "kind": "research",
+    "suffix": ".py",
+    "size": 11580
+  },
+  {
+    "path": "research/pagc/hermes_workspace/wiki_os/style.css",
+    "kind": "research",
+    "suffix": ".css",
+    "size": 24097
+  },
+  {
+    "path": "research/icegov_2026/track_10_policy/INDEX.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 216
+  },
+  {
+    "path": "research/icegov_2026/track_10_policy/README.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 32
+  },
+  {
+    "path": "research/icegov_2026/track_10_policy/RESEARCH_LOG.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 7712
+  },
+  {
+    "path": "research/icegov_2026/track_10_policy/WIKI.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 581
+  },
+  {
+    "path": "research/icegov_2026/track_11_global_south/INDEX.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 366
+  },
+  {
+    "path": "research/icegov_2026/track_11_global_south/PROMPT.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1900
+  },
+  {
+    "path": "research/icegov_2026/track_11_global_south/README.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 38
+  },
+  {
+    "path": "research/icegov_2026/track_11_global_south/RESEARCH_LOG.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 26641
+  },
+  {
+    "path": "research/icegov_2026/track_11_global_south/WIKI.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 581
+  },
+  {
+    "path": "research/icegov_2026/track_12_experiments/INDEX.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 248
+  },
+  {
+    "path": "research/icegov_2026/track_12_experiments/README.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 37
+  },
+  {
+    "path": "research/icegov_2026/track_12_experiments/RESEARCH_LOG.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 11168
+  },
+  {
+    "path": "research/icegov_2026/track_12_experiments/WIKI.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 511
+  },
+  {
+    "path": "research/icegov_2026/track_1_trust/INDEX.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 258
+  },
+  {
+    "path": "research/icegov_2026/track_1_trust/README.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 30
+  },
+  {
+    "path": "research/icegov_2026/track_1_trust/RESEARCH_LOG.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 13759
+  },
+  {
+    "path": "research/icegov_2026/track_1_trust/WIKI.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 553
+  },
+  {
+    "path": "research/icegov_2026/track_2_sovereignty/INDEX.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 224
+  },
+  {
+    "path": "research/icegov_2026/track_2_sovereignty/README.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 36
+  },
+  {
+    "path": "research/icegov_2026/track_2_sovereignty/RESEARCH_LOG.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 9543
+  },
+  {
+    "path": "research/icegov_2026/track_2_sovereignty/WIKI.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 595
+  },
+  {
+    "path": "research/icegov_2026/track_5_emerging_tech/INDEX.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 258
+  },
+  {
+    "path": "research/icegov_2026/track_5_emerging_tech/README.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 38
+  },
+  {
+    "path": "research/icegov_2026/track_5_emerging_tech/RESEARCH_LOG.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 15078
+  },
+  {
+    "path": "research/icegov_2026/track_5_emerging_tech/WIKI.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 573
+  },
+  {
+    "path": "research/icegov_2026/track_7_dpi/INDEX.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 240
+  },
+  {
+    "path": "research/icegov_2026/track_7_dpi/README.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 28
+  },
+  {
+    "path": "research/icegov_2026/track_7_dpi/RESEARCH_LOG.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 13316
+  },
+  {
+    "path": "research/icegov_2026/track_7_dpi/WIKI.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 597
+  },
+  {
+    "path": "research/icegov_2026/track_7_dpi/paper/PAPER_DRAFT.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 44063
+  },
+  {
+    "path": "research/icegov_2026/track_5_emerging_tech/paper/PAPER_DRAFT.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 44043
+  },
+  {
+    "path": "research/icegov_2026/track_2_sovereignty/paper/PAPER_DRAFT.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 43993
+  },
+  {
+    "path": "research/icegov_2026/track_1_trust/paper/PAPER_DRAFT.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 44070
+  },
+  {
+    "path": "research/icegov_2026/track_12_experiments/paper/PAPER_DRAFT.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 44008
+  },
+  {
+    "path": "research/icegov_2026/track_11_global_south/paper/PAPER_DRAFT.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 44222
+  },
+  {
+    "path": "research/icegov_2026/track_10_policy/paper/PAPER_DRAFT.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 44035
+  },
+  {
+    "path": "research/icegov/claims/LEDGER.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 2887
+  },
+  {
+    "path": "research/icegov/contradictions/CONT-001.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1023
+  },
+  {
+    "path": "research/icegov/contradictions/CONT-002.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1058
+  },
+  {
+    "path": "research/icegov/contradictions/CONT-003.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 995
+  },
+  {
+    "path": "research/icegov/contradictions/CONT-004.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 974
+  },
+  {
+    "path": "research/icegov/contradictions/CONT-005.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1576
+  },
+  {
+    "path": "research/icegov/contradictions/CONT-006.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 1311
+  },
+  {
+    "path": "research/icegov/paper/autoresearch-v6.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 7105
+  },
+  {
+    "path": "research/icegov/paper/autoresearch.jsonl",
+    "kind": "paper",
+    "suffix": ".jsonl",
+    "size": 3012
+  },
+  {
+    "path": "research/icegov/paper/autoresearch.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 5764
+  },
+  {
+    "path": "research/icegov/paper/AUTORESEARCH_EVAL_v1.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 5687
+  },
+  {
+    "path": "research/icegov/paper/AUTORESEARCH_EVAL_v2.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 4462
+  },
+  {
+    "path": "research/icegov/paper/AUTORESEARCH_EVAL_v3.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 5355
+  },
+  {
+    "path": "research/icegov/paper/CDGI_ARXIV_NAMED.pdf",
+    "kind": "paper",
+    "suffix": ".pdf",
+    "size": 455342
+  },
+  {
+    "path": "research/icegov/paper/CDGI_ARXIV_NAMED.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 43338
+  },
+  {
+    "path": "research/icegov/paper/CDGI_GIQ_ANONYMOUS.pdf",
+    "kind": "paper",
+    "suffix": ".pdf",
+    "size": 193410
+  },
+  {
+    "path": "research/icegov/paper/CDGI_GIQ_ANONYMOUS.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 41701
+  },
+  {
+    "path": "research/icegov/paper/CDGI_ICEGOV2026_Submission.pdf",
+    "kind": "paper",
+    "suffix": ".pdf",
+    "size": 465524
+  },
+  {
+    "path": "research/icegov/paper/CDGI_ICEGOV2026_Submission.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 43681
+  },
+  {
+    "path": "research/icegov/paper/CDGI_ICEGOV2026_Submission_package.zip",
+    "kind": "paper",
+    "suffix": ".zip",
+    "size": 432493
+  },
+  {
+    "path": "research/icegov/paper/GIQ_Author_Biography.txt",
+    "kind": "paper",
+    "suffix": ".txt",
+    "size": 361
+  },
+  {
+    "path": "research/icegov/paper/GIQ_Cover_Letter.pdf",
+    "kind": "paper",
+    "suffix": ".pdf",
+    "size": 47644
+  },
+  {
+    "path": "research/icegov/paper/GIQ_Cover_Letter.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 2069
+  },
+  {
+    "path": "research/icegov/paper/GIQ_Highlights.txt",
+    "kind": "paper",
+    "suffix": ".txt",
+    "size": 421
+  },
+  {
+    "path": "research/icegov/paper/GIQ_Submission_Drafts.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 3080
+  },
+  {
+    "path": "research/icegov/paper/GIQ_Title_Page.pdf",
+    "kind": "paper",
+    "suffix": ".pdf",
+    "size": 46361
+  },
+  {
+    "path": "research/icegov/paper/GIQ_Title_Page.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 1183
+  },
+  {
+    "path": "research/icegov/paper/OGI_ARXIV_NAMED.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 29578
+  },
+  {
+    "path": "research/icegov/paper/OGI_ICEGOV_SUBMISSION_v2.pdf",
+    "kind": "paper",
+    "suffix": ".pdf",
+    "size": 449991
+  },
+  {
+    "path": "research/icegov/paper/OGI_ICEGOV_SUBMISSION_v2.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 46006
+  },
+  {
+    "path": "research/icegov/paper/OGI_ICIS2026_DOUBLEBLIND.aux",
+    "kind": "paper",
+    "suffix": ".aux",
+    "size": 7785
+  },
+  {
+    "path": "research/icegov/paper/OGI_ICIS2026_DOUBLEBLIND.log",
+    "kind": "paper",
+    "suffix": ".log",
+    "size": 50424
+  },
+  {
+    "path": "research/icegov/paper/OGI_ICIS2026_DOUBLEBLIND.out",
+    "kind": "paper",
+    "suffix": ".out",
+    "size": 5776
+  },
+  {
+    "path": "research/icegov/paper/OGI_ICIS2026_DOUBLEBLIND.pdf",
+    "kind": "paper",
+    "suffix": ".pdf",
+    "size": 447345
+  },
+  {
+    "path": "research/icegov/paper/OGI_ICIS2026_DOUBLEBLIND.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 28556
+  },
+  {
+    "path": "research/icegov/paper/OGI_PAPER_DRAFT_v1.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 39808
+  },
+  {
+    "path": "research/icegov/paper/OGI_PAPER_DRAFT_v2.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 44970
+  },
+  {
+    "path": "research/icegov/paper/OGI_PAPER_DRAFT_v3.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 49499
+  },
+  {
+    "path": "research/icegov/paper/OGI_PAPER_DRAFT_v4.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 55928
+  },
+  {
+    "path": "research/icegov/paper/OGI_PAPER_DRAFT_v5.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 58122
+  },
+  {
+    "path": "research/icegov/paper/OGI_PAPER_DRAFT_v6.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 58693
+  },
+  {
+    "path": "research/icegov/paper/OGI_PAPER_DRAFT_v7.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 72189
+  },
+  {
+    "path": "research/icegov/paper/OGI_PAPER_DRAFT_v8.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 72189
+  },
+  {
+    "path": "research/icegov/paper/OGI_PAPER_SUBMISSION_CANONICAL.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 35354
+  },
+  {
+    "path": "research/icegov/paper/OGI_PAPER_SUBMISSION_CANONICAL.pdf",
+    "kind": "paper",
+    "suffix": ".pdf",
+    "size": 459166
+  },
+  {
+    "path": "research/icegov/paper/OGI_PAPER_SUBMISSION_CANONICAL.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 44970
+  },
+  {
+    "path": "research/icegov/paper/test_naira.pdf",
+    "kind": "paper",
+    "suffix": ".pdf",
+    "size": 11948
+  },
+  {
+    "path": "research/icegov/synthesis/AUTORESEARCH_SYNTHESIS.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 17458
+  },
+  {
+    "path": "research/icegov/synthesis/ICEGOV2026_NITDA_BLUEPRINT.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 8035
+  },
+  {
+    "path": "research/icegov/sources/cluster1_6_frameworks/MANIFEST.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 6041
+  },
+  {
+    "path": "research/icegov/sources/cluster2_3_nigeria_isusu/MANIFEST.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 6774
+  },
+  {
+    "path": "research/icegov/sources/cluster4_5_records_blockchain/MANIFEST.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 6849
+  },
+  {
+    "path": "research/icegov/sources/cluster7_crosscutting/MANIFEST.md",
+    "kind": "research",
+    "suffix": ".md",
+    "size": 7764
+  },
+  {
+    "path": "research/icegov/sources/data/citation_ledger.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 0
+  },
+  {
+    "path": "research/icegov/sources/data/indicator_catalog.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 0
+  },
+  {
+    "path": "research/icegov/sources/data/source_register.csv",
+    "kind": "research",
+    "suffix": ".csv",
+    "size": 0
+  },
+  {
+    "path": "research/icegov/sources/kb/56510.html",
+    "kind": "research",
+    "suffix": ".html",
+    "size": 67303
+  },
+  {
+    "path": "research/icegov/sources/kb/57284.html",
+    "kind": "research",
+    "suffix": ".html",
+    "size": 68872
+  },
+  {
+    "path": "research/icegov/sources/kb/62542.html",
+    "kind": "research",
+    "suffix": ".html",
+    "size": 74481
+  },
+  {
+    "path": "research/icegov/sources/kb/650x0m3.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 5162898
+  },
+  {
+    "path": "research/icegov/sources/kb/81684.html",
+    "kind": "research",
+    "suffix": ".html",
+    "size": 73819
+  },
+  {
+    "path": "research/icegov/sources/kb/FEMA_Continuity_Guidance_Circular_2018.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 2255258
+  },
+  {
+    "path": "research/icegov/sources/kb/ISO+15489-1-2016.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 426392
+  },
+  {
+    "path": "research/icegov/sources/kb/NIST.CSWP.29.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1518858
+  },
+  {
+    "path": "research/icegov/sources/kb/nistspecialpublication800-92.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1759842
+  },
+  {
+    "path": "research/icegov/sources/kb/Ref1135.html",
+    "kind": "research",
+    "suffix": ".html",
+    "size": 59237
+  },
+  {
+    "path": "research/icegov/sources/kb/rfc6962.html",
+    "kind": "research",
+    "suffix": ".html",
+    "size": 77512
+  },
+  {
+    "path": "research/icegov/sources/methods_docs/533411815016.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1808672
+  },
+  {
+    "path": "research/icegov/sources/methods_docs/9789264043466-en.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 3105577
+  },
+  {
+    "path": "research/icegov/sources/methods_docs/AB_R9.-Survey-Manual_eng_FINAL_20jul22.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1770677
+  },
+  {
+    "path": "research/icegov/sources/methods_docs/BG-4c-CGD_Framework-E.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 359156
+  },
+  {
+    "path": "research/icegov/sources/methods_docs/Community-Network-Readiness-Assessment-Handbook-EN.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1008005
+  },
+  {
+    "path": "research/icegov/sources/methods_docs/eaf-v2.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 181970
+  },
+  {
+    "path": "research/icegov/sources/methods_docs/financial-inclusion-nigeria-prospects.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 816878
+  },
+  {
+    "path": "research/icegov/sources/methods_docs/financial-inclusion-rural-women-nigeria.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 295041
+  },
+  {
+    "path": "research/icegov/sources/methods_docs/Index-Methodology-2025.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 4989216
+  },
+  {
+    "path": "research/icegov/sources/methods_docs/participatory-governance-scoping-review.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1189926
+  },
+  {
+    "path": "research/icegov/sources/methods_docs/public-value-management.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 6226586
+  },
+  {
+    "path": "research/icegov/sources/methods_docs/resource-good-governance-barometer.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 780464
+  },
+  {
+    "path": "research/icegov/sources/methods_docs/The Worldwide Governance Indicators 2025 Methodology Revision.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1779037
+  },
+  {
+    "path": "research/icegov/sources/methods_docs/Valuing What Counts - UN System-wide Contribution on Beyond GDP (advance unedited).pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1149024
+  },
+  {
+    "path": "research/icegov/sources/methods_docs/wgi-methodology-2024.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 2060647
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/1901.03544",
+    "kind": "research",
+    "suffix": ".03544",
+    "size": 46260
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/ai-boosted-qec-2025.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 889089
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/baker-video-world-models-2025.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 866863
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/bedard-ait-lecture-notes-2025.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 612234
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/bravyi-qec-low-overhead-2025.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1914691
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/casey-2024-cdd.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 921266
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/cobra-framework.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1074809
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/community-monitoring-uganda.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 2166062
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/digital-governance-nigeria-case-study.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1024291
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/digital-governance-public-service-delivery-nigeria.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 603821
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/digital-governance-west-africa-electoral.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 154818
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/digitalisation-ssa-governance.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 16646236
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/dpi-equitable-governance-nigeria.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 11310873
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/dpi-financial-inclusion-liberia.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 774527
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/dpi-standards-hourglass-model.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 807200
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/esusu-saving-scheme-traders.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 876657
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/gemici-generative-temporal-memory-2017.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 212798
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/google-quantum-supremacy-2019.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1495798
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/ha-schmidhuber-world-models-2018.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 3147467
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/hutter-aixi-introduction-2023.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1890877
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/impact-e-governance-nigeria-civil-service.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 709104
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/Impact-of-savings-group-on-the-lives-of-the-poor_Dean-et-al_February2017.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 611264
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/iwu-african-medicinal-plants-2014.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 4451064
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/j.giq.2006.06.005",
+    "kind": "research",
+    "suffix": ".005",
+    "size": 2787
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/kolmogorov-information-1965.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 598940
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/laird-clark-memory-world-models-2025.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 519948
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/OstromPolyGov.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1398436
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/participatory-local-governance-cdd.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 6323057
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/participatory-local-governance-sustainable-cdd.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 2150852
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/pastawski-holographic-qec-2015.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 4496178
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/preskill-nisq-2018.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 470175
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/sofowora-medicinal-plants-africa.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 59250
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/solomonoff-inductive-inference-pt1-1964.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 219388
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/solomonoff-inductive-inference-pt2-1964.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 211625
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/town-unions-nigeria.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 853515
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/validating-public-governance-quality-scale.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 402264
+  },
+  {
+    "path": "research/icegov/sources/papers_raw/wp30-cdd_0.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 2510652
+  },
+  {
+    "path": "research/icegov/sources/reports/2023-iiag-series-report.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1213491
+  },
+  {
+    "path": "research/icegov/sources/reports/2023-oecd-digital-government-index.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 2552175
+  },
+  {
+    "path": "research/icegov/sources/reports/2024-IIAG-methodology-sources-publications_EN.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 232505
+  },
+  {
+    "path": "research/icegov/sources/reports/b00142a4-en.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1502474
+  },
+  {
+    "path": "research/icegov/sources/reports/community-sustainable-development-economic-growth.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 497949
+  },
+  {
+    "path": "research/icegov/sources/reports/CommunityNetworkingAfrica_report_May2017_1.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 6272151
+  },
+  {
+    "path": "research/icegov/sources/reports/Digital-Savings-Group-pilot-report-April-2018.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1547403
+  },
+  {
+    "path": "research/icegov/sources/reports/e-governance-africa-2026-handbook.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 6736188
+  },
+  {
+    "path": "research/icegov/sources/reports/eca-wsis-20-review-2025.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 967840
+  },
+  {
+    "path": "research/icegov/sources/reports/eGovernment-Benchmark-2024-Insight-Report-compressed.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1939179
+  },
+  {
+    "path": "research/icegov/sources/reports/ff525dc8-en.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 3775702
+  },
+  {
+    "path": "research/icegov/sources/reports/huawei-gdii-2025.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 10477552
+  },
+  {
+    "path": "research/icegov/sources/reports/iipp-state-of-dpi-report-2025.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1346833
+  },
+  {
+    "path": "research/icegov/sources/reports/itu-egov-manual-2014.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1783504
+  },
+  {
+    "path": "research/icegov/sources/reports/JIU_REP_2013_2_English.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1387268
+  },
+  {
+    "path": "research/icegov/sources/reports/oecd-digital-government-index-2020.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 1502474
+  },
+  {
+    "path": "research/icegov/sources/reports/upgrading-indigenous-mfis-nigeria.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 316244
+  },
+  {
+    "path": "research/icegov/sources/reports/world-bank-govtech-maturity-index.pdf",
+    "kind": "research",
+    "suffix": ".pdf",
+    "size": 7831004
+  },
+  {
+    "path": "experiments/README.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 2965
+  },
+  {
+    "path": "experiments/01_bpe_igbo_k27/fetch_corpus.py",
+    "kind": "experiment",
+    "suffix": ".py",
+    "size": 9393
+  },
+  {
+    "path": "experiments/01_bpe_igbo_k27/train_bpe_sweep.py",
+    "kind": "experiment",
+    "suffix": ".py",
+    "size": 16117
+  },
+  {
+    "path": "experiments/05_sovereign_memory_rl/run_simulation.py",
+    "kind": "experiment",
+    "suffix": ".py",
+    "size": 6776
+  },
+  {
+    "path": "experiments/EXP-0001-pagc-base-inventory-resolution/analysis.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 1240
+  },
+  {
+    "path": "experiments/EXP-0001-pagc-base-inventory-resolution/baseline.json",
+    "kind": "experiment",
+    "suffix": ".json",
+    "size": 55
+  },
+  {
+    "path": "experiments/EXP-0001-pagc-base-inventory-resolution/commands.sh",
+    "kind": "experiment",
+    "suffix": ".sh",
+    "size": 253
+  },
+  {
+    "path": "experiments/EXP-0001-pagc-base-inventory-resolution/config.yaml",
+    "kind": "experiment",
+    "suffix": ".yaml",
+    "size": 111
+  },
+  {
+    "path": "experiments/EXP-0001-pagc-base-inventory-resolution/decision.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 467
+  },
+  {
+    "path": "experiments/EXP-0001-pagc-base-inventory-resolution/environment.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 225
+  },
+  {
+    "path": "experiments/EXP-0001-pagc-base-inventory-resolution/plan.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 1145
+  },
+  {
+    "path": "experiments/EXP-0001-pagc-base-inventory-resolution/results.json",
+    "kind": "experiment",
+    "suffix": ".json",
+    "size": 619
+  },
+  {
+    "path": "experiments/EXP-0002-icegov-evidence-gate-reconciliation/analysis.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 141
+  },
+  {
+    "path": "experiments/EXP-0002-icegov-evidence-gate-reconciliation/baseline.json",
+    "kind": "experiment",
+    "suffix": ".json",
+    "size": 55
+  },
+  {
+    "path": "experiments/EXP-0002-icegov-evidence-gate-reconciliation/commands.sh",
+    "kind": "experiment",
+    "suffix": ".sh",
+    "size": 78
+  },
+  {
+    "path": "experiments/EXP-0002-icegov-evidence-gate-reconciliation/config.yaml",
+    "kind": "experiment",
+    "suffix": ".yaml",
+    "size": 111
+  },
+  {
+    "path": "experiments/EXP-0002-icegov-evidence-gate-reconciliation/decision.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 112
+  },
+  {
+    "path": "experiments/EXP-0002-icegov-evidence-gate-reconciliation/environment.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 225
+  },
+  {
+    "path": "experiments/EXP-0002-icegov-evidence-gate-reconciliation/plan.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 1140
+  },
+  {
+    "path": "experiments/EXP-0002-icegov-evidence-gate-reconciliation/results.json",
+    "kind": "experiment",
+    "suffix": ".json",
+    "size": 594
+  },
+  {
+    "path": "experiments/EXP-0003-scaled-compression-falsification-for-k-27/analysis.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 345
+  },
+  {
+    "path": "experiments/EXP-0003-scaled-compression-falsification-for-k-27/baseline.json",
+    "kind": "experiment",
+    "suffix": ".json",
+    "size": 55
+  },
+  {
+    "path": "experiments/EXP-0003-scaled-compression-falsification-for-k-27/commands.sh",
+    "kind": "experiment",
+    "suffix": ".sh",
+    "size": 78
+  },
+  {
+    "path": "experiments/EXP-0003-scaled-compression-falsification-for-k-27/config.yaml",
+    "kind": "experiment",
+    "suffix": ".yaml",
+    "size": 189
+  },
+  {
+    "path": "experiments/EXP-0003-scaled-compression-falsification-for-k-27/decision.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 169
+  },
+  {
+    "path": "experiments/EXP-0003-scaled-compression-falsification-for-k-27/environment.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 225
+  },
+  {
+    "path": "experiments/EXP-0003-scaled-compression-falsification-for-k-27/plan.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 1225
+  },
+  {
+    "path": "experiments/EXP-0003-scaled-compression-falsification-for-k-27/results.json",
+    "kind": "experiment",
+    "suffix": ".json",
+    "size": 1410
+  },
+  {
+    "path": "experiments/EXP-0004-paper-reproducibility-arxiv-preflight/analysis.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 64
+  },
+  {
+    "path": "experiments/EXP-0004-paper-reproducibility-arxiv-preflight/commands.sh",
+    "kind": "experiment",
+    "suffix": ".sh",
+    "size": 71
+  },
+  {
+    "path": "experiments/EXP-0004-paper-reproducibility-arxiv-preflight/decision.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 77
+  },
+  {
+    "path": "experiments/EXP-0004-paper-reproducibility-arxiv-preflight/plan.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 68
+  },
+  {
+    "path": "experiments/EXP-0004-paper-reproducibility-arxiv-preflight/results.json",
+    "kind": "experiment",
+    "suffix": ".json",
+    "size": 360
+  },
+  {
+    "path": "experiments/EXP-0001-pagc-base-inventory-resolution/figures/azuonye_1992_page_15.png",
+    "kind": "experiment",
+    "suffix": ".png",
+    "size": 71324
+  },
+  {
+    "path": "experiments/EXP-0001-pagc-base-inventory-resolution/figures/azuonye_1992_page_16.png",
+    "kind": "experiment",
+    "suffix": ".png",
+    "size": 850246
+  },
+  {
+    "path": "experiments/EXP-0001-pagc-base-inventory-resolution/figures/azuonye_1992_page_17.png",
+    "kind": "experiment",
+    "suffix": ".png",
+    "size": 48562
+  },
+  {
+    "path": "experiments/EXP-0001-pagc-base-inventory-resolution/figures/azuonye_1992_page_18.png",
+    "kind": "experiment",
+    "suffix": ".png",
+    "size": 20246
+  },
+  {
+    "path": "experiments/EXP-0001-pagc-base-inventory-resolution/logs/azuonye_1992_pdftotext.txt",
+    "kind": "experiment",
+    "suffix": ".txt",
+    "size": 50045
+  },
+  {
+    "path": "experiments/05_sovereign_memory_rl/results/sovereign_memory_adaptation.png",
+    "kind": "experiment",
+    "suffix": ".png",
+    "size": 62818
+  },
+  {
+    "path": "experiments/01_bpe_igbo_k27/results/bpe_sweep_combined.png",
+    "kind": "experiment",
+    "suffix": ".png",
+    "size": 200591
+  },
+  {
+    "path": "experiments/01_bpe_igbo_k27/results/bpe_sweep_metrics.json",
+    "kind": "experiment",
+    "suffix": ".json",
+    "size": 15176
+  },
+  {
+    "path": "experiments/01_bpe_igbo_k27/results/report.md",
+    "kind": "experiment",
+    "suffix": ".md",
+    "size": 3751
+  },
+  {
+    "path": "paper/appendix.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 494
+  },
+  {
+    "path": "paper/arxiv_checklist.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 428
+  },
+  {
+    "path": "paper/arxiv_check_phase5.log",
+    "kind": "paper",
+    "suffix": ".log",
+    "size": 18
+  },
+  {
+    "path": "paper/arxiv_check_report.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 226
+  },
+  {
+    "path": "paper/arxiv_package.zip",
+    "kind": "paper",
+    "suffix": ".zip",
+    "size": 12127
+  },
+  {
+    "path": "paper/arxiv_preflight_report.json",
+    "kind": "paper",
+    "suffix": ".json",
+    "size": 161
+  },
+  {
+    "path": "paper/arxiv_submission_metadata.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 1937
+  },
+  {
+    "path": "paper/bibtex_phase5.log",
+    "kind": "paper",
+    "suffix": ".log",
+    "size": 581
+  },
+  {
+    "path": "paper/claim_audit.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 1515
+  },
+  {
+    "path": "paper/claim_gate.json",
+    "kind": "paper",
+    "suffix": ".json",
+    "size": 3039
+  },
+  {
+    "path": "paper/claim_gate.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 1515
+  },
+  {
+    "path": "paper/generate_paper_assets.log",
+    "kind": "paper",
+    "suffix": ".log",
+    "size": 24
+  },
+  {
+    "path": "paper/latexmk_phase5.log",
+    "kind": "paper",
+    "suffix": ".log",
+    "size": 513
+  },
+  {
+    "path": "paper/latex_compile_status.json",
+    "kind": "paper",
+    "suffix": ".json",
+    "size": 229
+  },
+  {
+    "path": "paper/main.aux",
+    "kind": "paper",
+    "suffix": ".aux",
+    "size": 3200
+  },
+  {
+    "path": "paper/main.bbl",
+    "kind": "paper",
+    "suffix": ".bbl",
+    "size": 4979
+  },
+  {
+    "path": "paper/main.blg",
+    "kind": "paper",
+    "suffix": ".blg",
+    "size": 1935
+  },
+  {
+    "path": "paper/main.log",
+    "kind": "paper",
+    "suffix": ".log",
+    "size": 53111
+  },
+  {
+    "path": "paper/main.out",
+    "kind": "paper",
+    "suffix": ".out",
+    "size": 1672
+  },
+  {
+    "path": "paper/main.pdf",
+    "kind": "paper",
+    "suffix": ".pdf",
+    "size": 320819
+  },
+  {
+    "path": "paper/main.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 1465
+  },
+  {
+    "path": "paper/novelty_audit.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 1101
+  },
+  {
+    "path": "paper/PAPER_THESIS_SELECTION.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 1204
+  },
+  {
+    "path": "paper/PAPER_TYPE_DECISION.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 606
+  },
+  {
+    "path": "paper/pdflatex_pass1_phase5.log",
+    "kind": "paper",
+    "suffix": ".log",
+    "size": 15952
+  },
+  {
+    "path": "paper/pdflatex_pass2_phase5.log",
+    "kind": "paper",
+    "suffix": ".log",
+    "size": 16372
+  },
+  {
+    "path": "paper/pdflatex_pass3_phase5.log",
+    "kind": "paper",
+    "suffix": ".log",
+    "size": 15174
+  },
+  {
+    "path": "paper/phase5_final_status.json",
+    "kind": "paper",
+    "suffix": ".json",
+    "size": 663
+  },
+  {
+    "path": "paper/references.bib",
+    "kind": "paper",
+    "suffix": ".bib",
+    "size": 2017
+  },
+  {
+    "path": "paper/reproducibility_checklist.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 420
+  },
+  {
+    "path": "paper/revision_log.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 328
+  },
+  {
+    "path": "paper/self_review.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 1394
+  },
+  {
+    "path": "paper/submission_readiness_decision.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 715
+  },
+  {
+    "path": "paper/validation_phase5.log",
+    "kind": "paper",
+    "suffix": ".log",
+    "size": 48
+  },
+  {
+    "path": "paper/venue_target.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 462
+  },
+  {
+    "path": "paper/arxiv_package/appendix.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 494
+  },
+  {
+    "path": "paper/arxiv_package/main.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 1465
+  },
+  {
+    "path": "paper/arxiv_package/README_ARXIV_PACKAGE.md",
+    "kind": "paper",
+    "suffix": ".md",
+    "size": 402
+  },
+  {
+    "path": "paper/arxiv_package/references.bib",
+    "kind": "paper",
+    "suffix": ".bib",
+    "size": 2017
+  },
+  {
+    "path": "paper/sections/00_abstract.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 995
+  },
+  {
+    "path": "paper/sections/01_introduction.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 1549
+  },
+  {
+    "path": "paper/sections/02_related_work.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 1479
+  },
+  {
+    "path": "paper/sections/03_problem_formulation.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 759
+  },
+  {
+    "path": "paper/sections/04_method.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 934
+  },
+  {
+    "path": "paper/sections/05_experiments.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 538
+  },
+  {
+    "path": "paper/sections/06_results.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 862
+  },
+  {
+    "path": "paper/sections/07_discussion.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 725
+  },
+  {
+    "path": "paper/sections/08_limitations_ethics.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 695
+  },
+  {
+    "path": "paper/sections/09_reproducibility.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 727
+  },
+  {
+    "path": "paper/sections/10_conclusion.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 433
+  },
+  {
+    "path": "paper/tables/inventory_observations.csv",
+    "kind": "paper",
+    "suffix": ".csv",
+    "size": 1475
+  },
+  {
+    "path": "paper/tables/table_claim_gate_summary.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 281
+  },
+  {
+    "path": "paper/tables/table_experiment_summary.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 1233
+  },
+  {
+    "path": "paper/tables/table_inventory.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 1319
+  },
+  {
+    "path": "paper/arxiv_package/sections/00_abstract.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 995
+  },
+  {
+    "path": "paper/arxiv_package/sections/01_introduction.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 1549
+  },
+  {
+    "path": "paper/arxiv_package/sections/02_related_work.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 1479
+  },
+  {
+    "path": "paper/arxiv_package/sections/03_problem_formulation.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 759
+  },
+  {
+    "path": "paper/arxiv_package/sections/04_method.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 934
+  },
+  {
+    "path": "paper/arxiv_package/sections/05_experiments.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 538
+  },
+  {
+    "path": "paper/arxiv_package/sections/06_results.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 862
+  },
+  {
+    "path": "paper/arxiv_package/sections/07_discussion.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 725
+  },
+  {
+    "path": "paper/arxiv_package/sections/08_limitations_ethics.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 695
+  },
+  {
+    "path": "paper/arxiv_package/sections/09_reproducibility.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 727
+  },
+  {
+    "path": "paper/arxiv_package/sections/10_conclusion.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 433
+  },
+  {
+    "path": "paper/arxiv_package/tables/inventory_observations.csv",
+    "kind": "paper",
+    "suffix": ".csv",
+    "size": 1475
+  },
+  {
+    "path": "paper/arxiv_package/tables/table_claim_gate_summary.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 281
+  },
+  {
+    "path": "paper/arxiv_package/tables/table_experiment_summary.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 1233
+  },
+  {
+    "path": "paper/arxiv_package/tables/table_inventory.tex",
+    "kind": "paper",
+    "suffix": ".tex",
+    "size": 1319
+  },
+  {
+    "path": "visual_atlas/artifact_map.html",
+    "kind": "atlas",
+    "suffix": ".html",
+    "size": 2141
+  },
+  {
+    "path": "visual_atlas/atlas.css",
+    "kind": "atlas",
+    "suffix": ".css",
+    "size": 2794
+  },
+  {
+    "path": "visual_atlas/claim_maturity.html",
+    "kind": "atlas",
+    "suffix": ".html",
+    "size": 2060
+  },
+  {
+    "path": "visual_atlas/index.html",
+    "kind": "atlas",
+    "suffix": ".html",
+    "size": 1612
+  },
+  {
+    "path": "visual_atlas/lab_dashboard.html",
+    "kind": "atlas",
+    "suffix": ".html",
+    "size": 2987
+  },
+  {
+    "path": "visual_atlas/lab_dashboard_data.json",
+    "kind": "atlas",
+    "suffix": ".json",
+    "size": 1399
+  },
+  {
+    "path": "visual_atlas/research_lattice.html",
+    "kind": "atlas",
+    "suffix": ".html",
+    "size": 3216
+  },
+  {
+    "path": "emitters/README.md",
+    "kind": "emitter",
+    "suffix": ".md",
+    "size": 291
+  },
+  {
+    "path": "emitters/atlases/README.md",
+    "kind": "emitter",
+    "suffix": ".md",
+    "size": 300
+  },
+  {
+    "path": "emitters/datasets/README.md",
+    "kind": "emitter",
+    "suffix": ".md",
+    "size": 291
+  },
+  {
+    "path": "emitters/negative_results/README.md",
+    "kind": "emitter",
+    "suffix": ".md",
+    "size": 302
+  },
+  {
+    "path": "emitters/papers/README.md",
+    "kind": "emitter",
+    "suffix": ".md",
+    "size": 292
+  },
+  {
+    "path": "emitters/policy_briefs/README.md",
+    "kind": "emitter",
+    "suffix": ".md",
+    "size": 318
+  },
+  {
+    "path": "emitters/software/README.md",
+    "kind": "emitter",
+    "suffix": ".md",
+    "size": 288
+  },
+  {
+    "path": "emitters/standards/README.md",
+    "kind": "emitter",
+    "suffix": ".md",
+    "size": 289
+  },
+  {
+    "path": "emitters/teaching_modules/README.md",
+    "kind": "emitter",
+    "suffix": ".md",
+    "size": 286
+  }
+]

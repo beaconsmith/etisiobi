@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence Certainty Record",
+  "type": "object",
+  "required": [
+    "claim_id",
+    "certainty_score",
+    "source_quality",
+    "directness",
+    "consistency",
+    "reproducibility",
+    "community_authority"
+  ]
+}

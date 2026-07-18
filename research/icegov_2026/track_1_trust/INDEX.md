@@ -1,0 +1,1 @@
+# Source Index: track_1_trust\n\nThis index catalogs all sources harvested during the research loop for this track.\n\n## Ranked Sources\n(See RESEARCH_LOG.md for full details)\n- T1-A\n- T1-B\n- T1-C\n- T1-D\n- T1-E\n- T1-F\n- T1-G\n- T1-H\n- T1-I\n- T1-J\n

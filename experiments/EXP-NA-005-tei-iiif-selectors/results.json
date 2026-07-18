@@ -1,0 +1,9 @@
+{
+  "experiment_id": "EXP-NA-005",
+  "generated_at": "2026-06-20T06:34:13+01:00",
+  "decision": "SELECTOR_LAYER_SAMPLE_CREATED_PIXEL_COORDINATES_BLOCKED",
+  "annotation_records": 10,
+  "tei_glyph_declarations": 10,
+  "records_with_pixel_coordinates": 0,
+  "article_implication": "Article 5 can report a standards mapping sample, but a critical edition still needs coordinate-level source annotation."
+}

@@ -1,0 +1,43 @@
+{
+  "checklist_id": "DATALAD-NO-CONVERSION-CHECKLIST-001",
+  "experiment_id": "EXP-FRONTIER-010",
+  "atlas_id": "ATLAS-0040",
+  "status": "not_ready_for_conversion",
+  "claim_ceiling": "reproducibility_planning_not_dataset_conversion",
+  "all_items_required_before_conversion": true,
+  "items": [
+    {
+      "item_id": "BOUNDARY_APPROVED",
+      "current_status": "not_satisfied",
+      "required_evidence": "passing dataset-boundary decision record with candidate and excluded files reviewed"
+    },
+    {
+      "item_id": "RIGHTS_AUTHORITY_REVIEWED",
+      "current_status": "not_satisfied",
+      "required_evidence": "rights and authority reviewer rows with no blocking issues"
+    },
+    {
+      "item_id": "RESTRICTED_EXCLUSION_VALIDATED",
+      "current_status": "not_satisfied",
+      "required_evidence": "validator output proving source images restricted manuscript material and private data are excluded"
+    },
+    {
+      "item_id": "ANNEX_POLICY_DEFINED",
+      "current_status": "not_satisfied",
+      "required_evidence": "reviewed policy for large-file annexing nested datasets and non-public material"
+    },
+    {
+      "item_id": "CONVERSION_APPROVED",
+      "current_status": "not_satisfied",
+      "required_evidence": "explicit user/lab approval naming the conversion scope and allowed commands"
+    }
+  ],
+  "forbidden_current_actions": [
+    "install dependencies",
+    "run DataLad commands",
+    "create a dataset",
+    "publish or push data",
+    "include restricted source material",
+    "claim release readiness"
+  ]
+}

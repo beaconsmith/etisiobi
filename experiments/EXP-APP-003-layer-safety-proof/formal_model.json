@@ -1,0 +1,101 @@
+{
+  "objects": {
+    "Token": [
+      "qualified_token_id",
+      "local_token_id",
+      "layer",
+      "base",
+      "modifier",
+      "provenance"
+    ],
+    "Layer": [
+      "source_observed",
+      "derived_fv_split",
+      "domain_mapped_from_pagc_count_layer",
+      "speculative",
+      "publishable_claim",
+      "blocked"
+    ],
+    "PromotionRule": [
+      "from",
+      "to",
+      "operation",
+      "requires"
+    ]
+  },
+  "invariant": "For every valid object o, if o.layer != source_observed then no valid operation maps o to source_observed.",
+  "promotion_rules": {
+    "layers": [
+      "source_observed",
+      "derived_fv_split",
+      "domain_mapped_from_pagc_count_layer",
+      "speculative",
+      "publishable_claim",
+      "blocked"
+    ],
+    "allowed_promotions": [
+      {
+        "from": "source_observed",
+        "to": "derived_fv_split",
+        "operation": "derive_fv_split",
+        "requires": [
+          "source_bmc_id",
+          "derived_rule"
+        ],
+        "note": "Creates derived design objects; does not alter source inventory."
+      },
+      {
+        "from": "source_observed",
+        "to": "domain_mapped_from_pagc_count_layer",
+        "operation": "map_to_domain_design",
+        "requires": [
+          "domain_mapping",
+          "falsification_criteria"
+        ],
+        "note": "Application design mapping, not source claim."
+      },
+      {
+        "from": "derived_fv_split",
+        "to": "domain_mapped_from_pagc_count_layer",
+        "operation": "map_derived_to_domain_design",
+        "requires": [
+          "derived_label",
+          "domain_mapping",
+          "falsification_criteria"
+        ],
+        "note": "Allowed for design exploration only."
+      },
+      {
+        "from": "domain_mapped_from_pagc_count_layer",
+        "to": "publishable_claim",
+        "operation": "human_reviewed_claim_promotion",
+        "requires": [
+          "evidence_locator",
+          "human_reviewer",
+          "scope_statement"
+        ],
+        "note": "Promotes a domain claim, never a source-observed count claim."
+      }
+    ],
+    "forbidden_promotions": [
+      {
+        "from": "derived_fv_split",
+        "to": "source_observed",
+        "operation": "*",
+        "reason": "Would collapse derived interpretation into source evidence."
+      },
+      {
+        "from": "domain_mapped_from_pagc_count_layer",
+        "to": "source_observed",
+        "operation": "*",
+        "reason": "Would treat application design as source inventory."
+      },
+      {
+        "from": "speculative",
+        "to": "source_observed",
+        "operation": "*",
+        "reason": "Would treat hypothesis as source evidence."
+      }
+    ]
+  }
+}

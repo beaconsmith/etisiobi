@@ -1,0 +1,9 @@
+{
+  "experiment_id": "EXP-0004",
+  "purpose": "Paper reproducibility and arXiv packaging preflight.",
+  "status": "completed",
+  "decision": "READY_FOR_HUMAN_ARXIV_REVIEW",
+  "result": "READY_FOR_HUMAN_ARXIV_REVIEW",
+  "effect_on_paper": "Determines whether the package can be handed to a human for arXiv review.",
+  "include_in_phase5_paper": true
+}

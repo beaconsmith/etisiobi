@@ -1,0 +1,50 @@
+{
+  "experiment_id": "EXP-FRONTIER-016",
+  "status": "SELECTED_SEED_ARTIFACTS_READY_INTERNAL_ONLY",
+  "decision": "create_bounded_artifacts_from_approved_seed_selection_without_maturity_claims",
+  "claim_ceiling": "selected_seed_artifacts_not_paper_candidates",
+  "source_intake_experiment_id": "EXP-FRONTIER-015",
+  "selected_seed_count": 12,
+  "artifact_count": 12,
+  "lab_execution_approval_recorded": true,
+  "approval_record": "approval_record.json",
+  "local_context": [
+    "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/manifest.json",
+    "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/research_seeds.csv",
+    "experiments/EXP-FRONTIER-015-hundred-paper-recovery-intake/sprint_selection.json",
+    "research/frontier/nwagu_aneke/FRONTIER_LAB_STATUS.json"
+  ],
+  "external_actions_taken": [],
+  "dependencies_installed": false,
+  "papers_generated": false,
+  "manuscripts_generated": false,
+  "publication_pdf_generated": false,
+  "private_data_downloaded": false,
+  "external_submission_made": false,
+  "rights_or_authority_cleared": false,
+  "human_reviewer_identity_recorded": false,
+  "public_release_claimed": false,
+  "blocked_promotions": [
+    "paper candidate claim",
+    "manuscript set claim",
+    "public release claim",
+    "rights or authority clearance claim",
+    "external submission",
+    "frontier novelty claim"
+  ],
+  "artifact_paths": [
+    "artifacts/NWR-001-source-acquisition-decision-note.md",
+    "artifacts/NWR-009-authority-role-map.md",
+    "artifacts/NWR-017-reader-response-protocol.md",
+    "artifacts/NWR-025-logograph-uncertainty-ledger.md",
+    "artifacts/NWR-033-unicode-gap-map.md",
+    "artifacts/NWR-041-modifier-operation-sketch.md",
+    "artifacts/NWR-049-lpe-label-quality-audit.md",
+    "artifacts/NWR-057-ro-crate-boundary-audit.md",
+    "artifacts/NWR-065-layered-explainer-storyboard.md",
+    "artifacts/NWR-073-layer-lineage-card.md",
+    "artifacts/NWR-081-cross-domain-transfer-grid.md",
+    "artifacts/NWR-089-portfolio-acceleration-dashboard-spec.md"
+  ],
+  "exact_next_action": "Promote the strongest bounded artifact into a branch-specific experiment packet while preserving evidence layer and claim ceiling."
+}

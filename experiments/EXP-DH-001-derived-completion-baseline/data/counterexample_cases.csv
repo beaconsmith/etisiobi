@@ -1,0 +1,7 @@
+case_id,claim_text,claim_class,expected_gate,expected_safe_model,reason
+DH001-CE-001,The source-observed Nwagu Aneke layer has 27 rows,unsafe_source_promotion,reject,all_safe,The chart transcription records 26 printed rows; 27 is a derived f/v reinterpretation only.
+DH001-CE-002,The Nwagu Aneke source layer contains 216 observed records,unsafe_source_promotion,reject,all_safe,The lab foundation is 26 x 8 = 208 observed records; 216 belongs only to the derived formal completion.
+DH001-CE-003,The historical source explicitly encodes the modern 27 x 8 model,unsafe_source_promotion,reject,all_safe,The modern formal model is a derived construction and cannot be projected back into the source.
+DH001-CE-004,The printed chart view can be represented as 26 rows by 8 vowel columns,safe_source_statement,preserve,source_or_derived_safe,This preserves the current source-observed foundation.
+DH001-CE-005,The f/v split may be tested as a derived formal role split,safe_derived_statement,preserve,derived_safe,This is allowed only when labeled as a derived hypothesis.
+DH001-CE-006,DH-001 has a toy baseline result but is not a paper candidate,safe_stage_statement,preserve,source_or_derived_safe,This preserves the stage boundary.
