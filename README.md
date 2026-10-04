@@ -19,7 +19,7 @@ The name **Etisiobi** means *the tree from my heart* in Igbo. The lab honours th
 
 Beaconsmith also teaches emerging technology in real settings. In August 2026, the Faculty of the Social Sciences, University of Nigeria, Nsukka, partnered with the Design Thinking Center and Beaconsmith on a two-day **Artificial Intelligence for Academia Productivity** workshop. Read the [publicly sourced engagement note](emitters/teaching_modules/unn-social-sciences-ai-workshop-2026.md). It records what has been reported and separates that history from unverified learning outcomes.
 
-**AI-FIT**, Beaconsmith's proposed AI Faculty Interactive Toolkit for a forthcoming Faculty of Health Sciences and Technology workshop, is currently a programme/product design direction. This repository does not present it as deployed software or a completed evaluation.
+**AI-FIT**, Beaconsmith's proposed AI Faculty Interactive Toolkit for a forthcoming Faculty of Health Sciences and Technology workshop, is [a planned programme](emitters/teaching_modules/unn-health-sciences-ai-fit-plan.md). This repository does not present it as deployed software or a completed evaluation.
 
 ## For different visitors
 
