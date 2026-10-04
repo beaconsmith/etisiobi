@@ -32,7 +32,7 @@ Beaconsmith also teaches emerging technology in real settings. In August 2026, t
 
 The repository contains working research, source dossiers, experiments and paper drafts at different stages of maturity. See the [cross-program atlas](wiki/index.md) for navigation and the relevant programme files for current state. Some historical documents contain old dates or readiness language; follow the dated evidence and review gates, not a filename or formatted PDF. Rights and community authority can limit public release even where source material is technically accessible.
 
-Etisiobi is the research twin of [Oroma](https://github.com/beaconsmith/oroma), a Beaconsmith product. Research and product decisions are connected through review, not automatic promotion.
+Etisiobi is the research twin of Oroma, a Beaconsmith product. Research and product decisions are connected through review, not automatic promotion.
 
 ---
 
