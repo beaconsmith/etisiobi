@@ -1,0 +1,29 @@
+name: Promotion graph falsification
+
+on:
+  pull_request:
+    paths:
+      - scripts/validate_promotion_graph.py
+      - scripts/prove_pagc_layer_safety.py
+      - tests/research/test_promotion_graph.py
+      - research/frontier/nwagu_aneke/results/EXP-APP-003-adversarial-proof-gate-audit.md
+      - .github/workflows/promotion-graph-falsification.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  prove-gate-reachability:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check committed promotion graph
+        run: python3 scripts/validate_promotion_graph.py
+      - name: Run falsification and regression tests
+        run: python3 -m unittest discover -s tests/research -p 'test_promotion_graph.py' -v
+      - name: Re-run EXP-APP-003 proof generator with integrated guard
+        run: |
+          python3 scripts/prove_pagc_layer_safety.py
+          python3 -c "import json; r=json.load(open('experiments/EXP-APP-003-layer-safety-proof/verification_report.json')); assert r['proof_passed'] and r['proof_checks']['allowed_graph_reachability']['valid']"

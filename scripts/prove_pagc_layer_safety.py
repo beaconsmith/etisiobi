@@ -5,6 +5,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from textwrap import dedent
 
+from validate_promotion_graph import verify_rules
+
 
 ROOT = Path(__file__).resolve().parents[1]
 EXP_DIR = ROOT / "experiments" / "EXP-APP-003-layer-safety-proof"
@@ -137,7 +139,9 @@ def main() -> None:
         ],
     }
 
+    graph_integrity = verify_rules(promotion_rules)
     proof_checks = {
+        "allowed_graph_reachability": graph_integrity,
         "unqualified_collision_count": len(collisions),
         "qualified_token_count": len(qualified),
         "qualified_unique_count": len(set(qualified_ids)),
@@ -163,6 +167,7 @@ def main() -> None:
         and proof_checks["domain_mapped_count"] == 48
         and proof_checks["forbidden_derived_to_source_rule_present"]
         and proof_checks["forbidden_domain_to_source_rule_present"]
+        and graph_integrity["valid"]
     )
     verification = {
         "experiment_id": "EXP-APP-003",
