@@ -5,6 +5,7 @@ on:
     paths:
       - scripts/nwagu_multivalence_probe.py
       - tests/research/test_nwagu_multivalence_probe.py
+      - tests/research/test_nwagu_fv_reconciliation.py
       - research/frontier/nwagu_aneke/source_reviews/ahamefula_2010_usem_v3_recovery.md
       - research/frontier/nwagu_aneke/results/EXP-NA-018-harmony-constrained-polyphony.md
       - .github/workflows/nwagu-multivalence-probe.yml
@@ -20,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run synthetic-only multivalence tests
-        run: python3 -m unittest discover -s tests/research -p 'test_nwagu_multivalence_probe.py' -v
+        run: python3 -m unittest discover -s tests/research -p 'test_nwagu_*.py' -v
       - name: Reject unprovided adjudicated data
         run: |
           if python3 scripts/nwagu_multivalence_probe.py >/tmp/without-evidence.out 2>&1; then
