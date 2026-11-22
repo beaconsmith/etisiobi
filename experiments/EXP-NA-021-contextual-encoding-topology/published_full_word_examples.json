@@ -24,5 +24,12 @@
     "ụzọ",
     "izu",
     "ana"
-  ]
+  ],
+  "author_reported_counts": {
+    "distinct_graphic_signs": 164,
+    "ideal_syllabic_coverage": 224,
+    "approximately_multi_reading_signs": 30,
+    "syllables_with_two_graphic_signs": 10
+  },
+  "author_reported_counts_status": "author_reported_not_independently_recounted_not_directly_comparable_to_208_grid_slots"
 }
