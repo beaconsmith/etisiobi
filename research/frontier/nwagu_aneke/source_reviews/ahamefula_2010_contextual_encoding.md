@@ -88,8 +88,8 @@ This is a **catalogue holding lead**, not confirmation that an accessible scan o
 
 **Do not advance:** glyph corpus completion, 208 unique historical signs, full 164/224 reconciliation, source-authorized logograph selection mechanism, or a paper-quality computational result.
 
-## 2026-11-22 follow-up qualification (EXP-NA-022)
+## 2026-11-22 follow-up qualification (EXP-NA-023)
 
-Independent inspection of the reproduced chart in the 2010 PDF (Appendix II, PDF page index 42) raises a **transcription conflict**: its second full-word label appears as `nche`, whereas this repo's unreviewed chart transcription and the paper's own prose give `uche`. The **29/30 vowel-initial** observation above remains accurate *for the existing repo labels*, but would become **28/30** if the chart-image reading were independently confirmed. No canonical transcription has been changed; this remains a human-adjudication item. See `experiments/EXP-NA-022-lossy-channel/FINDING.md`.
+Independent inspection of the reproduced chart in the 2010 PDF (Appendix II, PDF page index 42) raises a **transcription conflict**: its second full-word label appears as `nche`, whereas this repo's unreviewed chart transcription and the paper's own prose give `uche`. The **29/30 vowel-initial** observation above remains accurate *for the existing repo labels*, but would become **28/30** if the chart-image reading were independently confirmed. No canonical transcription has been changed; this remains a human-adjudication item. See `experiments/EXP-NA-023-lossy-channel/FINDING.md`.
 
 The 2010 prose and Azuonye (1992) also give short examples of vowel omission, syllabic-nasal omission, and assimilation, supporting an exploratory **lossy-channel** description, but **not** a measured manuscript decoding result or observed entropy reduction.
