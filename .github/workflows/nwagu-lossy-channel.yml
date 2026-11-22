@@ -5,7 +5,7 @@ on:
     paths:
       - scripts/audit_nwagu_lossy_channel.py
       - tests/research/test_nwagu_lossy_channel.py
-      - experiments/EXP-NA-022-lossy-channel/**
+      - experiments/EXP-NA-023-lossy-channel/**
       - research/frontier/nwagu_aneke/source_reviews/ahamefula_2010_contextual_encoding.md
       - .github/workflows/nwagu-lossy-channel.yml
   workflow_dispatch:
