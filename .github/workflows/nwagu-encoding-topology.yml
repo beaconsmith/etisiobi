@@ -1,0 +1,26 @@
+name: Nwagụ Aneke encoding topology audit
+
+on:
+  pull_request:
+    paths:
+      - scripts/audit_nwagu_encoding_topology.py
+      - tests/research/test_nwagu_encoding_topology.py
+      - experiments/EXP-NA-021-contextual-encoding-topology/**
+      - research/frontier/nwagu_aneke/source_reviews/ahamefula_2010_contextual_encoding.md
+      - research/frontier/nwagu_aneke/source_reviews/SOURCE_ACQUISITION_LEADS.md
+      - .github/workflows/nwagu-encoding-topology.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  encoding-topology:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify source chart slots versus glyph evidence and onset patterns
+        run: python3 scripts/audit_nwagu_encoding_topology.py
+      - name: Run negative and baseline checks
+        run: python3 -m unittest discover -s tests/research -p 'test_nwagu_encoding_topology.py' -v
