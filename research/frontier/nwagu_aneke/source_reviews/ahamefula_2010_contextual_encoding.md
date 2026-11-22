@@ -52,6 +52,12 @@ The 2010 paper describes a different mathematical object: a **many-to-many bipar
 
 Consequently, **208 - 164 = 44 is not evidence of 44 missing characters**. The two numbers describe different things, from different studies, with unverified reconciliation. A subtraction alone is not a glyph-census method.
 
+## Complementary, narrower test: phonologically structured polyphony
+
+The 2010 article also reports that multivalent signs often encode syllables within the same vowel-harmony group. A separate test is now preregistered in `research/frontier/nwagu_aneke/results/EXP-NA-022-harmony-constrained-polyphony.md`. Its `scripts/nwagu_multivalence_probe.py` requires **human-adjudicated sign↔reading edges with source locators** and compares the within-sign same-harmony pair rate against a degree-preserving class-permutation null; no authentic edges are claimed or supplied yet.
+
+In the repository's own analytic f/v split, **eight combined f/v chart positions become sixteen derived reading records**, sharing eight source-parent IDs. The extra eight records are analytical **reading distinctions, not demonstrated additional historical graphic signs**. This is checked by `tests/research/test_nwagu_fv_reconciliation.py`.
+
 ## Testable lead: vowel-initial full-word signs
 
 Etisiobi's existing, unreviewed chart transcription lists 30 full-word labels; **29 begin with a vowel**, with `nga` the only exception. This is a reproducible property of that **transcription**, not a confirmed property of all historical logographs.
