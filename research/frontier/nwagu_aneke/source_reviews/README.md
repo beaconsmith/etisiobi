@@ -20,6 +20,7 @@ claims.
 
 | Packet | Status | Purpose |
 |---|---|---|
+| `ahamefula_2010_usem_v3_recovery.md` | external source reviewed; repertoire remains unverified | Verified a distinct 2010 sole-authored study reporting polyphonic signs, allographs, and a published manuscript/transcription/translation sample. Separates 208 chart positions from sign-count estimates and preregisters a vowel-harmony test. |
 | `azuonye_1992_appendix_ii_recovery.md` | blocked_not_recovered | Records the Appendix II recovery audit for Azuonye 1992 and separates the Appendix I count evidence from the missing alphabetical character-list evidence. |
 | `SOURCE_ACQUISITION_LEADS.md` | active_internal | Organizes source-acquisition targets for Appendix II, the Nwagu Aneke Research Project Proposal, Donatus Nwoga materials, and Ahamefula/Mbah repertoire evidence. |
 | `request_drafts/scholarworks_appendix_ii_request.md` | draft_not_sent | Human-reviewable request draft for checking whether the ScholarWorks deposit has a complete Appendix II or supplementary file. |
