@@ -1,4 +1,4 @@
-"""EXP-NA-022: source-grounded ambiguity & transcription sensitivity audit.
+"""EXP-NA-023: source-grounded ambiguity & transcription sensitivity audit.
 
 NOT a transliterator, corpus frequency estimator, OCR, or manuscript decoder.
 Read-only, Python stdlib; prints an inspectable synthetic-prior sensitivity
@@ -13,7 +13,7 @@ from pathlib import Path
 import unicodedata
 
 ROOT = Path(__file__).resolve().parents[1]
-MICRO = ROOT / "experiments/EXP-NA-022-lossy-channel/attested_microexamples.json"
+MICRO = ROOT / "experiments/EXP-NA-023-lossy-channel/attested_microexamples.json"
 LOGOS = ROOT / "experiments/EXP-NA-004-logograph-ledger/data/logograph_leads.jsonl"
 VOWELS = frozenset("aeiouịọụẹ")
 
