@@ -59,6 +59,14 @@ The **224** quantity concerns an idealized broader CV inventory, and should neve
 
 **Do not compute `208 - 164 = 44 missing signs`, claim 44 distinct glyph collisions, or derive exact compression ratios.** Those calculations silently assume comparable, complete, independently verified inventories. We do not possess that evidence.
 
+## New archival route to the underlying project proposal (catalogue verified, item not read)
+
+The Smithsonian Libraries and Archives catalogue lists *The Nwagu Aneke Research Project proposal* (University of Nigeria, undated circa 1983–89), 11 illustrated pages, **African Art** collection, **PL8021.N5 N93 1983 quarto**, barcode **39088008864084**, OCLC **40642457**. The catalogue notes a two-page Azuonye letter inserted in this copy. Its historical physical contents were **not** inspected in this review.
+
+Catalogue record: https://siris-libraries.si.edu/ipac20/ipac.jsp?booklistformat=&profile=liball&session=DC6205453H395.776069&uri=full%3D3100001~%21553317~%210
+
+This is an actionable possible route to the proposal page 5 chart and page 9 sample cited in Azuonye and Ahamefula. The Smithsonian item is *not* evidence that the missing **1991 Donatus Nwoga alphabetical list** is included. Confirm holding and permissions through the [African Art library](https://library.si.edu/libraries/african-art) or [Smithsonian access guidance](https://library.si.edu/departments/special-collections/accessing) before seeking reproduction. See `SOURCE_ACQUISITION_LEADS.md` / `LEAD-SI-001`.
+
 ## What this changes scientifically
 
 A one-to-one mapping `CV_cell ↔ unique_glyph` is **not currently justified**. The independently reported polyphonic and allographic properties call for an ambiguity-preserving relation, conceptually:
