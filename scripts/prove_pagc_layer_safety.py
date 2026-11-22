@@ -6,6 +6,7 @@ from pathlib import Path
 from textwrap import dedent
 
 from validate_promotion_graph import verify_rules
+from validate_pagc_token_lineage import validate_lineage
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -58,6 +59,7 @@ def main() -> None:
     source = read_jsonl(ROOT / "experiments" / "EXP-APP-001-count-layer-design-grammar" / "tokens_source_layer.jsonl")
     derived = read_jsonl(ROOT / "experiments" / "EXP-APP-001-count-layer-design-grammar" / "tokens_derived_layer.jsonl")
     governance = read_jsonl(ROOT / "experiments" / "EXP-APP-002-governance-state-grammar" / "governance_state_tokens.jsonl")
+    lineage_integrity = validate_lineage(source, derived, governance)
     all_unqualified = source + derived + governance
 
     by_local: dict[str, list[dict]] = {}
@@ -142,6 +144,7 @@ def main() -> None:
     graph_integrity = verify_rules(promotion_rules)
     proof_checks = {
         "allowed_graph_reachability": graph_integrity,
+        "input_token_lineage": lineage_integrity,
         "unqualified_collision_count": len(collisions),
         "qualified_token_count": len(qualified),
         "qualified_unique_count": len(set(qualified_ids)),
@@ -168,6 +171,7 @@ def main() -> None:
         and proof_checks["forbidden_derived_to_source_rule_present"]
         and proof_checks["forbidden_domain_to_source_rule_present"]
         and graph_integrity["valid"]
+        and lineage_integrity["valid"]
     )
     verification = {
         "experiment_id": "EXP-APP-003",
