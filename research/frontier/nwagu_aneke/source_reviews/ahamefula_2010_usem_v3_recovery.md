@@ -47,6 +47,14 @@ The **27 × 8 = 216** data structure is an analytical f/v-split representation, 
 
 The **up-to-164** quantity is a published estimate of **graphic signs** from a different analytical scope; its exact comparability to the chart is **unknown** until sign identity is reviewed.
 
+### A precise f/v implication, verified in Etisiobi's own derived ledger
+
+The local EXP-APP-001 source data contains **eight** combined `f/v` positions (one per vowel column). Its derived data expands each to `-f` and `-v` reading objects, **16 variant records replacing eight source positions**, while preserving the same `source_bmc_id` parent in each pair. None has a reviewed source `glyph_id`.
+
+The 2010 author (journal p. 39) explicitly describes shared signs for /f/ and /v/ syllables. Therefore the derived 216-record layer's additional eight distinctions are **analytical readings/objects, not demonstrated additional historical graphic signs**. A Unicode or transliteration system must not treat `-f` and `-v` as distinct characters merely because their derived record IDs differ.
+
+This is a bounded reconciliation of **source position → possible readings**, not a claim that the exact underlying glyph has already been independently identified for each cell.
+
 The **224** quantity concerns an idealized broader CV inventory, and should never be treated as a corpus count.
 
 **Do not compute `208 - 164 = 44 missing signs`, claim 44 distinct glyph collisions, or derive exact compression ratios.** Those calculations silently assume comparable, complete, independently verified inventories. We do not possess that evidence.
