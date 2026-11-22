@@ -1,0 +1,22 @@
+name: Research-to-product feedback source guard
+
+on:
+  pull_request:
+    paths:
+      - spine/research_feedback.py
+      - tests/research/test_research_feedback_source_guard.py
+      - research/product_feedback/README.md
+      - .github/workflows/research-feedback-source-guard.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-feedback-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate source/freshness guards for Oroma feedback reports
+        run: python3 -m unittest discover -s tests/research -p 'test_research_feedback_source_guard.py' -v

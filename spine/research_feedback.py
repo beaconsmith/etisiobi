@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import os
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -69,6 +70,35 @@ def count_files(root: Path, patterns: list[str]) -> int:
     return total
 
 
+def require_product_source(oroma: Path) -> None:
+    """Fail closed before emitting any reports from a missing/obsolete layout."""
+    required = [
+        oroma / "AGENTS.md",
+        oroma / "package.json",
+        oroma / "apps" / "agents-api" / "src" / "routes",
+        oroma / "packages" / "db" / "src" / "schema",
+    ]
+    frontends = [
+        oroma / "frontend" / "app",
+        oroma / "apps" / "oroma-experience" / "src" / "surfaces",
+        oroma / "apps" / "oroma-refined" / "src" / "surfaces",
+    ]
+    missing = [str(path.relative_to(oroma)) for path in required if not path.exists()]
+    if not any(path.is_dir() for path in frontends):
+        missing.append("supported frontend surface (frontend/app or apps/oroma-{experience,refined}/src/surfaces)")
+    if missing:
+        raise ValueError(f"Not a supported Oroma product checkout at {oroma}: missing " + ", ".join(missing))
+
+
+def frontend_surface_count(oroma: Path) -> int:
+    """Count page files (legacy Next.js) and surface TSX files (current Vite apps)."""
+    return (
+        count_files(oroma / "frontend" / "app", ["page.tsx", "layout.tsx"])
+        + count_files(oroma / "apps" / "oroma-experience" / "src" / "surfaces", ["*.tsx"])
+        + count_files(oroma / "apps" / "oroma-refined" / "src" / "surfaces", ["*.tsx"])
+    )
+
+
 def md_table(findings: list[Finding]) -> str:
     rows = [
         "| Claim | Evidence | Affected files/routes | Severity | Proposed fix | Acceptance test |",
@@ -120,7 +150,7 @@ def build_findings(oroma: Path) -> dict[str, list[Finding]]:
     research_advisory = read_text(oroma / "RESEARCH_ADVISORY.md")
     agents = read_text(oroma / "AGENTS.md")
 
-    app_pages = count_files(oroma / "frontend" / "app", ["page.tsx", "layout.tsx"])
+    app_pages = frontend_surface_count(oroma)
     service_tests = count_files(oroma, ["*.test.ts", "*.spec.ts"])
     route_files = count_files(oroma / "apps" / "agents-api" / "src" / "routes", ["*.ts"])
     schema_files = count_files(oroma / "packages" / "db" / "src" / "schema", ["*.ts"])
@@ -148,23 +178,25 @@ def build_findings(oroma: Path) -> dict[str, list[Finding]]:
 
     engineering = [
         Finding(
-            "Backend truth is stronger than before but still not institution-grade.",
-            "Backend assessment reports institutional-readiness score 1/5 and fakeability risk critical."
+            "Historical backend assessment needs current verification."
             if "institutional-readiness score" in backend
-            else "Backend assessment not found or missing institutional-readiness verdict.",
+            else "Backend readiness is not established by this repository scan.",
+            "A legacy assessment includes an institutional-readiness verdict; confirm it against current code and tests."
+            if "institutional-readiness score" in backend
+            else "OROMA_BACKEND_ASSESSMENT.md is missing or contains no qualifying readiness verdict; no current score is inferred.",
             "apps/agents-api, packages/services, packages/db, contracts",
-            "CRITICAL",
-            "Treat identity binding, dispute authority, credential evidence, and ICEGOV lineage as blockers before pilot claims.",
+            "HIGH" if "institutional-readiness score" in backend else "REVIEW",
+            "Test identity binding, dispute authority, credential evidence, and indicator lineage against current code before assigning a severity.",
             "Negative tests reject spoofed actor refs, fake wallet ownership, unsupported dispute closure, and unsupported credential issuance.",
         ),
         Finding(
-            "Research indicators need enforced lineage, not UI labels.",
-            "Research advisory lists DRL-01, CPS-01, TTI-01, and FID-01 implementation gaps."
+            "Verify indicator lineage against current code rather than inferring it from old advice.",
+            "A research advisory mentions DRL-01 and related indicators; confirm their implementation status in the current checkout."
             if "DRL-01" in research_advisory
-            else "Research advisory not found or missing indicator gap list.",
+            else "No current RESEARCH_ADVISORY.md with DRL-01 was found; indicator implementation gaps are unverified.",
             "contracts, services, frontend onboarding, records",
-            "HIGH",
-            "Map every research indicator to a schema field, service invariant, event, and frontend capture point.",
+            "HIGH" if "DRL-01" in research_advisory else "REVIEW",
+            "Map research indicators to current schema fields, service invariants, events and capture points; collect test evidence.",
             "Extractor can compute each indicator from stored events without reading prose or mock data.",
         ),
     ]
@@ -182,7 +214,7 @@ def build_findings(oroma: Path) -> dict[str, list[Finding]]:
         ),
         Finding(
             "UI coverage must include mobile and desktop screenshot gates.",
-            f"Frontend app has approximately {app_pages} page/layout files; generated QA screenshots exist but need report linkage.",
+            f"Observed {app_pages} frontend page/surface TSX files in supported app locations. This is a file count, not screenshot or usability evidence.",
             "frontend/e2e, frontend/.qa-* artifacts",
             "MEDIUM",
             "Standardize screenshot QA report generation for 1440, 1024, 768, and 390 widths.",
@@ -241,12 +273,17 @@ def build_findings(oroma: Path) -> dict[str, list[Finding]]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate Oroma research feedback reports.")
-    parser.add_argument("--oroma", default="../oroma", help="Path to the Oroma repo.")
+    parser.add_argument("--oroma", default="../oroma-product", help="Path to active Oroma product repo (default ../oroma-product).")
     parser.add_argument("--out", default=None, help="Output directory. Defaults to research/product_feedback/YYYY-MM-DD.")
     args = parser.parse_args()
 
     repo_root = Path(__file__).resolve().parents[1]
     oroma = (repo_root / args.oroma).resolve()
+    try:
+        require_product_source(oroma)
+    except ValueError as exc:
+        print(f"Research feedback aborted: {exc}", file=sys.stderr)
+        return 2
     out = Path(args.out) if args.out else repo_root / "research" / "product_feedback" / dt.date.today().isoformat()
     out.mkdir(parents=True, exist_ok=True)
 
