@@ -1,0 +1,25 @@
+name: Nwagu lossy-channel source checks
+
+on:
+  pull_request:
+    paths:
+      - scripts/audit_nwagu_lossy_channel.py
+      - tests/research/test_nwagu_lossy_channel.py
+      - experiments/EXP-NA-022-lossy-channel/**
+      - research/frontier/nwagu_aneke/source_reviews/ahamefula_2010_contextual_encoding.md
+      - .github/workflows/nwagu-lossy-channel.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  literature-ambiguity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Audit literature-derived ambiguity without inferred corpus frequencies
+        run: python3 scripts/audit_nwagu_lossy_channel.py
+      - name: Run adversarial guards and source label sensitivity tests
+        run: python3 -m unittest discover -s tests/research -p 'test_nwagu_lossy_channel.py' -v
