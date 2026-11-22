@@ -1,0 +1,29 @@
+name: Nwagu multivalence source-recovery probe
+
+on:
+  pull_request:
+    paths:
+      - scripts/nwagu_multivalence_probe.py
+      - tests/research/test_nwagu_multivalence_probe.py
+      - research/frontier/nwagu_aneke/source_reviews/ahamefula_2010_usem_v3_recovery.md
+      - research/frontier/nwagu_aneke/results/EXP-NA-018-harmony-constrained-polyphony.md
+      - .github/workflows/nwagu-multivalence-probe.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe-boundaries:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run synthetic-only multivalence tests
+        run: python3 -m unittest discover -s tests/research -p 'test_nwagu_multivalence_probe.py' -v
+      - name: Reject unprovided adjudicated data
+        run: |
+          if python3 scripts/nwagu_multivalence_probe.py >/tmp/without-evidence.out 2>&1; then
+            echo "Probe unexpectedly ran without reviewed glyph mappings" >&2
+            exit 1
+          fi
