@@ -1,0 +1,25 @@
+name: Decision tripwire tests
+
+on:
+  pull_request:
+    paths:
+      - scripts/decision_tripwire.py
+      - tests/research/test_decision_tripwire.py
+      - decisions/TRIPWIRE.md
+      - skills/conceptual-reconstruction.md
+      - .github/workflows/decision-tripwire.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  decision-tripwire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run focused decision tripwire tests
+        run: python3 -m unittest discover -s tests/research -p 'test_decision_tripwire.py' -v
+      - name: Audit current decision ledger without modifications
+        run: python3 scripts/decision_tripwire.py --changed corpus/bmc_count_reconciliation.json > /tmp/etisiobi-tripwire-report.json
